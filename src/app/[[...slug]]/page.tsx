@@ -1,7 +1,16 @@
-'use client';
+import ClientAppWrapper from './ClientAppWrapper';
 
-import App from '../App';
+export function generateStaticParams() {
+  return [
+    { slug: [] },
+    { slug: ['work-visa'] },
+    { slug: ['europe-work-permit'] },
+    { slug: ['privacy-policy'] },
+    { slug: ['terms-conditions'] },
+    { slug: ['disclaimer'] },
+  ];
+}
 
 export default function CatchAllPage() {
-  return <App />;
+  return <ClientAppWrapper />;
 }
