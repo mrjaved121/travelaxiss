@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { ROUTES } from '@/app/config';
 import { Button } from './ui/button';
 
 export function Header() {
@@ -11,11 +11,11 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <a href={ROUTES.home} className="flex items-center">
             <h1 className="text-2xl font-bold">
               Visa<span className="text-amber-500">Hub</span>
             </h1>
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
@@ -25,18 +25,18 @@ export function Header() {
             >
               Services
             </a>
-            <Link
-              to="/europe-work-permit"
+            <a
+              href={ROUTES.workPermit}
               className="text-slate-700 hover:text-amber-600 transition-colors"
             >
               Work Permit
-            </Link>
-            <Link
-              to="/work-visa"
+            </a>
+            <a
+              href={ROUTES.workVisa}
               className="text-slate-700 hover:text-amber-600 transition-colors"
             >
               Work Visa
-            </Link>
+            </a>
             <a
               href="#contact-form"
             >
@@ -71,12 +71,12 @@ export function Header() {
               >
                 Services
               </a>
-              <Link to="/europe-work-permit" className="text-slate-700" onClick={() => setIsMenuOpen(false)}>
+              <a href={ROUTES.workPermit} className="text-slate-700" onClick={() => setIsMenuOpen(false)}>
                 Work Permit
-              </Link>
-              <Link to="/work-visa" className="text-slate-700" onClick={() => setIsMenuOpen(false)}>
+              </a>
+              <a href={ROUTES.workVisa} className="text-slate-700" onClick={() => setIsMenuOpen(false)}>
                 Work Visa
-              </Link>
+              </a>
               <a
                 href="#contact-form"
                 onClick={(e) => {

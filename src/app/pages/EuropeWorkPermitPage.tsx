@@ -21,8 +21,8 @@ import {
   Calendar,
   AlertCircle
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { ROUTES } from '../config';
 
 export default function EuropeWorkPermitPage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
@@ -238,19 +238,19 @@ export default function EuropeWorkPermitPage() {
       <header className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 text-white py-4 sticky top-0 z-50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <Link to="/" className="flex items-center gap-2">
+            <a href={ROUTES.home} className="flex items-center gap-2">
               <Globe className="h-8 w-8 text-amber-500" />
               <h1 className="text-2xl font-bold">
                 Travel<span className="text-amber-500">Axis</span>
               </h1>
-            </Link>
+            </a>
             <nav className="hidden md:flex items-center gap-6">
               <a href="#services" className="text-slate-300 hover:text-amber-400 transition-colors">
                 Services
               </a>
-              <Link to="/work-visa" className="text-slate-300 hover:text-amber-400 transition-colors">
+              <a href={ROUTES.workVisa} className="text-slate-300 hover:text-amber-400 transition-colors">
                 Work Visa
-              </Link>
+              </a>
               <Button
                 onClick={() => openWhatsApp()}
                 className="bg-green-600 hover:bg-green-700 text-white"
@@ -875,19 +875,19 @@ export default function EuropeWorkPermitPage() {
               <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link to="/" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.home} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/work-visa" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.workVisa} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Work Visa
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/privacy-policy" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.privacyPolicy} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Privacy Policy
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

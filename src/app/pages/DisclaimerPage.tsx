@@ -1,7 +1,7 @@
 import { Card, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import { ArrowLeft, AlertTriangle, FileX, CreditCard, Clock } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { ROUTES } from '../config';
 
 export default function DisclaimerPage() {
   return (
@@ -9,10 +9,10 @@ export default function DisclaimerPage() {
       {/* Header */}
       <header className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link to="/" className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 mb-6 transition-colors">
+          <a href={ROUTES.home} className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 mb-6 transition-colors">
             <ArrowLeft className="w-5 h-5" />
             <span>Back to Home</span>
-          </Link>
+          </a>
           <div className="flex items-center gap-4 mb-4">
             <AlertTriangle className="w-12 h-12 text-amber-500" />
             <h1 className="text-4xl md:text-5xl font-bold">
@@ -386,12 +386,12 @@ export default function DisclaimerPage() {
 
         {/* Back Button */}
         <div className="text-center">
-          <Link to="/">
+          <a href={ROUTES.home}>
             <Button className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white">
               <ArrowLeft className="mr-2 h-5 w-5" />
               Back to Homepage
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

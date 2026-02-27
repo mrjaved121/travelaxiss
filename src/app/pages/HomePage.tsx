@@ -21,8 +21,8 @@ import {
   FileCheck,
   Building2
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { ROUTES } from '../config';
 
 export default function HomePage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
@@ -230,12 +230,12 @@ export default function HomePage() {
               <a href="#services" className="text-slate-300 hover:text-amber-400 transition-colors">
                 Services
               </a>
-              <Link to="/europe-work-permit" className="text-slate-300 hover:text-amber-400 transition-colors">
+              <a href={ROUTES.workPermit} className="text-slate-300 hover:text-amber-400 transition-colors">
                 Work Permit
-              </Link>
-              <Link to="/work-visa" className="text-slate-300 hover:text-amber-400 transition-colors">
+              </a>
+              <a href={ROUTES.workVisa} className="text-slate-300 hover:text-amber-400 transition-colors">
                 Work Visa
-              </Link>
+              </a>
               <Button
                 onClick={() => openWhatsApp()}
                 className="bg-green-600 hover:bg-green-700 text-white"
@@ -245,11 +245,11 @@ export default function HomePage() {
               </Button>
             </nav>
             <div className="flex md:hidden gap-3">
-              <Link to="/work-visa">
+              <a href={ROUTES.workVisa}>
                 <Button size="sm" className="bg-amber-500 hover:bg-amber-600 text-white">
                   اردو
                 </Button>
-              </Link>
+              </a>
               <Button
                 size="sm"
                 onClick={() => openWhatsApp()}
@@ -671,24 +671,24 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/work-visa" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.workVisa} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Work Visa (Urdu)
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/privacy-policy" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.privacyPolicy} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Privacy Policy
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/terms-conditions" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.termsConditions} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Terms & Conditions
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/disclaimer" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  <a href={ROUTES.disclaimer} className="text-slate-400 hover:text-amber-400 transition-colors">
                     Disclaimer
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

@@ -23,7 +23,7 @@ import {
   Globe
 } from 'lucide-react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { ROUTES } from '../config';
 
 export default function WorkVisaPage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
@@ -184,18 +184,18 @@ export default function WorkVisaPage() {
       <header className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 text-white py-4 sticky top-0 z-50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <a href={ROUTES.home} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Globe className="h-8 w-8 text-amber-500" />
               <h1 className="text-2xl font-bold">
                 Travel<span className="text-amber-500">Axis</span>
               </h1>
-            </Link>
+            </a>
             <div className="flex gap-3">
-              <Link to="/">
+              <a href={ROUTES.home}>
                 <Button variant="outline" className="border-amber-500 text-amber-400 hover:bg-amber-500 hover:text-white">
                   English
                 </Button>
-              </Link>
+              </a>
               <Button
                 onClick={() => openWhatsApp()}
                 className="bg-green-600 hover:bg-green-700 text-white"
@@ -667,17 +667,17 @@ export default function WorkVisaPage() {
               </a>
             </div>
             <div className="mb-6 flex flex-wrap justify-center gap-4">
-              <Link to="/privacy-policy" className="text-amber-400 hover:text-amber-300 transition-colors" dir="rtl">
+              <a href={ROUTES.privacyPolicy} className="text-amber-400 hover:text-amber-300 transition-colors" dir="rtl">
                 رازداری کی پالیسی
-              </Link>
+              </a>
               <span className="text-slate-600">|</span>
-              <Link to="/terms-conditions" className="text-amber-400 hover:text-amber-300 transition-colors" dir="rtl">
+              <a href={ROUTES.termsConditions} className="text-amber-400 hover:text-amber-300 transition-colors" dir="rtl">
                 شرائط و ضوابط
-              </Link>
+              </a>
               <span className="text-slate-600">|</span>
-              <Link to="/disclaimer" className="text-amber-400 hover:text-amber-300 transition-colors" dir="rtl">
+              <a href={ROUTES.disclaimer} className="text-amber-400 hover:text-amber-300 transition-colors" dir="rtl">
                 ڈسکلیمر
-              </Link>
+              </a>
             </div>
             <p className="text-slate-500 text-sm">
               © 2026 TravelAxis. All rights reserved.
