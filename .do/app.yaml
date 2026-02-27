@@ -1,0 +1,21 @@
+# DigitalOcean App Platform spec for TravelAxis (Next.js)
+# Use this if you create the app from spec or want to fix the component type.
+#
+# IMPORTANT: This is a Next.js app and must run as a Web Service (Node server),
+# NOT as a Static Site. Static Site will cause 404s for all routes.
+#
+name: travelaxiss
+services:
+  - name: web
+    github:
+      repo: mrjaved121/travelaxiss
+      branch: main
+      deploy_on_push: true
+    build_command: npm ci && npm run build
+    run_command: npm run start
+    environment_slug: node-js
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    http_port: 3000
+    routes:
+      - path: /
