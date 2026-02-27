@@ -726,16 +726,19 @@ export default function HomePage() {
         </div>
       </footer>
 
-      {/* Sticky WhatsApp Button */}
-      <div className="fixed bottom-6 right-6 z-50">
-        <Button
-          onClick={() => openWhatsApp()}
-          size="lg"
-          className="bg-green-600 hover:bg-green-700 text-white rounded-full shadow-2xl animate-bounce"
-        >
-          <MessageCircle className="h-6 w-6" />
-        </Button>
-      </div>
+      {/* Sticky WhatsApp CTA - eye-catching */}
+      <a
+        href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent('Hello, I would like to inquire about visa services')}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-cta-glow fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-gradient-to-r from-green-500 to-green-600 px-5 py-4 text-white shadow-2xl ring-4 ring-green-300/40 transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-green-700 hover:shadow-green-500/50 hover:ring-green-400/60 focus:outline-none focus:ring-4 focus:ring-green-400/60"
+        aria-label="Chat on WhatsApp"
+      >
+        <span className="hidden font-bold sm:inline">Chat on WhatsApp</span>
+        <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20">
+          <MessageCircle className="h-7 w-7" />
+        </span>
+      </a>
     </div>
   );
 }

@@ -686,14 +686,19 @@ export default function WorkVisaPage() {
         </div>
       </footer>
 
-      {/* Sticky WhatsApp Button */}
-      <button
-        onClick={() => openWhatsApp()}
-        className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white p-4 rounded-full shadow-2xl hover:shadow-green-500/50 transition-all transform hover:scale-110 animate-pulse"
-        aria-label="WhatsApp"
+      {/* Sticky WhatsApp CTA - eye-catching */}
+      <a
+        href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-cta-glow fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-gradient-to-r from-green-500 to-green-600 px-5 py-4 text-white shadow-2xl ring-4 ring-green-300/40 transition-all duration-300 hover:scale-105 hover:from-green-600 hover:to-green-700 hover:shadow-green-500/50 hover:ring-green-400/60 focus:outline-none focus:ring-4 focus:ring-green-400/60"
+        aria-label="Chat on WhatsApp"
       >
-        <MessageCircle className="w-7 h-7" />
-      </button>
+        <span className="hidden font-bold sm:inline">واٹس ایپ پر رابطہ کریں</span>
+        <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white/20">
+          <MessageCircle className="h-7 w-7" />
+        </span>
+      </a>
     </div>
   );
 }
