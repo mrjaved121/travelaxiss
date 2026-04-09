@@ -1,4 +1,5 @@
 import { SITE_URL } from "./site";
+import { blogDisplayDateToIso } from "./blog-dates";
 import { faqItems } from "@/lib/data/faqs";
 import { blogPostSummaries } from "@/components/data/blogIndex";
 
@@ -48,6 +49,10 @@ type BlogEntry = {
   title: string;
   metaDescription: string;
   image: string;
+  /** Display date from blog data, e.g. "April 9, 2026" */
+  date?: string;
+  /** Optional ISO yyyy-MM-dd when content was revised; defaults to published date */
+  dateModifiedIso?: string;
 };
 
 export function blogListingJsonLd() {
@@ -68,14 +73,22 @@ export function blogListingJsonLd() {
 }
 
 export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
+  const datePublished = blog.date
+    ? blogDisplayDateToIso(blog.date)
+    : blogDisplayDateToIso("April 9, 2026");
+  const dateModified =
+    blog.dateModifiedIso && /^\d{4}-\d{2}-\d{2}$/.test(blog.dateModifiedIso)
+      ? blog.dateModifiedIso
+      : datePublished;
+
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: blog.title,
     description: blog.metaDescription,
     image: blog.image,
-    datePublished: "2026-04-08",
-    dateModified: "2026-04-08",
+    datePublished,
+    dateModified,
     author: {
       "@type": "Organization",
       name: "Travelaxis",

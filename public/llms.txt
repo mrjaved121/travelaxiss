@@ -1,0 +1,23 @@
+# Travelaxis
+
+> Professional visa consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Content is general information, not legal advice.
+
+## Main pages
+
+- [Home](https://travelaxis.me/)
+- [About](https://travelaxis.me/about)
+- [Services](https://travelaxis.me/services)
+- [Company formation](https://travelaxis.me/services/company-formation)
+- [Government services](https://travelaxis.me/services/government-services)
+- [Legal documentation](https://travelaxis.me/services/legal-documentation)
+- [Business support](https://travelaxis.me/services/business-support)
+- [Why Dubai / UAE business](https://travelaxis.me/why-business)
+- [FAQ](https://travelaxis.me/faq)
+- [Contact](https://travelaxis.me/contact)
+- [Blog index](https://travelaxis.me/blog)
+
+## Machine-readable
+
+- [Sitemap](https://travelaxis.me/sitemap.xml)
+
+If your live site uses a different hostname, replace `https://travelaxis.me` above to match `NEXT_PUBLIC_SITE_URL`.
