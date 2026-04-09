@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { blogData } from "@/components/data/blogContent";
 import { SITE_URL } from "@/lib/seo/site";
 
+export const dynamic = "force-static";
+
 const staticPaths = [
   "",
   "/about",

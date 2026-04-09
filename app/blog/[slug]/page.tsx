@@ -6,6 +6,10 @@ import { blogData } from "@/components/data/blogContent";
 import { blogPostingJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
+export function generateStaticParams() {
+  return Object.keys(blogData).map((slug) => ({ slug }));
+}
+
 type Props = { params: Promise<{ slug: string }> };
 
 const blogKeywords =
