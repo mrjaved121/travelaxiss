@@ -5,16 +5,18 @@
 ## Main pages
 
 - [Home](https://travelaxis.me/)
-- [About](https://travelaxis.me/about)
-- [Services](https://travelaxis.me/services)
-- [Company formation](https://travelaxis.me/services/company-formation)
-- [Government services](https://travelaxis.me/services/government-services)
-- [Legal documentation](https://travelaxis.me/services/legal-documentation)
-- [Business support](https://travelaxis.me/services/business-support)
-- [Why Dubai / UAE business](https://travelaxis.me/why-business)
-- [FAQ](https://travelaxis.me/faq)
-- [Contact](https://travelaxis.me/contact)
-- [Blog index](https://travelaxis.me/blog)
+- [About](https://travelaxis.me/about/)
+- [Services](https://travelaxis.me/services/)
+- [Company formation](https://travelaxis.me/services/company-formation/)
+- [Government services](https://travelaxis.me/services/government-services/)
+- [Legal documentation](https://travelaxis.me/services/legal-documentation/)
+- [Business support](https://travelaxis.me/services/business-support/)
+- [Why Dubai / UAE business](https://travelaxis.me/why-business/)
+- [FAQ](https://travelaxis.me/faq/)
+- [Contact](https://travelaxis.me/contact/)
+- [Blog index](https://travelaxis.me/blog/)
+- [Privacy policy](https://travelaxis.me/privacy/)
+- [Terms & conditions](https://travelaxis.me/terms/)
 
 ## Machine-readable
 

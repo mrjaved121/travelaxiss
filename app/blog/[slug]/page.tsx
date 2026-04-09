@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const url = `${SITE_URL}/blog/${slug}`;
+  const url = `${SITE_URL}/blog/${slug}/`;
 
   return {
     title: blog.metaTitle,

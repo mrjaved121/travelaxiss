@@ -67,7 +67,7 @@ export function blogListingJsonLd() {
       "@type": "ListItem",
       position: index + 1,
       name: post.title,
-      url: `${SITE_URL}/blog/${post.id}`,
+      url: `${SITE_URL}/blog/${post.id}/`,
     })),
   };
 }
@@ -103,7 +103,7 @@ export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/blog/${slug}`,
+      "@id": `${SITE_URL}/blog/${slug}/`,
     },
   };
 }

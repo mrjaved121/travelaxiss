@@ -20,14 +20,23 @@ const staticPaths = [
   "/faq",
   "/contact",
   "/blog",
+  "/privacy",
+  "/terms",
 ];
+
+/** Match `trailingSlash: true` in next.config (canonical URLs use trailing slash). */
+function toSitemapUrl(base: string, path: string): string {
+  if (!path || path === "") return `${base}/`;
+  const withSlash = path.endsWith("/") ? path : `${path}/`;
+  return `${base}${withSlash}`;
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL.replace(/\/$/, "");
   const siteFallbackModified = new Date();
 
   const staticEntries: MetadataRoute.Sitemap = staticPaths.map((path) => ({
-    url: path === "" ? `${base}/` : `${base}${path}`,
+    url: toSitemapUrl(base, path),
     lastModified: siteFallbackModified,
     changeFrequency: path.startsWith("/blog") ? "weekly" : "monthly",
     priority: path === "" ? 1 : path === "/services" || path === "/contact" ? 0.9 : 0.8,
@@ -42,7 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         : blogDisplayDateToDate(displayDate);
 
       return {
-        url: `${base}/blog/${slug}`,
+        url: `${base}/blog/${slug}/`,
         lastModified,
         changeFrequency: "monthly" as const,
         priority: 0.7,
