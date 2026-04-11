@@ -10,6 +10,17 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "noon-seller-account-uae-guide-2026",
+      title: "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
+      excerpt:
+        "Learn how to open a Noon seller account in UAE with this complete guide. Step-by-step process, requirements, product strategy, and SEO tips to succeed.",
+      date: "April 12, 2026",
+      readTime: "16 min read",
+      category: "Business Setup",
+      image:
+        "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
       id: "dropshipping-business-uae-guide-2026",
       title: "Dropshipping Business in UAE – Complete Beginner Guide (2026)",
       excerpt: "Learn how to start a dropshipping business in UAE step by step. Complete 2026 guide covering setup, license, suppliers, and marketing.",

@@ -108,6 +108,107 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                   </p>
                 )}
 
+                {section.subsections && (
+                  <div className="space-y-8">
+                    {section.subsections.map(
+                      (
+                        sub: {
+                          title: string;
+                          content?: string;
+                          items?: string[];
+                        },
+                        idx: number
+                      ) => (
+                        <div key={idx}>
+                          <h3
+                            className="text-2xl font-bold mb-4"
+                            style={{ color: "#111111" }}
+                          >
+                            {sub.title}
+                          </h3>
+                          {sub.content && (
+                            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                              {sub.content}
+                            </p>
+                          )}
+                          {sub.items && (
+                            <ul className="space-y-2 mb-4">
+                              {sub.items.map((item: string, i: number) => (
+                                <li
+                                  key={i}
+                                  className="flex items-start space-x-3 text-gray-700"
+                                >
+                                  <span className="text-[#C9A24A]">👉</span>
+                                  <span>{item}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      )
+                    )}
+                  </div>
+                )}
+
+                {section.columnCompare && (
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div
+                      className="rounded-lg p-6"
+                      style={{ backgroundColor: "#F5F5F5" }}
+                    >
+                      <h3
+                        className="text-xl font-bold mb-4"
+                        style={{ color: "#C9A24A" }}
+                      >
+                        {section.columnCompare.left.title}
+                      </h3>
+                      <ul className="space-y-2">
+                        {section.columnCompare.left.items.map(
+                          (item: string, idx: number) => (
+                            <li
+                              key={idx}
+                              className="flex items-start space-x-3"
+                            >
+                              <div
+                                className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                                style={{ backgroundColor: "#C9A24A" }}
+                              ></div>
+                              <span className="text-gray-700">{item}</span>
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    </div>
+                    <div
+                      className="rounded-lg p-6"
+                      style={{ backgroundColor: "#F5F5F5" }}
+                    >
+                      <h3
+                        className="text-xl font-bold mb-4"
+                        style={{ color: "#C9A24A" }}
+                      >
+                        {section.columnCompare.right.title}
+                      </h3>
+                      <ul className="space-y-2">
+                        {section.columnCompare.right.items.map(
+                          (item: string, idx: number) => (
+                            <li
+                              key={idx}
+                              className="flex items-start space-x-3"
+                            >
+                              <div
+                                className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                                style={{ backgroundColor: "#C9A24A" }}
+                              ></div>
+                              <span className="text-gray-700">{item}</span>
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    </div>
+                  </div>
+                )}
+
                 {/* E-Commerce What You Can Do */}
                 {section.ecommerceWhatYouCanDo && (
                   <div className="grid md:grid-cols-2 gap-4">

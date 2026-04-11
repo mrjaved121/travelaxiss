@@ -5,6 +5,363 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "noon-seller-account-uae-guide-2026": {
+    title:
+      "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
+    metaTitle:
+      "Noon Seller Account UAE – Complete Step-by-Step Guide to Start Selling Online in UAE (2026)",
+    metaDescription:
+      "Learn how to open a Noon seller account in UAE with this complete guide. Step-by-step process, requirements, product strategy, and SEO tips to succeed.",
+    date: "April 12, 2026",
+    readTime: "16 min read",
+    category: "Business Setup",
+    image:
+      "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    content: {
+      intro:
+        "The UAE e-commerce market is growing faster than ever. With more people shopping online daily, platforms like Noon have created massive opportunities for individuals and businesses. If you want to start selling online in UAE, creating a Noon seller account is one of the best decisions you can make. Whether you are a beginner with no experience, a dropshipping seller, a small business owner, or a growing e-commerce brand, Noon gives you access to thousands of customers across UAE and the Middle East. People often ask: How to sell on Noon UAE step by step? Do I need a trade license in UAE? What documents are required? Is Noon better than Amazon UAE? This guide answers these questions in detail so you can start confidently.",
+      sections: [
+        {
+          heading: "What is a Noon Seller Account?",
+          content:
+            "A Noon seller account is your official account to sell products on the Noon marketplace. Think of it as your online shop inside Noon.",
+          ecommerceWhatYouCanDo: [
+            "List your products",
+            "Sell to UAE customers",
+            "Manage orders and inventory",
+            "Receive payments securely",
+          ],
+        },
+        {
+          heading: "Why Sell on Noon UAE in 2026?",
+          subsections: [
+            {
+              title: "1. Strong UAE & Middle East Market",
+              content:
+                "Noon is one of the biggest e-commerce platforms in UAE, Saudi Arabia, and the region.",
+              items: [
+                "High traffic",
+                "Ready customers",
+                "Strong demand",
+              ],
+            },
+            {
+              title: "2. Local Advantage Over Global Platforms",
+              content:
+                "Unlike international platforms, Noon understands UAE customer behavior, local delivery systems, and regional trends. That gives sellers a better chance to succeed.",
+            },
+            {
+              title: "3. Growing Online Shopping Trend",
+              content:
+                "People in UAE prefer fast delivery, online payments, and trusted platforms. Noon fits this ecosystem.",
+            },
+            {
+              title: "4. Logistics & Fulfillment Support",
+              content:
+                "Noon provides warehousing, delivery, and customer service. You don't need to manage everything yourself.",
+            },
+            {
+              title: "5. Huge Business Growth Potential",
+              content:
+                "Many small sellers have grown into full e-commerce brands using Noon.",
+            },
+          ],
+        },
+        {
+          heading: "Noon vs Amazon UAE – Which is Better?",
+          columnCompare: {
+            left: {
+              title: "Noon",
+              items: [
+                "Focus on UAE & GCC",
+                "Lower competition in some categories",
+                "Strong local reach",
+              ],
+            },
+            right: {
+              title: "Amazon UAE",
+              items: [
+                "Global platform",
+                "Higher competition",
+                "Bigger product catalog",
+              ],
+            },
+          },
+          note: "Pro strategy: Use both platforms together to maximize sales.",
+        },
+        {
+          heading: "Requirements to Open Noon Seller Account UAE",
+          subsections: [
+            {
+              title: "Basic Requirements",
+              items: [
+                "Active email address",
+                "Mobile number",
+                "Bank account",
+              ],
+            },
+            {
+              title: "Identity Documents",
+              items: ["Passport copy", "Emirates ID (if available)"],
+            },
+            {
+              title: "Business Documents (Recommended for Growth)",
+              items: ["Trade license", "VAT registration (if required)"],
+              content:
+                "Having a proper business setup improves approval speed, trust, and long-term scalability.",
+            },
+          ],
+        },
+        {
+          heading: "Step-by-Step Process to Open Noon Seller Account",
+          ecommerceSteps: [
+            {
+              step: "Step 1: Register on Noon Seller Portal",
+              description:
+                "Go to the Noon seller platform and create your account.",
+            },
+            {
+              step: "Step 2: Enter Business Information",
+              description:
+                "Fill in details such as company name, business address, and contact information.",
+            },
+            {
+              step: "Step 3: Upload Documents",
+              description: "Submit ID proof and business documents as requested.",
+            },
+            {
+              step: "Step 4: Verification Process",
+              description:
+                "Noon will review your documents. This step is very important.",
+            },
+            {
+              step: "Step 5: Account Approval",
+              description:
+                "Once approved, you can start selling immediately.",
+            },
+          ],
+        },
+        {
+          heading: "Noon Fulfillment (FBN – Fulfilled by Noon)",
+          subsections: [
+            {
+              title: "What is FBN?",
+              content:
+                "FBN means Noon stores your products and delivers them to customers.",
+            },
+            {
+              title: "Benefits of FBN",
+              items: [
+                "Faster delivery",
+                "Higher customer trust",
+                "Less operational work for you",
+                "Recommended if you want to scale fast",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "FBN vs Self-Fulfillment (Detailed Comparison)",
+          columnCompare: {
+            left: {
+              title: "FBN (Fulfilled by Noon)",
+              items: [
+                "Noon handles storage & delivery",
+                "Faster shipping",
+                "Better ranking potential",
+              ],
+            },
+            right: {
+              title: "Self-Fulfillment",
+              items: [
+                "You manage orders yourself",
+                "More control",
+                "Lower initial cost",
+              ],
+            },
+          },
+          note: "Beginners can start with self-fulfillment and move to FBN later.",
+        },
+        {
+          heading: "Best Products to Sell on Noon UAE",
+          ecommerceBusinessIdeas: [
+            "Electronics",
+            "Beauty & skincare",
+            "Fashion",
+            "Home & kitchen",
+            "Baby products",
+          ],
+          note: "Focus on trending products and problem-solving items.",
+        },
+        {
+          heading: "Advanced Product Research Strategy",
+          ecommerceSteps: [
+            {
+              step: "Step 1: Check Market Demand",
+              description: "Use Google Trends and TikTok trends to validate demand.",
+            },
+            {
+              step: "Step 2: Analyze Competitors",
+              description:
+                "Review top sellers, pricing, and customer reviews in your category.",
+            },
+            {
+              step: "Step 3: Identify Profit Potential",
+              description:
+                "Choose products with good margins and manageable competition. Product research often decides success or failure.",
+            },
+          ],
+        },
+        {
+          heading: "Pricing Strategy for Noon UAE",
+          subsections: [
+            {
+              title: "Competitive Pricing",
+              content: "Stay close to the market price for your category.",
+            },
+            {
+              title: "Profit Margin Planning",
+              content:
+                "Ensure profit after delivery costs and platform fees.",
+            },
+            {
+              title: "Dynamic Pricing",
+              content: "Adjust pricing based on demand and competition.",
+            },
+          ],
+        },
+        {
+          heading: "Noon SEO Optimization",
+          subsections: [
+            {
+              title: "Product Titles",
+              content:
+                "Use clear keywords buyers search for, e.g. “Best Bluetooth Headphones UAE”.",
+            },
+            {
+              title: "Product Descriptions",
+              items: ["Clear", "Detailed", "SEO-friendly"],
+            },
+            {
+              title: "Images",
+              items: ["High quality", "Professional"],
+            },
+            {
+              title: "Keywords",
+              content:
+                "Use UAE-based keywords and buyer-intent phrases so your listings match real searches.",
+            },
+          ],
+          note: "SEO helps your products appear in on-site search results.",
+        },
+        {
+          heading: "Marketing Strategies for Noon Sellers",
+          dropshippingMarketingStrategies: [
+            {
+              strategy: "Noon Ads",
+              description: "Run paid campaigns inside the Noon marketplace.",
+            },
+            {
+              strategy: "Social Media Marketing",
+              description: "Use TikTok and Instagram to drive awareness and sales.",
+            },
+            {
+              strategy: "Influencer Marketing",
+              description: "Partner with influencers who fit your niche.",
+            },
+            {
+              strategy: "External Traffic",
+              description: "Drive traffic from Google and Facebook to your listings.",
+            },
+          ],
+        },
+        {
+          heading: "Order Management & Customer Service",
+          ecommerceLogistics: [
+            "Order tracking",
+            "Returns handling",
+            "Responsive customer support",
+          ],
+          note: "Good service leads to better reviews and more sales.",
+        },
+        {
+          heading: "Common Mistakes to Avoid",
+          freelanceMistakes: [
+            "Choosing the wrong product",
+            "Poor listing optimization",
+            "Low-quality images",
+            "Ignoring customer feedback",
+          ],
+        },
+        {
+          heading: "Tips for Success on Noon UAE",
+          freelanceTips: [
+            "Focus on trending products",
+            "Optimize listings continuously",
+            "Deliver fast and reliably",
+            "Build a clear brand identity",
+          ],
+        },
+        {
+          heading: "Challenges in Noon Selling",
+          ecommerceGrowthReasons: [
+            "Competition",
+            "Pricing pressure",
+            "High customer expectations",
+          ],
+          note: "A strong strategy helps you navigate these challenges.",
+        },
+        {
+          heading: "Why UAE is Best for E-Commerce Sellers",
+          whyUAEBestForEcommerce: [
+            "Strong economy",
+            "High purchasing power",
+            "Digital transformation",
+          ],
+        },
+        {
+          heading: "Why Professional Consultancy Helps",
+          content:
+            "Selling on Noon involves setup, strategy, and growth. A consultancy can help you avoid costly mistakes, grow faster, and save time on compliance and planning.",
+        },
+        {
+          heading: "FAQs",
+          faqs: [
+            {
+              question: "Can I sell on Noon without a company?",
+              answer:
+                "You may be able to start in some cases, but having a business license is strongly recommended for approval, trust, and scalability.",
+            },
+            {
+              question: "Is Noon profitable in UAE?",
+              answer:
+                "Many sellers find it profitable thanks to strong demand and a growing market; success still depends on product, pricing, and operations.",
+            },
+            {
+              question: "What is FBN?",
+              answer:
+                "FBN (Fulfilled by Noon) means Noon handles storage and delivery for your inventory.",
+            },
+            {
+              question: "Can foreigners sell on Noon UAE?",
+              answer:
+                "Yes, foreigners can sell on Noon when they meet Noon’s documentation and verification requirements.",
+            },
+            {
+              question: "Which is better: Noon or Amazon?",
+              answer:
+                "Both can work well. Many brands use Noon and Amazon UAE together to maximize reach and sales.",
+            },
+          ],
+        },
+        {
+          heading: "Final Thoughts",
+          content:
+            "Selling on Noon UAE is one of the strongest opportunities in today’s digital economy. It is relatively easy to start, demand is high, and growth potential is significant. If you follow a clear strategy—research, listings, pricing, and service—you can build a serious e-commerce business. If you want help with your seller account, product selection, or scaling, contact us and we will guide you through the next steps.",
+        },
+      ],
+    },
+  },
   "dropshipping-business-uae-guide-2026": {
     title: "Dropshipping Business in UAE – Complete Beginner Guide (2026)",
     metaTitle: "Dropshipping Business in UAE – Complete Beginner Guide 2026",
