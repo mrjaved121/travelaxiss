@@ -8,7 +8,6 @@ export default function GovernmentServicesPage() {
   const features = [
     "Government Approvals Management",
     "Dubai Chamber Services",
-    "Customs Support",
     "Multi-Authority Coordination",
     "Regulatory Compliance Monitoring",
   ];

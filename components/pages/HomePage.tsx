@@ -23,7 +23,6 @@ export default function HomePage() {
       includes: [
         "Government Approvals",
         "Dubai Chamber Services",
-        "Customs Support",
         "Multi-Authority Coordination",
       ],
       icon: FileText,
