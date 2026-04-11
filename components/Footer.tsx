@@ -80,6 +80,11 @@ export default function Footer() {
                   Business Support
                 </Link>
               </li>
+              <li>
+                <Link href="/services/visa-services" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Visa Services
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -1,10 +1,52 @@
 'use client';
 
 import Link from "next/link";
-import { CheckCircle, ArrowRight, Shield } from "lucide-react";
+import {
+  CheckCircle,
+  ArrowRight,
+  Shield,
+  CreditCard,
+  IdCard,
+  FileCheck,
+  RefreshCw,
+  Landmark,
+} from "lucide-react";
 import { motion } from "motion/react";
+import type { LucideIcon } from "lucide-react";
 
 export default function GovernmentServicesPage() {
+  const liaisonServices: {
+    title: string;
+    description: string;
+    icon: LucideIcon;
+  }[] = [
+    {
+      title: "Visa Processing",
+      description: "Applications, renewals, cancellations, and status changes.",
+      icon: CreditCard,
+    },
+    {
+      title: "Work Permits & Labour Cards",
+      description: "Issuance and renewal for employees.",
+      icon: IdCard,
+    },
+    {
+      title: "Document Attestation & Clearing",
+      description: "Submission and collection from relevant ministries.",
+      icon: FileCheck,
+    },
+    {
+      title: "Trade License Renewals",
+      description: "Managing annual renewals seamlessly.",
+      icon: RefreshCw,
+    },
+    {
+      title: "Ejari & Municipality Approvals",
+      description: "Securing tenancy contracts and other required permits.",
+      icon: Landmark,
+    },
+  ];
+
   const features = [
     "Government Approvals Management",
     "Dubai Chamber Services",
@@ -54,6 +96,49 @@ export default function GovernmentServicesPage() {
               We handle government approvals, documentation processes, and coordination with relevant authorities.
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center max-w-3xl mx-auto mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
+              End-to-End Government <span style={{ color: '#C9A24A' }}>Liaison Support</span>
+            </h2>
+            <p className="text-lg text-gray-400">
+              Comprehensive coordination across authorities so your filings, renewals, and approvals stay on track.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {liaisonServices.map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.08 }}
+                className="rounded-xl p-6 md:p-8 text-center border border-white/10"
+                style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}
+              >
+                <div
+                  className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 mx-auto"
+                  style={{ backgroundColor: '#C9A24A' }}
+                >
+                  <item.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                </div>
+                <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
+                  {item.title}
+                </h3>
+                <p className="text-sm text-gray-400 leading-relaxed">{item.description}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 

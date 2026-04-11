@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, ArrowRight, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, ArrowRight, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 export default function ServicesPage() {
   const services = [
@@ -28,6 +28,12 @@ export default function ServicesPage() {
       description: "Ongoing support services including trademark registration, ISO certification, and operational assistance.",
       icon: HeadphonesIcon,
       link: "/services/business-support",
+    },
+    {
+      title: "Visa Services",
+      description: "Investor, employment, and family visas, visit permits, renewals, and cancellations—handled with clear guidance.",
+      icon: Plane,
+      link: "/services/visa-services",
     },
   ];
 
@@ -72,7 +78,7 @@ export default function ServicesPage() {
       {/* Service Cards */}
       <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={service.title}

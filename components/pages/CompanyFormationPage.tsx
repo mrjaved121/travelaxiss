@@ -1,7 +1,15 @@
 'use client';
 
 import Link from "next/link";
-import { CheckCircle, ArrowRight, Clock } from "lucide-react";
+import {
+  CheckCircle,
+  ArrowRight,
+  Clock,
+  Lightbulb,
+  ClipboardList,
+  PlusCircle,
+  Rocket,
+} from "lucide-react";
 import { motion } from "motion/react";
 
 export default function CompanyFormationPage() {
@@ -11,6 +19,29 @@ export default function CompanyFormationPage() {
     "Offshore Incorporation",
     "License Processing",
     "Regulatory Compliance",
+  ];
+
+  const journeySteps = [
+    {
+      label: "Idea",
+      description: "Define your business goals and the right path forward.",
+      icon: Lightbulb,
+    },
+    {
+      label: "Planning",
+      description: "Structure, jurisdiction, and documentation mapped out clearly.",
+      icon: ClipboardList,
+    },
+    {
+      label: "License",
+      description: "Applications, approvals, and registration handled end to end.",
+      icon: PlusCircle,
+    },
+    {
+      label: "Launch",
+      description: "Go live with compliance in place and ongoing support available.",
+      icon: Rocket,
+    },
   ];
 
   const packages = [
@@ -56,6 +87,50 @@ export default function CompanyFormationPage() {
               We provide end-to-end support for establishing businesses across mainland, freezone, and offshore jurisdictions.
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center max-w-3xl mx-auto mb-14"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
+              From Concept to <span style={{ color: '#C9A24A' }}>Launch</span>
+            </h2>
+            <p className="text-lg text-gray-300 leading-relaxed">
+              Travelaxis provides complete business setup solutions, guiding you through each step with clarity and precision.
+              Our experts manage all requirements and help you choose the best structure and jurisdiction for your goals.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+            {journeySteps.map((step, index) => (
+              <motion.div
+                key={step.label}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.08 }}
+                className="flex flex-col items-center text-center rounded-xl p-6 md:p-8 border border-white/10"
+                style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}
+              >
+                <div
+                  className="w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mb-4"
+                  style={{ backgroundColor: '#C9A24A' }}
+                >
+                  <step.icon className="w-7 h-7 md:w-8 md:h-8" style={{ color: '#111111' }} />
+                </div>
+                <h3 className="text-lg font-bold mb-2" style={{ color: '#FFFFFF' }}>
+                  {step.label}
+                </h3>
+                <p className="text-sm text-gray-400 leading-snug">{step.description}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 
