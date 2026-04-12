@@ -78,8 +78,8 @@ export default function HomePage() {
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
             >
-              <span>Get Started Now</span>
-              <ArrowRight className="w-5 h-5" />
+              <span>Contact Travelaxis to get started</span>
+              <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
         </div>
@@ -93,7 +93,8 @@ export default function HomePage() {
         {/* Background Image */}
         <img 
           src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGNpdHlzY2FwZSUyMHNreWxpbmUlMjBsdXh1cnl8ZW58MXx8fHwxNzc1Njk0NTE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Dubai Luxury Skyline"
+          alt=""
+          role="presentation"
           className="absolute inset-0 w-full h-full object-cover"
         />
         
@@ -126,7 +127,7 @@ export default function HomePage() {
               3.2x
             </div>
             <p className="text-lg md:text-xl" style={{ color: '#111111' }}>
-              Better success rate in approvals and processes
+              Stronger documentation quality and clearer milestone tracking
             </p>
           </motion.div>
         </div>
@@ -212,7 +213,7 @@ export default function HomePage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }}>
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
                   <service.icon className="w-7 h-7" style={{ color: '#111111' }} />
                 </div>
                 <h3 className="text-xl font-bold mb-4" style={{ color: '#111111' }}>
@@ -224,7 +225,7 @@ export default function HomePage() {
                   <ul className="space-y-2">
                     {service.includes.map((item) => (
                       <li key={item} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#C9A24A' }} />
+                        <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#C9A24A' }} aria-hidden />
                         <span className="text-gray-700 text-sm">{item}</span>
                       </li>
                     ))}
@@ -235,8 +236,8 @@ export default function HomePage() {
                   className="inline-flex items-center space-x-2 font-semibold transition-opacity hover:opacity-70"
                   style={{ color: '#C9A24A' }}
                 >
-                  <span>Read More</span>
-                  <ArrowRight className="w-5 h-5" />
+                  <span>{`View ${service.title} details`}</span>
+                  <ArrowRight className="w-5 h-5" aria-hidden />
                 </Link>
               </motion.div>
             ))}
@@ -271,8 +272,8 @@ export default function HomePage() {
                 className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 font-semibold"
                 style={{ backgroundColor: '#C9A24A', color: '#111111' }}
               >
-                <span>Get Started Now</span>
-                <ArrowRight className="w-5 h-5" />
+                <span>Contact Travelaxis to discuss your goals</span>
+                <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
             </motion.div>
 
@@ -283,7 +284,7 @@ export default function HomePage() {
               className="p-8 rounded-lg"
               style={{ backgroundColor: '#F5F5F5' }}
             >
-              <Star className="w-12 h-12 mb-4" style={{ color: '#C9A24A' }} />
+              <Star className="w-12 h-12 mb-4" style={{ color: '#C9A24A' }} aria-hidden />
               <blockquote className="text-lg italic text-gray-700">
                 "Working with this team was a great experience. They guided us clearly and helped us move forward with confidence."
               </blockquote>
@@ -316,9 +317,9 @@ export default function HomePage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 shadow-sm"
               >
-                <div className="flex items-center mb-4">
+                <div className="flex items-center mb-4" role="img" aria-label="Rating: 5 out of 5 stars">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-current" style={{ color: '#C9A24A' }} />
+                    <Star key={i} className="w-5 h-5 fill-current" style={{ color: '#C9A24A' }} aria-hidden />
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
@@ -354,8 +355,8 @@ export default function HomePage() {
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
             >
-              <span>Get Started Now</span>
-              <ArrowRight className="w-5 h-5" />
+              <span>Start your business journey with Travelaxis</span>
+              <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
         </div>

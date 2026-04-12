@@ -44,7 +44,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt: "Learn how to get a freelance visa in UAE. Complete guide covering requirements, process, documents, benefits, and how to start freelancing.",
       date: "April 9, 2026",
       readTime: "10 min read",
-      category: "Visa Services",
+      category: "UAE Visa Documentation",
       image: "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVlbGFuY2VyJTIwd29ya2luZyUyMGxhcHRvcCUyMGRpZ2l0YWwlMjBub21hZCUyMFVBRSUyMER1YmFpJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NTczNjkwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
@@ -53,7 +53,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt: "Learn everything about UAE Golden Visa. Complete guide covering requirements, benefits, eligibility, and how to apply for long-term residency.",
       date: "April 9, 2026",
       readTime: "10 min read",
-      category: "Visa Services",
+      category: "UAE Visa Documentation",
       image: "https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBnb2xkZW4lMjB2aXNhJTIwcGFzc3BvcnQlMjBsdXh0cnklMjBpbW1pZ3JhdGlvbiUyMER1YmFpJTIwc3VjY2VzcyUyMGJ1c2luZXNzfGVufDF8fHx8MTc3NTczNjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
@@ -62,7 +62,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt: "Learn how to get UAE residence visa through business setup. Complete step-by-step guide covering investor visa, requirements, documents, and benefits.",
       date: "April 9, 2026",
       readTime: "11 min read",
-      category: "Visa Services",
+      category: "UAE Visa Documentation",
       image: "https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjByZXNpZGVuY2UlMjB2aXNhJTIwcGFzc3BvcnQlMjBidXNpbmVzcyUyMGludmVzdG9yJTIwZW50cmVwcmVuZXVyJTIwRHViYWl8ZW58MXx8fHwxNzc1NzM2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
@@ -179,7 +179,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt: "Learn how to get an investor visa in UAE. Complete step-by-step guide covering requirements, documents, process, and benefits for business owners.",
       date: "April 9, 2026",
       readTime: "10 min read",
-      category: "Visa Services",
+      category: "UAE Visa Documentation",
       image: "https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludmVzdG9yJTIwaGFuZHNoYWtlJTIwRHViYWklMjBwcm9mZXNzaW9uYWwlMjBtb2Rlcm58ZW58MXx8fHwxNzc1Njk1NDEzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
@@ -188,7 +188,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt: "Learn the UAE visa process step by step. Understand visa types, documents, approvals, and how to apply for UAE residency visa.",
       date: "April 9, 2026",
       readTime: "8 min read",
-      category: "Visa Services",
+      category: "UAE Visa Documentation",
       image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXNzcG9ydCUyMHZpc2ElMjBpbW1pZ3JhdGlvbiUyMHRyYXZlbCUyMGRvY3VtZW50c3xlbnwxfHx8fDE3NzU2OTUxODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {

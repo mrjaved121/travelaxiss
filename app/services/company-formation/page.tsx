@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Company Formation in UAE – Complete Business Setup Services Dubai",
   description:
-    "Start your business in UAE with expert company formation services. Mainland, freezone, offshore setup with fast approvals and full support.",
+    "Expert UAE company formation: mainland, freezone, and offshore setup with structured documentation and full support—including guidance on residency-linked documentation where relevant.",
   keywords: [
     "company formation UAE",
     "business setup UAE",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title:
       "Company Formation in UAE – Complete Business Setup Services Dubai",
     description:
-      "Start your business in UAE with expert company formation services. Mainland, freezone, offshore setup with fast approvals and full support.",
+      "Expert UAE company formation: mainland, freezone, and offshore setup with structured documentation and full support—including guidance on residency-linked documentation where relevant.",
   },
 };
 

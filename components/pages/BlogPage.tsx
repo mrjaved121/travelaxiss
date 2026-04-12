@@ -47,7 +47,7 @@ export default function BlogPage() {
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src={blog.image} 
-                    alt={blog.title}
+                    alt=""
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">
@@ -60,11 +60,11 @@ export default function BlogPage() {
                 <div className="p-6">
                   <div className="flex items-center space-x-4 text-sm text-gray-500 mb-3">
                     <div className="flex items-center space-x-1">
-                      <Calendar className="w-4 h-4" />
+                      <Calendar className="w-4 h-4" aria-hidden />
                       <span>{blog.date}</span>
                     </div>
                     <div className="flex items-center space-x-1">
-                      <Clock className="w-4 h-4" />
+                      <Clock className="w-4 h-4" aria-hidden />
                       <span>{blog.readTime}</span>
                     </div>
                   </div>
@@ -81,9 +81,10 @@ export default function BlogPage() {
                     href={`/blog/${blog.id}`}
                     className="inline-flex items-center space-x-2 font-semibold hover:underline"
                     style={{ color: '#C9A24A' }}
+                    aria-label={`Read full article: ${blog.title}`}
                   >
-                    <span>Read More</span>
-                    <ArrowRight className="w-4 h-4" />
+                    <span>Read full article</span>
+                    <ArrowRight className="w-4 h-4" aria-hidden />
                   </Link>
                 </div>
               </motion.article>
@@ -112,9 +113,10 @@ export default function BlogPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              aria-label="Contact Travelaxis on WhatsApp about UAE company formation (opens in a new tab)"
             >
               <span>Contact Us on WhatsApp</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5" aria-hidden />
             </a>
           </motion.div>
         </div>

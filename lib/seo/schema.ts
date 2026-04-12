@@ -8,7 +8,7 @@ export const professionalServiceJsonLd = {
   "@type": "ProfessionalService",
   name: "Travelaxis",
   description:
-    "Professional visa consultancy and business setup services in UAE",
+    "UAE business setup, company formation, and visa documentation and consultancy services",
   url: SITE_URL,
   telephone: "+971589867555",
   email: "info@travelaxis.me",
@@ -61,7 +61,7 @@ export function blogListingJsonLd() {
     "@type": "ItemList",
     name: "Travelaxis Blog",
     description:
-      "Articles on UAE business setup, company formation, visas, and compliance.",
+      "Articles on UAE business setup, company formation, visa documentation topics, and compliance.",
     numberOfItems: blogPostSummaries.length,
     itemListElement: blogPostSummaries.map((post, index) => ({
       "@type": "ListItem",

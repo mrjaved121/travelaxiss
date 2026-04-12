@@ -48,22 +48,22 @@ export const faqItems: FaqItem[] = [
     category: "Freezone",
   },
   {
-    question: "What services does a visa consultancy in UAE provide?",
+    question: "What services does a UAE visa consultancy provide?",
     answer:
-      "A visa consultancy helps with visa applications, document preparation, approvals, and guidance for different visa types in UAE.",
-    category: "Visa Services",
+      "A consultancy typically provides documentation preparation, eligibility guidance, application support, and coordination for submission through official UAE government channels or authorized entities. Travelaxis does not issue visas or guarantee approvals.",
+    category: "UAE Visa Documentation",
   },
   {
     question: "Do I need a visa to start a business in UAE?",
     answer:
-      "Yes, you will need a residency visa or investor visa to legally live and operate your business in UAE.",
-    category: "Visa Services",
+      "Most founders need a residence pathway aligned with their setup (for example investor or partner routes where applicable). Eligibility and final issuance are determined solely by UAE authorities.",
+    category: "UAE Visa Documentation",
   },
   {
     question: "How long does it take to get a UAE visa?",
     answer:
-      "The UAE visa process usually takes 5 to 15 working days depending on the visa type and approval stages.",
-    category: "Visa Services",
+      "Many applications fall in a typical range of several business days to a few weeks, depending on category and authority workload. Timelines are indicative only and not guaranteed.",
+    category: "UAE Visa Documentation",
   },
   {
     question: "What documents are required for company formation in UAE?",

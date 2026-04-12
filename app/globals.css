@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Accessible focus ring aligned with brand gold */
+  --focus-ring: #c9a24a;
+  --focus-ring-offset: #ffffff;
 }
 
 @theme inline {
@@ -23,6 +26,80 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Reflow: allow zoom and narrow viewports without horizontal overflow from media */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Skip link: hidden until keyboard focus */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 9999;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #111111;
+  color: #c9a24a;
+  outline: none;
+}
+
+/* Screen-reader-only text (when Tailwind utility is unavailable) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-to-main:focus {
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  box-shadow:
+    0 0 0 2px var(--focus-ring-offset),
+    0 0 0 4px var(--focus-ring);
+}
+
+/* Visible focus for custom-styled links / controls (Tailwind buttons keep their own rings) */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-ping,
+  .animate-pulse,
+  .animate-bounce,
+  .animate-spin {
+    animation: none !important;
+  }
 }
 
 @keyframes whatsapp-float-in {

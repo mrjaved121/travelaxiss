@@ -3,16 +3,16 @@ import AboutPage from "@/components/pages/AboutPage";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Travelaxis | UAE Business & Visa Documentation Consultancy",
   description:
-    "Learn about Travelaxis: trusted visa consultancy and business formation experts serving Dubai and the UAE with structured processes and client-focused support.",
+    "Learn how Travelaxis supports Dubai and UAE clients with company formation, regulatory coordination, and UAE visa documentation and consultancy—structured processes and client-focused support.",
   alternates: {
     canonical: `${SITE_URL}/about`,
   },
   openGraph: {
     title: "About Travelaxis | UAE Business Consultancy",
     description:
-      "Trusted visa consultancy and business formation experts in Dubai and the UAE.",
+      "Trusted UAE consultancy for business formation and visa documentation support in Dubai and the UAE.",
     url: `${SITE_URL}/about`,
   },
 };

@@ -5,12 +5,14 @@ import { faqPageJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "FAQ - Business Setup Dubai | Visa Consultancy UAE",
+  title: "FAQ | UAE Business Setup & Visa Documentation Support",
   description:
-    "Frequently asked questions about company formation, business setup, and visa consultancy services in Dubai UAE. Clear answers on freezone, mainland, and offshore companies.",
+    "Frequently asked questions about company formation, business setup, and UAE visa documentation and application guidance in Dubai. Clear answers on freezone, mainland, and offshore companies.",
   keywords: [
     "Dubai business setup FAQ",
     "company formation questions UAE",
+    "UAE visa documentation",
+    "visa application support UAE",
     "visa consultancy FAQ",
     "freezone setup questions",
     "mainland company FAQ",
@@ -19,9 +21,9 @@ export const metadata: Metadata = {
     canonical: `${SITE_URL}/faq`,
   },
   openGraph: {
-    title: "FAQ | Business Setup & Visas UAE",
+    title: "FAQ | UAE Business & Visa Documentation",
     description:
-      "Answers to common questions about company formation and visas in the UAE.",
+      "Answers to common questions about company formation and UAE visa documentation support.",
     url: `${SITE_URL}/faq`,
   },
 };

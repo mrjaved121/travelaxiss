@@ -3,10 +3,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Phone, Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useId, useState } from "react";
+
+const MOBILE_NAV_PANEL_ID = "primary-navigation-mobile";
 
 export default function Header() {
   const pathname = usePathname();
+  const navLabelId = useId();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const phoneNumber = "+971589867555";
@@ -27,24 +30,29 @@ export default function Header() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="text-3xl font-bold">
+          <Link
+            href="/"
+            className="flex items-center space-x-2 rounded-sm"
+            aria-label="Travelaxis home"
+          >
+            <span aria-hidden="true" className="text-3xl font-bold">
               <span style={{ color: "#C9A24A" }}>Travel</span>
               <span style={{ color: "#111111" }}>axis</span>
-            </div>
+            </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8" aria-label="Primary">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 href={link.path}
-                className={`transition-colors ${
+                className={`transition-colors rounded-sm focus-visible:outline-offset-4 ${
                   isActive(link.path) ? "font-semibold" : "hover:opacity-70"
                 }`}
                 style={{
                   color: isActive(link.path) ? "#C9A24A" : "#111111",
                 }}
+                aria-current={isActive(link.path) ? "page" : undefined}
               >
                 {link.name}
               </Link>
@@ -58,56 +66,75 @@ export default function Header() {
               rel="noopener noreferrer"
               className="flex items-center space-x-2 px-6 py-3 rounded-lg transition-all hover:opacity-90"
               style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+              aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
             >
-              <Phone className="w-5 h-5" />
+              <Phone className="w-5 h-5" aria-hidden />
               <span className="font-semibold">Call Now</span>
             </a>
           </div>
 
           <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2"
-            style={{ color: "#111111" }}
             type="button"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="lg:hidden p-2 rounded-sm"
+            style={{ color: "#111111" }}
             aria-expanded={mobileMenuOpen}
-            aria-label="Toggle menu"
+            aria-controls={MOBILE_NAV_PANEL_ID}
+            aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" aria-hidden />
+            ) : (
+              <Menu className="w-6 h-6" aria-hidden />
+            )}
           </button>
         </div>
 
-        {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-200">
-            <nav className="flex flex-col space-y-4">
+        {mobileMenuOpen ? (
+          <div
+            id={MOBILE_NAV_PANEL_ID}
+            className="lg:hidden py-4 border-t border-gray-200"
+            role="navigation"
+            aria-labelledby={navLabelId}
+          >
+            <p id={navLabelId} className="sr-only">
+              Mobile site menu
+            </p>
+            <ul className="flex flex-col space-y-1 list-none p-0 m-0">
               {navLinks.map((link) => (
-                <Link
-                  key={link.path}
-                  href={link.path}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className={`px-4 py-2 transition-colors ${
-                    isActive(link.path) ? "font-semibold" : "hover:opacity-70"
-                  }`}
-                  style={{
-                    color: isActive(link.path) ? "#C9A24A" : "#111111",
-                  }}
-                >
-                  {link.name}
-                </Link>
+                <li key={link.path}>
+                  <Link
+                    href={link.path}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className={`block px-4 py-2 transition-colors rounded-sm ${
+                      isActive(link.path) ? "font-semibold" : "hover:opacity-70"
+                    }`}
+                    style={{
+                      color: isActive(link.path) ? "#C9A24A" : "#111111",
+                    }}
+                    aria-current={isActive(link.path) ? "page" : undefined}
+                  >
+                    {link.name}
+                  </Link>
+                </li>
               ))}
-              <a
-                href={whatsappLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-                className="mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-lg"
-                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
-              >
-                <Phone className="w-5 h-5" />
-                <span className="font-semibold">Call Now</span>
-              </a>
-            </nav>
+              <li className="pt-2">
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-lg"
+                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
+                >
+                  <Phone className="w-5 h-5" aria-hidden />
+                  <span className="font-semibold">Call Now</span>
+                </a>
+              </li>
+            </ul>
           </div>
-        )}
+        ) : null}
       </div>
     </header>
   );

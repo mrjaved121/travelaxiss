@@ -13,7 +13,7 @@ export function generateStaticParams() {
 type Props = { params: Promise<{ slug: string }> };
 
 const blogKeywords =
-  "company formation UAE, business setup Dubai, freezone company, visa services, UAE business";
+  "company formation UAE, business setup Dubai, freezone company, UAE visa documentation, visa application support UAE, UAE business";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

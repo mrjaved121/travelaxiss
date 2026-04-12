@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
         </p>
         <p className="pt-8">
           <Link href="/" className="text-sm font-medium underline" style={{ color: "#C9A24A" }}>
-            ← Back to home
+            Return to Travelaxis home
           </Link>
         </p>
       </div>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Government Services UAE – Business Approvals & Regulatory Support Dubai",
   description:
-    "Get fast government approvals in UAE. We handle Dubai Chamber, customs registration, and all regulatory services with expert support.",
+    "Coordination support for UAE business approvals: documentation preparation and submission assistance for Dubai Chamber, customs registration, and regulatory steps—aiming to reduce avoidable delays.",
   keywords: [
     "government services UAE",
     "Dubai Chamber registration UAE",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Government Services UAE – Business Approvals & Regulatory Support Dubai",
     description:
-      "Get fast government approvals in UAE. We handle Dubai Chamber, customs registration, and all regulatory services with expert support.",
+      "Coordination support for UAE business approvals: documentation preparation and submission assistance for Dubai Chamber, customs registration, and regulatory steps.",
   },
 };
 

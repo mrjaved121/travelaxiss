@@ -10,17 +10,20 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
 
   if (!blog) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
+      <div className="min-h-screen flex items-center justify-center px-4" role="alert">
+        <div className="text-center max-w-md">
           <h1 className="text-3xl font-bold mb-4" style={{ color: '#111111' }}>Blog Not Found</h1>
-          <Link href="/blog" className="text-lg" style={{ color: '#C9A24A' }}>← Back to Blog</Link>
+          <p className="text-gray-600 mb-6">We could not find that article. It may have been moved or removed.</p>
+          <Link href="/blog" className="text-lg font-semibold" style={{ color: '#C9A24A' }}>
+            Return to the Travelaxis blog listing
+          </Link>
         </div>
       </div>
     );
   }
 
   return (
-    <div>
+    <article aria-labelledby="blog-article-title">
       {/* Back Button */}
       <section className="py-6" style={{ backgroundColor: '#F5F5F5' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,8 +32,8 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
             className="inline-flex items-center space-x-2 hover:underline"
             style={{ color: '#C9A24A' }}
           >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Back to Blog</span>
+            <ArrowLeft className="w-4 h-4" aria-hidden />
+            <span>Back to all Travelaxis blog articles</span>
           </Link>
         </div>
       </section>
@@ -48,17 +51,17 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
               </span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
+            <h1 id="blog-article-title" className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
               {blog.title}
             </h1>
             
             <div className="flex items-center space-x-6 text-gray-600 mb-6">
               <div className="flex items-center space-x-2">
-                <Calendar className="w-5 h-5" />
+                <Calendar className="w-5 h-5" aria-hidden />
                 <span>{blog.date}</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Clock className="w-5 h-5" />
+                <Clock className="w-5 h-5" aria-hidden />
                 <span>{blog.readTime}</span>
               </div>
             </div>
@@ -76,7 +79,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
           >
             <img 
               src={blog.image} 
-              alt={blog.title}
+              alt={`Featured image for the article: ${blog.title}`}
               className="w-full h-96 object-cover rounded-xl shadow-lg"
             />
           </motion.div>
@@ -138,7 +141,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                                   key={i}
                                   className="flex items-start space-x-3 text-gray-700"
                                 >
-                                  <span className="text-[#C9A24A]">👉</span>
+                                  <span className="text-[#C9A24A]" aria-hidden>👉</span>
                                   <span>{item}</span>
                                 </li>
                               ))}
@@ -815,7 +818,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                     {section.faqs.map((faq: any, idx: number) => (
                       <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
                         <h3 className="text-lg font-bold mb-2 flex items-start" style={{ color: '#C9A24A' }}>
-                          <span className="mr-2">❓</span>
+                          <span className="mr-2" aria-hidden>❓</span>
                           {faq.question}
                         </h3>
                         <p className="text-gray-700 pl-7">{faq.answer}</p>
@@ -853,9 +856,10 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90"
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              aria-label="Contact Travelaxis on WhatsApp about UAE business setup (opens in a new tab)"
             >
               <span>Contact Us on WhatsApp</span>
-              <ArrowLeft className="w-5 h-5 rotate-180" />
+              <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
             </a>
           </motion.div>
         </div>
@@ -866,7 +870,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between border-t border-b py-6" style={{ borderColor: '#F5F5F5' }}>
             <div className="flex items-center space-x-2">
-              <Share2 className="w-5 h-5" style={{ color: '#C9A24A' }} />
+              <Share2 className="w-5 h-5" style={{ color: '#C9A24A' }} aria-hidden />
               <span className="font-semibold" style={{ color: '#111111' }}>Share this article</span>
             </div>
             <Link 
@@ -874,11 +878,11 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
               className="font-semibold hover:underline"
               style={{ color: '#C9A24A' }}
             >
-              Read More Articles →
+              View all Travelaxis blog articles
             </Link>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

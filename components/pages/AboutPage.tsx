@@ -27,7 +27,7 @@ export default function AboutPage() {
               Building Businesses, <span style={{ color: '#C9A24A' }}>Driving Success</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
-              We specialize in helping businesses establish and grow through structured support, professional guidance, and regulatory expertise. Our focus is to provide reliable solutions that align with each client's goals.
+              We help businesses establish and grow through structured support, clear communication, and regulatory awareness. Our work spans company formation, government-related coordination, and UAE visa documentation and application guidance—always aligned with official requirements and each client&apos;s goals.
             </p>
           </motion.div>
         </div>
@@ -44,12 +44,12 @@ export default function AboutPage() {
               className="p-8 rounded-lg"
               style={{ backgroundColor: '#F5F5F5' }}
             >
-              <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }}>
+              <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
                 <Target className="w-7 h-7" style={{ color: '#111111' }} />
               </div>
               <h2 className="text-2xl font-bold mb-4" style={{ color: '#111111' }}>Our Mission</h2>
               <p className="text-gray-700 text-lg">
-                To deliver professional and structured services that help businesses operate efficiently and grow with confidence.
+                To deliver professional, structured services with accurate documentation, realistic timelines, and transparent expectations—so businesses can operate efficiently and grow with confidence.
               </p>
             </motion.div>
 
@@ -60,12 +60,12 @@ export default function AboutPage() {
               className="p-8 rounded-lg"
               style={{ backgroundColor: '#F5F5F5' }}
             >
-              <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }}>
+              <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
                 <Eye className="w-7 h-7" style={{ color: '#111111' }} />
               </div>
               <h2 className="text-2xl font-bold mb-4" style={{ color: '#111111' }}>Our Vision</h2>
               <p className="text-gray-700 text-lg">
-                To be recognized as a trusted partner for business formation and support services.
+                To be recognized as a trusted UAE consultancy partner for business formation and documentation-led visa support.
               </p>
             </motion.div>
           </div>
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-6 flex items-center space-x-4 shadow-sm"
               >
-                <CheckCircle className="w-6 h-6 flex-shrink-0" style={{ color: '#C9A24A' }} />
+                <CheckCircle className="w-6 h-6 flex-shrink-0" style={{ color: '#C9A24A' }} aria-hidden />
                 <span className="text-lg" style={{ color: '#111111' }}>{value}</span>
               </motion.div>
             ))}
@@ -124,7 +124,7 @@ export default function AboutPage() {
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
             >
               <span>Contact Us</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
         </div>

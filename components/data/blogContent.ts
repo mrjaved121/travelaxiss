@@ -576,10 +576,10 @@ export const blogData: Record<string, any> = {
     metaDescription: "Learn how to get a freelance visa in UAE. Complete guide covering requirements, process, documents, benefits, and how to start freelancing.",
     date: "April 9, 2026",
     readTime: "10 min read",
-    category: "Visa Services",
+    category: "UAE Visa Documentation",
     image: "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVlbGFuY2VyJTIwd29ya2luZyUyMGxhcHRvcCUyMHJlbW90ZSUyMGRpZ2l0YWwlMjBub21hZCUyMFVBRSUyMER1YmFpJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NTczNjkwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     content: {
-      intro: "The UAE is becoming one of the top destinations for freelancers and remote workers. With flexible business options and a growing digital economy, many professionals are choosing the UAE to work independently. One of the best options available is the Freelance Visa UAE. This visa allows you to live in UAE, work independently, and offer services legally. Many people ask: What is a freelance visa? Who can apply? How can I get it? What are the requirements? This complete guide will explain everything step by step in simple English.",
+      intro: "The UAE is becoming one of the top destinations for freelancers and remote workers. With flexible business options and a growing digital economy, many professionals are choosing the UAE to work independently. One of the best options available is the Freelance Visa UAE. This visa allows you to live in UAE, work independently, and offer services legally. Many people ask: What is a freelance visa? Who can apply? How can I get it? What are the requirements? This complete guide will explain everything step by step in simple English. This article is for general information only. Travelaxis provides documentation assistance and consultancy support—not government visa issuance; approvals are decided by UAE authorities.",
       sections: [
         {
           heading: "What is a Freelance Visa in UAE?",
@@ -660,7 +660,7 @@ export const blogData: Record<string, any> = {
         },
         {
           heading: "Why Professional Consultancy Helps",
-          content: "Freelance visa process includes documentation, approval, and legal steps. A consultancy helps avoid mistakes and speed up process."
+          content: "The freelance visa pathway includes documentation, authority review, and legal steps. A consultancy can help you prepare files correctly and navigate requirements—outcomes and timelines depend on the authorities."
         },
         {
           heading: "Frequently Asked Questions",
@@ -700,7 +700,7 @@ function stubBlogFromSummary(s: BlogPostSummary) {
         {
           heading: "How Travelaxis can help",
           content:
-            "We support UAE company formation, visas, licensing, and ongoing compliance. Contact us for guidance tailored to your business.",
+            "We support UAE company formation, visa documentation and application guidance, licensing, and ongoing compliance. We provide consultancy and documentation assistance only—not government visa issuance. Contact us for guidance tailored to your business.",
         },
       ],
     },

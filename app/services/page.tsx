@@ -3,11 +3,13 @@ import ServicesPage from "@/components/pages/ServicesPage";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Business Setup Services UAE - Company Formation Dubai",
+  title: "Business Setup & UAE Visa Documentation Services | Travelaxis",
   description:
-    "Complete business setup services in UAE including company formation, government approvals, legal documentation, and business support. Expert assistance for mainland, freezone, and offshore companies.",
+    "Company formation, government coordination, legal documentation, business support, and UAE visa documentation and consultancy—structured assistance for mainland, freezone, and offshore companies.",
   keywords: [
     "business setup UAE",
+    "UAE visa documentation",
+    "visa application support UAE",
     "company formation Dubai",
     "government services UAE",
     "legal documentation Dubai",
@@ -18,9 +20,9 @@ export const metadata: Metadata = {
     canonical: `${SITE_URL}/services`,
   },
   openGraph: {
-    title: "Business Setup Services UAE | Travelaxis",
+    title: "Business Setup & UAE Visa Documentation | Travelaxis",
     description:
-      "Company formation, government approvals, legal documentation, and ongoing business support in the UAE.",
+      "Company formation, government coordination, legal documentation, business support, and UAE visa documentation assistance.",
     url: `${SITE_URL}/services`,
   },
 };

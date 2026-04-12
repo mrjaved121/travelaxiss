@@ -5,23 +5,24 @@ import { blogListingJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Blog - Business Setup & Company Formation UAE",
+  title: "Blog | UAE Business Setup & Visa Documentation Guides",
   description:
-    "Expert insights and guides on company formation, business setup, visa services, and entrepreneurship in UAE and Dubai.",
+    "Expert insights on company formation, compliance, and UAE visa rules and documentation—for general information; not legal advice.",
   keywords: [
     "UAE business blog",
     "company formation guide",
+    "UAE visa documentation",
+    "visa application support UAE",
     "Dubai business tips",
     "freezone setup guide",
-    "UAE visa information",
   ],
   alternates: {
     canonical: `${SITE_URL}/blog`,
   },
   openGraph: {
-    title: "Blog | UAE Business & Visas",
+    title: "Blog | UAE Business & Visa Documentation",
     description:
-      "Guides and articles on company formation, visas, and doing business in the UAE.",
+      "Guides on company formation, compliance, and UAE visa documentation topics.",
     url: `${SITE_URL}/blog`,
   },
 };

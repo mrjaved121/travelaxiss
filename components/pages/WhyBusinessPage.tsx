@@ -157,7 +157,7 @@ export default function WhyBusinessPage() {
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
             >
               <span>Start Your Journey</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
         </div>

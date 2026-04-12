@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Terms and conditions for using the Travelaxis website and engaging our UAE business and visa consultancy services.",
+    "Terms and conditions for using the Travelaxis website and engaging our UAE business and visa documentation consultancy services.",
   alternates: {
     canonical: `${SITE_URL}/terms`,
   },
@@ -28,9 +28,9 @@ export default function TermsPage() {
           Services
         </h2>
         <p>
-          We provide professional consultancy relating to business setup, visas, and related
-          processes in the UAE. Government and third-party decisions (approvals, timelines, fees) are
-          outside our control.
+          We provide professional consultancy relating to business setup, UAE visa documentation and
+          application guidance, and related processes. Government and third-party decisions
+          (approvals, timelines, fees) are outside our control.
         </p>
         <h2 className="text-xl font-semibold pt-4 text-neutral-900">
           No guarantee of outcomes
@@ -56,7 +56,7 @@ export default function TermsPage() {
         </p>
         <p className="pt-8">
           <Link href="/" className="text-sm font-medium underline" style={{ color: "#C9A24A" }}>
-            ← Back to home
+            Return to Travelaxis home
           </Link>
         </p>
       </div>

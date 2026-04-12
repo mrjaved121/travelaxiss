@@ -5,11 +5,13 @@ import { professionalServiceJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Visa Consultancy UAE | Business Setup Dubai",
+  title: "UAE Business Setup & Visa Documentation Support | Travelaxis Dubai",
   description:
-    "Professional visa consultancy and business setup services in UAE. Expert support for company formation, government approvals, and legal documentation in Dubai. 11+ years experience.",
+    "Premium UAE consultancy for company formation, government coordination, and legal documentation—plus UAE visa documentation and application guidance. Structured support in Dubai. 11+ years experience.",
   keywords: [
     "visa consultancy UAE",
+    "UAE visa documentation",
+    "visa application support UAE",
     "business setup Dubai",
     "company formation UAE",
     "Dubai business services",
@@ -24,9 +26,9 @@ export const metadata: Metadata = {
     google: "zkDBpIKHKEwlOYkVQQ4OL-rcZna0NxhTkNqNn8VEYUE",
   },
   openGraph: {
-    title: "Visa Consultancy UAE | Business Setup Dubai",
+    title: "UAE Business Setup & Visa Documentation Support | Travelaxis",
     description:
-      "Professional visa consultancy and business setup services in UAE. Expert support for company formation and legal documentation in Dubai.",
+      "Company formation, compliance, and UAE visa documentation and consultancy—expert support in Dubai.",
     url: `${SITE_URL}/`,
   },
 };

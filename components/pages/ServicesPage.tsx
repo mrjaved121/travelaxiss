@@ -30,8 +30,9 @@ export default function ServicesPage() {
       link: "/services/business-support",
     },
     {
-      title: "Visa Services",
-      description: "Investor, employment, and family visas, visit permits, renewals, and cancellations—handled with clear guidance.",
+      title: "UAE Visa Documentation & Consultancy",
+      description:
+        "Investor, employment, and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
       icon: Plane,
       link: "/services/visa-services",
     },
@@ -40,8 +41,9 @@ export default function ServicesPage() {
   const advantages = [
     {
       icon: Clock,
-      title: "Guaranteed Timeline",
-      description: "We ensure timely delivery with clear deadlines and milestone tracking.",
+      title: "Clear Timelines & Milestones",
+      description:
+        "Planned delivery dates with proactive follow-up—subject to authority processing times.",
     },
     {
       icon: Target,
@@ -76,8 +78,11 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Cards */}
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
+      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }} aria-labelledby="services-overview-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 id="services-overview-heading" className="sr-only">
+            Service overview
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <motion.div
@@ -89,7 +94,7 @@ export default function ServicesPage() {
                 className="rounded-lg p-8 shadow-sm hover:shadow-md transition-all"
                 style={{ backgroundColor: '#F5F5F5' }}
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }}>
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
                   <service.icon className="w-7 h-7" style={{ color: '#111111' }} />
                 </div>
                 <h3 className="text-2xl font-bold mb-4" style={{ color: '#111111' }}>
@@ -101,8 +106,8 @@ export default function ServicesPage() {
                   className="inline-flex items-center space-x-2 font-semibold transition-opacity hover:opacity-70"
                   style={{ color: '#C9A24A' }}
                 >
-                  <span>Learn More</span>
-                  <ArrowRight className="w-5 h-5" />
+                  <span>{`Learn more about ${service.title}`}</span>
+                  <ArrowRight className="w-5 h-5" aria-hidden />
                 </Link>
               </motion.div>
             ))}
@@ -134,7 +139,7 @@ export default function ServicesPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 text-center shadow-sm"
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: '#C9A24A' }}>
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
                   <advantage.icon className="w-7 h-7" style={{ color: '#111111' }} />
                 </div>
                 <h3 className="text-xl font-bold mb-4" style={{ color: '#111111' }}>
@@ -166,8 +171,8 @@ export default function ServicesPage() {
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
               style={{ backgroundColor: '#C9A24A', color: '#111111' }}
             >
-              <span>Contact Us</span>
-              <ArrowRight className="w-5 h-5" />
+              <span>Contact Travelaxis about our services</span>
+              <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
         </div>

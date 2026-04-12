@@ -795,7 +795,7 @@ export default function BusinessSupportPage() {
                 style={{ backgroundColor: "#C9A24A", color: "#111111" }}
               >
                 <span>Get Support Now</span>
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
               <a
                 href={WHATSAPP_HREF}
