@@ -1,96 +1,363 @@
-'use client';
+"use client";
 
 import Link from "next/link";
 import {
   CheckCircle,
   ArrowRight,
   Clock,
-  Lightbulb,
-  ClipboardList,
-  PlusCircle,
-  Rocket,
+  Building2,
+  Globe2,
+  Anchor,
+  FileBadge,
+  Shield,
+  Sparkles,
 } from "lucide-react";
 import { motion } from "motion/react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
+const WHATSAPP_HREF = "https://wa.me/971589867555";
+
+const whyChooseUs = [
+  {
+    title: "Expert Guidance",
+    body: "We help you select the best business structure based on your goals.",
+  },
+  {
+    title: "Fast Processing",
+    body: "We work toward quick approvals and minimal unnecessary delays.",
+  },
+  {
+    title: "Complete Transparency",
+    body: "No hidden steps — everything is clear and easy to follow.",
+  },
+  {
+    title: "End-to-End Support",
+    body: "From idea to launch — we stay with you through the journey.",
+  },
+];
+
+const formationServices: {
+  title: string;
+  description: string;
+  listLabel: "Benefits" | "Includes";
+  items: string[];
+  icon: typeof Building2;
+}[] = [
+  {
+    title: "Mainland Company Setup",
+    description:
+      "Start your business in the UAE mainland and operate freely across the country.",
+    listLabel: "Benefits",
+    items: [
+      "No business restrictions",
+      "Access to UAE local market",
+      "Eligible for government contracts",
+    ],
+    icon: Building2,
+  },
+  {
+    title: "Freezone Company Formation",
+    description:
+      "Perfect for startups and international entrepreneurs who want a streamlined setup.",
+    listLabel: "Benefits",
+    items: [
+      "100% foreign ownership",
+      "Easy and fast setup",
+      "No physical office required (in many cases)",
+    ],
+    icon: Globe2,
+  },
+  {
+    title: "Offshore Company Setup",
+    description:
+      "Best for international business and asset management structures.",
+    listLabel: "Benefits",
+    items: [
+      "Tax efficiency",
+      "Privacy protection",
+      "Global business operations",
+    ],
+    icon: Anchor,
+  },
+  {
+    title: "Trade License Processing",
+    description:
+      "We handle the complete process of obtaining your UAE trade license.",
+    listLabel: "Includes",
+    items: [
+      "Business activity selection",
+      "License approval",
+      "Documentation handling",
+    ],
+    icon: FileBadge,
+  },
+  {
+    title: "Regulatory Compliance Support",
+    description:
+      "Ensure your business meets UAE legal requirements as they evolve.",
+    listLabel: "Includes",
+    items: [
+      "Ongoing compliance support",
+      "License renewals",
+      "Regulatory updates",
+    ],
+    icon: Shield,
+  },
+];
+
+const processSteps = [
+  {
+    step: "Step 1: Business Consultation",
+    text: "We understand your business idea and goals.",
+  },
+  {
+    step: "Step 2: Choose Business Structure",
+    text: "Mainland, freezone, or offshore — aligned with your plan.",
+  },
+  {
+    step: "Step 3: Documentation & Approval",
+    text: "We prepare and submit all required documents.",
+  },
+  {
+    step: "Step 4: Trade License Issuance",
+    text: "Your business becomes officially registered.",
+  },
+  {
+    step: "Step 5: Business Launch",
+    text: "You are ready to operate in the UAE.",
+  },
+];
+
+const uaeBenefits = [
+  "Strong economy",
+  "Tax advantages",
+  "Global business hub",
+  "Strategic location",
+  "Business-friendly environment",
+];
+
+const whoBenefits = [
+  "Entrepreneurs",
+  "Startups",
+  "Investors",
+  "Freelancers",
+  "International business owners",
+];
+
+const faqs = [
+  {
+    q: "How can I start a company in UAE?",
+    a: "You need to choose a business type, submit the right documents, and obtain a trade license. We guide you through each step.",
+  },
+  {
+    q: "Can foreigners open a company in UAE?",
+    a: "Yes. Foreigners can own and operate businesses in the UAE, including in many freezones with full foreign ownership.",
+  },
+  {
+    q: "Which is better: mainland or freezone?",
+    a: "It depends on your business goals, target market, and whether you need to trade directly with the UAE mainland. We help you compare options.",
+  },
+  {
+    q: "Do I need an office?",
+    a: "It depends on your license type and jurisdiction. Some freezones allow flexible or shared office arrangements.",
+  },
+];
+
+const packages = [
+  {
+    name: "Standard Company Formation",
+    tagline: "Best for startups and small businesses.",
+    features: [
+      "Complete documentation",
+      "Trade license processing",
+      "Government approvals",
+      "Basic compliance setup",
+    ],
+    footnote: "Ideal for budget-friendly setup",
+    highlighted: false,
+  },
+  {
+    name: "Express Company Formation",
+    tagline: "For a fast business launch.",
+    features: [
+      "Priority processing",
+      "Faster approvals",
+      "Dedicated support",
+      "Premium assistance",
+    ],
+    footnote: "Ideal for urgent business setup",
+    highlighted: true,
+  },
+];
 
 export default function CompanyFormationPage() {
-  const features = [
-    "Mainland Company Setup",
-    "Freezone Registration",
-    "Offshore Incorporation",
-    "License Processing",
-    "Regulatory Compliance",
-  ];
-
-  const journeySteps = [
-    {
-      label: "Idea",
-      description: "Define your business goals and the right path forward.",
-      icon: Lightbulb,
-    },
-    {
-      label: "Planning",
-      description: "Structure, jurisdiction, and documentation mapped out clearly.",
-      icon: ClipboardList,
-    },
-    {
-      label: "License",
-      description: "Applications, approvals, and registration handled end to end.",
-      icon: PlusCircle,
-    },
-    {
-      label: "Launch",
-      description: "Go live with compliance in place and ongoing support available.",
-      icon: Rocket,
-    },
-  ];
-
-  const packages = [
-    {
-      name: "Standard Formation",
-      duration: "7–10 Working Days",
-      description: "Complete business formation with standard processing timelines.",
-      features: [
-        "Business license processing",
-        "Registration with authorities",
-        "Initial documentation",
-        "Compliance setup",
-      ],
-    },
-    {
-      name: "Express Formation",
-      duration: "3–5 Working Days",
-      description: "Fast-track formation for urgent business requirements.",
-      features: [
-        "Priority processing",
-        "Expedited approvals",
-        "Dedicated support team",
-        "Same services as standard",
-      ],
-      highlighted: true,
-    },
-  ];
-
   return (
     <div>
-      {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      {/* Hero */}
+      <section className="py-20 md:py-24" style={{ backgroundColor: "#F5F5F5" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
-              Company <span style={{ color: '#C9A24A' }}>Formation</span>
+            <h1
+              className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
+              style={{ color: "#111111" }}
+            >
+              Company Formation in UAE – Start Your Business with{" "}
+              <span style={{ color: "#C9A24A" }}>Confidence</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
-              We provide end-to-end support for establishing businesses across mainland, freezone, and offshore jurisdictions.
+            <p className="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
+              Start your business in the UAE with a simple and stress-free
+              process. We help entrepreneurs, startups, and investors set up
+              companies with complete legal support and fast approvals.
             </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["Mainland", "Freezone", "Offshore"].map((label) => (
+                <span
+                  key={label}
+                  className="px-4 py-2 rounded-full text-sm font-semibold"
+                  style={{ backgroundColor: "#111111", color: "#C9A24A" }}
+                >
+                  {label}
+                </span>
+              ))}
+            </div>
+            <p className="text-lg text-gray-700 mb-8 font-medium">
+              100% guidance from start to finish.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+              >
+                Get Free Consultation
+              </Link>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ borderColor: "#111111", color: "#111111" }}
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      {/* Service overview */}
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-4xl"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-6"
+              style={{ color: "#111111" }}
+            >
+              Complete Company Formation Services in{" "}
+              <span style={{ color: "#C9A24A" }}>UAE</span>
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              We provide complete business setup solutions in the UAE — from{" "}
+              <strong>company formation UAE</strong> and{" "}
+              <strong>business setup UAE</strong> to{" "}
+              <strong>UAE company registration</strong> and{" "}
+              <strong>trade license UAE</strong> support — helping you turn your
+              idea into a legally established company.
+            </p>
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+              From choosing the right structure to getting your trade license,
+              our team handles everything with accuracy and speed. If you want
+              to <strong>start a business in Dubai</strong> or elsewhere in the
+              Emirates, we map the right path for you.
+            </p>
+            <p className="font-semibold mb-4" style={{ color: "#111111" }}>
+              We help you:
+            </p>
+            <ul className="space-y-3">
+              {[
+                "Choose the right business structure",
+                "Complete legal documentation",
+                "Get government approvals",
+                "Launch your business smoothly",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <CheckCircle
+                    className="w-6 h-6 flex-shrink-0 mt-0.5"
+                    style={{ color: "#C9A24A" }}
+                  />
+                  <span className="text-lg text-gray-700">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Why choose us */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 max-w-3xl"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Why Choose Our Company Formation Services?
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Starting a business in the UAE involves multiple steps, approvals,
+              and legal requirements. Our experts simplify the entire process
+              for you.
+            </p>
+          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {whyChooseUs.map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.06 }}
+                className="rounded-xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
+              >
+                <div className="flex items-start gap-3 mb-3">
+                  <span className="text-xl" aria-hidden>
+                    ✅
+                  </span>
+                  <h3
+                    className="text-xl font-bold"
+                    style={{ color: "#111111" }}
+                  >
+                    {item.title}
+                  </h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed pl-9">{item.body}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Services we offer */}
+      <section className="py-20" style={{ backgroundColor: "#111111" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -98,44 +365,65 @@ export default function CompanyFormationPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              From Concept to <span style={{ color: '#C9A24A' }}>Launch</span>
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#FFFFFF" }}
+            >
+              Business Setup Services We{" "}
+              <span style={{ color: "#C9A24A" }}>Offer</span>
             </h2>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Travelaxis provides complete business setup solutions, guiding you through each step with clarity and precision.
-              Our experts manage all requirements and help you choose the best structure and jurisdiction for your goals.
-            </p>
           </motion.div>
-
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-            {journeySteps.map((step, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {formationServices.map((svc, index) => (
               <motion.div
-                key={step.label}
+                key={svc.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
-                className="flex flex-col items-center text-center rounded-xl p-6 md:p-8 border border-white/10"
-                style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}
+                transition={{ delay: index * 0.05 }}
+                className="rounded-xl p-6 md:p-8 border border-white/10"
+                style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <div
-                  className="w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mb-4"
-                  style={{ backgroundColor: '#C9A24A' }}
+                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#C9A24A" }}
                 >
-                  <step.icon className="w-7 h-7 md:w-8 md:h-8" style={{ color: '#111111' }} />
+                  <svc.icon className="w-6 h-6" style={{ color: "#111111" }} />
                 </div>
-                <h3 className="text-lg font-bold mb-2" style={{ color: '#FFFFFF' }}>
-                  {step.label}
+                <h3
+                  className="text-lg font-bold mb-2"
+                  style={{ color: "#FFFFFF" }}
+                >
+                  {svc.title}
                 </h3>
-                <p className="text-sm text-gray-400 leading-snug">{step.description}</p>
+                <p className="text-sm text-gray-400 mb-4 leading-relaxed">
+                  {svc.description}
+                </p>
+                <p
+                  className="text-xs font-semibold uppercase tracking-wide mb-2"
+                  style={{ color: "#C9A24A" }}
+                >
+                  {svc.listLabel}
+                </p>
+                <ul className="space-y-2">
+                  {svc.items.map((line) => (
+                    <li
+                      key={line}
+                      className="flex items-start gap-2 text-sm text-gray-300"
+                    >
+                      <span className="text-[#C9A24A] mt-0.5">👉</span>
+                      <span>{line}</span>
+                    </li>
+                  ))}
+                </ul>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Key Features */}
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
+      {/* Process */}
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -143,32 +431,101 @@ export default function CompanyFormationPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="text-3xl font-bold mb-6" style={{ color: '#111111' }}>
-              Key <span style={{ color: '#C9A24A' }}>Features</span>
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Step-by-Step Company Formation Process in{" "}
+              <span style={{ color: "#C9A24A" }}>UAE</span>
             </h2>
+            <p className="text-lg text-gray-700 max-w-3xl">
+              We follow a simple and structured process to set up your business.
+            </p>
           </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {features.map((feature, index) => (
+          <div className="space-y-4 max-w-4xl">
+            {processSteps.map((s, index) => (
               <motion.div
-                key={feature}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                key={s.step}
+                initial={{ opacity: 0, x: -12 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="flex items-center space-x-4 p-6 rounded-lg shadow-sm"
-                style={{ backgroundColor: '#F5F5F5' }}
+                transition={{ delay: index * 0.05 }}
+                className="flex gap-4 md:gap-6 rounded-xl p-6 shadow-sm"
+                style={{ backgroundColor: "#F5F5F5" }}
               >
-                <CheckCircle className="w-6 h-6 flex-shrink-0" style={{ color: '#C9A24A' }} />
-                <span className="text-lg" style={{ color: '#111111' }}>{feature}</span>
+                <div
+                  className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
+                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                >
+                  {index + 1}
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold mb-1" style={{ color: "#111111" }}>
+                    {s.step}
+                  </h3>
+                  <p className="text-gray-700">{s.text}</p>
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
+      {/* Timeline */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-4xl"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-8"
+              style={{ color: "#111111" }}
+            >
+              How Long Does Company Formation{" "}
+              <span style={{ color: "#C9A24A" }}>Take?</span>
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="rounded-xl p-6 bg-white shadow-sm border border-gray-100">
+                <div className="flex items-center gap-2 mb-2">
+                  <Clock className="w-6 h-6" style={{ color: "#C9A24A" }} />
+                  <h3 className="text-xl font-bold" style={{ color: "#111111" }}>
+                    Standard process
+                  </h3>
+                </div>
+                <p className="text-2xl font-bold mb-1" style={{ color: "#C9A24A" }}>
+                  5–10 working days
+                </p>
+                <p className="text-gray-600 text-sm">
+                  Typical timeline for many setups once documents are complete.
+                </p>
+              </div>
+              <div className="rounded-xl p-6 bg-white shadow-sm border border-gray-100">
+                <div className="flex items-center gap-2 mb-2">
+                  <Sparkles className="w-6 h-6" style={{ color: "#C9A24A" }} />
+                  <h3 className="text-xl font-bold" style={{ color: "#111111" }}>
+                    Express setup
+                  </h3>
+                </div>
+                <p className="text-lg font-semibold text-gray-800 mb-1">
+                  Faster processing available
+                </p>
+                <p className="text-gray-600 text-sm">
+                  For eligible cases when urgency and completeness align.
+                </p>
+              </div>
+            </div>
+            <p className="text-gray-700 italic">
+              Time depends on approvals, activity type, and jurisdiction.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Packages */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -176,12 +533,14 @@ export default function CompanyFormationPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4" style={{ color: '#111111' }}>
-              Choose Your <span style={{ color: '#C9A24A' }}>Package</span>
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Flexible Business Setup{" "}
+              <span style={{ color: "#C9A24A" }}>Packages</span>
             </h2>
-            <p className="text-lg text-gray-600">Select the formation package that best suits your timeline.</p>
           </motion.div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {packages.map((pkg, index) => (
               <motion.div
@@ -189,35 +548,52 @@ export default function CompanyFormationPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className={`bg-white rounded-lg p-8 shadow-sm ${pkg.highlighted ? 'ring-2' : ''}`}
-                style={pkg.highlighted ? { borderColor: '#C9A24A' } : {}}
+                transition={{ delay: index * 0.08 }}
+                className={`rounded-xl p-8 shadow-sm ${
+                  pkg.highlighted ? "ring-2" : ""
+                }`}
+                style={
+                  pkg.highlighted
+                    ? { borderColor: "#C9A24A", backgroundColor: "#FFFCF5" }
+                    : { backgroundColor: "#F5F5F5" }
+                }
               >
                 {pkg.highlighted && (
-                  <div className="inline-block px-4 py-1 rounded-full mb-4" style={{ backgroundColor: '#C9A24A', color: '#111111' }}>
-                    <span className="text-sm font-semibold">Most Popular</span>
+                  <div
+                    className="inline-block px-4 py-1 rounded-full mb-4 text-sm font-semibold"
+                    style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  >
+                    Fast track
                   </div>
                 )}
-                <h3 className="text-2xl font-bold mb-2" style={{ color: '#111111' }}>
+                <h3
+                  className="text-2xl font-bold mb-2"
+                  style={{ color: "#111111" }}
+                >
                   {pkg.name}
                 </h3>
-                <div className="flex items-center space-x-2 mb-4">
-                  <Clock className="w-5 h-5" style={{ color: '#C9A24A' }} />
-                  <span className="font-semibold" style={{ color: '#C9A24A' }}>{pkg.duration}</span>
-                </div>
-                <p className="text-gray-600 mb-6">{pkg.description}</p>
-                <ul className="space-y-3 mb-8">
-                  {pkg.features.map((feature) => (
-                    <li key={feature} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#C9A24A' }} />
-                      <span className="text-gray-700">{feature}</span>
+                <p className="text-gray-600 mb-6">{pkg.tagline}</p>
+                <p className="text-sm font-semibold mb-3" style={{ color: "#111111" }}>
+                  Includes:
+                </p>
+                <ul className="space-y-3 mb-6">
+                  {pkg.features.map((f) => (
+                    <li key={f} className="flex items-start gap-2">
+                      <CheckCircle
+                        className="w-5 h-5 flex-shrink-0 mt-0.5"
+                        style={{ color: "#C9A24A" }}
+                      />
+                      <span className="text-gray-700">{f}</span>
                     </li>
                   ))}
                 </ul>
+                <p className="text-sm text-gray-600 mb-6 italic">
+                  👉 {pkg.footnote}
+                </p>
                 <Link
                   href="/contact"
                   className="block text-center px-6 py-3 rounded-lg transition-all hover:opacity-90 font-semibold"
-                  style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
                 >
                   Get Started
                 </Link>
@@ -227,28 +603,153 @@ export default function CompanyFormationPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      {/* Why UAE */}
+      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-10 text-center"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#FFFFFF" }}
+            >
+              Why Start a Business in{" "}
+              <span style={{ color: "#C9A24A" }}>UAE?</span>
+            </h2>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {uaeBenefits.map((b, index) => (
+              <motion.div
+                key={b}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.04 }}
+                className="flex items-center gap-3 rounded-lg px-4 py-4 border border-white/10"
+                style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
+              >
+                <span className="text-lg">✅</span>
+                <span className="text-gray-200 font-medium">{b}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who benefits */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-10"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Who Can Benefit from Company Formation?
+            </h2>
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+              UAE offers opportunities for many types of founders and owners.
+            </p>
+          </motion.div>
+          <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto mb-8">
+            {whoBenefits.map((label) => (
+              <span
+                key={label}
+                className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
+                style={{ color: "#111111" }}
+              >
+                {label}
+              </span>
+            ))}
+          </div>
+          <p className="text-center text-gray-700 font-medium">
+            UAE offers opportunities for everyone — we tailor the route to your profile.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-10 text-center"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Frequently Asked <span style={{ color: "#C9A24A" }}>Questions</span>
+            </h2>
+          </motion.div>
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, i) => (
+              <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#111111" }}>
+                  <span className="flex items-start gap-2">
+                    <span className="text-[#C9A24A]">❓</span>
+                    {faq.q}
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                  {faq.a}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20" style={{ backgroundColor: "#111111" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Ready to Form Your <span style={{ color: '#C9A24A' }}>Company?</span>
-            </h2>
-            <p className="text-lg text-gray-400 mb-8">
-              Contact our team to discuss your business formation requirements.
-            </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-6"
+              style={{ color: "#FFFFFF" }}
             >
-              <span>Contact Us</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
+              Start Your Business in UAE{" "}
+              <span style={{ color: "#C9A24A" }}>Today</span>
+            </h2>
+            <p className="text-lg text-gray-400 mb-4">
+              Ready to launch your business?
+            </p>
+            <p className="text-lg text-gray-400 mb-10">
+              Contact us today for expert company formation services. We make the
+              process simple, fast, and stress-free.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link
+                href="/contact"
+                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+              >
+                <span>Get Started Now</span>
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ borderColor: "#C9A24A", color: "#C9A24A" }}
+              >
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>

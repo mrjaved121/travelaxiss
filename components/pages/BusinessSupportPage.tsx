@@ -1,72 +1,490 @@
-'use client';
+"use client";
 
 import Link from "next/link";
-import { CheckCircle, ArrowRight, Headphones } from "lucide-react";
+import {
+  CheckCircle,
+  ArrowRight,
+  Tag,
+  Award,
+  Landmark,
+  ShieldCheck,
+  Lightbulb,
+  GitBranch,
+  AlertTriangle,
+  Rocket,
+} from "lucide-react";
 import { motion } from "motion/react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
+const WHATSAPP_HREF = "https://wa.me/971589867555";
+
+const whyChooseUs = [
+  {
+    title: "Complete Business Solutions",
+    body: "We provide everything your business needs in one place.",
+  },
+  {
+    title: "Expert Guidance",
+    body: "Our team understands UAE business requirements.",
+  },
+  {
+    title: "Fast Processing",
+    body: "Quick approvals and efficient service delivery.",
+  },
+  {
+    title: "Long-Term Support",
+    body: "We support your business growth journey.",
+  },
+];
+
+const keyServices: {
+  title: string;
+  description: string;
+  items: string[];
+  footnote?: string;
+  icon: typeof Tag;
+}[] = [
+  {
+    title: "Trademark Registration",
+    description:
+      "Protect your brand name and logo legally in the UAE.",
+    items: [
+      "Trademark application",
+      "Brand protection",
+      "Registration support",
+    ],
+    footnote: "Prevent others from copying your business identity.",
+    icon: Tag,
+  },
+  {
+    title: "ISO Certification Services",
+    description:
+      "Enhance your business credibility with international certifications.",
+    items: [
+      "ISO 9001 (Quality Management)",
+      "ISO 14001 (Environmental)",
+      "ISO 45001 (Safety)",
+    ],
+    footnote: "Build trust with clients and partners.",
+    icon: Award,
+  },
+  {
+    title: "Corporate Bank Account Opening",
+    description:
+      "We help you open a business bank account smoothly.",
+    items: [
+      "Bank selection",
+      "Documentation support",
+      "Application guidance",
+    ],
+    footnote: "Essential for business transactions.",
+    icon: Landmark,
+  },
+  {
+    title: "Compliance & Regulatory Support",
+    description: "Stay compliant with UAE business laws.",
+    items: [
+      "License renewal support",
+      "Compliance monitoring",
+      "Regulatory updates",
+    ],
+    footnote: "Avoid penalties and legal issues.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Business Advisory Services",
+    description: "Get expert advice to grow your business.",
+    items: ["Business strategy", "Market guidance", "Growth planning"],
+    icon: Lightbulb,
+  },
+];
+
+const advancedServices = [
+  {
+    title: "Corporate Structuring",
+    description: "Optimize your company structure for growth.",
+    icon: GitBranch,
+  },
+  {
+    title: "Risk Management",
+    description: "Identify and reduce business risks.",
+    icon: AlertTriangle,
+  },
+  {
+    title: "Business Expansion Support",
+    description: "Plan and execute business growth strategies.",
+    icon: Rocket,
+  },
+];
+
+const processSteps = [
+  {
+    step: "Step 1: Business Assessment",
+    text: "We analyze your business needs.",
+  },
+  {
+    step: "Step 2: Strategy Planning",
+    text: "We create a customized plan.",
+  },
+  {
+    step: "Step 3: Service Execution",
+    text: "We implement required services.",
+  },
+  {
+    step: "Step 4: Monitoring & Support",
+    text: "We ensure ongoing compliance and growth.",
+  },
+];
+
+const professionalBenefits = [
+  "Protect your brand",
+  "Improve business credibility",
+  "Ensure legal compliance",
+  "Save time & effort",
+  "Scale faster",
+];
+
+const whoNeeds = [
+  "Startups",
+  "Small businesses",
+  "Growing companies",
+  "Investors",
+];
+
+const mistakes = [
+  "Ignoring trademark protection",
+  "Not maintaining compliance",
+  "Poor financial setup",
+  "No growth strategy",
+];
+
+const faqs = [
+  {
+    q: "What are business support services?",
+    a: "They include services that help manage, protect, and grow your business.",
+  },
+  {
+    q: "Is trademark registration necessary?",
+    a: "Yes, it protects your brand legally.",
+  },
+  {
+    q: "Why is ISO certification important?",
+    a: "It builds trust and improves business quality.",
+  },
+  {
+    q: "Can you help open a bank account?",
+    a: "Yes, we provide complete support.",
+  },
+];
+
+const packages = [
+  {
+    name: "Essential Support Package",
+    tagline: "Best for small businesses and startups.",
+    features: [
+      "Trademark support",
+      "Basic compliance",
+      "Business consultation",
+    ],
+    highlighted: false,
+  },
+  {
+    name: "Premium Business Support Package",
+    tagline: "For growing businesses.",
+    features: [
+      "Trademark registration",
+      "ISO certification support",
+      "Banking assistance",
+      "Full compliance monitoring",
+      "Dedicated account manager",
+    ],
+    highlighted: true,
+  },
+];
 
 export default function BusinessSupportPage() {
-  const features = [
-    "Trademark Registration",
-    "ISO Certification Support",
-    "Board Resolution Services",
-    "Company Liquidation Management",
-    "Corporate Restructuring Support",
-  ];
-
-  const supportFramework = [
-    "Business Licensing Amendments",
-    "Corporate Banking Facilitation",
-    "Regulatory Compliance Monitoring",
-  ];
-
-  const packages = [
-    {
-      name: "Essential Support Package",
-      description: "Basic ongoing support services for day-to-day business needs.",
-      features: [
-        "Standard support response",
-        "Basic compliance monitoring",
-        "Document assistance",
-        "General consultation",
-      ],
-    },
-    {
-      name: "Comprehensive Support Package",
-      description: "Extended support and business assistance with dedicated resources.",
-      features: [
-        "All essential services",
-        "Priority support (24/7)",
-        "Dedicated account manager",
-        "Proactive compliance alerts",
-        "Strategic business consultation",
-        "Unlimited document support",
-      ],
-      highlighted: true,
-    },
-  ];
-
   return (
     <div>
-      {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      {/* Hero */}
+      <section className="py-20 md:py-24" style={{ backgroundColor: "#F5F5F5" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
-              Business <span style={{ color: '#C9A24A' }}>Support</span>
+            <h1
+              className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
+              style={{ color: "#111111" }}
+            >
+              Business Support Services in UAE –{" "}
+              <span style={{ color: "#C9A24A" }}>
+                Grow, Protect & Scale Your Business
+              </span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
-              We provide ongoing support services to help businesses operate and grow efficiently.
+            <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
+              Take your business to the next level with professional business
+              support services in the UAE. We provide everything you need after
+              company formation — from branding to compliance and growth
+              support.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["Trademark", "ISO", "Banking", "Compliance"].map((label) => (
+                <span
+                  key={label}
+                  className="px-4 py-2 rounded-full text-sm font-semibold"
+                  style={{ backgroundColor: "#111111", color: "#C9A24A" }}
+                >
+                  {label}
+                </span>
+              ))}
+            </div>
+            <p className="text-lg text-gray-800 mb-8 font-medium">
+              End-to-end business support.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+              >
+                Get Business Support
+              </Link>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ borderColor: "#111111", color: "#111111" }}
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Overview */}
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-4xl"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-6"
+              style={{ color: "#111111" }}
+            >
+              Complete Business Support Services in{" "}
+              <span style={{ color: "#C9A24A" }}>UAE</span>
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Starting a business is only the first step. To grow successfully,
+              you need ongoing support, legal protection, and operational
+              systems. Our{" "}
+              <strong>business support services UAE</strong> cover{" "}
+              <strong>trademark registration UAE</strong>,{" "}
+              <strong>ISO certification UAE</strong>,{" "}
+              <strong>bank account opening UAE</strong>, and{" "}
+              <strong>business compliance UAE</strong> — so you can operate with
+              confidence.
+            </p>
+            <p className="font-semibold mb-4" style={{ color: "#111111" }}>
+              Our business support services help you:
+            </p>
+            <ul className="space-y-3 mb-6">
+              {[
+                "Protect your brand",
+                "Build credibility",
+                "Manage compliance",
+                "Scale your business",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <CheckCircle
+                    className="w-6 h-6 flex-shrink-0 mt-0.5"
+                    style={{ color: "#C9A24A" }}
+                  />
+                  <span className="text-lg text-gray-700">{item}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-lg text-gray-700 font-medium">
+              We provide complete solutions for long-term success.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Key Features */}
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
+      {/* Why choose us */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 max-w-3xl"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Why Choose Our Business Support Services?
+            </h2>
+          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {whyChooseUs.map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.06 }}
+                className="rounded-xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
+              >
+                <div className="flex items-start gap-3 mb-3">
+                  <span className="text-xl" aria-hidden>
+                    ✅
+                  </span>
+                  <h3
+                    className="text-xl font-bold"
+                    style={{ color: "#111111" }}
+                  >
+                    {item.title}
+                  </h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed pl-9">{item.body}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Key services */}
+      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center max-w-3xl mx-auto mb-14"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#FFFFFF" }}
+            >
+              Services We <span style={{ color: "#C9A24A" }}>Offer</span>
+            </h2>
+          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {keyServices.map((svc, index) => (
+              <motion.div
+                key={svc.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                className="rounded-xl p-6 md:p-8 border border-white/10"
+                style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#C9A24A" }}
+                >
+                  <svc.icon className="w-6 h-6" style={{ color: "#111111" }} />
+                </div>
+                <h3
+                  className="text-lg font-bold mb-2"
+                  style={{ color: "#FFFFFF" }}
+                >
+                  {svc.title}
+                </h3>
+                <p className="text-sm text-gray-400 mb-4 leading-relaxed">
+                  {svc.description}
+                </p>
+                <p
+                  className="text-xs font-semibold uppercase tracking-wide mb-2"
+                  style={{ color: "#C9A24A" }}
+                >
+                  Includes
+                </p>
+                <ul className="space-y-2 mb-4">
+                  {svc.items.map((line) => (
+                    <li
+                      key={line}
+                      className="flex items-start gap-2 text-sm text-gray-300"
+                    >
+                      <span className="text-[#C9A24A] mt-0.5">👉</span>
+                      <span>{line}</span>
+                    </li>
+                  ))}
+                </ul>
+                {svc.footnote && (
+                  <p className="text-sm text-gray-400 italic border-t border-white/10 pt-4">
+                    👉 {svc.footnote}
+                  </p>
+                )}
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Advanced support */}
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12 text-center max-w-3xl mx-auto"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Additional Business Support{" "}
+              <span style={{ color: "#C9A24A" }}>Services</span>
+            </h2>
+          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {advancedServices.map((svc, index) => (
+              <motion.div
+                key={svc.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.06 }}
+                className="rounded-xl p-8 shadow-sm border border-gray-100"
+                style={{ backgroundColor: "#F5F5F5" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#C9A24A" }}
+                >
+                  <svc.icon className="w-6 h-6" style={{ color: "#111111" }} />
+                </div>
+                <h3
+                  className="text-xl font-bold mb-3"
+                  style={{ color: "#111111" }}
+                >
+                  {svc.title}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">{svc.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Process */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -74,81 +492,47 @@ export default function BusinessSupportPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="text-3xl font-bold mb-6" style={{ color: '#111111' }}>
-              Key <span style={{ color: '#C9A24A' }}>Features</span>
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              How Our Business Support Process{" "}
+              <span style={{ color: "#C9A24A" }}>Works</span>
             </h2>
           </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {features.map((feature, index) => (
+          <div className="space-y-4 max-w-4xl">
+            {processSteps.map((s, index) => (
               <motion.div
-                key={feature}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                key={s.step}
+                initial={{ opacity: 0, x: -12 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="flex items-center space-x-4 p-6 rounded-lg shadow-sm"
-                style={{ backgroundColor: '#F5F5F5' }}
+                transition={{ delay: index * 0.05 }}
+                className="flex gap-4 md:gap-6 rounded-xl p-6 shadow-sm bg-white border border-gray-100"
               >
-                <CheckCircle className="w-6 h-6 flex-shrink-0" style={{ color: '#C9A24A' }} />
-                <span className="text-lg" style={{ color: '#111111' }}>{feature}</span>
+                <div
+                  className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
+                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                >
+                  {index + 1}
+                </div>
+                <div>
+                  <h3
+                    className="text-lg font-bold mb-1"
+                    style={{ color: "#111111" }}
+                  >
+                    {s.step}
+                  </h3>
+                  <p className="text-gray-700">{s.text}</p>
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Support Framework */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <Headphones className="w-16 h-16 mb-6" style={{ color: '#C9A24A' }} />
-              <h2 className="text-3xl font-bold mb-6" style={{ color: '#111111' }}>
-                Comprehensive <span style={{ color: '#C9A24A' }}>Support Framework</span>
-              </h2>
-              <p className="text-lg text-gray-600 mb-6">
-                Our support goes beyond basic assistance. We provide strategic guidance and proactive solutions to help your business thrive in a competitive environment.
-              </p>
-              <p className="text-lg text-gray-600">
-                From trademark protection to ISO certification, we ensure your business maintains the highest standards of operation.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="bg-white rounded-lg p-8 shadow-sm"
-            >
-              <h3 className="text-xl font-semibold mb-6" style={{ color: '#111111' }}>
-                Additional Support Services
-              </h3>
-              <ul className="space-y-4">
-                {supportFramework.map((item) => (
-                  <li key={item} className="flex items-start">
-                    <CheckCircle className="w-5 h-5 mr-3 mt-0.5 flex-shrink-0" style={{ color: '#C9A24A' }} />
-                    <span className="text-gray-700">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-8 pt-8 border-t border-gray-200">
-                <div className="text-center">
-                  <div className="text-4xl font-bold mb-2" style={{ color: '#C9A24A' }}>11+</div>
-                  <p className="text-gray-600">Years of Experience</p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
       {/* Packages */}
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -156,12 +540,14 @@ export default function BusinessSupportPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4" style={{ color: '#111111' }}>
-              Support <span style={{ color: '#C9A24A' }}>Packages</span>
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Flexible Business Support{" "}
+              <span style={{ color: "#C9A24A" }}>Packages</span>
             </h2>
-            <p className="text-lg text-gray-600">Choose the level of ongoing support your business needs.</p>
           </motion.div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {packages.map((pkg, index) => (
               <motion.div
@@ -169,33 +555,54 @@ export default function BusinessSupportPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className={`rounded-lg p-8 shadow-sm ${pkg.highlighted ? 'ring-2' : ''}`}
-                style={pkg.highlighted ? { backgroundColor: '#F5F5F5', borderColor: '#C9A24A' } : { backgroundColor: '#F5F5F5' }}
+                transition={{ delay: index * 0.08 }}
+                className={`rounded-xl p-8 shadow-sm ${
+                  pkg.highlighted ? "ring-2" : ""
+                }`}
+                style={
+                  pkg.highlighted
+                    ? { borderColor: "#C9A24A", backgroundColor: "#FFFCF5" }
+                    : { backgroundColor: "#F5F5F5" }
+                }
               >
                 {pkg.highlighted && (
-                  <div className="inline-block px-4 py-1 rounded-full mb-4" style={{ backgroundColor: '#C9A24A', color: '#111111' }}>
-                    <span className="text-sm font-semibold">Best Value</span>
+                  <div
+                    className="inline-block px-4 py-1 rounded-full mb-4 text-sm font-semibold"
+                    style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  >
+                    Premium
                   </div>
                 )}
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#111111' }}>
+                <h3
+                  className="text-2xl font-bold mb-2"
+                  style={{ color: "#111111" }}
+                >
                   {pkg.name}
                 </h3>
-                <p className="text-gray-600 mb-6">{pkg.description}</p>
+                <p className="text-gray-600 mb-6">{pkg.tagline}</p>
+                <p
+                  className="text-sm font-semibold mb-3"
+                  style={{ color: "#111111" }}
+                >
+                  Includes:
+                </p>
                 <ul className="space-y-3 mb-8">
-                  {pkg.features.map((feature) => (
-                    <li key={feature} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#C9A24A' }} />
-                      <span className="text-gray-700">{feature}</span>
+                  {pkg.features.map((f) => (
+                    <li key={f} className="flex items-start gap-2">
+                      <CheckCircle
+                        className="w-5 h-5 flex-shrink-0 mt-0.5"
+                        style={{ color: "#C9A24A" }}
+                      />
+                      <span className="text-gray-700">{f}</span>
                     </li>
                   ))}
                 </ul>
                 <Link
                   href="/contact"
                   className="block text-center px-6 py-3 rounded-lg transition-all hover:opacity-90 font-semibold"
-                  style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
                 >
-                  Learn More
+                  Get Business Support
                 </Link>
               </motion.div>
             ))}
@@ -203,28 +610,203 @@ export default function BusinessSupportPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      {/* Benefits */}
+      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-10 text-center"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#FFFFFF" }}
+            >
+              Benefits of Professional Business{" "}
+              <span style={{ color: "#C9A24A" }}>Support</span>
+            </h2>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            {professionalBenefits.map((b, index) => (
+              <motion.div
+                key={b}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.04 }}
+                className="flex items-center gap-3 rounded-lg px-4 py-4 border border-white/10"
+                style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
+              >
+                <span className="text-lg">✅</span>
+                <span className="text-gray-200 font-medium capitalize">{b}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who needs */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-10"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Who Can Benefit from These Services?
+            </h2>
+          </motion.div>
+          <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto mb-8">
+            {whoNeeds.map((label) => (
+              <span
+                key={label}
+                className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
+                style={{ color: "#111111" }}
+              >
+                {label}
+              </span>
+            ))}
+          </div>
+          <p className="text-center text-gray-700 font-medium">
+            Every business needs support to grow.
+          </p>
+        </div>
+      </section>
+
+      {/* Mistakes */}
+      <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Common Business Support{" "}
+              <span style={{ color: "#C9A24A" }}>Mistakes</span>
+            </h2>
+            <p className="text-lg text-gray-700">
+              These can slow your business growth.
+            </p>
+          </motion.div>
+          <div className="space-y-3">
+            {mistakes.map((m, index) => (
+              <motion.div
+                key={m}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                className="flex items-center space-x-3 p-4 rounded-lg border-l-4"
+                style={{
+                  backgroundColor: "#FEF3E7",
+                  borderColor: "#E67E22",
+                }}
+              >
+                <span style={{ color: "#E67E22" }}>❌</span>
+                <span className="text-gray-800 font-semibold">{m}</span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-10 text-center"
+          >
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-4"
+              style={{ color: "#111111" }}
+            >
+              Frequently Asked{" "}
+              <span style={{ color: "#C9A24A" }}>Questions</span>
+            </h2>
+          </motion.div>
+          <div className="bg-white rounded-xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, i) => (
+                <AccordionItem
+                  key={faq.q}
+                  value={`item-${i}`}
+                  className="border-gray-200"
+                >
+                  <AccordionTrigger
+                    className="text-left text-base font-bold py-5 hover:no-underline"
+                    style={{ color: "#111111" }}
+                  >
+                    <span className="flex items-start gap-2">
+                      <span className="text-[#C9A24A]">❓</span>
+                      {faq.q}
+                    </span>
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                    {faq.a}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20" style={{ backgroundColor: "#111111" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Need Ongoing <span style={{ color: '#C9A24A' }}>Business Support?</span>
-            </h2>
-            <p className="text-lg text-gray-400 mb-8">
-              Partner with us for reliable, professional support that helps your business succeed.
-            </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-6"
+              style={{ color: "#FFFFFF" }}
             >
-              <span>Contact Us</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
+              Grow Your Business with Expert{" "}
+              <span style={{ color: "#C9A24A" }}>Support</span>
+            </h2>
+            <p className="text-lg text-gray-400 mb-4">
+              Don&apos;t stop at company formation — take your business to the
+              next level.
+            </p>
+            <p className="text-lg text-gray-400 mb-10">
+              Contact us today for complete business support services in UAE. We
+              help you grow, protect, and scale your business.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link
+                href="/contact"
+                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+              >
+                <span>Get Support Now</span>
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
+                style={{ borderColor: "#C9A24A", color: "#C9A24A" }}
+              >
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>
