@@ -1,7 +1,13 @@
-'use client';
+"use client";
 
 import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
+
+/** Al Qusais, Dubai — Google Maps embed iframe (no API key). */
+const AL_QUSAIS_MAP_EMBED_SRC = `https://maps.google.com/maps?q=${encodeURIComponent(
+  "Al Qusais, Dubai, United Arab Emirates"
+)}&hl=en&z=13&ie=UTF8&output=embed`;
+
 export default function ContactPage() {
   const phoneNumber = "+971589867555";
   const whatsappLink = `https://wa.me/${phoneNumber.replace(/\+/g, "")}`;
@@ -73,7 +79,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1" style={{ color: '#111111' }}>Address</h3>
-                    <p className="text-gray-600">Dubai, United Arab Emirates</p>
+                    <p className="text-gray-600">Al Qusais, Dubai, United Arab Emirates</p>
                     <p className="text-gray-600">Visit by appointment</p>
                   </div>
                 </div>
@@ -146,24 +152,50 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section Placeholder */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      {/* Map — Al Qusais, Dubai */}
+      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="rounded-lg overflow-hidden shadow-lg"
-            style={{ height: '400px', backgroundColor: '#E5E5E5' }}
+            className="mb-8 text-center md:text-left"
           >
-            <div className="w-full h-full flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-12 h-12 mx-auto mb-4" style={{ color: '#C9A24A' }} />
-                <p className="text-gray-600">Map Location</p>
-                <p className="text-sm text-gray-500">Dubai, UAE</p>
-              </div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#111111" }}>
+              Find us in <span style={{ color: "#C9A24A" }}>Al Qusais</span>
+            </h2>
+            <p className="text-gray-600">
+              Dubai, United Arab Emirates — visit by appointment
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-gray-200"
+          >
+            <div className="relative w-full aspect-[16/10] min-h-[280px] md:min-h-[420px]">
+              <iframe
+                title="Google Map — Al Qusais, Dubai, United Arab Emirates"
+                src={AL_QUSAIS_MAP_EMBED_SRC}
+                className="absolute inset-0 h-full w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
             </div>
           </motion.div>
+          <p className="mt-4 text-center text-sm text-gray-500">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Al+Qusais+Dubai+UAE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium underline-offset-2 hover:underline"
+              style={{ color: "#C9A24A" }}
+            >
+              Open in Google Maps
+            </a>
+          </p>
         </div>
       </section>
     </div>
