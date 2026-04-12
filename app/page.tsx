@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${SITE_URL}/`,
   },
+  verification: {
+    google: "zkDBpIKHKEwlOYkVQQ4OL-rcZna0NxhTkNqNn8VEYUE",
+  },
   openGraph: {
     title: "Visa Consultancy UAE | Business Setup Dubai",
     description:
