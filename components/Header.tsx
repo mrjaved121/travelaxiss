@@ -36,8 +36,8 @@ export default function Header() {
             aria-label="Travelaxis home"
           >
             <span aria-hidden="true" className="text-3xl font-bold">
-              <span style={{ color: "#C9A24A" }}>Travel</span>
-              <span style={{ color: "#111111" }}>axis</span>
+              <span style={{ color: "#1D63E0" }}>Travel</span>
+              <span style={{ color: "#0F1B2D" }}>axis</span>
             </span>
           </Link>
 
@@ -50,7 +50,7 @@ export default function Header() {
                   isActive(link.path) ? "font-semibold" : "hover:opacity-70"
                 }`}
                 style={{
-                  color: isActive(link.path) ? "#C9A24A" : "#111111",
+                  color: isActive(link.path) ? "#1D63E0" : "#0F1B2D",
                 }}
                 aria-current={isActive(link.path) ? "page" : undefined}
               >
@@ -64,8 +64,8 @@ export default function Header() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-6 py-3 rounded-lg transition-all hover:opacity-90"
-              style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+              className="flex items-center space-x-2 px-6 py-3 rounded-full transition-all hover:opacity-90"
+              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
             >
               <Phone className="w-5 h-5" aria-hidden />
@@ -77,7 +77,7 @@ export default function Header() {
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 rounded-sm"
-            style={{ color: "#111111" }}
+            style={{ color: "#0F1B2D" }}
             aria-expanded={mobileMenuOpen}
             aria-controls={MOBILE_NAV_PANEL_ID}
             aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
@@ -110,7 +110,7 @@ export default function Header() {
                       isActive(link.path) ? "font-semibold" : "hover:opacity-70"
                     }`}
                     style={{
-                      color: isActive(link.path) ? "#C9A24A" : "#111111",
+                      color: isActive(link.path) ? "#1D63E0" : "#0F1B2D",
                     }}
                     aria-current={isActive(link.path) ? "page" : undefined}
                   >
@@ -124,8 +124,8 @@ export default function Header() {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-lg"
-                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  className="mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full"
+                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                   aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
                 >
                   <Phone className="w-5 h-5" aria-hidden />

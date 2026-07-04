@@ -211,7 +211,7 @@ export default function BusinessSupportPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="py-20 md:py-24" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -220,10 +220,10 @@ export default function BusinessSupportPage() {
           >
             <h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Business Support Services in UAE –{" "}
-              <span style={{ color: "#C9A24A" }}>
+              <span style={{ color: "#1D63E0" }}>
                 Grow, Protect & Scale Your Business
               </span>
             </h1>
@@ -238,7 +238,7 @@ export default function BusinessSupportPage() {
                 <span
                   key={label}
                   className="px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ backgroundColor: "#111111", color: "#C9A24A" }}
+                  style={{ backgroundColor: "#0F1B2D", color: "#1D63E0" }}
                 >
                   {label}
                 </span>
@@ -251,7 +251,7 @@ export default function BusinessSupportPage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               >
                 Get Business Support
               </Link>
@@ -260,7 +260,7 @@ export default function BusinessSupportPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#111111", color: "#111111" }}
+                style={{ borderColor: "#0F1B2D", color: "#0F1B2D" }}
               >
                 Chat on WhatsApp
               </a>
@@ -280,10 +280,10 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Complete Business Support Services in{" "}
-              <span style={{ color: "#C9A24A" }}>UAE</span>
+              <span style={{ color: "#1D63E0" }}>UAE</span>
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Starting a business is only the first step. To grow successfully,
@@ -296,7 +296,7 @@ export default function BusinessSupportPage() {
               <strong>business compliance UAE</strong> — so you can operate with
               confidence.
             </p>
-            <p className="font-semibold mb-4" style={{ color: "#111111" }}>
+            <p className="font-semibold mb-4" style={{ color: "#0F1B2D" }}>
               Our business support services help you:
             </p>
             <ul className="space-y-3 mb-6">
@@ -309,7 +309,7 @@ export default function BusinessSupportPage() {
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
-                    style={{ color: "#C9A24A" }}
+                    style={{ color: "#1D63E0" }}
                   />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
@@ -323,7 +323,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Why choose us */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -333,7 +333,7 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Why Choose Our Business Support Services?
             </h2>
@@ -354,7 +354,7 @@ export default function BusinessSupportPage() {
                   </span>
                   <h3
                     className="text-xl font-bold"
-                    style={{ color: "#111111" }}
+                    style={{ color: "#0F1B2D" }}
                   >
                     {item.title}
                   </h3>
@@ -367,7 +367,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Key services */}
-      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -379,7 +379,7 @@ export default function BusinessSupportPage() {
               className="text-3xl md:text-4xl font-bold mb-4"
               style={{ color: "#FFFFFF" }}
             >
-              Services We <span style={{ color: "#C9A24A" }}>Offer</span>
+              Services We <span style={{ color: "#FFFFFF" }}>Offer</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -395,9 +395,9 @@ export default function BusinessSupportPage() {
               >
                 <div
                   className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#C9A24A" }}
+                  style={{ backgroundColor: "#1D63E0" }}
                 >
-                  <svc.icon className="w-6 h-6" style={{ color: "#111111" }} />
+                  <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <h3
                   className="text-lg font-bold mb-2"
@@ -410,7 +410,7 @@ export default function BusinessSupportPage() {
                 </p>
                 <p
                   className="text-xs font-semibold uppercase tracking-wide mb-2"
-                  style={{ color: "#C9A24A" }}
+                  style={{ color: "#1D63E0" }}
                 >
                   Includes
                 </p>
@@ -420,7 +420,7 @@ export default function BusinessSupportPage() {
                       key={line}
                       className="flex items-start gap-2 text-sm text-gray-300"
                     >
-                      <span className="text-[#C9A24A] mt-0.5">👉</span>
+                      <span className="text-[#1D63E0] mt-0.5">👉</span>
                       <span>{line}</span>
                     </li>
                   ))}
@@ -447,10 +447,10 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Additional Business Support{" "}
-              <span style={{ color: "#C9A24A" }}>Services</span>
+              <span style={{ color: "#1D63E0" }}>Services</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -462,17 +462,17 @@ export default function BusinessSupportPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-xl p-8 shadow-sm border border-gray-100"
-                style={{ backgroundColor: "#F5F5F5" }}
+                style={{ backgroundColor: "#EEF4FF" }}
               >
                 <div
                   className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#C9A24A" }}
+                  style={{ backgroundColor: "#1D63E0" }}
                 >
-                  <svc.icon className="w-6 h-6" style={{ color: "#111111" }} />
+                  <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <h3
                   className="text-xl font-bold mb-3"
-                  style={{ color: "#111111" }}
+                  style={{ color: "#0F1B2D" }}
                 >
                   {svc.title}
                 </h3>
@@ -484,7 +484,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -494,10 +494,10 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               How Our Business Support Process{" "}
-              <span style={{ color: "#C9A24A" }}>Works</span>
+              <span style={{ color: "#1D63E0" }}>Works</span>
             </h2>
           </motion.div>
           <div className="space-y-4 max-w-4xl">
@@ -512,14 +512,14 @@ export default function BusinessSupportPage() {
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
-                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                 >
                   {index + 1}
                 </div>
                 <div>
                   <h3
                     className="text-lg font-bold mb-1"
-                    style={{ color: "#111111" }}
+                    style={{ color: "#0F1B2D" }}
                   >
                     {s.step}
                   </h3>
@@ -542,10 +542,10 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Flexible Business Support{" "}
-              <span style={{ color: "#C9A24A" }}>Packages</span>
+              <span style={{ color: "#1D63E0" }}>Packages</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -561,28 +561,28 @@ export default function BusinessSupportPage() {
                 }`}
                 style={
                   pkg.highlighted
-                    ? { borderColor: "#C9A24A", backgroundColor: "#FFFCF5" }
-                    : { backgroundColor: "#F5F5F5" }
+                    ? { borderColor: "#1D63E0", backgroundColor: "#FFFCF5" }
+                    : { backgroundColor: "#EEF4FF" }
                 }
               >
                 {pkg.highlighted && (
                   <div
                     className="inline-block px-4 py-1 rounded-full mb-4 text-sm font-semibold"
-                    style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                   >
                     Premium
                   </div>
                 )}
                 <h3
                   className="text-2xl font-bold mb-2"
-                  style={{ color: "#111111" }}
+                  style={{ color: "#0F1B2D" }}
                 >
                   {pkg.name}
                 </h3>
                 <p className="text-gray-600 mb-6">{pkg.tagline}</p>
                 <p
                   className="text-sm font-semibold mb-3"
-                  style={{ color: "#111111" }}
+                  style={{ color: "#0F1B2D" }}
                 >
                   Includes:
                 </p>
@@ -591,7 +591,7 @@ export default function BusinessSupportPage() {
                     <li key={f} className="flex items-start gap-2">
                       <CheckCircle
                         className="w-5 h-5 flex-shrink-0 mt-0.5"
-                        style={{ color: "#C9A24A" }}
+                        style={{ color: "#1D63E0" }}
                       />
                       <span className="text-gray-700">{f}</span>
                     </li>
@@ -600,7 +600,7 @@ export default function BusinessSupportPage() {
                 <Link
                   href="/contact"
                   className="block text-center px-6 py-3 rounded-lg transition-all hover:opacity-90 font-semibold"
-                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                 >
                   Get Business Support
                 </Link>
@@ -611,7 +611,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Benefits */}
-      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -624,7 +624,7 @@ export default function BusinessSupportPage() {
               style={{ color: "#FFFFFF" }}
             >
               Benefits of Professional Business{" "}
-              <span style={{ color: "#C9A24A" }}>Support</span>
+              <span style={{ color: "#FFFFFF" }}>Support</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
@@ -647,7 +647,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Who needs */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -657,7 +657,7 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Who Can Benefit from These Services?
             </h2>
@@ -667,7 +667,7 @@ export default function BusinessSupportPage() {
               <span
                 key={label}
                 className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
-                style={{ color: "#111111" }}
+                style={{ color: "#0F1B2D" }}
               >
                 {label}
               </span>
@@ -690,10 +690,10 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Common Business Support{" "}
-              <span style={{ color: "#C9A24A" }}>Mistakes</span>
+              <span style={{ color: "#1D63E0" }}>Mistakes</span>
             </h2>
             <p className="text-lg text-gray-700">
               These can slow your business growth.
@@ -722,7 +722,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -732,10 +732,10 @@ export default function BusinessSupportPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Frequently Asked{" "}
-              <span style={{ color: "#C9A24A" }}>Questions</span>
+              <span style={{ color: "#1D63E0" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -748,10 +748,10 @@ export default function BusinessSupportPage() {
                 >
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#111111" }}
+                    style={{ color: "#0F1B2D" }}
                   >
                     <span className="flex items-start gap-2">
-                      <span className="text-[#C9A24A]">❓</span>
+                      <span className="text-[#1D63E0]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
@@ -766,7 +766,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -778,7 +778,7 @@ export default function BusinessSupportPage() {
               style={{ color: "#FFFFFF" }}
             >
               Grow Your Business with Expert{" "}
-              <span style={{ color: "#C9A24A" }}>Support</span>
+              <span style={{ color: "#FFFFFF" }}>Support</span>
             </h2>
             <p className="text-lg text-gray-400 mb-4">
               Don&apos;t stop at company formation — take your business to the
@@ -792,7 +792,7 @@ export default function BusinessSupportPage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               >
                 <span>Get Support Now</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -802,7 +802,7 @@ export default function BusinessSupportPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#C9A24A", color: "#C9A24A" }}
+                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
               >
                 <span>WhatsApp Us</span>
               </a>

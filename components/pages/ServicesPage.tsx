@@ -60,15 +60,15 @@ export default function ServicesPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
-              Our <span style={{ color: '#C9A24A' }}>Services</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+              Our <span style={{ color: '#1D63E0' }}>Services</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
               We provide a full range of services designed to support businesses from setup to ongoing operations. Our services are structured to ensure compliance, efficiency, and long-term growth.
@@ -92,19 +92,19 @@ export default function ServicesPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-lg p-8 shadow-sm hover:shadow-md transition-all"
-                style={{ backgroundColor: '#F5F5F5' }}
+                style={{ backgroundColor: '#EEF4FF' }}
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
-                  <service.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <service.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#111111' }}>
+                <h3 className="text-2xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
                   {service.title}
                 </h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
                 <Link
                   href={service.link}
                   className="inline-flex items-center space-x-2 font-semibold transition-opacity hover:opacity-70"
-                  style={{ color: '#C9A24A' }}
+                  style={{ color: '#1D63E0' }}
                 >
                   <span>{`Learn more about ${service.title}`}</span>
                   <ArrowRight className="w-5 h-5" aria-hidden />
@@ -116,7 +116,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Advantages */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -124,8 +124,8 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#111111' }}>
-              Service <span style={{ color: '#C9A24A' }}>Advantages</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+              Service <span style={{ color: '#1D63E0' }}>Advantages</span>
             </h2>
           </motion.div>
 
@@ -139,10 +139,10 @@ export default function ServicesPage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 text-center shadow-sm"
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
-                  <advantage.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <advantage.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#111111' }}>
+                <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
                   {advantage.title}
                 </h3>
                 <p className="text-gray-600">{advantage.description}</p>
@@ -153,7 +153,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -161,7 +161,7 @@ export default function ServicesPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Ready to <span style={{ color: '#C9A24A' }}>Get Started?</span>
+              Ready to <span style={{ color: '#FFFFFF' }}>Get Started?</span>
             </h2>
             <p className="text-lg text-gray-400 mb-8">
               Contact us today to learn more about how we can help your business succeed.
@@ -169,7 +169,7 @@ export default function ServicesPage() {
             <Link
               href="/contact"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
             >
               <span>Contact Travelaxis about our services</span>
               <ArrowRight className="w-5 h-5" aria-hidden />

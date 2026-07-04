@@ -58,7 +58,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-32" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="relative py-20 md:py-32" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -66,9 +66,9 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{ color: '#111111' }}>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               We help you build a strong and{" "}
-              <span style={{ color: '#C9A24A' }}>successful future</span>.
+              <span style={{ color: '#1D63E0' }}>successful future</span>.
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
               Simple, clear, and professional support for your business journey.
@@ -76,7 +76,7 @@ export default function HomePage() {
             <Link
               href="/contact"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
             >
               <span>Contact Travelaxis to get started</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -107,7 +107,7 @@ export default function HomePage() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="text-2xl md:text-4xl font-semibold text-center italic"
-            style={{ color: '#C9A24A', textShadow: '3px 3px 10px rgba(0,0,0,0.95)' }}
+            style={{ color: '#1D63E0', textShadow: '3px 3px 10px rgba(0,0,0,0.95)' }}
           >
             "Success comes from always aiming higher and never settling for less."
           </motion.blockquote>
@@ -115,7 +115,7 @@ export default function HomePage() {
       </section>
 
       {/* Trust Metric */}
-      <section className="py-12" style={{ backgroundColor: '#C9A24A' }}>
+      <section className="py-12" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -123,10 +123,10 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <div className="text-5xl md:text-6xl font-bold mb-2" style={{ color: '#111111' }}>
+            <div className="text-5xl md:text-6xl font-bold mb-2" style={{ color: '#0F1B2D' }}>
               3.2x
             </div>
-            <p className="text-lg md:text-xl" style={{ color: '#111111' }}>
+            <p className="text-lg md:text-xl" style={{ color: '#0F1B2D' }}>
               Stronger documentation quality and clearer milestone tracking
             </p>
           </motion.div>
@@ -142,9 +142,9 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#111111' }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               We help businesses grow with the{" "}
-              <span style={{ color: '#C9A24A' }}>right direction</span>.
+              <span style={{ color: '#1D63E0' }}>right direction</span>.
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
               Our goal is to support businesses from the beginning to success.
@@ -163,27 +163,27 @@ export default function HomePage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="text-center p-8 rounded-lg"
-              style={{ backgroundColor: '#F5F5F5' }}
+              style={{ backgroundColor: '#EEF4FF' }}
             >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#C9A24A' }}>11</div>
-              <p className="text-lg" style={{ color: '#111111' }}>Years of Experience</p>
+              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>11</div>
+              <p className="text-lg" style={{ color: '#0F1B2D' }}>Years of Experience</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="text-center p-8 rounded-lg"
-              style={{ backgroundColor: '#F5F5F5' }}
+              style={{ backgroundColor: '#EEF4FF' }}
             >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#C9A24A' }}>1789</div>
-              <p className="text-lg" style={{ color: '#111111' }}>Happy Clients</p>
+              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>1789</div>
+              <p className="text-lg" style={{ color: '#0F1B2D' }}>Happy Clients</p>
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -191,9 +191,9 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#111111' }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               We help businesses{" "}
-              <span style={{ color: '#C9A24A' }}>move forward and grow</span>.
+              <span style={{ color: '#1D63E0' }}>move forward and grow</span>.
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
               Starting and running a business needs the right support.
@@ -213,19 +213,19 @@ export default function HomePage() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
-                  <service.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <service.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#111111' }}>
+                <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
                   {service.title}
                 </h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
                 <div className="mb-6">
-                  <p className="font-semibold mb-3" style={{ color: '#111111' }}>Includes:</p>
+                  <p className="font-semibold mb-3" style={{ color: '#0F1B2D' }}>Includes:</p>
                   <ul className="space-y-2">
                     {service.includes.map((item) => (
                       <li key={item} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#C9A24A' }} aria-hidden />
+                        <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#1D63E0' }} aria-hidden />
                         <span className="text-gray-700 text-sm">{item}</span>
                       </li>
                     ))}
@@ -234,7 +234,7 @@ export default function HomePage() {
                 <Link
                   href={service.link}
                   className="inline-flex items-center space-x-2 font-semibold transition-opacity hover:opacity-70"
-                  style={{ color: '#C9A24A' }}
+                  style={{ color: '#1D63E0' }}
                 >
                   <span>{`View ${service.title} details`}</span>
                   <ArrowRight className="w-5 h-5" aria-hidden />
@@ -254,9 +254,9 @@ export default function HomePage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#111111' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
                 Helping you succeed with{" "}
-                <span style={{ color: '#C9A24A' }}>experience and smart solutions</span>
+                <span style={{ color: '#1D63E0' }}>experience and smart solutions</span>
               </h2>
               <p className="text-lg text-gray-600 mb-4">
                 We work as your partner, not just a service provider.
@@ -270,7 +270,7 @@ export default function HomePage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 font-semibold"
-                style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+                style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
               >
                 <span>Contact Travelaxis to discuss your goals</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -282,9 +282,9 @@ export default function HomePage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="p-8 rounded-lg"
-              style={{ backgroundColor: '#F5F5F5' }}
+              style={{ backgroundColor: '#EEF4FF' }}
             >
-              <Star className="w-12 h-12 mb-4" style={{ color: '#C9A24A' }} aria-hidden />
+              <Star className="w-12 h-12 mb-4" style={{ color: '#1D63E0' }} aria-hidden />
               <blockquote className="text-lg italic text-gray-700">
                 "Working with this team was a great experience. They guided us clearly and helped us move forward with confidence."
               </blockquote>
@@ -294,7 +294,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -302,8 +302,8 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#111111' }}>
-              Client Stories: <span style={{ color: '#C9A24A' }}>What People Say About Us</span>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#0F1B2D' }}>
+              Client Stories: <span style={{ color: '#1D63E0' }}>What People Say About Us</span>
             </h2>
           </motion.div>
 
@@ -319,12 +319,12 @@ export default function HomePage() {
               >
                 <div className="flex items-center mb-4" role="img" aria-label="Rating: 5 out of 5 stars">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-current" style={{ color: '#C9A24A' }} aria-hidden />
+                    <Star key={i} className="w-5 h-5 fill-current" style={{ color: '#1D63E0' }} aria-hidden />
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
                 <div>
-                  <p className="font-semibold" style={{ color: '#111111' }}>{testimonial.name}</p>
+                  <p className="font-semibold" style={{ color: '#0F1B2D' }}>{testimonial.name}</p>
                   <p className="text-sm text-gray-600">{testimonial.role}</p>
                 </div>
               </motion.div>
@@ -334,7 +334,7 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -342,7 +342,7 @@ export default function HomePage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Start Your <span style={{ color: '#C9A24A' }}>Journey Today</span>
+              Start Your <span style={{ color: '#FFFFFF' }}>Journey Today</span>
             </h2>
             <p className="text-lg text-gray-400 mb-4">
               Take the first step with the right support and guidance.
@@ -353,7 +353,7 @@ export default function HomePage() {
             <Link
               href="/contact"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
             >
               <span>Start your business journey with Travelaxis</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
