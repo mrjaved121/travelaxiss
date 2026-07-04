@@ -17,6 +17,9 @@ import {
   Building,
   Landmark,
   MapPin,
+  Tag,
+  Banknote,
+  Plane,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
@@ -59,6 +62,42 @@ const services = [
     image:
       "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/legal-documentation",
+  },
+  {
+    title: "Trademark & IP",
+    category: "Brand Protection",
+    description:
+      "Trademark registration and ISO certification support to protect and strengthen your brand.",
+    highlightBig: "Trademark",
+    highlightSmall: "& ISO Support",
+    icon: Tag,
+    image:
+      "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    link: "/services/business-support",
+  },
+  {
+    title: "Banking & Compliance",
+    category: "Business Support",
+    description:
+      "Corporate bank account opening and ongoing regulatory compliance monitoring.",
+    highlightBig: "Account Setup",
+    highlightSmall: "& Compliance",
+    icon: Banknote,
+    image:
+      "https://images.unsplash.com/photo-1554469384-e58fac16e23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    link: "/services/business-support",
+  },
+  {
+    title: "UAE Visa Documentation",
+    category: "Visa Services",
+    description:
+      "Investor, employment, family, and visit visa documentation, renewals, and cancellations.",
+    highlightBig: "5",
+    highlightSmall: "Visa Categories",
+    icon: Plane,
+    image:
+      "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    link: "/services/visa-services",
   },
 ];
 
@@ -346,7 +385,7 @@ export default function HomePage() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={service.title}
