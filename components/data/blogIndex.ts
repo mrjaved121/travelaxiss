@@ -18,7 +18,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       readTime: "16 min read",
       category: "Business Setup",
       image:
-        "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     },
     {
       id: "dropshipping-business-uae-guide-2026",
@@ -63,7 +63,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "11 min read",
       category: "UAE Visa Documentation",
-      image: "https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjByZXNpZGVuY2UlMjB2aXNhJTIwcGFzc3BvcnQlMjBidXNpbmVzcyUyMGludmVzdG9yJTIwZW50cmVwcmVuZXVyJTIwRHViYWl8ZW58MXx8fHwxNzc1NzM2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       id: "corporate-bank-account-uae-guide-2026",
@@ -135,7 +135,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGNoYW1iZXIlMjBjb21tZXJjZSUyMGJ1c2luZXNzJTIwcmVnaXN0cmF0aW9uJTIwb2ZmaWNpYWwlMjBidWlsZGluZ3xlbnwxfHx8fDE3NzU2OTY3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       id: "trade-license-approval-uae-guide-2026",
@@ -144,7 +144,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1720722023441-45d4f90b52cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGxpY2Vuc2UlMjBhcHByb3ZhbCUyMFVBRSUyMGxlZ2FsJTIwZG9jdW1lbnQlMjBzdWNjZXNzfGVufDF8fHx8MTc3NTY5NjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
     },
     {
       id: "best-business-activities-uae-2026",

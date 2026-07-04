@@ -86,8 +86,7 @@ export default function WhyBusinessPage() {
               <motion.div
                 key={benefit.title}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-3xl p-8"
                 style={{ backgroundColor: '#EEF4FF' }}
@@ -108,8 +107,7 @@ export default function WhyBusinessPage() {
               <motion.div
                 key={benefit.title}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-3xl p-8"
                 style={{ backgroundColor: '#EEF4FF' }}
@@ -140,8 +138,7 @@ export default function WhyBusinessPage() {
               <motion.div
                 key={stat.label}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
                 <div className="text-4xl md:text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>{stat.value}</div>
@@ -163,8 +160,7 @@ export default function WhyBusinessPage() {
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your Journey</h2>

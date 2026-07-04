@@ -273,8 +273,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
             <h2
@@ -326,8 +325,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-12 max-w-3xl"
           >
             <h2
@@ -347,8 +345,7 @@ export default function CompanyFormationPage() {
               <motion.div
                 key={item.title}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-3xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
               >
@@ -375,8 +372,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2
@@ -392,8 +388,7 @@ export default function CompanyFormationPage() {
               <motion.div
                 key={svc.title}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="rounded-3xl p-6 md:p-8 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
@@ -441,8 +436,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
             <h2
@@ -461,8 +455,7 @@ export default function CompanyFormationPage() {
               <motion.div
                 key={s.step}
                 initial={{ opacity: 0, x: -12 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm"
                 style={{ backgroundColor: "#EEF4FF" }}
@@ -490,8 +483,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
             <h2
@@ -543,8 +535,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
             <h2
@@ -560,8 +551,7 @@ export default function CompanyFormationPage() {
               <motion.div
                 key={pkg.name}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className={`rounded-3xl p-8 shadow-sm ${
                   pkg.highlighted ? "ring-2" : ""
@@ -622,8 +612,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
             <h2
@@ -639,8 +628,7 @@ export default function CompanyFormationPage() {
               <motion.div
                 key={b}
                 initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.04 }}
                 className="flex items-center gap-3 rounded-2xl px-4 py-4 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
@@ -658,8 +646,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="text-center mb-10"
           >
             <h2
@@ -694,8 +681,7 @@ export default function CompanyFormationPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
             <h2
@@ -734,8 +720,7 @@ export default function CompanyFormationPage() {
         <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
