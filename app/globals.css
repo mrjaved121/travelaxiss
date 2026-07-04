@@ -83,10 +83,14 @@ body {
 }
 
 /* Reflow: allow zoom and narrow viewports without horizontal overflow from media */
-img,
-video {
-  max-width: 100%;
-  height: auto;
+/* Layered so Tailwind utilities (h-full, object-cover, etc.) can still override this default —
+   an unlayered rule here would always win over layered utilities regardless of specificity. */
+@layer base {
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* Skip link: hidden until keyboard focus */
