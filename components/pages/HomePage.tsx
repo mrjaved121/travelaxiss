@@ -17,7 +17,6 @@ import {
   Building,
   Landmark,
   MapPin,
-  Clock,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
@@ -30,7 +29,8 @@ const services = [
     category: "Business Setup",
     description:
       "Mainland, freezone, and offshore company setup with full license processing support.",
-    timeline: "5–10 working days",
+    highlightBig: "5–10",
+    highlightSmall: "Working Days",
     icon: Building2,
     image:
       "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
@@ -41,7 +41,8 @@ const services = [
     category: "Approvals",
     description:
       "We manage approvals, Dubai Chamber services, and multi-authority coordination for you.",
-    timeline: "Varies by authority",
+    highlightBig: "Multi-Authority",
+    highlightSmall: "Coordination",
     icon: FileText,
     image:
       "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
@@ -52,7 +53,8 @@ const services = [
     category: "Compliance",
     description:
       "POA/MOA preparation, certificate attestation, and board resolutions handled end-to-end.",
-    timeline: "Fast-track available",
+    highlightBig: "Fast-Track",
+    highlightSmall: "Available",
     icon: Scale,
     image:
       "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
@@ -333,11 +335,14 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16 max-w-2xl mx-auto"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p
+              className="font-script text-3xl mb-1"
+              style={{ color: "#1D63E0" }}
+            >
               Our Services
             </p>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
-              Everything Your Business Needs
+              Popular Services For Business
             </h2>
           </motion.div>
 
@@ -352,36 +357,36 @@ export default function HomePage() {
               >
                 <div className="relative h-48">
                   <img src={service.image} alt="" role="presentation" className="w-full h-full object-cover" />
-                  <span
-                    className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold"
-                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
-                  >
-                    {service.category}
-                  </span>
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-3">{service.description}</p>
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 mb-6">
+                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 mb-5">
                     <span className="flex items-center gap-1">
                       <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
                       Dubai, UAE
                     </span>
                     <span className="flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5 shrink-0" aria-hidden />
-                      {service.timeline}
+                      <service.icon className="w-3.5 h-3.5 shrink-0" aria-hidden />
+                      {service.category}
                     </span>
                   </div>
-                  <Link
-                    href={service.link}
-                    aria-label={`View ${service.title} details`}
-                    className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all hover:opacity-90"
-                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
-                  >
-                    <ArrowUpRight className="w-5 h-5" aria-hidden />
-                  </Link>
+                  <div className="flex items-end justify-between">
+                    <p className="leading-tight" style={{ color: "#0F1B2D" }}>
+                      <span className="text-2xl font-bold">{service.highlightBig}</span>
+                      <span className="text-sm text-gray-500">/{service.highlightSmall}</span>
+                    </p>
+                    <Link
+                      href={service.link}
+                      aria-label={`View ${service.title} details`}
+                      className="inline-flex items-center justify-center w-11 h-11 rounded-full transition-all hover:opacity-90 shrink-0"
+                      style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                    >
+                      <ArrowUpRight className="w-5 h-5" aria-hidden />
+                    </Link>
+                  </div>
                 </div>
               </motion.div>
             ))}
