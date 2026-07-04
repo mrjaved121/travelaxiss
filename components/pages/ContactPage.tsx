@@ -17,22 +17,42 @@ export default function ContactPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center max-w-4xl mx-auto"
           >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+              Get In Touch
+            </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               Connect <span style={{ color: '#1D63E0' }}>With Us</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-6">
-              Reach out for professional guidance on business setup, compliance, and UAE visa-related documentation support.
+            <p className="text-lg text-gray-600 mb-6">
+              Reach out for professional guidance on business setup, compliance, and UAE
+              visa-related documentation support.
             </p>
-            <p className="text-sm text-gray-500 max-w-3xl mx-auto leading-relaxed">
-              We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.
+            <p className="text-sm text-gray-500 max-w-lg leading-relaxed">
+              We provide documentation assistance and consultancy support only. We are not a
+              government authority and do not issue visas directly. All visa applications are
+              submitted through official UAE government channels or authorized entities,
+              subject to applicable rules and approvals.
             </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.15 }}
+            className="relative h-72 md:h-96"
+          >
+            <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <img
+              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Business consultation meeting"
+              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
+            />
           </motion.div>
         </div>
       </section>
@@ -53,7 +73,7 @@ export default function ContactPage() {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
                     <Phone className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
@@ -66,7 +86,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
                     <Mail className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
@@ -79,7 +99,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
                     <MapPin className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
@@ -90,7 +110,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-12 p-6 rounded-lg" style={{ backgroundColor: '#EEF4FF' }}>
+              <div className="mt-12 p-6 rounded-2xl" style={{ backgroundColor: '#EEF4FF' }}>
                 <h3 className="font-semibold mb-2" style={{ color: '#0F1B2D' }}>Business Hours</h3>
                 <div className="space-y-1 text-gray-600">
                   <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
@@ -107,7 +127,7 @@ export default function ContactPage() {
               viewport={{ once: true }}
               className="flex flex-col justify-center"
             >
-              <div className="rounded-lg p-8 shadow-sm" style={{ backgroundColor: '#EEF4FF' }}>
+              <div className="rounded-2xl p-8 shadow-sm" style={{ backgroundColor: '#EEF4FF' }}>
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#25D366' }} aria-hidden>
                     <MessageCircle className="w-10 h-10 text-white" />
@@ -124,7 +144,7 @@ export default function ContactPage() {
                   href={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full flex items-center justify-center space-x-3 px-8 py-4 rounded-lg transition-all hover:opacity-90 font-semibold text-lg"
+                  className="w-full flex items-center justify-center space-x-3 px-8 py-4 rounded-2xl transition-all hover:opacity-90 font-semibold text-lg"
                   style={{ backgroundColor: '#25D366', color: '#FFFFFF' }}
                   aria-label="Start a WhatsApp chat with Travelaxis (opens in a new tab)"
                 >
@@ -142,11 +162,11 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-8 p-6 rounded-lg text-center" style={{ backgroundColor: '#1D63E0' }}>
-                <h3 className="font-semibold mb-3" style={{ color: '#1D63E0' }}>
+              <div className="mt-8 p-6 rounded-2xl text-center" style={{ backgroundColor: '#1D63E0' }}>
+                <h3 className="font-semibold mb-3" style={{ color: '#FFFFFF' }}>
                   Why Contact Us?
                 </h3>
-                <ul className="space-y-2 text-gray-300 text-sm">
+                <ul className="space-y-2 text-white/80 text-sm">
                   <li>✓ Quick response time</li>
                   <li>✓ Professional consultation</li>
                   <li>✓ Expert business guidance</li>
@@ -178,7 +198,7 @@ export default function ContactPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-gray-200"
+            className="rounded-3xl overflow-hidden shadow-lg border border-gray-200 bg-gray-200"
           >
             <div className="relative w-full aspect-[16/10] min-h-[280px] md:min-h-[420px]">
               <iframe
