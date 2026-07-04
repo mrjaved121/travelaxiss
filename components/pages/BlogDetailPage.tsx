@@ -847,8 +847,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Business?</h2>

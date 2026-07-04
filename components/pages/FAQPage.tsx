@@ -218,8 +218,7 @@ export default function FAQPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="text-2xl font-bold mb-8 text-center" style={{ color: '#0F1B2D' }}>
               Related <span style={{ color: '#1D63E0' }}>Topics</span>
@@ -238,8 +237,7 @@ export default function FAQPage() {
                 <motion.li
                   key={topic}
                   initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
+                  animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: index * 0.05 }}
                   className="rounded-2xl p-4 text-center shadow-sm hover:shadow-md transition-shadow"
                   style={{ backgroundColor: '#FFFFFF' }}
@@ -264,8 +262,7 @@ export default function FAQPage() {
         <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Still Have Questions?</h2>

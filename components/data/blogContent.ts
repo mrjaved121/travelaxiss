@@ -16,7 +16,7 @@ export const blogData: Record<string, any> = {
     readTime: "16 min read",
     category: "Business Setup",
     image:
-      "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     content: {
       intro:
         "The UAE e-commerce market is growing faster than ever. With more people shopping online daily, platforms like Noon have created massive opportunities for individuals and businesses. If you want to start selling online in UAE, creating a Noon seller account is one of the best decisions you can make. Whether you are a beginner with no experience, a dropshipping seller, a small business owner, or a growing e-commerce brand, Noon gives you access to thousands of customers across UAE and the Middle East. People often ask: How to sell on Noon UAE step by step? Do I need a trade license in UAE? What documents are required? Is Noon better than Amazon UAE? This guide answers these questions in detail so you can start confidently.",

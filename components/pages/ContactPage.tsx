@@ -65,8 +65,7 @@ export default function ContactPage() {
             {/* Contact Information */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, x: 0 }}
             >
               <h2 className="text-3xl font-bold mb-8" style={{ color: '#0F1B2D' }}>
                 Get in <span style={{ color: '#1D63E0' }}>Touch</span>
@@ -124,8 +123,7 @@ export default function ContactPage() {
             {/* WhatsApp Contact */}
             <motion.div
               initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, x: 0 }}
               className="flex flex-col justify-center"
             >
               <div className="rounded-2xl p-8 shadow-sm" style={{ backgroundColor: '#EEF4FF' }}>
@@ -184,8 +182,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-8 text-center md:text-left"
           >
             <h2 id={mapSectionTitleId} className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#0F1B2D" }}>
@@ -197,8 +194,7 @@ export default function ContactPage() {
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="rounded-3xl overflow-hidden shadow-lg border border-gray-200 bg-gray-200"
           >
             <div className="relative w-full aspect-[16/10] min-h-[280px] md:min-h-[420px]">

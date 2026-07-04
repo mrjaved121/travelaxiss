@@ -269,8 +269,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
             <h2
@@ -320,8 +319,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-12 max-w-3xl"
           >
             <h2
@@ -336,8 +334,7 @@ export default function LegalDocumentationPage() {
               <motion.div
                 key={item.title}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-3xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
               >
@@ -364,8 +361,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2
@@ -381,8 +377,7 @@ export default function LegalDocumentationPage() {
               <motion.div
                 key={svc.title}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="rounded-3xl p-6 md:p-8 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
@@ -430,8 +425,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-12 text-center max-w-3xl mx-auto"
           >
             <h2
@@ -445,8 +439,7 @@ export default function LegalDocumentationPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
               className="rounded-3xl p-8 shadow-sm border border-gray-100"
               style={{ backgroundColor: "#EEF4FF" }}
             >
@@ -475,8 +468,7 @@ export default function LegalDocumentationPage() {
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.05 }}
               className="rounded-3xl p-8 shadow-sm border border-gray-100"
               style={{ backgroundColor: "#EEF4FF" }}
@@ -496,8 +488,7 @@ export default function LegalDocumentationPage() {
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
               className="rounded-3xl p-8 shadow-sm border border-gray-100"
               style={{ backgroundColor: "#EEF4FF" }}
@@ -536,8 +527,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
             <h2
@@ -553,8 +543,7 @@ export default function LegalDocumentationPage() {
               <motion.div
                 key={s.step}
                 initial={{ opacity: 0, x: -12 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-gray-100"
               >
@@ -584,8 +573,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
             <h2
@@ -601,8 +589,7 @@ export default function LegalDocumentationPage() {
               <motion.div
                 key={pkg.name}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className={`rounded-3xl p-8 shadow-sm ${
                   pkg.highlighted ? "ring-2" : ""
@@ -663,8 +650,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
             <h2
@@ -680,8 +666,7 @@ export default function LegalDocumentationPage() {
               <motion.div
                 key={b}
                 initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.04 }}
                 className="flex items-center gap-3 rounded-2xl px-4 py-4 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
@@ -699,8 +684,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="text-center mb-10"
           >
             <h2
@@ -732,8 +716,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-8"
           >
             <h2
@@ -752,8 +735,7 @@ export default function LegalDocumentationPage() {
               <motion.div
                 key={m}
                 initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex items-center space-x-3 p-4 rounded-2xl border-l-4"
                 style={{
@@ -774,8 +756,7 @@ export default function LegalDocumentationPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
             <h2
@@ -824,8 +805,7 @@ export default function LegalDocumentationPage() {
         <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
