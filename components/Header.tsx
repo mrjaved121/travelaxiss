@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Mail, Menu, X } from "lucide-react";
 import { useId, useState } from "react";
+import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/social";
 
 const MOBILE_NAV_PANEL_ID = "primary-navigation-mobile";
 
@@ -27,7 +28,35 @@ export default function Header() {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+    <header className="sticky top-0 z-50">
+      {/* Top utility bar */}
+      <div className="hidden md:block text-white" style={{ backgroundColor: "#1D63E0" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between text-sm">
+          <div className="flex items-center gap-6">
+            <a href={`tel:${phoneNumber}`} className="flex items-center gap-2 hover:opacity-80">
+              <Phone className="w-3.5 h-3.5" aria-hidden />
+              +971 58 986 7555
+            </a>
+            <a href="mailto:info@travelaxis.me" className="flex items-center gap-2 hover:opacity-80">
+              <Mail className="w-3.5 h-3.5" aria-hidden />
+              info@travelaxis.me
+            </a>
+          </div>
+          <div className="flex items-center gap-4" aria-label="Social links">
+            <a href="#" aria-label="Travelaxis on Facebook" className="hover:opacity-80">
+              <FacebookIcon className="w-3.5 h-3.5" />
+            </a>
+            <a href="#" aria-label="Travelaxis on Instagram" className="hover:opacity-80">
+              <InstagramIcon className="w-3.5 h-3.5" />
+            </a>
+            <a href="#" aria-label="Travelaxis on LinkedIn" className="hover:opacity-80">
+              <LinkedinIcon className="w-3.5 h-3.5" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link
@@ -135,6 +164,7 @@ export default function Header() {
             </ul>
           </div>
         ) : null}
+      </div>
       </div>
     </header>
   );

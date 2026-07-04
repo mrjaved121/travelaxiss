@@ -1,11 +1,43 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/social";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer style={{ backgroundColor: "#0E2A57", color: "#FFFFFF" }}>
+      {/* Newsletter band */}
+      <div style={{ backgroundColor: "#1D63E0" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="text-center md:text-left">
+            <h2 className="text-xl font-bold text-white">Subscribe for the Latest Newsletter</h2>
+            <p className="text-white/80 text-sm mt-1">
+              UAE business setup tips and visa updates, straight to your inbox.
+            </p>
+          </div>
+          <form className="w-full md:w-auto flex gap-2" aria-label="Newsletter signup">
+            <label htmlFor="newsletter-email" className="sr-only">
+              Your email address
+            </label>
+            <input
+              id="newsletter-email"
+              type="email"
+              required
+              placeholder="Your Email Address"
+              className="flex-1 md:w-72 px-5 py-3 rounded-full text-[#0F1B2D] bg-white placeholder:text-gray-500 focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="px-6 py-3 rounded-full font-semibold bg-white shrink-0"
+              style={{ color: "#1D63E0" }}
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
@@ -118,6 +150,33 @@ export default function Footer() {
                 <span className="text-gray-400 text-sm">Dubai, UAE</span>
               </li>
             </ul>
+
+            <h2 className="font-semibold mt-6 mb-3 text-base" style={{ color: "#1D63E0" }}>
+              Follow Us On
+            </h2>
+            <div className="flex gap-3" aria-label="Social links">
+              <a
+                href="#"
+                aria-label="Travelaxis on Facebook"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
+              >
+                <FacebookIcon className="w-4 h-4" />
+              </a>
+              <a
+                href="#"
+                aria-label="Travelaxis on Instagram"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
+              >
+                <InstagramIcon className="w-4 h-4" />
+              </a>
+              <a
+                href="#"
+                aria-label="Travelaxis on LinkedIn"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
+              >
+                <LinkedinIcon className="w-4 h-4" />
+              </a>
+            </div>
           </div>
         </div>
 

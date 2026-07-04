@@ -1,206 +1,319 @@
-'use client';
+"use client";
 
 import Link from "next/link";
-import { ArrowRight, CheckCircle, Building2, FileText, Scale, HeadphonesIcon, Star } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Building2,
+  FileText,
+  Scale,
+  Star,
+  Award,
+  Users,
+  TrendingUp,
+  ThumbsUp,
+  Rocket,
+  Briefcase,
+  Building,
+  Landmark,
+  MapPin,
+} from "lucide-react";
 import { motion } from "motion/react";
-export default function HomePage() {
-  const services = [
-    {
-      title: "Company Formation Solutions",
-      description: "We help you set up your business in the right way with full support.",
-      includes: [
-        "Mainland Company Setup",
-        "Freezone Registration",
-        "Offshore Company Setup",
-        "License Processing",
-      ],
-      icon: Building2,
-      link: "/services/company-formation",
-    },
-    {
-      title: "Government Relations Suite",
-      description: "We manage government work so you don't have to worry.",
-      includes: [
-        "Government Approvals",
-        "Dubai Chamber Services",
-        "Multi-Authority Coordination",
-      ],
-      icon: FileText,
-      link: "/services/government-services",
-    },
-    {
-      title: "Legal Documentation Suite",
-      description: "We prepare and handle all important documents for your business.",
-      includes: [
-        "POA / MOA Preparation",
-        "Certificate Attestation",
-        "Legal Agreements",
-        "Board Resolutions",
-      ],
-      icon: Scale,
-      link: "/services/legal-documentation",
-    },
-  ];
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { blogPostSummaries } from "@/components/data/blogIndex";
 
-  const testimonials = [
-    {
-      name: "Ali Hashim",
-      role: "Founder",
-      content: "Their service was smooth and professional. Everything was handled properly, and we had no problems.",
-    },
-    {
-      name: "Rajesh Patel",
-      role: "Managing Director",
-      content: "They explained everything clearly and supported us at every step. The whole process became easy because of them.",
-    },
-  ];
+const services = [
+  {
+    title: "Company Formation",
+    category: "Business Setup",
+    description:
+      "Mainland, freezone, and offshore company setup with full license processing support.",
+    icon: Building2,
+    image:
+      "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    link: "/services/company-formation",
+  },
+  {
+    title: "Government Services",
+    category: "Approvals",
+    description:
+      "We manage approvals, Dubai Chamber services, and multi-authority coordination for you.",
+    icon: FileText,
+    image:
+      "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    link: "/services/government-services",
+  },
+  {
+    title: "Legal Documentation",
+    category: "Compliance",
+    description:
+      "POA/MOA preparation, certificate attestation, and board resolutions handled end-to-end.",
+    icon: Scale,
+    image:
+      "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    link: "/services/legal-documentation",
+  },
+];
+
+const stats = [
+  { icon: Award, value: "11+", label: "Years of Experience" },
+  { icon: Users, value: "1,789+", label: "Happy Clients" },
+  { icon: TrendingUp, value: "3.2x", label: "Better Success Rate" },
+  { icon: ThumbsUp, value: "4.8★", label: "Client Rating" },
+];
+
+const audiences = [
+  {
+    label: "Startups",
+    icon: Rocket,
+    image:
+      "https://images.unsplash.com/photo-1720722023542-0969d30040e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  },
+  {
+    label: "Freelancers",
+    icon: Briefcase,
+    image:
+      "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  },
+  {
+    label: "SMEs",
+    icon: Building,
+    image:
+      "https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  },
+  {
+    label: "Corporates",
+    icon: Landmark,
+    image:
+      "https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+  },
+];
+
+const testimonials = [
+  {
+    name: "Ali Hashim",
+    role: "Founder",
+    avatar:
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+    content:
+      "Their service was smooth and professional. Everything was handled properly, and we had no problems from day one to the final approval.",
+  },
+  {
+    name: "Rajesh Patel",
+    role: "Managing Director",
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+    content:
+      "They explained everything clearly and supported us at every step. The whole process became easy because of them.",
+  },
+];
+
+const latestPosts = blogPostSummaries.slice(0, 3);
+
+export default function HomePage() {
+  const [activeTestimonial, setActiveTestimonial] = useState(0);
+  const testimonial = testimonials[activeTestimonial];
 
   return (
-    <div>
-      {/* Hero Section */}
-      <section className="relative py-20 md:py-32" style={{ backgroundColor: '#EEF4FF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="overflow-x-hidden">
+      {/* Hero */}
+      <section className="relative pt-14 pb-28 md:pt-20 md:pb-32" style={{ backgroundColor: "#EEF4FF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-6xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              We help you build a strong and{" "}
-              <span style={{ color: '#1D63E0' }}>successful future</span>.
+            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#1D63E0" }}>
+              Business Setup &amp; Visa Consultancy
+            </p>
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6" style={{ color: "#0F1B2D" }}>
+              Choose Travelaxis To{" "}
+              <span style={{ color: "#1D63E0" }}>Build Your Business</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Simple, clear, and professional support for your business journey.
+            <p className="text-lg mb-8 max-w-xl text-gray-600">
+              Company formation, government approvals, and legal documentation —
+              handled by a team that has guided 1,789+ clients through it.
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
+              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
             >
-              <span>Contact Travelaxis to get started</span>
+              Get Started Now
+              <ArrowRight className="w-5 h-5" aria-hidden />
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+            className="relative h-80 md:h-[26rem]"
+          >
+            <div
+              className="absolute -top-8 -right-8 w-56 h-56 rounded-full"
+              style={{ backgroundColor: "rgba(29,99,224,0.12)" }}
+              aria-hidden
+            />
+            <img
+              src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Dubai skyline"
+              className="absolute top-0 right-0 w-3/4 h-3/4 object-cover rounded-[2rem] shadow-xl"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Business consultation meeting in Dubai"
+              className="absolute bottom-0 left-0 w-3/5 h-3/5 object-cover rounded-[2rem] shadow-xl border-4 border-white"
+            />
+            <div
+              className="absolute top-[45%] left-[18%] -translate-y-1/2 w-24 h-24 rounded-full flex flex-col items-center justify-center text-center shadow-lg"
+              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+            >
+              <MapPin className="w-5 h-5 mb-0.5" aria-hidden />
+              <span className="text-xs font-bold leading-tight px-1">11+ Years</span>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Reservation-style inquiry bar */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-14 md:-mt-16 relative z-10">
+        <motion.form
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 md:p-8 grid grid-cols-1 md:grid-cols-4 gap-4 items-end"
+        >
+          <label className="flex flex-col gap-1.5 text-sm">
+            <span className="font-semibold" style={{ color: "#0F1B2D" }}>
+              Service Type*
+            </span>
+            <select className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2" style={{ color: "#0F1B2D" }}>
+              <option>Company Formation</option>
+              <option>Government Services</option>
+              <option>Legal Documentation</option>
+              <option>Business Support</option>
+              <option>UAE Visa Documentation</option>
+            </select>
+          </label>
+          <label className="flex flex-col gap-1.5 text-sm">
+            <span className="font-semibold" style={{ color: "#0F1B2D" }}>
+              Preferred Contact*
+            </span>
+            <select className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2" style={{ color: "#0F1B2D" }}>
+              <option>WhatsApp</option>
+              <option>Phone Call</option>
+              <option>Email</option>
+            </select>
+          </label>
+          <label className="flex flex-col gap-1.5 text-sm">
+            <span className="font-semibold" style={{ color: "#0F1B2D" }}>
+              Phone Number*
+            </span>
+            <input
+              type="tel"
+              placeholder="+971"
+              className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
+              style={{ color: "#0F1B2D" }}
+            />
+          </label>
+          <button
+            type="submit"
+            className="h-11 rounded-full font-semibold transition-all hover:opacity-90"
+            style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+          >
+            Get Free Quote
+          </button>
+        </motion.form>
+      </div>
+
+      {/* About snapshot */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="relative h-72 md:h-96"
+          >
+            <div
+              className="absolute inset-0 rounded-[3rem]"
+              style={{ backgroundColor: "#EEF4FF" }}
+              aria-hidden
+            />
+            <img
+              src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Travelaxis consultancy team at work"
+              className="absolute inset-6 w-[calc(100%-3rem)] h-[calc(100%-3rem)] object-cover rounded-[2.5rem] shadow-lg"
+            />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Get to Know Us
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
+              More About Travelaxis
+            </h2>
+            <p className="text-gray-600 mb-4">
+              Our goal is to support businesses from the beginning to success, guiding
+              clients with clear steps, proper planning, and the right advice.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We focus on understanding your needs and helping you move forward
+              without confusion.
+            </p>
+            <ul className="space-y-3 mb-8">
+              {[
+                "Mainland & freezone company formation",
+                "Government & Dubai Chamber coordination",
+                "UAE visa documentation support",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-3">
+                  <span
+                    className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
+                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                    aria-hidden
+                  >
+                    ✓
+                  </span>
+                  <span className="text-gray-700">{item}</span>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/about"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold transition-all hover:opacity-90"
+              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+            >
+              Read More
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
         </div>
       </section>
 
-      {/* Quote Section */}
-      <section 
-        className="relative overflow-hidden"
-        style={{ minHeight: '350px' }}
-      >
-        {/* Background Image */}
-        <img 
-          src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGNpdHlzY2FwZSUyMHNreWxpbmUlMjBsdXh1cnl8ZW58MXx8fHwxNzc1Njk0NTE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        
-        {/* Very light overlay for text readability - 80% transparent (20% opacity) */}
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}></div>
-        
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 z-10 flex items-center justify-center py-16 md:py-20" style={{ minHeight: '350px' }}>
-          <motion.blockquote
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-2xl md:text-4xl font-semibold text-center italic"
-            style={{ color: '#1D63E0', textShadow: '3px 3px 10px rgba(0,0,0,0.95)' }}
-          >
-            "Success comes from always aiming higher and never settling for less."
-          </motion.blockquote>
-        </div>
-      </section>
-
-      {/* Trust Metric */}
-      <section className="py-12" style={{ backgroundColor: '#1D63E0' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="text-center"
-          >
-            <div className="text-5xl md:text-6xl font-bold mb-2" style={{ color: '#0F1B2D' }}>
-              3.2x
-            </div>
-            <p className="text-lg md:text-xl" style={{ color: '#0F1B2D' }}>
-              Stronger documentation quality and clearer milestone tracking
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* About Snapshot */}
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
+      {/* Services */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
+            className="text-center mb-16 max-w-2xl mx-auto"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              We help businesses grow with the{" "}
-              <span style={{ color: '#1D63E0' }}>right direction</span>.
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Our Services
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              Everything Your Business Needs
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
-              Our goal is to support businesses from the beginning to success.
-            </p>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
-              We guide our clients with clear steps, proper planning, and the right advice.
-            </p>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We focus on understanding your needs and helping you move forward without confusion.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto mt-12">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="text-center p-8 rounded-lg"
-              style={{ backgroundColor: '#EEF4FF' }}
-            >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>11</div>
-              <p className="text-lg" style={{ color: '#0F1B2D' }}>Years of Experience</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="text-center p-8 rounded-lg"
-              style={{ backgroundColor: '#EEF4FF' }}
-            >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>1789</div>
-              <p className="text-lg" style={{ color: '#0F1B2D' }}>Happy Clients</p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              We help businesses{" "}
-              <span style={{ color: '#1D63E0' }}>move forward and grow</span>.
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
-              Starting and running a business needs the right support.
-            </p>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We make the process simple and easy so you can focus on your goals.
-            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -211,90 +324,66 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow"
+                className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
-                  <service.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
+                <div className="relative h-48">
+                  <img src={service.image} alt="" role="presentation" className="w-full h-full object-cover" />
+                  <span
+                    className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold"
+                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  >
+                    {service.category}
+                  </span>
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <div className="mb-6">
-                  <p className="font-semibold mb-3" style={{ color: '#0F1B2D' }}>Includes:</p>
-                  <ul className="space-y-2">
-                    {service.includes.map((item) => (
-                      <li key={item} className="flex items-start">
-                        <CheckCircle className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" style={{ color: '#1D63E0' }} aria-hidden />
-                        <span className="text-gray-700 text-sm">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
+                <div className="p-6">
+                  <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-6">{service.description}</p>
+                  <Link
+                    href={service.link}
+                    aria-label={`View ${service.title} details`}
+                    className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all hover:opacity-90"
+                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  >
+                    <ArrowUpRight className="w-5 h-5" aria-hidden />
+                  </Link>
                 </div>
-                <Link
-                  href={service.link}
-                  className="inline-flex items-center space-x-2 font-semibold transition-opacity hover:opacity-70"
-                  style={{ color: '#1D63E0' }}
-                >
-                  <span>{`View ${service.title} details`}</span>
-                  <ArrowRight className="w-5 h-5" aria-hidden />
-                </Link>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Work With Us */}
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-                Helping you succeed with{" "}
-                <span style={{ color: '#1D63E0' }}>experience and smart solutions</span>
-              </h2>
-              <p className="text-lg text-gray-600 mb-4">
-                We work as your partner, not just a service provider.
-              </p>
-              <p className="text-lg text-gray-600 mb-4">
-                We guide you at every step and make sure everything is done properly.
-              </p>
-              <p className="text-lg text-gray-600 mb-8">
-                Our focus is to make your journey simple, fast, and stress-free.
-              </p>
-              <Link
-                href="/contact"
-                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 font-semibold"
-                style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-              >
-                <span>Contact Travelaxis to discuss your goals</span>
-                <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="p-8 rounded-lg"
-              style={{ backgroundColor: '#EEF4FF' }}
-            >
-              <Star className="w-12 h-12 mb-4" style={{ color: '#1D63E0' }} aria-hidden />
-              <blockquote className="text-lg italic text-gray-700">
-                "Working with this team was a great experience. They guided us clearly and helped us move forward with confidence."
-              </blockquote>
-            </motion.div>
+      {/* Stat row with diagonal accent */}
+      <section className="relative py-16 overflow-hidden bg-white">
+        <div
+          className="absolute inset-x-0 top-1/2 h-40 -translate-y-1/2 -skew-y-3"
+          style={{ backgroundColor: "#1D63E0" }}
+          aria-hidden
+        />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white rounded-3xl shadow-xl p-8">
+            {stats.map((stat) => (
+              <div key={stat.label} className="text-center">
+                <div
+                  className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3"
+                  style={{ backgroundColor: "#1D63E0" }}
+                >
+                  <stat.icon className="w-7 h-7 text-white" aria-hidden />
+                </div>
+                <div className="text-2xl md:text-3xl font-bold" style={{ color: "#0F1B2D" }}>
+                  {stat.value}
+                </div>
+                <p className="text-gray-500 text-sm">{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      {/* Who We Help */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -302,30 +391,29 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#0F1B2D' }}>
-              Client Stories: <span style={{ color: '#1D63E0' }}>What People Say About Us</span>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Get Plans For Your Family
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              Solutions That Fit Your Business Stage
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {audiences.map((a, index) => (
               <motion.div
-                key={testimonial.name}
+                key={a.label}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-lg p-8 shadow-sm"
+                transition={{ delay: index * 0.08 }}
+                className="relative h-44 md:h-56 rounded-2xl overflow-hidden group"
               >
-                <div className="flex items-center mb-4" role="img" aria-label="Rating: 5 out of 5 stars">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-current" style={{ color: '#1D63E0' }} aria-hidden />
-                  ))}
-                </div>
-                <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
-                <div>
-                  <p className="font-semibold" style={{ color: '#0F1B2D' }}>{testimonial.name}</p>
-                  <p className="text-sm text-gray-600">{testimonial.role}</p>
+                <img src={a.image} alt="" role="presentation" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" aria-hidden />
+                <div className="absolute bottom-3 left-3 flex items-center gap-2 text-white">
+                  <a.icon className="w-4 h-4" aria-hidden />
+                  <span className="font-semibold text-sm">{a.label}</span>
                 </div>
               </motion.div>
             ))}
@@ -333,32 +421,161 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* Testimonials */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
+            className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Start Your <span style={{ color: '#FFFFFF' }}>Journey Today</span>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Testimonials
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              What Our Clients Say
             </h2>
-            <p className="text-lg text-gray-400 mb-4">
-              Take the first step with the right support and guidance.
-            </p>
-            <p className="text-lg text-gray-400 mb-8">
-              We are here to help you at every stage.
-            </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-            >
-              <span>Start your business journey with Travelaxis</span>
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </Link>
           </motion.div>
+
+          <div className="grid md:grid-cols-[auto_1fr] gap-8 items-center rounded-3xl p-8 md:p-12" style={{ backgroundColor: "#EEF4FF" }}>
+            <img
+              key={testimonial.avatar}
+              src={testimonial.avatar}
+              alt={testimonial.name}
+              className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover mx-auto shadow-lg border-4 border-white"
+            />
+            <div>
+              <div className="flex items-center gap-1 mb-4" role="img" aria-label="Rating: 5 out of 5 stars">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-current" style={{ color: "#1D63E0" }} aria-hidden />
+                ))}
+              </div>
+              <p className="text-lg italic mb-6" style={{ color: "#0F1B2D" }}>
+                &ldquo;{testimonial.content}&rdquo;
+              </p>
+              <p className="font-semibold" style={{ color: "#0F1B2D" }}>
+                {testimonial.name}
+              </p>
+              <p className="text-sm text-gray-500">{testimonial.role}</p>
+            </div>
+          </div>
+
+          <div className="flex justify-center gap-3 mt-6">
+            {testimonials.map((t, index) => (
+              <button
+                key={t.name}
+                type="button"
+                onClick={() => setActiveTestimonial(index)}
+                aria-label={`Show testimonial from ${t.name}`}
+                aria-pressed={activeTestimonial === index}
+                className="rounded-full overflow-hidden transition-all"
+                style={{
+                  width: activeTestimonial === index ? "3.5rem" : "3rem",
+                  height: activeTestimonial === index ? "3.5rem" : "3rem",
+                  outline: activeTestimonial === index ? "3px solid #1D63E0" : "none",
+                  outlineOffset: "2px",
+                }}
+              >
+                <img src={t.avatar} alt="" role="presentation" className="w-full h-full object-cover" />
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA banner */}
+      <section className="relative py-24 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt=""
+          role="presentation"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Are You Ready To Start? Remember Us!!
+          </h2>
+          <p className="text-white/85 text-lg mb-8">
+            Take the first step with the right support and guidance — we&apos;re here
+            to help you at every stage of your business journey.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white"
+            style={{ color: "#FFFFFF" }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = "#1D63E0")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "#FFFFFF")}
+          >
+            Book Now
+            <ArrowRight className="w-5 h-5" aria-hidden />
+          </Link>
+        </motion.div>
+      </section>
+
+      {/* Blog */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Latest News
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              Read Latest Blogs
+            </h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {latestPosts.map((post, index) => (
+              <motion.article
+                key={post.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+              >
+                <div className="relative h-44">
+                  <img src={post.image} alt="" role="presentation" className="w-full h-full object-cover" />
+                </div>
+                <div className="p-6">
+                  <span
+                    className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3"
+                    style={{ backgroundColor: "#EEF4FF", color: "#1D63E0" }}
+                  >
+                    {post.category}
+                  </span>
+                  <h3 className="text-lg font-bold mb-3 line-clamp-2" style={{ color: "#0F1B2D" }}>
+                    {post.title}
+                  </h3>
+                  <Link
+                    href={`/blog/${post.id}`}
+                    className="inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all"
+                    style={{ color: "#1D63E0" }}
+                  >
+                    Read More <ArrowRight className="w-4 h-4" aria-hidden />
+                  </Link>
+                </div>
+              </motion.article>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Button asChild size="lg" className="rounded-full">
+              <Link href="/blog">View All Articles</Link>
+            </Button>
+          </div>
         </div>
       </section>
     </div>
