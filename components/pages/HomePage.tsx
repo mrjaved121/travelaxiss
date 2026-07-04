@@ -560,49 +560,59 @@ export default function HomePage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Are You Ready To Start? Remember Us!!
-          </h2>
-          <p className="text-white/85 text-lg mb-8">
-            Take the first step with the right support and guidance — we&apos;re here
-            to help you at every stage of your business journey.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white"
-            style={{ color: "#FFFFFF" }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = "#1D63E0")}
-            onMouseLeave={(e) => (e.currentTarget.style.color = "#FFFFFF")}
+      <section className="py-10 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="relative rounded-[2.5rem] overflow-hidden py-20 md:py-28"
           >
-            Book Now
-            <ArrowRight className="w-5 h-5" aria-hidden />
-          </Link>
-        </motion.div>
+            <img
+              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt=""
+              role="presentation"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
+            <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Are You Ready To Start? Remember Us!!
+              </h2>
+              <p className="text-white/85 text-lg mb-8">
+                Take the first step with the right support and guidance — we&apos;re here
+                to help you at every stage of your business journey.
+              </p>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
+                style={{ color: "#1D63E0" }}
+              >
+                Book Now
+                <ArrowRight className="w-5 h-5" aria-hidden />
+              </Link>
+            </div>
+          </motion.div>
+        </div>
       </section>
 
       {/* Blog */}
-      <section className="py-20 md:py-28 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 md:py-28 bg-white overflow-hidden">
+        <div
+          className="absolute right-0 top-0 bottom-0 w-1/3 -z-0"
+          style={{
+            backgroundColor: "#1D63E0",
+            clipPath: "polygon(60% 0, 100% 0, 100% 100%, 20% 100%)",
+          }}
+          aria-hidden
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
-              Latest News
+            <p className="font-script text-3xl mb-1" style={{ color: "#1D63E0" }}>
+              latest News
             </p>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
               Read Latest Blogs
@@ -622,15 +632,10 @@ export default function HomePage() {
                   <img src={post.image} alt="" role="presentation" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
-                  <span
-                    className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3"
-                    style={{ backgroundColor: "#EEF4FF", color: "#1D63E0" }}
-                  >
-                    {post.category}
-                  </span>
                   <h3 className="text-lg font-bold mb-3 line-clamp-2" style={{ color: "#0F1B2D" }}>
                     {post.title}
                   </h3>
+                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
                   <Link
                     href={`/blog/${post.id}`}
                     className="inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all"
