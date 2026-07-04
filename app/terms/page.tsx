@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Terms and conditions for using the Travelaxis website and engaging our UAE business and visa documentation consultancy services.",
   alternates: {
-    canonical: `${SITE_URL}/terms`,
+    canonical: `${SITE_URL}/terms/`,
   },
   robots: { index: true, follow: true },
 };
@@ -15,6 +17,7 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-neutral-900">
+      <JsonLd data={breadcrumbJsonLd([{ name: "Terms & Conditions", path: "/terms" }])} />
       <h1 className="text-4xl font-bold mb-2">
         Terms &amp; <span style={{ color: "#1D63E0" }}>Conditions</span>
       </h1>

@@ -1,25 +1,34 @@
 # Travelaxis
 
-> Professional visa consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Content is general information, not legal advice.
+> Professional visa documentation consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a consultancy and does not issue visas or licenses directly — applications are submitted through official UAE government channels or authorized entities.
 
 ## Main pages
 
 - [Home](https://travelaxis.me/)
 - [About](https://travelaxis.me/about/)
-- [Services](https://travelaxis.me/services/)
-- [Company formation](https://travelaxis.me/services/company-formation/)
-- [Government services](https://travelaxis.me/services/government-services/)
-- [Legal documentation](https://travelaxis.me/services/legal-documentation/)
-- [Business support](https://travelaxis.me/services/business-support/)
+- [Services overview](https://travelaxis.me/services/)
+- [Company formation](https://travelaxis.me/services/company-formation/) — mainland, freezone, and offshore company setup
+- [Government services](https://travelaxis.me/services/government-services/) — approvals, Dubai Chamber, customs registration
+- [Legal documentation](https://travelaxis.me/services/legal-documentation/) — MOA/POA, attestation, legal translation
+- [Business support](https://travelaxis.me/services/business-support/) — trademark, ISO certification, banking, compliance
+- [UAE visa documentation & consultancy](https://travelaxis.me/services/visa-services/) — investor, employment, family, visit visas, renewals and cancellations
 - [Why Dubai / UAE business](https://travelaxis.me/why-business/)
 - [FAQ](https://travelaxis.me/faq/)
 - [Contact](https://travelaxis.me/contact/)
-- [Blog index](https://travelaxis.me/blog/)
+- [Blog index](https://travelaxis.me/blog/) — guides on company formation, freezones, visas, and compliance topics; see the sitemap for the full list of individual articles
 - [Privacy policy](https://travelaxis.me/privacy/)
 - [Terms & conditions](https://travelaxis.me/terms/)
+
+## Contact
+
+- Phone / WhatsApp: +971 58 986 7555
+- Email: info@travelaxis.me
+- Location: Al Qusais, Dubai, United Arab Emirates
+- Hours: Mon–Fri 9:00–18:00, Sat 10:00–14:00 (Gulf Standard Time), closed Sunday
 
 ## Machine-readable
 
 - [Sitemap](https://travelaxis.me/sitemap.xml)
+- [Robots](https://travelaxis.me/robots.txt)
 
 If your live site uses a different hostname, replace `https://travelaxis.me` above to match `NEXT_PUBLIC_SITE_URL`.

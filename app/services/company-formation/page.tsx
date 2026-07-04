@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import CompanyFormationPage from "@/components/pages/CompanyFormationPage";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -14,10 +16,10 @@ export const metadata: Metadata = {
     "trade license UAE",
   ],
   alternates: {
-    canonical: `${SITE_URL}/services/company-formation`,
+    canonical: `${SITE_URL}/services/company-formation/`,
   },
   openGraph: {
-    url: `${SITE_URL}/services/company-formation`,
+    url: `${SITE_URL}/services/company-formation/`,
     title:
       "Company Formation in UAE – Complete Business Setup Services Dubai",
     description:
@@ -26,5 +28,24 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <CompanyFormationPage />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Services", path: "/services" },
+            { name: "Company Formation", path: "/services/company-formation" },
+          ]),
+          serviceJsonLd({
+            name: "Company Formation in UAE",
+            description:
+              "Mainland, freezone, and offshore company formation with structured documentation and full support.",
+            path: "/services/company-formation",
+            serviceType: "Company formation consultancy",
+          }),
+        ]}
+      />
+      <CompanyFormationPage />
+    </>
+  );
 }

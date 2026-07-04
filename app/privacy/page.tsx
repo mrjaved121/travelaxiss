@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Travelaxis privacy policy: how we handle your information when you use our website and consultancy services.",
   alternates: {
-    canonical: `${SITE_URL}/privacy`,
+    canonical: `${SITE_URL}/privacy/`,
   },
   robots: { index: true, follow: true },
 };
@@ -15,6 +17,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-neutral-900">
+      <JsonLd data={breadcrumbJsonLd([{ name: "Privacy Policy", path: "/privacy" }])} />
       <h1 className="text-4xl font-bold mb-2">
         Privacy <span style={{ color: "#1D63E0" }}>Policy</span>
       </h1>

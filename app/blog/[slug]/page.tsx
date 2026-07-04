@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import BlogDetailPage from "@/components/pages/BlogDetailPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogData } from "@/components/data/blogContent";
-import { blogPostingJsonLd } from "@/lib/seo/schema";
+import { blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export function generateStaticParams() {
@@ -59,7 +59,15 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={blogPostingJsonLd(slug, blog)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Blog", path: "/blog" },
+            { name: blog.title, path: `/blog/${slug}` },
+          ]),
+          blogPostingJsonLd(slug, blog),
+        ]}
+      />
       <BlogDetailPage slug={slug} />
     </>
   );

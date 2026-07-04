@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import ServicesPage from "@/components/pages/ServicesPage";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -17,16 +19,21 @@ export const metadata: Metadata = {
     "mainland company formation",
   ],
   alternates: {
-    canonical: `${SITE_URL}/services`,
+    canonical: `${SITE_URL}/services/`,
   },
   openGraph: {
     title: "Business Setup & UAE Visa Documentation | Travelaxis",
     description:
       "Company formation, government coordination, legal documentation, business support, and UAE visa documentation assistance.",
-    url: `${SITE_URL}/services`,
+    url: `${SITE_URL}/services/`,
   },
 };
 
 export default function Page() {
-  return <ServicesPage />;
+  return (
+    <>
+      <JsonLd data={breadcrumbJsonLd([{ name: "Services", path: "/services" }])} />
+      <ServicesPage />
+    </>
+  );
 }

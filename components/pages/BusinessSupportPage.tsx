@@ -216,6 +216,7 @@ export default function BusinessSupportPage() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
+            className="min-w-0"
           >
             <h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"

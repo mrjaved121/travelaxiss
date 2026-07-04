@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import ContactPage from "@/components/pages/ContactPage";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -15,16 +17,21 @@ export const metadata: Metadata = {
     "business consultancy Dubai",
   ],
   alternates: {
-    canonical: `${SITE_URL}/contact`,
+    canonical: `${SITE_URL}/contact/`,
   },
   openGraph: {
     title: "Contact Travelaxis | Dubai",
     description:
       "Get in touch for UAE business setup and visa documentation and consultancy support.",
-    url: `${SITE_URL}/contact`,
+    url: `${SITE_URL}/contact/`,
   },
 };
 
 export default function Page() {
-  return <ContactPage />;
+  return (
+    <>
+      <JsonLd data={breadcrumbJsonLd([{ name: "Contact", path: "/contact" }])} />
+      <ContactPage />
+    </>
+  );
 }
