@@ -11,20 +11,20 @@ export default function BlogPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
-              Latest <span style={{ color: '#C9A24A' }}>Insights</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+              Latest <span style={{ color: '#1D63E0' }}>Insights</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
               Expert guides and articles on business setup, company formation, and entrepreneurship in UAE
             </p>
-            <p className="mt-4 font-semibold" style={{ color: '#C9A24A' }}>
+            <p className="mt-4 font-semibold" style={{ color: '#1D63E0' }}>
               Showing all {blogs.length} articles
             </p>
           </motion.div>
@@ -51,7 +51,7 @@ export default function BlogPage() {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#C9A24A', color: '#111111' }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}>
                       {blog.category}
                     </span>
                   </div>
@@ -69,7 +69,7 @@ export default function BlogPage() {
                     </div>
                   </div>
                   
-                  <h2 className="text-xl font-bold mb-3 group-hover:text-opacity-80 transition-colors" style={{ color: '#111111' }}>
+                  <h2 className="text-xl font-bold mb-3 group-hover:text-opacity-80 transition-colors" style={{ color: '#0F1B2D' }}>
                     {blog.title}
                   </h2>
                   
@@ -80,7 +80,7 @@ export default function BlogPage() {
                   <Link
                     href={`/blog/${blog.id}`}
                     className="inline-flex items-center space-x-2 font-semibold hover:underline"
-                    style={{ color: '#C9A24A' }}
+                    style={{ color: '#1D63E0' }}
                     aria-label={`Read full article: ${blog.title}`}
                   >
                     <span>Read full article</span>
@@ -94,7 +94,7 @@ export default function BlogPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -102,7 +102,7 @@ export default function BlogPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Ready to Start Your <span style={{ color: '#C9A24A' }}>Business?</span>
+              Ready to Start Your <span style={{ color: '#FFFFFF' }}>Business?</span>
             </h2>
             <p className="text-lg text-gray-400 mb-8">
               Get expert guidance for your company formation in UAE
@@ -112,7 +112,7 @@ export default function BlogPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
               aria-label="Contact Travelaxis on WhatsApp about UAE company formation (opens in a new tab)"
             >
               <span>Contact Us on WhatsApp</span>

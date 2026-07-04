@@ -17,15 +17,15 @@ export default function ContactPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
-              Connect <span style={{ color: '#C9A24A' }}>With Us</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+              Connect <span style={{ color: '#1D63E0' }}>With Us</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-6">
               Reach out for professional guidance on business setup, compliance, and UAE visa-related documentation support.
@@ -47,17 +47,17 @@ export default function ContactPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl font-bold mb-8" style={{ color: '#111111' }}>
-                Get in <span style={{ color: '#C9A24A' }}>Touch</span>
+              <h2 className="text-3xl font-bold mb-8" style={{ color: '#0F1B2D' }}>
+                Get in <span style={{ color: '#1D63E0' }}>Touch</span>
               </h2>
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
-                    <Phone className="w-6 h-6" style={{ color: '#111111' }} />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                    <Phone className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#111111' }}>Phone</h3>
+                    <h3 className="font-semibold mb-1" style={{ color: '#0F1B2D' }}>Phone</h3>
                     <a href="tel:+971589867555" className="text-gray-600 hover:text-gray-900 transition-colors block">
                       +971 58 986 7555
                     </a>
@@ -66,11 +66,11 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
-                    <Mail className="w-6 h-6" style={{ color: '#111111' }} />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                    <Mail className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#111111' }}>Email</h3>
+                    <h3 className="font-semibold mb-1" style={{ color: '#0F1B2D' }}>Email</h3>
                     <a href="mailto:info@travelaxis.me" className="text-gray-600 hover:text-gray-900 transition-colors block">
                       info@travelaxis.me
                     </a>
@@ -79,19 +79,19 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#C9A24A' }} aria-hidden>
-                    <MapPin className="w-6 h-6" style={{ color: '#111111' }} />
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                    <MapPin className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#111111' }}>Address</h3>
+                    <h3 className="font-semibold mb-1" style={{ color: '#0F1B2D' }}>Address</h3>
                     <p className="text-gray-600">Al Qusais, Dubai, United Arab Emirates</p>
                     <p className="text-gray-600">Visit by appointment</p>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-12 p-6 rounded-lg" style={{ backgroundColor: '#F5F5F5' }}>
-                <h3 className="font-semibold mb-2" style={{ color: '#111111' }}>Business Hours</h3>
+              <div className="mt-12 p-6 rounded-lg" style={{ backgroundColor: '#EEF4FF' }}>
+                <h3 className="font-semibold mb-2" style={{ color: '#0F1B2D' }}>Business Hours</h3>
                 <div className="space-y-1 text-gray-600">
                   <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
                   <p>Saturday: 10:00 AM - 2:00 PM</p>
@@ -107,13 +107,13 @@ export default function ContactPage() {
               viewport={{ once: true }}
               className="flex flex-col justify-center"
             >
-              <div className="rounded-lg p-8 shadow-sm" style={{ backgroundColor: '#F5F5F5' }}>
+              <div className="rounded-lg p-8 shadow-sm" style={{ backgroundColor: '#EEF4FF' }}>
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#25D366' }} aria-hidden>
                     <MessageCircle className="w-10 h-10 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4" style={{ color: '#111111' }}>
-                    Chat with us on <span style={{ color: '#C9A24A' }}>WhatsApp</span>
+                  <h3 className="text-2xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+                    Chat with us on <span style={{ color: '#1D63E0' }}>WhatsApp</span>
                   </h3>
                   <p className="text-gray-600 mb-8">
                     Get structured responses to your queries—including company setup and UAE visa documentation questions.
@@ -136,14 +136,14 @@ export default function ContactPage() {
                   <p className="text-sm text-gray-600">
                     Click to open WhatsApp and message us directly
                   </p>
-                  <p className="text-sm font-semibold mt-2" style={{ color: '#111111' }}>
+                  <p className="text-sm font-semibold mt-2" style={{ color: '#0F1B2D' }}>
                     +971 58 986 7555
                   </p>
                 </div>
               </div>
 
-              <div className="mt-8 p-6 rounded-lg text-center" style={{ backgroundColor: '#111111' }}>
-                <h3 className="font-semibold mb-3" style={{ color: '#C9A24A' }}>
+              <div className="mt-8 p-6 rounded-lg text-center" style={{ backgroundColor: '#1D63E0' }}>
+                <h3 className="font-semibold mb-3" style={{ color: '#1D63E0' }}>
                   Why Contact Us?
                 </h3>
                 <ul className="space-y-2 text-gray-300 text-sm">
@@ -159,7 +159,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map — Al Qusais, Dubai */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }} aria-labelledby={mapSectionTitleId}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }} aria-labelledby={mapSectionTitleId}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -167,8 +167,8 @@ export default function ContactPage() {
             viewport={{ once: true }}
             className="mb-8 text-center md:text-left"
           >
-            <h2 id={mapSectionTitleId} className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#111111" }}>
-              Find us in <span style={{ color: "#C9A24A" }}>Al Qusais</span>
+            <h2 id={mapSectionTitleId} className="text-2xl md:text-3xl font-bold mb-2" style={{ color: "#0F1B2D" }}>
+              Find us in <span style={{ color: "#1D63E0" }}>Al Qusais</span>
             </h2>
             <p className="text-gray-600">
               Dubai, United Arab Emirates — visit by appointment
@@ -197,7 +197,7 @@ export default function ContactPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium underline-offset-2 hover:underline"
-              style={{ color: "#C9A24A" }}
+              style={{ color: "#1D63E0" }}
             >
               Open Al Qusais, Dubai in Google Maps (opens in a new tab)
             </a>

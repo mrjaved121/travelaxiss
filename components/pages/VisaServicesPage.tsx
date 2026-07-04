@@ -51,27 +51,27 @@ export default function VisaServicesPage() {
 
   return (
     <div>
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
-              UAE Visa <span style={{ color: '#C9A24A' }}>Documentation &amp; Consultancy</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+              UAE Visa <span style={{ color: '#1D63E0' }}>Documentation &amp; Consultancy</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-6">
               End-to-end UAE visa documentation and consultancy support—from eligibility review and paperwork to application guidance, renewals, and cancellation assistance.
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#C9A24A" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#1D63E0" }}>
               {disclaimer}
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -80,7 +80,7 @@ export default function VisaServicesPage() {
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
-              Support Across Major <span style={{ color: '#C9A24A' }}>UAE Visa Categories</span>
+              Support Across Major <span style={{ color: '#FFFFFF' }}>UAE Visa Categories</span>
             </h2>
             <p className="text-lg text-gray-400">
               Structured documentation and guidance for the visa categories most businesses and families need in the UAE.
@@ -100,10 +100,10 @@ export default function VisaServicesPage() {
               >
                 <div
                   className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 mx-auto"
-                  style={{ backgroundColor: '#C9A24A' }}
+                  style={{ backgroundColor: '#1D63E0' }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                  <item.icon className="w-7 h-7" style={{ color: '#0F1B2D' }} />
                 </div>
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
@@ -134,7 +134,7 @@ export default function VisaServicesPage() {
             <Link
               href="/contact"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
             >
               <span>Book a Visa Documentation Consultation</span>
               <ArrowRight className="w-5 h-5" aria-hidden />

@@ -12,9 +12,9 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
     return (
       <div className="min-h-screen flex items-center justify-center px-4" role="alert">
         <div className="text-center max-w-md">
-          <h1 className="text-3xl font-bold mb-4" style={{ color: '#111111' }}>Blog Not Found</h1>
+          <h1 className="text-3xl font-bold mb-4" style={{ color: '#0F1B2D' }}>Blog Not Found</h1>
           <p className="text-gray-600 mb-6">We could not find that article. It may have been moved or removed.</p>
-          <Link href="/blog" className="text-lg font-semibold" style={{ color: '#C9A24A' }}>
+          <Link href="/blog" className="text-lg font-semibold" style={{ color: '#1D63E0' }}>
             Return to the Travelaxis blog listing
           </Link>
         </div>
@@ -25,12 +25,12 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
   return (
     <article aria-labelledby="blog-article-title">
       {/* Back Button */}
-      <section className="py-6" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-6" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link 
             href="/blog"
             className="inline-flex items-center space-x-2 hover:underline"
-            style={{ color: '#C9A24A' }}
+            style={{ color: '#1D63E0' }}
           >
             <ArrowLeft className="w-4 h-4" aria-hidden />
             <span>Back to all Travelaxis blog articles</span>
@@ -39,19 +39,19 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       </section>
 
       {/* Hero Section */}
-      <section className="py-12" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-12" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
             <div className="mb-4">
-              <span className="px-4 py-2 rounded-full text-sm font-semibold" style={{ backgroundColor: '#C9A24A', color: '#111111' }}>
+              <span className="px-4 py-2 rounded-full text-sm font-semibold" style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}>
                 {blog.category}
               </span>
             </div>
             
-            <h1 id="blog-article-title" className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
+            <h1 id="blog-article-title" className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               {blog.title}
             </h1>
             
@@ -101,7 +101,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
 
             {blog.content.sections.map((section: any, sectionIdx: number) => (
               <div key={sectionIdx} className="mb-12">
-                <h2 className="text-3xl font-bold mb-6" style={{ color: '#111111' }}>
+                <h2 className="text-3xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
                   {section.heading}
                 </h2>
 
@@ -125,7 +125,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                         <div key={idx}>
                           <h3
                             className="text-2xl font-bold mb-4"
-                            style={{ color: "#111111" }}
+                            style={{ color: "#0F1B2D" }}
                           >
                             {sub.title}
                           </h3>
@@ -141,7 +141,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                                   key={i}
                                   className="flex items-start space-x-3 text-gray-700"
                                 >
-                                  <span className="text-[#C9A24A]" aria-hidden>👉</span>
+                                  <span className="text-[#1D63E0]" aria-hidden>👉</span>
                                   <span>{item}</span>
                                 </li>
                               ))}
@@ -157,11 +157,11 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div
                       className="rounded-lg p-6"
-                      style={{ backgroundColor: "#F5F5F5" }}
+                      style={{ backgroundColor: "#EEF4FF" }}
                     >
                       <h3
                         className="text-xl font-bold mb-4"
-                        style={{ color: "#C9A24A" }}
+                        style={{ color: "#1D63E0" }}
                       >
                         {section.columnCompare.left.title}
                       </h3>
@@ -174,7 +174,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                             >
                               <div
                                 className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
-                                style={{ backgroundColor: "#C9A24A" }}
+                                style={{ backgroundColor: "#1D63E0" }}
                               ></div>
                               <span className="text-gray-700">{item}</span>
                             </li>
@@ -184,11 +184,11 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                     </div>
                     <div
                       className="rounded-lg p-6"
-                      style={{ backgroundColor: "#F5F5F5" }}
+                      style={{ backgroundColor: "#EEF4FF" }}
                     >
                       <h3
                         className="text-xl font-bold mb-4"
-                        style={{ color: "#C9A24A" }}
+                        style={{ color: "#1D63E0" }}
                       >
                         {section.columnCompare.right.title}
                       </h3>
@@ -201,7 +201,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                             >
                               <div
                                 className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
-                                style={{ backgroundColor: "#C9A24A" }}
+                                style={{ backgroundColor: "#1D63E0" }}
                               ></div>
                               <span className="text-gray-700">{item}</span>
                             </li>
@@ -252,15 +252,15 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.ecommerceLicenseTypes && (
                   <div className="space-y-6">
                     {section.ecommerceLicenseTypes.map((type: any, idx: number) => (
-                      <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                        <h3 className="text-xl font-bold mb-3" style={{ color: '#C9A24A' }}>
+                      <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                        <h3 className="text-xl font-bold mb-3" style={{ color: '#1D63E0' }}>
                           🟩 {type.number}. {type.name}
                         </h3>
                         <p className="text-gray-700 font-semibold mb-2">Benefits:</p>
                         <ul className="space-y-2">
                           {type.benefits.map((benefit: string, bidx: number) => (
                             <li key={bidx} className="flex items-start space-x-3">
-                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                               <span className="text-gray-700">{benefit}</span>
                             </li>
                           ))}
@@ -274,13 +274,13 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.ecommerceSteps && (
                   <div className="space-y-6">
                     {section.ecommerceSteps.map((stepItem: any, idx: number) => (
-                      <div key={idx} className="rounded-lg p-6 shadow-md" style={{ backgroundColor: '#F5F5F5' }}>
+                      <div key={idx} className="rounded-lg p-6 shadow-md" style={{ backgroundColor: '#EEF4FF' }}>
                         <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#C9A24A' }}>
-                            <span className="font-bold" style={{ color: '#111111' }}>{idx + 1}</span>
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }}>
+                            <span className="font-bold" style={{ color: '#FFFFFF' }}>{idx + 1}</span>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-xl font-bold mb-2" style={{ color: '#111111' }}>
+                            <h3 className="text-xl font-bold mb-2" style={{ color: '#0F1B2D' }}>
                               {stepItem.step}
                             </h3>
                             <p className="text-gray-700">{stepItem.description}</p>
@@ -294,27 +294,27 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {/* E-Commerce Documents */}
                 {section.ecommerceDocuments && (
                   <div className="space-y-6">
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Personal Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.ecommerceDocuments.personalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{doc}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Business Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.ecommerceDocuments.businessDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{doc}</span>
                           </li>
                         ))}
@@ -422,7 +422,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {/* Freelance Eligible Professionals */}
                 {section.freelanceEligibleProfessionals && (
                   <div>
-                    <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                       🟩 Eligible Professionals
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -439,7 +439,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {/* Freelance Other Eligible */}
                 {section.freelanceOtherEligible && (
                   <div>
-                    <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                       🟩 Other Eligible Individuals
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
@@ -471,15 +471,15 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.freelanceLicenseTypes && (
                   <div className="space-y-6">
                     {section.freelanceLicenseTypes.map((type: any, idx: number) => (
-                      <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                        <h3 className="text-xl font-bold mb-3" style={{ color: '#C9A24A' }}>
+                      <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                        <h3 className="text-xl font-bold mb-3" style={{ color: '#1D63E0' }}>
                           🟩 {type.name}
                         </h3>
                         <p className="text-gray-700 font-semibold mb-2">For:</p>
                         <ul className="space-y-2">
                           {type.forWhom.map((item: string, fidx: number) => (
                             <li key={fidx} className="flex items-start space-x-3">
-                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                               <span className="text-gray-700">{item}</span>
                             </li>
                           ))}
@@ -493,13 +493,13 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.freelanceVisaSteps && (
                   <div className="space-y-6">
                     {section.freelanceVisaSteps.map((stepItem: any, idx: number) => (
-                      <div key={idx} className="rounded-lg p-6 shadow-md" style={{ backgroundColor: '#F5F5F5' }}>
+                      <div key={idx} className="rounded-lg p-6 shadow-md" style={{ backgroundColor: '#EEF4FF' }}>
                         <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#C9A24A' }}>
-                            <span className="font-bold" style={{ color: '#111111' }}>{idx + 1}</span>
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }}>
+                            <span className="font-bold" style={{ color: '#FFFFFF' }}>{idx + 1}</span>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-xl font-bold mb-2" style={{ color: '#111111' }}>
+                            <h3 className="text-xl font-bold mb-2" style={{ color: '#0F1B2D' }}>
                               {stepItem.step}
                             </h3>
                             <p className="text-gray-700">{stepItem.description}</p>
@@ -513,40 +513,40 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {/* Freelance Visa Documents */}
                 {section.freelanceVisaDocuments && (
                   <div className="space-y-6">
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Personal Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVisaDocuments.personalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{doc}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Professional Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVisaDocuments.professionalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{doc}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Additional Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVisaDocuments.additionalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{doc}</span>
                           </li>
                         ))}
@@ -558,27 +558,27 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {/* Freelance vs Company */}
                 {section.freelanceVsCompany && (
                   <div className="grid md:grid-cols-2 gap-6">
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Freelance Visa
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVsCompany.freelanceVisa.map((item: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{item}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                      <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                      <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                         🟩 Company Setup
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVsCompany.companySetup.map((item: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#C9A24A' }}></div>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#1D63E0' }}></div>
                             <span className="text-gray-700">{item}</span>
                           </li>
                         ))}
@@ -638,7 +638,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {/* Dropshipping How It Works */}
                 {section.dropshippingHowItWorks && (
                   <div>
-                    <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                    <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                       🟩 How It Works
                     </h3>
                     <div className="space-y-3">
@@ -654,14 +654,14 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
 
                 {/* Dropshipping Example */}
                 {section.dropshippingExample && (
-                  <div className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                    <h3 className="text-xl font-bold mb-4" style={{ color: '#C9A24A' }}>
+                  <div className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                    <h3 className="text-xl font-bold mb-4" style={{ color: '#1D63E0' }}>
                       🟩 Example
                     </h3>
                     <div className="space-y-2">
                       <p className="text-gray-700">You sell product for <strong>{section.dropshippingExample.productPrice}</strong></p>
                       <p className="text-gray-700">Supplier charges <strong>{section.dropshippingExample.supplierCost}</strong></p>
-                      <p className="text-gray-700 font-bold" style={{ color: '#C9A24A' }}>👉 Your profit = {section.dropshippingExample.profit}</p>
+                      <p className="text-gray-700 font-bold" style={{ color: '#1D63E0' }}>👉 Your profit = {section.dropshippingExample.profit}</p>
                     </div>
                   </div>
                 )}
@@ -694,13 +694,13 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.dropshippingSteps && (
                   <div className="space-y-6">
                     {section.dropshippingSteps.map((stepItem: any, idx: number) => (
-                      <div key={idx} className="rounded-lg p-6 shadow-md" style={{ backgroundColor: '#F5F5F5' }}>
+                      <div key={idx} className="rounded-lg p-6 shadow-md" style={{ backgroundColor: '#EEF4FF' }}>
                         <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#C9A24A' }}>
-                            <span className="font-bold" style={{ color: '#111111' }}>{idx + 1}</span>
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }}>
+                            <span className="font-bold" style={{ color: '#FFFFFF' }}>{idx + 1}</span>
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-xl font-bold mb-2" style={{ color: '#111111' }}>
+                            <h3 className="text-xl font-bold mb-2" style={{ color: '#0F1B2D' }}>
                               {stepItem.step}
                             </h3>
                             <p className="text-gray-700">{stepItem.description}</p>
@@ -816,8 +816,8 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.faqs && (
                   <div className="space-y-4">
                     {section.faqs.map((faq: any, idx: number) => (
-                      <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#F5F5F5' }}>
-                        <h3 className="text-lg font-bold mb-2 flex items-start" style={{ color: '#C9A24A' }}>
+                      <div key={idx} className="rounded-lg p-6" style={{ backgroundColor: '#EEF4FF' }}>
+                        <h3 className="text-lg font-bold mb-2 flex items-start" style={{ color: '#1D63E0' }}>
                           <span className="mr-2" aria-hidden>❓</span>
                           {faq.question}
                         </h3>
@@ -837,7 +837,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -845,7 +845,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Ready to Start Your <span style={{ color: '#C9A24A' }}>Business?</span>
+              Ready to Start Your <span style={{ color: '#FFFFFF' }}>Business?</span>
             </h2>
             <p className="text-lg text-gray-400 mb-8">
               Get expert guidance for your company formation in UAE
@@ -855,7 +855,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
               aria-label="Contact Travelaxis on WhatsApp about UAE business setup (opens in a new tab)"
             >
               <span>Contact Us on WhatsApp</span>
@@ -868,15 +868,15 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       {/* Share Section */}
       <section className="py-8" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between border-t border-b py-6" style={{ borderColor: '#F5F5F5' }}>
+          <div className="flex items-center justify-between border-t border-b py-6" style={{ borderColor: '#EEF4FF' }}>
             <div className="flex items-center space-x-2">
-              <Share2 className="w-5 h-5" style={{ color: '#C9A24A' }} aria-hidden />
-              <span className="font-semibold" style={{ color: '#111111' }}>Share this article</span>
+              <Share2 className="w-5 h-5" style={{ color: '#1D63E0' }} aria-hidden />
+              <span className="font-semibold" style={{ color: '#0F1B2D' }}>Share this article</span>
             </div>
             <Link 
               href="/blog"
               className="font-semibold hover:underline"
-              style={{ color: '#C9A24A' }}
+              style={{ color: '#1D63E0' }}
             >
               View all Travelaxis blog articles
             </Link>

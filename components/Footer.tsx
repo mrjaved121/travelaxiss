@@ -5,13 +5,13 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer style={{ backgroundColor: "#111111", color: "#FFFFFF" }}>
+    <footer style={{ backgroundColor: "#0E2A57", color: "#FFFFFF" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <p className="text-2xl font-bold mb-4">
-              <span style={{ color: "#C9A24A" }}>Travel</span>
+              <span style={{ color: "#1D63E0" }}>Travel</span>
               <span style={{ color: "#FFFFFF" }}>axis</span>
             </p>
             <p className="text-gray-400 text-sm">
@@ -24,7 +24,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <nav aria-label="Quick links">
-            <h2 className="font-semibold mb-4 text-base" style={{ color: "#C9A24A" }}>
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#1D63E0" }}>
               Quick Links
             </h2>
             <ul className="space-y-2 list-none p-0 m-0">
@@ -63,7 +63,7 @@ export default function Footer() {
 
           {/* Services */}
           <nav aria-label="Services">
-            <h2 className="font-semibold mb-4 text-base" style={{ color: "#C9A24A" }}>
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#1D63E0" }}>
               Services
             </h2>
             <ul className="space-y-2 list-none p-0 m-0">
@@ -97,24 +97,24 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h2 className="font-semibold mb-4 text-base" style={{ color: "#C9A24A" }}>
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#1D63E0" }}>
               Contact
             </h2>
             <ul className="space-y-3 list-none p-0 m-0">
               <li className="flex items-start space-x-2">
-                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#C9A24A" }} aria-hidden />
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
                 <a href="tel:+971589867555" className="text-gray-400 hover:text-white transition-colors text-sm">
                   +971 58 986 7555
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#C9A24A" }} aria-hidden />
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
                 <a href="mailto:info@travelaxis.me" className="text-gray-400 hover:text-white transition-colors text-sm">
                   info@travelaxis.me
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#C9A24A" }} aria-hidden />
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
                 <span className="text-gray-400 text-sm">Dubai, UAE</span>
               </li>
             </ul>

@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-neutral-900">
       <h1 className="text-4xl font-bold mb-2">
-        Privacy <span style={{ color: "#C9A24A" }}>Policy</span>
+        Privacy <span style={{ color: "#1D63E0" }}>Policy</span>
       </h1>
       <p className="text-neutral-600 text-sm mb-10">Last updated: April 9, 2026</p>
       <div className="prose prose-gray max-w-none space-y-6 text-neutral-700">
@@ -45,13 +45,13 @@ export default function PrivacyPolicyPage() {
         </h2>
         <p>
           For privacy-related requests, contact us at{" "}
-          <a href="mailto:info@travelaxis.me" className="underline" style={{ color: "#C9A24A" }}>
+          <a href="mailto:info@travelaxis.me" className="underline" style={{ color: "#1D63E0" }}>
             info@travelaxis.me
           </a>
           .
         </p>
         <p className="pt-8">
-          <Link href="/" className="text-sm font-medium underline" style={{ color: "#C9A24A" }}>
+          <Link href="/" className="text-sm font-medium underline" style={{ color: "#1D63E0" }}>
             Return to Travelaxis home
           </Link>
         </p>

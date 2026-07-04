@@ -181,7 +181,7 @@ export default function GovernmentServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="py-20 md:py-24" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -190,10 +190,10 @@ export default function GovernmentServicesPage() {
           >
             <h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Government Services in UAE –{" "}
-              <span style={{ color: "#C9A24A" }}>
+              <span style={{ color: "#1D63E0" }}>
                 Fast Approvals & Hassle-Free Processing
               </span>
             </h1>
@@ -209,7 +209,7 @@ export default function GovernmentServicesPage() {
                 "Complete compliance management",
               ].map((line) => (
                 <li key={line} className="flex items-start gap-2">
-                  <span className="text-[#C9A24A]">👉</span>
+                  <span className="text-[#1D63E0]">👉</span>
                   <span>{line}</span>
                 </li>
               ))}
@@ -218,7 +218,7 @@ export default function GovernmentServicesPage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               >
                 Start Your Process
               </Link>
@@ -227,7 +227,7 @@ export default function GovernmentServicesPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#111111", color: "#111111" }}
+                style={{ borderColor: "#0F1B2D", color: "#0F1B2D" }}
               >
                 Chat on WhatsApp
               </a>
@@ -247,10 +247,10 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Complete Government Services for Businesses in{" "}
-              <span style={{ color: "#C9A24A" }}>UAE</span>
+              <span style={{ color: "#1D63E0" }}>UAE</span>
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Navigating government processes in the UAE can be complex and
@@ -267,7 +267,7 @@ export default function GovernmentServicesPage() {
               We manage every step of the process, ensuring full compliance with
               UAE regulations.
             </p>
-            <p className="font-semibold mb-4" style={{ color: "#111111" }}>
+            <p className="font-semibold mb-4" style={{ color: "#0F1B2D" }}>
               Our services include:
             </p>
             <ul className="space-y-3">
@@ -280,7 +280,7 @@ export default function GovernmentServicesPage() {
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
-                    style={{ color: "#C9A24A" }}
+                    style={{ color: "#1D63E0" }}
                   />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
@@ -291,7 +291,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Why choose us */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -301,7 +301,7 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Why Choose Our Government Services?
             </h2>
@@ -327,7 +327,7 @@ export default function GovernmentServicesPage() {
                   </span>
                   <h3
                     className="text-xl font-bold"
-                    style={{ color: "#111111" }}
+                    style={{ color: "#0F1B2D" }}
                   >
                     {item.title}
                   </h3>
@@ -340,7 +340,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Key services */}
-      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -353,7 +353,7 @@ export default function GovernmentServicesPage() {
               style={{ color: "#FFFFFF" }}
             >
               Government Services We{" "}
-              <span style={{ color: "#C9A24A" }}>Offer</span>
+              <span style={{ color: "#FFFFFF" }}>Offer</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -369,9 +369,9 @@ export default function GovernmentServicesPage() {
               >
                 <div
                   className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#C9A24A" }}
+                  style={{ backgroundColor: "#1D63E0" }}
                 >
-                  <svc.icon className="w-6 h-6" style={{ color: "#111111" }} />
+                  <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <h3
                   className="text-lg font-bold mb-2"
@@ -384,7 +384,7 @@ export default function GovernmentServicesPage() {
                 </p>
                 <p
                   className="text-xs font-semibold uppercase tracking-wide mb-2"
-                  style={{ color: "#C9A24A" }}
+                  style={{ color: "#1D63E0" }}
                 >
                   Includes
                 </p>
@@ -394,7 +394,7 @@ export default function GovernmentServicesPage() {
                       key={line}
                       className="flex items-start gap-2 text-sm text-gray-300"
                     >
-                      <span className="text-[#C9A24A] mt-0.5">👉</span>
+                      <span className="text-[#1D63E0] mt-0.5">👉</span>
                       <span>{line}</span>
                     </li>
                   ))}
@@ -416,10 +416,10 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Step-by-Step Government Approval{" "}
-              <span style={{ color: "#C9A24A" }}>Process</span>
+              <span style={{ color: "#1D63E0" }}>Process</span>
             </h2>
             <p className="text-lg text-gray-700 max-w-3xl">
               A clear path from requirements to completed approvals.
@@ -434,18 +434,18 @@ export default function GovernmentServicesPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-xl p-6 shadow-sm"
-                style={{ backgroundColor: "#F5F5F5" }}
+                style={{ backgroundColor: "#EEF4FF" }}
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
-                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                 >
                   {index + 1}
                 </div>
                 <div>
                   <h3
                     className="text-lg font-bold mb-1"
-                    style={{ color: "#111111" }}
+                    style={{ color: "#0F1B2D" }}
                   >
                     {s.step}
                   </h3>
@@ -458,7 +458,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -468,16 +468,16 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-8"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               How Long Do Government Approvals{" "}
-              <span style={{ color: "#C9A24A" }}>Take?</span>
+              <span style={{ color: "#1D63E0" }}>Take?</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div className="rounded-xl p-6 bg-white shadow-sm border border-gray-100">
                 <div className="flex items-center gap-2 mb-2">
-                  <Clock className="w-6 h-6" style={{ color: "#C9A24A" }} />
-                  <h3 className="text-xl font-bold" style={{ color: "#111111" }}>
+                  <Clock className="w-6 h-6" style={{ color: "#1D63E0" }} />
+                  <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
                     Standard processing
                   </h3>
                 </div>
@@ -491,8 +491,8 @@ export default function GovernmentServicesPage() {
               </div>
               <div className="rounded-xl p-6 bg-white shadow-sm border border-gray-100">
                 <div className="flex items-center gap-2 mb-2">
-                  <Sparkles className="w-6 h-6" style={{ color: "#C9A24A" }} />
-                  <h3 className="text-xl font-bold" style={{ color: "#111111" }}>
+                  <Sparkles className="w-6 h-6" style={{ color: "#1D63E0" }} />
+                  <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
                     Priority processing
                   </h3>
                 </div>
@@ -522,10 +522,10 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Flexible Government Service{" "}
-              <span style={{ color: "#C9A24A" }}>Packages</span>
+              <span style={{ color: "#1D63E0" }}>Packages</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -541,28 +541,28 @@ export default function GovernmentServicesPage() {
                 }`}
                 style={
                   pkg.highlighted
-                    ? { borderColor: "#C9A24A", backgroundColor: "#FFFCF5" }
-                    : { backgroundColor: "#F5F5F5" }
+                    ? { borderColor: "#1D63E0", backgroundColor: "#FFFCF5" }
+                    : { backgroundColor: "#EEF4FF" }
                 }
               >
                 {pkg.highlighted && (
                   <div
                     className="inline-block px-4 py-1 rounded-full mb-4 text-sm font-semibold"
-                    style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                   >
                     Priority
                   </div>
                 )}
                 <h3
                   className="text-2xl font-bold mb-2"
-                  style={{ color: "#111111" }}
+                  style={{ color: "#0F1B2D" }}
                 >
                   {pkg.name}
                 </h3>
                 <p className="text-gray-600 mb-6">{pkg.tagline}</p>
                 <p
                   className="text-sm font-semibold mb-3"
-                  style={{ color: "#111111" }}
+                  style={{ color: "#0F1B2D" }}
                 >
                   Includes:
                 </p>
@@ -571,7 +571,7 @@ export default function GovernmentServicesPage() {
                     <li key={f} className="flex items-start gap-2">
                       <CheckCircle
                         className="w-5 h-5 flex-shrink-0 mt-0.5"
-                        style={{ color: "#C9A24A" }}
+                        style={{ color: "#1D63E0" }}
                       />
                       <span className="text-gray-700">{f}</span>
                     </li>
@@ -580,7 +580,7 @@ export default function GovernmentServicesPage() {
                 <Link
                   href="/contact"
                   className="block text-center px-6 py-3 rounded-lg transition-all hover:opacity-90 font-semibold"
-                  style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                 >
                   Start Process
                 </Link>
@@ -591,7 +591,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Benefits of professional services */}
-      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -604,7 +604,7 @@ export default function GovernmentServicesPage() {
               style={{ color: "#FFFFFF" }}
             >
               Benefits of Using Professional Government{" "}
-              <span style={{ color: "#C9A24A" }}>Services</span>
+              <span style={{ color: "#FFFFFF" }}>Services</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
@@ -627,7 +627,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Who needs */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -637,7 +637,7 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Who Needs These Services?
             </h2>
@@ -647,7 +647,7 @@ export default function GovernmentServicesPage() {
               <span
                 key={label}
                 className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
-                style={{ color: "#111111" }}
+                style={{ color: "#0F1B2D" }}
               >
                 {label}
               </span>
@@ -670,10 +670,10 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Common Mistakes in Government{" "}
-              <span style={{ color: "#C9A24A" }}>Processing</span>
+              <span style={{ color: "#1D63E0" }}>Processing</span>
             </h2>
             <p className="text-lg text-gray-700">
               These mistakes can delay your business operations.
@@ -702,7 +702,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: "#F5F5F5" }}>
+      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -712,10 +712,10 @@ export default function GovernmentServicesPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#111111" }}
+              style={{ color: "#0F1B2D" }}
             >
               Frequently Asked{" "}
-              <span style={{ color: "#C9A24A" }}>Questions</span>
+              <span style={{ color: "#1D63E0" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -728,10 +728,10 @@ export default function GovernmentServicesPage() {
                 >
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#111111" }}
+                    style={{ color: "#0F1B2D" }}
                   >
                     <span className="flex items-start gap-2">
-                      <span className="text-[#C9A24A]">❓</span>
+                      <span className="text-[#1D63E0]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
@@ -746,7 +746,7 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20" style={{ backgroundColor: "#111111" }}>
+      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -758,7 +758,7 @@ export default function GovernmentServicesPage() {
               style={{ color: "#FFFFFF" }}
             >
               Get Your Government Approvals Done{" "}
-              <span style={{ color: "#C9A24A" }}>Fast</span>
+              <span style={{ color: "#FFFFFF" }}>Fast</span>
             </h2>
             <p className="text-lg text-gray-400 mb-4">
               Don&apos;t let complex procedures slow down your business.
@@ -771,7 +771,7 @@ export default function GovernmentServicesPage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ backgroundColor: "#C9A24A", color: "#111111" }}
+                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               >
                 <span>Start Process</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -781,7 +781,7 @@ export default function GovernmentServicesPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#C9A24A", color: "#C9A24A" }}
+                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
               >
                 <span>WhatsApp Now</span>
               </a>

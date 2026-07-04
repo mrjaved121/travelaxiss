@@ -36,16 +36,16 @@ export default function WhyBusinessPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#111111' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               The Ultimate Business Destination for{" "}
-              <span style={{ color: '#C9A24A' }}>Success</span>
+              <span style={{ color: '#1D63E0' }}>Success</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
               The business environment offers strong opportunities for growth, global connectivity, and operational efficiency.
@@ -66,12 +66,12 @@ export default function WhyBusinessPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-lg p-8 shadow-sm"
-                style={{ backgroundColor: '#F5F5F5' }}
+                style={{ backgroundColor: '#EEF4FF' }}
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }}>
-                  <benefit.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }}>
+                  <benefit.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#111111' }}>
+                <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -88,12 +88,12 @@ export default function WhyBusinessPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-lg p-8 shadow-sm"
-                style={{ backgroundColor: '#F5F5F5' }}
+                style={{ backgroundColor: '#EEF4FF' }}
               >
-                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#C9A24A' }}>
-                  <benefit.icon className="w-7 h-7" style={{ color: '#111111' }} />
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }}>
+                  <benefit.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#111111' }}>
+                <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
                   {benefit.title}
                 </h3>
                 <p className="text-gray-600">{benefit.description}</p>
@@ -104,7 +104,7 @@ export default function WhyBusinessPage() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-20" style={{ backgroundColor: '#111111' }}>
+      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <motion.div
@@ -112,7 +112,7 @@ export default function WhyBusinessPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#C9A24A' }}>200+</div>
+              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>200+</div>
               <p className="text-gray-400">Nationalities Represented</p>
             </motion.div>
             <motion.div
@@ -121,7 +121,7 @@ export default function WhyBusinessPage() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#C9A24A' }}>45+</div>
+              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>45+</div>
               <p className="text-gray-400">Free Zones Available</p>
             </motion.div>
             <motion.div
@@ -130,7 +130,7 @@ export default function WhyBusinessPage() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <div className="text-5xl font-bold mb-2" style={{ color: '#C9A24A' }}>100%</div>
+              <div className="text-5xl font-bold mb-2" style={{ color: '#1D63E0' }}>100%</div>
               <p className="text-gray-400">Foreign Ownership Possible</p>
             </motion.div>
           </div>
@@ -138,15 +138,15 @@ export default function WhyBusinessPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F5F5' }}>
+      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#111111' }}>
-              Start Your <span style={{ color: '#C9A24A' }}>Journey</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+              Start Your <span style={{ color: '#1D63E0' }}>Journey</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Let us help you establish your business in one of the world's most dynamic markets.
@@ -154,7 +154,7 @@ export default function WhyBusinessPage() {
             <Link
               href="/contact"
               className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#C9A24A', color: '#111111' }}
+              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
             >
               <span>Start Your Journey</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
