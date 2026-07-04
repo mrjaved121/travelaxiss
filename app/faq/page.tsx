@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import FAQPage from "@/components/pages/FAQPage";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { faqPageJsonLd } from "@/lib/seo/schema";
+import { breadcrumbJsonLd, faqPageJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -18,20 +18,20 @@ export const metadata: Metadata = {
     "mainland company FAQ",
   ],
   alternates: {
-    canonical: `${SITE_URL}/faq`,
+    canonical: `${SITE_URL}/faq/`,
   },
   openGraph: {
     title: "FAQ | UAE Business & Visa Documentation",
     description:
       "Answers to common questions about company formation and UAE visa documentation support.",
-    url: `${SITE_URL}/faq`,
+    url: `${SITE_URL}/faq/`,
   },
 };
 
 export default function Page() {
   return (
     <>
-      <JsonLd data={faqPageJsonLd()} />
+      <JsonLd data={[breadcrumbJsonLd([{ name: "FAQ", path: "/faq" }]), faqPageJsonLd()]} />
       <FAQPage />
     </>
   );

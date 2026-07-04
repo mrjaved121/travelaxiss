@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import VisaServicesPage from "@/components/pages/VisaServicesPage";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -19,10 +21,10 @@ export const metadata: Metadata = {
     "visit visa UAE",
   ],
   alternates: {
-    canonical: `${SITE_URL}/services/visa-services`,
+    canonical: `${SITE_URL}/services/visa-services/`,
   },
   openGraph: {
-    url: `${SITE_URL}/services/visa-services`,
+    url: `${SITE_URL}/services/visa-services/`,
     title: "UAE Visa Documentation & Consultancy | Travelaxis",
     description:
       "Documentation assistance and application guidance for UAE visas—investor, employment, family, visit, renewals, and more—through official channels.",
@@ -30,5 +32,24 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <VisaServicesPage />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Services", path: "/services" },
+            { name: "UAE Visa Services", path: "/services/visa-services" },
+          ]),
+          serviceJsonLd({
+            name: "UAE Visa Documentation & Consultancy",
+            description:
+              "Documentation assistance and application guidance for investor, employment, family, and visit visas, plus renewals and cancellations.",
+            path: "/services/visa-services",
+            serviceType: "Visa documentation consultancy",
+          }),
+        ]}
+      />
+      <VisaServicesPage />
+    </>
+  );
 }

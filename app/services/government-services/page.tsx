@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import GovernmentServicesPage from "@/components/pages/GovernmentServicesPage";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -15,10 +17,10 @@ export const metadata: Metadata = {
     "government approvals Dubai",
   ],
   alternates: {
-    canonical: `${SITE_URL}/services/government-services`,
+    canonical: `${SITE_URL}/services/government-services/`,
   },
   openGraph: {
-    url: `${SITE_URL}/services/government-services`,
+    url: `${SITE_URL}/services/government-services/`,
     title:
       "Government Services UAE – Business Approvals & Regulatory Support Dubai",
     description:
@@ -27,5 +29,24 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <GovernmentServicesPage />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Services", path: "/services" },
+            { name: "Government Services", path: "/services/government-services" },
+          ]),
+          serviceJsonLd({
+            name: "Government Services in UAE",
+            description:
+              "Coordination and documentation support for UAE business approvals, Dubai Chamber registration, and customs registration.",
+            path: "/services/government-services",
+            serviceType: "Government liaison and approvals coordination",
+          }),
+        ]}
+      />
+      <GovernmentServicesPage />
+    </>
+  );
 }

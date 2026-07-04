@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import BusinessSupportPage from "@/components/pages/BusinessSupportPage";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -15,10 +17,10 @@ export const metadata: Metadata = {
     "business compliance UAE",
   ],
   alternates: {
-    canonical: `${SITE_URL}/services/business-support`,
+    canonical: `${SITE_URL}/services/business-support/`,
   },
   openGraph: {
-    url: `${SITE_URL}/services/business-support`,
+    url: `${SITE_URL}/services/business-support/`,
     title:
       "Business Support Services UAE – Trademark, ISO, Banking & Compliance",
     description:
@@ -27,5 +29,24 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <BusinessSupportPage />;
+  return (
+    <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Services", path: "/services" },
+            { name: "Business Support", path: "/services/business-support" },
+          ]),
+          serviceJsonLd({
+            name: "Business Support Services in UAE",
+            description:
+              "Trademark registration, ISO certification, corporate bank account opening, and compliance support for UAE businesses.",
+            path: "/services/business-support",
+            serviceType: "Business support and compliance services",
+          }),
+        ]}
+      />
+      <BusinessSupportPage />
+    </>
+  );
 }

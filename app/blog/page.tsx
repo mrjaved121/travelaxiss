@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import BlogPage from "@/components/pages/BlogPage";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { blogListingJsonLd } from "@/lib/seo/schema";
+import { blogListingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -17,20 +17,20 @@ export const metadata: Metadata = {
     "freezone setup guide",
   ],
   alternates: {
-    canonical: `${SITE_URL}/blog`,
+    canonical: `${SITE_URL}/blog/`,
   },
   openGraph: {
     title: "Blog | UAE Business & Visa Documentation",
     description:
       "Guides on company formation, compliance, and UAE visa documentation topics.",
-    url: `${SITE_URL}/blog`,
+    url: `${SITE_URL}/blog/`,
   },
 };
 
 export default function Page() {
   return (
     <>
-      <JsonLd data={blogListingJsonLd()} />
+      <JsonLd data={[breadcrumbJsonLd([{ name: "Blog", path: "/blog" }]), blogListingJsonLd()]} />
       <BlogPage />
     </>
   );

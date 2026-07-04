@@ -17,6 +17,7 @@ import {
   Building,
   Landmark,
   MapPin,
+  Clock,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
@@ -29,6 +30,7 @@ const services = [
     category: "Business Setup",
     description:
       "Mainland, freezone, and offshore company setup with full license processing support.",
+    timeline: "5–10 working days",
     icon: Building2,
     image:
       "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
@@ -39,6 +41,7 @@ const services = [
     category: "Approvals",
     description:
       "We manage approvals, Dubai Chamber services, and multi-authority coordination for you.",
+    timeline: "Varies by authority",
     icon: FileText,
     image:
       "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
@@ -49,6 +52,7 @@ const services = [
     category: "Compliance",
     description:
       "POA/MOA preparation, certificate attestation, and board resolutions handled end-to-end.",
+    timeline: "Fast-track available",
     icon: Scale,
     image:
       "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
@@ -118,12 +122,13 @@ export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
-      <section className="relative pt-14 pb-28 md:pt-20 md:pb-32" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden pt-14 pb-28 md:pt-20 md:pb-32" style={{ backgroundColor: "#EEF4FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
+            className="min-w-0"
           >
             <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#1D63E0" }}>
               Business Setup &amp; Visa Consultancy
@@ -157,6 +162,18 @@ export default function HomePage() {
               style={{ backgroundColor: "rgba(29,99,224,0.12)" }}
               aria-hidden
             />
+            <svg
+              className="absolute top-6 left-0 w-16 h-16 hidden md:block"
+              viewBox="0 0 64 64"
+              fill="none"
+              stroke="#1D63E0"
+              strokeWidth="2"
+              strokeDasharray="4 5"
+              strokeLinecap="round"
+              aria-hidden
+            >
+              <path d="M4 40 C 16 8, 48 8, 60 24" />
+            </svg>
             <img
               src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
               alt="Dubai skyline"
@@ -166,6 +183,11 @@ export default function HomePage() {
               src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
               alt="Business consultation meeting in Dubai"
               className="absolute bottom-0 left-0 w-3/5 h-3/5 object-cover rounded-[2rem] shadow-xl border-4 border-white"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Dubai downtown skyscrapers"
+              className="hidden md:block absolute bottom-6 right-0 w-28 h-28 object-cover rounded-full shadow-xl border-4 border-white"
             />
             <div
               className="absolute top-[45%] left-[18%] -translate-y-1/2 w-24 h-24 rounded-full flex flex-col items-center justify-center text-center shadow-lg"
@@ -230,13 +252,13 @@ export default function HomePage() {
       </div>
 
       {/* About snapshot */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="relative overflow-hidden py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative h-72 md:h-96"
+            className="relative h-72 md:h-96 overflow-visible"
           >
             <div
               className="absolute inset-0 rounded-[3rem]"
@@ -248,12 +270,18 @@ export default function HomePage() {
               alt="Travelaxis consultancy team at work"
               className="absolute inset-6 w-[calc(100%-3rem)] h-[calc(100%-3rem)] object-cover rounded-[2.5rem] shadow-lg"
             />
+            <img
+              src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Dubai freezone office"
+              className="hidden md:block absolute -bottom-6 -right-6 w-32 h-32 object-cover rounded-full shadow-xl border-4 border-white"
+            />
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
+            className="min-w-0"
           >
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
               Get to Know Us
@@ -324,7 +352,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className="min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
                 <div className="relative h-48">
                   <img src={service.image} alt="" role="presentation" className="w-full h-full object-cover" />
@@ -339,7 +367,17 @@ export default function HomePage() {
                   <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-6">{service.description}</p>
+                  <p className="text-gray-600 text-sm mb-3">{service.description}</p>
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 mb-6">
+                    <span className="flex items-center gap-1">
+                      <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
+                      Dubai, UAE
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <Clock className="w-3.5 h-3.5 shrink-0" aria-hidden />
+                      {service.timeline}
+                    </span>
+                  </div>
                   <Link
                     href={service.link}
                     aria-label={`View ${service.title} details`}
@@ -365,7 +403,7 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white rounded-3xl shadow-xl p-8">
             {stats.map((stat) => (
-              <div key={stat.label} className="text-center">
+              <div key={stat.label} className="min-w-0 text-center">
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3"
                   style={{ backgroundColor: "#1D63E0" }}
@@ -407,7 +445,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.08 }}
-                className="relative h-44 md:h-56 rounded-2xl overflow-hidden group"
+                className="min-w-0 relative h-44 md:h-56 rounded-2xl overflow-hidden group"
               >
                 <img src={a.image} alt="" role="presentation" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" aria-hidden />
@@ -544,7 +582,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className="min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
                 <div className="relative h-44">
                   <img src={post.image} alt="" role="presentation" className="w-full h-full object-cover" />
