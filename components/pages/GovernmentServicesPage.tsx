@@ -181,12 +181,11 @@ export default function GovernmentServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="py-20 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="max-w-4xl"
           >
             <h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
@@ -197,7 +196,7 @@ export default function GovernmentServicesPage() {
                 Fast Approvals & Hassle-Free Processing
               </span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Simplify your business journey in the UAE with expert government
               services. We handle approvals, documentation, and regulatory
               processes so you can focus on growing your business.
@@ -217,7 +216,7 @@ export default function GovernmentServicesPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90 text-lg font-semibold"
                 style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               >
                 Start Your Process
@@ -226,12 +225,26 @@ export default function GovernmentServicesPage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 text-lg font-semibold"
                 style={{ borderColor: "#0F1B2D", color: "#0F1B2D" }}
               >
                 Chat on WhatsApp
               </a>
             </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.15 }}
+            className="relative h-72 md:h-96"
+          >
+            <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <img
+              src="https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Government office building in Dubai"
+              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
+            />
           </motion.div>
         </div>
       </section>
@@ -319,7 +332,7 @@ export default function GovernmentServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
+                className="rounded-3xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
               >
                 <div className="flex items-start gap-3 mb-3">
                   <span className="text-xl" aria-hidden>
@@ -364,11 +377,11 @@ export default function GovernmentServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="rounded-xl p-6 md:p-8 border border-white/10"
+                className="rounded-3xl p-6 md:p-8 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <div
-                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
+                  className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
                   style={{ backgroundColor: "#1D63E0" }}
                 >
                   <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
@@ -433,7 +446,7 @@ export default function GovernmentServicesPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="flex gap-4 md:gap-6 rounded-xl p-6 shadow-sm"
+                className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm"
                 style={{ backgroundColor: "#EEF4FF" }}
               >
                 <div
@@ -474,7 +487,7 @@ export default function GovernmentServicesPage() {
               <span style={{ color: "#1D63E0" }}>Take?</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <div className="rounded-xl p-6 bg-white shadow-sm border border-gray-100">
+              <div className="rounded-3xl p-6 bg-white shadow-sm border border-gray-100">
                 <div className="flex items-center gap-2 mb-2">
                   <Clock className="w-6 h-6" style={{ color: "#1D63E0" }} />
                   <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
@@ -489,7 +502,7 @@ export default function GovernmentServicesPage() {
                   and file completeness.
                 </p>
               </div>
-              <div className="rounded-xl p-6 bg-white shadow-sm border border-gray-100">
+              <div className="rounded-3xl p-6 bg-white shadow-sm border border-gray-100">
                 <div className="flex items-center gap-2 mb-2">
                   <Sparkles className="w-6 h-6" style={{ color: "#1D63E0" }} />
                   <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
@@ -536,7 +549,7 @@ export default function GovernmentServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.08 }}
-                className={`rounded-xl p-8 shadow-sm ${
+                className={`rounded-3xl p-8 shadow-sm ${
                   pkg.highlighted ? "ring-2" : ""
                 }`}
                 style={
@@ -579,7 +592,7 @@ export default function GovernmentServicesPage() {
                 </ul>
                 <Link
                   href="/contact"
-                  className="block text-center px-6 py-3 rounded-lg transition-all hover:opacity-90 font-semibold"
+                  className="block text-center px-6 py-3 rounded-2xl transition-all hover:opacity-90 font-semibold"
                   style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                 >
                   Start Process
@@ -615,7 +628,7 @@ export default function GovernmentServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.04 }}
-                className="flex items-center gap-3 rounded-lg px-4 py-4 border border-white/10"
+                className="flex items-center gap-3 rounded-2xl px-4 py-4 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <span className="text-lg">✅</span>
@@ -687,7 +700,7 @@ export default function GovernmentServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="flex items-center space-x-3 p-4 rounded-lg border-l-4"
+                className="flex items-center space-x-3 p-4 rounded-2xl border-l-4"
                 style={{
                   backgroundColor: "#FEF3E7",
                   borderColor: "#E67E22",
@@ -718,7 +731,7 @@ export default function GovernmentServicesPage() {
               <span style={{ color: "#1D63E0" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
                 <AccordionItem
@@ -746,32 +759,35 @@ export default function GovernmentServicesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#FFFFFF" }}
-            >
-              Get Your Government Approvals Done{" "}
-              <span style={{ color: "#FFFFFF" }}>Fast</span>
+      <section className="relative py-24 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt=""
+          role="presentation"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Get Your Government Approvals Done Fast
             </h2>
-            <p className="text-lg text-gray-400 mb-4">
+            <p className="text-white/85 text-lg mb-4">
               Don&apos;t let complex procedures slow down your business.
             </p>
-            <p className="text-lg text-gray-400 mb-10">
+            <p className="text-white/85 text-lg mb-10">
               Contact us today for fast and reliable government services in UAE.
               We handle everything while you focus on growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/contact"
-                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
+                style={{ backgroundColor: "#FFFFFF", color: "#1D63E0" }}
               >
                 <span>Start Process</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -780,14 +796,12 @@ export default function GovernmentServicesPage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-white text-white font-semibold transition-all hover:bg-white hover:text-[#1D63E0]"
               >
                 <span>WhatsApp Now</span>
               </a>
             </div>
-          </motion.div>
-        </div>
+        </motion.div>
       </section>
     </div>
   );

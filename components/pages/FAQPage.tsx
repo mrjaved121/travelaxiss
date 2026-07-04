@@ -50,7 +50,7 @@ export default function FAQPage() {
 
       <section className="py-8" style={{ backgroundColor: "#FFFFFF" }} aria-label="Disclaimer">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm text-gray-500 text-center leading-relaxed border border-gray-200 rounded-lg p-4 bg-gray-50">
+          <p className="text-sm text-gray-500 text-center leading-relaxed border border-gray-200 rounded-2xl p-4 bg-gray-50">
             We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.
           </p>
         </div>
@@ -83,7 +83,7 @@ export default function FAQPage() {
                 placeholder="e.g. company formation, visa documentation"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-lg border-2 border-gray-200 focus:border-opacity-50 focus:outline-none transition-colors"
+                className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-gray-200 focus:border-opacity-50 focus:outline-none transition-colors"
                 style={{ borderColor: searchQuery ? '#1D63E0' : undefined }}
                 autoComplete="off"
                 aria-describedby={`${searchFieldId}-hint`}
@@ -146,7 +146,7 @@ export default function FAQPage() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: Math.min(stableIndex * 0.02, 0.4) }}
-                    className="rounded-lg overflow-hidden shadow-sm border-2 transition-all"
+                    className="rounded-2xl overflow-hidden shadow-sm border-2 transition-all"
                     style={{ 
                       backgroundColor: '#FFFFFF',
                       borderColor: isOpen ? '#1D63E0' : '#EEF4FF'
@@ -241,7 +241,7 @@ export default function FAQPage() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.05 }}
-                  className="rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow"
+                  className="rounded-2xl p-4 text-center shadow-sm hover:shadow-md transition-shadow"
                   style={{ backgroundColor: '#FFFFFF' }}
                 >
                   <p className="text-sm font-semibold" style={{ color: '#0F1B2D' }}>
@@ -254,29 +254,32 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+      <section className="relative py-24 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt=""
+          role="presentation"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Still Have Questions?</h2>
+          <p className="text-white/85 text-lg mb-8">
+            Our team is ready to provide personalized answers to your specific inquiries.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Still Have <span style={{ color: '#FFFFFF' }}>Questions?</span>
-            </h2>
-            <p className="text-lg text-gray-400 mb-8">
-              Our team is ready to provide personalized answers to your specific inquiries.
-            </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-            >
-              <span>Contact Travelaxis for personalized answers</span>
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </Link>
-          </motion.div>
-        </div>
+            Contact Travelaxis for personalized answers
+            <ArrowRight className="w-5 h-5" aria-hidden />
+          </Link>
+        </motion.div>
       </section>
     </div>
   );

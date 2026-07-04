@@ -41,7 +41,7 @@ export default function BlogPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
+                className="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
                 style={{ backgroundColor: '#FFFFFF' }}
               >
                 <div className="relative h-48 overflow-hidden">
@@ -94,32 +94,35 @@ export default function BlogPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+      <section className="relative py-24 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt=""
+          role="presentation"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Business?</h2>
+          <p className="text-white/85 text-lg mb-8">
+            Get expert guidance for your company formation in UAE
+          </p>
+          <a
+            href="https://wa.me/971589867555"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+            aria-label="Contact Travelaxis on WhatsApp about UAE company formation (opens in a new tab)"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#FFFFFF' }}>
-              Ready to Start Your <span style={{ color: '#FFFFFF' }}>Business?</span>
-            </h2>
-            <p className="text-lg text-gray-400 mb-8">
-              Get expert guidance for your company formation in UAE
-            </p>
-            <a
-              href="https://wa.me/971589867555"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-              aria-label="Contact Travelaxis on WhatsApp about UAE company formation (opens in a new tab)"
-            >
-              <span>Contact Us on WhatsApp</span>
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </a>
-          </motion.div>
-        </div>
+            Contact Us on WhatsApp
+            <ArrowRight className="w-5 h-5" aria-hidden />
+          </a>
+        </motion.div>
       </section>
     </div>
   );

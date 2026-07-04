@@ -12,65 +12,85 @@ import {
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
 
+const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
+  {
+    title: "Investor / Partner Visas",
+    description:
+      "Documentation and application support for business owners and investors establishing a company.",
+    icon: CircleDollarSign,
+  },
+  {
+    title: "Employment Visas",
+    description:
+      "Guidance and paperwork support for individuals sponsored by a UAE-based employer.",
+    icon: Briefcase,
+  },
+  {
+    title: "Family Sponsorship Visas",
+    description:
+      "Assistance with documentation for sponsoring spouse, children, and parents in the UAE.",
+    icon: Users,
+  },
+  {
+    title: "Visit & Tourist Visas",
+    description:
+      "Support with visit and tourist visa documentation for short-term business or leisure travel.",
+    icon: Plane,
+  },
+  {
+    title: "Visa Renewals & Cancellations",
+    description:
+      "Renewal documentation support and cancellation-related formalities coordinated through official channels.",
+    icon: FileStack,
+  },
+];
+
+const disclaimer =
+  "We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.";
+
 export default function VisaServicesPage() {
-  const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
-    {
-      title: "Investor / Partner Visas",
-      description:
-        "Documentation and application support for business owners and investors establishing a company.",
-      icon: CircleDollarSign,
-    },
-    {
-      title: "Employment Visas",
-      description:
-        "Guidance and paperwork support for individuals sponsored by a UAE-based employer.",
-      icon: Briefcase,
-    },
-    {
-      title: "Family Sponsorship Visas",
-      description:
-        "Assistance with documentation for sponsoring spouse, children, and parents in the UAE.",
-      icon: Users,
-    },
-    {
-      title: "Visit & Tourist Visas",
-      description:
-        "Support with visit and tourist visa documentation for short-term business or leisure travel.",
-      icon: Plane,
-    },
-    {
-      title: "Visa Renewals & Cancellations",
-      description:
-        "Renewal documentation support and cancellation-related formalities coordinated through official channels.",
-      icon: FileStack,
-    },
-  ];
-
-  const disclaimer =
-    "We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.";
-
   return (
     <div>
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero */}
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="max-w-4xl"
           >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+              Visa Services
+            </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
               UAE Visa <span style={{ color: '#1D63E0' }}>Documentation &amp; Consultancy</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-6">
-              End-to-end UAE visa documentation and consultancy support—from eligibility review and paperwork to application guidance, renewals, and cancellation assistance.
+            <p className="text-lg text-gray-600 mb-6">
+              End-to-end UAE visa documentation and consultancy support&mdash;from eligibility
+              review and paperwork to application guidance, renewals, and cancellation
+              assistance.
             </p>
             <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#1D63E0" }}>
               {disclaimer}
             </p>
           </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.15 }}
+            className="relative h-72 md:h-96"
+          >
+            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <img
+              src="https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              alt="Passport and visa documentation"
+              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
+            />
+          </motion.div>
         </div>
       </section>
 
+      {/* Visa categories */}
       <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -80,10 +100,11 @@ export default function VisaServicesPage() {
             className="text-center max-w-3xl mx-auto mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
-              Support Across Major <span style={{ color: '#FFFFFF' }}>UAE Visa Categories</span>
+              Support Across Major UAE Visa Categories
             </h2>
             <p className="text-lg text-gray-400">
-              Structured documentation and guidance for the visa categories most businesses and families need in the UAE.
+              Structured documentation and guidance for the visa categories most businesses
+              and families need in the UAE.
             </p>
           </motion.div>
 
@@ -95,15 +116,15 @@ export default function VisaServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.08 }}
-                className="rounded-xl p-6 md:p-8 text-center border border-white/10"
+                className="rounded-3xl p-6 md:p-8 text-center border border-white/10"
                 style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}
               >
                 <div
-                  className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 mx-auto"
-                  style={{ backgroundColor: '#1D63E0' }}
+                  className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"
+                  style={{ backgroundColor: '#FFFFFF' }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: '#0F1B2D' }} />
+                  <item.icon className="w-7 h-7" style={{ color: '#1D63E0' }} />
                 </div>
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
@@ -115,32 +136,37 @@ export default function VisaServicesPage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: '#FFFFFF' }} aria-labelledby="visa-cta-heading">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+      {/* CTA banner */}
+      <section className="relative py-24 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          alt=""
+          role="presentation"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+          <p className="text-lg text-white/90 mb-4">
+            Not sure which category fits? We&apos;ll review your situation, outline
+            documentation requirements, realistic timelines, and next steps for official
+            submission.
+          </p>
+          <p className="text-sm text-white/70 mb-8 max-w-2xl mx-auto leading-relaxed">
+            {disclaimer}
+          </p>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
           >
-            <h2 id="visa-cta-heading" className="sr-only">
-              Next steps for UAE visa documentation support
-            </h2>
-            <p className="text-lg text-gray-600 mb-4">
-              Not sure which category fits? We&apos;ll review your situation, outline documentation requirements, realistic timelines, and next steps for official submission.
-            </p>
-            <p className="text-sm text-gray-500 mb-8 max-w-2xl mx-auto leading-relaxed">
-              {disclaimer}
-            </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center space-x-2 px-8 py-4 rounded-lg transition-all hover:opacity-90 text-lg font-semibold"
-              style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-            >
-              <span>Book a Visa Documentation Consultation</span>
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </Link>
-          </motion.div>
-        </div>
+            Book a Visa Documentation Consultation
+            <ArrowRight className="w-5 h-5" aria-hidden />
+          </Link>
+        </motion.div>
       </section>
     </div>
   );
