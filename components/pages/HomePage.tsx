@@ -35,8 +35,6 @@ const services = [
     highlightBig: "5–10",
     highlightSmall: "Working Days",
     icon: Building2,
-    image:
-      "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/company-formation",
   },
   {
@@ -47,8 +45,6 @@ const services = [
     highlightBig: "Multi-Authority",
     highlightSmall: "Coordination",
     icon: FileText,
-    image:
-      "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/government-services",
   },
   {
@@ -59,8 +55,6 @@ const services = [
     highlightBig: "Fast-Track",
     highlightSmall: "Available",
     icon: Scale,
-    image:
-      "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/legal-documentation",
   },
   {
@@ -71,8 +65,6 @@ const services = [
     highlightBig: "Trademark",
     highlightSmall: "& ISO Support",
     icon: Tag,
-    image:
-      "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/business-support",
   },
   {
@@ -83,8 +75,6 @@ const services = [
     highlightBig: "Account Setup",
     highlightSmall: "& Compliance",
     icon: Banknote,
-    image:
-      "https://images.unsplash.com/photo-1554469384-e58fac16e23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/business-support",
   },
   {
@@ -95,8 +85,6 @@ const services = [
     highlightBig: "5",
     highlightSmall: "Visa Categories",
     icon: Plane,
-    image:
-      "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
     link: "/services/visa-services",
   },
 ];
@@ -390,10 +378,13 @@ export default function HomePage() {
                 transition={{ delay: index * 0.1 }}
                 className="min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
-                <div className="relative h-48">
-                  <img src={service.image} alt="" role="presentation" className="w-full h-full object-cover" />
-                </div>
                 <div className="p-6">
+                  <div
+                    className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
+                    style={{ backgroundColor: "#1D63E0" }}
+                  >
+                    <service.icon className="w-6 h-6 text-white" aria-hidden />
+                  </div>
                   <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
                     {service.title}
                   </h3>
@@ -403,10 +394,7 @@ export default function HomePage() {
                       <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
                       Dubai, UAE
                     </span>
-                    <span className="flex items-center gap-1">
-                      <service.icon className="w-3.5 h-3.5 shrink-0" aria-hidden />
-                      {service.category}
-                    </span>
+                    <span>{service.category}</span>
                   </div>
                   <div className="flex items-end justify-between">
                     <p className="leading-tight" style={{ color: "#0F1B2D" }}>
