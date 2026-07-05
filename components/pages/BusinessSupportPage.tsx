@@ -763,14 +763,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -779,11 +772,11 @@ export default function BusinessSupportPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Grow Your Business with Expert Support
             </h2>
-            <p className="text-white/85 text-lg mb-4">
+            <p className="text-white/90 text-lg mb-4">
               Don&apos;t stop at company formation — take your business to the
               next level.
             </p>
-            <p className="text-white/85 text-lg mb-10">
+            <p className="text-white/90 text-lg mb-10">
               Contact us today for complete business support services in UAE. We
               help you grow, protect, and scale your business.
             </p>

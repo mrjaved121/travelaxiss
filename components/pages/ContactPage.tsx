@@ -165,7 +165,7 @@ export default function ContactPage() {
                 <h3 className="font-semibold mb-3" style={{ color: '#FFFFFF' }}>
                   Why Contact Us?
                 </h3>
-                <ul className="space-y-2 text-white/80 text-sm">
+                <ul className="space-y-2 text-white/90 text-sm">
                   <li>✓ Quick response time</li>
                   <li>✓ Professional consultation</li>
                   <li>✓ Expert business guidance</li>

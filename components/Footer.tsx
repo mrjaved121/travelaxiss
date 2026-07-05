@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h2 className="text-xl font-bold text-white">Subscribe for the Latest Newsletter</h2>
-            <p className="text-white/80 text-sm mt-1">
+            <p className="text-white/90 text-sm mt-1">
               UAE business setup tips and visa updates, straight to your inbox.
             </p>
           </div>
@@ -42,20 +42,20 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <p className="text-2xl font-bold mb-4">
-              <span style={{ color: "#1D63E0" }}>Travel</span>
+              <span style={{ color: "#60A5FA" }}>Travel</span>
               <span style={{ color: "#FFFFFF" }}>axis</span>
             </p>
             <p className="text-gray-400 text-sm">
               Premium UAE consultancy: company formation, government coordination, legal documentation, and UAE visa documentation and application support.
             </p>
-            <p className="text-gray-500 text-xs mt-3 leading-relaxed">
+            <p className="text-gray-400 text-xs mt-3 leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly.
             </p>
           </div>
 
           {/* Quick Links */}
           <nav aria-label="Quick links">
-            <h2 className="font-semibold mb-4 text-base" style={{ color: "#1D63E0" }}>
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#60A5FA" }}>
               Quick Links
             </h2>
             <ul className="space-y-2 list-none p-0 m-0">
@@ -94,7 +94,7 @@ export default function Footer() {
 
           {/* Services */}
           <nav aria-label="Services">
-            <h2 className="font-semibold mb-4 text-base" style={{ color: "#1D63E0" }}>
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#60A5FA" }}>
               Services
             </h2>
             <ul className="space-y-2 list-none p-0 m-0">
@@ -133,24 +133,24 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h2 className="font-semibold mb-4 text-base" style={{ color: "#1D63E0" }}>
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#60A5FA" }}>
               Contact
             </h2>
             <ul className="space-y-3 list-none p-0 m-0">
               <li className="flex items-start space-x-2">
-                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#60A5FA" }} aria-hidden />
                 <a href="tel:+971589867555" className="text-gray-400 hover:text-white transition-colors text-sm">
                   +971 58 986 7555
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#60A5FA" }} aria-hidden />
                 <a href="mailto:info@travelaxis.me" className="text-gray-400 hover:text-white transition-colors text-sm">
                   info@travelaxis.me
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#60A5FA" }} aria-hidden />
                 <span className="text-gray-400 text-sm">Dubai, UAE</span>
               </li>
             </ul>
