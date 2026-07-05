@@ -254,7 +254,7 @@ export default function FAQPage() {
 
       <section className="relative py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
           alt=""
           role="presentation"
           className="absolute inset-0 w-full h-full object-cover"

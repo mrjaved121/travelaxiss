@@ -275,7 +275,7 @@ export default function BusinessSupportPage() {
           >
             <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
-              src="https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Business branding and trademark documents"
               className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
             />
@@ -765,7 +765,7 @@ export default function BusinessSupportPage() {
       {/* Final CTA */}
       <section className="relative py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          src="https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
           alt=""
           role="presentation"
           className="absolute inset-0 w-full h-full object-cover"
