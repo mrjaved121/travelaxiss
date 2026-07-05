@@ -10,7 +10,6 @@ const services = [
     category: "Business Setup",
     description: "Comprehensive formation services for mainland, freezone, and offshore business structures.",
     icon: Building2,
-    image: "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/company-formation",
   },
   {
@@ -18,7 +17,6 @@ const services = [
     category: "Approvals",
     description: "Streamlined government approvals and regulatory coordination through expert handling.",
     icon: FileText,
-    image: "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/government-services",
   },
   {
@@ -26,7 +24,6 @@ const services = [
     category: "Compliance",
     description: "Professional preparation and attestation of corporate and legal documents.",
     icon: Scale,
-    image: "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/legal-documentation",
   },
   {
@@ -34,7 +31,6 @@ const services = [
     category: "Ongoing Support",
     description: "Ongoing support services including trademark registration, ISO certification, and operational assistance.",
     icon: HeadphonesIcon,
-    image: "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/business-support",
   },
   {
@@ -43,7 +39,6 @@ const services = [
     description:
       "Investor, employment, and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
     icon: Plane,
-    image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/visa-services",
   },
   {
@@ -52,7 +47,6 @@ const services = [
     description:
       "Umrah visa processing, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
     icon: Moon,
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/umrah-services",
   },
 ];
@@ -106,11 +100,13 @@ export default function ServicesPage() {
             className="relative h-72 md:h-96"
           >
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <img
-              src="https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Government office building in Dubai"
-              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
-            />
+            <div
+              className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
+              style={{ backgroundColor: '#EEF4FF' }}
+              aria-hidden
+            >
+              <Building2 className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+            </div>
           </motion.div>
         </div>
       </section>
@@ -135,18 +131,17 @@ export default function ServicesPage() {
                   className="absolute inset-0 z-10"
                   aria-label={`Learn more about ${service.title}`}
                 />
-                <div className="relative h-44">
-                  <img src={service.image} alt="" role="presentation" className="w-full h-full object-cover" />
-                  <span
-                    className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold"
-                    style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-                  >
-                    {service.category}
-                  </span>
-                </div>
                 <div className="p-6">
-                  <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#EEF4FF' }} aria-hidden>
-                    <service.icon className="w-6 h-6" style={{ color: '#1D63E0' }} />
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                      <service.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
+                    </div>
+                    <span
+                      className="px-3 py-1 rounded-full text-xs font-semibold"
+                      style={{ backgroundColor: '#EEF4FF', color: '#1D63E0' }}
+                    >
+                      {service.category}
+                    </span>
                   </div>
                   <h3 className="text-xl font-bold mb-3" style={{ color: '#0F1B2D' }}>
                     {service.title}

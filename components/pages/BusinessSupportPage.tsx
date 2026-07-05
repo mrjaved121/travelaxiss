@@ -274,11 +274,13 @@ export default function BusinessSupportPage() {
             className="relative h-72 md:h-96"
           >
             <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <img
-              src="https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Business branding and trademark documents"
-              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
-            />
+            <div
+              className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
+              style={{ backgroundColor: '#EEF4FF' }}
+              aria-hidden
+            >
+              <Tag className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+            </div>
           </motion.div>
         </div>
       </section>

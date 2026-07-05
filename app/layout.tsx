@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { preconnect } from "react-dom";
 import { Geist, Geist_Mono, Pacifico } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -82,8 +81,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  preconnect("https://images.unsplash.com");
-
   return (
     <html
       lang="en"

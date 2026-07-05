@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight, Target, Eye, CheckCircle } from "lucide-react";
+import { ArrowRight, Target, Eye, CheckCircle, Users } from "lucide-react";
 import { motion } from "motion/react";
 
 const values = [
@@ -44,11 +44,13 @@ export default function AboutPage() {
             className="relative h-72 md:h-96"
           >
             <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <img
-              src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Travelaxis consultancy team at work in Dubai"
-              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
-            />
+            <div
+              className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
+              style={{ backgroundColor: '#EEF4FF' }}
+              aria-hidden
+            >
+              <Users className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+            </div>
           </motion.div>
         </div>
       </section>
