@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ContactPage from "@/components/pages/ContactPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "Contact Travelaxis | UAE Business & Visa Documentation Consultancy",
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     description:
       "Get in touch for UAE business setup and visa documentation and consultancy support.",
     url: `${SITE_URL}/contact/`,
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

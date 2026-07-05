@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BlogPage from "@/components/pages/BlogPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogListingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "Blog | UAE Business Setup & Visa Documentation Guides",
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     description:
       "Guides on company formation, compliance, and UAE visa documentation topics.",
     url: `${SITE_URL}/blog/`,
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FAQPage from "@/components/pages/FAQPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, faqPageJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "FAQ | UAE Business Setup & Visa Documentation Support",
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     description:
       "Answers to common questions about company formation and UAE visa documentation support.",
     url: `${SITE_URL}/faq/`,
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

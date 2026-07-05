@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import GovernmentServicesPage from "@/components/pages/GovernmentServicesPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title:
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
       "Government Services UAE – Business Approvals & Regulatory Support Dubai",
     description:
       "Coordination support for UAE business approvals: documentation preparation and submission assistance for Dubai Chamber, customs registration, and regulatory steps.",
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

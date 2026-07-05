@@ -43,11 +43,6 @@ export const professionalServiceJsonLd = {
       closes: "14:00",
     },
   ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.8",
-    reviewCount: "1789",
-  },
 };
 
 /** Reusable breadcrumb trail for any non-home page. `path` should include a leading slash, e.g. "/services/visa-services". */

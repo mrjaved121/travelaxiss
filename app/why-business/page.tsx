@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import WhyBusinessPage from "@/components/pages/WhyBusinessPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "Why Start a Business in UAE",
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description:
       "Strategic advantages of setting up your business in Dubai and the UAE.",
     url: `${SITE_URL}/why-business/`,
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

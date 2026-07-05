@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/social";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -150,33 +149,6 @@ export default function Footer() {
                 <span className="text-gray-400 text-sm">Dubai, UAE</span>
               </li>
             </ul>
-
-            <h2 className="font-semibold mt-6 mb-3 text-base" style={{ color: "#1D63E0" }}>
-              Follow Us On
-            </h2>
-            <div className="flex gap-3" aria-label="Social links">
-              <a
-                href="#"
-                aria-label="Travelaxis on Facebook"
-                className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
-              >
-                <FacebookIcon className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                aria-label="Travelaxis on Instagram"
-                className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
-              >
-                <InstagramIcon className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                aria-label="Travelaxis on LinkedIn"
-                className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors"
-              >
-                <LinkedinIcon className="w-4 h-4" />
-              </a>
-            </div>
           </div>
         </div>
 
