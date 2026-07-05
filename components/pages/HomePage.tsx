@@ -8,9 +8,6 @@ import {
   FileText,
   Scale,
   Award,
-  Users,
-  TrendingUp,
-  ThumbsUp,
   Rocket,
   Briefcase,
   Building,
@@ -20,6 +17,7 @@ import {
   Banknote,
   Plane,
   Moon,
+  Clock,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
@@ -100,9 +98,9 @@ const services = [
 
 const stats = [
   { icon: Award, value: "11+", label: "Years of Experience" },
-  { icon: Users, value: "1,789+", label: "Happy Clients" },
-  { icon: TrendingUp, value: "3.2x", label: "Better Success Rate" },
-  { icon: ThumbsUp, value: "4.8★", label: "Client Rating" },
+  { icon: Briefcase, value: `${services.length}`, label: "Core Services" },
+  { icon: Plane, value: "5", label: "Visa Categories" },
+  { icon: Clock, value: "6", label: "Days a Week Open" },
 ];
 
 const audiences = [
@@ -151,7 +149,7 @@ export default function HomePage() {
             </h1>
             <p className="text-lg mb-8 max-w-xl text-gray-600">
               Company formation, government approvals, and legal documentation —
-              handled by a team that has guided 1,789+ clients through it.
+              handled by a team with 11+ years of experience in the UAE.
             </p>
             <Link
               href="/contact"
