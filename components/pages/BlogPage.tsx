@@ -1,9 +1,14 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight, Calendar, Clock } from "lucide-react";
+import { ArrowRight, Calendar, Clock, Building2, Plane, FileText } from "lucide-react";
 import { motion } from "motion/react";
 import { blogPostSummaries } from "@/components/data/blogIndex";
+
+const categoryIcons: Record<string, typeof FileText> = {
+  "Business Setup": Building2,
+  "UAE Visa Documentation": Plane,
+};
 
 export default function BlogPage() {
   const blogs = blogPostSummaries;
@@ -49,20 +54,18 @@ export default function BlogPage() {
                   className="absolute inset-0 z-10"
                   aria-label={`Read full article: ${blog.title}`}
                 />
-                <div className="relative h-48 overflow-hidden">
-                  <img 
-                    src={blog.image} 
-                    alt=""
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}>
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                      {(() => {
+                        const CategoryIcon = categoryIcons[blog.category] ?? FileText;
+                        return <CategoryIcon className="w-7 h-7" style={{ color: '#FFFFFF' }} />;
+                      })()}
+                    </div>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#EEF4FF', color: '#1D63E0' }}>
                       {blog.category}
                     </span>
                   </div>
-                </div>
-                
-                <div className="p-6">
                   <div className="flex items-center space-x-4 text-sm text-gray-500 mb-3">
                     <div className="flex items-center space-x-1">
                       <Calendar className="w-4 h-4" aria-hidden />

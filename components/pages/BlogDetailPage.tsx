@@ -1,9 +1,14 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowLeft, Calendar, Clock, Share2 } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, Share2, Building2, Plane, FileText } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
+
+const categoryIcons: Record<string, typeof FileText> = {
+  "Business Setup": Building2,
+  "UAE Visa Documentation": Plane,
+};
 
 export default function BlogDetailPage({ slug }: { slug: string }) {
   const blog = blogData[slug || ""];
@@ -76,12 +81,13 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
+            className="w-full h-64 md:h-96 rounded-3xl shadow-lg flex items-center justify-center"
+            style={{ backgroundColor: '#EEF4FF' }}
           >
-            <img 
-              src={blog.image} 
-              alt={`Featured image for the article: ${blog.title}`}
-              className="w-full h-96 object-cover rounded-3xl shadow-lg"
-            />
+            {(() => {
+              const CategoryIcon = categoryIcons[blog.category] ?? FileText;
+              return <CategoryIcon className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} aria-hidden />;
+            })()}
           </motion.div>
         </div>
       </section>

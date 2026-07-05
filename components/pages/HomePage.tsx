@@ -128,6 +128,11 @@ const audiences = [
 
 const latestPosts = blogPostSummaries.slice(0, 3);
 
+const blogCategoryIcons: Record<string, typeof FileText> = {
+  "Business Setup": Building2,
+  "UAE Visa Documentation": Plane,
+};
+
 export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
@@ -250,20 +255,12 @@ export default function HomePage() {
             className="relative h-72 md:h-96 overflow-visible"
           >
             <div
-              className="absolute inset-0 rounded-[3rem]"
+              className="absolute inset-0 rounded-[3rem] flex items-center justify-center"
               style={{ backgroundColor: "#EEF4FF" }}
               aria-hidden
-            />
-            <img
-              src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Travelaxis consultancy team at work"
-              className="absolute inset-6 w-[calc(100%-3rem)] h-[calc(100%-3rem)] object-cover rounded-[2.5rem] shadow-lg"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Dubai freezone office"
-              className="hidden md:block absolute -bottom-6 -right-6 w-32 h-32 object-cover rounded-full shadow-xl border-4 border-white"
-            />
+            >
+              <Building2 className="w-32 h-32 md:w-40 md:h-40" style={{ color: "#1D63E0" }} />
+            </div>
           </motion.div>
 
           <motion.div
@@ -526,10 +523,13 @@ export default function HomePage() {
                   className="absolute inset-0 z-10"
                   aria-label={`Read full article: ${post.title}`}
                 />
-                <div className="relative h-44">
-                  <img src={post.image} alt="" role="presentation" className="w-full h-full object-cover" />
-                </div>
                 <div className="p-6">
+                  <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "#1D63E0" }} aria-hidden>
+                    {(() => {
+                      const CategoryIcon = blogCategoryIcons[post.category] ?? FileText;
+                      return <CategoryIcon className="w-6 h-6 text-white" />;
+                    })()}
+                  </div>
                   <h3 className="text-lg font-bold mb-3 line-clamp-2" style={{ color: "#0F1B2D" }}>
                     {post.title}
                   </h3>
