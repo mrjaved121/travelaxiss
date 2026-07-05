@@ -123,6 +123,11 @@ export default function Footer() {
                   UAE Visa Documentation
                 </Link>
               </li>
+              <li>
+                <Link href="/services/umrah-services" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Umrah Services
+                </Link>
+              </li>
             </ul>
           </nav>
 

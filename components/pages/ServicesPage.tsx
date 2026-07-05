@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Moon, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 
 const services = [
@@ -45,6 +45,15 @@ const services = [
     icon: Plane,
     image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/visa-services",
+  },
+  {
+    title: "Umrah Services",
+    category: "Pilgrimage Travel",
+    description:
+      "Umrah visa processing, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
+    icon: Moon,
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
+    link: "/services/umrah-services",
   },
 ];
 

@@ -19,6 +19,7 @@ import {
   Tag,
   Banknote,
   Plane,
+  Moon,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
@@ -84,6 +85,16 @@ const services = [
     highlightSmall: "Visa Categories",
     icon: Plane,
     link: "/services/visa-services",
+  },
+  {
+    title: "Umrah Services",
+    category: "Pilgrimage Travel",
+    description:
+      "Umrah visa processing, flight booking, hotel accommodation, and group travel coordination.",
+    highlightBig: "Group & Individual",
+    highlightSmall: "Packages",
+    icon: Moon,
+    link: "/services/umrah-services",
   },
 ];
 
@@ -164,8 +175,8 @@ export default function HomePage() {
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="Company formation and visa consultancy for UAE, USA, UK, and Australia"
-              width={1536}
-              height={1024}
+              width={640}
+              height={427}
               fetchPriority="high"
               className="absolute inset-0 w-full h-full object-contain"
             />
@@ -198,6 +209,7 @@ export default function HomePage() {
               <option>Legal Documentation</option>
               <option>Business Support</option>
               <option>UAE Visa Documentation</option>
+              <option>Umrah Services</option>
             </select>
           </label>
           <label className="flex flex-col gap-1.5 text-sm">
@@ -331,7 +343,11 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className={`relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white${
+                  index === services.length - 1 && services.length % 3 === 1
+                    ? " sm:col-start-1 lg:col-start-2"
+                    : ""
+                }`}
               >
                 <Link
                   href={service.link}
