@@ -111,27 +111,23 @@ const stats = [
 const audiences = [
   {
     label: "Startups",
+    description: "Right company structure and licensing from day one.",
     icon: Rocket,
-    image:
-      "https://images.unsplash.com/photo-1720722023542-0969d30040e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
   },
   {
     label: "Freelancers",
+    description: "Freelance permits and visas for independent professionals.",
     icon: Briefcase,
-    image:
-      "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
   },
   {
     label: "SMEs",
+    description: "Licensing, compliance, and support as your team grows.",
     icon: Building,
-    image:
-      "https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
   },
   {
     label: "Corporates",
+    description: "Multi-entity structuring and governance for established firms.",
     icon: Landmark,
-    image:
-      "https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
   },
 ];
 
@@ -476,21 +472,25 @@ export default function HomePage() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {audiences.map((a, index) => (
               <motion.div
                 key={a.label}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
-                className="min-w-0 relative h-44 md:h-56 rounded-2xl overflow-hidden group"
+                className="min-w-0 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-lg transition-shadow p-6 text-center"
               >
-                <img src={a.image} alt="" role="presentation" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" aria-hidden />
-                <div className="absolute bottom-3 left-3 flex items-center gap-2 text-white">
-                  <a.icon className="w-4 h-4" aria-hidden />
-                  <span className="font-semibold text-sm">{a.label}</span>
+                <div
+                  className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4"
+                  style={{ backgroundColor: "#1D63E0" }}
+                >
+                  <a.icon className="w-6 h-6 text-white" aria-hidden />
                 </div>
+                <p className="font-bold mb-1" style={{ color: "#0F1B2D" }}>
+                  {a.label}
+                </p>
+                <p className="text-sm text-gray-600">{a.description}</p>
               </motion.div>
             ))}
           </div>
