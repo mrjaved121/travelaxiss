@@ -256,7 +256,7 @@ export default function LegalDocumentationPage() {
           >
             <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
-              src="https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Legal documents and business paperwork"
               className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
             />
@@ -797,7 +797,7 @@ export default function LegalDocumentationPage() {
       {/* Final CTA */}
       <section className="relative py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          src="https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
           alt=""
           role="presentation"
           className="absolute inset-0 w-full h-full object-cover"

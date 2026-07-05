@@ -16,7 +16,7 @@ export const blogData: Record<string, any> = {
     readTime: "16 min read",
     category: "Business Setup",
     image:
-      "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     content: {
       intro:
         "The UAE e-commerce market is growing faster than ever. With more people shopping online daily, platforms like Noon have created massive opportunities for individuals and businesses. If you want to start selling online in UAE, creating a Noon seller account is one of the best decisions you can make. Whether you are a beginner with no experience, a dropshipping seller, a small business owner, or a growing e-commerce brand, Noon gives you access to thousands of customers across UAE and the Middle East. People often ask: How to sell on Noon UAE step by step? Do I need a trade license in UAE? What documents are required? Is Noon better than Amazon UAE? This guide answers these questions in detail so you can start confidently.",
@@ -369,7 +369,7 @@ export const blogData: Record<string, any> = {
     date: "April 9, 2026",
     readTime: "12 min read",
     category: "Business Setup",
-    image: "https://images.unsplash.com/photo-1647774469542-d8df9c2e23cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcm9wc2hpcHBpbmclMjBvbmxpbmUlMjBidXNpbmVzcyUyMGVjb21tZXJjZSUyMHNoaXBwaW5nJTIwcGFja2FnZXMlMjBsYXB0b3AlMjBVQUV8ZW58MXx8fHwxNzc1NzM4MTYzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "https://images.unsplash.com/photo-1647774469542-d8df9c2e23cd?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcm9wc2hpcHBpbmclMjBvbmxpbmUlMjBidXNpbmVzcyUyMGVjb21tZXJjZSUyMHNoaXBwaW5nJTIwcGFja2FnZXMlMjBsYXB0b3AlMjBVQUV8ZW58MXx8fHwxNzc1NzM4MTYzfDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral",
     content: {
       intro: "Dropshipping is one of the most popular online business models in the world. In the UAE, this business model is growing very fast because of strong logistics, high internet usage, and increasing online shopping demand. If you want to start an online business without handling inventory, dropshipping is one of the best options. Many people ask: What is dropshipping? Is it legal in UAE? Do I need a license? How can I start? This guide will explain everything in deep detail so you can start your dropshipping business successfully.",
       sections: [
@@ -476,7 +476,7 @@ export const blogData: Record<string, any> = {
     date: "April 9, 2026",
     readTime: "11 min read",
     category: "Business Setup",
-    image: "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral",
     content: {
       intro: "The UAE is one of the fastest-growing e-commerce markets in the world. With increasing internet usage, digital payments, and online shopping trends, starting an online business in UAE is one of the smartest decisions today. If you want to sell products or services online, you need an e-commerce license in UAE. Many people ask: How can I start an online business in UAE? Do I need a license? What is the process? Can foreigners start e-commerce business? This guide will answer everything in deep detail, step by step.",
       sections: [
@@ -577,7 +577,7 @@ export const blogData: Record<string, any> = {
     date: "April 9, 2026",
     readTime: "10 min read",
     category: "UAE Visa Documentation",
-    image: "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVlbGFuY2VyJTIwd29ya2luZyUyMGxhcHRvcCUyMHJlbW90ZSUyMGRpZ2l0YWwlMjBub21hZCUyMFVBRSUyMER1YmFpJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NTczNjkwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVlbGFuY2VyJTIwd29ya2luZyUyMGxhcHRvcCUyMHJlbW90ZSUyMGRpZ2l0YWwlMjBub21hZCUyMFVBRSUyMER1YmFpJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NTczNjkwMXww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral",
     content: {
       intro: "The UAE is becoming one of the top destinations for freelancers and remote workers. With flexible business options and a growing digital economy, many professionals are choosing the UAE to work independently. One of the best options available is the Freelance Visa UAE. This visa allows you to live in UAE, work independently, and offer services legally. Many people ask: What is a freelance visa? Who can apply? How can I get it? What are the requirements? This complete guide will explain everything step by step in simple English. This article is for general information only. Travelaxis provides documentation assistance and consultancy support—not government visa issuance; approvals are decided by UAE authorities.",
       sections: [

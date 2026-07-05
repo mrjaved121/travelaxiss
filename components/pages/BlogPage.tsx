@@ -41,9 +41,14 @@ export default function BlogPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
+                className="relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
                 style={{ backgroundColor: '#FFFFFF' }}
               >
+                <Link
+                  href={`/blog/${blog.id}`}
+                  className="absolute inset-0 z-10"
+                  aria-label={`Read full article: ${blog.title}`}
+                />
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src={blog.image} 
@@ -77,15 +82,14 @@ export default function BlogPage() {
                     {blog.excerpt}
                   </p>
                   
-                  <Link
-                    href={`/blog/${blog.id}`}
-                    className="inline-flex items-center space-x-2 font-semibold hover:underline"
+                  <span
+                    aria-hidden="true"
+                    className="inline-flex items-center space-x-2 font-semibold group-hover:underline"
                     style={{ color: '#1D63E0' }}
-                    aria-label={`Read full article: ${blog.title}`}
                   >
                     <span>Read full article</span>
                     <ArrowRight className="w-4 h-4" aria-hidden />
-                  </Link>
+                  </span>
                 </div>
               </motion.article>
             ))}
@@ -96,7 +100,7 @@ export default function BlogPage() {
       {/* CTA Section */}
       <section className="relative py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
           alt=""
           role="presentation"
           className="absolute inset-0 w-full h-full object-cover"

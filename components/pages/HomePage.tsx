@@ -124,7 +124,7 @@ const testimonials = [
     name: "Ali Hashim",
     role: "Founder",
     avatar:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=400",
     content:
       "Their service was smooth and professional. Everything was handled properly, and we had no problems from day one to the final approval.",
   },
@@ -132,7 +132,7 @@ const testimonials = [
     name: "Rajesh Patel",
     role: "Managing Director",
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=400",
     content:
       "They explained everything clearly and supported us at every step. The whole process became easy because of them.",
   },
@@ -176,12 +176,10 @@ export default function HomePage() {
             </Link>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.15 }}
-            className="relative h-80 md:h-[26rem]"
-          >
+          {/* Not a motion.div: this holds the LCP image, and an initial-opacity-0
+              mount animation delays when Chrome counts it as painted until Motion
+              hydrates and runs the transition. */}
+          <div className="relative h-80 md:h-[26rem]">
             <div
               className="absolute -top-8 -right-8 w-56 h-56 rounded-full"
               style={{ backgroundColor: "rgba(29,99,224,0.12)" }}
@@ -200,17 +198,20 @@ export default function HomePage() {
               <path d="M4 40 C 16 8, 48 8, 60 24" />
             </svg>
             <img
-              src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Dubai skyline"
+              width={760}
+              height={638}
+              fetchPriority="high"
               className="absolute top-0 right-0 w-3/4 h-3/4 object-cover rounded-[2rem] shadow-xl"
             />
             <img
-              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Business consultation meeting in Dubai"
               className="absolute bottom-0 left-0 w-3/5 h-3/5 object-cover rounded-[2rem] shadow-xl border-4 border-white"
             />
             <img
-              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Dubai downtown skyscrapers"
               className="hidden md:block absolute bottom-6 right-0 w-28 h-28 object-cover rounded-full shadow-xl border-4 border-white"
             />
@@ -221,7 +222,7 @@ export default function HomePage() {
               <MapPin className="w-5 h-5 mb-0.5" aria-hidden />
               <span className="text-xs font-bold leading-tight px-1">11+ Years</span>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -290,12 +291,12 @@ export default function HomePage() {
               aria-hidden
             />
             <img
-              src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Travelaxis consultancy team at work"
               className="absolute inset-6 w-[calc(100%-3rem)] h-[calc(100%-3rem)] object-cover rounded-[2.5rem] shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Dubai freezone office"
               className="hidden md:block absolute -bottom-6 -right-6 w-32 h-32 object-cover rounded-full shadow-xl border-4 border-white"
             />
@@ -376,8 +377,13 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className="relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
+                <Link
+                  href={service.link}
+                  className="absolute inset-0 z-10"
+                  aria-label={`View ${service.title} details`}
+                />
                 <div className="p-6">
                   <div
                     className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
@@ -401,14 +407,13 @@ export default function HomePage() {
                       <span className="text-2xl font-bold">{service.highlightBig}</span>
                       <span className="text-sm text-gray-500">/{service.highlightSmall}</span>
                     </p>
-                    <Link
-                      href={service.link}
-                      aria-label={`View ${service.title} details`}
-                      className="inline-flex items-center justify-center w-11 h-11 rounded-full transition-all hover:opacity-90 shrink-0"
+                    <span
+                      aria-hidden="true"
+                      className="inline-flex items-center justify-center w-11 h-11 rounded-full transition-all group-hover:opacity-90 shrink-0"
                       style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                     >
                       <ArrowUpRight className="w-5 h-5" aria-hidden />
-                    </Link>
+                    </span>
                   </div>
                 </div>
               </motion.div>
@@ -556,7 +561,7 @@ export default function HomePage() {
             className="relative rounded-[2.5rem] overflow-hidden py-20 md:py-28"
           >
             <img
-              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt=""
               role="presentation"
               className="absolute inset-0 w-full h-full object-cover"
@@ -614,8 +619,13 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className="relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
+                <Link
+                  href={`/blog/${post.id}`}
+                  className="absolute inset-0 z-10"
+                  aria-label={`Read full article: ${post.title}`}
+                />
                 <div className="relative h-44">
                   <img src={post.image} alt="" role="presentation" className="w-full h-full object-cover" />
                 </div>
@@ -624,13 +634,13 @@ export default function HomePage() {
                     {post.title}
                   </h3>
                   <p className="text-gray-600 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
-                  <Link
-                    href={`/blog/${post.id}`}
-                    className="inline-flex items-center gap-2 font-semibold hover:gap-3 transition-all"
+                  <span
+                    aria-hidden="true"
+                    className="inline-flex items-center gap-2 font-semibold group-hover:gap-3 transition-all"
                     style={{ color: "#1D63E0" }}
                   >
                     Read More <ArrowRight className="w-4 h-4" aria-hidden />
-                  </Link>
+                  </span>
                 </div>
               </motion.article>
             ))}

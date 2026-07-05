@@ -50,7 +50,7 @@ export default function ContactPage() {
           >
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
-              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Business consultation meeting"
               className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
             />

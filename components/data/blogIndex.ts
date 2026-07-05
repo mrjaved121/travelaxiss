@@ -18,7 +18,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       readTime: "16 min read",
       category: "Business Setup",
       image:
-        "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     },
     {
       id: "dropshipping-business-uae-guide-2026",
@@ -27,7 +27,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "12 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1647774469542-d8df9c2e23cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcm9wc2hpcHBpbmclMjBvbmxpbmUlMjBidXNpbmVzcyUyMGVjb21tZXJjZSUyMHNoaXBwaW5nJTIwcGFja2FnZXMlMjBsYXB0b3AlMjBVQUV8ZW58MXx8fHwxNzc1NzM4MTYzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1647774469542-d8df9c2e23cd?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcm9wc2hpcHBpbmclMjBvbmxpbmUlMjBidXNpbmVzcyUyMGVjb21tZXJjZSUyMHNoaXBwaW5nJTIwcGFja2FnZXMlMjBsYXB0b3AlMjBVQUV8ZW58MXx8fHwxNzc1NzM4MTYzfDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "ecommerce-license-uae-guide-2026",
@@ -36,7 +36,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "11 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1709102884400-b50ca1a12bc3?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlLWNvbW1lcmNlJTIwb25saW5lJTIwc2hvcHBpbmclMjBidXNpbmVzcyUyMGxhcHRvcCUyMFVBRSUyMER1YmFpJTIwZGlnaXRhbCUyMHN0b3JlfGVufDF8fHx8MTc3NTczNzExOHww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "freelance-visa-uae-guide-2026",
@@ -45,7 +45,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "UAE Visa Documentation",
-      image: "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVlbGFuY2VyJTIwd29ya2luZyUyMGxhcHRvcCUyMGRpZ2l0YWwlMjBub21hZCUyMFVBRSUyMER1YmFpJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NTczNjkwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1686249959385-ee6c7dcdf0ec?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVlbGFuY2VyJTIwd29ya2luZyUyMGxhcHRvcCUyMGRpZ2l0YWwlMjBub21hZCUyMFVBRSUyMER1YmFpJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NTczNjkwMXww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "golden-visa-uae-guide-2026",
@@ -54,7 +54,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "UAE Visa Documentation",
-      image: "https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBnb2xkZW4lMjB2aXNhJTIwcGFzc3BvcnQlMjBsdXh0cnklMjBpbW1pZ3JhdGlvbiUyMER1YmFpJTIwc3VjY2VzcyUyMGJ1c2luZXNzfGVufDF8fHx8MTc3NTczNjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBnb2xkZW4lMjB2aXNhJTIwcGFzc3BvcnQlMjBsdXh0cnklMjBpbW1pZ3JhdGlvbiUyMER1YmFpJTIwc3VjY2VzcyUyMGJ1c2luZXNzfGVufDF8fHx8MTc3NTczNjY3Nnww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "uae-residence-visa-through-business-2026",
@@ -63,7 +63,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "11 min read",
       category: "UAE Visa Documentation",
-      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
     },
     {
       id: "corporate-bank-account-uae-guide-2026",
@@ -72,7 +72,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1598182313525-666cdc6cd7fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBiYW5raW5nJTIwYnVzaW5lc3MlMjBhY2NvdW50JTIwVUFFJTIwcHJvZmVzc2lvbmFsJTIwb2ZmaWNlJTIwZmluYW5jaWFsfGVufDF8fHx8MTc3NTczNjI2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1598182313525-666cdc6cd7fd?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBiYW5raW5nJTIwYnVzaW5lc3MlMjBhY2NvdW50JTIwVUFFJTIwcHJvZmVzc2lvbmFsJTIwb2ZmaWNlJTIwZmluYW5jaWFsfGVufDF8fHx8MTc3NTczNjI2NHww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "iso-certification-uae-guide-2026",
@@ -81,7 +81,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1756885427018-86c8c5969c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJU08lMjBjZXJ0aWZpY2F0aW9uJTIwYnVzaW5lc3MlMjBxdWFsaXR5JTIwbWFuYWdlbWVudCUyMHN0YW5kYXJkJTIwY2VydGlmaWNhdGV8ZW58MXx8fHwxNzc1NzM1NTAzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1756885427018-86c8c5969c5b?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJU08lMjBjZXJ0aWZpY2F0aW9uJTIwYnVzaW5lc3MlMjBxdWFsaXR5JTIwbWFuYWdlbWVudCUyMHN0YW5kYXJkJTIwY2VydGlmaWNhdGV8ZW58MXx8fHwxNzc1NzM1NTAzfDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "trademark-registration-uae-guide-2026",
@@ -90,7 +90,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGJyYW5kJTIwbG9nbyUyMHRyYWRlbWFyayUyMGxlZ2FsJTIwZG9jdW1lbnQlMjBvZmZpY2lhbHxlbnwxfHx8fDE3NzU3MzQ3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGJyYW5kJTIwbG9nbyUyMHRyYWRlbWFyayUyMGxlZ2FsJTIwZG9jdW1lbnQlMjBvZmZpY2lhbHxlbnwxfHx8fDE3NzU3MzQ3MTJ8MA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "renew-trade-license-uae-guide-2026",
@@ -99,7 +99,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1720722023441-45d4f90b52cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBidXNpbmVzcyUyMGxpY2Vuc2UlMjByZW5ld2FsJTIwZG9jdW1lbnQlMjBvZmZpY2lhbCUyMGdvdmVybm1lbnR8ZW58MXx8fHwxNzc1NzM0NTE3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1720722023441-45d4f90b52cb?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBidXNpbmVzcyUyMGxpY2Vuc2UlMjByZW5ld2FsJTIwZG9jdW1lbnQlMjBvZmZpY2lhbCUyMGdvdmVybm1lbnR8ZW58MXx8fHwxNzc1NzM0NTE3fDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "business-compliance-uae-guide-2026",
@@ -108,7 +108,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1655921779861-b4525f07a20f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBidXNpbmVzcyUyMGxlZ2FsJTIwY29tcGxpYW5jZSUyMGRvY3VtZW50cyUyMHJlZ3VsYXRpb25zJTIwb2ZmaWNpYWx8ZW58MXx8fHwxNzc1NzM0MzU2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1655921779861-b4525f07a20f?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBidXNpbmVzcyUyMGxlZ2FsJTIwY29tcGxpYW5jZSUyMGRvY3VtZW50cyUyMHJlZ3VsYXRpb25zJTIwb2ZmaWNpYWx8ZW58MXx8fHwxNzc1NzM0MzU2fDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "municipality-approval-uae-guide-2026",
@@ -117,7 +117,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMG11bmljaXBhbGl0eSUyMGJ1aWxkaW5nJTIwZ292ZXJubWVudCUyMGFwcHJvdmFsJTIwb2ZmaWNlJTIwbW9kZXJufGVufDF8fHx8MTc3NTczNDE1OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMG11bmljaXBhbGl0eSUyMGJ1aWxkaW5nJTIwZ292ZXJubWVudCUyMGFwcHJvdmFsJTIwb2ZmaWNlJTIwbW9kZXJufGVufDF8fHx8MTc3NTczNDE1OHww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "customs-registration-uae-guide-2026",
@@ -126,7 +126,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1747250298470-28ead0337103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBjdXN0b21zJTIwc2hpcHBpbmclMjBwb3J0JTIwY2FyZ28lMjBjb250YWluZXJzJTIwaW1wb3J0JTIwZXhwb3J0fGVufDF8fHx8MTc3NTczMzg3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1747250298470-28ead0337103?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBjdXN0b21zJTIwc2hpcHBpbmclMjBwb3J0JTIwY2FyZ28lMjBjb250YWluZXJzJTIwaW1wb3J0JTIwZXhwb3J0fGVufDF8fHx8MTc3NTczMzg3N3ww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "dubai-chamber-registration-guide-2026",
@@ -135,7 +135,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
     },
     {
       id: "trade-license-approval-uae-guide-2026",
@@ -144,7 +144,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+      image: "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
     },
     {
       id: "best-business-activities-uae-2026",
@@ -153,7 +153,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1504616925178-7dce65dfc3ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGlkZWFzJTIwZW50cmVwcmVuZXVyJTIwcHJvZml0YWJsZSUyMHN1Y2Nlc3MlMjBVQUV8ZW58MXx8fHwxNzc1Njk2MDk3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1504616925178-7dce65dfc3ca?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGlkZWFzJTIwZW50cmVwcmVuZXVyJTIwcHJvZml0YWJsZSUyMHN1Y2Nlc3MlMjBVQUV8ZW58MXx8fHwxNzc1Njk2MDk3fDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "start-business-uae-without-sponsor-2026",
@@ -162,7 +162,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1720722023542-0969d30040e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBidXNpbmVzcyUyMGVudHJlcHJlbmV1ciUyMGluZGVwZW5kZW50JTIwb3duZXIlMjBzdWNjZXNzfGVufDF8fHx8MTc3NTY5NTg2N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1720722023542-0969d30040e6?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxVQUUlMjBidXNpbmVzcyUyMGVudHJlcHJlbmV1ciUyMGluZGVwZW5kZW50JTIwb3duZXIlMjBzdWNjZXNzfGVufDF8fHx8MTc3NTY5NTg2N3ww&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "business-setup-uae-foreigners-guide-2026",
@@ -171,7 +171,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGJ1c2luZXNzJTIwc2t5bGluZSUyMGZvcmVpZ25lciUyMGVudHJlcHJlbmV1ciUyMG1vZGVybnxlbnwxfHx8fDE3NzU2OTU2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGJ1c2luZXNzJTIwc2t5bGluZSUyMGZvcmVpZ25lciUyMGVudHJlcHJlbmV1ciUyMG1vZGVybnxlbnwxfHx8fDE3NzU2OTU2Njl8MA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "investor-visa-uae-guide-2026",
@@ -180,7 +180,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "UAE Visa Documentation",
-      image: "https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludmVzdG9yJTIwaGFuZHNoYWtlJTIwRHViYWklMjBwcm9mZXNzaW9uYWwlMjBtb2Rlcm58ZW58MXx8fHwxNzc1Njk1NDEzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludmVzdG9yJTIwaGFuZHNoYWtlJTIwRHViYWklMjBwcm9mZXNzaW9uYWwlMjBtb2Rlcm58ZW58MXx8fHwxNzc1Njk1NDEzfDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "uae-visa-process-guide-2026",
@@ -189,7 +189,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "8 min read",
       category: "UAE Visa Documentation",
-      image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXNzcG9ydCUyMHZpc2ElMjBpbW1pZ3JhdGlvbiUyMHRyYXZlbCUyMGRvY3VtZW50c3xlbnwxfHx8fDE3NzU2OTUxODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYXNzcG9ydCUyMHZpc2ElMjBpbW1pZ3JhdGlvbiUyMHRyYXZlbCUyMGRvY3VtZW50c3xlbnwxfHx8fDE3NzU2OTUxODV8MA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "documents-company-formation-uae-2026",
@@ -198,7 +198,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "9 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRvY3VtZW50cyUyMHBhc3Nwb3J0JTIwbGVnYWwlMjBwYXBlcnN8ZW58MXx8fHwxNzc1Njk0OTc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRvY3VtZW50cyUyMHBhc3Nwb3J0JTIwbGVnYWwlMjBwYXBlcnN8ZW58MXx8fHwxNzc1Njk0OTc3fDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "start-business-dubai-2026",
@@ -207,7 +207,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "10 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGJ1c2luZXNzJTIwZG93bnRvd24lMjBza3lzY3JhcGVycyUyMG1vZGVybnxlbnwxfHx8fDE3NzU2OTQ4MjF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGJ1c2luZXNzJTIwZG93bnRvd24lMjBza3lzY3JhcGVycyUyMG1vZGVybnxlbnwxfHx8fDE3NzU2OTQ4MjF8MA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "best-freezones-uae-2026",
@@ -216,7 +216,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 9, 2026",
       readTime: "8 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGZyZWV6b25lJTIwYnVzaW5lc3MlMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXx8fHwxNzc1Njk0Njg4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      image: "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&auto=format&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxEdWJhaSUyMGZyZWV6b25lJTIwYnVzaW5lc3MlMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MXx8fHwxNzc1Njk0Njg4fDA&ixlib=rb-4.1.0&q=80&w=760&utm_source=figma&utm_medium=referral"
     },
     {
       id: "company-formation-uae-2026",
@@ -225,7 +225,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 8, 2026",
       readTime: "5 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&h=500&fit=crop"
+      image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&h=500&fit=crop&auto=format"
     },
     {
       id: "mainland-vs-freezone-uae-2026",
@@ -234,6 +234,6 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 7, 2026",
       readTime: "7 min read",
       category: "Business Setup",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop"
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop&auto=format"
     }
   ];

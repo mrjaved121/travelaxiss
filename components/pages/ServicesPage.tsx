@@ -10,7 +10,7 @@ const services = [
     category: "Business Setup",
     description: "Comprehensive formation services for mainland, freezone, and offshore business structures.",
     icon: Building2,
-    image: "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1706074740295-d7a79c079562?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/company-formation",
   },
   {
@@ -18,7 +18,7 @@ const services = [
     category: "Approvals",
     description: "Streamlined government approvals and regulatory coordination through expert handling.",
     icon: FileText,
-    image: "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/government-services",
   },
   {
@@ -26,7 +26,7 @@ const services = [
     category: "Compliance",
     description: "Professional preparation and attestation of corporate and legal documents.",
     icon: Scale,
-    image: "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/legal-documentation",
   },
   {
@@ -34,7 +34,7 @@ const services = [
     category: "Ongoing Support",
     description: "Ongoing support services including trademark registration, ISO certification, and operational assistance.",
     icon: HeadphonesIcon,
-    image: "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1763705857736-2b4f16a33758?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/business-support",
   },
   {
@@ -43,7 +43,7 @@ const services = [
     description:
       "Investor, employment, and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
     icon: Plane,
-    image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760",
     link: "/services/visa-services",
   },
 ];
@@ -98,7 +98,7 @@ export default function ServicesPage() {
           >
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
-              src="https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1596708896695-6b74d6baf6c0?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
               alt="Government office building in Dubai"
               className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
             />
@@ -119,8 +119,13 @@ export default function ServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className="relative group rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
               >
+                <Link
+                  href={service.link}
+                  className="absolute inset-0 z-10"
+                  aria-label={`Learn more about ${service.title}`}
+                />
                 <div className="relative h-44">
                   <img src={service.image} alt="" role="presentation" className="w-full h-full object-cover" />
                   <span
@@ -138,14 +143,13 @@ export default function ServicesPage() {
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-sm mb-6">{service.description}</p>
-                  <Link
-                    href={service.link}
-                    aria-label={`Learn more about ${service.title}`}
-                    className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all hover:opacity-90"
+                  <span
+                    aria-hidden="true"
+                    className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all group-hover:opacity-90"
                     style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
                   >
                     <ArrowUpRight className="w-5 h-5" aria-hidden />
-                  </Link>
+                  </span>
                 </div>
               </motion.div>
             ))}
@@ -191,7 +195,7 @@ export default function ServicesPage() {
       {/* CTA banner */}
       <section className="relative py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
           alt=""
           role="presentation"
           className="absolute inset-0 w-full h-full object-cover"

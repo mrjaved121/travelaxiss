@@ -839,7 +839,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       {/* CTA Section */}
       <section className="relative py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+          src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
           alt=""
           role="presentation"
           className="absolute inset-0 w-full h-full object-cover"
