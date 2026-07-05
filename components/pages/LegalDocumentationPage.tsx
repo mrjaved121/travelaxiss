@@ -23,10 +23,13 @@ import {
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
+const disclaimer =
+  "We provide documentation preparation, attestation coordination, and consultancy support only. We are not a licensed law firm or legal consultancy. Agreements and documents are prepared based on your instructions and standard formats; for legal advice or representation, we coordinate with independently licensed legal consultants or advocates.";
+
 const whyChooseUs = [
   {
-    title: "Expert Legal Knowledge",
-    body: "We understand UAE legal requirements and documentation standards.",
+    title: "Documentation Expertise",
+    body: "We understand UAE documentation requirements and standards, and coordinate with licensed legal consultants when legal advice is needed.",
   },
   {
     title: "Error-Free Documentation",
@@ -60,9 +63,9 @@ const keyServices: {
     icon: ScrollText,
   },
   {
-    title: "Legal Agreements Drafting",
+    title: "Agreement Documentation Support",
     description:
-      "We create legally sound agreements for your business operations.",
+      "We prepare documentation for common business agreements based on your requirements and standard formats.",
     items: [
       "Partnership agreements",
       "Service contracts",
@@ -83,7 +86,7 @@ const keyServices: {
   },
   {
     title: "Corporate Document Management",
-    description: "We handle all corporate legal documentation.",
+    description: "We help organize and manage your corporate documentation and records.",
     items: [
       "Board resolutions",
       "Shareholder documents",
@@ -97,7 +100,7 @@ const keyServices: {
     items: [
       "Embassy attestation",
       "Ministry approvals",
-      "Legal validation",
+      "Document verification",
     ],
     icon: ShieldCheck,
   },
@@ -150,6 +153,10 @@ const mistakes = [
 
 const faqs = [
   {
+    q: "Are you a law firm or legal consultancy?",
+    a: "No. We provide documentation preparation, attestation, and translation coordination. For legal advice or representation, we work with independently licensed legal consultants or advocates.",
+  },
+  {
     q: "What is MOA in UAE?",
     a: "MOA is a legal document that defines company ownership and structure.",
   },
@@ -170,22 +177,22 @@ const faqs = [
 const packages = [
   {
     name: "Standard Documentation Services",
-    tagline: "Ideal for basic legal needs.",
+    tagline: "Ideal for basic documentation needs.",
     features: [
       "MOA / POA preparation",
-      "Legal document drafting",
+      "Document drafting support",
       "Basic verification support",
     ],
     highlighted: false,
   },
   {
     name: "Premium Documentation Services",
-    tagline: "For advanced legal support.",
+    tagline: "For advanced documentation support.",
     features: [
       "Priority document processing",
       "Full attestation services",
-      "Contract review",
-      "Dedicated legal support",
+      "Document review support",
+      "Dedicated documentation support",
     ],
     highlighted: true,
   },
@@ -208,19 +215,20 @@ export default function LegalDocumentationPage() {
             >
               Legal Documentation Services in UAE –{" "}
               <span style={{ color: "#1D63E0" }}>
-                Secure, Accurate & Compliant
+                Documentation & Consultancy Support
               </span>
             </h1>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Ensure your business operates with complete legal protection in the
-              UAE. We provide professional legal documentation services,
-              including agreements, attestation, and compliance support.
+              Keep your business paperwork accurate and organized in the UAE.
+              We provide documentation preparation, attestation coordination,
+              and consultancy support for agreements, corporate records, and
+              certificates.
             </p>
-            <ul className="space-y-2 mb-8 text-lg text-gray-800">
+            <ul className="space-y-2 mb-6 text-lg text-gray-800">
               {[
                 "Fast processing",
                 "Accurate documentation",
-                "Full legal compliance",
+                "Structured compliance support",
               ].map((line) => (
                 <li key={line} className="flex items-start gap-2">
                   <span className="text-[#1D63E0]">👉</span>
@@ -228,13 +236,16 @@ export default function LegalDocumentationPage() {
                 </li>
               ))}
             </ul>
+            <p className="text-sm text-gray-500 mb-8 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#1D63E0" }}>
+              {disclaimer}
+            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90 text-lg font-semibold"
                 style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
               >
-                Get Legal Support
+                Get Documentation Support
               </Link>
               <a
                 href={WHATSAPP_HREF}
@@ -255,11 +266,13 @@ export default function LegalDocumentationPage() {
             className="relative h-72 md:h-96"
           >
             <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <img
-              src="https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Legal documents and business paperwork"
-              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
-            />
+            <div
+              className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
+              style={{ backgroundColor: '#EEF4FF' }}
+              aria-hidden
+            >
+              <Scale className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+            </div>
           </motion.div>
         </div>
       </section>
@@ -282,19 +295,20 @@ export default function LegalDocumentationPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Legal documentation is a critical part of starting and running a
               business in the UAE. From contracts to attestations, every
-              document must meet strict legal standards. Whether you need{" "}
+              document needs to be prepared carefully. Whether you need{" "}
               <strong>legal documentation UAE</strong>,{" "}
               <strong>MOA POA UAE</strong> support,{" "}
               <strong>certificate attestation UAE</strong>,{" "}
               <strong>legal translation UAE</strong>, or broader{" "}
-              <strong>business legal services UAE</strong>, we align drafts and
-              filings with applicable rules.
+              <strong>business documentation services UAE</strong>, we prepare
+              drafts and filings aligned with the format each authority
+              requires.
             </p>
             <p className="font-semibold mb-3" style={{ color: "#0F1B2D" }}>
               Our team ensures that all your documents are:
             </p>
             <ul className="space-y-2 mb-6">
-              {["Legally valid", "Properly structured", "Fully compliant with UAE laws"].map(
+              {["Accurately prepared", "Properly structured", "Aligned with UAE documentation requirements"].map(
                 (item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle
@@ -307,8 +321,8 @@ export default function LegalDocumentationPage() {
               )}
             </ul>
             <p className="text-lg text-gray-700 font-medium">
-              We handle everything so you don&apos;t face delays or legal
-              issues.
+              We handle documentation preparation and coordination so you can
+              avoid unnecessary delays.
             </p>
           </motion.div>
         </div>
@@ -450,13 +464,13 @@ export default function LegalDocumentationPage() {
                 <Scale className="w-6 h-6" style={{ color: "#FFFFFF" }} />
               </div>
               <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
-                Contract Review & Analysis
+                Document Review & Formatting
               </h3>
               <p className="text-sm font-semibold mb-2 text-gray-600">
-                We review your contracts to ensure:
+                We review your documents to help ensure:
               </p>
               <ul className="space-y-2 text-gray-700">
-                {["Legal compliance", "Risk reduction", "Clear terms"].map(
+                {["Completeness", "Consistent formatting", "Clear terms"].map(
                   (x) => (
                     <li key={x} className="flex gap-2">
                       <span className="text-[#1D63E0]">👉</span>
@@ -500,16 +514,16 @@ export default function LegalDocumentationPage() {
                 <Languages className="w-6 h-6" style={{ color: "#FFFFFF" }} />
               </div>
               <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
-                Legal Translation Services
+                Legal Translation Coordination
               </h3>
               <p className="text-sm font-semibold mb-2 text-gray-600">
-                Includes:
+                We coordinate certified translations through UAE Ministry of Justice-licensed legal translators, including:
               </p>
               <ul className="space-y-2 text-gray-700">
                 {[
                   "Arabic to English",
                   "English to Arabic",
-                  "Official legal translations",
+                  "Certified translations for official use",
                 ].map((x) => (
                   <li key={x} className="flex gap-2">
                     <span className="text-[#1D63E0]">👉</span>
@@ -637,7 +651,7 @@ export default function LegalDocumentationPage() {
                   className="block text-center px-6 py-3 rounded-2xl transition-all hover:opacity-90 font-semibold"
                   style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
                 >
-                  Get Legal Support
+                  Get Documentation Support
                 </Link>
               </motion.div>
             ))}
@@ -808,9 +822,13 @@ export default function LegalDocumentationPage() {
               Don&apos;t risk your business with incomplete or incorrect
               documents.
             </p>
-            <p className="text-white/90 text-lg mb-10">
-              Contact us today for reliable legal documentation services in UAE.
-              We ensure your documents are accurate, approved, and ready.
+            <p className="text-white/90 text-lg mb-4">
+              Contact us today for reliable documentation and consultancy
+              services in UAE. We ensure your documents are accurate,
+              properly prepared, and ready for submission.
+            </p>
+            <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
+              {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
@@ -818,7 +836,7 @@ export default function LegalDocumentationPage() {
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
                 style={{ backgroundColor: "#FFFFFF", color: "#1D63E0" }}
               >
-                <span>Get Legal Support</span>
+                <span>Get Documentation Support</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
               <a
