@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "UAE Business Setup & Visa Documentation Support | Travelaxis Dubai",
   description:
-    "Premium UAE consultancy for company formation, government coordination, and legal documentation—plus UAE visa documentation and application guidance. Structured support in Dubai. 11+ years experience.",
+    "Premium UAE consultancy for company formation, government coordination, legal documentation, and visa documentation support. 11+ years in Dubai.",
   keywords: [
     "visa consultancy UAE",
     "UAE visa documentation",

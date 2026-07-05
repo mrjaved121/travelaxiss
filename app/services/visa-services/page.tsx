@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import VisaServicesPage from "@/components/pages/VisaServicesPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title:
@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     title: "UAE Visa Documentation & Consultancy | Travelaxis",
     description:
       "Documentation assistance and application guidance for UAE visas—investor, employment, family, visit, renewals, and more—through official channels.",
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

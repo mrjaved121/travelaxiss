@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServicesPage from "@/components/pages/ServicesPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "Business Setup & UAE Visa Documentation Services | Travelaxis",
@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     description:
       "Company formation, government coordination, legal documentation, business support, and UAE visa documentation assistance.",
     url: `${SITE_URL}/services/`,
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 

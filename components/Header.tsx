@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Phone, Mail, Menu, X } from "lucide-react";
 import { useId, useState } from "react";
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/social";
 
 const MOBILE_NAV_PANEL_ID = "primary-navigation-mobile";
 
@@ -40,17 +39,6 @@ export default function Header() {
             <a href="mailto:info@travelaxis.me" className="flex items-center gap-2 hover:opacity-80">
               <Mail className="w-3.5 h-3.5" aria-hidden />
               info@travelaxis.me
-            </a>
-          </div>
-          <div className="flex items-center gap-4" aria-label="Social links">
-            <a href="#" aria-label="Travelaxis on Facebook" className="hover:opacity-80">
-              <FacebookIcon className="w-3.5 h-3.5" />
-            </a>
-            <a href="#" aria-label="Travelaxis on Instagram" className="hover:opacity-80">
-              <InstagramIcon className="w-3.5 h-3.5" />
-            </a>
-            <a href="#" aria-label="Travelaxis on LinkedIn" className="hover:opacity-80">
-              <LinkedinIcon className="w-3.5 h-3.5" />
             </a>
           </div>
         </div>

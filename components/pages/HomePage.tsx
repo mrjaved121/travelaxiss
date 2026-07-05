@@ -7,7 +7,6 @@ import {
   Building2,
   FileText,
   Scale,
-  Star,
   Award,
   Users,
   TrendingUp,
@@ -22,7 +21,6 @@ import {
   Plane,
 } from "lucide-react";
 import { motion } from "motion/react";
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { blogPostSummaries } from "@/components/data/blogIndex";
 
@@ -119,31 +117,9 @@ const audiences = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Ali Hashim",
-    role: "Founder",
-    avatar:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=400",
-    content:
-      "Their service was smooth and professional. Everything was handled properly, and we had no problems from day one to the final approval.",
-  },
-  {
-    name: "Rajesh Patel",
-    role: "Managing Director",
-    avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=400",
-    content:
-      "They explained everything clearly and supported us at every step. The whole process became easy because of them.",
-  },
-];
-
 const latestPosts = blogPostSummaries.slice(0, 3);
 
 export default function HomePage() {
-  const [activeTestimonial, setActiveTestimonial] = useState(0);
-  const testimonial = testimonials[activeTestimonial];
-
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
@@ -185,38 +161,16 @@ export default function HomePage() {
               style={{ backgroundColor: "rgba(29,99,224,0.12)" }}
               aria-hidden
             />
-            <svg
-              className="absolute top-6 left-0 w-16 h-16 hidden md:block"
-              viewBox="0 0 64 64"
-              fill="none"
-              stroke="#1D63E0"
-              strokeWidth="2"
-              strokeDasharray="4 5"
-              strokeLinecap="round"
-              aria-hidden
-            >
-              <path d="M4 40 C 16 8, 48 8, 60 24" />
-            </svg>
             <img
-              src="https://images.unsplash.com/photo-1768069794857-9306ac167c6e?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Dubai skyline"
-              width={760}
-              height={638}
+              src="/images/hero-image-travelaxis.webp"
+              alt="Company formation and visa consultancy for UAE, USA, UK, and Australia"
+              width={1536}
+              height={1024}
               fetchPriority="high"
-              className="absolute top-0 right-0 w-3/4 h-3/4 object-cover rounded-[2rem] shadow-xl"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Business consultation meeting in Dubai"
-              className="absolute bottom-0 left-0 w-3/5 h-3/5 object-cover rounded-[2rem] shadow-xl border-4 border-white"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Dubai downtown skyscrapers"
-              className="hidden md:block absolute bottom-6 right-0 w-28 h-28 object-cover rounded-full shadow-xl border-4 border-white"
+              className="absolute inset-0 w-full h-full object-contain"
             />
             <div
-              className="absolute top-[45%] left-[18%] -translate-y-1/2 w-24 h-24 rounded-full flex flex-col items-center justify-center text-center shadow-lg"
+              className="absolute bottom-2 left-2 w-24 h-24 rounded-full flex flex-col items-center justify-center text-center shadow-lg"
               style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
             >
               <MapPin className="w-5 h-5 mb-0.5" aria-hidden />
@@ -485,68 +439,6 @@ export default function HomePage() {
                 </p>
                 <p className="text-sm text-gray-600">{a.description}</p>
               </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 md:py-28 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center mb-12"
-          >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
-              Testimonials
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
-              What Our Clients Say
-            </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-[auto_1fr] gap-8 items-center rounded-3xl p-8 md:p-12" style={{ backgroundColor: "#EEF4FF" }}>
-            <img
-              key={testimonial.avatar}
-              src={testimonial.avatar}
-              alt={testimonial.name}
-              className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover mx-auto shadow-lg border-4 border-white"
-            />
-            <div>
-              <div className="flex items-center gap-1 mb-4" role="img" aria-label="Rating: 5 out of 5 stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-current" style={{ color: "#1D63E0" }} aria-hidden />
-                ))}
-              </div>
-              <p className="text-lg italic mb-6" style={{ color: "#0F1B2D" }}>
-                &ldquo;{testimonial.content}&rdquo;
-              </p>
-              <p className="font-semibold" style={{ color: "#0F1B2D" }}>
-                {testimonial.name}
-              </p>
-              <p className="text-sm text-gray-500">{testimonial.role}</p>
-            </div>
-          </div>
-
-          <div className="flex justify-center gap-3 mt-6">
-            {testimonials.map((t, index) => (
-              <button
-                key={t.name}
-                type="button"
-                onClick={() => setActiveTestimonial(index)}
-                aria-label={`Show testimonial from ${t.name}`}
-                aria-pressed={activeTestimonial === index}
-                className="rounded-full overflow-hidden transition-all"
-                style={{
-                  width: activeTestimonial === index ? "3.5rem" : "3rem",
-                  height: activeTestimonial === index ? "3.5rem" : "3rem",
-                  outline: activeTestimonial === index ? "3px solid #1D63E0" : "none",
-                  outlineOffset: "2px",
-                }}
-              >
-                <img src={t.avatar} alt="" role="presentation" className="w-full h-full object-cover" />
-              </button>
             ))}
           </div>
         </div>

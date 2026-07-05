@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BusinessSupportPage from "@/components/pages/BusinessSupportPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
-import { SITE_URL } from "@/lib/seo/site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title:
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
       "Business Support Services UAE – Trademark, ISO, Banking & Compliance",
     description:
       "Get complete business support services in UAE. We help with trademark registration, ISO certification, bank account opening, and compliance.",
+    images: [DEFAULT_OG_IMAGE],
   },
 };
 
