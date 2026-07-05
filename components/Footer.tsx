@@ -49,7 +49,7 @@ export default function Footer() {
               Premium UAE consultancy: company formation, government coordination, legal documentation, and UAE visa documentation and application support.
             </p>
             <p className="text-gray-400 text-xs mt-3 leading-relaxed">
-              We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly.
+              We provide documentation preparation and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not guarantee visa approval or employment outcomes. Applications are submitted through official government channels or by the applicant/employer.
             </p>
           </div>
 

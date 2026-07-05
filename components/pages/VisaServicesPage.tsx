@@ -22,7 +22,7 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
   {
     title: "Employment Visas",
     description:
-      "Guidance and paperwork support for individuals sponsored by a UAE-based employer.",
+      "Guidance and paperwork support for individuals already sponsored by a UAE-based employer. We do not arrange jobs or sponsorship.",
     icon: Briefcase,
   },
   {
@@ -46,7 +46,7 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
 ];
 
 const disclaimer =
-  "We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.";
+  "We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.";
 
 export default function VisaServicesPage() {
   return (
@@ -82,11 +82,13 @@ export default function VisaServicesPage() {
             className="relative h-72 md:h-96"
           >
             <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <img
-              src="https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Passport and visa documentation"
-              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
-            />
+            <div
+              className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
+              style={{ backgroundColor: '#EEF4FF' }}
+              aria-hidden
+            >
+              <Plane className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+            </div>
           </motion.div>
         </div>
       </section>

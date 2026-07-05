@@ -51,7 +51,7 @@ export default function FAQPage() {
       <section className="py-8" style={{ backgroundColor: "#FFFFFF" }} aria-label="Disclaimer">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm text-gray-500 text-center leading-relaxed border border-gray-200 rounded-2xl p-4 bg-gray-50">
-            We provide documentation assistance and consultancy support only. We are not a government authority and do not issue visas directly. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.
+            We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.
           </p>
         </div>
       </section>

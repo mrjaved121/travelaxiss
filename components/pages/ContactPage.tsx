@@ -36,7 +36,8 @@ export default function ContactPage() {
             </p>
             <p className="text-sm text-gray-500 max-w-lg leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a
-              government authority and do not issue visas directly. All visa applications are
+              government authority, employer, or recruitment agency, and we do not arrange jobs,
+              sponsor employment, or guarantee visa approval. All visa applications are
               submitted through official UAE government channels or authorized entities,
               subject to applicable rules and approvals.
             </p>
@@ -49,11 +50,13 @@ export default function ContactPage() {
             className="relative h-72 md:h-96"
           >
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <img
-              src="https://images.unsplash.com/photo-1720722023444-d4e633a71126?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt="Business consultation meeting"
-              className="relative w-full h-full object-cover rounded-[2rem] shadow-xl"
-            />
+            <div
+              className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
+              style={{ backgroundColor: '#EEF4FF' }}
+              aria-hidden
+            >
+              <MessageCircle className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+            </div>
           </motion.div>
         </div>
       </section>
