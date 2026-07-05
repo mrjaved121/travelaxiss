@@ -136,14 +136,7 @@ export default function VisaServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1628155092735-d1146f19cd58?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

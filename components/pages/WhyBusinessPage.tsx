@@ -150,21 +150,14 @@ export default function WhyBusinessPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1700041654199-7cbf9ba06eeb?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your Journey</h2>
-          <p className="text-white/85 text-lg mb-8">
+          <p className="text-white/90 text-lg mb-8">
             Let us help you establish your business in one of the world&apos;s most dynamic markets.
           </p>
           <Link

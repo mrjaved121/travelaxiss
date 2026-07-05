@@ -308,7 +308,7 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold transition-all hover:opacity-90"
               style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
             >
-              Read More
+              More About Us
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
           </motion.div>
@@ -465,19 +465,13 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="relative rounded-[2.5rem] overflow-hidden py-20 md:py-28"
+            style={{ backgroundColor: "#1D63E0" }}
           >
-            <img
-              src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-              alt=""
-              role="presentation"
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-            <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
             <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Are You Ready To Start? Remember Us!!
               </h2>
-              <p className="text-white/85 text-lg mb-8">
+              <p className="text-white/90 text-lg mb-8">
                 Take the first step with the right support and guidance — we&apos;re here
                 to help you at every stage of your business journey.
               </p>

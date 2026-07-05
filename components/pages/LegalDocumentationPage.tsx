@@ -795,14 +795,7 @@ export default function LegalDocumentationPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1532995092664-7027dcede29f?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(29,99,224,0.85)" }} aria-hidden />
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -811,11 +804,11 @@ export default function LegalDocumentationPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Secure Your Business with Proper Legal Documentation
             </h2>
-            <p className="text-white/85 text-lg mb-4">
+            <p className="text-white/90 text-lg mb-4">
               Don&apos;t risk your business with incomplete or incorrect
               documents.
             </p>
-            <p className="text-white/85 text-lg mb-10">
+            <p className="text-white/90 text-lg mb-10">
               Contact us today for reliable legal documentation services in UAE.
               We ensure your documents are accurate, approved, and ready.
             </p>

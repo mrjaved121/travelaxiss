@@ -98,21 +98,14 @@ export default function BlogPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1734456061630-87babdefd904?crop=entropy&cs=tinysrgb&fit=max&auto=format&q=80&w=760"
-          alt=""
-          role="presentation"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0" style={{ backgroundColor: 'rgba(29,99,224,0.85)' }} aria-hidden />
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Business?</h2>
-          <p className="text-white/85 text-lg mb-8">
+          <p className="text-white/90 text-lg mb-8">
             Get expert guidance for your company formation in UAE
           </p>
           <a
