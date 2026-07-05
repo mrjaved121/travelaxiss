@@ -61,13 +61,16 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <Link
             href="/"
-            className="flex items-center space-x-2 rounded-sm"
+            className="flex items-center rounded-sm"
             aria-label="Travelaxis home"
           >
-            <span aria-hidden="true" className="text-3xl font-bold">
-              <span style={{ color: "#1D63E0" }}>Travel</span>
-              <span style={{ color: "#0F1B2D" }}>axis</span>
-            </span>
+            <img
+              src="/travelaxis-logo.png"
+              alt=""
+              width={352}
+              height={94}
+              className="h-9 w-auto"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center space-x-8" aria-label="Primary">
