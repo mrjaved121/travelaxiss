@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import BlogDetailPage from "@/components/pages/BlogDetailPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogData } from "@/components/data/blogContent";
-import { blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
+import { blogFaqJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 
 export function generateStaticParams() {
@@ -57,6 +57,8 @@ export default async function Page({ params }: Props) {
     notFound();
   }
 
+  const faqSchema = blogFaqJsonLd(blog);
+
   return (
     <>
       <JsonLd
@@ -66,6 +68,7 @@ export default async function Page({ params }: Props) {
             { name: blog.title, path: `/blog/${slug}` },
           ]),
           blogPostingJsonLd(slug, blog),
+          ...(faqSchema ? [faqSchema] : []),
         ]}
       />
       <BlogDetailPage slug={slug} />

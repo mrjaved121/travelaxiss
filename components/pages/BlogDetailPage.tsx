@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowLeft, Calendar, Clock, Share2, Building2, Plane, FileText } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, Share2, Building2, Plane, FileText, BadgeCheck } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
 
@@ -60,7 +60,11 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
               {blog.title}
             </h1>
             
-            <div className="flex items-center space-x-6 text-gray-600 mb-6">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-gray-600 mb-6">
+              <div className="flex items-center space-x-2">
+                <BadgeCheck className="w-5 h-5" style={{ color: '#1D63E0' }} aria-hidden />
+                <span>Reviewed by the Travelaxis Consultancy Team</span>
+              </div>
               <div className="flex items-center space-x-2">
                 <Calendar className="w-5 h-5" aria-hidden />
                 <span>{blog.date}</span>

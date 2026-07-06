@@ -9,6 +9,123 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "job-seeker-visa-uae-documents-guide-2026",
+      title: "UAE Job Seeker Visa – Eligibility & Document Checklist (2026)",
+      excerpt:
+        "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, validity by qualification tier, and what happens once you find a role.",
+      date: "July 6, 2026",
+      readTime: "11 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "business-exploration-visa-uae-guide-2026",
+      title: "UAE Visa Documentation for Exploring Business Opportunities (2026 Guide)",
+      excerpt:
+        "Which UAE visa to use when you're visiting to scout opportunities or meet partners, and the documents that support a smooth business-visit application.",
+      date: "July 6, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "family-sponsorship-income-requirements-uae-2026",
+      title: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide (2026)",
+      excerpt:
+        "The minimum salary UAE sponsors need to bring over a spouse, children, or parents, which documents prove it, and the full dependent-visa checklist.",
+      date: "July 6, 2026",
+      readTime: "10 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "visit-visa-relatives-uae-guide-2026",
+      title: "UAE Visit Visa for Relatives – Documentation Guide (2026)",
+      excerpt:
+        "How a UAE resident sponsors a visiting relative, the documents both sides need, and the mistakes that most often cause visit-visa delays.",
+      date: "July 6, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "visa-typing-center-jlt-dubai-guide-2026",
+      title: "Visa Documentation & Typing Center Support Near JLT, Dubai (2026 Guide)",
+      excerpt:
+        "What a government-authorized typing center actually does, what to bring, and how preparing documents beforehand avoids a wasted trip.",
+      date: "July 6, 2026",
+      readTime: "8 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "fast-track-visa-document-verification-dubai-2026",
+      title: "Fast-Track Visa Document Verification in Dubai – What It Actually Means (2026)",
+      excerpt:
+        "What genuinely speeds up UAE visa document verification, what 'fast-track' services really cover, and why a complete file is the only real shortcut.",
+      date: "July 6, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "urgent-gdrfa-document-approval-guide-2026",
+      title: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite (2026)",
+      excerpt:
+        "How Dubai's GDRFA actually processes residency documents, which priority options genuinely exist, and the habits that prevent last-minute urgency.",
+      date: "July 6, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "amer-center-visa-documentation-guide-2026",
+      title: "Amer Center Visa Application – Documentation Help & What to Expect (2026)",
+      excerpt:
+        "What Amer centers handle for Dubai visa and residency transactions, how to book an appointment, and how to prepare a complete file before you go.",
+      date: "July 6, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "software-engineer-golden-visa-uae-guide-2026",
+      title: "Software Engineer Golden Visa UAE – Documentation & Eligibility Guide (2026)",
+      excerpt:
+        "Complete guide to the UAE Golden Visa for software engineers and developers: eligibility routes, the full document checklist, and how to avoid the mistakes that delay approval.",
+      date: "July 6, 2026",
+      readTime: "13 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "ai-specialist-golden-visa-uae-guide-2026",
+      title: "AI Specialist Golden Visa UAE – Requirements & Documents Guide (2026)",
+      excerpt:
+        "How AI, machine learning, and data specialists qualify for the UAE Golden Visa: the two eligibility routes, what evidence strengthens your file, and the full document checklist.",
+      date: "July 6, 2026",
+      readTime: "13 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "property-investor-golden-visa-uae-guide-2026",
+      title: "Property Investor Golden Visa UAE – Document & File Preparation Guide (2026)",
+      excerpt:
+        "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the AED 2 million rule, mortgage documentation, and a step-by-step submission checklist.",
+      date: "July 6, 2026",
+      readTime: "13 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "bank-statement-5-year-multiple-entry-visa-uae-guide-2026",
+      title: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa (2026)",
+      excerpt:
+        "What your bank statement needs to show for the UAE 5-year multiple entry visa, how it differs from the Golden Visa, and the full supporting document checklist.",
+      date: "July 6, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "humanitarian-pioneers-visa-uae-documents-guide-2026",
+      title: "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents (2026)",
+      excerpt:
+        "A practical guide to the UAE Golden Visa for Humanitarian Pioneers: who qualifies, how to secure an endorsement letter, and the full document file you need to prepare.",
+      date: "July 6, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "noon-seller-account-uae-guide-2026",
       title: "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
       excerpt:
