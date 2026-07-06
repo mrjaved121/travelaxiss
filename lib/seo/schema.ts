@@ -135,6 +135,29 @@ export function blogListingJsonLd() {
   };
 }
 
+/** FAQPage schema for a blog post's own embedded FAQ section(s), if any. Returns null when the post has no FAQs. */
+export function blogFaqJsonLd(blog: {
+  content?: { sections?: { faqs?: { question: string; answer: string }[] }[] };
+}) {
+  const faqs = (blog.content?.sections ?? []).flatMap(
+    (section) => section.faqs ?? [],
+  );
+  if (faqs.length === 0) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
   const datePublished = blog.date
     ? blogDisplayDateToIso(blog.date)

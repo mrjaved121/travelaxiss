@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -133,7 +134,38 @@ const blogCategoryIcons: Record<string, typeof FileText> = {
   "UAE Visa Documentation": Plane,
 };
 
+const WHATSAPP_NUMBER = "971589867555";
+
+const SERVICE_TYPES = [
+  "Company Formation",
+  "Government Services",
+  "Legal Documentation",
+  "Business Support",
+  "UAE Visa Documentation",
+  "Umrah Services",
+];
+
+const CONTACT_METHODS = ["WhatsApp", "Phone Call", "Email"] as const;
+
 export default function HomePage() {
+  const [serviceType, setServiceType] = useState(SERVICE_TYPES[0]);
+  const [preferredContact, setPreferredContact] = useState<(typeof CONTACT_METHODS)[number]>(
+    CONTACT_METHODS[0]
+  );
+  const [phoneNumber, setPhoneNumber] = useState("");
+
+  const handleInquirySubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const message = `Hi Travelaxis, I'm interested in ${serviceType}. My phone number is ${phoneNumber}. Preferred contact method: ${preferredContact}.`;
+
+    window.open(
+      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
@@ -200,29 +232,41 @@ export default function HomePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
+          onSubmit={handleInquirySubmit}
           className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 md:p-8 grid grid-cols-1 md:grid-cols-4 gap-4 items-end"
         >
           <label className="flex flex-col gap-1.5 text-sm">
             <span className="font-semibold" style={{ color: "#0F1B2D" }}>
               Service Type*
             </span>
-            <select className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2" style={{ color: "#0F1B2D" }}>
-              <option>Company Formation</option>
-              <option>Government Services</option>
-              <option>Legal Documentation</option>
-              <option>Business Support</option>
-              <option>UAE Visa Documentation</option>
-              <option>Umrah Services</option>
+            <select
+              required
+              value={serviceType}
+              onChange={(e) => setServiceType(e.target.value)}
+              className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
+              style={{ color: "#0F1B2D" }}
+            >
+              {SERVICE_TYPES.map((option) => (
+                <option key={option}>{option}</option>
+              ))}
             </select>
           </label>
           <label className="flex flex-col gap-1.5 text-sm">
             <span className="font-semibold" style={{ color: "#0F1B2D" }}>
               Preferred Contact*
             </span>
-            <select className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2" style={{ color: "#0F1B2D" }}>
-              <option>WhatsApp</option>
-              <option>Phone Call</option>
-              <option>Email</option>
+            <select
+              required
+              value={preferredContact}
+              onChange={(e) =>
+                setPreferredContact(e.target.value as (typeof CONTACT_METHODS)[number])
+              }
+              className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
+              style={{ color: "#0F1B2D" }}
+            >
+              {CONTACT_METHODS.map((option) => (
+                <option key={option}>{option}</option>
+              ))}
             </select>
           </label>
           <label className="flex flex-col gap-1.5 text-sm">
@@ -231,7 +275,10 @@ export default function HomePage() {
             </span>
             <input
               type="tel"
+              required
               placeholder="+971"
+              value={phoneNumber}
+              onChange={(e) => setPhoneNumber(e.target.value)}
               className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
               style={{ color: "#0F1B2D" }}
             />
