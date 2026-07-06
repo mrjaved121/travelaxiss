@@ -409,12 +409,11 @@ export default function LegalDocumentationPage() {
                 >
                   {svc.title}
                 </h3>
-                <p className="text-sm text-gray-400 mb-4 leading-relaxed">
+                <p className="text-sm text-white/75 mb-4 leading-relaxed">
                   {svc.description}
                 </p>
                 <p
-                  className="text-xs font-semibold uppercase tracking-wide mb-2"
-                  style={{ color: "#1D63E0" }}
+                  className="text-xs font-semibold uppercase tracking-wide mb-2 text-white/70"
                 >
                   Includes
                 </p>
@@ -422,7 +421,7 @@ export default function LegalDocumentationPage() {
                   {svc.items.map((line) => (
                     <li
                       key={line}
-                      className="flex items-start gap-2 text-sm text-gray-300"
+                      className="flex items-start gap-2 text-sm text-white/90"
                     >
                       <span className="text-[#1D63E0] mt-0.5">👉</span>
                       <span>{line}</span>
