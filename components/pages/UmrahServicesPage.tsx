@@ -99,7 +99,7 @@ export default function UmrahServicesPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
               What&apos;s Included
             </h2>
-            <p className="text-lg text-gray-400">
+            <p className="text-lg text-white/75">
               A single point of contact for visa, travel, and accommodation coordination for your
               Umrah journey.
             </p>
@@ -125,7 +125,7 @@ export default function UmrahServicesPage() {
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{item.description}</p>
+                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>
