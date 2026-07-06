@@ -3,7 +3,6 @@
 import Link from "next/link";
 import {
   ArrowRight,
-  Moon,
   FileStack,
   Plane,
   Hotel,
@@ -77,12 +76,14 @@ export default function UmrahServicesPage() {
           >
             <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <div className="absolute bottom-0 right-6 w-24 h-24 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.08)' }} aria-hidden />
-            <div
-              className="relative w-56 h-56 md:w-72 md:h-72 rounded-full flex items-center justify-center shadow-xl"
-              style={{ backgroundColor: '#1D63E0' }}
-            >
-              <Moon className="w-24 h-24 md:w-32 md:h-32 text-white" strokeWidth={1.25} aria-hidden />
-            </div>
+            <img
+              src="/images/ummarah-visa.webp"
+              alt=""
+              role="presentation"
+              width={640}
+              height={427}
+              className="relative w-full h-full object-contain"
+            />
           </motion.div>
         </div>
       </section>
