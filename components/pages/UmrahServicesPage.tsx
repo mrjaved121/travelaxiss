@@ -41,7 +41,7 @@ const categories: { title: string; description: string; icon: LucideIcon }[] = [
 
 const travelOptions: {
   title: string;
-  price: string;
+  price?: string;
   description: string;
   icon: LucideIcon;
 }[] = [
@@ -54,7 +54,6 @@ const travelOptions: {
   },
   {
     title: "By Air",
-    price: "Starting from AED 1,999",
     description:
       "Direct or connecting flights to Jeddah or Madinah, coordinated for individual pilgrims and groups.",
     icon: Plane,
@@ -194,9 +193,15 @@ export default function UmrahServicesPage() {
                 <h3 className="text-lg font-bold mb-2" style={{ color: '#0F1B2D' }}>
                   {option.title}
                 </h3>
-                <p className="text-2xl font-bold mb-3" style={{ color: '#1D63E0' }}>
-                  {option.price}
-                </p>
+                {option.price ? (
+                  <p className="text-2xl font-bold mb-3" style={{ color: '#1D63E0' }}>
+                    {option.price}
+                  </p>
+                ) : (
+                  <p className="text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+                    Contact us for current pricing
+                  </p>
+                )}
                 <p className="text-sm text-gray-600 leading-relaxed">{option.description}</p>
               </motion.div>
             ))}
