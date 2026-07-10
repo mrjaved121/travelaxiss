@@ -41,7 +41,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt:
         "How a UAE resident sponsors a visiting relative, the documents both sides need, and the mistakes that most often cause visit-visa delays.",
       date: "July 6, 2026",
-      readTime: "9 min read",
+      readTime: "13 min read",
       category: "UAE Visa Documentation",
     },
     {
@@ -50,7 +50,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt:
         "What a government-authorized typing center actually does, what to bring, and how preparing documents beforehand avoids a wasted trip.",
       date: "July 6, 2026",
-      readTime: "8 min read",
+      readTime: "13 min read",
       category: "UAE Visa Documentation",
     },
     {
@@ -77,7 +77,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       excerpt:
         "What Amer centers handle for Dubai visa and residency transactions, how to book an appointment, and how to prepare a complete file before you go.",
       date: "July 6, 2026",
-      readTime: "9 min read",
+      readTime: "13 min read",
       category: "UAE Visa Documentation",
     },
     {
@@ -139,7 +139,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       title: "Dropshipping Business in UAE – Complete Beginner Guide (2026)",
       excerpt: "Learn how to start a dropshipping business in UAE step by step. Complete 2026 guide covering setup, license, suppliers, and marketing.",
       date: "April 9, 2026",
-      readTime: "12 min read",
+      readTime: "13 min read",
       category: "Business Setup",
     },
     {
@@ -147,7 +147,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       title: "E-Commerce License UAE – Complete Guide for Online Business (2026)",
       excerpt: "Learn how to get an e-commerce license in UAE. Complete 2026 guide covering business setup, requirements, process, and online business strategies.",
       date: "April 9, 2026",
-      readTime: "11 min read",
+      readTime: "13 min read",
       category: "Business Setup",
     },
     {
@@ -155,7 +155,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       title: "Freelance Visa UAE – Complete Guide for Beginners (2026)",
       excerpt: "Learn how to get a freelance visa in UAE. Complete guide covering requirements, process, documents, benefits, and how to start freelancing.",
       date: "April 9, 2026",
-      readTime: "10 min read",
+      readTime: "13 min read",
       category: "UAE Visa Documentation",
     },
     {
@@ -235,7 +235,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       title: "Dubai Chamber of Commerce Registration Guide (Step-by-Step 2026)",
       excerpt: "Learn how to register with Dubai Chamber of Commerce. Complete step-by-step guide for UAE businesses including documents and process.",
       date: "April 9, 2026",
-      readTime: "9 min read",
+      readTime: "13 min read",
       category: "Business Setup",
     },
     {

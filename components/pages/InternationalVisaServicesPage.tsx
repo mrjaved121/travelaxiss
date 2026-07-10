@@ -72,6 +72,52 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
   },
 ];
 
+const countryGroups: { title: string; countries: string[] }[] = [
+  {
+    title: "Schengen Area",
+    countries: [
+      "France",
+      "Italy",
+      "Spain",
+      "Germany",
+      "Switzerland",
+      "Netherlands",
+      "Portugal",
+      "Czech Republic",
+      "Austria",
+      "Greece",
+      "Belgium",
+      "Croatia",
+      "Sweden",
+      "Lithuania",
+      "Iceland",
+      "Finland",
+      "Denmark",
+      "Hungary",
+    ],
+  },
+  {
+    title: "USA & UK",
+    countries: ["USA", "UK"],
+  },
+  {
+    title: "Other Popular Destinations",
+    countries: [
+      "South Africa",
+      "New Zealand",
+      "Indonesia (Bali)",
+      "Canada",
+      "Cyprus",
+      "Russia",
+      "China",
+      "Japan",
+      "Turkey",
+      "Singapore",
+      "Australia",
+    ],
+  },
+];
+
 const disclaimer =
   "We provide documentation assistance and consultancy support only. We are not a government authority, embassy, employer, or recruitment agency for any country, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through the relevant country's official channels—embassies, consulates, or authorized visa centers—subject to their rules and approvals.";
 
@@ -188,6 +234,58 @@ export default function InternationalVisaServicesPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Countries covered */}
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center max-w-2xl mx-auto mb-12"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+              Countries We Cover
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+              Documentation Support by Destination
+            </h2>
+            <p className="text-lg text-gray-600">
+              A snapshot of the destinations we most commonly prepare documentation for. Don&apos;t
+              see yours listed — contact us to check.
+            </p>
+          </motion.div>
+
+          <div className="space-y-10">
+            {countryGroups.map((group, groupIndex) => (
+              <motion.div
+                key={group.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: groupIndex * 0.08 }}
+              >
+                <h3 className="text-lg font-bold mb-4" style={{ color: '#0F1B2D' }}>
+                  {group.title}
+                </h3>
+                <div className="flex flex-wrap gap-2.5">
+                  {group.countries.map((country) => (
+                    <span
+                      key={country}
+                      className="px-4 py-2 rounded-full text-sm font-medium border"
+                      style={{ borderColor: '#EEF4FF', backgroundColor: '#EEF4FF', color: '#0F1B2D' }}
+                    >
+                      {country}
+                    </span>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <p className="text-xs text-gray-500 mt-10 leading-relaxed">
+            {disclaimer}
+          </p>
         </div>
       </section>
 

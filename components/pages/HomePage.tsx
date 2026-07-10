@@ -90,9 +90,9 @@ const services = [
     title: "International Visa Documentation",
     category: "Global Visas",
     description:
-      "Documentation support for Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations.",
-    highlightBig: "8",
-    highlightSmall: "Destinations",
+      "Documentation support for Schengen Europe, the USA, UK, Saudi Arabia, Canada, Australia, and other African and Asian destinations.",
+    highlightBig: "30+",
+    highlightSmall: "Countries",
     icon: Globe2,
     link: "/services/international-visas",
   },
