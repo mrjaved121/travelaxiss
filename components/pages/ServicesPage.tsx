@@ -133,7 +133,11 @@ export default function ServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="relative group rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className={`relative group rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white${
+                  index === services.length - 1 && services.length % 3 === 1
+                    ? " md:col-start-1 lg:col-start-2"
+                    : ""
+                }`}
               >
                 <Link
                   href={service.link}
