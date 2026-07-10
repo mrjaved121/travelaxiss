@@ -124,6 +124,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/services/international-visas" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  International Visa Documentation
+                </Link>
+              </li>
+              <li>
                 <Link href="/services/umrah-services" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Umrah Services
                 </Link>

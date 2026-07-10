@@ -17,6 +17,7 @@ import {
   Tag,
   Banknote,
   Plane,
+  Globe2,
   Moon,
   Clock,
 } from "lucide-react";
@@ -86,6 +87,16 @@ const services = [
     link: "/services/visa-services",
   },
   {
+    title: "International Visa Documentation",
+    category: "Global Visas",
+    description:
+      "Documentation support for Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations.",
+    highlightBig: "8",
+    highlightSmall: "Destinations",
+    icon: Globe2,
+    link: "/services/international-visas",
+  },
+  {
     title: "Umrah Services",
     category: "Pilgrimage Travel",
     description:
@@ -142,6 +153,7 @@ const SERVICE_TYPES = [
   "Legal Documentation",
   "Business Support",
   "UAE Visa Documentation",
+  "International Visa Documentation",
   "Umrah Services",
 ];
 
