@@ -7,6 +7,7 @@ import {
   Plane,
   Hotel,
   Users,
+  Bus,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -35,6 +36,28 @@ const categories: { title: string; description: string; icon: LucideIcon }[] = [
     description:
       "Coordinated travel arrangements for families and groups traveling together, with a single point of contact throughout.",
     icon: Users,
+  },
+];
+
+const travelOptions: {
+  title: string;
+  price: string;
+  description: string;
+  icon: LucideIcon;
+}[] = [
+  {
+    title: "By Bus",
+    price: "Starting from AED 1,199",
+    description:
+      "Comfortable coach travel to Makkah and Madinah — a lower-cost option for pilgrims traveling from the UAE.",
+    icon: Bus,
+  },
+  {
+    title: "By Air",
+    price: "Starting from AED 1,999",
+    description:
+      "Direct or connecting flights to Jeddah or Madinah, coordinated for individual pilgrims and groups.",
+    icon: Plane,
   },
 ];
 
@@ -129,6 +152,60 @@ export default function UmrahServicesPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Travel options & pricing */}
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center max-w-2xl mx-auto mb-12"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+              Travel Options
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+              Flight &amp; Bus Travel Pricing
+            </h2>
+            <p className="text-lg text-gray-600">
+              Whichever way you prefer to travel to Makkah and Madinah, we coordinate the booking
+              end-to-end.
+            </p>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 gap-6">
+            {travelOptions.map((option, index) => (
+              <motion.div
+                key={option.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                className="rounded-3xl border border-gray-100 shadow-sm p-8 text-center"
+              >
+                <div
+                  className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"
+                  style={{ backgroundColor: '#EEF4FF' }}
+                  aria-hidden
+                >
+                  <option.icon className="w-7 h-7" style={{ color: '#1D63E0' }} />
+                </div>
+                <h3 className="text-lg font-bold mb-2" style={{ color: '#0F1B2D' }}>
+                  {option.title}
+                </h3>
+                <p className="text-2xl font-bold mb-3" style={{ color: '#1D63E0' }}>
+                  {option.price}
+                </p>
+                <p className="text-sm text-gray-600 leading-relaxed">{option.description}</p>
+              </motion.div>
+            ))}
+          </div>
+
+          <p className="text-xs text-gray-500 text-center mt-8 max-w-2xl mx-auto leading-relaxed">
+            Prices shown are indicative starting rates per person and vary by travel dates, group
+            size, and availability. Confirm current pricing when booking.
+          </p>
         </div>
       </section>
 
