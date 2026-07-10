@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Moon, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 
 const services = [
@@ -40,6 +40,14 @@ const services = [
       "Investor, employment, and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
     icon: Plane,
     link: "/services/visa-services",
+  },
+  {
+    title: "International Visa Documentation",
+    category: "Global Visas",
+    description:
+      "Documentation support for Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations, for UAE residents traveling or relocating abroad.",
+    icon: Globe2,
+    link: "/services/international-visas",
   },
   {
     title: "Umrah Services",

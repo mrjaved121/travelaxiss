@@ -17,6 +17,7 @@ const staticPaths = [
   "/services/legal-documentation",
   "/services/business-support",
   "/services/visa-services",
+  "/services/international-visas",
   "/services/umrah-services",
   "/why-business",
   "/faq",
