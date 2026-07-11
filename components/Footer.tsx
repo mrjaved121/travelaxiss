@@ -75,6 +75,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/dubai" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Areas We Serve
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Blog
                 </Link>

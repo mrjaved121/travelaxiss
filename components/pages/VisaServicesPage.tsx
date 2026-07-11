@@ -11,6 +11,13 @@ import {
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { visaServicesFaqs } from "@/components/data/visaServicesFaqs";
 
 const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
   {
@@ -47,6 +54,7 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
 
 const disclaimer =
   "We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.";
+
 
 export default function VisaServicesPage() {
   return (
@@ -134,6 +142,41 @@ export default function VisaServicesPage() {
                 <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mb-10 text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+              Frequently Asked <span style={{ color: '#1D63E0' }}>Questions</span>
+            </h2>
+          </motion.div>
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: '#EEF4FF' }}>
+            <Accordion type="single" collapsible className="w-full">
+              {visaServicesFaqs.map((faq, i) => (
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                  <AccordionTrigger
+                    className="text-left text-base font-bold py-5 hover:no-underline"
+                    style={{ color: '#0F1B2D' }}
+                  >
+                    <span className="flex items-start gap-2">
+                      <span className="text-[#1D63E0]">❓</span>
+                      {faq.q}
+                    </span>
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                    {faq.a}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>

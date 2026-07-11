@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import VisaServicesPage from "@/components/pages/VisaServicesPage";
+import { visaServicesFaqs } from "@/components/data/visaServicesFaqs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
@@ -48,6 +49,18 @@ export default function Page() {
             path: "/services/visa-services",
             serviceType: "Visa documentation consultancy",
           }),
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: visaServicesFaqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.q,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.a,
+              },
+            })),
+          },
         ]}
       />
       <VisaServicesPage />
