@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { blogData } from "@/components/data/blogContent";
+import { dubaiAreas } from "@/components/data/dubaiAreas";
 import {
   blogDisplayDateToDate,
   blogIsoDayToDate,
@@ -19,6 +20,7 @@ const staticPaths = [
   "/services/visa-services",
   "/services/international-visas",
   "/services/umrah-services",
+  "/dubai",
   "/why-business",
   "/faq",
   "/contact",
@@ -62,5 +64,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   );
 
-  return [...staticEntries, ...blogEntries];
+  const dubaiAreaEntries: MetadataRoute.Sitemap = dubaiAreas.map((area) => ({
+    url: `${base}/dubai/${area.slug}/`,
+    lastModified: siteFallbackModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...dubaiAreaEntries];
 }
