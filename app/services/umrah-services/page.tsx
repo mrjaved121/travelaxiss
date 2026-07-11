@@ -1,19 +1,22 @@
 import type { Metadata } from "next";
 import UmrahServicesPage from "@/components/pages/UmrahServicesPage";
+import { umrahFaqs } from "@/components/data/umrahFaqs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Umrah Visa & Travel Coordination | Dubai Consultancy | Travelaxis",
+  title: "Umrah Package From Dubai – Visa, Flights & Hotel | Travelaxis",
   description:
-    "Umrah visa documentation, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE. Arranged through licensed travel partners and official channels.",
+    "Umrah packages from Dubai: visa documentation, bus or flight transport, and hotel coordination near the Haram. 7, 10, and 15+ day options for individuals, families, and groups.",
   keywords: [
-    "Umrah services UAE",
+    "Umrah package from Dubai",
+    "Umrah packages UAE",
     "Umrah visa Dubai",
     "Umrah travel packages UAE",
     "Umrah visa processing",
     "Umrah group packages Dubai",
+    "Umrah by bus from Dubai",
     "Umrah flight and hotel booking",
   ],
   alternates: {
@@ -38,12 +41,24 @@ export default function Page() {
             { name: "Umrah Services", path: "/services/umrah-services" },
           ]),
           serviceJsonLd({
-            name: "Umrah Visa & Travel Coordination",
+            name: "Umrah Package From Dubai",
             description:
-              "Umrah visa documentation, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
+              "Umrah visa documentation, flight or bus transport, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
             path: "/services/umrah-services",
             serviceType: "Umrah visa and travel coordination",
           }),
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: umrahFaqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.q,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.a,
+              },
+            })),
+          },
         ]}
       />
       <UmrahServicesPage />
