@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogData } from "@/components/data/blogContent";
 import { dubaiAreas } from "@/components/data/dubaiAreas";
+import { freeZones } from "@/components/data/freeZones";
 import {
   blogDisplayDateToDate,
   blogIsoDayToDate,
@@ -21,6 +22,7 @@ const staticPaths = [
   "/services/international-visas",
   "/services/umrah-services",
   "/dubai",
+  "/free-zones",
   "/why-business",
   "/faq",
   "/contact",
@@ -71,5 +73,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticEntries, ...blogEntries, ...dubaiAreaEntries];
+  const freeZoneEntries: MetadataRoute.Sitemap = freeZones.map((zone) => ({
+    url: `${base}/free-zones/${zone.slug}/`,
+    lastModified: siteFallbackModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...dubaiAreaEntries, ...freeZoneEntries];
 }
