@@ -80,6 +80,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/free-zones" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  UAE Free Zones
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Blog
                 </Link>
