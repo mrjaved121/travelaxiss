@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 import { motion } from "motion/react";
-import { dubaiAreas } from "@/components/data/dubaiAreas";
+import { emirates } from "@/components/data/emirates";
 
-export default function DubaiHubPage() {
+export default function EmiratesHubPage() {
   return (
     <div>
       {/* Hero */}
@@ -17,54 +17,46 @@ export default function DubaiHubPage() {
             className="max-w-3xl"
           >
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
-              Areas We Serve
+              UAE-Wide Coverage
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              Travelaxis <span style={{ color: '#1D63E0' }}>Across Dubai</span>
+              Travelaxis <span style={{ color: '#1D63E0' }}>Across the UAE</span>
             </h1>
             <p className="text-lg text-gray-600">
               Our office is based in Al Qusais, Dubai — we support company formation, government
-              services, legal documentation, and visa documentation for clients across Dubai,
-              remotely or by appointment. Looking for another emirate? See our{" "}
-              <Link href="/emirates" className="font-semibold" style={{ color: '#1D63E0' }}>
-                UAE-wide coverage
+              services, legal documentation, and visa documentation for clients across every
+              emirate, remotely or by appointment. See our{" "}
+              <Link href="/dubai" className="font-semibold" style={{ color: '#1D63E0' }}>
+                Dubai area pages
               </Link>{" "}
-              page.
+              for Dubai-specific detail.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Area cards */}
+      {/* Emirate cards */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {dubaiAreas.map((area, index) => (
+            {emirates.map((emirate, index) => (
               <motion.div
-                key={area.slug}
+                key={emirate.slug}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className="relative group rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white p-6"
               >
-                <Link href={`/dubai/${area.slug}`} className="absolute inset-0 z-10" aria-label={`Business setup and visa documentation in ${area.name}`} />
+                <Link href={`/emirates/${emirate.slug}`} className="absolute inset-0 z-10" aria-label={`Business setup and visa documentation in ${emirate.name}`} />
                 <div className="flex items-center justify-between mb-4">
                   <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
                     <MapPin className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                   </div>
-                  {area.isOffice && (
-                    <span
-                      className="px-3 py-1 rounded-full text-xs font-semibold"
-                      style={{ backgroundColor: '#EEF4FF', color: '#1D63E0' }}
-                    >
-                      Our Office
-                    </span>
-                  )}
                 </div>
                 <h2 className="text-xl font-bold mb-3" style={{ color: '#0F1B2D' }}>
-                  {area.name}
+                  {emirate.name}
                 </h2>
-                <p className="text-gray-600 text-sm mb-6">{area.heroIntro}</p>
+                <p className="text-gray-600 text-sm mb-6">{emirate.heroIntro}</p>
                 <span
                   aria-hidden="true"
                   className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all group-hover:opacity-90"
