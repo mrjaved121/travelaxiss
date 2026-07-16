@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { dubaiAreas } from "@/components/data/dubaiAreas";
+import { emirates } from "@/components/data/emirates";
+import { freeZones } from "@/components/data/freeZones";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -175,6 +178,63 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Locations We Serve — full link coverage for local SEO / crawlability */}
+        <div className="border-t border-gray-800 mt-10 pt-10 grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <nav aria-label="Dubai areas we serve">
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#60A5FA" }}>
+              Dubai Areas We Serve
+            </h2>
+            <ul className="space-y-2 list-none p-0 m-0">
+              {dubaiAreas.map((area) => (
+                <li key={area.slug}>
+                  <Link
+                    href={`/dubai/${area.slug}`}
+                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                  >
+                    {area.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="UAE emirates we serve">
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#60A5FA" }}>
+              Emirates We Serve
+            </h2>
+            <ul className="space-y-2 list-none p-0 m-0">
+              {emirates.map((emirate) => (
+                <li key={emirate.slug}>
+                  <Link
+                    href={`/emirates/${emirate.slug}`}
+                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                  >
+                    {emirate.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="UAE free zones we support">
+            <h2 className="font-semibold mb-4 text-base" style={{ color: "#60A5FA" }}>
+              UAE Free Zones
+            </h2>
+            <ul className="space-y-2 list-none p-0 m-0">
+              {freeZones.map((zone) => (
+                <li key={zone.slug}>
+                  <Link
+                    href={`/free-zones/${zone.slug}`}
+                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                  >
+                    {zone.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </div>
 
         {/* Bottom Bar */}
