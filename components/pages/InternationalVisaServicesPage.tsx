@@ -204,7 +204,7 @@ export default function InternationalVisaServicesPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
               Destinations We Support
             </h2>
-            <p className="text-lg text-gray-400">
+            <p className="text-lg text-white/75">
               Structured documentation and guidance for the international visa categories most
               requested by our clients.
             </p>
@@ -230,7 +230,7 @@ export default function InternationalVisaServicesPage() {
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{item.description}</p>
+                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>

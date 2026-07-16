@@ -208,7 +208,7 @@ export default function EmiratePage({ emirate }: { emirate: Emirate }) {
                 <h3 className="text-lg font-bold mb-2" style={{ color: '#FFFFFF' }}>
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{service.description}</p>
+                <p className="text-sm text-white/75 leading-relaxed">{service.description}</p>
               </motion.div>
             ))}
           </div>
