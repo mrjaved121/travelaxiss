@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { blogData } from "@/components/data/blogContent";
 import { dubaiAreas } from "@/components/data/dubaiAreas";
 import { freeZones } from "@/components/data/freeZones";
+import { emirates } from "@/components/data/emirates";
 import {
   blogDisplayDateToDate,
   blogIsoDayToDate,
@@ -23,6 +24,7 @@ const staticPaths = [
   "/services/umrah-services",
   "/dubai",
   "/free-zones",
+  "/emirates",
   "/why-business",
   "/faq",
   "/contact",
@@ -80,5 +82,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticEntries, ...blogEntries, ...dubaiAreaEntries, ...freeZoneEntries];
+  const emirateEntries: MetadataRoute.Sitemap = emirates.map((emirate) => ({
+    url: `${base}/emirates/${emirate.slug}/`,
+    lastModified: siteFallbackModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...blogEntries, ...dubaiAreaEntries, ...freeZoneEntries, ...emirateEntries];
 }
