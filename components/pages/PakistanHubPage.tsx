@@ -9,6 +9,9 @@ import {
   Heart,
   Building2,
   Moon,
+  Landmark,
+  Snowflake,
+  Sun,
   MessageCircle,
   Clock,
   Users,
@@ -73,6 +76,30 @@ const guides: {
     icon: Moon,
     link: "/services/umrah-services",
   },
+  {
+    title: "UK Visa from Pakistan",
+    category: "UK Visas",
+    description:
+      "Skilled Worker, Student, Visit, and Family/Spouse visa documentation, submitted through UKVI's official channels.",
+    icon: Landmark,
+    link: "/services/uk-visa-from-pakistan",
+  },
+  {
+    title: "Canada Visa from Pakistan",
+    category: "Canada Visas",
+    description:
+      "Study permit, work permit, visit visa, and spouse open work permit documentation, submitted through IRCC.",
+    icon: Snowflake,
+    link: "/services/canada-visa-from-pakistan",
+  },
+  {
+    title: "Australia Visa from Pakistan",
+    category: "Australia Visas",
+    description:
+      "Visitor, Student, and Partner/Family visa documentation, submitted through the Department of Home Affairs.",
+    icon: Sun,
+    link: "/services/australia-visa-from-pakistan",
+  },
 ];
 
 const whyUs: { icon: LucideIcon; title: string; description: string }[] = [
@@ -104,10 +131,10 @@ export default function PakistanHubPage() {
               For Clients in Pakistan
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              UAE Services for Clients <span style={{ color: "#1D63E0" }}>in Pakistan</span>
+              Visa &amp; Business Services for Clients <span style={{ color: "#1D63E0" }}>in Pakistan</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Travelaxis is a Dubai-based consultancy supporting Pakistani nationals with document attestation, UAE visa documentation, and business setup. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
+              Travelaxis is a Dubai-based consultancy supporting Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK, Canada, and Australia. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
             </p>
           </motion.div>
         </div>
