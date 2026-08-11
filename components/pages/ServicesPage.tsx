@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 
 const services = [
@@ -56,6 +56,14 @@ const services = [
       "Umrah visa processing, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
     icon: Moon,
     link: "/services/umrah-services",
+  },
+  {
+    title: "UAE Document Attestation",
+    category: "Attestation",
+    description:
+      "Degree, marriage, birth, and experience certificate attestation from Pakistan — the full HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain.",
+    icon: Stamp,
+    link: "/services/attestation",
   },
 ];
 

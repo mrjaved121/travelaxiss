@@ -6,8 +6,7 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title:
-    "UAE Visa Documentation & Application Support | Consultancy Dubai | Travelaxis",
+  title: "UAE Visa Documentation & Application Support | Consultancy Dubai",
   description:
     "UAE visa consultancy and documentation support: investor, employment, family, visit, renewal, and cancellation assistance. Application guidance and coordination through official UAE channels.",
   keywords: [
