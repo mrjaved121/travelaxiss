@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono, Pacifico } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -12,6 +13,7 @@ import {
   SITE_URL,
   titleTemplate,
 } from "@/lib/seo/site";
+import { GA_MEASUREMENT_ID } from "@/lib/seo/analytics";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -99,6 +101,22 @@ export default function RootLayout({
         </main>
         <Footer />
         <FloatingWhatsApp />
+        {GA_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

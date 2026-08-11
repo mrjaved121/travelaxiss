@@ -18,6 +18,7 @@ export default function Header() {
   const navLinks = [
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
+    { name: "For Pakistan", path: "/pakistan" },
     { name: "Why Business", path: "/why-business" },
     { name: "Blog", path: "/blog" },
     { name: "FAQs", path: "/faq" },
