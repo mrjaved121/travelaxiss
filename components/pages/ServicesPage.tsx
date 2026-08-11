@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, ArrowUpRight, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 
 const services = [
@@ -64,6 +64,30 @@ const services = [
       "Degree, marriage, birth, and experience certificate attestation from Pakistan — the full HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain.",
     icon: Stamp,
     link: "/services/attestation",
+  },
+  {
+    title: "UK Visa from Pakistan",
+    category: "UK Visas",
+    description:
+      "Skilled Worker, Student, Visit, and Family/Spouse visa documentation for Pakistani applicants, submitted through UKVI's official channels.",
+    icon: Landmark,
+    link: "/services/uk-visa-from-pakistan",
+  },
+  {
+    title: "Canada Visa from Pakistan",
+    category: "Canada Visas",
+    description:
+      "Study permit, work permit, visit visa, and spouse open work permit documentation for Pakistani applicants, submitted through IRCC.",
+    icon: Snowflake,
+    link: "/services/canada-visa-from-pakistan",
+  },
+  {
+    title: "Australia Visa from Pakistan",
+    category: "Australia Visas",
+    description:
+      "Visitor, Student, and Partner/Family visa documentation for Pakistani applicants, submitted through the Department of Home Affairs.",
+    icon: Sun,
+    link: "/services/australia-visa-from-pakistan",
   },
 ];
 
