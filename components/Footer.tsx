@@ -93,6 +93,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/pakistan" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  For Clients in Pakistan
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Blog
                 </Link>
@@ -149,6 +154,26 @@ export default function Footer() {
               <li>
                 <Link href="/services/umrah-services" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Umrah Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/attestation" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  UAE Document Attestation
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/uk-visa-from-pakistan" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  UK Visa from Pakistan
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/canada-visa-from-pakistan" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Canada Visa from Pakistan
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/australia-visa-from-pakistan" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Australia Visa from Pakistan
                 </Link>
               </li>
             </ul>
