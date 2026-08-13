@@ -20,6 +20,9 @@ import {
   Globe2,
   Moon,
   Clock,
+  Stamp,
+  Snowflake,
+  Sun,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
@@ -108,6 +111,33 @@ const services = [
   },
 ];
 
+const pakistanServices = [
+  {
+    title: "UAE Document Attestation",
+    description: "HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain for degree, marriage, and experience certificates.",
+    icon: Stamp,
+    link: "/services/attestation",
+  },
+  {
+    title: "UK Visa from Pakistan",
+    description: "Skilled Worker, Student, Visit, and Family/Spouse visa documentation.",
+    icon: Landmark,
+    link: "/services/uk-visa-from-pakistan",
+  },
+  {
+    title: "Canada Visa from Pakistan",
+    description: "Study permit, work permit, visit visa, and spouse open work permit documentation.",
+    icon: Snowflake,
+    link: "/services/canada-visa-from-pakistan",
+  },
+  {
+    title: "Australia Visa from Pakistan",
+    description: "Visitor, Student, and Partner/Family visa documentation.",
+    icon: Sun,
+    link: "/services/australia-visa-from-pakistan",
+  },
+];
+
 const stats = [
   { icon: Award, value: "11+", label: "Years of Experience" },
   { icon: Briefcase, value: `${services.length}`, label: "Core Services" },
@@ -155,6 +185,10 @@ const SERVICE_TYPES = [
   "UAE Visa Documentation",
   "International Visa Documentation",
   "Umrah Services",
+  "UAE Document Attestation",
+  "UK Visa from Pakistan",
+  "Canada Visa from Pakistan",
+  "Australia Visa from Pakistan",
 ];
 
 const CONTACT_METHODS = ["WhatsApp", "Phone Call", "Email"] as const;
@@ -442,6 +476,66 @@ export default function HomePage() {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* For clients in Pakistan */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mb-16 max-w-2xl mx-auto"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              For Clients in Pakistan
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              Document Attestation &amp; Visa Documentation From Pakistan
+            </h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {pakistanServices.map((service, index) => (
+              <motion.div
+                key={service.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                className="relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow"
+                style={{ backgroundColor: "#EEF4FF" }}
+              >
+                <Link
+                  href={service.link}
+                  className="absolute inset-0 z-10"
+                  aria-label={`View ${service.title} details`}
+                />
+                <div className="p-6">
+                  <div
+                    className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
+                    style={{ backgroundColor: "#1D63E0" }}
+                  >
+                    <service.icon className="w-6 h-6 text-white" aria-hidden />
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm">{service.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Link
+              href="/pakistan"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
+              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+            >
+              See All Services for Clients in Pakistan
+              <ArrowRight className="w-5 h-5" aria-hidden />
+            </Link>
           </div>
         </div>
       </section>

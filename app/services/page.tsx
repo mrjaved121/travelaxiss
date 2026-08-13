@@ -5,9 +5,9 @@ import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Business Setup & UAE Visa Documentation Services",
+  title: "Business Setup, UAE Visa & Attestation Services",
   description:
-    "Company formation, government coordination, legal documentation, business support, and UAE visa documentation and consultancy—structured assistance for mainland, freezone, and offshore companies.",
+    "Company formation, UAE visa documentation, document attestation from Pakistan, and UK/Canada/Australia visa documentation and consultancy—structured assistance for individuals and companies.",
   keywords: [
     "business setup UAE",
     "UAE visa documentation",
@@ -17,14 +17,18 @@ export const metadata: Metadata = {
     "legal documentation Dubai",
     "freezone company setup",
     "mainland company formation",
+    "uae document attestation from pakistan",
+    "uk visa from pakistan",
+    "canada visa from pakistan",
+    "australia visa from pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/services/`,
   },
   openGraph: {
-    title: "Business Setup & UAE Visa Documentation | Travelaxis",
+    title: "Business Setup, UAE Visa & Attestation Services | Travelaxis",
     description:
-      "Company formation, government coordination, legal documentation, business support, and UAE visa documentation assistance.",
+      "Company formation, UAE visa documentation, document attestation from Pakistan, and UK/Canada/Australia visa documentation assistance.",
     url: `${SITE_URL}/services/`,
     images: [DEFAULT_OG_IMAGE],
   },
