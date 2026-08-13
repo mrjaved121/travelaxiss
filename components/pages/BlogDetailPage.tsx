@@ -840,6 +840,22 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 {section.note && (
                   <p className="text-gray-600 italic mt-4">👉 {section.note}</p>
                 )}
+
+                {section.relatedLinks && (
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    {section.relatedLinks.map((link: { label: string; href: string }, idx: number) => (
+                      <Link
+                        key={idx}
+                        href={link.href}
+                        className="flex items-center justify-between gap-2 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                        style={{ backgroundColor: '#EEF4FF' }}
+                      >
+                        <span className="font-semibold" style={{ color: '#0F1B2D' }}>{link.label}</span>
+                        <ArrowLeft className="w-4 h-4 flex-shrink-0 rotate-180" style={{ color: '#1D63E0' }} aria-hidden />
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </motion.div>

@@ -251,6 +251,13 @@ export const blogData: Record<string, any> = {
             },
           ],
         },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
+            { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
       ],
     },
   },
@@ -485,6 +492,13 @@ export const blogData: Record<string, any> = {
               answer:
                 "For a first visit navigating an unfamiliar city and multiple meetings, some founders find local support genuinely useful, though it's not required — many arrange their own meetings directly with free zones and consultants.",
             },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
+            { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
       ],
@@ -724,6 +738,13 @@ export const blogData: Record<string, any> = {
               answer:
                 "Yes, generally the dependent's visa remains valid, though a change in the sponsor's employer or income may need to be reflected in records at the next renewal cycle.",
             },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
+            { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
       ],
@@ -3537,6 +3558,13 @@ export const blogData: Record<string, any> = {
               answer:
                 "Yes — many freezones and some mainland structures support single-shareholder companies, making this a common route for solo founders and freelancer-adjacent businesses.",
             },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
+            { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
       ],
