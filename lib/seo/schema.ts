@@ -187,6 +187,47 @@ export function blogFaqJsonLd(blog: {
   };
 }
 
+/**
+ * HowTo schema for a blog post's step-by-step section, detected from the
+ * "Step N: ..." subsection title pattern our guides consistently use.
+ * Returns null when no section matches — never forces a partial/loose fit.
+ */
+export function blogHowToJsonLd(blog: {
+  title: string;
+  content?: {
+    sections?: {
+      heading?: string;
+      subsections?: { title?: string; content?: string }[];
+    }[];
+  };
+}) {
+  const stepPattern = /^Step\s+\d+\s*:\s*/i;
+
+  const stepSection = (blog.content?.sections ?? []).find((section) =>
+    (section.subsections ?? []).length >= 2 &&
+    (section.subsections ?? []).every((sub) => stepPattern.test(sub.title ?? "")),
+  );
+
+  if (!stepSection) return null;
+
+  const steps = (stepSection.subsections ?? [])
+    .filter((sub) => sub.title && sub.content)
+    .map((sub) => ({
+      "@type": "HowToStep",
+      name: sub.title!.replace(stepPattern, ""),
+      text: sub.content,
+    }));
+
+  if (steps.length < 2) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: stepSection.heading || blog.title,
+    step: steps,
+  };
+}
+
 export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
   const datePublished = blog.date
     ? blogDisplayDateToIso(blog.date)

@@ -105,9 +105,14 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
             transition={{ delay: 0.3 }}
             className="prose prose-lg max-w-none"
           >
-            <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              {blog.content.intro}
-            </p>
+            <div className="rounded-3xl p-6 mb-10 border-l-4 shadow-sm not-prose" style={{ backgroundColor: '#EEF4FF', borderColor: '#1D63E0' }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: '#1D63E0' }}>
+                Quick Answer
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                {blog.content.intro}
+              </p>
+            </div>
 
             {blog.content.sections.map((section: any, sectionIdx: number) => (
               <div key={sectionIdx} className="mb-12">

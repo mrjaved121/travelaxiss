@@ -126,6 +126,15 @@ export const blogPostSummaries: BlogPostSummary[] = [
       category: "UAE Visa Documentation",
     },
     {
+      id: "usa-visa-from-pakistan",
+      title: "USA Visa from Pakistan – Documents & Process Guide (2026)",
+      excerpt:
+        "How Pakistani nationals apply for a US visa: DS-160, the Embassy Islamabad interview, B1/B2 visitor and F1 student documents, and what's out of scope for document-prep support.",
+      date: "August 14, 2026",
+      readTime: "12 min read",
+      category: "International Visa Documentation",
+    },
+    {
       id: "uae-student-visa-guide-2026",
       title: "UAE Student Visa – Requirements, Documents & Process (2026 Guide)",
       excerpt:

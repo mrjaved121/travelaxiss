@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import BlogDetailPage from "@/components/pages/BlogDetailPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogData } from "@/components/data/blogContent";
-import { blogFaqJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
+import { blogFaqJsonLd, blogHowToJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export function generateStaticParams() {
@@ -58,6 +58,7 @@ export default async function Page({ params }: Props) {
   }
 
   const faqSchema = blogFaqJsonLd(blog);
+  const howToSchema = blogHowToJsonLd(blog);
 
   return (
     <>
@@ -69,6 +70,7 @@ export default async function Page({ params }: Props) {
           ]),
           blogPostingJsonLd(slug, blog),
           ...(faqSchema ? [faqSchema] : []),
+          ...(howToSchema ? [howToSchema] : []),
         ]}
       />
       <BlogDetailPage slug={slug} />
