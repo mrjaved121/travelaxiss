@@ -126,6 +126,78 @@ export const blogPostSummaries: BlogPostSummary[] = [
       category: "UAE Visa Documentation",
     },
     {
+      id: "uae-student-visa-guide-2026",
+      title: "UAE Student Visa – Requirements, Documents & Process (2026 Guide)",
+      excerpt:
+        "How the UAE student residence visa works: university sponsorship, eligibility, required documents, costs, and how it differs from a dependent visa.",
+      date: "August 13, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "uae-student-visa-from-pakistan",
+      title: "UAE Student Visa from Pakistan – Attestation & Documents (2026)",
+      excerpt:
+        "How Pakistani students get a UAE university student visa: IBCC/HEC attestation of transcripts, required documents, costs, and the sponsor route.",
+      date: "August 13, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "job-seeker-visa-from-pakistan",
+      title: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents (2026)",
+      excerpt:
+        "How the UAE job-seeker visa works for Pakistani applicants: eligibility tiers, required documents, the Pakistan attestation chain, and converting to a work visa.",
+      date: "August 12, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "start-business-in-dubai-from-pakistan",
+      title: "How to Start a Business in Dubai from Pakistan – Cost & Steps (2026)",
+      excerpt:
+        "How Pakistani founders set up a company in Dubai remotely: mainland vs free zone, power of attorney signing, document attestation, remittance rules, and setup costs.",
+      date: "August 12, 2026",
+      readTime: "13 min read",
+      category: "Business Setup",
+    },
+    {
+      id: "uae-family-visa-from-pakistan",
+      title: "UAE Family Visa from Pakistan – Requirements & Income (2026)",
+      excerpt:
+        "UAE family visa requirements for Pakistani sponsors: minimum income, tenancy contract rules, attested marriage and birth certificates, and the full dependent checklist.",
+      date: "August 12, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "dubai-visit-visa-from-pakistan",
+      title: "Dubai Visit Visa Price & Documents from Pakistan (2026)",
+      excerpt:
+        "Dubai visit visa options for Pakistani nationals: 30/60/90-day durations, required documents, sponsor vs. agency routes, cost factors, and processing time.",
+      date: "August 12, 2026",
+      readTime: "11 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "uae-work-visa-documents-checklist",
+      title: "UAE Work Visa Documents Required from Pakistan – 2026 Checklist",
+      excerpt:
+        "Complete checklist of documents for a UAE work visa from Pakistan: passport, attested certificates, GAMCA medical, BE&OE registration, and employer paperwork.",
+      date: "August 12, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "dubai-work-visa-price-from-pakistan",
+      title: "Dubai Work Visa Price from Pakistan (2026) – Full Cost Breakdown",
+      excerpt:
+        "What actually makes up a Dubai work visa cost from Pakistan: entry permit, medical, Emirates ID, insurance, and attestation — plus who legally pays and typical timelines.",
+      date: "August 12, 2026",
+      readTime: "11 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "noon-seller-account-uae-guide-2026",
       title: "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
       excerpt:

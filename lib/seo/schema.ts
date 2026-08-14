@@ -1,7 +1,34 @@
-import { SITE_URL } from "./site";
+import { DEFAULT_OG_IMAGE, SITE_URL } from "./site";
 import { blogDisplayDateToIso } from "./blog-dates";
 import { faqItems } from "@/lib/data/faqs";
 import { blogPostSummaries } from "@/components/data/blogIndex";
+import { testimonials } from "@/components/data/testimonials";
+
+/**
+ * Built only from real entries in components/data/testimonials.ts — never fabricated.
+ * When that array is empty (the default), both fields are omitted entirely rather
+ * than emitting a zero/placeholder rating, since a ProfessionalService with no
+ * aggregateRating is valid and honest; one with fake ratings is a spam-policy risk.
+ */
+const realReviews =
+  testimonials.length > 0
+    ? {
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: (
+            testimonials.reduce((sum, t) => sum + t.rating, 0) / testimonials.length
+          ).toFixed(1),
+          reviewCount: testimonials.length,
+        },
+        review: testimonials.map((t) => ({
+          "@type": "Review",
+          author: { "@type": "Person", name: t.name },
+          reviewRating: { "@type": "Rating", ratingValue: t.rating, bestRating: 5 },
+          reviewBody: t.quote,
+          datePublished: t.date,
+        })),
+      }
+    : {};
 
 export const professionalServiceJsonLd = {
   "@context": "https://schema.org",
@@ -43,6 +70,7 @@ export const professionalServiceJsonLd = {
       closes: "14:00",
     },
   ],
+  ...realReviews,
 };
 
 /** Reusable breadcrumb trail for any non-home page. `path` should include a leading slash, e.g. "/services/visa-services". */
@@ -111,7 +139,8 @@ export function faqPageJsonLd() {
 type BlogEntry = {
   title: string;
   metaDescription: string;
-  image: string;
+  /** Falls back to DEFAULT_OG_IMAGE when a post has no dedicated image. */
+  image?: string;
   /** Display date from blog data, e.g. "April 9, 2026" */
   date?: string;
   /** Optional ISO yyyy-MM-dd when content was revised; defaults to published date */
@@ -172,7 +201,7 @@ export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
     "@type": "BlogPosting",
     headline: blog.title,
     description: blog.metaDescription,
-    image: blog.image,
+    image: blog.image ?? DEFAULT_OG_IMAGE.url,
     datePublished,
     dateModified,
     author: {

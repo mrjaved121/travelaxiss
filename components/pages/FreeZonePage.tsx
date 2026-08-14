@@ -194,6 +194,23 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
         </div>
       </section>
 
+      {/* Compare against other free zones */}
+      <section className="py-12" style={{ backgroundColor: '#FFFFFF' }}>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-600">
+            Not sure {zone.name} is the right fit?{' '}
+            <Link href="/blog/best-freezones-uae-2026" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#1D63E0' }}>
+              Compare it against every major UAE free zone
+            </Link>
+            {' '}or{' '}
+            <Link href="/free-zones" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#1D63E0' }}>
+              browse all free zones we support
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
+
       {/* CTA banner */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
         <motion.div
