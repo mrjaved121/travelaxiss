@@ -1,9 +1,59 @@
 'use client';
 
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, Share2, Building2, Plane, FileText, BadgeCheck } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
+
+/**
+ * Renders body text with `[label](url)` markdown-style links inline —
+ * external links (http...) open in a new tab, internal ones (/path) use
+ * next/link. Everything else in the string passes through as plain text.
+ */
+function linkifyText(text: string) {
+  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const nodes: ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = linkPattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    const [, label, url] = match;
+    const isExternal = /^https?:\/\//.test(url);
+    nodes.push(
+      isExternal ? (
+        <a
+          key={key++}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold underline-offset-2 hover:underline"
+          style={{ color: '#1D63E0' }}
+        >
+          {label}
+        </a>
+      ) : (
+        <Link
+          key={key++}
+          href={url}
+          className="font-semibold underline-offset-2 hover:underline"
+          style={{ color: '#1D63E0' }}
+        >
+          {label}
+        </Link>
+      ),
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+  return nodes;
+}
 
 const categoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
@@ -110,7 +160,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 Quick Answer
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                {blog.content.intro}
+                {linkifyText(blog.content.intro)}
               </p>
             </div>
 
@@ -122,7 +172,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
 
                 {section.content && (
                   <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                    {section.content}
+                    {linkifyText(section.content)}
                   </p>
                 )}
 
@@ -146,7 +196,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                           </h3>
                           {sub.content && (
                             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                              {sub.content}
+                              {linkifyText(sub.content)}
                             </p>
                           )}
                           {sub.items && (
@@ -836,7 +886,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                           <span className="mr-2" aria-hidden>❓</span>
                           {faq.question}
                         </h3>
-                        <p className="text-gray-700 pl-7">{faq.answer}</p>
+                        <p className="text-gray-700 pl-7">{linkifyText(faq.answer)}</p>
                       </div>
                     ))}
                   </div>

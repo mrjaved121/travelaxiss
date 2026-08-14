@@ -91,7 +91,17 @@ export default function CanadaVisaFromPakistanPage() {
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
-                A Canada visa from Pakistan is applied for online through IRCC, with biometrics completed at a visa application centre in Pakistan. Requirements depend on category — study permit, work permit, visit visa, or spouse open work permit. We prepare documentation for these categories; we don&apos;t file Express Entry or Provincial Nominee (PR) applications, which require a licensed Canadian immigration consultant.
+                A Canada visa from Pakistan is applied for online through{" "}
+                <a
+                  href="https://www.canada.ca/en/immigration-refugees-citizenship.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold underline-offset-2 hover:underline"
+                  style={{ color: "#1D63E0" }}
+                >
+                  IRCC
+                </a>
+                , with biometrics completed at a visa application centre in Pakistan. Requirements depend on category — study permit, work permit, visit visa, or spouse open work permit. We prepare documentation for these categories; we don&apos;t file Express Entry or Provincial Nominee (PR) applications, which require a licensed Canadian immigration consultant.
               </p>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>

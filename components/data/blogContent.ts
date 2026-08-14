@@ -15,7 +15,7 @@ export const blogData: Record<string, any> = {
     category: "International Visa Documentation",
     content: {
       intro:
-        "A US visa application from Pakistan works differently from a UAE, UK, or Canada application in one important way: there's no equivalent of the HEC/IBCC → MOFA → embassy attestation chain for most visa categories. Instead, the US process centers on an online form (DS-160), a fee payment, and an in-person interview at the US Embassy in Islamabad or a consulate in Karachi, Lahore, or Peshawar, where a consular officer makes an on-the-spot decision based on your documents and answers. This guide covers the B1/B2 visitor visa and F1 student visa — the two categories that fit a documentation-preparation service — and is explicit about what's out of scope. Travelaxis is a documentation and consultancy service, not a US immigration attorney or accredited representative; we don't file petitions with USCIS, represent you before the US government, or guarantee visa approval, which rests entirely with the consular officer.",
+        "A US visa application from Pakistan works differently from a UAE, UK, or Canada application in one important way: there's no equivalent of the HEC/IBCC → MOFA → embassy attestation chain for most visa categories. Instead, the US process centers on an online form (DS-160), a fee payment, and an in-person interview at the [US Embassy in Islamabad](https://pk.usembassy.gov) or a consulate in Karachi, Lahore, or Peshawar, where a consular officer makes an on-the-spot decision based on your documents and answers. This guide covers the B1/B2 visitor visa and F1 student visa — the two categories that fit a documentation-preparation service — and is explicit about what's out of scope. Travelaxis is a documentation and consultancy service, not a US immigration attorney or accredited representative; we don't file petitions with [USCIS](https://www.uscis.gov), represent you before the US government, or guarantee visa approval, which rests entirely with the consular officer.",
       sections: [
         {
           heading: "How the US Visa Process Differs From UAE, UK, and Canada",
@@ -48,7 +48,7 @@ export const blogData: Record<string, any> = {
             {
               title: "Step 1: Complete the DS-160 Online",
               content:
-                "This is the core non-immigrant visa application form, completed online directly on the US State Department's official system — it asks for personal, travel, and background details and generates a confirmation page you'll need for your interview.",
+                "This is the core non-immigrant visa application form, completed online directly on the [US State Department's official system](https://travel.state.gov) — it asks for personal, travel, and background details and generates a confirmation page you'll need for your interview.",
             },
             {
               title: "Step 2: Pay the MRV Application Fee",
@@ -225,7 +225,7 @@ export const blogData: Record<string, any> = {
             {
               question: "Is Pakistan eligible for the Diversity Visa lottery?",
               answer:
-                "Eligibility by country is set and revised periodically by the US State Department — confirm current-year eligibility directly on the official DV program page rather than assuming previous years' rules still apply.",
+                "Eligibility by country is set and revised periodically by the US State Department — confirm current-year eligibility directly on the [official DV program page](https://dvprogram.state.gov) rather than assuming previous years' rules still apply.",
             },
             {
               question: "Can I work in the US on an F1 student visa?",
@@ -633,7 +633,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "The Full Pakistan-to-UAE Attestation Chain",
           content:
-            "Once IBCC or HEC has verified your certificate, it generally moves through the same four-stage chain used across UAE processes involving Pakistani documents: Ministry of Foreign Affairs (MOFA) Pakistan attestation, then UAE Embassy Islamabad attestation, and finally UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC) attestation once the document reaches the UAE. Universities vary in exactly which stages they require before finalizing admission versus which they'll accept as pending during visa processing, so confirm your specific university's requirement and sequence — some will conditionally admit you while final UAE-side attestation completes, others require it finished before enrollment is confirmed.",
+            "Once [IBCC](https://www.ibcc.edu.pk) or [HEC](https://www.hec.gov.pk) has verified your certificate, it generally moves through the same four-stage chain used across UAE processes involving Pakistani documents: [Ministry of Foreign Affairs (MOFA) Pakistan](https://www.mofa.gov.pk) attestation, then UAE Embassy Islamabad attestation, and finally UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC) attestation once the document reaches the UAE. Universities vary in exactly which stages they require before finalizing admission versus which they'll accept as pending during visa processing, so confirm your specific university's requirement and sequence — some will conditionally admit you while final UAE-side attestation completes, others require it finished before enrollment is confirmed.",
         },
         {
           heading: "Document Checklist for Pakistani Students",
@@ -904,12 +904,12 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "The UAE's Job Seeker entry permit — officially the Skills Verification entry permit issued by the Federal Authority for Identity, Citizenship, Customs & Port Security (ICP) — lets you enter and remain in the UAE specifically to search for work and attend interviews, without an employer sponsoring your entry first. For Pakistani applicants the paperwork carries one extra layer that candidates from some other countries don't deal with: every educational credential you rely on has to pass through Pakistan's specific attestation chain before ICP, and later an employer, will accept it. This guide walks through eligibility tiers, the Pakistan-specific document chain, costs, and what happens once you land a role. Travelaxis is a documentation and consultancy service, not a recruitment agency — we don't source jobs, contact employers on your behalf, or place candidates. This guide focuses on what Pakistani applicants specifically need to prepare, and always confirm current fees and tier rules directly with ICP or a licensed consultant before applying, since these are periodically revised.",
+        "The UAE's Job Seeker entry permit — officially the Skills Verification entry permit issued by the [Federal Authority for Identity, Citizenship, Customs & Port Security](https://icp.gov.ae/en/) (ICP) — lets you enter and remain in the UAE specifically to search for work and attend interviews, without an employer sponsoring your entry first. For Pakistani applicants the paperwork carries one extra layer that candidates from some other countries don't deal with: every educational credential you rely on has to pass through Pakistan's specific attestation chain before ICP, and later an employer, will accept it. This guide walks through eligibility tiers, the Pakistan-specific document chain, costs, and what happens once you land a role. Travelaxis is a documentation and consultancy service, not a recruitment agency — we don't source jobs, contact employers on your behalf, or place candidates. This guide focuses on what Pakistani applicants specifically need to prepare, and always confirm current fees and tier rules directly with ICP or a licensed consultant before applying, since these are periodically revised.",
       sections: [
         {
           heading: "Why This Process Looks Different From Pakistan",
           content:
-            "Applicants from many countries can submit a degree certificate more or less as issued. Pakistani applicants generally can't — HEC (the Higher Education Commission) or IBCC (the Inter Board Committee of Chairmen, for pre-university qualifications) verification, followed by Ministry of Foreign Affairs Pakistan attestation and then UAE-side attestation, is the standard chain before a Pakistani degree is accepted for an entry permit application or a later employment visa. This isn't unique to the Job Seeker permit — it applies to nearly every UAE process that relies on a Pakistani educational document — but it matters most here because your permit's validity tier is directly determined by that same qualification, so a slow attestation chain doesn't just delay your application, it can shrink the effective search window you actually get to use once you land.",
+            "Applicants from many countries can submit a degree certificate more or less as issued. Pakistani applicants generally can't — [HEC](https://www.hec.gov.pk) (the Higher Education Commission) or [IBCC](https://www.ibcc.edu.pk) (the Inter Board Committee of Chairmen, for pre-university qualifications) verification, followed by [Ministry of Foreign Affairs Pakistan](https://www.mofa.gov.pk) attestation and then UAE-side attestation, is the standard chain before a Pakistani degree is accepted for an entry permit application or a later employment visa. This isn't unique to the Job Seeker permit — it applies to nearly every UAE process that relies on a Pakistani educational document — but it matters most here because your permit's validity tier is directly determined by that same qualification, so a slow attestation chain doesn't just delay your application, it can shrink the effective search window you actually get to use once you land.",
         },
         {
           heading: "Eligibility Tiers and Validity",
@@ -935,7 +935,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "The Pakistan-Specific Document Attestation Chain",
           content:
-            "For a Pakistani degree to be accepted, it typically needs to move through four stages in order: first, verification from HEC (for university degrees) or IBCC (for intermediate and secondary certificates); second, attestation by the Ministry of Foreign Affairs (MOFA) Pakistan; third, attestation by the UAE Embassy in Islamabad; and fourth, once the document reaches the UAE, final attestation by the UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC). Each stage depends on the previous one being completed correctly — a document rejected at MOFA Pakistan because HEC verification wasn't finished properly means starting that leg over, which is the single most common cause of Job Seeker applications running later than planned. Because this chain routinely takes several weeks from a standing start, and because your permit tier is fixed by the qualification you're attesting, starting attestation the moment you decide to apply — rather than after you've already booked travel — is the difference between a comfortable search window and a permit that's already a third gone before you've landed.",
+            "For a Pakistani degree to be accepted, it typically needs to move through four stages in order: first, verification from [HEC](https://www.hec.gov.pk) (for university degrees) or [IBCC](https://www.ibcc.edu.pk) (for intermediate and secondary certificates); second, attestation by the [Ministry of Foreign Affairs (MOFA) Pakistan](https://www.mofa.gov.pk); third, attestation by the UAE Embassy in Islamabad; and fourth, once the document reaches the UAE, final attestation by the UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC). Each stage depends on the previous one being completed correctly — a document rejected at MOFA Pakistan because HEC verification wasn't finished properly means starting that leg over, which is the single most common cause of Job Seeker applications running later than planned. Because this chain routinely takes several weeks from a standing start, and because your permit tier is fixed by the qualification you're attesting, starting attestation the moment you decide to apply — rather than after you've already booked travel — is the difference between a comfortable search window and a permit that's already a third gone before you've landed.",
         },
         {
           heading: "Full Document Checklist for Pakistani Applicants",
@@ -1491,7 +1491,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "The Pakistan-Specific Document Attestation Chain",
           content:
-            "Marriage certificates, birth certificates, and family registration certificates issued in Pakistan generally need to move through the same four-stage chain as educational documents: first, attestation or verification from the relevant Pakistani issuing authority — a Union Council for marriage and birth certificates, or NADRA for a Family Registration Certificate; second, Ministry of Foreign Affairs (MOFA) Pakistan attestation; third, UAE Embassy Islamabad attestation; and fourth, UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC) attestation once the document reaches the UAE. Because sponsorship applications are typically reviewed as a complete family file, a single unattested certificate can hold up approval for the whole household, not just the one dependent it belongs to.",
+            "Marriage certificates, birth certificates, and family registration certificates issued in Pakistan generally need to move through the same four-stage chain as educational documents: first, attestation or verification from the relevant Pakistani issuing authority — a Union Council for marriage and birth certificates, or [NADRA](https://www.nadra.gov.pk) for a Family Registration Certificate; second, [Ministry of Foreign Affairs (MOFA) Pakistan](https://www.mofa.gov.pk) attestation; third, UAE Embassy Islamabad attestation; and fourth, UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC) attestation once the document reaches the UAE. Because sponsorship applications are typically reviewed as a complete family file, a single unattested certificate can hold up approval for the whole household, not just the one dependent it belongs to.",
         },
         {
           heading: "Full Document Checklist",
@@ -1738,7 +1738,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "A Dubai visit visa is the standard route for Pakistani nationals traveling for tourism, to see family, or to explore business opportunities without a long-term sponsor. The process itself is well established, but Pakistani applicants tend to face closer scrutiny on solvency proof than nationals of some other countries, which makes document quality — not just document existence — the difference between a smooth approval and a delay or refusal. This guide covers visa durations, the different sponsor routes available, the documents that actually support an application, and what commonly causes refusals for Pakistani applicants specifically. Travelaxis helps prepare and organize visit visa documentation — approval is issued by UAE immigration authorities (GDRFA/ICP), not by us.",
+        "A Dubai visit visa is the standard route for Pakistani nationals traveling for tourism, to see family, or to explore business opportunities without a long-term sponsor. The process itself is well established, but Pakistani applicants tend to face closer scrutiny on solvency proof than nationals of some other countries, which makes document quality — not just document existence — the difference between a smooth approval and a delay or refusal. This guide covers visa durations, the different sponsor routes available, the documents that actually support an application, and what commonly causes refusals for Pakistani applicants specifically. Travelaxis helps prepare and organize visit visa documentation — approval is issued by UAE immigration authorities ([GDRFA](https://gdrfad.gov.ae)/[ICP](https://icp.gov.ae/en/)), not by us.",
       sections: [
         {
           heading: "Applying More Than Once: What Changes on Repeat Applications",
@@ -2056,7 +2056,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "BE&OE Protectorate Registration",
           content:
-            "For certain job categories — generally unskilled and semi-skilled roles — Pakistani nationals need to register their overseas employment contract with the Bureau of Emigration & Overseas Employment (BE&OE) and obtain Protectorate clearance before departure, typically processed through a licensed Overseas Employment Promoter (OEP) or at a Protectorate of Emigrants office. Many professional, managerial, and technical categories are exempt from this specific requirement, so whether it applies to you depends on how your specific role is classified — confirm this early, since it affects your departure timeline and generally can't be skipped for categories where it does apply.",
+            "For certain job categories — generally unskilled and semi-skilled roles — Pakistani nationals need to register their overseas employment contract with the [Bureau of Emigration & Overseas Employment](https://beoe.gov.pk) (BE&OE) and obtain Protectorate clearance before departure, typically processed through a licensed Overseas Employment Promoter (OEP) or at a Protectorate of Emigrants office. Many professional, managerial, and technical categories are exempt from this specific requirement, so whether it applies to you depends on how your specific role is classified — confirm this early, since it affects your departure timeline and generally can't be skipped for categories where it does apply.",
         },
         {
           heading: "Police Clearance Certificate",
@@ -2504,7 +2504,7 @@ export const blogData: Record<string, any> = {
             {
               question: "What is BE&OE and can they charge me any amount they want?",
               answer:
-                "BE&OE (Bureau of Emigration & Overseas Employment) regulates overseas employment for Pakistani nationals, and licensed Overseas Employment Promoters are subject to limits on what they can charge — confirm the legitimate fee structure rather than accepting an unverified figure.",
+                "[BE&OE](https://beoe.gov.pk) (Bureau of Emigration & Overseas Employment) regulates overseas employment for Pakistani nationals, and licensed Overseas Employment Promoters are subject to limits on what they can charge — confirm the legitimate fee structure rather than accepting an unverified figure.",
             },
             {
               question: "Does Travelaxis charge a flat fee for all work visa cases?",

@@ -91,7 +91,17 @@ export default function UkVisaFromPakistanPage() {
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
-                A UK visa from Pakistan is applied for online through UKVI, with a biometric appointment at a visa application centre in Pakistan. Requirements depend on category — Skilled Worker, Student, Visit, or Family — but all need a valid passport, category-specific supporting documents, and (for some categories) attested certificates. We don&apos;t arrange sponsorship or jobs; we prepare the documentation for an application you already have grounds to make.
+                A UK visa from Pakistan is applied for online through{" "}
+                <a
+                  href="https://www.gov.uk/browse/visas-immigration"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold underline-offset-2 hover:underline"
+                  style={{ color: "#1D63E0" }}
+                >
+                  UKVI
+                </a>
+                , with a biometric appointment at a visa application centre in Pakistan. Requirements depend on category — Skilled Worker, Student, Visit, or Family — but all need a valid passport, category-specific supporting documents, and (for some categories) attested certificates. We don&apos;t arrange sponsorship or jobs; we prepare the documentation for an application you already have grounds to make.
               </p>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>
