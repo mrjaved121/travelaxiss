@@ -1,9 +1,10 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowUpRight, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { motion } from "motion/react";
 import { emirates } from "@/components/data/emirates";
+import GuideCard from "@/components/GuideCard";
 
 export default function EmiratesHubPage() {
   return (
@@ -38,33 +39,17 @@ export default function EmiratesHubPage() {
       {/* Emirate cards */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {emirates.map((emirate, index) => (
-              <motion.div
+              <GuideCard
                 key={emirate.slug}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.08 }}
-                className="relative group rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white p-6"
-              >
-                <Link href={`/emirates/${emirate.slug}`} className="absolute inset-0 z-10" aria-label={`Business setup and visa documentation in ${emirate.name}`} />
-                <div className="flex items-center justify-between mb-4">
-                  <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
-                    <MapPin className="w-7 h-7" style={{ color: '#FFFFFF' }} />
-                  </div>
-                </div>
-                <h2 className="text-xl font-bold mb-3" style={{ color: '#0F1B2D' }}>
-                  {emirate.name}
-                </h2>
-                <p className="text-gray-600 text-sm mb-6">{emirate.heroIntro}</p>
-                <span
-                  aria-hidden="true"
-                  className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all group-hover:opacity-90"
-                  style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
-                >
-                  <ArrowUpRight className="w-5 h-5" aria-hidden />
-                </span>
-              </motion.div>
+                icon={MapPin}
+                title={emirate.name}
+                description={emirate.heroIntro}
+                href={`/emirates/${emirate.slug}`}
+                ariaLabel={`Business setup and visa documentation in ${emirate.name}`}
+                delay={index * 0.08}
+              />
             ))}
           </div>
         </div>

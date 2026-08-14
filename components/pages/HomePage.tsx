@@ -27,6 +27,7 @@ import {
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { blogPostSummaries } from "@/components/data/blogIndex";
+import Testimonials from "@/components/Testimonials";
 
 const services = [
   {
@@ -424,14 +425,14 @@ export default function HomePage() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {services.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className={`relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white${
+                className={`relative group min-w-0 h-full flex flex-col rounded-3xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:shadow-lg hover:border-[#1D63E0]/30 hover:-translate-y-0.5${
                   index === services.length - 1 && services.length % 3 === 1
                     ? " sm:col-start-1 lg:col-start-2"
                     : ""
@@ -439,40 +440,38 @@ export default function HomePage() {
               >
                 <Link
                   href={service.link}
-                  className="absolute inset-0 z-10"
+                  className="absolute inset-0 z-10 rounded-3xl"
                   aria-label={`View ${service.title} details`}
                 />
-                <div className="p-6">
-                  <div
-                    className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
-                    style={{ backgroundColor: "#1D63E0" }}
-                  >
-                    <service.icon className="w-6 h-6 text-white" aria-hidden />
-                  </div>
-                  <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 mb-5">
-                    <span className="flex items-center gap-1">
-                      <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
-                      Dubai, UAE
-                    </span>
-                    <span>{service.category}</span>
-                  </div>
-                  <div className="flex items-end justify-between">
-                    <p className="leading-tight" style={{ color: "#0F1B2D" }}>
-                      <span className="text-2xl font-bold">{service.highlightBig}</span>
-                      <span className="text-sm text-gray-500">/{service.highlightSmall}</span>
-                    </p>
-                    <span
-                      aria-hidden="true"
-                      className="inline-flex items-center justify-center w-11 h-11 rounded-full transition-all group-hover:opacity-90 shrink-0"
-                      style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
-                    >
-                      <ArrowUpRight className="w-5 h-5" aria-hidden />
-                    </span>
-                  </div>
+                <div
+                  className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#1D63E0" }}
+                >
+                  <service.icon className="w-6 h-6 text-white" aria-hidden />
+                </div>
+                <h3 className="text-lg font-bold leading-snug mb-2" style={{ color: "#0F1B2D" }}>
+                  {service.title}
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed line-clamp-3 mb-4 flex-1">{service.description}</p>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 mb-5">
+                  <span className="flex items-center gap-1">
+                    <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
+                    Dubai, UAE
+                  </span>
+                  <span>{service.category}</span>
+                </div>
+                <div className="flex items-center justify-between gap-3 pt-4 border-t border-gray-100">
+                  <p className="leading-tight" style={{ color: "#0F1B2D" }}>
+                    <span className="text-xl font-bold">{service.highlightBig}</span>
+                    <span className="text-sm text-gray-500">/{service.highlightSmall}</span>
+                  </p>
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold shrink-0" style={{ color: "#1D63E0" }}>
+                    View Details
+                    <ArrowUpRight
+                      className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                      aria-hidden
+                    />
+                  </span>
                 </div>
               </motion.div>
             ))}
@@ -607,6 +606,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       {/* CTA banner */}
       <section className="py-10 md:py-16">

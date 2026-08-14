@@ -1,15 +1,31 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight, Target, Eye, CheckCircle } from "lucide-react";
+import { ArrowRight, Target, Eye, Clock, MessageCircle, Users, MapPin } from "lucide-react";
 import { motion } from "motion/react";
+import type { LucideIcon } from "lucide-react";
 
-const values = [
-  "Professional approach",
-  "Experienced team",
-  "Structured processes",
-  "Reliable support",
-  "Client-focused solutions",
+const howWeWork: { icon: LucideIcon; title: string; description: string }[] = [
+  {
+    icon: MessageCircle,
+    title: "Start on WhatsApp",
+    description: "Tell us what you need — company formation, a specific visa, or attestation — and we confirm the exact document checklist for your case.",
+  },
+  {
+    icon: Clock,
+    title: "Clear Timeline Upfront",
+    description: "We tell you what each stage typically takes before you send us anything, so there are no surprises mid-process.",
+  },
+  {
+    icon: MapPin,
+    title: "Coordinated From Al Qusais, Dubai",
+    description: "Our office is in Al Qusais — we coordinate directly with UAE authorities and free zones on your behalf, in person or remotely.",
+  },
+  {
+    icon: Users,
+    title: "One Point of Contact",
+    description: "You deal with the same team from your first message through to final approval, not a rotating queue of agents.",
+  },
 ];
 
 export default function AboutPage() {
@@ -34,6 +50,13 @@ export default function AboutPage() {
               communication, and regulatory awareness. Our work spans company formation,
               government-related coordination, and UAE visa documentation and application
               guidance&mdash;always aligned with official requirements and each client&apos;s goals.
+            </p>
+            <p className="text-sm text-gray-500 mt-4 max-w-lg leading-relaxed">
+              We provide documentation assistance and consultancy support only. We are not a
+              government authority, employer, or recruitment agency, and we do not arrange jobs,
+              sponsor employment, or guarantee visa or license approval. All applications are
+              submitted through official UAE government channels, free zones, or authorized
+              entities, subject to their own rules and approvals.
             </p>
           </motion.div>
 
@@ -96,7 +119,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* How We Work */}
       <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -108,21 +131,24 @@ export default function AboutPage() {
               Why Travelaxis
             </p>
             <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#0F1B2D' }}>
-              Why Choose Us
+              How We Work
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {values.map((value, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            {howWeWork.map((item, index) => (
               <motion.div
-                key={value}
+                key={item.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-6 flex items-center space-x-4 shadow-sm"
+                className="bg-white rounded-2xl p-6 shadow-sm"
               >
-                <CheckCircle className="w-6 h-6 flex-shrink-0" style={{ color: '#1D63E0' }} aria-hidden />
-                <span className="text-lg" style={{ color: '#0F1B2D' }}>{value}</span>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                  <item.icon className="w-6 h-6" style={{ color: '#FFFFFF' }} />
+                </div>
+                <h3 className="font-semibold mb-2" style={{ color: '#0F1B2D' }}>{item.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>

@@ -15,9 +15,12 @@ import {
   MessageCircle,
   Clock,
   Users,
+  Wallet,
+  GraduationCap,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
+import GuideCard from "@/components/GuideCard";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -37,36 +40,60 @@ const guides: {
     link: "/services/attestation",
   },
   {
+    title: "UAE Student Visa from Pakistan",
+    category: "Student Visa",
+    description:
+      "University sponsorship, IBCC/HEC attestation of your certificates, required documents, and what happens after graduation.",
+    icon: GraduationCap,
+    link: "/blog/uae-student-visa-from-pakistan",
+  },
+  {
     title: "UAE Job Seeker Visa — Eligibility & Documents",
     category: "Work Visa",
     description:
       "Who qualifies for the Job Seeker entry permit, the full document checklist, and the Pakistan-specific attestation chain for your qualification tier.",
     icon: Briefcase,
-    link: "/blog/job-seeker-visa-uae-documents-guide-2026",
+    link: "/blog/job-seeker-visa-from-pakistan",
   },
   {
-    title: "Visiting the UAE for Business",
+    title: "UAE Work Visa Documents Checklist",
+    category: "Work Visa",
+    description:
+      "Everything Pakistani applicants need for an employer-sponsored work visa: GAMCA medical, BE&OE registration, and attestation by job category.",
+    icon: Briefcase,
+    link: "/blog/uae-work-visa-documents-checklist",
+  },
+  {
+    title: "Dubai Visit Visa from Pakistan",
     category: "Visit Visa",
     description:
-      "Which visa to use when visiting from Pakistan to scout opportunities or meet partners, and the documents that support a smooth application.",
+      "30/60/90-day visit visa durations, sponsor routes, documents, and the solvency proof that gets Pakistani applications approved.",
     icon: Plane,
-    link: "/blog/business-exploration-visa-uae-guide-2026",
+    link: "/blog/dubai-visit-visa-from-pakistan",
   },
   {
-    title: "UAE Family Visa Income Requirements",
+    title: "UAE Family Visa from Pakistan",
     category: "Family Visa",
     description:
       "The minimum sponsor salary, required documents, and the Pakistan-specific attestation chain for marriage and birth certificates.",
     icon: Heart,
-    link: "/blog/family-sponsorship-income-requirements-uae-2026",
+    link: "/blog/uae-family-visa-from-pakistan",
   },
   {
-    title: "Company Formation in the UAE",
+    title: "Start a Business in Dubai from Pakistan",
     category: "Business Setup",
     description:
-      "Cost, process, and documents for founders based in Pakistan setting up a company in Dubai or a UAE freezone.",
+      "Mainland vs freezone, power of attorney signing, State Bank remittance rules, and real setup costs for Pakistani founders.",
     icon: Building2,
-    link: "/blog/company-formation-uae-2026",
+    link: "/blog/start-business-in-dubai-from-pakistan",
+  },
+  {
+    title: "Dubai Work Visa Price from Pakistan",
+    category: "Work Visa",
+    description:
+      "What a legitimate work visa actually costs, who's supposed to pay for what, and the overcharging patterns to watch for.",
+    icon: Wallet,
+    link: "/blog/dubai-work-visa-price-from-pakistan",
   },
   {
     title: "Umrah Visa & Packages",
@@ -146,46 +173,17 @@ export default function PakistanHubPage() {
           <h2 id="pakistan-guides-heading" className="sr-only">
             Guides and services for clients in Pakistan
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {guides.map((guide, index) => (
-              <motion.div
+              <GuideCard
                 key={guide.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
-                className="relative group rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
-              >
-                <Link
-                  href={guide.link}
-                  className="absolute inset-0 z-10"
-                  aria-label={`Read: ${guide.title}`}
-                />
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: "#1D63E0" }} aria-hidden>
-                      <guide.icon className="w-7 h-7" style={{ color: "#FFFFFF" }} />
-                    </div>
-                    <span
-                      className="px-3 py-1 rounded-full text-xs font-semibold"
-                      style={{ backgroundColor: "#EEF4FF", color: "#1D63E0" }}
-                    >
-                      {guide.category}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
-                    {guide.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-6">{guide.description}</p>
-                  <span
-                    aria-hidden="true"
-                    className="inline-flex items-center justify-center w-10 h-10 rounded-full transition-all group-hover:opacity-90"
-                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
-                  >
-                    <ArrowUpRight className="w-5 h-5" aria-hidden />
-                  </span>
-                </div>
-              </motion.div>
+                icon={guide.icon}
+                title={guide.title}
+                description={guide.description}
+                href={guide.link}
+                badge={guide.category}
+                delay={index * 0.08}
+              />
             ))}
           </div>
           <p className="text-center mt-12">
