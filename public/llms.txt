@@ -1,6 +1,6 @@
 # Travelaxis
 
-> Professional visa documentation consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Serves Pakistani nationals with UAE document attestation and visa documentation for the UK, Canada, and Australia, alongside UAE-focused services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/PR consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment); applications are submitted through the relevant country's official government channels.
+> Professional visa documentation consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Serves Pakistani nationals with UAE document attestation and visa documentation for the UK, Canada, Australia, and the USA, alongside UAE-focused services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
 
 ## Main pages
 
@@ -19,6 +19,19 @@
 - [Canada visa from Pakistan](https://travelaxis.me/services/canada-visa-from-pakistan/) — study permit, work permit, visit visa, and spouse open work permit documentation (not Express Entry/PNP filing, which requires a CICC-licensed consultant)
 - [Australia visa from Pakistan](https://travelaxis.me/services/australia-visa-from-pakistan/) — Visitor, Student, and Partner/Family visa documentation (not skilled-visa points assessment, which requires a MARA-registered agent)
 - [Services for clients in Pakistan](https://travelaxis.me/pakistan/) — hub linking attestation, UK/Canada/Australia visas, Umrah, and Pakistan-specific sections of our UAE guides
+
+## Pakistan-specific guides (deep-dive, 2,500+ words each)
+
+- [UAE Job-Seeker Visa from Pakistan](https://travelaxis.me/blog/job-seeker-visa-from-pakistan/) — eligibility tiers, documents, the IBCC/HEC → MOFA → UAE Embassy → MOFAIC attestation chain
+- [Start a Business in Dubai from Pakistan](https://travelaxis.me/blog/start-business-in-dubai-from-pakistan/) — mainland vs freezone, power of attorney signing, State Bank remittance rules, setup costs
+- [UAE Family Visa from Pakistan](https://travelaxis.me/blog/uae-family-visa-from-pakistan/) — income requirements, tenancy rules, attested marriage/birth certificates
+- [Dubai Visit Visa from Pakistan](https://travelaxis.me/blog/dubai-visit-visa-from-pakistan/) — 30/60/90-day durations, sponsor routes, documents, solvency proof
+- [UAE Work Visa Documents from Pakistan](https://travelaxis.me/blog/uae-work-visa-documents-checklist/) — GAMCA medical, BE&OE registration, attestation by job category
+- [Dubai Work Visa Price from Pakistan](https://travelaxis.me/blog/dubai-work-visa-price-from-pakistan/) — full cost breakdown, who legally pays for what, overcharging red flags
+- [UAE Student Visa from Pakistan](https://travelaxis.me/blog/uae-student-visa-from-pakistan/) — university sponsorship, IBCC/HEC attestation, O/A-level equivalency
+- [UAE Student Visa (general)](https://travelaxis.me/blog/uae-student-visa-guide-2026/) — university sponsorship vs parent-dependent route, eligibility, costs
+- [USA Visa from Pakistan](https://travelaxis.me/blog/usa-visa-from-pakistan/) — DS-160, Embassy Islamabad interview, B1/B2 and F1 documents; explicitly scopes out H-1B petition filing and family-based immigrant visas as requiring a US immigration attorney
+
 - [Dubai area guides](https://travelaxis.me/dubai/) — business setup and visa guidance by Dubai neighborhood
 - [UAE emirates guides](https://travelaxis.me/emirates/) — Abu Dhabi, Sharjah, Ajman, RAK, Fujairah, Umm Al Quwain
 - [UAE free zone guides](https://travelaxis.me/free-zones/) — IFZA, DMCC, Meydan, and other free zones

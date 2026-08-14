@@ -5,6 +5,283 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "usa-visa-from-pakistan": {
+    title: "USA Visa from Pakistan – Documents & Process Guide (2026)",
+    metaTitle: "USA Visa from Pakistan – Documents & Process Guide (2026)",
+    metaDescription:
+      "How Pakistani nationals apply for a US visa: DS-160, the Embassy Islamabad interview, B1/B2 visitor and F1 student documents, and what's out of scope for document-prep support.",
+    date: "August 14, 2026",
+    readTime: "12 min read",
+    category: "International Visa Documentation",
+    content: {
+      intro:
+        "A US visa application from Pakistan works differently from a UAE, UK, or Canada application in one important way: there's no equivalent of the HEC/IBCC → MOFA → embassy attestation chain for most visa categories. Instead, the US process centers on an online form (DS-160), a fee payment, and an in-person interview at the US Embassy in Islamabad or a consulate in Karachi, Lahore, or Peshawar, where a consular officer makes an on-the-spot decision based on your documents and answers. This guide covers the B1/B2 visitor visa and F1 student visa — the two categories that fit a documentation-preparation service — and is explicit about what's out of scope. Travelaxis is a documentation and consultancy service, not a US immigration attorney or accredited representative; we don't file petitions with USCIS, represent you before the US government, or guarantee visa approval, which rests entirely with the consular officer.",
+      sections: [
+        {
+          heading: "How the US Visa Process Differs From UAE, UK, and Canada",
+          content:
+            "Where a UAE, UK, or Canada application often lives or dies on document attestation completed weeks in advance, a US non-immigrant visa application lives or dies on the interview itself — the consular officer's in-person assessment of your ties to Pakistan, your stated purpose of travel, and the credibility of your documents, decided in a matter of minutes at the visa window. Attestation of educational or civil documents isn't a standard requirement for B1/B2 or F1 applications the way it is for UAE processes; what matters more is a complete, consistent, well-organized file you can speak to confidently in the interview. This distinction changes how you should prepare: less time on formal document chains, more time on the interview itself.",
+        },
+        {
+          heading: "Visa Categories This Guide Covers",
+          subsections: [
+            {
+              title: "B1/B2 Visitor Visa",
+              content:
+                "For tourism, visiting family, or short business trips (meetings, conferences) that don't involve working in the US. This is the most common category for Pakistani applicants and the one most document-preparation support is built around.",
+            },
+            {
+              title: "F1 Student Visa",
+              content:
+                "For applicants admitted to a SEVP-certified US school or university, issued once you hold a Form I-20 from that institution and have paid the SEVIS I-901 fee.",
+            },
+          ],
+        },
+        {
+          heading: "What's Outside Document-Preparation Scope",
+          content:
+            "Employment-based categories like H-1B require your US employer to file a petition with USCIS first — often subject to an annual lottery — before any consular step is even possible; this petition-filing stage requires a US immigration attorney, not a Pakistan-side documentation consultancy. Family-based immigrant visas require a US citizen or resident relative to file a Form I-130 petition with USCIS, followed by National Visa Center processing that can take anywhere from about a year to well over a decade depending on the specific family category, given current demand from Pakistan. The Diversity Visa lottery has its own eligibility rules by country that are revised periodically — confirm current-year eligibility directly on the US State Department's official DV program page rather than assuming a prior year's rules still apply. We can help with document organization once you're already in one of these processes at the consular stage, but we don't file petitions or represent you before USCIS.",
+        },
+        {
+          heading: "The DS-160 and Interview Process",
+          subsections: [
+            {
+              title: "Step 1: Complete the DS-160 Online",
+              content:
+                "This is the core non-immigrant visa application form, completed online directly on the US State Department's official system — it asks for personal, travel, and background details and generates a confirmation page you'll need for your interview.",
+            },
+            {
+              title: "Step 2: Pay the MRV Application Fee",
+              content:
+                "The visa application fee is paid before scheduling your interview; keep your payment receipt, since you'll need it to book your appointment.",
+            },
+            {
+              title: "Step 3: Schedule Your Biometric and Interview Appointment",
+              content:
+                "Appointments are booked through the official US visa appointment system for Islamabad, Karachi, Lahore, or Peshawar — wait times vary by season and category, so check current availability before finalizing travel plans around a specific date.",
+            },
+            {
+              title: "Step 4: Attend Your Interview",
+              content:
+                "Bring your passport, DS-160 confirmation page, appointment letter, fee receipt, and your supporting documents. The consular officer typically asks a small number of direct questions and decides on the spot in most cases.",
+            },
+            {
+              title: "Step 5: Administrative Processing, If Applied",
+              content:
+                "Some applications are flagged for additional review (often referred to as '221(g)' processing), which can add weeks to months before a final decision — this isn't a refusal, but it does mean an indefinite wait, so avoid booking non-refundable travel until your visa is actually issued.",
+            },
+          ],
+        },
+        {
+          heading: "Visa Validity and Multiple Entry",
+          content:
+            "US visitor visas issued to Pakistani nationals are commonly issued for multiple entries and can carry a validity period of several years, though exact terms depend on the current visa reciprocity schedule between the US and Pakistan, which is set independently of any individual application and reviewed periodically. Visa validity is not the same as permitted length of stay per visit — the visa lets you request entry, but the US immigration officer at the port of entry decides how long you may actually stay on that specific trip, generally noted on your admission stamp or electronic I-94 record. Confirm your actual permitted stay at entry rather than assuming it matches your visa's multi-year validity.",
+        },
+        {
+          heading: "Document Checklist",
+          subsections: [
+            {
+              title: "Always Required",
+              items: [
+                "Valid passport with at least six months' validity beyond your intended stay",
+                "DS-160 confirmation page",
+                "Appointment confirmation letter",
+                "One recent photograph meeting US visa specifications",
+                "Visa fee payment receipt",
+              ],
+            },
+            {
+              title: "B1/B2 Supporting Documents",
+              items: [
+                "Bank statements showing sufficient funds for the trip",
+                "Employment letter or business ownership documents showing ties to Pakistan",
+                "Property or family ties documentation, where relevant to your case",
+                "Travel itinerary or invitation letter, if visiting family or attending a specific event",
+              ],
+            },
+            {
+              title: "F1 Supporting Documents",
+              items: [
+                "Form I-20 from your SEVP-certified school",
+                "SEVIS I-901 fee payment receipt",
+                "Proof of financial support for tuition and living costs",
+                "Academic transcripts and standardized test scores used for admission",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Demonstrating Ties to Pakistan",
+          content:
+            "For both B1/B2 and F1 applicants, the consular officer's central question is whether you intend to return to Pakistan after your trip or studies — this single factor influences approval more than almost anything else in the file. Strong, specific evidence of ties (stable employment you're returning to, property, family responsibilities, a clear course of study with a defined end date) reads far better than a large bank balance alone. Vague or inconsistent answers about your plans after the US trip are one of the most common reasons for refusal, regardless of how complete the paperwork is.",
+        },
+        {
+          heading: "Typical Costs to Budget For",
+          content:
+            "Budget for the MRV visa application fee (non-refundable, charged regardless of outcome), the SEVIS I-901 fee for F1 applicants specifically, and any courier or appointment-service charges depending on how you book. Because these fees are set and periodically adjusted by the US State Department and SEVP directly, confirm current amounts on the official visa fee schedule before budgeting rather than relying on a previous year's figures.",
+        },
+        {
+          heading: "How Costs and Process Compare to UAE, UK, and Canada Applications",
+          columnCompare: {
+            left: {
+              title: "US B1/B2 or F1",
+              items: [
+                "No standard attestation chain for most applicants",
+                "Decision often given at the interview itself",
+                "Heavy weight on demonstrating ties to Pakistan",
+                "Administrative processing can add weeks to months, unpredictably",
+              ],
+            },
+            right: {
+              title: "UAE / UK / Canada Applications",
+              items: [
+                "Formal document attestation chain often required upfront",
+                "Decision typically issued after document review, not an in-person interview",
+                "Weight on document completeness and category eligibility",
+                "Processing timelines are generally more predictable once submitted",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Common Mistakes Pakistani Applicants Make",
+          subsections: [
+            {
+              title: "Issues That Cause Refusals or Delays",
+              items: [
+                "Giving vague or inconsistent answers about return plans in the interview",
+                "Booking non-refundable flights or hotels before the visa is actually issued",
+                "Submitting a DS-160 with details that don't match passport or supporting documents exactly",
+                "Treating a large bank balance as a substitute for genuine ties to Pakistan",
+                "Arriving at the interview without organizing supporting documents clearly",
+                "Assuming F1 approval means work authorization — F1 status has its own strict, separate work rules",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Which Consulate Should You Apply Through?",
+          content:
+            "Pakistani applicants are generally assigned a consular post based on their residential jurisdiction — Islamabad, Karachi, Lahore, or Peshawar — rather than being free to pick whichever location has the shortest wait time. Appointment availability and wait times do vary by post and by season (student visa season ahead of the US academic year, for example, tends to be busier), so checking current wait times for your assigned post while planning your timeline is worthwhile, even though you generally can't switch posts to game a shorter wait.",
+        },
+        {
+          heading: "If Your Visa Is Refused",
+          content:
+            "A refusal under what's commonly referred to as '214(b)' means the consular officer wasn't convinced of your ties to Pakistan or your intent to return — it isn't a permanent bar, and reapplying is possible, but reapplying with essentially the same file tends to produce the same result. If you're refused, it's worth honestly assessing what was thin in your ties evidence or how you answered the officer's questions, and strengthening that specific gap before applying again rather than simply resubmitting. There's no mandatory waiting period after a 214(b) refusal, but applying again immediately with an unchanged file rarely helps.",
+        },
+        {
+          heading: "Traveling With Children",
+          content:
+            "Children generally need their own DS-160 and their own visa, interviewed alongside or separately from a parent depending on the post's specific procedures — a child isn't automatically covered under a parent's visa. If only one parent is traveling with a child, carrying a notarized consent letter from the non-traveling parent is a sensible precaution, similar to other countries' entry expectations, even where it isn't always explicitly requested at the visa stage.",
+        },
+        {
+          heading: "How Travelaxis Supports This Process",
+          content:
+            "We help Pakistani applicants organize a complete, consistent B1/B2 or F1 document file, prepare for what the interview typically covers, and review your DS-160 details against your supporting documents before submission. We are not a US immigration attorney or accredited representative — we don't file USCIS petitions, represent you before US authorities, or influence the consular officer's decision, which is made independently at the interview.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What does a 214(b) refusal mean, and can I apply again?",
+              answer:
+                "It means the officer wasn't convinced of your ties to Pakistan or intent to return. You can reapply, but resubmitting the same file tends to produce the same outcome — strengthen the specific gap in your ties evidence first.",
+            },
+            {
+              question: "Can I choose which consulate to apply through?",
+              answer:
+                "Generally no — you're assigned a post (Islamabad, Karachi, Lahore, or Peshawar) based on your residential jurisdiction, though checking current wait times for your assigned post is still useful for planning.",
+            },
+            {
+              question: "Does my child need their own US visa?",
+              answer:
+                "Yes — children generally need their own DS-160 and visa rather than being automatically covered under a parent's application.",
+            },
+            {
+              question: "Do I need a notarized letter if only one parent is traveling with our child?",
+              answer:
+                "It's a sensible precaution even where not always explicitly required at the visa stage — a notarized consent letter from the non-traveling parent can prevent complications.",
+            },
+            {
+              question: "Do I need to attest my documents for a US visa the way I would for a UAE visa?",
+              answer:
+                "Generally no — standard B1/B2 and F1 applications don't require the formal attestation chain UAE processes use. The US process centers on the DS-160, fee payment, and interview rather than document attestation.",
+            },
+            {
+              question: "What's the biggest factor in getting a US visa approved?",
+              answer:
+                "Demonstrating credible ties to Pakistan and a genuine intent to return — this typically matters more to the consular officer's decision than the size of your bank balance alone.",
+            },
+            {
+              question: "Can Travelaxis help me get an H-1B work visa?",
+              answer:
+                "Not the petition stage — H-1B requires your US employer to file with USCIS, often subject to an annual lottery, which needs a US immigration attorney. We can help with document organization once you're at the consular processing stage.",
+            },
+            {
+              question: "How long does US visa processing take from Pakistan?",
+              answer:
+                "Interview wait times vary by season and location, and a decision is often given at the interview itself — but administrative processing, if applied to your case, can add weeks to months unpredictably, so avoid firm travel bookings until your visa is issued.",
+            },
+            {
+              question: "Is Pakistan eligible for the Diversity Visa lottery?",
+              answer:
+                "Eligibility by country is set and revised periodically by the US State Department — confirm current-year eligibility directly on the official DV program page rather than assuming previous years' rules still apply.",
+            },
+            {
+              question: "Can I work in the US on an F1 student visa?",
+              answer:
+                "F1 status has its own strict, separate work authorization rules (such as on-campus employment or CPT/OPT) — it doesn't grant general work authorization, and misunderstanding this is a common and serious mistake.",
+            },
+            {
+              question: "What happens if my application goes into administrative processing?",
+              answer:
+                "This isn't a refusal — it's an additional review that can take weeks to months with no fixed timeline. Avoid booking non-refundable travel until you actually have your visa in hand.",
+            },
+            {
+              question: "Do I need an invitation letter for a B1/B2 tourist visa?",
+              answer:
+                "It's not always mandatory, but if you're visiting family or attending a specific event, an invitation letter or event confirmation strengthens your file and helps clarify your purpose of travel to the consular officer.",
+            },
+            {
+              question: "How is a family-based US immigrant visa different from B1/B2 or F1?",
+              answer:
+                "It requires a US citizen or resident relative to file a Form I-130 petition with USCIS first, followed by National Visa Center processing that can take from about a year to well over a decade depending on the category — a fundamentally different, much longer process than a visitor or student visa.",
+            },
+            {
+              question: "Can Travelaxis guarantee my US visa will be approved?",
+              answer:
+                "No — the decision rests entirely with the consular officer at your interview. We help you prepare a complete, well-organized file and understand what the interview typically covers, but we don't control or guarantee the outcome.",
+            },
+            {
+              question: "Does a longer visa validity mean I can stay in the US longer per visit?",
+              answer:
+                "No — visa validity (often several years for Pakistani B1/B2 holders) is separate from permitted length of stay, which the immigration officer at the port of entry decides on each individual trip, typically recorded on your I-94.",
+            },
+            {
+              question: "How far in advance should I apply for an F1 student visa?",
+              answer:
+                "Visas can generally be issued up to 120 days before your program start date, and interview slots can fill up during peak season ahead of the academic year, so applying as early as your I-20 and SEVIS payment allow is safer than waiting.",
+            },
+            {
+              question: "Will a bigger bank balance guarantee my visa is approved?",
+              answer:
+                "No — funds are one factor among several, but the officer weighs your overall ties to Pakistan and credibility of your stated purpose more heavily than the size of a bank balance alone.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
+            { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
+            { label: "Australia Visa from Pakistan", href: "/services/australia-visa-from-pakistan" },
+            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
+            { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
+      ],
+    },
+  },
   "uae-student-visa-guide-2026": {
     title: "UAE Student Visa – Requirements, Documents & Process (2026 Guide)",
     metaTitle: "UAE Student Visa – Requirements, Documents & Process (2026 Guide)",

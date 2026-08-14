@@ -17,6 +17,7 @@ import {
   Users,
   Wallet,
   GraduationCap,
+  Flag,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -126,6 +127,14 @@ const guides: {
       "Visitor, Student, and Partner/Family visa documentation, submitted through the Department of Home Affairs.",
     icon: Sun,
     link: "/services/australia-visa-from-pakistan",
+  },
+  {
+    title: "USA Visa from Pakistan",
+    category: "USA Visas",
+    description:
+      "DS-160, the Embassy Islamabad interview, and B1/B2 visitor or F1 student documentation — what's in scope and what needs a US attorney.",
+    icon: Flag,
+    link: "/blog/usa-visa-from-pakistan",
   },
 ];
 
