@@ -84,7 +84,17 @@ export default function AustraliaVisaFromPakistanPage() {
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
-                An Australia visa from Pakistan is applied for online via ImmiAccount. Requirements depend on category — Visitor (subclass 600), Student (subclass 500), or Partner/Family. We prepare documentation for these categories; we don&apos;t handle skilled-visa points assessments or lodge points-tested applications, which require a MARA-registered agent.
+                An Australia visa from Pakistan is applied for online via ImmiAccount, through the{" "}
+                <a
+                  href="https://immi.homeaffairs.gov.au"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold underline-offset-2 hover:underline"
+                  style={{ color: "#1D63E0" }}
+                >
+                  Department of Home Affairs
+                </a>
+                . Requirements depend on category — Visitor (subclass 600), Student (subclass 500), or Partner/Family. We prepare documentation for these categories; we don&apos;t handle skilled-visa points assessments or lodge points-tested applications, which require a MARA-registered agent.
               </p>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>

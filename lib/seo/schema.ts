@@ -164,6 +164,11 @@ export function blogListingJsonLd() {
   };
 }
 
+/** Strips `[label](url)` markdown-link syntax down to plain `label` text, for schema fields that must read as plain prose. */
+function stripMarkdownLinks(text: string): string {
+  return text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+}
+
 /** FAQPage schema for a blog post's own embedded FAQ section(s), if any. Returns null when the post has no FAQs. */
 export function blogFaqJsonLd(blog: {
   content?: { sections?: { faqs?: { question: string; answer: string }[] }[] };
@@ -178,10 +183,10 @@ export function blogFaqJsonLd(blog: {
     "@type": "FAQPage",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
-      name: faq.question,
+      name: stripMarkdownLinks(faq.question),
       acceptedAnswer: {
         "@type": "Answer",
-        text: faq.answer,
+        text: stripMarkdownLinks(faq.answer),
       },
     })),
   };
@@ -215,7 +220,7 @@ export function blogHowToJsonLd(blog: {
     .map((sub) => ({
       "@type": "HowToStep",
       name: sub.title!.replace(stepPattern, ""),
-      text: sub.content,
+      text: stripMarkdownLinks(sub.content!),
     }));
 
   if (steps.length < 2) return null;
