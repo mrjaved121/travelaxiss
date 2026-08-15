@@ -6,10 +6,13 @@ import { SITE_URL } from "@/lib/seo/site";
 import { homepageFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
-  title: "UAE Business Setup & Visa Documentation Support | Travelaxis Dubai",
+  title: "UAE Visa Documentation & Business Setup Support | Travelaxis Dubai",
   description:
-    "Premium UAE consultancy for company formation, government coordination, legal documentation, and visa documentation support. 11+ years in Dubai.",
+    "UAE visa documentation and consultancy: visit, employment, family, investor & golden visa support, plus company formation and government coordination. 11+ years in Dubai.",
   keywords: [
+    "uae visa",
+    "travel visa uae",
+    "uae visit visa",
     "visa consultancy UAE",
     "UAE visa documentation",
     "visa application support UAE",
@@ -27,9 +30,9 @@ export const metadata: Metadata = {
     google: "zkDBpIKHKEwlOYkVQQ4OL-rcZna0NxhTkNqNn8VEYUE",
   },
   openGraph: {
-    title: "UAE Business Setup & Visa Documentation Support | Travelaxis",
+    title: "UAE Visa Documentation & Business Setup Support | Travelaxis",
     description:
-      "Company formation, compliance, and UAE visa documentation and consultancy—expert support in Dubai.",
+      "Visit, employment, family, investor, and golden visa documentation, plus company formation and government coordination in Dubai.",
     url: `${SITE_URL}/`,
   },
 };

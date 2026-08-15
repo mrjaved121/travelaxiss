@@ -3,6 +3,7 @@
 import Link from "next/link";
 import {
   ArrowRight,
+  ArrowUpRight,
   CircleDollarSign,
   Briefcase,
   Users,
@@ -19,36 +20,41 @@ import {
 } from "@/components/ui/accordion";
 import { visaServicesFaqs } from "@/components/data/visaServicesFaqs";
 
-const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
+const visaTypes: { title: string; description: string; icon: LucideIcon; link: string }[] = [
   {
     title: "Investor / Partner Visas",
     description:
       "Documentation and application support for business owners and investors establishing a company.",
     icon: CircleDollarSign,
+    link: "/blog/investor-visa-uae-guide",
   },
   {
     title: "Employment Visas",
     description:
       "Guidance and paperwork support for individuals already sponsored by a UAE-based employer. We do not arrange jobs or sponsorship.",
     icon: Briefcase,
+    link: "/services/uae-employment-visa",
   },
   {
     title: "Family Sponsorship Visas",
     description:
       "Assistance with documentation for sponsoring spouse, children, and parents in the UAE.",
     icon: Users,
+    link: "/blog/family-sponsorship-income-requirements-uae",
   },
   {
     title: "Visit & Tourist Visas",
     description:
       "Support with visit and tourist visa documentation for short-term business or leisure travel.",
     icon: Plane,
+    link: "/services/uae-visit-visa",
   },
   {
     title: "Visa Renewals & Cancellations",
     description:
       "Renewal documentation support and cancellation-related formalities coordinated through official channels.",
     icon: FileStack,
+    link: "/services/uae-visa-extension-renewal",
   },
 ];
 
@@ -126,9 +132,10 @@ export default function VisaServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
-                className="rounded-3xl p-6 md:p-8 text-center border border-white/10"
+                className="relative group rounded-3xl p-6 md:p-8 text-center border border-white/10"
                 style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}
               >
+                <Link href={item.link} className="absolute inset-0 z-10 rounded-3xl" aria-label={`Read more about ${item.title}`} />
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"
                   style={{ backgroundColor: '#FFFFFF' }}
@@ -139,7 +146,11 @@ export default function VisaServicesPage() {
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
+                <p className="text-sm text-white/75 leading-relaxed mb-4">{item.description}</p>
+                <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: '#FFFFFF' }}>
+                  Learn more
+                  <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                </span>
               </motion.div>
             ))}
           </div>

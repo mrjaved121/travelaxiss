@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, RefreshCw, Briefcase, Home, PiggyBank, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
@@ -97,6 +97,46 @@ const services = [
       "B1/B2 visitor and F1 student visa documentation for Pakistani applicants, including DS-160 review and Embassy Islamabad interview preparation.",
     icon: Flag,
     link: "/services/usa-visa-from-pakistan",
+  },
+  {
+    title: "UAE Visit & Tourist Visa",
+    category: "Visit Visas",
+    description:
+      "14/30/60/90-day visit and tourist visa documentation, covering airline, hotel, tour operator, and resident sponsor routes.",
+    icon: Plane,
+    link: "/services/uae-visit-visa",
+  },
+  {
+    title: "UAE Visa Extension & Renewal",
+    category: "Extension & Renewal",
+    description:
+      "Visit visa extension, residence visa renewal, and status change — clearly explained, with documents and timelines.",
+    icon: RefreshCw,
+    link: "/services/uae-visa-extension-renewal",
+  },
+  {
+    title: "UAE Employment & Labour Visa",
+    category: "Employment Visas",
+    description:
+      "Work permit, medical, Emirates ID, and visa stamping documentation — plus who legally pays for what.",
+    icon: Briefcase,
+    link: "/services/uae-employment-visa",
+  },
+  {
+    title: "UAE Domestic Worker Visa",
+    category: "Domestic Worker",
+    description:
+      "Tadbeer-channel sponsorship documentation for households sponsoring a domestic worker in the UAE.",
+    icon: Home,
+    link: "/services/uae-domestic-worker-visa",
+  },
+  {
+    title: "UAE Retirement Visa",
+    category: "Retirement",
+    description:
+      "Documentation support for the property, savings, and income routes to UAE retirement residency.",
+    icon: PiggyBank,
+    link: "/services/uae-retirement-visa",
   },
 ];
 
