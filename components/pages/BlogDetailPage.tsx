@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, Calendar, Clock, Share2, Building2, Plane, FileText, BadgeCheck } from "lucide-react";
+import { ArrowLeft, Clock, Share2, Building2, Plane, FileText, BadgeCheck } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
 
@@ -114,10 +114,6 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
               <div className="flex items-center space-x-2">
                 <BadgeCheck className="w-5 h-5" style={{ color: '#1D63E0' }} aria-hidden />
                 <span>Reviewed by the Travelaxis Consultancy Team</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Calendar className="w-5 h-5" aria-hidden />
-                <span>{blog.date}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="w-5 h-5" aria-hidden />

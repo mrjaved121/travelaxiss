@@ -6,8 +6,8 @@ import {
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
   "usa-visa-from-pakistan": {
-    title: "USA Visa from Pakistan – Documents & Process Guide (2026)",
-    metaTitle: "USA Visa from Pakistan – Documents & Process Guide (2026)",
+    title: "USA Visa from Pakistan – Documents & Process Guide",
+    metaTitle: "USA Visa from Pakistan – Documents & Process Guide",
     metaDescription:
       "How Pakistani nationals apply for a US visa: DS-160, the Embassy Islamabad interview, B1/B2 visitor and F1 student documents, and what's out of scope for document-prep support.",
     date: "August 14, 2026",
@@ -284,8 +284,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "uae-student-visa-guide-2026": {
-    title: "UAE Student Visa – Requirements, Documents & Process (2026 Guide)",
-    metaTitle: "UAE Student Visa – Requirements, Documents & Process (2026 Guide)",
+    title: "UAE Student Visa – Requirements, Documents & Process",
+    metaTitle: "UAE Student Visa – Requirements, Documents & Process",
     metaDescription:
       "How the UAE student residence visa works: university sponsorship, eligibility, required documents, costs, and how it differs from a dependent visa.",
     date: "August 13, 2026",
@@ -600,8 +600,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "uae-student-visa-from-pakistan": {
-    title: "UAE Student Visa from Pakistan – Attestation & Documents (2026)",
-    metaTitle: "UAE Student Visa from Pakistan – Attestation & Documents (2026)",
+    title: "UAE Student Visa from Pakistan – Attestation & Documents",
+    metaTitle: "UAE Student Visa from Pakistan – Attestation & Documents",
     metaDescription:
       "How Pakistani students get a UAE university student visa: IBCC/HEC attestation of transcripts, required documents, costs, and the sponsor route.",
     date: "August 13, 2026",
@@ -897,8 +897,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "job-seeker-visa-from-pakistan": {
-    title: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents (2026)",
-    metaTitle: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents (2026)",
+    title: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents",
+    metaTitle: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents",
     metaDescription:
       "How the UAE job-seeker visa works for Pakistani applicants: eligibility tiers, required documents, the Pakistan attestation chain, and converting to a work visa.",
     date: "August 12, 2026",
@@ -1181,8 +1181,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "start-business-in-dubai-from-pakistan": {
-    title: "How to Start a Business in Dubai from Pakistan – Cost & Steps (2026)",
-    metaTitle: "How to Start a Business in Dubai from Pakistan – Cost & Steps (2026)",
+    title: "How to Start a Business in Dubai from Pakistan – Cost & Steps",
+    metaTitle: "How to Start a Business in Dubai from Pakistan – Cost & Steps",
     metaDescription:
       "How Pakistani founders set up a company in Dubai remotely: mainland vs free zone, power of attorney signing, document attestation, remittance rules, and setup costs.",
     date: "August 12, 2026",
@@ -1447,15 +1447,15 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
-            { label: "How to Start a Business in Dubai (Step-by-Step Guide 2026)", href: "/blog/start-business-dubai-2026" },
+            { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai-2026" },
           ],
         },
       ],
     },
   },
   "uae-family-visa-from-pakistan": {
-    title: "UAE Family Visa from Pakistan – Requirements & Income (2026)",
-    metaTitle: "UAE Family Visa from Pakistan – Requirements & Income (2026)",
+    title: "UAE Family Visa from Pakistan – Requirements & Income",
+    metaTitle: "UAE Family Visa from Pakistan – Requirements & Income",
     metaDescription:
       "UAE family visa requirements for Pakistani sponsors: minimum income, tenancy contract rules, attested marriage and birth certificates, and the full dependent checklist.",
     date: "August 12, 2026",
@@ -1731,8 +1731,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "dubai-visit-visa-from-pakistan": {
-    title: "Dubai Visit Visa Price & Documents from Pakistan (2026)",
-    metaTitle: "Dubai Visit Visa Price & Documents from Pakistan (2026)",
+    title: "Dubai Visit Visa Price & Documents from Pakistan",
+    metaTitle: "Dubai Visit Visa Price & Documents from Pakistan",
     metaDescription:
       "Dubai visit visa options for Pakistani nationals: 30/60/90-day durations, required documents, sponsor vs. agency routes, cost factors, and processing time.",
     date: "August 12, 2026",
@@ -2010,8 +2010,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "uae-work-visa-documents-checklist": {
-    title: "UAE Work Visa Documents Required from Pakistan – 2026 Checklist",
-    metaTitle: "UAE Work Visa Documents Required from Pakistan – 2026 Checklist",
+    title: "UAE Work Visa Documents Required from Pakistan – Checklist",
+    metaTitle: "UAE Work Visa Documents Required from Pakistan – Checklist",
     metaDescription:
       "Complete checklist of documents for a UAE work visa from Pakistan: passport, attested certificates, GAMCA medical, BE&OE registration, and employer paperwork.",
     date: "August 12, 2026",
@@ -2319,8 +2319,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "dubai-work-visa-price-from-pakistan": {
-    title: "Dubai Work Visa Price from Pakistan (2026) – Full Cost Breakdown",
-    metaTitle: "Dubai Work Visa Price from Pakistan (2026) – Full Cost Breakdown",
+    title: "Dubai Work Visa Price from Pakistan – Full Cost Breakdown",
+    metaTitle: "Dubai Work Visa Price from Pakistan – Full Cost Breakdown",
     metaDescription:
       "What actually makes up a Dubai work visa cost from Pakistan: entry permit, medical, Emirates ID, insurance, and attestation — plus who legally pays and typical timelines.",
     date: "August 12, 2026",
@@ -2582,8 +2582,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "job-seeker-visa-uae-documents-guide-2026": {
-    title: "UAE Job Seeker Visa – Eligibility & Document Checklist (2026)",
-    metaTitle: "UAE Job Seeker Visa – Full Eligibility & Document Checklist (2026)",
+    title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
+    metaTitle: "UAE Job Seeker Visa – Full Eligibility & Document Checklist",
     metaDescription:
       "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, validity by qualification tier, and what happens once you find a role.",
     date: "July 6, 2026",
@@ -2740,7 +2740,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Job Seeker Permit for Pakistani Applicants Specifically",
           content:
-            "For Pakistani nationals applying under the Job Seeker entry permit, degree attestation follows Pakistan's standard chain: attestation from the relevant provincial authority or the Higher Education Commission (HEC) for degree verification, followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. Given that this attestation chain can take several weeks and directly determines which qualification tier you apply under, starting it well before you plan to travel is essential — applicants who wait until they're ready to submit the full application often find attestation is the single factor delaying their entry permit the longest.",
+            "For Pakistani nationals applying under the Job Seeker entry permit, [degree attestation follows Pakistan's standard chain](/services/attestation): attestation from the relevant provincial authority or the Higher Education Commission (HEC) for degree verification, followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. Given that this attestation chain can take several weeks and directly determines which qualification tier you apply under, starting it well before you plan to travel is essential — applicants who wait until they're ready to submit the full application often find attestation is the single factor delaying their entry permit the longest.",
         },
         {
           heading: "What a Realistic Job Search Timeline Looks Like",
@@ -2839,8 +2839,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "business-exploration-visa-uae-guide-2026": {
-    title: "UAE Visa Documentation for Exploring Business Opportunities (2026 Guide)",
-    metaTitle: "UAE Visa Documentation for Exploring Business Opportunities (2026)",
+    title: "UAE Visa Documentation for Exploring Business Opportunities",
+    metaTitle: "UAE Visa Documentation for Exploring Business Opportunities",
     metaDescription:
       "Which UAE visa to use when you're visiting to scout opportunities or meet partners, and the documents that support a smooth business-visit application.",
     date: "July 6, 2026",
@@ -2883,7 +2883,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Business Exploration From Pakistan Specifically",
           content:
-            "Pakistani nationals visiting the UAE to explore business opportunities generally apply through the same standard visit-visa categories available to other nationalities, with the visa typically arranged in advance through an airline, authorized typing center, or online channel before travel, since visa-on-arrival is not available for Pakistani passport holders. Because the application requires supporting documents (proof of funds, an itinerary, sometimes an invitation letter), it's worth starting the visa application at least a couple of weeks ahead of an intended travel date rather than assuming same-week approval, particularly during busier travel periods.",
+            "Pakistani nationals visiting the UAE to explore business opportunities generally apply through the [same standard visit-visa categories](/services/visa-services) available to other nationalities, with the visa typically arranged in advance through an airline, authorized typing center, or online channel before travel, since visa-on-arrival is not available for Pakistani passport holders. Because the application requires supporting documents (proof of funds, an itinerary, sometimes an invitation letter), it's worth starting the visa application at least a couple of weeks ahead of an intended travel date rather than assuming same-week approval, particularly during busier travel periods.",
         },
         {
           heading: "Planning Your First UAE Business Trip: A Practical Checklist",
@@ -3082,8 +3082,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "family-sponsorship-income-requirements-uae-2026": {
-    title: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide (2026)",
-    metaTitle: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide (2026)",
+    title: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide",
+    metaTitle: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide",
     metaDescription:
       "The minimum salary UAE sponsors need to bring over a spouse, children, or parents, which documents prove it, and the full dependent-visa document checklist.",
     date: "July 6, 2026",
@@ -3190,7 +3190,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Sponsoring From Pakistan: What's Different",
           content:
-            "For sponsors bringing family members from Pakistan, marriage and birth certificates need to go through Pakistan's own attestation chain before UAE attestation can be completed — typically starting with the relevant provincial authority (such as the Union Council or NADRA-issued certificate attestation), followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. This four-step chain is one of the more time-consuming parts of the entire family sponsorship process, and it's common for sponsors to underestimate how long it takes, since it runs entirely through institutions outside UAE control. Starting this attestation chain as soon as you know you intend to sponsor a family member — rather than waiting until your own income documents are ready — keeps it from becoming the bottleneck that delays the whole application.",
+            "For sponsors bringing family members from Pakistan, marriage and birth certificates need to go through [Pakistan's own attestation chain](/services/attestation) before UAE attestation can be completed — typically starting with the relevant provincial authority (such as the Union Council or NADRA-issued certificate attestation), followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. This four-step chain is one of the more time-consuming parts of the entire family sponsorship process, and it's common for sponsors to underestimate how long it takes, since it runs entirely through institutions outside UAE control. Starting this attestation chain as soon as you know you intend to sponsor a family member — rather than waiting until your own income documents are ready — keeps it from becoming the bottleneck that delays the whole application.",
         },
         {
           heading: "Step-by-Step Process",
@@ -3328,8 +3328,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "visit-visa-relatives-uae-guide-2026": {
-    title: "UAE Visit Visa for Relatives – Documentation Guide (2026)",
-    metaTitle: "UAE Visit Visa for Relatives – Full Documentation Guide (2026)",
+    title: "UAE Visit Visa for Relatives – Documentation Guide",
+    metaTitle: "UAE Visit Visa for Relatives – Full Documentation Guide",
     metaDescription:
       "How a UAE resident sponsors a visiting relative, the documents both sides need, and the mistakes that most often cause visit-visa delays.",
     date: "July 6, 2026",
@@ -3682,8 +3682,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "visa-typing-center-jlt-dubai-guide-2026": {
-    title: "Visa Documentation & Typing Center Support Near JLT, Dubai (2026 Guide)",
-    metaTitle: "Visa Documentation & Typing Center Support Near JLT, Dubai (2026 Guide)",
+    title: "Visa Documentation & Typing Center Support Near JLT, Dubai",
+    metaTitle: "Visa Documentation & Typing Center Support Near JLT, Dubai",
     metaDescription:
       "What a government-authorized typing center actually does, what to bring, and how preparing documents beforehand avoids a wasted trip.",
     date: "July 6, 2026",
@@ -4000,8 +4000,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "fast-track-visa-document-verification-dubai-2026": {
-    title: "Fast-Track Visa Document Verification in Dubai – What It Actually Means (2026)",
-    metaTitle: "Fast-Track Visa Document Verification in Dubai – What It Actually Means (2026)",
+    title: "Fast-Track Visa Document Verification in Dubai – What It Actually Means",
+    metaTitle: "Fast-Track Visa Document Verification in Dubai – What It Actually Means",
     metaDescription:
       "What genuinely speeds up UAE visa document verification, what 'fast-track' services really cover, and why a complete file is the only real shortcut.",
     date: "July 6, 2026",
@@ -4266,8 +4266,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "urgent-gdrfa-document-approval-guide-2026": {
-    title: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite (2026)",
-    metaTitle: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite (2026)",
+    title: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite",
+    metaTitle: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite",
     metaDescription:
       "How Dubai's GDRFA actually processes residency documents, which priority options genuinely exist, and the habits that prevent last-minute urgency in the first place.",
     date: "July 6, 2026",
@@ -4503,8 +4503,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "amer-center-visa-documentation-guide-2026": {
-    title: "Amer Center Visa Application – Documentation Help & What to Expect (2026)",
-    metaTitle: "Amer Center Visa Application – Documentation Help & What to Expect (2026)",
+    title: "Amer Center Visa Application – Documentation Help & What to Expect",
+    metaTitle: "Amer Center Visa Application – Documentation Help & What to Expect",
     metaDescription:
       "What Amer centers handle for Dubai visa and residency transactions, how to book an appointment, and how to prepare a complete file before you go.",
     date: "July 6, 2026",
@@ -4832,9 +4832,9 @@ export const blogData: Record<string, any> = {
   },
   "software-engineer-golden-visa-uae-guide-2026": {
     title:
-      "Software Engineer Golden Visa UAE – Documentation & Eligibility Guide (2026)",
+      "Software Engineer Golden Visa UAE – Documentation & Eligibility Guide",
     metaTitle:
-      "Software Engineer Golden Visa UAE – Full Documentation & Eligibility Guide (2026)",
+      "Software Engineer Golden Visa UAE – Full Documentation & Eligibility Guide",
     metaDescription:
       "Complete guide to the UAE Golden Visa for software engineers and developers: eligibility routes, the full document checklist, and how to avoid the mistakes that delay approval.",
     date: "July 6, 2026",
@@ -5077,9 +5077,9 @@ export const blogData: Record<string, any> = {
     },
   },
   "ai-specialist-golden-visa-uae-guide-2026": {
-    title: "AI Specialist Golden Visa UAE – Requirements & Documents Guide (2026)",
+    title: "AI Specialist Golden Visa UAE – Requirements & Documents Guide",
     metaTitle:
-      "AI Specialist Golden Visa UAE – Full Requirements & Documents Guide (2026)",
+      "AI Specialist Golden Visa UAE – Full Requirements & Documents Guide",
     metaDescription:
       "How AI, machine learning, and data specialists qualify for the UAE Golden Visa: the two eligibility routes, what evidence strengthens your file, and the full document checklist.",
     date: "July 6, 2026",
@@ -5335,9 +5335,9 @@ export const blogData: Record<string, any> = {
   },
   "property-investor-golden-visa-uae-guide-2026": {
     title:
-      "Property Investor Golden Visa UAE – Document & File Preparation Guide (2026)",
+      "Property Investor Golden Visa UAE – Document & File Preparation Guide",
     metaTitle:
-      "Property Investor Golden Visa UAE – Document & File Preparation Guide (2026)",
+      "Property Investor Golden Visa UAE – Document & File Preparation Guide",
     metaDescription:
       "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the AED 2 million rule, mortgage documentation, and a step-by-step submission checklist.",
     date: "July 6, 2026",
@@ -5570,9 +5570,9 @@ export const blogData: Record<string, any> = {
   },
   "bank-statement-5-year-multiple-entry-visa-uae-guide-2026": {
     title:
-      "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa (2026)",
+      "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa",
     metaTitle:
-      "Bank Statement Requirements for UAE 5-Year Multiple Entry Visa (2026)",
+      "Bank Statement Requirements for UAE 5-Year Multiple Entry Visa",
     metaDescription:
       "What your bank statement needs to show for the UAE 5-year multiple entry visa, how it differs from the Golden Visa, and the full supporting document checklist.",
     date: "July 6, 2026",
@@ -5800,9 +5800,9 @@ export const blogData: Record<string, any> = {
     },
   },
   "humanitarian-pioneers-visa-uae-documents-guide-2026": {
-    title: "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents (2026)",
+    title: "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents",
     metaTitle:
-      "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents (2026)",
+      "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents",
     metaDescription:
       "A practical guide to the UAE Golden Visa for Humanitarian Pioneers: who qualifies, how to secure an endorsement letter, and the full document file you need to prepare.",
     date: "July 6, 2026",
@@ -6038,8 +6038,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "company-formation-uae-2026": {
-    title: "Complete Guide to Company Formation in UAE (2026)",
-    metaTitle: "Complete Guide to Company Formation in UAE (2026)",
+    title: "Complete Guide to Company Formation in UAE",
+    metaTitle: "Complete Guide to Company Formation in UAE",
     metaDescription:
       "Learn how to start a company in UAE including cost, process, documents, and business setup options in Dubai and freezones.",
     date: "April 8, 2026",
@@ -6175,7 +6175,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Company Formation for Founders Based Outside the UAE",
           content:
-            "Founders forming a UAE company while based in Pakistan or elsewhere can generally complete much of the formation process remotely, though document attestation for foreign-issued personal and corporate documents adds a country-specific chain of steps that needs to start early given how long it can take. Signatory requirements for banking, and the residence visa process itself if relocation is planned, typically require at least one in-person UAE visit — factoring this into your planning from the outset avoids assuming the entire process can be completed without ever traveling to the UAE.",
+            "Founders forming a UAE company while based in Pakistan or elsewhere can generally complete much of the formation process remotely, though [document attestation](/services/attestation) for foreign-issued personal and corporate documents adds a country-specific chain of steps that needs to start early given how long it can take. Signatory requirements for banking, and the residence visa process itself if relocation is planned, typically require at least one in-person UAE visit — factoring this into your planning from the outset avoids assuming the entire process can be completed without ever traveling to the UAE.",
         },
         {
           heading: "How Travelaxis Supports the Full Formation Journey",
@@ -6248,8 +6248,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "start-business-dubai-2026": {
-    title: "How to Start a Business in Dubai (Step-by-Step Guide 2026)",
-    metaTitle: "How to Start a Business in Dubai (Step-by-Step Guide 2026)",
+    title: "How to Start a Business in Dubai",
+    metaTitle: "How to Start a Business in Dubai",
     metaDescription:
       "Learn how to start a business in Dubai step by step. Complete guide for company formation, licenses, documents, and approvals in UAE.",
     date: "April 7, 2026",
@@ -6432,8 +6432,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "business-setup-uae-foreigners-guide-2026": {
-    title: "Business Setup in UAE for Foreigners (Complete Guide 2026)",
-    metaTitle: "Business Setup in UAE for Foreigners (Complete Guide 2026)",
+    title: "Business Setup in UAE for Foreigners",
+    metaTitle: "Business Setup in UAE for Foreigners",
     metaDescription:
       "Learn how foreigners can start a business in UAE. Step-by-step guide covering company formation, documents, licenses, and legal process.",
     date: "April 7, 2026",
@@ -6654,9 +6654,9 @@ export const blogData: Record<string, any> = {
   },
   "start-business-uae-without-sponsor-2026": {
     title:
-      "How to Start a Business in UAE Without Local Sponsor (Complete Guide 2026)",
+      "How to Start a Business in UAE Without Local Sponsor",
     metaTitle:
-      "How to Start a Business in UAE Without Local Sponsor (Complete Guide 2026)",
+      "How to Start a Business in UAE Without Local Sponsor",
     metaDescription:
       "Learn how to start a business in UAE without a local sponsor. Complete guide covering freezone, mainland ownership, process, and legal steps.",
     date: "April 6, 2026",
@@ -6850,9 +6850,9 @@ export const blogData: Record<string, any> = {
   },
   "documents-company-formation-uae-2026": {
     title:
-      "Documents Required for Company Formation in UAE (Complete Guide 2026)",
+      "Documents Required for Company Formation in UAE",
     metaTitle:
-      "Documents Required for Company Formation in UAE (Complete Guide 2026)",
+      "Documents Required for Company Formation in UAE",
     metaDescription:
       "Learn all documents required for company formation in UAE. Complete guide for mainland and freezone business setup in Dubai.",
     date: "April 6, 2026",
@@ -7272,8 +7272,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "best-freezones-uae-2026": {
-    title: "Best Freezones in UAE for Business Setup (2026 Guide)",
-    metaTitle: "Best Freezones in UAE for Business Setup (2026 Guide)",
+    title: "Best Freezones in UAE for Business Setup",
+    metaTitle: "Best Freezones in UAE for Business Setup",
     metaDescription:
       "Discover the best freezones in UAE for business setup. Learn benefits, features, and how to choose the right freezone for your business in Dubai and UAE.",
     date: "April 6, 2026",
@@ -7510,10 +7510,10 @@ export const blogData: Record<string, any> = {
     },
   },
   "best-business-activities-uae-2026": {
-    title: "Best Business Activities in UAE (Top Profitable Ideas 2026)",
-    metaTitle: "Best Business Activities in UAE (Top Profitable Ideas 2026)",
+    title: "Best Business Activities in UAE",
+    metaTitle: "Best Business Activities in UAE",
     metaDescription:
-      "Discover the best business activities in UAE for 2026. Learn profitable business ideas, industries, and how to choose the right activity.",
+      "Discover the best business activities in UAE. Learn profitable business ideas, industries, and how to choose the right activity.",
     date: "April 5, 2026",
     readTime: "11 min read",
     category: "Business Setup",
@@ -7744,8 +7744,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "corporate-bank-account-uae-guide-2026": {
-    title: "How to Open Corporate Bank Account in UAE (Complete Guide 2026)",
-    metaTitle: "How to Open Corporate Bank Account in UAE (Complete Guide 2026)",
+    title: "How to Open Corporate Bank Account in UAE",
+    metaTitle: "How to Open Corporate Bank Account in UAE",
     metaDescription:
       "Learn how to open a corporate bank account in UAE step by step. Complete guide covering requirements, documents, process, and approval tips.",
     date: "April 5, 2026",
@@ -7952,9 +7952,9 @@ export const blogData: Record<string, any> = {
     },
   },
   "iso-certification-uae-guide-2026": {
-    title: "ISO Certification in UAE – Process, Types & Benefits (Complete Guide 2026)",
+    title: "ISO Certification in UAE – Process, Types & Benefits",
     metaTitle:
-      "ISO Certification in UAE – Process, Types & Benefits (Complete Guide 2026)",
+      "ISO Certification in UAE – Process, Types & Benefits",
     metaDescription:
       "Learn how to get ISO certification in UAE. Complete guide covering process, types, requirements, benefits, and steps for businesses.",
     date: "April 5, 2026",
@@ -8173,8 +8173,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "trademark-registration-uae-guide-2026": {
-    title: "Trademark Registration in UAE – Complete Guide (2026)",
-    metaTitle: "Trademark Registration in UAE – Complete Guide (2026)",
+    title: "Trademark Registration in UAE – Complete Guide",
+    metaTitle: "Trademark Registration in UAE – Complete Guide",
     metaDescription:
       "Learn how to register a trademark in UAE step by step. Complete guide covering process, requirements, documents, and benefits.",
     date: "April 4, 2026",
@@ -8385,8 +8385,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "renew-trade-license-uae-guide-2026": {
-    title: "How to Renew Trade License in UAE (Step-by-Step Guide 2026)",
-    metaTitle: "How to Renew Trade License in UAE (Step-by-Step Guide 2026)",
+    title: "How to Renew Trade License in UAE",
+    metaTitle: "How to Renew Trade License in UAE",
     metaDescription:
       "Learn how to renew trade license in UAE step by step. Complete guide covering process, documents, requirements, and compliance for businesses.",
     date: "April 4, 2026",
@@ -8647,9 +8647,9 @@ export const blogData: Record<string, any> = {
     },
   },
   "business-compliance-uae-guide-2026": {
-    title: "Business Compliance in UAE – What You Must Know (Complete Guide 2026)",
+    title: "Business Compliance in UAE – What You Must Know",
     metaTitle:
-      "Business Compliance in UAE – What You Must Know (Complete Guide 2026)",
+      "Business Compliance in UAE – What You Must Know",
     metaDescription:
       "Learn everything about business compliance in UAE. Complete guide covering rules, requirements, legal obligations, and how to stay compliant.",
     date: "April 3, 2026",
@@ -8857,8 +8857,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "municipality-approval-uae-guide-2026": {
-    title: "Municipality Approval in UAE – Complete Process Guide (2026)",
-    metaTitle: "Municipality Approval in UAE – Complete Process Guide (2026)",
+    title: "Municipality Approval in UAE – Complete Process Guide",
+    metaTitle: "Municipality Approval in UAE – Complete Process Guide",
     metaDescription:
       "Learn how to get municipality approval in UAE. Step-by-step guide covering requirements, documents, process, and approvals for businesses.",
     date: "April 3, 2026",
@@ -9090,8 +9090,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "customs-registration-uae-guide-2026": {
-    title: "Customs Registration in UAE – Step-by-Step Guide (2026)",
-    metaTitle: "Customs Registration in UAE – Step-by-Step Guide (2026)",
+    title: "Customs Registration in UAE – Step-by-Step Guide",
+    metaTitle: "Customs Registration in UAE – Step-by-Step Guide",
     metaDescription:
       "Learn how to complete customs registration in UAE. Step-by-step guide covering process, documents, approvals, and requirements for import/export.",
     date: "April 2, 2026",
@@ -9345,8 +9345,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "dubai-chamber-registration-guide-2026": {
-    title: "Dubai Chamber of Commerce Registration Guide (Step-by-Step 2026)",
-    metaTitle: "Dubai Chamber of Commerce Registration Guide (Step-by-Step 2026)",
+    title: "Dubai Chamber of Commerce Registration Guide",
+    metaTitle: "Dubai Chamber of Commerce Registration Guide",
     metaDescription:
       "Learn how to register with Dubai Chamber of Commerce. Complete step-by-step guide for UAE businesses including documents and process.",
     date: "April 2, 2026",
@@ -9699,9 +9699,9 @@ export const blogData: Record<string, any> = {
     },
   },
   "trade-license-approval-uae-guide-2026": {
-    title: "How to Get Trade License Approval in UAE (Step-by-Step Guide 2026)",
+    title: "How to Get Trade License Approval in UAE",
     metaTitle:
-      "How to Get Trade License Approval in UAE (Step-by-Step Guide 2026)",
+      "How to Get Trade License Approval in UAE",
     metaDescription:
       "Learn how to get trade license approval in UAE step by step. Complete guide covering process, documents, approvals, and requirements.",
     date: "April 1, 2026",
@@ -9968,8 +9968,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "golden-visa-uae-guide-2026": {
-    title: "Golden Visa UAE – Requirements, Benefits & Complete Guide (2026)",
-    metaTitle: "Golden Visa UAE – Requirements, Benefits & Complete Guide (2026)",
+    title: "Golden Visa UAE – Requirements, Benefits & Complete Guide",
+    metaTitle: "Golden Visa UAE – Requirements, Benefits & Complete Guide",
     metaDescription:
       "Learn everything about UAE Golden Visa. Complete guide covering requirements, benefits, eligibility, and how to apply for long-term residency.",
     date: "April 9, 2026",
@@ -10198,9 +10198,9 @@ export const blogData: Record<string, any> = {
   },
   "uae-residence-visa-through-business-2026": {
     title:
-      "How to Get UAE Residence Visa Through Business (Complete Guide 2026)",
+      "How to Get UAE Residence Visa Through Business",
     metaTitle:
-      "How to Get UAE Residence Visa Through Business (Complete Guide 2026)",
+      "How to Get UAE Residence Visa Through Business",
     metaDescription:
       "Learn how to get UAE residence visa through business setup. Complete step-by-step guide covering investor visa, requirements, documents, and benefits.",
     date: "April 9, 2026",
@@ -10422,8 +10422,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "investor-visa-uae-guide-2026": {
-    title: "Investor Visa UAE – Requirements, Process & Complete Guide (2026)",
-    metaTitle: "Investor Visa UAE – Requirements, Process & Complete Guide (2026)",
+    title: "Investor Visa UAE – Requirements, Process & Complete Guide",
+    metaTitle: "Investor Visa UAE – Requirements, Process & Complete Guide",
     metaDescription:
       "Learn how to get an investor visa in UAE. Complete step-by-step guide covering requirements, documents, process, and benefits for business owners.",
     date: "April 8, 2026",
@@ -10686,8 +10686,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "uae-visa-process-guide-2026": {
-    title: "UAE Visa Process Explained (Step-by-Step Guide 2026)",
-    metaTitle: "UAE Visa Process Explained (Step-by-Step Guide 2026)",
+    title: "UAE Visa Process Explained",
+    metaTitle: "UAE Visa Process Explained",
     metaDescription:
       "Learn the UAE visa process step by step. Understand visa types, documents, approvals, and how to apply for UAE residency visa.",
     date: "April 8, 2026",
@@ -10920,7 +10920,7 @@ export const blogData: Record<string, any> = {
     title:
       "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
     metaTitle:
-      "Noon Seller Account UAE – Complete Step-by-Step Guide to Start Selling Online in UAE (2026)",
+      "Noon Seller Account UAE – Complete Step-by-Step Guide to Start Selling Online in UAE",
     metaDescription:
       "Learn how to open a Noon seller account in UAE with this complete guide. Step-by-step process, requirements, product strategy, and SEO tips to succeed.",
     date: "April 12, 2026",
@@ -10952,7 +10952,7 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "Why Sell on Noon UAE in 2026?",
+          heading: "Why Sell on Noon UAE?",
           subsections: [
             {
               title: "1. Strong UAE & Middle East Market",
@@ -11347,9 +11347,9 @@ export const blogData: Record<string, any> = {
     },
   },
   "dropshipping-business-uae-guide-2026": {
-    title: "Dropshipping Business in UAE – Complete Beginner Guide (2026)",
-    metaTitle: "Dropshipping Business in UAE – Complete Beginner Guide 2026",
-    metaDescription: "Learn how to start a dropshipping business in UAE step by step. Complete 2026 guide covering setup, license, suppliers, and marketing.",
+    title: "Dropshipping Business in UAE – Complete Beginner Guide",
+    metaTitle: "Dropshipping Business in UAE – Complete Beginner Guide",
+    metaDescription: "Learn how to start a dropshipping business in UAE step by step. Complete guide covering setup, license, suppliers, and marketing.",
     date: "April 9, 2026",
     readTime: "13 min read",
     category: "Business Setup",
@@ -11615,9 +11615,9 @@ export const blogData: Record<string, any> = {
     }
   },
   "ecommerce-license-uae-guide-2026": {
-    title: "E-Commerce License UAE – Complete Guide for Online Business (2026)",
-    metaTitle: "E-Commerce License UAE – Complete Guide to Start Online Business in UAE 2026",
-    metaDescription: "Learn how to get an e-commerce license in UAE. Complete 2026 guide covering business setup, requirements, process, and online business strategies.",
+    title: "E-Commerce License UAE – Complete Guide for Online Business",
+    metaTitle: "E-Commerce License UAE – Complete Guide to Start Online Business in UAE",
+    metaDescription: "Learn how to get an e-commerce license in UAE. Complete guide covering business setup, requirements, process, and online business strategies.",
     date: "April 9, 2026",
     readTime: "13 min read",
     category: "Business Setup",
@@ -11902,8 +11902,8 @@ export const blogData: Record<string, any> = {
     }
   },
   "freelance-visa-uae-guide-2026": {
-    title: "Freelance Visa UAE – Complete Guide for Beginners (2026)",
-    metaTitle: "Freelance Visa UAE – Complete Guide for Beginners 2026",
+    title: "Freelance Visa UAE – Complete Guide for Beginners",
+    metaTitle: "Freelance Visa UAE – Complete Guide for Beginners",
     metaDescription: "Learn how to get a freelance visa in UAE. Complete guide covering requirements, process, documents, benefits, and how to start freelancing.",
     date: "April 9, 2026",
     readTime: "13 min read",

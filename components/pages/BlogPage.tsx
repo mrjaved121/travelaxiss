@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { ArrowRight, Calendar, Clock, Building2, Plane, FileText } from "lucide-react";
+import { ArrowRight, Clock, Building2, Plane, FileText } from "lucide-react";
 import { motion } from "motion/react";
 import { blogPostSummaries } from "@/components/data/blogIndex";
 
@@ -67,10 +67,6 @@ export default function BlogPage() {
                     </span>
                   </div>
                   <div className="flex items-center space-x-4 text-sm text-gray-500 mb-3">
-                    <div className="flex items-center space-x-1">
-                      <Calendar className="w-4 h-4" aria-hidden />
-                      <span>{blog.date}</span>
-                    </div>
                     <div className="flex items-center space-x-1">
                       <Clock className="w-4 h-4" aria-hidden />
                       <span>{blog.readTime}</span>
