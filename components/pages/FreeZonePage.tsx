@@ -199,7 +199,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600">
             Not sure {zone.name} is the right fit?{' '}
-            <Link href="/blog/best-freezones-uae-2026" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#1D63E0' }}>
+            <Link href="/blog/best-freezones-uae" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#1D63E0' }}>
               Compare it against every major UAE free zone
             </Link>
             {' '}or{' '}
