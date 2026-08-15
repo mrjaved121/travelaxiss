@@ -28,9 +28,9 @@ export const blogPostSummaries: BlogPostSummary[] = [
     },
     {
       id: "family-sponsorship-income-requirements-uae",
-      title: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide",
+      title: "UAE Family Visa – Requirements, Cost & Documents for Spouse, Children & Parents",
       excerpt:
-        "The minimum salary UAE sponsors need to bring over a spouse, children, or parents, which documents prove it, and the full dependent-visa checklist.",
+        "UAE family visa for a wife, husband, children, or parents: sponsor income requirements, typical cost, and the full dependent-visa document checklist.",
       date: "July 6, 2026",
       readTime: "10 min read",
       category: "UAE Visa Documentation",

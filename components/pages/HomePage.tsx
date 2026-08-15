@@ -156,6 +156,21 @@ const pakistanServices = [
   },
 ];
 
+const visaPills: { label: string; href: string }[] = [
+  { label: "UAE Visit Visa", href: "/services/uae-visit-visa" },
+  { label: "UAE Employment Visa", href: "/services/uae-employment-visa" },
+  { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
+  { label: "UAE Family Visa", href: "/blog/family-sponsorship-income-requirements-uae" },
+  { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
+  { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
+  { label: "Freelance Visa UAE", href: "/blog/freelance-visa-uae-guide" },
+  { label: "UAE Student Visa", href: "/blog/uae-student-visa-guide" },
+  { label: "UAE Domestic Worker Visa", href: "/services/uae-domestic-worker-visa" },
+  { label: "UAE Retirement Visa", href: "/services/uae-retirement-visa" },
+  { label: "UAE Document Attestation", href: "/services/attestation" },
+  { label: "Umrah Visa", href: "/services/umrah-services" },
+];
+
 const featuredDubaiAreas = dubaiAreas.slice(0, 6);
 const featuredFreeZones = freeZones.slice(0, 6);
 
@@ -245,15 +260,15 @@ export default function HomePage() {
             className="min-w-0"
           >
             <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#1D63E0" }}>
-              Business Setup &amp; Visa Consultancy
+              UAE Visa &amp; Business Setup Consultancy
             </p>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6" style={{ color: "#0F1B2D" }}>
-              Choose Travelaxis To{" "}
-              <span style={{ color: "#1D63E0" }}>Build Your Business</span>
+              Your <span style={{ color: "#1D63E0" }}>UAE Visa</span>, Handled Start to Finish
             </h1>
             <p className="text-lg mb-8 max-w-xl text-gray-600">
-              Company formation, government approvals, and legal documentation —
-              handled by a team with 11+ years of experience in the UAE.
+              Visit, employment, family, investor, and golden visa documentation, plus company
+              formation and government approvals — handled by a team with 11+ years of
+              experience in the UAE.
             </p>
             <Link
               href="/contact"
@@ -359,6 +374,33 @@ export default function HomePage() {
           </button>
         </motion.form>
       </div>
+
+      {/* Visa type pills */}
+      <section className="pt-16 pb-4 md:pt-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-sm font-semibold uppercase tracking-widest mb-5" style={{ color: "#1D63E0" }}>
+            Every UAE Visa Category, One Place
+          </p>
+          <motion.nav
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            aria-label="UAE visa categories"
+            className="flex flex-wrap justify-center gap-3"
+          >
+            {visaPills.map((pill) => (
+              <Link
+                key={pill.href}
+                href={pill.href}
+                className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all hover:opacity-80"
+                style={{ backgroundColor: "#EEF4FF", color: "#1D63E0", borderColor: "transparent" }}
+              >
+                {pill.label}
+              </Link>
+            ))}
+          </motion.nav>
+        </div>
+      </section>
 
       {/* About snapshot */}
       <section className="relative overflow-hidden py-20 md:py-28 bg-white">
