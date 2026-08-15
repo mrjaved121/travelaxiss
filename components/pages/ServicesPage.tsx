@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
@@ -89,6 +89,14 @@ const services = [
       "Visitor, Student, and Partner/Family visa documentation for Pakistani applicants, submitted through the Department of Home Affairs.",
     icon: Sun,
     link: "/services/australia-visa-from-pakistan",
+  },
+  {
+    title: "USA Visa from Pakistan",
+    category: "USA Visas",
+    description:
+      "B1/B2 visitor and F1 student visa documentation for Pakistani applicants, including DS-160 review and Embassy Islamabad interview preparation.",
+    icon: Flag,
+    link: "/services/usa-visa-from-pakistan",
   },
 ];
 
