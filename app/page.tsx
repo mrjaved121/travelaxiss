@@ -3,6 +3,7 @@ import HomePage from "@/components/pages/HomePage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { professionalServiceJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
+import { homepageFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
   title: "UAE Business Setup & Visa Documentation Support | Travelaxis Dubai",
@@ -36,7 +37,23 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <JsonLd data={professionalServiceJsonLd} />
+      <JsonLd
+        data={[
+          professionalServiceJsonLd,
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: homepageFaqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          },
+        ]}
+      />
       <HomePage />
     </>
   );

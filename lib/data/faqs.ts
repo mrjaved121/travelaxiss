@@ -132,3 +132,15 @@ export const faqItems: FaqItem[] = [
     category: "Why Choose Us",
   },
 ];
+
+const homepageFaqQuestions = [
+  "What is the cost of company formation in UAE?",
+  "Can a foreigner start a business in UAE?",
+  "Which is better: mainland or freezone company in UAE?",
+  "Can I start a business in UAE remotely?",
+  "What services does a UAE visa consultancy provide?",
+  "How long does it take to start a business in Dubai?",
+];
+
+/** Curated subset of faqItems shown on the homepage; keep in sync with the FAQPage JSON-LD in app/page.tsx. */
+export const homepageFaqs = faqItems.filter((f) => homepageFaqQuestions.includes(f.question));
