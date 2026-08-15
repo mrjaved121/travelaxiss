@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import BlogDetailPage from "@/components/pages/BlogDetailPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogData } from "@/components/data/blogContent";
+import { blogRedirects } from "@/components/data/blogRedirects";
 import { blogFaqJsonLd, blogHowToJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export function generateStaticParams() {
-  return Object.keys(blogData).map((slug) => ({ slug }));
+  const slugs = new Set([...Object.keys(blogData), ...Object.keys(blogRedirects)]);
+  return [...slugs].map((slug) => ({ slug }));
 }
 
 type Props = { params: Promise<{ slug: string }> };
@@ -17,6 +20,17 @@ const blogKeywords =
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+
+  const target = blogRedirects[slug];
+  if (target) {
+    const url = `${SITE_URL}/blog/${target}/`;
+    return {
+      title: "Redirecting…",
+      robots: { index: false, follow: true },
+      alternates: { canonical: url },
+    };
+  }
+
   const blog = blogData[slug];
   if (!blog) {
     return {
@@ -52,6 +66,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { slug } = await params;
+
+  const target = blogRedirects[slug];
+  if (target) {
+    const targetPath = `/blog/${target}/`;
+    return (
+      <>
+        <meta httpEquiv="refresh" content={`0; url=${targetPath}`} />
+        <section className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+          <p className="text-gray-600">
+            This guide has moved.{" "}
+            <Link href={targetPath} className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+              Continue to the current page
+            </Link>
+            .
+          </p>
+        </section>
+      </>
+    );
+  }
+
   const blog = blogData[slug];
   if (!blog) {
     notFound();

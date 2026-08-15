@@ -283,7 +283,7 @@ export const blogData: Record<string, any> = {
       ],
     },
   },
-  "uae-student-visa-guide-2026": {
+  "uae-student-visa-guide": {
     title: "UAE Student Visa – Requirements, Documents & Process",
     metaTitle: "UAE Student Visa – Requirements, Documents & Process",
     metaDescription:
@@ -591,9 +591,9 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide-2026" },
-            { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide-2026" },
-            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae-2026" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
+            { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide" },
+            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
           ],
         },
       ],
@@ -883,7 +883,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Student Visa – Requirements, Documents & Process", href: "/blog/uae-student-visa-guide-2026" },
+            { label: "UAE Student Visa – Requirements, Documents & Process", href: "/blog/uae-student-visa-guide" },
             { label: "UAE Job-Seeker Visa from Pakistan", href: "/blog/job-seeker-visa-from-pakistan" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
@@ -1172,7 +1172,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide-2026" },
+            { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -1447,7 +1447,7 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
-            { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai-2026" },
+            { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
           ],
         },
       ],
@@ -1722,7 +1722,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae-2026" },
+            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -2001,8 +2001,8 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide-2026" },
-            { label: "Bank Statement Requirements for UAE Visas", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide-2026" },
+            { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
+            { label: "Bank Statement Requirements for UAE Visas", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -2581,7 +2581,7 @@ export const blogData: Record<string, any> = {
       ],
     },
   },
-  "job-seeker-visa-uae-documents-guide-2026": {
+  "job-seeker-visa-uae-documents-guide": {
     title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
     metaTitle: "UAE Job Seeker Visa – Full Eligibility & Document Checklist",
     metaDescription:
@@ -2830,7 +2830,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Freelance Visa UAE", href: "/blog/freelance-visa-uae-guide-2026" },
+            { label: "Freelance Visa UAE", href: "/blog/freelance-visa-uae-guide" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -2838,7 +2838,7 @@ export const blogData: Record<string, any> = {
       ],
     },
   },
-  "business-exploration-visa-uae-guide-2026": {
+  "business-exploration-visa-uae-guide": {
     title: "UAE Visa Documentation for Exploring Business Opportunities",
     metaTitle: "UAE Visa Documentation for Exploring Business Opportunities",
     metaDescription:
@@ -3081,7 +3081,7 @@ export const blogData: Record<string, any> = {
       ],
     },
   },
-  "family-sponsorship-income-requirements-uae-2026": {
+  "family-sponsorship-income-requirements-uae": {
     title: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide",
     metaTitle: "UAE Family Visa Income Requirements – Sponsor Salary & Document Guide",
     metaDescription:
@@ -3327,7 +3327,7 @@ export const blogData: Record<string, any> = {
       ],
     },
   },
-  "visit-visa-relatives-uae-guide-2026": {
+  "visit-visa-relatives-uae-guide": {
     title: "UAE Visit Visa for Relatives – Documentation Guide",
     metaTitle: "UAE Visit Visa for Relatives – Full Documentation Guide",
     metaDescription:
@@ -3673,15 +3673,15 @@ export const blogData: Record<string, any> = {
           heading: "Related Reading",
           relatedLinks: [
             { label: "UAE Family Visa from Pakistan", href: "/blog/uae-family-visa-from-pakistan" },
-            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae-2026" },
-            { label: "UAE Visa Documentation for Exploring Business Opportunities", href: "/blog/business-exploration-visa-uae-guide-2026" },
+            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
+            { label: "UAE Visa Documentation for Exploring Business Opportunities", href: "/blog/business-exploration-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "visa-typing-center-jlt-dubai-guide-2026": {
+  "visa-typing-center-jlt-dubai-guide": {
     title: "Visa Documentation & Typing Center Support Near JLT, Dubai",
     metaTitle: "Visa Documentation & Typing Center Support Near JLT, Dubai",
     metaDescription:
@@ -3990,16 +3990,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai-2026" },
-            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide-2026" },
-            { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide-2026" },
+            { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
+            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
+            { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "fast-track-visa-document-verification-dubai-2026": {
+  "fast-track-visa-document-verification-dubai": {
     title: "Fast-Track Visa Document Verification in Dubai – What It Actually Means",
     metaTitle: "Fast-Track Visa Document Verification in Dubai – What It Actually Means",
     metaDescription:
@@ -4256,16 +4256,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide-2026" },
-            { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide-2026" },
-            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide-2026" },
+            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
+            { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "urgent-gdrfa-document-approval-guide-2026": {
+  "urgent-gdrfa-document-approval-guide": {
     title: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite",
     metaTitle: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite",
     metaDescription:
@@ -4493,16 +4493,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide-2026" },
-            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide-2026" },
-            { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide-2026" },
+            { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
+            { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "amer-center-visa-documentation-guide-2026": {
+  "amer-center-visa-documentation-guide": {
     title: "Amer Center Visa Application – Documentation Help & What to Expect",
     metaTitle: "Amer Center Visa Application – Documentation Help & What to Expect",
     metaDescription:
@@ -4821,16 +4821,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide-2026" },
-            { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide-2026" },
-            { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai-2026" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
+            { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
+            { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "software-engineer-golden-visa-uae-guide-2026": {
+  "software-engineer-golden-visa-uae-guide": {
     title:
       "Software Engineer Golden Visa UAE – Documentation & Eligibility Guide",
     metaTitle:
@@ -5067,16 +5067,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide-2026" },
-            { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide-2026" },
-            { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide-2026" },
+            { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
+            { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
+            { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "ai-specialist-golden-visa-uae-guide-2026": {
+  "ai-specialist-golden-visa-uae-guide": {
     title: "AI Specialist Golden Visa UAE – Requirements & Documents Guide",
     metaTitle:
       "AI Specialist Golden Visa UAE – Full Requirements & Documents Guide",
@@ -5324,16 +5324,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide-2026" },
-            { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide-2026" },
-            { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide-2026" },
+            { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
+            { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
+            { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "property-investor-golden-visa-uae-guide-2026": {
+  "property-investor-golden-visa-uae-guide": {
     title:
       "Property Investor Golden Visa UAE – Document & File Preparation Guide",
     metaTitle:
@@ -5559,16 +5559,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide-2026" },
-            { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide-2026" },
-            { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide-2026" },
+            { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
+            { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
+            { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "bank-statement-5-year-multiple-entry-visa-uae-guide-2026": {
+  "bank-statement-5-year-multiple-entry-visa-uae-guide": {
     title:
       "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa",
     metaTitle:
@@ -5790,16 +5790,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide-2026" },
-            { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide-2026" },
-            { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide-2026" },
+            { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
+            { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
+            { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "humanitarian-pioneers-visa-uae-documents-guide-2026": {
+  "humanitarian-pioneers-visa-uae-documents-guide": {
     title: "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents",
     metaTitle:
       "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents",
@@ -6028,16 +6028,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide-2026" },
-            { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide-2026" },
-            { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business-2026" },
+            { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
+            { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
+            { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "company-formation-uae-2026": {
+  "company-formation-uae": {
     title: "Complete Guide to Company Formation in UAE",
     metaTitle: "Complete Guide to Company Formation in UAE",
     metaDescription:
@@ -6247,7 +6247,7 @@ export const blogData: Record<string, any> = {
       ],
     },
   },
-  "start-business-dubai-2026": {
+  "start-business-dubai": {
     title: "How to Start a Business in Dubai",
     metaTitle: "How to Start a Business in Dubai",
     metaDescription:
@@ -6422,16 +6422,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae-2026" },
-            { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae-2026" },
-            { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae-2026" },
+            { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
+            { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
+            { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "business-setup-uae-foreigners-guide-2026": {
+  "business-setup-uae-foreigners-guide": {
     title: "Business Setup in UAE for Foreigners",
     metaTitle: "Business Setup in UAE for Foreigners",
     metaDescription:
@@ -6644,15 +6644,15 @@ export const blogData: Record<string, any> = {
           heading: "Related Reading",
           relatedLinks: [
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
-            { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae-2026" },
-            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae-2026" },
+            { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
+            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "start-business-uae-without-sponsor-2026": {
+  "start-business-uae-without-sponsor": {
     title:
       "How to Start a Business in UAE Without Local Sponsor",
     metaTitle:
@@ -6839,16 +6839,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide-2026" },
+            { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
-            { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae-2026" },
+            { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "documents-company-formation-uae-2026": {
+  "documents-company-formation-uae": {
     title:
       "Documents Required for Company Formation in UAE",
     metaTitle:
@@ -7078,8 +7078,8 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor-2026" },
-            { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide-2026" },
+            { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
+            { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -7087,7 +7087,7 @@ export const blogData: Record<string, any> = {
         },],
     },
   },
-  "mainland-vs-freezone-uae-2026": {
+  "mainland-vs-freezone-uae": {
     title: "Mainland vs Freezone Company in UAE – Which is Better?",
     metaTitle: "Mainland vs Freezone Company in UAE – Which is Better?",
     metaDescription:
@@ -7262,16 +7262,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae-2026" },
-            { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae-2026" },
-            { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor-2026" },
+            { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
+            { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
+            { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "best-freezones-uae-2026": {
+  "best-freezones-uae": {
     title: "Best Freezones in UAE for Business Setup",
     metaTitle: "Best Freezones in UAE for Business Setup",
     metaDescription:
@@ -7500,16 +7500,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae-2026" },
-            { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor-2026" },
-            { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide-2026" },
+            { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
+            { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
+            { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "best-business-activities-uae-2026": {
+  "best-business-activities-uae": {
     title: "Best Business Activities in UAE",
     metaTitle: "Best Business Activities in UAE",
     metaDescription:
@@ -7734,16 +7734,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae-2026" },
-            { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai-2026" },
-            { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae-2026" },
+            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
+            { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
+            { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "corporate-bank-account-uae-guide-2026": {
+  "corporate-bank-account-uae-guide": {
     title: "How to Open Corporate Bank Account in UAE",
     metaTitle: "How to Open Corporate Bank Account in UAE",
     metaDescription:
@@ -7942,16 +7942,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide-2026" },
-            { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide-2026" },
-            { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide-2026" },
+            { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
+            { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
+            { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "iso-certification-uae-guide-2026": {
+  "iso-certification-uae-guide": {
     title: "ISO Certification in UAE – Process, Types & Benefits",
     metaTitle:
       "ISO Certification in UAE – Process, Types & Benefits",
@@ -8163,16 +8163,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide-2026" },
-            { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide-2026" },
-            { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide-2026" },
+            { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
+            { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
+            { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "trademark-registration-uae-guide-2026": {
+  "trademark-registration-uae-guide": {
     title: "Trademark Registration in UAE – Complete Guide",
     metaTitle: "Trademark Registration in UAE – Complete Guide",
     metaDescription:
@@ -8375,16 +8375,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide-2026" },
-            { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide-2026" },
-            { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide-2026" },
+            { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
+            { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
+            { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "renew-trade-license-uae-guide-2026": {
+  "renew-trade-license-uae-guide": {
     title: "How to Renew Trade License in UAE",
     metaTitle: "How to Renew Trade License in UAE",
     metaDescription:
@@ -8637,16 +8637,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide-2026" },
-            { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide-2026" },
-            { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide-2026" },
+            { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
+            { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
+            { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "business-compliance-uae-guide-2026": {
+  "business-compliance-uae-guide": {
     title: "Business Compliance in UAE – What You Must Know",
     metaTitle:
       "Business Compliance in UAE – What You Must Know",
@@ -8847,16 +8847,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide-2026" },
-            { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide-2026" },
-            { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide-2026" },
+            { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
+            { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
+            { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "municipality-approval-uae-guide-2026": {
+  "municipality-approval-uae-guide": {
     title: "Municipality Approval in UAE – Complete Process Guide",
     metaTitle: "Municipality Approval in UAE – Complete Process Guide",
     metaDescription:
@@ -9080,16 +9080,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide-2026" },
-            { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide-2026" },
-            { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide-2026" },
+            { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
+            { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
+            { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "customs-registration-uae-guide-2026": {
+  "customs-registration-uae-guide": {
     title: "Customs Registration in UAE – Step-by-Step Guide",
     metaTitle: "Customs Registration in UAE – Step-by-Step Guide",
     metaDescription:
@@ -9335,16 +9335,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide-2026" },
-            { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide-2026" },
-            { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide-2026" },
+            { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
+            { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
+            { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "dubai-chamber-registration-guide-2026": {
+  "dubai-chamber-registration-guide": {
     title: "Dubai Chamber of Commerce Registration Guide",
     metaTitle: "Dubai Chamber of Commerce Registration Guide",
     metaDescription:
@@ -9689,16 +9689,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide-2026" },
-            { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide-2026" },
-            { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide-2026" },
+            { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
+            { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
+            { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "trade-license-approval-uae-guide-2026": {
+  "trade-license-approval-uae-guide": {
     title: "How to Get Trade License Approval in UAE",
     metaTitle:
       "How to Get Trade License Approval in UAE",
@@ -9958,16 +9958,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide-2026" },
-            { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide-2026" },
-            { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide-2026" },
+            { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
+            { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
+            { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "golden-visa-uae-guide-2026": {
+  "golden-visa-uae-guide": {
     title: "Golden Visa UAE – Requirements, Benefits & Complete Guide",
     metaTitle: "Golden Visa UAE – Requirements, Benefits & Complete Guide",
     metaDescription:
@@ -10187,16 +10187,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide-2026" },
-            { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business-2026" },
-            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide-2026" },
+            { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
+            { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
+            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "uae-residence-visa-through-business-2026": {
+  "uae-residence-visa-through-business": {
     title:
       "How to Get UAE Residence Visa Through Business",
     metaTitle:
@@ -10412,16 +10412,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide-2026" },
-            { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide-2026" },
-            { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide-2026" },
+            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
+            { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
+            { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "investor-visa-uae-guide-2026": {
+  "investor-visa-uae-guide": {
     title: "Investor Visa UAE – Requirements, Process & Complete Guide",
     metaTitle: "Investor Visa UAE – Requirements, Process & Complete Guide",
     metaDescription:
@@ -10676,16 +10676,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business-2026" },
-            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide-2026" },
-            { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide-2026" },
+            { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
+            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
+            { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "uae-visa-process-guide-2026": {
+  "uae-visa-process-guide": {
     title: "UAE Visa Process Explained",
     metaTitle: "UAE Visa Process Explained",
     metaDescription:
@@ -10896,27 +10896,27 @@ export const blogData: Record<string, any> = {
         {
           heading: "Category-Specific Guides",
           relatedLinks: [
-            { label: "UAE Student Visa – Requirements & Process", href: "/blog/uae-student-visa-guide-2026" },
-            { label: "UAE Job Seeker Visa – Eligibility & Documents", href: "/blog/job-seeker-visa-uae-documents-guide-2026" },
-            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae-2026" },
-            { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide-2026" },
-            { label: "Investor Visa UAE – Requirements & Process", href: "/blog/investor-visa-uae-guide-2026" },
+            { label: "UAE Student Visa – Requirements & Process", href: "/blog/uae-student-visa-guide" },
+            { label: "UAE Job Seeker Visa – Eligibility & Documents", href: "/blog/job-seeker-visa-uae-documents-guide" },
+            { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
+            { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide" },
+            { label: "Investor Visa UAE – Requirements & Process", href: "/blog/investor-visa-uae-guide" },
           ],
         },
       
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide-2026" },
-            { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai-2026" },
-            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide-2026" },
+            { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
+            { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
+            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "noon-seller-account-uae-guide-2026": {
+  "noon-seller-account-uae-guide": {
     title:
       "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
     metaTitle:
@@ -11337,16 +11337,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide-2026" },
-            { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide-2026" },
-            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae-2026" },
+            { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
+            { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
+            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
     },
   },
-  "dropshipping-business-uae-guide-2026": {
+  "dropshipping-business-uae-guide": {
     title: "Dropshipping Business in UAE – Complete Beginner Guide",
     metaTitle: "Dropshipping Business in UAE – Complete Beginner Guide",
     metaDescription: "Learn how to start a dropshipping business in UAE step by step. Complete guide covering setup, license, suppliers, and marketing.",
@@ -11605,16 +11605,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide-2026" },
-            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae-2026" },
-            { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide-2026" },
+            { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
+            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
+            { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },]
     }
   },
-  "ecommerce-license-uae-guide-2026": {
+  "ecommerce-license-uae-guide": {
     title: "E-Commerce License UAE – Complete Guide for Online Business",
     metaTitle: "E-Commerce License UAE – Complete Guide to Start Online Business in UAE",
     metaDescription: "Learn how to get an e-commerce license in UAE. Complete guide covering business setup, requirements, process, and online business strategies.",
@@ -11892,16 +11892,16 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae-2026" },
-            { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide-2026" },
-            { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide-2026" },
+            { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
+            { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
+            { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
             { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },]
     }
   },
-  "freelance-visa-uae-guide-2026": {
+  "freelance-visa-uae-guide": {
     title: "Freelance Visa UAE – Complete Guide for Beginners",
     metaTitle: "Freelance Visa UAE – Complete Guide for Beginners",
     metaDescription: "Learn how to get a freelance visa in UAE. Complete guide covering requirements, process, documents, benefits, and how to start freelancing.",
@@ -12132,9 +12132,9 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Job Seeker Visa", href: "/blog/job-seeker-visa-uae-documents-guide-2026" },
+            { label: "UAE Job Seeker Visa", href: "/blog/job-seeker-visa-uae-documents-guide" },
             { label: "UAE Work Visa Documents Required from Pakistan", href: "/blog/uae-work-visa-documents-checklist" },
-            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide-2026" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
