@@ -187,7 +187,11 @@ export default function CanadaVisaFromPakistanPage() {
               Some Canada Applications Need Attested Documents Too
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Spouse open work permit and some study permit applications may require attested marriage or educational certificates. Where they do, the same HEC/IBCC &rarr; MOFA &rarr; Embassy chain applies as with UAE documents — we can run both processes for you in parallel.
+              Spouse open work permit and some study permit applications may require attested marriage or educational certificates. Where they do, the{" "}
+              <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+                same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
+              </Link>{" "}
+              applies as with UAE documents — we can run both processes for you in parallel.
             </p>
             <Link
               href="/services/attestation"

@@ -169,8 +169,23 @@ export default function AttestationPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
               Who Needs UAE Attestation?
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed mb-4">
               UAE authorities and employers only accept Pakistani documents once they&apos;ve completed the full attestation chain. This applies whether you&apos;re moving for work, sponsoring family, studying, or registering a business.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              The same HEC/IBCC &rarr; MOFA stages are also the starting point for{" "}
+              <Link href="/services/uk-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+                UK
+              </Link>
+              ,{" "}
+              <Link href="/services/canada-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+                Canada
+              </Link>
+              , and{" "}
+              <Link href="/services/australia-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+                Australia
+              </Link>{" "}
+              visa applications from Pakistan — only the final embassy stage differs by destination.
             </p>
           </motion.div>
           <div className="flex flex-wrap gap-3 max-w-4xl">
