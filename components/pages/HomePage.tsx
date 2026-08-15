@@ -27,7 +27,17 @@ import {
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { blogPostSummaries } from "@/components/data/blogIndex";
+import { emirates } from "@/components/data/emirates";
+import { dubaiAreas } from "@/components/data/dubaiAreas";
+import { freeZones } from "@/components/data/freeZones";
+import { homepageFaqs } from "@/lib/data/faqs";
 import Testimonials from "@/components/Testimonials";
 
 const services = [
@@ -145,6 +155,9 @@ const pakistanServices = [
     link: "/services/usa-visa-from-pakistan",
   },
 ];
+
+const featuredDubaiAreas = dubaiAreas.slice(0, 6);
+const featuredFreeZones = freeZones.slice(0, 6);
 
 const stats = [
   { icon: Award, value: "11+", label: "Years of Experience" },
@@ -546,6 +559,83 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Areas & Emirates We Serve */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mb-16 max-w-2xl mx-auto"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Coverage Across the UAE
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              Areas &amp; Emirates We Serve
+            </h2>
+            <p className="text-gray-600 mt-4">
+              Business setup, government coordination, and visa documentation support across all seven emirates, Dubai&apos;s free zones, and key business districts.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="rounded-3xl bg-white border border-gray-100 shadow-sm p-6 md:p-8">
+              <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
+                Emirates
+              </h3>
+              <ul className="space-y-2 list-none p-0 m-0 mb-5">
+                {emirates.map((e) => (
+                  <li key={e.slug}>
+                    <Link href={`/emirates/${e.slug}`} className="text-sm text-gray-600 hover:text-[#1D63E0] transition-colors">
+                      {e.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/emirates" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#1D63E0" }}>
+                All Emirates We Serve <ArrowRight className="w-3.5 h-3.5" aria-hidden />
+              </Link>
+            </div>
+
+            <div className="rounded-3xl bg-white border border-gray-100 shadow-sm p-6 md:p-8">
+              <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
+                Dubai Areas
+              </h3>
+              <ul className="space-y-2 list-none p-0 m-0 mb-5">
+                {featuredDubaiAreas.map((a) => (
+                  <li key={a.slug}>
+                    <Link href={`/dubai/${a.slug}`} className="text-sm text-gray-600 hover:text-[#1D63E0] transition-colors">
+                      {a.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/dubai" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#1D63E0" }}>
+                All Dubai Areas <ArrowRight className="w-3.5 h-3.5" aria-hidden />
+              </Link>
+            </div>
+
+            <div className="rounded-3xl bg-white border border-gray-100 shadow-sm p-6 md:p-8">
+              <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
+                Free Zones
+              </h3>
+              <ul className="space-y-2 list-none p-0 m-0 mb-5">
+                {featuredFreeZones.map((z) => (
+                  <li key={z.slug}>
+                    <Link href={`/free-zones/${z.slug}`} className="text-sm text-gray-600 hover:text-[#1D63E0] transition-colors">
+                      {z.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/free-zones" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#1D63E0" }}>
+                All UAE Free Zones <ArrowRight className="w-3.5 h-3.5" aria-hidden />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Stat row with diagonal accent */}
       <section className="relative py-16 overflow-hidden bg-white">
         <div
@@ -615,6 +705,46 @@ export default function HomePage() {
       </section>
 
       <Testimonials />
+
+      {/* FAQ */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mb-12"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+              Common Questions
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+              Frequently Asked Questions
+            </h2>
+          </motion.div>
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: "#EEF4FF" }}>
+            <Accordion type="single" collapsible className="w-full">
+              {homepageFaqs.map((faq, i) => (
+                <AccordionItem key={faq.question} value={`item-${i}`} className="border-gray-200">
+                  <AccordionTrigger
+                    className="text-left text-base font-bold py-5 hover:no-underline"
+                    style={{ color: "#0F1B2D" }}
+                  >
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-600 text-base leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/faq" className="font-semibold hover:underline" style={{ color: "#1D63E0" }}>
+              See all frequently asked questions
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* CTA banner */}
       <section className="py-10 md:py-16">
