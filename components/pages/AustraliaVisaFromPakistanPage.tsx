@@ -180,7 +180,11 @@ export default function AustraliaVisaFromPakistanPage() {
               Partner and Some Student Applications Need Attested Documents Too
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Partner visa applications almost always require an attested marriage certificate, and some student visa categories request verified academic records. Where they do, the same HEC/IBCC &rarr; MOFA &rarr; Embassy chain applies as with UAE documents — we can run both processes for you in parallel.
+              Partner visa applications almost always require an attested marriage certificate, and some student visa categories request verified academic records. Where they do, the{" "}
+              <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+                same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
+              </Link>{" "}
+              applies as with UAE documents — we can run both processes for you in parallel.
             </p>
             <Link
               href="/services/attestation"
