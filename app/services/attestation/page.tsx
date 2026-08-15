@@ -8,7 +8,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "UAE Document Attestation from Pakistan (HEC, MOFA, Embassy)",
   description:
-    "Degree, marriage & experience certificate attestation for the UAE from Pakistan: the full HEC/IBCC → MOFA → Embassy → MOFAIC chain, timelines & charges. 2026 guide.",
+    "Degree, marriage & experience certificate attestation for the UAE from Pakistan: the full HEC/IBCC → MOFA → Embassy → MOFAIC chain, timelines & charges.",
   keywords: [
     "degree attestation for uae",
     "hec attestation for dubai",
