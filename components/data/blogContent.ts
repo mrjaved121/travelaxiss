@@ -272,6 +272,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "USA Visa Documentation Services from Pakistan", href: "/services/usa-visa-from-pakistan" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
             { label: "Australia Visa from Pakistan", href: "/services/australia-visa-from-pakistan" },
@@ -887,6 +888,7 @@ export const blogData: Record<string, any> = {
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
             { label: "Australia Visa from Pakistan", href: "/services/australia-visa-from-pakistan" },
+            { label: "USA Visa from Pakistan", href: "/services/usa-visa-from-pakistan" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],

@@ -23,6 +23,7 @@ import {
   Stamp,
   Snowflake,
   Sun,
+  Flag,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
@@ -136,6 +137,12 @@ const pakistanServices = [
     description: "Visitor, Student, and Partner/Family visa documentation.",
     icon: Sun,
     link: "/services/australia-visa-from-pakistan",
+  },
+  {
+    title: "USA Visa from Pakistan",
+    description: "B1/B2 visitor and F1 student visa documentation, DS-160 review, and interview prep.",
+    icon: Flag,
+    link: "/services/usa-visa-from-pakistan",
   },
 ];
 

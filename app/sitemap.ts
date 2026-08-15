@@ -26,6 +26,7 @@ const staticPaths = [
   "/services/uk-visa-from-pakistan",
   "/services/canada-visa-from-pakistan",
   "/services/australia-visa-from-pakistan",
+  "/services/usa-visa-from-pakistan",
   "/dubai",
   "/free-zones",
   "/emirates",

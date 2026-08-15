@@ -176,6 +176,11 @@ export default function Footer() {
                   Australia Visa from Pakistan
                 </Link>
               </li>
+              <li>
+                <Link href="/services/usa-visa-from-pakistan" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  USA Visa from Pakistan
+                </Link>
+              </li>
             </ul>
           </nav>
 

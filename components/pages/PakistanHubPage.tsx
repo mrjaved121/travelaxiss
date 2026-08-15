@@ -134,7 +134,7 @@ const guides: {
     description:
       "DS-160, the Embassy Islamabad interview, and B1/B2 visitor or F1 student documentation — what's in scope and what needs a US attorney.",
     icon: Flag,
-    link: "/blog/usa-visa-from-pakistan",
+    link: "/services/usa-visa-from-pakistan",
   },
 ];
 
