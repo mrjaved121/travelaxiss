@@ -51,10 +51,10 @@ export const professionalServiceJsonLd = {
     latitude: "25.2048",
     longitude: "55.2708",
   },
-  areaServed: {
-    "@type": "Country",
-    name: "United Arab Emirates",
-  },
+  areaServed: [
+    { "@type": "Country", name: "United Arab Emirates" },
+    { "@type": "Country", name: "Pakistan" },
+  ],
   priceRange: "$$",
   openingHoursSpecification: [
     {
@@ -71,6 +71,35 @@ export const professionalServiceJsonLd = {
     },
   ],
   ...realReviews,
+};
+
+/**
+ * Pakistan office as a branch LocalBusiness, linked to the main Dubai
+ * ProfessionalService via branchOf. No separate PK phone line exists yet —
+ * reuses the same UAE contact number rather than inventing a +92 one.
+ */
+export const pakistanOfficeJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}/#pakistan-office`,
+  name: "Travelaxis — Pakistan Office",
+  branchOf: {
+    "@type": "ProfessionalService",
+    "@id": `${SITE_URL}/#organization`,
+    name: "Travelaxis",
+  },
+  telephone: "+971589867555",
+  email: "info@travelaxis.me",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "DHA Phase 8",
+    addressLocality: "Lahore",
+    addressCountry: "PK",
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Pakistan",
+  },
 };
 
 /** Reusable breadcrumb trail for any non-home page. `path` should include a leading slash, e.g. "/services/visa-services". */

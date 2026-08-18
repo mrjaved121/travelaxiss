@@ -204,7 +204,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#60A5FA" }} aria-hidden />
-                <span className="text-gray-400 text-sm">Dubai, UAE</span>
+                <span className="text-gray-400 text-sm">Al Qusais, Dubai, UAE</span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#60A5FA" }} aria-hidden />
+                <span className="text-gray-400 text-sm">DHA Phase 8, Lahore, Pakistan</span>
               </li>
             </ul>
           </div>
