@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ContactPage from "@/components/pages/ContactPage";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbJsonLd } from "@/lib/seo/schema";
+import { breadcrumbJsonLd, professionalServiceJsonLd, pakistanOfficeJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
@@ -31,7 +31,13 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd([{ name: "Contact", path: "/contact" }])} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([{ name: "Contact", path: "/contact" }]),
+          professionalServiceJsonLd,
+          pakistanOfficeJsonLd,
+        ]}
+      />
       <ContactPage />
     </>
   );

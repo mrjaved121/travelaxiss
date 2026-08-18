@@ -170,7 +170,7 @@ export default function PakistanHubPage() {
               Visa &amp; Business Services for Clients <span style={{ color: "#1D63E0" }}>in Pakistan</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Travelaxis is a Dubai-based consultancy supporting Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK, Canada, and Australia. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
+              Travelaxis supports Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK, Canada, and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
             </p>
           </motion.div>
         </div>

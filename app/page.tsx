@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import HomePage from "@/components/pages/HomePage";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { professionalServiceJsonLd } from "@/lib/seo/schema";
+import { professionalServiceJsonLd, pakistanOfficeJsonLd } from "@/lib/seo/schema";
 import { SITE_URL } from "@/lib/seo/site";
 import { homepageFaqs } from "@/lib/data/faqs";
 
@@ -43,6 +43,7 @@ export default function Page() {
       <JsonLd
         data={[
           professionalServiceJsonLd,
+          pakistanOfficeJsonLd,
           {
             "@context": "https://schema.org",
             "@type": "FAQPage",

@@ -141,8 +141,19 @@ export default function ContactPage() {
                     <MapPin className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1" style={{ color: '#0F1B2D' }}>Address</h3>
+                    <h3 className="font-semibold mb-1" style={{ color: '#0F1B2D' }}>Dubai Office</h3>
                     <p className="text-gray-600">Al Qusais, Dubai, United Arab Emirates</p>
+                    <p className="text-gray-600">Visit by appointment</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                    <MapPin className="w-6 h-6" style={{ color: '#FFFFFF' }} />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold mb-1" style={{ color: '#0F1B2D' }}>Lahore Office</h3>
+                    <p className="text-gray-600">DHA Phase 8, Lahore, Pakistan</p>
                     <p className="text-gray-600">Visit by appointment</p>
                   </div>
                 </div>
