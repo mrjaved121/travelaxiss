@@ -71,8 +71,7 @@ export default function WhyBusinessPage() {
             <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt=""
-              role="presentation"
+              alt="Why choose UAE and Dubai for business setup and residency"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"

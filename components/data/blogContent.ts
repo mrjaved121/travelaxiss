@@ -5,6 +5,580 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uae-visa-ban-status-check-guide": {
+    title: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
+    metaTitle: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
+    metaDescription:
+      "How to check a UAE visa ban status by passport number, check your visa expiry date, and what a file number actually is — official channels only, no third-party lookup tools.",
+    date: "August 20, 2026",
+    readTime: "11 min read",
+    category: "UAE Visa Documentation",
+    content: {
+      intro:
+        "Three of the most common UAE visa questions — is there a ban on my file, when does my visa expire, and what is this 'file number' on my documents — all get answered through the same official channels: ICP's federal smart services and, for Dubai specifically, GDRFA's smart services. This guide explains what each of these actually means and how to check them properly, since third-party 'visa check' websites that ask for your passport details are a real risk worth avoiding. Travelaxis is a documentation consultancy, not GDRFA or ICP — we help you understand and act on what a status check shows, but the check itself always happens through the official government channel.",
+      sections: [
+        {
+          heading: "What a UAE Visa Ban Actually Is",
+          content:
+            "A UAE immigration ban is a restriction placed on a person's file by GDRFA (Dubai) or ICP (federally) that prevents a new visa or entry permit from being issued until the ban is lifted or expires. It's separate from a visa being simply expired or cancelled — a ban is an active restriction, not just an absence of valid status. Bans vary in duration and severity depending on what triggered them, from a fixed period of months or years to, for the most serious cases, an indefinite restriction.",
+        },
+        {
+          heading: "Common Reasons a Ban Gets Issued",
+          subsections: [
+            {
+              title: "Employment-Related",
+              items: [
+                "Absconding — leaving a job without formal resignation or notifying the employer, reported by the employer to MOHRE/GDRFA",
+                "Serious labor violations on either the employee's or employer's side",
+                "Working without a valid labor card or on a visa that doesn't authorize the specific role",
+              ],
+            },
+            {
+              title: "Overstay and Status-Related",
+              items: [
+                "Overstaying a visa's validity without settling the resulting fines",
+                "Not leaving the UAE within the grace period after a visa is cancelled",
+                "Repeated visa violations across multiple entries",
+              ],
+            },
+            {
+              title: "Legal and Financial",
+              items: [
+                "Certain criminal convictions or security-related concerns",
+                "Unresolved bounced-cheque cases or other financial disputes that reached a legal judgment",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How to Check a Ban Status by Passport Number",
+          content:
+            "The reliable way to check whether a ban exists on a file is through ICP's official smart services (federal) or GDRFA's smart services (Dubai specifically), using the passport number and nationality — these are the same authorities that would have issued the ban in the first place, so they're the only source that reflects the actual current status. Be cautious of third-party websites offering a 'UAE visa ban check' — entering passport and personal details into an unofficial site is a real data-privacy risk, and the result isn't authoritative even when accurate. If you're unsure which authority's channel applies to your case, a licensed typing center or consultant can point you to the right one and help interpret what the result actually means for your situation.",
+        },
+        {
+          heading: "How to Check Your UAE Visa Expiry Date",
+          content:
+            "Visa and Emirates ID expiry dates are checked the same way — through ICP's or GDRFA's official smart services, using your passport number, Emirates ID number, or Unified Number (UID), depending on which portal and status type you're checking. Your physical Emirates ID also shows its own expiry date directly, though your underlying residence visa's expiry can differ slightly from the ID card's expiry in some cases, so checking both independently is worth doing if you're planning travel or a renewal around a specific date rather than assuming they're identical.",
+        },
+        {
+          heading: "What a 'File Number' Actually Means",
+          content:
+            "The file number is a case or application reference tied to your specific visa or residency file with the issuing authority, printed on entry permits and residency-related documents — it's what a typing center or consultant uses to look up or track a specific application, distinct from your passport number, Emirates ID number, and Unified Number (UID), which are separate identifiers that serve different purposes. The UID in particular is worth knowing about separately: it's a federal reference number assigned to you that generally stays consistent across visa renewals and changes, unlike a file number, which can be specific to a particular application or transaction.",
+        },
+        {
+          heading: "Visa Number, File Number, and UID — What's the Difference",
+          columnCompare: {
+            left: {
+              title: "File / Application Number",
+              items: [
+                "Tied to a specific visa application or transaction",
+                "Used by typing centers and consultants to track a case",
+                "Can change between separate applications or renewals",
+              ],
+            },
+            right: {
+              title: "Unified Number (UID)",
+              items: [
+                "A federal reference number assigned to you personally",
+                "Generally stays consistent across renewals and visa changes",
+                "Referenced on Emirates ID and residency documentation",
+              ],
+            },
+          },
+        },
+        {
+          heading: "If You Discover You Have a Ban",
+          subsections: [
+            {
+              title: "What to Do Next",
+              items: [
+                "Confirm the exact reason and duration directly with GDRFA or ICP — don't rely on secondhand explanations from a previous employer or agent",
+                "For labor-related bans, check whether the case is still open with MOHRE, since resolution there can affect the immigration ban separately",
+                "Ask whether the ban has a fixed expiry or requires a specific action (settling a fine, resolving a case) before it lifts",
+                "Get this in writing or via an official reference number before making new travel or employment plans around it",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Why Third-Party 'Visa Check' Websites Are Risky",
+          content:
+            "Unofficial websites offering instant UAE visa or ban checks are common, and some produce plausible-looking results, but they aren't the authoritative source and asking you to submit a passport number and personal details to an unverified site carries real privacy risk regardless of whether the result turns out accurate. The official ICP and GDRFA smart services are free to use directly, so there's rarely a good reason to route this specific check through a third party — if a site is charging a fee specifically for a status check, that's worth treating as a red flag rather than a convenience.",
+        },
+        {
+          heading: "How Travelaxis Supports This",
+          content:
+            "We help clients understand what a ban, expiry date, or file reference actually means for their specific situation, and where relevant, help organize the documentation needed to resolve a ban or complete a renewal. The status check itself is always performed directly through ICP's or GDRFA's official channels — we don't have a separate database or shortcut, and we'd be cautious of anyone who claims to.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Can I check a UAE visa ban using just a passport number?",
+              answer:
+                "Yes — ICP's and GDRFA's official smart services generally let you check using passport number and nationality, which is the reliable, authoritative way to do this rather than through a third-party website.",
+            },
+            {
+              question: "How long does a UAE visa ban typically last?",
+              answer:
+                "It varies significantly by cause and severity — some bans are fixed at a set number of months or years, others require a specific resolution before they lift, and the most serious cases can be indefinite. Confirm the specific duration and requirement directly with the issuing authority.",
+            },
+            {
+              question: "Is a visa ban the same as a visa being expired?",
+              answer:
+                "No — an expired visa simply means your status has lapsed, while a ban is an active restriction preventing a new visa or entry from being issued, and the two require different resolutions.",
+            },
+            {
+              question: "What's the difference between a file number and a UID?",
+              answer:
+                "A file number is tied to a specific application or transaction and can change between renewals; your Unified Number (UID) is a personal federal reference number that generally stays consistent across visa changes.",
+            },
+            {
+              question: "Can my employer ban me from working in the UAE again?",
+              answer:
+                "Bans are issued by GDRFA or ICP based on specific triggers like absconding reports, not arbitrarily by an employer directly — current UAE labor reforms have also narrowed how easily an employer-side dispute alone results in an immigration ban, but confirm your specific case with the relevant authority.",
+            },
+            {
+              question: "Is it safe to use a third-party website to check my visa status?",
+              answer:
+                "We'd recommend against it — official ICP and GDRFA channels are free and authoritative, and submitting passport details to an unverified third-party site carries real privacy risk without a clear benefit.",
+            },
+            {
+              question: "Does my Emirates ID expiry date always match my visa expiry date?",
+              answer:
+                "They're usually aligned but can differ slightly in some cases, so it's worth checking both independently rather than assuming one confirms the other, particularly before booking travel or starting a renewal.",
+            },
+            {
+              question: "Can Travelaxis remove a ban from my file?",
+              answer:
+                "No — bans are lifted only by the issuing authority (GDRFA or ICP) once the underlying condition is resolved. We can help you understand the situation and organize any documentation needed, but we don't control or expedite the authority's decision.",
+            },
+            {
+              question: "What should I check before applying for a new UAE visa if I've had immigration issues before?",
+              answer:
+                "Check your current ban and file status directly through official channels before submitting a new application — applying while an unresolved ban is active typically wastes the application fee and adds delay rather than resolving anything.",
+            },
+            {
+              question: "Where do I find my file number if I've lost my documents?",
+              answer:
+                "A licensed typing center or consultant can often help you look up your file reference using other identifying details (passport number, Emirates ID, or UID) even without the original document in hand.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Visa Documentation Services", href: "/" },
+            { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
+            { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
+          ],
+        },
+      ],
+    },
+  },
+  "how-to-cancel-employment-visa-uae": {
+    title: "How to Cancel an Employment Visa in the UAE (2026 Guide)",
+    metaTitle: "How to Cancel an Employment Visa in the UAE (2026 Guide)",
+    metaDescription:
+      "How UAE employment visa cancellation actually works: who initiates it, the MOHRE/GDRFA steps, the grace period to leave or switch status, and common mistakes that cause fines.",
+    date: "August 20, 2026",
+    readTime: "10 min read",
+    category: "UAE Visa Documentation",
+    content: {
+      intro:
+        "Cancelling a UAE employment visa is normally initiated by the employer, not the employee directly, since the employer is the sponsor on record — but what happens next, and how much control the employee actually has over timing, is where most confusion comes from. This guide covers how cancellation works, the grace period that follows, and what to do if you want to switch employers or leave the country cleanly instead of running into fines or a ban. Travelaxis is a documentation consultancy — we help you understand the process and organize supporting paperwork; cancellation itself is processed by the employer through MOHRE and GDRFA/ICP, not by us.",
+      sections: [
+        {
+          heading: "Who Actually Cancels an Employment Visa",
+          content:
+            "Because your employer is the sponsor of your employment residence visa, they're the party that formally initiates cancellation through MOHRE (for the labor contract) and GDRFA or ICP (for the residence visa itself) — an employee generally can't cancel their own employer-sponsored visa unilaterally. If you resign, the standard expectation is that your employer processes the cancellation as part of offboarding; if they're delaying or refusing without a valid reason, that's a labor dispute worth raising with MOHRE directly rather than waiting indefinitely.",
+        },
+        {
+          heading: "The Cancellation Process, Step by Step",
+          subsections: [
+            {
+              title: "Step 1: Resignation or Contract End",
+              content:
+                "The process typically starts with formal resignation (per your contract's notice terms) or the natural end of a fixed-term contract — this is the trigger your employer needs to begin cancellation.",
+            },
+            {
+              title: "Step 2: Labor Contract Cancellation via MOHRE",
+              content:
+                "Your employer cancels the registered labor contract through MOHRE's system, which is a separate step from the immigration-side visa cancellation that follows.",
+            },
+            {
+              title: "Step 3: Residence Visa Cancellation via GDRFA/ICP",
+              content:
+                "Once the labor side is cancelled, the residence visa itself is cancelled through GDRFA (Dubai) or ICP (federally), which triggers your grace period countdown.",
+            },
+            {
+              title: "Step 4: Grace Period Begins",
+              content:
+                "From cancellation, you generally have a defined grace period (commonly cited around 30 days, though this can vary by case) to either leave the UAE, secure a new employer-sponsored visa, or switch to another valid status.",
+            },
+            {
+              title: "Step 5: Exit or Status Change",
+              content:
+                "Before the grace period ends, either exit the country or complete your new visa's entry permit/status-change process — letting the grace period lapse without action is what typically triggers overstay fines.",
+            },
+          ],
+        },
+        {
+          heading: "The Grace Period: What You Can and Can't Do",
+          content:
+            "The grace period exists specifically to give you time to regularize your status, not as extra time to keep working — continuing to work for your former employer, or a new one, during the grace period without a valid new work authorization is a violation even though you're still legally present in the country. If you have a new job lined up, your new employer generally needs to initiate your new visa process during or shortly after this window; if you're leaving the UAE, book your exit before the grace period expires rather than assuming a few extra days won't matter.",
+        },
+        {
+          heading: "Switching Employers Without Leaving the UAE",
+          content:
+            "In many cases, a status change to a new employer-sponsored visa can be processed without exiting the country, provided the new employer initiates the process and your file doesn't have complications (an active ban, an unresolved labor dispute, or a visa category that doesn't permit in-country status change). This is usually more efficient than exiting and re-entering, but it depends on both your current visa category and your new employer moving quickly enough within the grace period — confirm feasibility for your specific situation before assuming an in-country switch will be smooth.",
+        },
+        {
+          heading: "Costs and Who Typically Pays",
+          content:
+            "Visa cancellation itself is generally the employer's administrative responsibility and cost, consistent with them being the original sponsor — an employee generally shouldn't be asked to personally cover standard cancellation fees, though costs tied to a personal choice (like switching to a different visa category or a dependent visa) may fall to the individual. If an employer asks you to pay standard cancellation costs, it's worth clarifying this directly, since it's not the typical arrangement.",
+        },
+        {
+          heading: "Common Mistakes That Lead to Fines or Bans",
+          subsections: [
+            {
+              title: "Issues to Avoid",
+              items: [
+                "Letting the grace period lapse without exiting or securing new status",
+                "Continuing to work informally during the grace period without valid authorization",
+                "Assuming resignation alone cancels your visa — it doesn't, until your employer processes it",
+                "Not confirming your new employer has actually initiated your next visa in time",
+                "Leaving the UAE without confirming your visa was properly cancelled first, which can cause complications on your next entry",
+                "Ignoring an unresolved labor dispute that's quietly delaying your cancellation",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "If Your Employer Won't Cancel Your Visa",
+          content:
+            "An employer refusing or indefinitely delaying cancellation without valid grounds is a labor dispute, not something you have to simply wait out — MOHRE has a formal complaint process for exactly this situation, and raising it early is generally more effective than waiting and hoping it resolves. Document your resignation date, notice given, and any communication about the delay, since that record matters if the dispute needs to go through MOHRE's formal process.",
+        },
+        {
+          heading: "How Travelaxis Supports This",
+          content:
+            "We help departing or transitioning employees understand the cancellation timeline, organize supporting documents for a status change or new visa application, and clarify what the grace period does and doesn't allow. The cancellation itself — and resolving any employer-side delay — goes through MOHRE and GDRFA/ICP directly, not through us.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Can I cancel my own employment visa without my employer?",
+              answer:
+                "Generally no — your employer is the sponsor on record and initiates cancellation through MOHRE and GDRFA/ICP. If they're delaying without valid reason, that's a labor dispute to raise with MOHRE directly.",
+            },
+            {
+              question: "How long is the grace period after visa cancellation?",
+              answer:
+                "It's commonly cited around 30 days, though this can vary by case — confirm your specific grace period directly with GDRFA/ICP rather than assuming a fixed number applies universally.",
+            },
+            {
+              question: "Can I work during my grace period?",
+              answer:
+                "Not without valid new work authorization — the grace period is time to regularize your status, not extra time to keep working informally, and doing so is a violation even though you're still legally present.",
+            },
+            {
+              question: "Can I switch to a new employer without leaving the UAE?",
+              answer:
+                "Often yes, if your new employer initiates the process during your grace period and your file has no complications — but this depends on your specific visa category and timing, so confirm feasibility early.",
+            },
+            {
+              question: "Who pays for visa cancellation, me or my employer?",
+              answer:
+                "Standard cancellation is generally the employer's administrative cost as the sponsor — if you're asked to personally cover it, it's worth clarifying, since that's not the typical arrangement.",
+            },
+            {
+              question: "What happens if I let the grace period expire without acting?",
+              answer:
+                "This typically triggers overstay fines that accumulate daily, and can complicate future UAE visa applications — exit or complete your status change before the grace period ends rather than risk it.",
+            },
+            {
+              question: "Does resigning automatically cancel my visa?",
+              answer:
+                "No — resignation starts the process, but your visa remains active until your employer formally processes the cancellation through MOHRE and GDRFA/ICP.",
+            },
+            {
+              question: "What if my employer refuses to cancel my visa?",
+              answer:
+                "This is a labor dispute you can raise with MOHRE directly — document your resignation and any delay-related communication, since that record supports a formal complaint if needed.",
+            },
+            {
+              question: "Can Travelaxis cancel my visa for me?",
+              answer:
+                "No — cancellation is processed by your employer through MOHRE and GDRFA/ICP. We help you understand the process and prepare supporting documentation, but we don't initiate the cancellation itself.",
+            },
+            {
+              question: "Should I confirm my visa was cancelled before leaving the UAE?",
+              answer:
+                "Yes — leaving without confirming proper cancellation can cause complications on a future entry, so it's worth verifying the cancellation is complete rather than assuming it processed correctly.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Visa Consultancy", href: "/" },
+            { label: "UAE Visa Ban & Status Check", href: "/blog/uae-visa-ban-status-check-guide" },
+            { label: "UAE Employment & Labour Visa", href: "/services/uae-employment-visa" },
+            { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
+          ],
+        },
+      ],
+    },
+  },
+  "uae-visa-photo-size-requirements": {
+    title: "UAE Visa Photo Size & Requirements (2026)",
+    metaTitle: "UAE Visa Photo Size & Requirements (2026)",
+    metaDescription:
+      "UAE visa photo specifications: size, background, and common reasons photos get rejected — plus why confirming exact requirements with your specific application channel matters.",
+    date: "August 20, 2026",
+    readTime: "6 min read",
+    category: "UAE Visa Documentation",
+    content: {
+      intro:
+        "UAE visa and Emirates ID photos follow a passport-style specification — plain white background, forward-facing, no headwear except for religious reasons — with a size commonly cited around 4.3cm x 5.5cm (43mm x 55mm). Exact pixel or file-size requirements can vary slightly by application channel (ICP's online system, a typing center, or a specific free zone or visa category), so confirm current specifications with whichever channel you're actually submitting through before finalizing your photo. This is general guidance, not a substitute for the exact specification shown at your submission point.",
+      sections: [
+        {
+          heading: "Standard UAE Visa Photo Specifications",
+          subsections: [
+            {
+              title: "Common Requirements",
+              items: [
+                "Plain white or light-colored background, no patterns or shadows",
+                "Size commonly cited around 4.3cm x 5.5cm (43mm x 55mm)",
+                "Recent photo, generally taken within the last six months",
+                "Forward-facing, neutral expression, both eyes clearly visible",
+                "No headwear except for religious reasons, and even then the full face must remain visible",
+                "No glasses with tinted or glare-producing lenses",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Why Exact Specs Vary by Channel",
+          content:
+            "ICP's online smart services, a physical typing center, and certain free zones or visa categories don't always enforce identical pixel dimensions or file-size limits for digital uploads, even though the general passport-style standard (white background, forward-facing) stays consistent across all of them. If you're uploading digitally, check the specific file format and size limit shown on that exact portal rather than assuming a generic photo will be accepted everywhere — a photo that passes for one application can be rejected on a different portal over a technical spec like file size or resolution.",
+        },
+        {
+          heading: "Common Reasons Photos Get Rejected",
+          subsections: [
+            {
+              title: "What Causes Rejection",
+              items: [
+                "Background isn't plain white or has visible shadows",
+                "Photo is more than six months old or doesn't clearly resemble the applicant currently",
+                "Glasses causing glare, or tinted lenses obscuring the eyes",
+                "Headwear that isn't religious, or religious headwear that obscures part of the face",
+                "Photo is cropped incorrectly or doesn't meet the exact size specification",
+                "Low resolution or visible compression artifacts on digital uploads",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Where to Get a Compliant Photo Taken",
+          content:
+            "Most typing centers and photo studios near visa processing centers are familiar with current UAE visa photo specifications and can produce a compliant photo on the spot, which is generally the most reliable route if you're unsure about getting the specification exactly right yourself. If you're applying from outside the UAE — including Pakistani applicants preparing documents before travel — any professional photo studio can produce a passport-style white-background photo to the specification, though it's worth double-checking the exact size against your specific application channel's current requirement before submission.",
+        },
+        {
+          heading: "How Travelaxis Supports This",
+          content:
+            "As part of preparing a complete application file, we help confirm the current photo specification for your specific visa category and submission channel, and flag anything in an existing photo that's likely to cause rejection before you submit. We don't take the photo itself — that's done at a studio or typing center — but catching a spec issue before submission is often faster than a resubmission cycle.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What is the standard UAE visa photo size?",
+              answer:
+                "Commonly cited around 4.3cm x 5.5cm (43mm x 55mm), though exact requirements can vary slightly by application channel — confirm the specific size shown at your submission point.",
+            },
+            {
+              question: "Can I use an old passport photo for my UAE visa?",
+              answer:
+                "Generally no if it's older than about six months or no longer clearly resembles you — a recent photo is typically required.",
+            },
+            {
+              question: "Can I wear glasses in my UAE visa photo?",
+              answer:
+                "Usually yes, as long as the lenses aren't tinted and don't cause glare that obscures your eyes — if in doubt, a photo without glasses avoids the risk entirely.",
+            },
+            {
+              question: "Is religious headwear allowed in UAE visa photos?",
+              answer:
+                "Yes, religious headwear is generally permitted, but the full face must remain clearly visible for identification purposes.",
+            },
+            {
+              question: "Do digital photo uploads have different requirements than printed photos?",
+              answer:
+                "Often yes — digital uploads may have specific file format, resolution, or file-size limits that don't apply to a printed photo, so check the exact digital specification for your submission portal.",
+            },
+            {
+              question: "What's the most common reason UAE visa photos get rejected?",
+              answer:
+                "A background that isn't plain white, or a photo that's outdated or doesn't clearly resemble the applicant currently — both are avoidable with a fresh, professionally taken passport-style photo.",
+            },
+            {
+              question: "Can I take my own UAE visa photo at home?",
+              answer:
+                "It's possible if you can meet the white-background and sizing requirements precisely, but a typing center or photo studio familiar with current specs is generally more reliable and avoids a rejected submission.",
+            },
+            {
+              question: "Does Travelaxis provide visa photos as part of document preparation?",
+              answer:
+                "We help confirm the current specification for your case and flag issues with an existing photo, but the photo itself is taken at a studio or typing center, not by us.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Travel Visa UAE", href: "/" },
+            { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
+            { label: "Visa Documentation & Typing Center Support", href: "/blog/visa-typing-center-jlt-dubai-guide" },
+            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
+          ],
+        },
+      ],
+    },
+  },
+  "uae-work-visa-age-limit": {
+    title: "UAE Work Visa Age Limit – What Actually Applies (2026)",
+    metaTitle: "UAE Work Visa Age Limit – What Actually Applies (2026)",
+    metaDescription:
+      "Is there a maximum or minimum age for a UAE employment visa? How age limits actually work by category, what changes after 60, and what employers and applicants should confirm.",
+    date: "August 20, 2026",
+    readTime: "8 min read",
+    category: "UAE Visa Documentation",
+    content: {
+      intro:
+        "There's no single, universal age cutoff that blocks a UAE employment visa outright — but age does affect the process in specific, real ways: a minimum working age applies, and additional requirements commonly apply to older applicants, particularly past 60, depending on role, free zone, and current medical-testing rules. This guide covers what actually changes with age rather than repeating a specific number as if it applies uniformly to every category, since it doesn't. Confirm current age-related requirements for your specific case with your employer, free zone, or a licensed consultant, since these are periodically revised.",
+      sections: [
+        {
+          heading: "Is There a Minimum Age for a UAE Work Visa?",
+          content:
+            "Yes — UAE labor law sets a minimum working age (18 years for standard employment), consistent with international norms, so a standard employment visa isn't available to minors regardless of employer willingness. This applies uniformly across mainland and free zone employment.",
+        },
+        {
+          heading: "Is There a Maximum Age? It Depends on the Category",
+          content:
+            "There isn't a flat maximum age that blocks employment visas across the board, but additional conditions commonly apply once an applicant is past a certain age threshold — often cited around 60 — particularly for mainland employment, where extra approvals, higher medical or insurance requirements, or renewal-specific conditions can apply. Free zones and some specific roles handle this differently, with some having their own age-related policies distinct from mainland rules. Golden Visa and investor categories, by contrast, generally don't carry the same age-related employment restrictions since they aren't tied to a specific employer sponsorship in the same way.",
+        },
+        {
+          heading: "What Commonly Changes Past Age 60",
+          subsections: [
+            {
+              title: "What to Expect",
+              items: [
+                "Additional medical fitness testing requirements in some cases",
+                "Possible additional approval steps for mainland employment specifically",
+                "Some free zones apply their own age-related conditions on visa issuance or renewal",
+                "Health insurance premiums are commonly higher for older applicants, which affects overall visa cost even where eligibility itself isn't blocked",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Golden Visa and Retirement Visa as Alternatives",
+          content:
+            "For applicants past standard working age who don't want to rely on employer-sponsored status, the UAE Retirement Visa and Golden Visa categories are generally more relevant than a standard employment visa — the Retirement Visa is specifically built around age and financial criteria rather than active employment, and Golden Visa categories (property investment, business investment) don't depend on age in the same way employment sponsorship does. If ongoing employer sponsorship at an older age looks complicated for your specific case, it's worth evaluating whether one of these alternative categories actually fits your situation better than pushing through a standard employment visa.",
+        },
+        {
+          heading: "What Employers Should Confirm Before Sponsoring an Older Applicant",
+          subsections: [
+            {
+              title: "Employer-Side Checklist",
+              items: [
+                "Whether the specific role and jurisdiction (mainland vs free zone) has an age-related approval step",
+                "Current medical fitness testing requirements for the applicant's age bracket",
+                "Health insurance cost implications for the specific age group",
+                "Whether the employment contract type affects any age-related conditions",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Common Misunderstandings About Age and UAE Visas",
+          subsections: [
+            {
+              title: "What's Often Assumed Incorrectly",
+              items: [
+                "That there's a single hard cutoff age that blocks all employment visas — there isn't; it varies by category and jurisdiction",
+                "That free zones and mainland apply identical age-related rules — they often don't",
+                "That the Retirement Visa is the only option past a certain age — Golden Visa categories can also apply, depending on your situation",
+                "That age-related conditions never change — they're periodically revised, so a rule from a few years ago may no longer be current",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis Supports This",
+          content:
+            "We help employers and applicants confirm current age-related requirements for a specific role, jurisdiction, and visa category, and evaluate whether an employment visa, Golden Visa, or Retirement Visa actually fits an applicant's situation best. Final eligibility and approval rest with MOHRE, the relevant free zone authority, and GDRFA/ICP, not with us.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What is the minimum age for a UAE work visa?",
+              answer:
+                "18 years, consistent with UAE labor law's minimum working age, applying across mainland and free zone employment.",
+            },
+            {
+              question: "Is there a maximum age for a UAE employment visa?",
+              answer:
+                "Not a single flat cutoff — but additional conditions commonly apply past around age 60, particularly for mainland employment, varying by role and jurisdiction. Confirm current rules for your specific case.",
+            },
+            {
+              question: "Do free zones have the same age rules as mainland UAE?",
+              answer:
+                "Not necessarily — some free zones apply their own age-related conditions on visa issuance or renewal, distinct from mainland requirements, so check the specific free zone's current policy.",
+            },
+            {
+              question: "What should someone over 60 consider instead of a standard work visa?",
+              answer:
+                "The UAE Retirement Visa (built around age and financial criteria) or Golden Visa categories (property or business investment) are often more relevant alternatives to relying on employer sponsorship at an older age.",
+            },
+            {
+              question: "Does age affect UAE visa health insurance costs?",
+              answer:
+                "Yes — premiums are commonly higher for older applicants, which affects overall visa cost even in cases where age doesn't block eligibility itself.",
+            },
+            {
+              question: "Are Golden Visa categories affected by age limits?",
+              answer:
+                "Generally no in the same way employment sponsorship is, since Golden Visa categories like property or business investment aren't tied to a specific employer relationship.",
+            },
+            {
+              question: "Can an employer refuse to sponsor someone for being 'too old'?",
+              answer:
+                "Age-related visa conditions come from the relevant authority's rules, not employer discretion alone — if a sponsorship is genuinely blocked, it's worth confirming the actual regulatory reason rather than assuming it's arbitrary.",
+            },
+            {
+              question: "Do age-related visa rules change often?",
+              answer:
+                "They're periodically revised, so a rule you heard about a few years ago may not reflect the current requirement — always confirm current specifics before making decisions around it.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Business Setup & Visa Support", href: "/" },
+            { label: "UAE Employment & Labour Visa", href: "/services/uae-employment-visa" },
+            { label: "UAE Retirement Visa", href: "/services/uae-retirement-visa" },
+            { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide" },
+          ],
+        },
+      ],
+    },
+  },
   "usa-visa-from-pakistan": {
     title: "USA Visa from Pakistan – Documents & Process Guide",
     metaTitle: "USA Visa from Pakistan – Documents & Process Guide",
@@ -272,6 +846,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Agents", href: "/" },
             { label: "USA Visa Documentation Services from Pakistan", href: "/services/usa-visa-from-pakistan" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
@@ -591,6 +1166,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Services", href: "/" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
@@ -883,6 +1459,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Business Setup Consultancy", href: "/" },
             { label: "UAE Student Visa – Requirements, Documents & Process", href: "/blog/uae-student-visa-guide" },
             { label: "UAE Job-Seeker Visa from Pakistan", href: "/blog/job-seeker-visa-from-pakistan" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
@@ -1172,6 +1749,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Company Formation Services", href: "/" },
             { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -1445,6 +2023,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Documentation & Business Setup", href: "/" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
             { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
@@ -1722,6 +2301,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Visa Application Support UAE", href: "/" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -2001,6 +2581,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Price & Documentation", href: "/" },
             { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
             { label: "Bank Statement Requirements for UAE Visas", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -2310,6 +2891,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Business Consultancy UAE", href: "/" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "Dubai Work Visa Price from Pakistan", href: "/blog/dubai-work-visa-price-from-pakistan" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -2573,6 +3155,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Rules & Documentation", href: "/" },
             { label: "UAE Work Visa Documents Required from Pakistan", href: "/blog/uae-work-visa-documents-checklist" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -2830,6 +3413,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Freezone Company Setup UAE", href: "/" },
             { label: "Freelance Visa UAE", href: "/blog/freelance-visa-uae-guide" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -3074,6 +3658,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Mainland Company Formation Dubai", href: "/" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -3320,6 +3905,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Business Services", href: "/" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -3672,6 +4258,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Visa Sponsorship Documentation UAE", href: "/" },
             { label: "UAE Family Visa from Pakistan", href: "/blog/uae-family-visa-from-pakistan" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Visa Documentation for Exploring Business Opportunities", href: "/blog/business-exploration-visa-uae-guide" },
@@ -3990,6 +4577,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Online Documentation", href: "/" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
@@ -4256,6 +4844,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Residence Visa Support", href: "/" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
@@ -4493,6 +5082,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visa Consultancy", href: "/" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
@@ -4821,6 +5411,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Government Services Coordination", href: "/" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
@@ -5067,6 +5658,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Copy & Documentation Help", href: "/" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
@@ -5324,6 +5916,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Travelaxis UAE Visa Documentation", href: "/" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
@@ -5559,6 +6152,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Number & Status Support", href: "/" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
@@ -5790,6 +6384,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Renewal Documentation", href: "/" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
@@ -6028,6 +6623,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Business Setup Dubai", href: "/" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
@@ -6240,6 +6836,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Company Registration Services", href: "/" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -6422,6 +7019,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Company Formation Consultancy", href: "/" },
             { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
             { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
@@ -6643,6 +7241,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa & Business Consultancy", href: "/" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
@@ -6839,6 +7438,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Employment Visa Documentation", href: "/" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
@@ -7078,6 +7678,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Investor Visa Documentation", href: "/" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
@@ -7262,6 +7863,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Government Services", href: "/" },
             { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
@@ -7500,6 +8102,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Legal Documentation Services", href: "/" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
@@ -7734,6 +8337,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Application Documentation", href: "/" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
             { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
@@ -7942,6 +8546,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Company Formation UAE", href: "/" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
@@ -8163,6 +8768,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Business Setup Consultancy", href: "/" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
@@ -8375,6 +8981,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Documentation Consultancy", href: "/" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
@@ -8637,6 +9244,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Travelaxis UAE Business Setup", href: "/" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
@@ -8847,6 +9455,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Freezone & Mainland Setup", href: "/" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
@@ -9080,6 +9689,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Support Services", href: "/" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
@@ -9335,6 +9945,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Business Consultancy", href: "/" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
@@ -9689,6 +10300,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Documentation Experts", href: "/" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
@@ -9958,6 +10570,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Business & Visa Services", href: "/" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
@@ -10187,6 +10800,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Trade License & Visa Support", href: "/" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
@@ -10412,6 +11026,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visa Documentation Services", href: "/" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
@@ -10676,6 +11291,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Corporate Services", href: "/" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
@@ -10907,6 +11523,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Guidance", href: "/" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
@@ -11337,6 +11954,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Business Setup & Government Services UAE", href: "/" },
             { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
             { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
@@ -11605,6 +12223,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa Documentation Hub", href: "/" },
             { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
@@ -11892,6 +12511,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Travelaxis Dubai", href: "/" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
             { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
@@ -12132,6 +12752,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "UAE Visa & Company Formation", href: "/" },
             { label: "UAE Job Seeker Visa", href: "/blog/job-seeker-visa-uae-documents-guide" },
             { label: "UAE Work Visa Documents Required from Pakistan", href: "/blog/uae-work-visa-documents-checklist" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },

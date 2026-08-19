@@ -9,6 +9,42 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uae-visa-ban-status-check-guide",
+      title: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
+      excerpt:
+        "How to check a UAE visa ban status by passport number, check your visa expiry date, and what a file number actually is — official channels only.",
+      date: "August 20, 2026",
+      readTime: "11 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "how-to-cancel-employment-visa-uae",
+      title: "How to Cancel an Employment Visa in the UAE",
+      excerpt:
+        "How UAE employment visa cancellation actually works: who initiates it, the MOHRE/GDRFA steps, the grace period, and common mistakes that cause fines.",
+      date: "August 20, 2026",
+      readTime: "10 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "uae-visa-photo-size-requirements",
+      title: "UAE Visa Photo Size & Requirements",
+      excerpt:
+        "UAE visa photo specifications: size, background, and common reasons photos get rejected.",
+      date: "August 20, 2026",
+      readTime: "6 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "uae-work-visa-age-limit",
+      title: "UAE Work Visa Age Limit – What Actually Applies",
+      excerpt:
+        "Is there a maximum or minimum age for a UAE employment visa? How age limits actually work by category, and what changes after 60.",
+      date: "August 20, 2026",
+      readTime: "8 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "job-seeker-visa-uae-documents-guide",
       title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
       excerpt:
