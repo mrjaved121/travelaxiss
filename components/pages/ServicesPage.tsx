@@ -191,8 +191,7 @@ export default function ServicesPage() {
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt=""
-              role="presentation"
+              alt="Travelaxis UAE business setup, visa documentation, and government services"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"

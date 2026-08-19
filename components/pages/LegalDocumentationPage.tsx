@@ -268,8 +268,7 @@ export default function LegalDocumentationPage() {
             <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt=""
-              role="presentation"
+              alt="UAE legal documentation: MOA/POA drafting, attestation, and legal translation"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"

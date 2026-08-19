@@ -204,8 +204,7 @@ export default function UmrahServicesPage() {
             <div className="absolute bottom-0 right-6 w-24 h-24 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.08)' }} aria-hidden />
             <img
               src="/images/ummarah-visa.webp"
-              alt=""
-              role="presentation"
+              alt="Umrah visa from UAE: processing, flights, and hotel coordination for pilgrims"
               width={640}
               height={427}
               className="relative w-full h-full object-contain"
