@@ -284,8 +284,8 @@ export default function UmrahServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
-                className="rounded-3xl p-6 md:p-8 border border-gray-100 shadow-sm"
-                style={{ backgroundColor: '#EEF4FF' }}
+                className="rounded-2xl p-6 md:p-8 card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
               >
                 <p
                   className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-4"
@@ -349,7 +349,8 @@ export default function UmrahServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
-                className="rounded-3xl border border-gray-100 shadow-sm p-8 text-center"
+                className="rounded-2xl p-8 text-center card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"
@@ -401,7 +402,8 @@ export default function UmrahServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 text-center shadow-sm border border-gray-100"
+                className="rounded-2xl p-6 md:p-8 text-center card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"

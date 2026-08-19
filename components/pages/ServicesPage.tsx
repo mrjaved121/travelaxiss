@@ -248,10 +248,11 @@ export default function ServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-3xl p-8 text-center shadow-sm"
+                className="bg-white rounded-2xl p-8 text-center card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
-                <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
-                  <advantage.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
+                <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
+                  <advantage.icon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
                 <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
                   {advantage.title}

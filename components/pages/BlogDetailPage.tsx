@@ -898,8 +898,8 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                       <Link
                         key={idx}
                         href={link.href}
-                        className="flex items-center justify-between gap-2 rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
-                        style={{ backgroundColor: '#EEF4FF' }}
+                        className="flex items-center justify-between gap-2 rounded-2xl p-4 card-hover transition-all duration-200 hover:-translate-y-1"
+                        style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
                       >
                         <span className="font-semibold" style={{ color: '#0F1B2D' }}>{link.label}</span>
                         <ArrowLeft className="w-4 h-4 flex-shrink-0 rotate-180" style={{ color: '#1D63E0' }} aria-hidden />

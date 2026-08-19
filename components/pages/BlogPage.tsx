@@ -46,8 +46,8 @@ export default function BlogPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group"
-                style={{ backgroundColor: '#FFFFFF' }}
+                className="relative rounded-2xl overflow-hidden card-hover transition-all duration-200 hover:-translate-y-1 group"
+                style={{ backgroundColor: '#FFFFFF', border: "1px solid var(--card-line)" }}
               >
                 <Link
                   href={`/blog/${blog.id}`}
@@ -56,10 +56,10 @@ export default function BlogPage() {
                 />
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-4">
-                    <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+                    <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
                       {(() => {
                         const CategoryIcon = categoryIcons[blog.category] ?? FileText;
-                        return <CategoryIcon className="w-7 h-7" style={{ color: '#FFFFFF' }} />;
+                        return <CategoryIcon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />;
                       })()}
                     </div>
                     <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#EEF4FF', color: '#1D63E0' }}>
