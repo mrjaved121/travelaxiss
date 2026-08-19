@@ -82,8 +82,8 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="rounded-3xl p-8 border border-gray-100 shadow-sm"
-            style={{ backgroundColor: '#EEF4FF' }}
+            className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
+            style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
           >
             <h2 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
               {`What ${zone.name} Is Known For`}
@@ -101,8 +101,8 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.08 }}
-            className="rounded-3xl p-8 border border-gray-100 shadow-sm"
-            style={{ backgroundColor: '#EEF4FF' }}
+            className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
+            style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
           >
             <h2 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
               {`Who ${zone.name} Best Suits`}

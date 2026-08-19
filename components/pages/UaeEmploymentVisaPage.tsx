@@ -148,13 +148,14 @@ export default function UaeEmploymentVisaPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
-                className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-gray-100"
+                className="flex gap-4 md:gap-6 rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <div
-                  className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
-                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  className="flex-shrink-0 w-[46px] h-[46px] rounded-[11px] flex items-center justify-center font-bold"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
                 >
-                  <s.icon className="w-5 h-5" aria-hidden />
+                  <s.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
                 <div>
                   <h3 className="text-lg font-bold mb-1" style={{ color: "#0F1B2D" }}>

@@ -332,7 +332,8 @@ export default function GovernmentServicesPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
+                className="rounded-2xl p-6 md:p-8 bg-white card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <div className="flex items-start gap-3 mb-3">
                   <span className="text-xl" aria-hidden>
@@ -481,7 +482,7 @@ export default function GovernmentServicesPage() {
               <span style={{ color: "#1D63E0" }}>Take?</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <div className="rounded-3xl p-6 bg-white shadow-sm border border-gray-100">
+              <div className="rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex items-center gap-2 mb-2">
                   <Clock className="w-6 h-6" style={{ color: "#1D63E0" }} />
                   <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
@@ -496,7 +497,7 @@ export default function GovernmentServicesPage() {
                   and file completeness.
                 </p>
               </div>
-              <div className="rounded-3xl p-6 bg-white shadow-sm border border-gray-100">
+              <div className="rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex items-center gap-2 mb-2">
                   <Sparkles className="w-6 h-6" style={{ color: "#1D63E0" }} />
                   <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>

@@ -141,10 +141,11 @@ export default function AboutPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-6 shadow-sm"
+                className="bg-white rounded-2xl p-6 card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
-                <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
-                  <item.icon className="w-6 h-6" style={{ color: '#FFFFFF' }} />
+                <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
+                  <item.icon className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
                 <h3 className="font-semibold mb-2" style={{ color: '#0F1B2D' }}>{item.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>

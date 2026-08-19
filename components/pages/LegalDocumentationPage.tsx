@@ -350,7 +350,8 @@ export default function LegalDocumentationPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 shadow-sm bg-white border border-gray-100"
+                className="rounded-2xl p-6 md:p-8 bg-white card-hover transition-all duration-200 hover:-translate-y-1"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <div className="flex items-start gap-3 mb-3">
                   <span className="text-xl" aria-hidden>
@@ -453,14 +454,14 @@ export default function LegalDocumentationPage() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="rounded-3xl p-8 shadow-sm border border-gray-100"
-              style={{ backgroundColor: "#EEF4FF" }}
+              className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
+              style={{ backgroundColor: "#EEF4FF", border: "1px solid var(--card-line)" }}
             >
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
-                style={{ backgroundColor: "#1D63E0" }}
+                className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                style={{ backgroundColor: "#FFFFFF" }}
               >
-                <Scale className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                <Scale className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
               <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
                 Document Review & Formatting
@@ -483,14 +484,14 @@ export default function LegalDocumentationPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.05 }}
-              className="rounded-3xl p-8 shadow-sm border border-gray-100"
-              style={{ backgroundColor: "#EEF4FF" }}
+              className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
+              style={{ backgroundColor: "#EEF4FF", border: "1px solid var(--card-line)" }}
             >
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
-                style={{ backgroundColor: "#1D63E0" }}
+                className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                style={{ backgroundColor: "#FFFFFF" }}
               >
-                <FileSignature className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                <FileSignature className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
               <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
                 Notarization Services
@@ -503,14 +504,14 @@ export default function LegalDocumentationPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="rounded-3xl p-8 shadow-sm border border-gray-100"
-              style={{ backgroundColor: "#EEF4FF" }}
+              className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
+              style={{ backgroundColor: "#EEF4FF", border: "1px solid var(--card-line)" }}
             >
               <div
-                className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
-                style={{ backgroundColor: "#1D63E0" }}
+                className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                style={{ backgroundColor: "#FFFFFF" }}
               >
-                <Languages className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                <Languages className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
               <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
                 Legal Translation Coordination
