@@ -494,27 +494,28 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className={`relative group min-w-0 h-full flex flex-col rounded-3xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:shadow-lg hover:border-[#1D63E0]/30 hover:-translate-y-0.5${
+                className={`relative group min-w-0 h-full flex flex-col rounded-2xl bg-white p-[26px] transition-all duration-200 hover:-translate-y-1 card-hover${
                   index === services.length - 1 && services.length % 3 === 1
                     ? " sm:col-start-1 lg:col-start-2"
                     : ""
                 }`}
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <Link
                   href={service.link}
-                  className="absolute inset-0 z-10 rounded-3xl"
+                  className="absolute inset-0 z-10 rounded-2xl"
                   aria-label={`View ${service.title} details`}
                 />
                 <div
-                  className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#1D63E0" }}
+                  className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
                 >
-                  <service.icon className="w-6 h-6 text-white" aria-hidden />
+                  <service.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <h3 className="text-lg font-bold leading-snug mb-2" style={{ color: "#0F1B2D" }}>
+                <h3 className="text-[1.15rem] font-bold leading-snug mb-2" style={{ color: "#0F1B2D" }}>
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed line-clamp-3 mb-4 flex-1">{service.description}</p>
+                <p className="text-[0.9rem] text-gray-600 leading-relaxed line-clamp-3 mb-4 flex-1">{service.description}</p>
                 <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 mb-5">
                   <span className="flex items-center gap-1">
                     <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
@@ -522,17 +523,14 @@ export default function HomePage() {
                   </span>
                   <span>{service.category}</span>
                 </div>
-                <div className="flex items-center justify-between gap-3 pt-4 border-t border-gray-100">
+                <div className="flex items-center justify-between gap-3 pt-4" style={{ borderTop: "1px solid var(--card-line)" }}>
                   <p className="leading-tight" style={{ color: "#0F1B2D" }}>
                     <span className="text-xl font-bold">{service.highlightBig}</span>
                     <span className="text-sm text-gray-500">/{service.highlightSmall}</span>
                   </p>
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold shrink-0" style={{ color: "#1D63E0" }}>
+                  <span className="inline-flex items-center gap-1.5 text-[0.9rem] font-semibold shrink-0 transition-all group-hover:gap-2.5" style={{ color: "var(--card-icon-fg)" }}>
                     View Details
-                    <ArrowUpRight
-                      className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                      aria-hidden
-                    />
+                    <ArrowUpRight className="w-4 h-4" aria-hidden />
                   </span>
                 </div>
               </motion.div>
@@ -564,25 +562,25 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
-                className="relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow"
-                style={{ backgroundColor: "#EEF4FF" }}
+                className="relative group min-w-0 rounded-2xl overflow-hidden bg-white transition-all duration-200 hover:-translate-y-1 card-hover"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <Link
                   href={service.link}
                   className="absolute inset-0 z-10"
                   aria-label={`View ${service.title} details`}
                 />
-                <div className="p-6">
+                <div className="p-[26px]">
                   <div
-                    className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
-                    style={{ backgroundColor: "#1D63E0" }}
+                    className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                    style={{ backgroundColor: "var(--card-icon-bg)" }}
                   >
-                    <service.icon className="w-6 h-6 text-white" aria-hidden />
+                    <service.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                   </div>
-                  <h3 className="text-lg font-bold mb-2" style={{ color: "#0F1B2D" }}>
+                  <h3 className="text-[1.15rem] font-bold mb-2" style={{ color: "#0F1B2D" }}>
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm">{service.description}</p>
+                  <p className="text-gray-600 text-[0.9rem] leading-relaxed">{service.description}</p>
                 </div>
               </motion.div>
             ))}
@@ -621,7 +619,7 @@ export default function HomePage() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="rounded-3xl bg-white border border-gray-100 shadow-sm p-6 md:p-8">
+            <div className="rounded-2xl bg-white p-[26px]" style={{ border: "1px solid var(--card-line)" }}>
               <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
                 Emirates
               </h3>
@@ -639,7 +637,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="rounded-3xl bg-white border border-gray-100 shadow-sm p-6 md:p-8">
+            <div className="rounded-2xl bg-white p-[26px]" style={{ border: "1px solid var(--card-line)" }}>
               <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
                 Dubai Areas
               </h3>
@@ -657,7 +655,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="rounded-3xl bg-white border border-gray-100 shadow-sm p-6 md:p-8">
+            <div className="rounded-2xl bg-white p-[26px]" style={{ border: "1px solid var(--card-line)" }}>
               <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
                 Free Zones
               </h3>
@@ -728,18 +726,19 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
-                className="min-w-0 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-lg transition-shadow p-6 text-center"
+                className="min-w-0 rounded-2xl bg-white transition-all duration-200 hover:-translate-y-1 card-hover p-6 text-center"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <div
-                  className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4"
-                  style={{ backgroundColor: "#1D63E0" }}
+                  className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mx-auto mb-4"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
                 >
-                  <a.icon className="w-6 h-6 text-white" aria-hidden />
+                  <a.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
                 <p className="font-bold mb-1" style={{ color: "#0F1B2D" }}>
                   {a.label}
                 </p>
-                <p className="text-sm text-gray-600">{a.description}</p>
+                <p className="text-[0.9rem] text-gray-600">{a.description}</p>
               </motion.div>
             ))}
           </div>
@@ -849,28 +848,29 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="relative group min-w-0 rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-shadow bg-white"
+                className="relative group min-w-0 rounded-2xl overflow-hidden bg-white transition-all duration-200 hover:-translate-y-1 card-hover"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <Link
                   href={`/blog/${post.id}`}
                   className="absolute inset-0 z-10"
                   aria-label={`Read full article: ${post.title}`}
                 />
-                <div className="p-6">
-                  <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "#1D63E0" }} aria-hidden>
+                <div className="p-[26px]">
+                  <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
                     {(() => {
                       const CategoryIcon = blogCategoryIcons[post.category] ?? FileText;
-                      return <CategoryIcon className="w-6 h-6 text-white" />;
+                      return <CategoryIcon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} />;
                     })()}
                   </div>
-                  <h3 className="text-lg font-bold mb-3 line-clamp-2" style={{ color: "#0F1B2D" }}>
+                  <h3 className="text-[1.15rem] font-bold mb-3 line-clamp-2" style={{ color: "#0F1B2D" }}>
                     {post.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
+                  <p className="text-gray-600 text-[0.9rem] leading-relaxed mb-4 line-clamp-3">{post.excerpt}</p>
                   <span
                     aria-hidden="true"
-                    className="inline-flex items-center gap-2 font-semibold group-hover:gap-3 transition-all"
-                    style={{ color: "#1D63E0" }}
+                    className="inline-flex items-center gap-1.5 text-[0.9rem] font-semibold group-hover:gap-2.5 transition-all"
+                    style={{ color: "var(--card-icon-fg)" }}
                   >
                     Read More <ArrowRight className="w-4 h-4" aria-hidden />
                   </span>

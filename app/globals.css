@@ -34,6 +34,15 @@
   /* Accessible focus ring aligned with brand blue */
   --focus-ring: #1d63e0;
   --focus-ring-offset: #ffffff;
+
+  /* Card system: light bordered card with a tinted icon bubble, matching
+     the existing brand blue (--primary/--secondary) rather than introducing
+     a new accent color. */
+  --card-line: #e3e9f4;
+  --card-line-hover: #c7d3ea;
+  --card-icon-bg: #eef4ff;
+  --card-icon-fg: #1d63e0;
+  --card-shadow-hover: 0 10px 30px -14px rgba(15, 27, 45, 0.18);
 }
 
 @theme inline {
@@ -64,9 +73,18 @@
   --radius-md: calc(var(--radius) - 4px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
   --font-script: var(--font-script);
+
+  /* Restrained hero/display sizes — the stock Tailwind 5xl/6xl steps read
+     oversized at the site's 18px root; these are the only two tokens
+     overridden so smaller text-* utilities (used interchangeably for
+     headings and body copy across pages) are unaffected. */
+  --text-5xl: 2.333rem;
+  --text-5xl--line-height: 1.15;
+  --text-6xl: 2.778rem;
+  --text-6xl--line-height: 1.1;
 }
 
 /* Sitewide readability baseline: every Tailwind text-* utility is rem-based,
@@ -79,8 +97,44 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.65;
+}
+
+/* Reusable text roles referenced sitewide (section labels, lead paragraphs,
+   fine print, footer headings) so new pages don't re-derive the same
+   Tailwind utility combination by hand. */
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  color: var(--primary);
+}
+.lead {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--muted-foreground);
+}
+.text-note {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+.foot-heading {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Bordered card hover state: lift is handled by the Tailwind
+   hover:-translate-y-* utility on the element itself; this adds the
+   shadow + border-color pair used across every card grid sitewide. */
+.card-hover:hover {
+  border-color: var(--card-line-hover) !important;
+  box-shadow: var(--card-shadow-hover);
 }
 
 /* Tighter leading is still fine for headings — the bump above is for body copy. */

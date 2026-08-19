@@ -36,17 +36,18 @@ export default function GuideCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay }}
-      className={`relative group h-full flex flex-col rounded-3xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:shadow-lg hover:border-[#1D63E0]/30 hover:-translate-y-0.5 ${className}`}
+      className={`relative group h-full flex flex-col rounded-2xl bg-white p-[26px] transition-all duration-200 hover:-translate-y-1 card-hover ${className}`}
+      style={{ border: "1px solid var(--card-line)" }}
     >
-      <Link href={href} className="absolute inset-0 z-10 rounded-3xl" aria-label={ariaLabel ?? `Read: ${title}`} />
+      <Link href={href} className="absolute inset-0 z-10 rounded-2xl" aria-label={ariaLabel ?? `Read: ${title}`} />
 
-      <div className="flex items-start justify-between gap-3 mb-5">
+      <div className="flex items-start justify-between gap-3 mb-4">
         <div
-          className="w-14 h-14 shrink-0 rounded-full flex items-center justify-center"
-          style={{ backgroundColor: "#1D63E0" }}
+          className="w-[46px] h-[46px] shrink-0 rounded-[11px] flex items-center justify-center"
+          style={{ backgroundColor: "var(--card-icon-bg)" }}
           aria-hidden
         >
-          <Icon className="w-7 h-7" style={{ color: "#FFFFFF" }} />
+          <Icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} />
         </div>
         {badge && (
           <span
@@ -58,23 +59,17 @@ export default function GuideCard({
         )}
       </div>
 
-      <h3 className="text-xl font-bold leading-snug mb-2" style={{ color: "#0F1B2D" }}>
+      <h3 className="text-[1.15rem] font-bold leading-snug mb-2" style={{ color: "#0F1B2D" }}>
         {title}
       </h3>
 
-      <p className="text-base text-gray-600 leading-relaxed line-clamp-3 mb-6 flex-1">
+      <p className="text-[0.9rem] text-gray-600 leading-relaxed line-clamp-3 mb-4 flex-1">
         {description}
       </p>
 
-      <div className="flex items-center gap-2 pt-4 border-t border-gray-100">
-        <span className="text-sm font-semibold" style={{ color: "#1D63E0" }}>
-          {ctaLabel}
-        </span>
-        <ArrowUpRight
-          className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-          style={{ color: "#1D63E0" }}
-          aria-hidden
-        />
+      <div className="flex items-center gap-1.5 text-[0.9rem] font-semibold transition-all group-hover:gap-2.5" style={{ color: "var(--card-icon-fg)" }}>
+        <span>{ctaLabel}</span>
+        <ArrowUpRight className="w-4 h-4" aria-hidden />
       </div>
     </motion.div>
   );
