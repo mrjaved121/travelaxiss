@@ -1,17 +1,33 @@
 'use client';
 
+import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Clock, Building2, Plane, FileText } from "lucide-react";
+import { ArrowRight, Clock, Building2, Plane, Globe2, FileText, Search } from "lucide-react";
 import { motion } from "motion/react";
 import { blogPostSummaries } from "@/components/data/blogIndex";
 
 const categoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
   "UAE Visa Documentation": Plane,
+  "International Visa Documentation": Globe2,
 };
 
+const CATEGORIES = ["All", ...Array.from(new Set(blogPostSummaries.map((b) => b.category)))];
+
 export default function BlogPage() {
-  const blogs = blogPostSummaries;
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("All");
+
+  const blogs = useMemo(() => {
+    return blogPostSummaries.filter((blog) => {
+      const matchesCategory = category === "All" || blog.category === category;
+      const matchesQuery =
+        query.trim() === "" ||
+        blog.title.toLowerCase().includes(query.toLowerCase()) ||
+        blog.excerpt.toLowerCase().includes(query.toLowerCase());
+      return matchesCategory && matchesQuery;
+    });
+  }, [query, category]);
 
   return (
     <div>
@@ -23,14 +39,51 @@ export default function BlogPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
-              Latest <span style={{ color: '#155EEF' }}>Insights</span>
+            <p className="eyebrow mb-3">Resources</p>
+            <h1 className="mb-6" style={{ color: '#071A2B' }}>
+              Understand <span style={{ color: '#155EEF' }}>Before You Apply.</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
-              Expert guides and articles on business setup, company formation, and entrepreneurship in UAE
+            <p className="lead">
+              Expert guides on UAE visas, business setup, and international visa documentation.
             </p>
-            <p className="mt-4 font-semibold" style={{ color: '#155EEF' }}>
-              Showing all {blogs.length} articles
+
+            <div className="max-w-xl mx-auto mt-8 relative">
+              <Search className="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" aria-hidden />
+              <label htmlFor="resources-search" className="sr-only">
+                Search visa guides and resources
+              </label>
+              <input
+                id="resources-search"
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search visa guides and resources..."
+                className="w-full rounded-full border border-gray-200 bg-white pl-12 pr-5 py-3.5 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2"
+                style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+              />
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-3 mt-6" role="group" aria-label="Filter by category">
+              {CATEGORIES.map((c) => (
+                <button
+                  key={c}
+                  type="button"
+                  onClick={() => setCategory(c)}
+                  className="px-4 py-2 rounded-full text-sm font-semibold border transition-all"
+                  style={
+                    category === c
+                      ? { backgroundColor: "#155EEF", color: "#FFFFFF", borderColor: "#155EEF" }
+                      : { backgroundColor: "#FFFFFF", color: "#071A2B", borderColor: "var(--card-line)" }
+                  }
+                  aria-pressed={category === c}
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+
+            <p className="mt-6 font-semibold" style={{ color: '#155EEF' }}>
+              Showing {blogs.length} of {blogPostSummaries.length} articles
             </p>
           </motion.div>
         </div>
@@ -39,6 +92,9 @@ export default function BlogPage() {
       {/* Blog Grid */}
       <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {blogs.length === 0 ? (
+            <p className="text-center text-gray-500">No articles match your search yet — try a different term.</p>
+          ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogs.map((blog, index) => (
               <motion.article
@@ -93,6 +149,7 @@ export default function BlogPage() {
               </motion.article>
             ))}
           </div>
+          )}
         </div>
       </section>
 

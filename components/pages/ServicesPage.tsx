@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, RefreshCw, Briefcase, Home, PiggyBank, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, Compass, RefreshCw, Briefcase, Home, PiggyBank, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
@@ -119,6 +119,15 @@ const services: {
       "B1/B2 visitor and F1 student visa documentation for Pakistani applicants, including DS-160 review and Embassy Islamabad interview preparation.",
     icon: Flag,
     link: "/services/usa-visa-from-pakistan",
+  },
+  {
+    title: "Germany Visa from Pakistan",
+    category: "Germany Visas",
+    group: "International Visas",
+    description:
+      "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification visa documentation for Pakistani applicants.",
+    icon: Compass,
+    link: "/services/germany-visa-from-pakistan",
   },
   {
     title: "UAE Visit & Tourist Visa",
