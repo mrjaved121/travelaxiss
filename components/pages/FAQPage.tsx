@@ -28,7 +28,7 @@ export default function FAQPage() {
 
   return (
     <div>
-      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -38,10 +38,10 @@ export default function FAQPage() {
             <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
               <HelpCircle className="w-8 h-8" style={{ color: '#FFFFFF' }} />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="lead">
               Clear answers about our consultancy and documentation support—including how UAE visa-related assistance works.
             </p>
           </motion.div>
@@ -50,7 +50,7 @@ export default function FAQPage() {
 
       <section className="py-8" style={{ backgroundColor: "#FFFFFF" }} aria-label="Disclaimer">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm text-gray-500 text-center leading-relaxed border border-gray-200 rounded-2xl p-4 bg-gray-50">
+          <p className="text-sm text-[#667085] text-center leading-relaxed border border-[#E4E7EC] rounded-2xl p-4 bg-[#F5F8FF]">
             We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.
           </p>
         </div>
@@ -71,11 +71,11 @@ export default function FAQPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
-            <label htmlFor={searchFieldId} className="block text-center text-sm font-semibold mb-3" style={{ color: '#071A2B' }}>
+            <label htmlFor={searchFieldId} className="block text-center text-sm font-semibold mb-3" style={{ color: '#1D2939' }}>
               Search frequently asked questions
             </label>
             <div className="relative max-w-2xl mx-auto">
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5 pointer-events-none" aria-hidden />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#667085] w-5 h-5 pointer-events-none" aria-hidden />
               <input
                 id={searchFieldId}
                 type="search"
@@ -83,7 +83,7 @@ export default function FAQPage() {
                 placeholder="e.g. company formation, visa documentation"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-gray-200 focus:border-opacity-50 focus:outline-none transition-colors"
+                className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-[#E4E7EC] focus:border-opacity-50 focus:outline-none transition-colors"
                 style={{ borderColor: searchQuery ? '#155EEF' : undefined }}
                 autoComplete="off"
                 aria-describedby={`${searchFieldId}-hint`}
@@ -100,7 +100,7 @@ export default function FAQPage() {
             transition={{ delay: 0.1 }}
             className="mb-12"
           >
-            <p id={categoryGroupLabelId} className="text-center text-sm font-semibold mb-3" style={{ color: '#071A2B' }}>
+            <p id={categoryGroupLabelId} className="text-center text-sm font-semibold mb-3" style={{ color: '#1D2939' }}>
               Filter by topic
             </p>
             <div className="flex flex-wrap justify-center gap-3" role="group" aria-labelledby={categoryGroupLabelId}>
@@ -111,8 +111,8 @@ export default function FAQPage() {
                   onClick={() => setSelectedCategory(category)}
                   className="px-6 py-2 rounded-full font-semibold transition-all"
                   style={{
-                    backgroundColor: selectedCategory === category ? '#155EEF' : '#EAF1FF',
-                    color: selectedCategory === category ? '#071A2B' : '#666666',
+                    backgroundColor: selectedCategory === category ? '#155EEF' : '#F5F8FF',
+                    color: selectedCategory === category ? '#FFFFFF' : '#667085',
                   }}
                   aria-pressed={selectedCategory === category}
                 >
@@ -130,7 +130,7 @@ export default function FAQPage() {
               className="text-center py-12"
               role="status"
             >
-              <p className="text-xl text-gray-500">No questions found. Try a different search term or category.</p>
+              <p className="text-[#667085]">No questions found. Try a different search term or category.</p>
             </motion.div>
           ) : (
             <ul className="space-y-4 list-none p-0 m-0">
@@ -149,14 +149,14 @@ export default function FAQPage() {
                     className="rounded-2xl overflow-hidden shadow-sm border-2 transition-all"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: isOpen ? '#155EEF' : '#EAF1FF'
+                      borderColor: isOpen ? '#155EEF' : '#F5F8FF'
                     }}
                   >
                     <div
                       className="flex items-stretch justify-between gap-2"
-                      style={{ backgroundColor: isOpen ? '#EAF1FF' : 'transparent' }}
+                      style={{ backgroundColor: isOpen ? '#F5F8FF' : 'transparent' }}
                     >
-                      <h3 id={headId} className="m-0 flex-1 min-w-0 text-lg font-bold" style={{ color: '#071A2B' }}>
+                      <h3 id={headId} className="subsection-title m-0 flex-1 min-w-0">
                         <button
                           type="button"
                           onClick={() => toggleFAQ(stableIndex)}
@@ -168,7 +168,7 @@ export default function FAQPage() {
                           <span className="flex-1 pr-2">
                             <span className="block">{faq.question}</span>
                             {faq.category ? (
-                              <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#EAF1FF', color: '#155EEF' }}>
+                              <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F5F8FF', color: '#155EEF' }}>
                                 {faq.category}
                               </span>
                             ) : null}
@@ -190,9 +190,9 @@ export default function FAQPage() {
                       role="region"
                       aria-labelledby={headId}
                       hidden={!isOpen}
-                      className="px-6 pb-6 pt-2 border-t border-gray-100"
+                      className="px-6 pb-6 pt-2 border-t border-[#E4E7EC]"
                     >
-                      <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                      <p className="text-[#667085] leading-relaxed">{faq.answer}</p>
                     </div>
                   </motion.li>
                 );
@@ -207,20 +207,20 @@ export default function FAQPage() {
             className="mt-8 text-center"
             aria-live="polite"
           >
-            <p className="text-gray-500">
+            <p className="text-[#667085]">
               Showing <span className="font-semibold" style={{ color: '#155EEF' }}>{filteredFAQs.length}</span> of <span className="font-semibold">{faqs.length}</span> questions
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="py-16" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <h2 className="text-2xl font-bold mb-8 text-center" style={{ color: '#071A2B' }}>
+            <h2 className="section-title mb-8 text-center">
               Related <span style={{ color: '#155EEF' }}>Topics</span>
             </h2>
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 list-none p-0 m-0">
@@ -242,7 +242,7 @@ export default function FAQPage() {
                   className="rounded-2xl p-4 text-center shadow-sm hover:shadow-md transition-shadow"
                   style={{ backgroundColor: '#FFFFFF' }}
                 >
-                  <p className="text-sm font-semibold" style={{ color: '#071A2B' }}>
+                  <p className="text-sm font-semibold" style={{ color: '#1D2939' }}>
                     {topic}
                   </p>
                 </motion.li>
@@ -258,8 +258,8 @@ export default function FAQPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Still Have Questions?</h2>
-          <p className="text-white/90 text-lg mb-8">
+          <h2 className="section-title mb-6">Still Have Questions?</h2>
+          <p className="text-white/90 mb-8">
             Our team is ready to provide personalized answers to your specific inquiries.
           </p>
           <Link

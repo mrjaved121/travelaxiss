@@ -32,7 +32,7 @@ export default function BlogPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ export default function BlogPage() {
             className="text-center max-w-4xl mx-auto"
           >
             <p className="eyebrow mb-3">Resources</p>
-            <h1 className="mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               Understand <span style={{ color: '#155EEF' }}>Before You Apply.</span>
             </h1>
             <p className="lead">
@@ -48,7 +48,7 @@ export default function BlogPage() {
             </p>
 
             <div className="max-w-xl mx-auto mt-8 relative">
-              <Search className="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" aria-hidden />
+              <Search className="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-[#667085]" aria-hidden />
               <label htmlFor="resources-search" className="sr-only">
                 Search visa guides and resources
               </label>
@@ -58,7 +58,7 @@ export default function BlogPage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search visa guides and resources..."
-                className="w-full rounded-full border border-gray-200 bg-white pl-12 pr-5 py-3.5 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2"
+                className="w-full rounded-full border border-[#E4E7EC] bg-white pl-12 pr-5 py-3.5 text-[#1D2939] placeholder:text-[#667085] focus:outline-none focus:ring-2"
                 style={{ ["--tw-ring-color" as string]: "#155EEF" }}
               />
             </div>
@@ -73,7 +73,7 @@ export default function BlogPage() {
                   style={
                     category === c
                       ? { backgroundColor: "#155EEF", color: "#FFFFFF", borderColor: "#155EEF" }
-                      : { backgroundColor: "#FFFFFF", color: "#071A2B", borderColor: "var(--card-line)" }
+                      : { backgroundColor: "#FFFFFF", color: "#1D2939", borderColor: "var(--card-line)" }
                   }
                   aria-pressed={category === c}
                 >
@@ -93,7 +93,7 @@ export default function BlogPage() {
       <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {blogs.length === 0 ? (
-            <p className="text-center text-gray-500">No articles match your search yet — try a different term.</p>
+            <p className="text-center text-[#667085]">No articles match your search yet — try a different term.</p>
           ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogs.map((blog, index) => (
@@ -118,22 +118,22 @@ export default function BlogPage() {
                         return <CategoryIcon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />;
                       })()}
                     </div>
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#EAF1FF', color: '#155EEF' }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F5F8FF', color: '#155EEF' }}>
                       {blog.category}
                     </span>
                   </div>
-                  <div className="flex items-center space-x-4 text-sm text-gray-500 mb-3">
+                  <div className="flex items-center space-x-4 text-sm text-[#667085] mb-3">
                     <div className="flex items-center space-x-1">
                       <Clock className="w-4 h-4" aria-hidden />
                       <span>{blog.readTime}</span>
                     </div>
                   </div>
                   
-                  <h2 className="text-xl font-bold mb-3 group-hover:text-opacity-80 transition-colors" style={{ color: '#071A2B' }}>
+                  <h3 className="subsection-title mb-3 group-hover:text-opacity-80 transition-colors">
                     {blog.title}
-                  </h2>
+                  </h3>
                   
-                  <p className="text-gray-600 mb-4 line-clamp-3">
+                  <p className="text-[#667085] mb-4 line-clamp-3">
                     {blog.excerpt}
                   </p>
                   
@@ -160,8 +160,8 @@ export default function BlogPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Business?</h2>
-          <p className="text-white/90 text-lg mb-8">
+          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>Ready to Start Your Business?</h2>
+          <p className="lead mb-8" style={{ color: 'rgba(255,255,255,0.9)' }}>
             Get expert guidance for your company formation in UAE
           </p>
           <a

@@ -202,29 +202,26 @@ export default function LegalDocumentationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <h1
-              className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
-              style={{ color: "#071A2B" }}
-            >
+            <h1 className="page-title mb-6">
               Legal Documentation Services in UAE –{" "}
               <span style={{ color: "#155EEF" }}>
                 Documentation & Consultancy Support
               </span>
             </h1>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            <p className="lead text-[#667085] mb-6 leading-relaxed">
               Keep your business paperwork accurate and organized in the UAE.
               We provide documentation preparation, attestation coordination,
               and consultancy support for agreements, corporate records, and
               certificates.
             </p>
-            <ul className="space-y-2 mb-6 text-lg text-gray-800">
+            <ul className="space-y-2 mb-6 text-lg text-[#1D2939]">
               {[
                 "Fast processing",
                 "Accurate documentation",
@@ -236,13 +233,13 @@ export default function LegalDocumentationPage() {
                 </li>
               ))}
             </ul>
-            <p className="text-sm text-gray-500 mb-8 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
+            <p className="text-sm text-[#667085] mb-8 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90 text-lg font-semibold"
+                className="btn inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 Get Documentation Support
@@ -251,8 +248,8 @@ export default function LegalDocumentationPage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#071A2B", color: "#071A2B" }}
+                className="btn inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90"
+                style={{ borderColor: "#1D2939", color: "#1D2939" }}
               >
                 Chat on WhatsApp
               </a>
@@ -285,14 +282,11 @@ export default function LegalDocumentationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-6">
               Complete Legal Documentation Services in{" "}
               <span style={{ color: "#155EEF" }}>UAE</span>
             </h2>
-            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            <p className="lead text-[#667085] mb-4 leading-relaxed">
               Legal documentation is a critical part of starting and running a
               business in the UAE. From contracts to attestations, every
               document needs to be prepared carefully. Whether you need{" "}
@@ -304,7 +298,7 @@ export default function LegalDocumentationPage() {
               drafts and filings aligned with the format each authority
               requires.
             </p>
-            <p className="font-semibold mb-3" style={{ color: "#071A2B" }}>
+            <p className="font-semibold mb-3" style={{ color: "#1D2939" }}>
               Our team ensures that all your documents are:
             </p>
             <ul className="space-y-2 mb-6">
@@ -315,12 +309,12 @@ export default function LegalDocumentationPage() {
                       className="w-6 h-6 flex-shrink-0 mt-0.5"
                       style={{ color: "#155EEF" }}
                     />
-                    <span className="text-lg text-gray-700">{item}</span>
+                    <span className="text-lg text-[#667085]">{item}</span>
                   </li>
                 )
               )}
             </ul>
-            <p className="text-lg text-gray-700 font-medium">
+            <p className="text-[#667085] font-medium">
               We handle documentation preparation and coordination so you can
               avoid unnecessary delays.
             </p>
@@ -329,17 +323,14 @@ export default function LegalDocumentationPage() {
       </section>
 
       {/* Why choose us */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12 max-w-3xl"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Why Choose Our Legal Documentation Services?
             </h2>
           </motion.div>
@@ -357,14 +348,11 @@ export default function LegalDocumentationPage() {
                   <span className="text-xl" aria-hidden>
                     ✅
                   </span>
-                  <h3
-                    className="text-xl font-bold"
-                    style={{ color: "#071A2B" }}
-                  >
+                  <h3 className="subsection-title">
                     {item.title}
                   </h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed pl-9">{item.body}</p>
+                <p className="text-[#667085] leading-relaxed pl-9">{item.body}</p>
               </motion.div>
             ))}
           </div>
@@ -379,10 +367,7 @@ export default function LegalDocumentationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#FFFFFF" }}
-            >
+            <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
               Legal Documentation Services We{" "}
               <span style={{ color: "#FFFFFF" }}>Offer</span>
             </h2>
@@ -403,10 +388,7 @@ export default function LegalDocumentationPage() {
                 >
                   <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
-                <h3
-                  className="text-lg font-bold mb-2"
-                  style={{ color: "#FFFFFF" }}
-                >
+                <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {svc.title}
                 </h3>
                 <p className="text-sm text-white/75 mb-4 leading-relaxed">
@@ -442,10 +424,7 @@ export default function LegalDocumentationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-12 text-center max-w-3xl mx-auto"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Additional Legal Documentation{" "}
               <span style={{ color: "#155EEF" }}>Services</span>
             </h2>
@@ -455,7 +434,7 @@ export default function LegalDocumentationPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-              style={{ backgroundColor: "#EAF1FF", border: "1px solid var(--card-line)" }}
+              style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
             >
               <div
                 className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
@@ -463,13 +442,13 @@ export default function LegalDocumentationPage() {
               >
                 <Scale className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
-              <h3 className="text-xl font-bold mb-3" style={{ color: "#071A2B" }}>
+              <h3 className="subsection-title mb-3">
                 Document Review & Formatting
               </h3>
-              <p className="text-sm font-semibold mb-2 text-gray-600">
+              <p className="text-sm font-semibold mb-2 text-[#667085]">
                 We review your documents to help ensure:
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2 text-[#667085]">
                 {["Completeness", "Consistent formatting", "Clear terms"].map(
                   (x) => (
                     <li key={x} className="flex gap-2">
@@ -485,7 +464,7 @@ export default function LegalDocumentationPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.05 }}
               className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-              style={{ backgroundColor: "#EAF1FF", border: "1px solid var(--card-line)" }}
+              style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
             >
               <div
                 className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
@@ -493,10 +472,10 @@ export default function LegalDocumentationPage() {
               >
                 <FileSignature className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
-              <h3 className="text-xl font-bold mb-3" style={{ color: "#071A2B" }}>
+              <h3 className="subsection-title mb-3">
                 Notarization Services
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-[#667085] leading-relaxed">
                 We arrange notarization through authorized UAE legal authorities.
               </p>
             </motion.div>
@@ -505,7 +484,7 @@ export default function LegalDocumentationPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
               className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-              style={{ backgroundColor: "#EAF1FF", border: "1px solid var(--card-line)" }}
+              style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
             >
               <div
                 className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
@@ -513,13 +492,13 @@ export default function LegalDocumentationPage() {
               >
                 <Languages className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
-              <h3 className="text-xl font-bold mb-3" style={{ color: "#071A2B" }}>
+              <h3 className="subsection-title mb-3">
                 Legal Translation Coordination
               </h3>
-              <p className="text-sm font-semibold mb-2 text-gray-600">
+              <p className="text-sm font-semibold mb-2 text-[#667085]">
                 We coordinate certified translations through UAE Ministry of Justice-licensed legal translators, including:
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2 text-[#667085]">
                 {[
                   "Arabic to English",
                   "English to Arabic",
@@ -537,17 +516,14 @@ export default function LegalDocumentationPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Step-by-Step Legal Documentation{" "}
               <span style={{ color: "#155EEF" }}>Process</span>
             </h2>
@@ -559,7 +535,7 @@ export default function LegalDocumentationPage() {
                 initial={{ opacity: 0, x: -12 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
-                className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-gray-100"
+                className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-[#E4E7EC]"
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
@@ -568,13 +544,10 @@ export default function LegalDocumentationPage() {
                   {index + 1}
                 </div>
                 <div>
-                  <h3
-                    className="text-lg font-bold mb-1"
-                    style={{ color: "#071A2B" }}
-                  >
+                  <h3 className="subsection-title mb-1">
                     {s.step}
                   </h3>
-                  <p className="text-gray-700">{s.text}</p>
+                  <p className="text-[#667085]">{s.text}</p>
                 </div>
               </motion.div>
             ))}
@@ -590,10 +563,7 @@ export default function LegalDocumentationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Flexible Legal Documentation{" "}
               <span style={{ color: "#155EEF" }}>Packages</span>
             </h2>
@@ -610,8 +580,8 @@ export default function LegalDocumentationPage() {
                 }`}
                 style={
                   pkg.highlighted
-                    ? { borderColor: "#155EEF", backgroundColor: "#FFFCF5" }
-                    : { backgroundColor: "#EAF1FF" }
+                    ? { borderColor: "#155EEF", backgroundColor: "#F5F8FF" }
+                    : { backgroundColor: "#F5F8FF" }
                 }
               >
                 {pkg.highlighted && (
@@ -622,16 +592,13 @@ export default function LegalDocumentationPage() {
                     Premium
                   </div>
                 )}
-                <h3
-                  className="text-2xl font-bold mb-2"
-                  style={{ color: "#071A2B" }}
-                >
+                <h3 className="subsection-title mb-2">
                   {pkg.name}
                 </h3>
-                <p className="text-gray-600 mb-6">{pkg.tagline}</p>
+                <p className="text-[#667085] mb-6">{pkg.tagline}</p>
                 <p
                   className="text-sm font-semibold mb-3"
-                  style={{ color: "#071A2B" }}
+                  style={{ color: "#1D2939" }}
                 >
                   Includes:
                 </p>
@@ -642,7 +609,7 @@ export default function LegalDocumentationPage() {
                         className="w-5 h-5 flex-shrink-0 mt-0.5"
                         style={{ color: "#155EEF" }}
                       />
-                      <span className="text-gray-700">{f}</span>
+                      <span className="text-[#667085]">{f}</span>
                     </li>
                   ))}
                 </ul>
@@ -667,10 +634,7 @@ export default function LegalDocumentationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#FFFFFF" }}
-            >
+            <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
               Benefits of Professional Legal{" "}
               <span style={{ color: "#FFFFFF" }}>Documentation</span>
             </h2>
@@ -686,7 +650,7 @@ export default function LegalDocumentationPage() {
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <span className="text-lg">✅</span>
-                <span className="text-gray-200 font-medium capitalize">{b}</span>
+                <span className="text-white/90 font-medium capitalize">{b}</span>
               </motion.div>
             ))}
           </div>
@@ -694,17 +658,14 @@ export default function LegalDocumentationPage() {
       </section>
 
       {/* Who needs */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-10"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Who Requires Legal Documentation Services?
             </h2>
           </motion.div>
@@ -712,14 +673,14 @@ export default function LegalDocumentationPage() {
             {whoNeeds.map((label) => (
               <span
                 key={label}
-                className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
-                style={{ color: "#071A2B" }}
+                className="px-5 py-2 rounded-full font-semibold bg-white border border-[#E4E7EC] shadow-sm"
+                style={{ color: "#1D2939" }}
               >
                 {label}
               </span>
             ))}
           </div>
-          <p className="text-center text-gray-700 font-medium">
+          <p className="text-center text-[#667085] font-medium">
             Every business requires legal documentation at some stage.
           </p>
         </div>
@@ -733,14 +694,11 @@ export default function LegalDocumentationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-8"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Common Legal Documentation{" "}
               <span style={{ color: "#155EEF" }}>Mistakes</span>
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="lead text-[#667085]">
               These can cause serious business delays.
             </p>
           </motion.div>
@@ -753,12 +711,12 @@ export default function LegalDocumentationPage() {
                 transition={{ delay: index * 0.05 }}
                 className="flex items-center space-x-3 p-4 rounded-2xl border-l-4"
                 style={{
-                  backgroundColor: "#FEF3E7",
-                  borderColor: "#E67E22",
+                  backgroundColor: "#FFFFFF",
+                  borderColor: "#1D2939",
                 }}
               >
-                <span style={{ color: "#E67E22" }}>❌</span>
-                <span className="text-gray-800 font-semibold">{m}</span>
+                <span style={{ color: "#1D2939" }}>❌</span>
+                <span className="text-[#1D2939] font-semibold">{m}</span>
               </motion.div>
             ))}
           </div>
@@ -766,39 +724,36 @@ export default function LegalDocumentationPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
-            >
+            <h2 className="section-title mb-4">
               Frequently Asked{" "}
               <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
                 <AccordionItem
                   key={faq.q}
                   value={`item-${i}`}
-                  className="border-gray-200"
+                  className="border-[#E4E7EC]"
                 >
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#071A2B" }}
+                    style={{ color: "#1D2939" }}
                   >
                     <span className="flex items-start gap-2">
                       <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -815,14 +770,14 @@ export default function LegalDocumentationPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
               Secure Your Business with Proper Legal Documentation
             </h2>
-            <p className="text-white/90 text-lg mb-4">
+            <p className="text-white/90 mb-4">
               Don&apos;t risk your business with incomplete or incorrect
               documents.
             </p>
-            <p className="text-white/90 text-lg mb-4">
+            <p className="text-white/90 mb-4">
               Contact us today for reliable documentation and consultancy
               services in UAE. We ensure your documents are accurate,
               properly prepared, and ready for submission.

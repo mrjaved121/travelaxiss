@@ -18,15 +18,15 @@ const quickLinks = [
 
 export default function NotFound() {
   return (
-    <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
+    <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
           404
         </p>
-        <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+        <h1 className="page-title mb-4">
           We Couldn&apos;t Find That Page
         </h1>
-        <p className="text-lg text-gray-600 mb-10 max-w-xl mx-auto">
+        <p className="text-lg text-[#667085] mb-10 max-w-xl mx-auto">
           The page you're looking for may have moved or no longer exists. Here's where most visitors were headed:
         </p>
 
@@ -36,7 +36,7 @@ export default function NotFound() {
               key={link.href}
               href={link.href}
               className="flex items-center justify-between gap-2 rounded-2xl p-4 bg-white shadow-sm hover:shadow-md transition-shadow font-semibold"
-              style={{ color: "#071A2B" }}
+              style={{ color: "#1D2939" }}
             >
               <span>{link.label}</span>
               <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />

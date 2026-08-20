@@ -199,21 +199,18 @@ export default function CompanyFormationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <h1
-              className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
-              style={{ color: "#071A2B" }}
-            >
+            <h1 className="page-title mb-6">
               Company Formation in UAE – Start Your Business with{" "}
               <span style={{ color: "#155EEF" }}>Confidence</span>
             </h1>
-            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            <p className="lead text-[#667085] mb-4 leading-relaxed">
               Start your business in the UAE with a simple and stress-free
               process. We help entrepreneurs, startups, and investors set up
               companies with complete legal support and fast approvals.
@@ -223,19 +220,19 @@ export default function CompanyFormationPage() {
                 <span
                   key={label}
                   className="px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ backgroundColor: "#071A2B", color: "#155EEF" }}
+                  style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
                 >
                   {label}
                 </span>
               ))}
             </div>
-            <p className="text-lg text-gray-700 mb-8 font-medium">
+            <p className="text-[#667085] mb-8 font-medium">
               100% guidance from start to finish.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90 text-lg font-semibold"
+                className="btn inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 Get Free Consultation
@@ -244,8 +241,8 @@ export default function CompanyFormationPage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#071A2B", color: "#071A2B" }}
+                className="btn inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90"
+                style={{ borderColor: "#1D2939", color: "#1D2939" }}
               >
                 Chat on WhatsApp
               </a>
@@ -279,13 +276,12 @@ export default function CompanyFormationPage() {
             className="max-w-4xl"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-6"
             >
               Complete Company Formation Services in{" "}
               <span style={{ color: "#155EEF" }}>UAE</span>
             </h2>
-            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            <p className="lead text-[#667085] mb-4 leading-relaxed">
               We provide complete business setup solutions in the UAE — from{" "}
               <strong>company formation UAE</strong> and{" "}
               <strong>business setup UAE</strong> to{" "}
@@ -293,13 +289,13 @@ export default function CompanyFormationPage() {
               <strong>trade license UAE</strong> support — helping you turn your
               idea into a legally established company.
             </p>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+            <p className="text-[#667085] mb-8 leading-relaxed">
               From choosing the right structure to getting your trade license,
               our team handles everything with accuracy and speed. If you want
               to <strong>start a business in Dubai</strong> or elsewhere in the
               Emirates, we map the right path for you.
             </p>
-            <p className="font-semibold mb-4" style={{ color: "#071A2B" }}>
+            <p className="font-semibold mb-4" style={{ color: "#1D2939" }}>
               We help you:
             </p>
             <ul className="space-y-3">
@@ -314,7 +310,7 @@ export default function CompanyFormationPage() {
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
                     style={{ color: "#155EEF" }}
                   />
-                  <span className="text-lg text-gray-700">{item}</span>
+                  <span className="text-lg text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>
@@ -323,7 +319,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Why choose us */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -331,12 +327,11 @@ export default function CompanyFormationPage() {
             className="mb-12 max-w-3xl"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Why Choose Our Company Formation Services?
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="lead text-[#667085] leading-relaxed">
               Starting a business in the UAE involves multiple steps, approvals,
               and legal requirements. Our experts simplify the entire process
               for you.
@@ -357,13 +352,12 @@ export default function CompanyFormationPage() {
                     ✅
                   </span>
                   <h3
-                    className="text-xl font-bold"
-                    style={{ color: "#071A2B" }}
+                    className="subsection-title"
                   >
                     {item.title}
                   </h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed pl-9">{item.body}</p>
+                <p className="text-[#667085] leading-relaxed pl-9">{item.body}</p>
               </motion.div>
             ))}
           </div>
@@ -379,7 +373,7 @@ export default function CompanyFormationPage() {
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="section-title mb-4"
               style={{ color: "#FFFFFF" }}
             >
               Business Setup Services We{" "}
@@ -403,7 +397,7 @@ export default function CompanyFormationPage() {
                   <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <h3
-                  className="text-lg font-bold mb-2"
+                  className="subsection-title mb-2"
                   style={{ color: "#FFFFFF" }}
                 >
                   {svc.title}
@@ -442,13 +436,12 @@ export default function CompanyFormationPage() {
             className="mb-12"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Step-by-Step Company Formation Process in{" "}
               <span style={{ color: "#155EEF" }}>UAE</span>
             </h2>
-            <p className="text-lg text-gray-700 max-w-3xl">
+            <p className="lead text-[#667085] max-w-3xl">
               We follow a simple and structured process to set up your business.
             </p>
           </motion.div>
@@ -460,7 +453,7 @@ export default function CompanyFormationPage() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm"
-                style={{ backgroundColor: "#EAF1FF" }}
+                style={{ backgroundColor: "#F5F8FF" }}
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
@@ -469,10 +462,10 @@ export default function CompanyFormationPage() {
                   {index + 1}
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold mb-1" style={{ color: "#071A2B" }}>
+                  <h3 className="subsection-title mb-1">
                     {s.step}
                   </h3>
-                  <p className="text-gray-700">{s.text}</p>
+                  <p className="text-[#667085]">{s.text}</p>
                 </div>
               </motion.div>
             ))}
@@ -481,7 +474,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -489,8 +482,7 @@ export default function CompanyFormationPage() {
             className="max-w-4xl"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-8"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-8"
             >
               How Long Does Company Formation{" "}
               <span style={{ color: "#155EEF" }}>Take?</span>
@@ -499,33 +491,33 @@ export default function CompanyFormationPage() {
               <div className="rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex items-center gap-2 mb-2">
                   <Clock className="w-6 h-6" style={{ color: "#155EEF" }} />
-                  <h3 className="text-xl font-bold" style={{ color: "#071A2B" }}>
+                  <h3 className="subsection-title">
                     Standard process
                   </h3>
                 </div>
                 <p className="text-2xl font-bold mb-1" style={{ color: "#155EEF" }}>
                   5–10 working days
                 </p>
-                <p className="text-gray-600 text-sm">
+                <p className="text-[#667085] text-sm">
                   Typical timeline for many setups once documents are complete.
                 </p>
               </div>
               <div className="rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex items-center gap-2 mb-2">
                   <Sparkles className="w-6 h-6" style={{ color: "#155EEF" }} />
-                  <h3 className="text-xl font-bold" style={{ color: "#071A2B" }}>
+                  <h3 className="subsection-title">
                     Express setup
                   </h3>
                 </div>
-                <p className="text-lg font-semibold text-gray-800 mb-1">
+                <p className="font-semibold text-[#1D2939] mb-1">
                   Faster processing available
                 </p>
-                <p className="text-gray-600 text-sm">
+                <p className="text-[#667085] text-sm">
                   For eligible cases when urgency and completeness align.
                 </p>
               </div>
             </div>
-            <p className="text-gray-700 italic">
+            <p className="text-[#667085] italic">
               Time depends on approvals, activity type, and jurisdiction.
             </p>
           </motion.div>
@@ -541,8 +533,7 @@ export default function CompanyFormationPage() {
             className="text-center mb-12"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Flexible Business Setup{" "}
               <span style={{ color: "#155EEF" }}>Packages</span>
@@ -560,8 +551,8 @@ export default function CompanyFormationPage() {
                 }`}
                 style={
                   pkg.highlighted
-                    ? { borderColor: "#155EEF", backgroundColor: "#FFFCF5" }
-                    : { backgroundColor: "#EAF1FF" }
+                    ? { borderColor: "#155EEF", backgroundColor: "#F5F8FF" }
+                    : { backgroundColor: "#F5F8FF" }
                 }
               >
                 {pkg.highlighted && (
@@ -573,13 +564,12 @@ export default function CompanyFormationPage() {
                   </div>
                 )}
                 <h3
-                  className="text-2xl font-bold mb-2"
-                  style={{ color: "#071A2B" }}
+                  className="subsection-title mb-2"
                 >
                   {pkg.name}
                 </h3>
-                <p className="text-gray-600 mb-6">{pkg.tagline}</p>
-                <p className="text-sm font-semibold mb-3" style={{ color: "#071A2B" }}>
+                <p className="text-[#667085] mb-6">{pkg.tagline}</p>
+                <p className="text-sm font-semibold mb-3" style={{ color: "#1D2939" }}>
                   Includes:
                 </p>
                 <ul className="space-y-3 mb-6">
@@ -589,11 +579,11 @@ export default function CompanyFormationPage() {
                         className="w-5 h-5 flex-shrink-0 mt-0.5"
                         style={{ color: "#155EEF" }}
                       />
-                      <span className="text-gray-700">{f}</span>
+                      <span className="text-[#667085]">{f}</span>
                     </li>
                   ))}
                 </ul>
-                <p className="text-sm text-gray-600 mb-6 italic">
+                <p className="text-sm text-[#667085] mb-6 italic">
                   👉 {pkg.footnote}
                 </p>
                 <Link
@@ -618,7 +608,7 @@ export default function CompanyFormationPage() {
             className="mb-10 text-center"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="section-title mb-4"
               style={{ color: "#FFFFFF" }}
             >
               Why Start a Business in{" "}
@@ -636,7 +626,7 @@ export default function CompanyFormationPage() {
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <span className="text-lg">✅</span>
-                <span className="text-gray-200 font-medium">{b}</span>
+                <span className="text-white/90 font-medium">{b}</span>
               </motion.div>
             ))}
           </div>
@@ -644,7 +634,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Who benefits */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -652,12 +642,11 @@ export default function CompanyFormationPage() {
             className="text-center mb-10"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Who Can Benefit from Company Formation?
             </h2>
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+            <p className="lead text-[#667085] max-w-2xl mx-auto">
               UAE offers opportunities for many types of founders and owners.
             </p>
           </motion.div>
@@ -665,14 +654,14 @@ export default function CompanyFormationPage() {
             {whoBenefits.map((label) => (
               <span
                 key={label}
-                className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
-                style={{ color: "#071A2B" }}
+                className="px-5 py-2 rounded-full font-semibold bg-white border border-[#E4E7EC] shadow-sm"
+                style={{ color: "#1D2939" }}
               >
                 {label}
               </span>
             ))}
           </div>
-          <p className="text-center text-gray-700 font-medium">
+          <p className="text-center text-[#667085] font-medium">
             UAE offers opportunities for everyone — we tailor the route to your profile.
           </p>
         </div>
@@ -687,22 +676,21 @@ export default function CompanyFormationPage() {
             className="mb-10 text-center"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, i) => (
-              <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
-                <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#071A2B" }}>
+              <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
+                <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#1D2939" }}>
                   <span className="flex items-start gap-2">
                     <span className="text-[#155EEF]">❓</span>
                     {faq.q}
                   </span>
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
                   {faq.a}
                 </AccordionContent>
               </AccordionItem>
@@ -718,11 +706,11 @@ export default function CompanyFormationPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
             Start Your Business in UAE Today
           </h2>
-          <p className="text-white/90 text-lg mb-4">Ready to launch your business?</p>
-          <p className="text-white/90 text-lg mb-10">
+          <p className="lead mb-4" style={{ color: "rgba(255,255,255,0.9)" }}>Ready to launch your business?</p>
+          <p className="lead mb-10" style={{ color: "rgba(255,255,255,0.9)" }}>
             Contact us today for expert company formation services. We make the
             process simple, fast, and stress-free.
           </p>

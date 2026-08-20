@@ -66,7 +66,7 @@ export default function VisaServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -76,15 +76,15 @@ export default function VisaServicesPage() {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Visa Services
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               UAE Visa <span style={{ color: '#155EEF' }}>Documentation &amp; Consultancy</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-[#667085] mb-6">
               End-to-end UAE visa documentation and consultancy support&mdash;from eligibility
               review and paperwork to application guidance, renewals, and cancellation
               assistance.
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
           </motion.div>
@@ -115,10 +115,10 @@ export default function VisaServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
+            <h2 className="section-title mb-4" style={{ color: '#FFFFFF' }}>
               Support Across Major UAE Visa Categories
             </h2>
-            <p className="text-lg text-white/75">
+            <p className="text-white/75">
               Structured documentation and guidance for the visa categories most businesses
               and families need in the UAE.
             </p>
@@ -142,7 +142,7 @@ export default function VisaServicesPage() {
                 >
                   <item.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
                 </div>
-                <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
+                <h3 className="subsection-title mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed mb-4">{item.description}</p>
@@ -164,24 +164,24 @@ export default function VisaServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
+            <h2 className="section-title mb-4">
               Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: '#EAF1FF' }}>
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]" style={{ backgroundColor: '#F5F8FF' }}>
             <Accordion type="single" collapsible className="w-full">
               {visaServicesFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: '#071A2B' }}
+                    style={{ color: '#1D2939' }}
                   >
                     <span className="flex items-start gap-2">
                       <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>

@@ -24,7 +24,7 @@ const GOAL_OPTIONS = [
 ];
 
 const fieldClassName =
-  "w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 transition-shadow";
+  "w-full rounded-xl border border-[#E4E7EC] bg-white px-4 py-3 text-[#1D2939] placeholder:text-[#667085] focus:outline-none focus:ring-2 transition-shadow";
 
 export default function ConsultationPage() {
   const headingId = useId();
@@ -62,11 +62,11 @@ export default function ConsultationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Book a Consultation</p>
-            <h1 className="mb-6" style={{ color: "#071A2B" }}>
+            <h1 className="page-title mb-6">
               Let&apos;s Talk About <span style={{ color: "#155EEF" }}>Your Journey</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
@@ -91,7 +91,7 @@ export default function ConsultationPage() {
           >
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="c-name" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+                <label htmlFor="c-name" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                   Full name
                 </label>
                 <input
@@ -106,7 +106,7 @@ export default function ConsultationPage() {
                 />
               </div>
               <div>
-                <label htmlFor="c-email" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+                <label htmlFor="c-email" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                   Email
                 </label>
                 <input
@@ -124,7 +124,7 @@ export default function ConsultationPage() {
 
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="c-contact" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+                <label htmlFor="c-contact" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                   Phone / WhatsApp
                 </label>
                 <input
@@ -139,7 +139,7 @@ export default function ConsultationPage() {
                 />
               </div>
               <div>
-                <label htmlFor="c-residence" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+                <label htmlFor="c-residence" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                   Country of residence
                 </label>
                 <input
@@ -156,7 +156,7 @@ export default function ConsultationPage() {
 
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="c-destination" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+                <label htmlFor="c-destination" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                   Destination
                 </label>
                 <select
@@ -174,7 +174,7 @@ export default function ConsultationPage() {
                 </select>
               </div>
               <div>
-                <label htmlFor="c-goal" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+                <label htmlFor="c-goal" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                   Visa goal
                 </label>
                 <select
@@ -194,7 +194,7 @@ export default function ConsultationPage() {
             </div>
 
             <div>
-              <label htmlFor="c-date" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+              <label htmlFor="c-date" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                 Preferred consultation date
               </label>
               <input
@@ -208,7 +208,7 @@ export default function ConsultationPage() {
             </div>
 
             <div>
-              <label htmlFor="c-message" className="block text-sm font-semibold mb-2" style={{ color: "#071A2B" }}>
+              <label htmlFor="c-message" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
                 Message
               </label>
               <textarea
@@ -236,7 +236,7 @@ export default function ConsultationPage() {
           </motion.form>
 
           <div className="mt-8 text-center">
-            <p className="text-gray-600 mb-3">Prefer to talk now?</p>
+            <p className="text-[#667085] mb-3">Prefer to talk now?</p>
             <a
               href={whatsappLink}
               target="_blank"

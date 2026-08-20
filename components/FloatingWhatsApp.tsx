@@ -46,7 +46,7 @@ export default function FloatingWhatsApp() {
 
       <span
         className="absolute right-full mr-3 px-4 py-2 rounded-lg text-sm font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity pointer-events-none max-md:hidden"
-        style={{ backgroundColor: "#071A2B", color: "#155EEF" }}
+        style={{ backgroundColor: "#1D2939", color: "#FFFFFF" }}
         aria-hidden
       >
         Chat with us on WhatsApp

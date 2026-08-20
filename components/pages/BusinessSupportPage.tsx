@@ -211,23 +211,20 @@ export default function BusinessSupportPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <h1
-              className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
-              style={{ color: "#071A2B" }}
-            >
+            <h1 className="page-title mb-6">
               Business Support Services in UAE –{" "}
               <span style={{ color: "#155EEF" }}>
                 Grow, Protect & Scale Your Business
               </span>
             </h1>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            <p className="lead text-[#667085] mb-6 leading-relaxed">
               Take your business to the next level with professional business
               support services in the UAE. We provide everything you need after
               company formation — from branding to compliance and growth
@@ -238,19 +235,19 @@ export default function BusinessSupportPage() {
                 <span
                   key={label}
                   className="px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ backgroundColor: "#071A2B", color: "#155EEF" }}
+                  style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
                 >
                   {label}
                 </span>
               ))}
             </div>
-            <p className="text-lg text-gray-800 mb-8 font-medium">
+            <p className="text-[#1D2939] mb-8 font-medium">
               End-to-end business support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90 text-lg font-semibold"
+                className="btn inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 Get Business Support
@@ -259,8 +256,8 @@ export default function BusinessSupportPage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#071A2B", color: "#071A2B" }}
+                className="btn inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90"
+                style={{ borderColor: "#1D2939", color: "#1D2939" }}
               >
                 Chat on WhatsApp
               </a>
@@ -294,13 +291,12 @@ export default function BusinessSupportPage() {
             className="max-w-4xl"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-6"
             >
               Complete Business Support Services in{" "}
               <span style={{ color: "#155EEF" }}>UAE</span>
             </h2>
-            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            <p className="lead text-[#667085] mb-4 leading-relaxed">
               Starting a business is only the first step. To grow successfully,
               you need ongoing support, legal protection, and operational
               systems. Our{" "}
@@ -311,7 +307,7 @@ export default function BusinessSupportPage() {
               <strong>business compliance UAE</strong> — so you can operate with
               confidence.
             </p>
-            <p className="font-semibold mb-4" style={{ color: "#071A2B" }}>
+            <p className="font-semibold mb-4" style={{ color: "#1D2939" }}>
               Our business support services help you:
             </p>
             <ul className="space-y-3 mb-6">
@@ -326,11 +322,11 @@ export default function BusinessSupportPage() {
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
                     style={{ color: "#155EEF" }}
                   />
-                  <span className="text-lg text-gray-700">{item}</span>
+                  <span className="text-lg text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>
-            <p className="text-lg text-gray-700 font-medium">
+            <p className="text-[#667085] font-medium">
               We provide complete solutions for long-term success.
             </p>
           </motion.div>
@@ -338,7 +334,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Why choose us */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -346,8 +342,7 @@ export default function BusinessSupportPage() {
             className="mb-12 max-w-3xl"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Why Choose Our Business Support Services?
             </h2>
@@ -367,13 +362,12 @@ export default function BusinessSupportPage() {
                     ✅
                   </span>
                   <h3
-                    className="text-xl font-bold"
-                    style={{ color: "#071A2B" }}
+                    className="subsection-title"
                   >
                     {item.title}
                   </h3>
                 </div>
-                <p className="text-gray-700 leading-relaxed pl-9">{item.body}</p>
+                <p className="text-[#667085] leading-relaxed pl-9">{item.body}</p>
               </motion.div>
             ))}
           </div>
@@ -389,7 +383,7 @@ export default function BusinessSupportPage() {
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="section-title mb-4"
               style={{ color: "#FFFFFF" }}
             >
               Services We <span style={{ color: "#FFFFFF" }}>Offer</span>
@@ -412,7 +406,7 @@ export default function BusinessSupportPage() {
                   <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <h3
-                  className="text-lg font-bold mb-2"
+                  className="subsection-title mb-2"
                   style={{ color: "#FFFFFF" }}
                 >
                   {svc.title}
@@ -456,8 +450,7 @@ export default function BusinessSupportPage() {
             className="mb-12 text-center max-w-3xl mx-auto"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Additional Business Support{" "}
               <span style={{ color: "#155EEF" }}>Services</span>
@@ -471,7 +464,7 @@ export default function BusinessSupportPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-                style={{ backgroundColor: "#EAF1FF", border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
@@ -480,12 +473,11 @@ export default function BusinessSupportPage() {
                   <svc.icon className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
                 <h3
-                  className="text-xl font-bold mb-3"
-                  style={{ color: "#071A2B" }}
+                  className="subsection-title mb-3"
                 >
                   {svc.title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed">{svc.description}</p>
+                <p className="text-[#667085] leading-relaxed">{svc.description}</p>
               </motion.div>
             ))}
           </div>
@@ -493,7 +485,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -501,8 +493,7 @@ export default function BusinessSupportPage() {
             className="mb-12"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               How Our Business Support Process{" "}
               <span style={{ color: "#155EEF" }}>Works</span>
@@ -515,7 +506,7 @@ export default function BusinessSupportPage() {
                 initial={{ opacity: 0, x: -12 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
-                className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-gray-100"
+                className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-[#E4E7EC]"
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
@@ -525,12 +516,11 @@ export default function BusinessSupportPage() {
                 </div>
                 <div>
                   <h3
-                    className="text-lg font-bold mb-1"
-                    style={{ color: "#071A2B" }}
+                    className="subsection-title mb-1"
                   >
                     {s.step}
                   </h3>
-                  <p className="text-gray-700">{s.text}</p>
+                  <p className="text-[#667085]">{s.text}</p>
                 </div>
               </motion.div>
             ))}
@@ -547,8 +537,7 @@ export default function BusinessSupportPage() {
             className="text-center mb-12"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Flexible Business Support{" "}
               <span style={{ color: "#155EEF" }}>Packages</span>
@@ -566,8 +555,8 @@ export default function BusinessSupportPage() {
                 }`}
                 style={
                   pkg.highlighted
-                    ? { borderColor: "#155EEF", backgroundColor: "#FFFCF5" }
-                    : { backgroundColor: "#EAF1FF" }
+                    ? { borderColor: "#155EEF", backgroundColor: "#F5F8FF" }
+                    : { backgroundColor: "#F5F8FF" }
                 }
               >
                 {pkg.highlighted && (
@@ -579,15 +568,14 @@ export default function BusinessSupportPage() {
                   </div>
                 )}
                 <h3
-                  className="text-2xl font-bold mb-2"
-                  style={{ color: "#071A2B" }}
+                  className="subsection-title mb-2"
                 >
                   {pkg.name}
                 </h3>
-                <p className="text-gray-600 mb-6">{pkg.tagline}</p>
+                <p className="text-[#667085] mb-6">{pkg.tagline}</p>
                 <p
                   className="text-sm font-semibold mb-3"
-                  style={{ color: "#071A2B" }}
+                  style={{ color: "#1D2939" }}
                 >
                   Includes:
                 </p>
@@ -598,7 +586,7 @@ export default function BusinessSupportPage() {
                         className="w-5 h-5 flex-shrink-0 mt-0.5"
                         style={{ color: "#155EEF" }}
                       />
-                      <span className="text-gray-700">{f}</span>
+                      <span className="text-[#667085]">{f}</span>
                     </li>
                   ))}
                 </ul>
@@ -624,7 +612,7 @@ export default function BusinessSupportPage() {
             className="mb-10 text-center"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="section-title mb-4"
               style={{ color: "#FFFFFF" }}
             >
               Benefits of Professional Business{" "}
@@ -642,7 +630,7 @@ export default function BusinessSupportPage() {
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <span className="text-lg">✅</span>
-                <span className="text-gray-200 font-medium capitalize">{b}</span>
+                <span className="text-white/90 font-medium capitalize">{b}</span>
               </motion.div>
             ))}
           </div>
@@ -650,7 +638,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* Who needs */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -658,8 +646,7 @@ export default function BusinessSupportPage() {
             className="text-center mb-10"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Who Can Benefit from These Services?
             </h2>
@@ -668,14 +655,14 @@ export default function BusinessSupportPage() {
             {whoNeeds.map((label) => (
               <span
                 key={label}
-                className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
-                style={{ color: "#071A2B" }}
+                className="px-5 py-2 rounded-full font-semibold bg-white border border-[#E4E7EC] shadow-sm"
+                style={{ color: "#1D2939" }}
               >
                 {label}
               </span>
             ))}
           </div>
-          <p className="text-center text-gray-700 font-medium">
+          <p className="text-center text-[#667085] font-medium">
             Every business needs support to grow.
           </p>
         </div>
@@ -690,13 +677,12 @@ export default function BusinessSupportPage() {
             className="mb-8"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Common Business Support{" "}
               <span style={{ color: "#155EEF" }}>Mistakes</span>
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="lead text-[#667085]">
               These can slow your business growth.
             </p>
           </motion.div>
@@ -709,12 +695,12 @@ export default function BusinessSupportPage() {
                 transition={{ delay: index * 0.05 }}
                 className="flex items-center space-x-3 p-4 rounded-2xl border-l-4"
                 style={{
-                  backgroundColor: "#FEF3E7",
-                  borderColor: "#E67E22",
+                  backgroundColor: "#FFFFFF",
+                  borderColor: "#1D2939",
                 }}
               >
-                <span style={{ color: "#E67E22" }}>❌</span>
-                <span className="text-gray-800 font-semibold">{m}</span>
+                <span style={{ color: "#1D2939" }}>❌</span>
+                <span className="text-[#1D2939] font-semibold">{m}</span>
               </motion.div>
             ))}
           </div>
@@ -722,7 +708,7 @@ export default function BusinessSupportPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -730,31 +716,30 @@ export default function BusinessSupportPage() {
             className="mb-10 text-center"
           >
             <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#071A2B" }}
+              className="section-title mb-4"
             >
               Frequently Asked{" "}
               <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
                 <AccordionItem
                   key={faq.q}
                   value={`item-${i}`}
-                  className="border-gray-200"
+                  className="border-[#E4E7EC]"
                 >
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#071A2B" }}
+                    style={{ color: "#1D2939" }}
                   >
                     <span className="flex items-start gap-2">
                       <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -771,14 +756,14 @@ export default function BusinessSupportPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
               Grow Your Business with Expert Support
             </h2>
-            <p className="text-white/90 text-lg mb-4">
+            <p className="lead mb-4" style={{ color: "rgba(255,255,255,0.9)" }}>
               Don&apos;t stop at company formation — take your business to the
               next level.
             </p>
-            <p className="text-white/90 text-lg mb-10">
+            <p className="lead mb-10" style={{ color: "rgba(255,255,255,0.9)" }}>
               Contact us today for complete business support services in UAE. We
               help you grow, protect, and scale your business.
             </p>

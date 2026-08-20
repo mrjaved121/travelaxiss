@@ -42,7 +42,7 @@ export default function WhyBusinessPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -52,11 +52,11 @@ export default function WhyBusinessPage() {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Why the UAE
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               The Ultimate Business Destination for{" "}
               <span style={{ color: '#155EEF' }}>Success</span>
             </h1>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-[#667085]">
               The business environment offers strong opportunities for growth, global
               connectivity, and operational efficiency.
             </p>
@@ -91,15 +91,15 @@ export default function WhyBusinessPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-3xl p-8"
-                style={{ backgroundColor: '#EAF1FF' }}
+                style={{ backgroundColor: '#F5F8FF' }}
               >
                 <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }}>
                   <benefit.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#071A2B' }}>
+                <h3 className="subsection-title mb-4">
                   {benefit.title}
                 </h3>
-                <p className="text-gray-600">{benefit.description}</p>
+                <p className="text-[#667085]">{benefit.description}</p>
               </motion.div>
             ))}
           </div>
@@ -112,15 +112,15 @@ export default function WhyBusinessPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="rounded-3xl p-8"
-                style={{ backgroundColor: '#EAF1FF' }}
+                style={{ backgroundColor: '#F5F8FF' }}
               >
                 <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }}>
                   <benefit.icon className="w-7 h-7" style={{ color: '#FFFFFF' }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#071A2B' }}>
+                <h3 className="subsection-title mb-4">
                   {benefit.title}
                 </h3>
-                <p className="text-gray-600">{benefit.description}</p>
+                <p className="text-[#667085]">{benefit.description}</p>
               </motion.div>
             ))}
           </div>
@@ -143,8 +143,8 @@ export default function WhyBusinessPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                <div className="stat-num mb-2" style={{ color: '#155EEF' }}>{stat.value}</div>
-                <p className="text-gray-500">{stat.label}</p>
+                <div className="stat-number mb-2">{stat.value}</div>
+                <p className="text-[#667085]">{stat.label}</p>
               </motion.div>
             ))}
           </div>
@@ -158,7 +158,7 @@ export default function WhyBusinessPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your Journey</h2>
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Journey</h2>
           <p className="text-white/90 text-lg mb-8">
             Let us help you establish your business in one of the world&apos;s most dynamic markets.
           </p>

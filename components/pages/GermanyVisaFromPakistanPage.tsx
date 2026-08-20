@@ -59,11 +59,11 @@ export default function GermanyVisaFromPakistanPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Germany Visa Documentation</p>
-            <h1 className="mb-6" style={{ color: "#071A2B" }}>
+            <h1 className="page-title mb-6">
               Germany Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead mb-6">
@@ -77,7 +77,7 @@ export default function GermanyVisaFromPakistanPage() {
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-[#667085] leading-relaxed">
                 A Germany visa from Pakistan is applied for through the German Mission&apos;s
                 official visa process, typically via an authorized visa application centre in
                 Pakistan. Requirements depend on category — EU Blue Card, Job Seeker, Student,
@@ -124,7 +124,7 @@ export default function GermanyVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#FFFFFF" }}>
+            <h2 className="section-title" style={{ color: "#FFFFFF" }}>
               Germany Pathways We Support
             </h2>
           </motion.div>
@@ -146,7 +146,7 @@ export default function GermanyVisaFromPakistanPage() {
                 >
                   <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
                 </div>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#FFFFFF" }}>
+                <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
@@ -164,12 +164,12 @@ export default function GermanyVisaFromPakistanPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="rounded-2xl p-8 card-hover"
-            style={{ backgroundColor: "#EAF1FF" }}
+            style={{ backgroundColor: "#F5F8FF" }}
           >
-            <h2 className="text-2xl font-bold mb-3" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-3">
               Germany Applications Often Need Attested Documents
             </h2>
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="text-[#667085] leading-relaxed mb-4">
               Student, Ausbildung, and some work-category applications commonly require attested
               academic or civil certificates. Where they do, the{" "}
               <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
@@ -190,7 +190,7 @@ export default function GermanyVisaFromPakistanPage() {
       </section>
 
       {/* How we help */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -198,14 +198,14 @@ export default function GermanyVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-6">
               How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
-                  <span className="text-lg text-gray-700">{item}</span>
+                  <span className="text-lg text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>
@@ -222,21 +222,21 @@ export default function GermanyVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-4">
               Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="rounded-2xl px-4 md:px-8 py-2 card-hover" style={{ backgroundColor: "#EAF1FF" }}>
+          <div className="rounded-2xl px-4 md:px-8 py-2 card-hover" style={{ backgroundColor: "#F5F8FF" }}>
             <Accordion type="single" collapsible className="w-full">
               {germanyVisaFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#071A2B" }}
+                    style={{ color: "#1D2939" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-600 text-base leading-relaxed">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -254,7 +254,7 @@ export default function GermanyVisaFromPakistanPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-6 text-center">
               Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -267,7 +267,7 @@ export default function GermanyVisaFromPakistanPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-2xl p-4 text-center card-hover bg-white font-semibold"
-                  style={{ color: "#071A2B", border: "1px solid var(--card-line)" }}
+                  style={{ color: "#1D2939", border: "1px solid var(--card-line)" }}
                 >
                   {link.label}
                 </Link>
@@ -278,16 +278,16 @@ export default function GermanyVisaFromPakistanPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#071A2B" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <div className="w-16 h-[3px] mx-auto mb-8" style={{ backgroundColor: "#C9A45C" }} aria-hidden />
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Start Your Germany Application</h2>
-          <p className="text-white/80 text-lg mb-4 max-w-2xl mx-auto">
+          <div className="w-16 h-[3px] mx-auto mb-8 bg-white/40" aria-hidden />
+          <h2 className="section-title mb-6">Start Your Germany Application</h2>
+          <p className="text-white/80 mb-4 max-w-2xl mx-auto">
             Tell us your pathway — Blue Card, Job Seeker, Student, Ausbildung, or Family — and
             we&apos;ll map out exactly what you need.
           </p>
@@ -297,7 +297,7 @@ export default function GermanyVisaFromPakistanPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/consultation"
-              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#071A2B]"
+              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
               <span>Get a Free Germany Visa Consultation</span>
               <ArrowRight className="w-5 h-5" aria-hidden />

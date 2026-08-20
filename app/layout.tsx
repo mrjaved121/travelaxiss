@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Geist, Geist_Mono, Inter, Manrope, Pacifico } from "next/font/google";
+import { Manrope } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -17,28 +17,10 @@ import {
 import { GA_MEASUREMENT_ID } from "@/lib/seo/analytics";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  display: "swap",
-});
 const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin"],
   display: "swap",
-});
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-const pacifico = Pacifico({
-  variable: "--font-script",
-  weight: "400",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -97,7 +79,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} ${inter.variable} ${manrope.variable} h-full antialiased`}
+      className={`${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <SkipToContent />

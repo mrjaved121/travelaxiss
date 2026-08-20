@@ -53,27 +53,27 @@ export default function UaeRetirementVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               UAE Visa Documentation
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#071A2B" }}>
+            <h1 className="page-title mb-6">
               UAE <span style={{ color: "#155EEF" }}>Retirement Visa</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+            <p className="lead text-[#667085] mb-6 leading-relaxed">
               The UAE retirement visa is a long-term residence option for people 55 and older who qualify through property, savings, or income — not employment. This guide covers the three qualifying routes, what documents each one needs, and how to bring your spouse along, so you can plan your retirement in the UAE with a clear picture of what's actually required.
             </p>
             <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-[#667085] leading-relaxed">
                 The UAE retirement visa is a renewable long-term residence visa for those 55 and above, granted through one of three routes: owning qualifying UAE property, holding sufficient savings, or having sufficient active income. Thresholds are set by UAE authorities and reviewed periodically — we confirm the current figures against your situation before you apply.
               </p>
             </div>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -110,10 +110,10 @@ export default function UaeRetirementVisaPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#FFFFFF" }}>
+            <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
               Three Qualifying Routes
             </h2>
-            <p className="text-lg text-white/75">
+            <p className="text-white/75">
               You only need to meet one of these, not all three.
             </p>
           </motion.div>
@@ -135,7 +135,7 @@ export default function UaeRetirementVisaPage() {
                 >
                   <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
                 </div>
-                <h3 className="text-lg font-bold mb-2" style={{ color: "#FFFFFF" }}>
+                <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
@@ -153,19 +153,19 @@ export default function UaeRetirementVisaPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-3" style={{ color: "#071A2B" }}>
+            <h3 className="subsection-title mb-3">
               Eligibility &amp; Bringing Family
-            </h2>
-            <p className="text-gray-600 leading-relaxed mb-4">
+            </h3>
+            <p className="text-[#667085] leading-relaxed mb-4">
               The retirement visa is generally aimed at applicants aged 55 and above. Beyond age, eligibility comes down entirely to meeting one of the three qualifying routes above — there's no employment or sponsor requirement the way most other UAE residence visas work. In many cases, a spouse and dependents can be included on the application, subject to meeting the relevant requirements for each. Because thresholds for property value, savings, and income are set by UAE authorities and reviewed periodically, we verify the current figures against your specific situation rather than work from numbers that may already be out of date.
             </p>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-[#667085] leading-relaxed">
               If you're not sure which route fits best — for example, you have property but aren't sure it meets the current value threshold — that's exactly the kind of question worth asking before you gather documents, not after.
             </p>
-            <h2 className="text-2xl font-bold mb-3 mt-8" style={{ color: "#071A2B" }}>
+            <h3 className="subsection-title mb-3 mt-8">
               Renewing Your Retirement Visa
-            </h2>
-            <p className="text-gray-600 leading-relaxed">
+            </h3>
+            <p className="text-[#667085] leading-relaxed">
               Because the retirement visa is issued for a renewable term rather than a one-time grant, renewal means demonstrating you still meet your qualifying route at the time of renewal — not simply that you met it originally. If you qualified through savings, for example, the deposit generally needs to still be in place; if you qualified through property, you generally still need to hold it. Income-route holders typically need to show the income is ongoing rather than a one-off payment. Planning for renewal from the start — rather than treating the first approval as the end of the process — avoids an uncomfortable surprise a few years in.
             </p>
           </motion.div>
@@ -173,25 +173,25 @@ export default function UaeRetirementVisaPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-6">
               Documents by <span style={{ color: "#155EEF" }}>Qualifying Route</span>
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-6">
+            <p className="lead text-[#667085] leading-relaxed mb-6">
               Exactly which documents you need depends on which of the three routes you're applying under — a property-based application and a savings-based application look quite different on paper, even though both lead to the same visa. Most applicants find one route is obviously the better fit once they compare all three: the property route suits those who already own suitable UAE real estate outright, the savings route suits those with liquid funds they're comfortable holding in a UAE account for the required period, and the income route suits retirees with an ongoing pension or investment income they can document. There's no advantage to applying through a route that's a stretch when a better-fitting one is available — a straightforward application under the route that clearly fits tends to move faster than a marginal one under a route you're only just able to qualify for.
             </p>
             <div className="grid sm:grid-cols-3 gap-6">
               <div className="rounded-3xl p-6 bg-white">
-                <h3 className="font-bold mb-3 text-sm" style={{ color: "#071A2B" }}>Property route</h3>
+                <h3 className="subsection-title mb-3">Property route</h3>
                 <ul className="space-y-2">
                   {["Title deed showing ownership", "Current property valuation"].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
+                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
                       <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
@@ -199,10 +199,10 @@ export default function UaeRetirementVisaPage() {
                 </ul>
               </div>
               <div className="rounded-3xl p-6 bg-white">
-                <h3 className="font-bold mb-3 text-sm" style={{ color: "#071A2B" }}>Savings route</h3>
+                <h3 className="subsection-title mb-3">Savings route</h3>
                 <ul className="space-y-2">
                   {["Bank statements showing the deposit", "Confirmation of funds held for the required period"].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
+                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
                       <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
@@ -210,10 +210,10 @@ export default function UaeRetirementVisaPage() {
                 </ul>
               </div>
               <div className="rounded-3xl p-6 bg-white">
-                <h3 className="font-bold mb-3 text-sm" style={{ color: "#071A2B" }}>Income route</h3>
+                <h3 className="subsection-title mb-3">Income route</h3>
                 <ul className="space-y-2">
                   {["Pension or income statements", "Evidence the income is ongoing"].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
+                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
                       <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
@@ -221,7 +221,7 @@ export default function UaeRetirementVisaPage() {
                 </ul>
               </div>
             </div>
-            <p className="text-sm text-gray-500 mt-6">
+            <p className="text-sm text-[#667085] mt-6">
               Every route also needs a valid passport, a medical fitness test, and an Emirates ID application, as with any UAE residence visa.
             </p>
           </motion.div>
@@ -237,14 +237,14 @@ export default function UaeRetirementVisaPage() {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-6">
               How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
-                  <span className="text-lg text-gray-700">{item}</span>
+                  <span className="text-lg text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>
@@ -253,7 +253,7 @@ export default function UaeRetirementVisaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -261,21 +261,21 @@ export default function UaeRetirementVisaPage() {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-4">
               Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
             <Accordion type="single" collapsible className="w-full">
               {uaeRetirementVisaFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#071A2B" }}
+                    style={{ color: "#1D2939" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-600 text-base leading-relaxed">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -293,7 +293,7 @@ export default function UaeRetirementVisaPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-6 text-center">
               Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -306,7 +306,7 @@ export default function UaeRetirementVisaPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-3xl p-4 text-center shadow-sm hover:shadow-md transition-shadow bg-white font-semibold"
-                  style={{ color: "#071A2B" }}
+                  style={{ color: "#1D2939" }}
                 >
                   {link.label}
                 </Link>
@@ -324,8 +324,8 @@ export default function UaeRetirementVisaPage() {
           viewport={{ once: true }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Planning Your Retirement in the UAE?</h2>
-          <p className="text-white/90 text-lg mb-4 max-w-2xl mx-auto">
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Planning Your Retirement in the UAE?</h2>
+          <p className="text-white/90 mb-4 max-w-2xl mx-auto">
             Tell us which route fits your situation and we&apos;ll confirm exactly what you need.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
