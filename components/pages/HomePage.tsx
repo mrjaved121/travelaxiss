@@ -31,6 +31,7 @@ import {
   Users2,
   FileCheck2,
   Send,
+  Compass,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
@@ -162,6 +163,12 @@ const pakistanServices = [
     icon: Flag,
     link: "/services/usa-visa-from-pakistan",
   },
+  {
+    title: "Germany Visa from Pakistan",
+    description: "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification documentation.",
+    icon: Compass,
+    link: "/services/germany-visa-from-pakistan",
+  },
 ];
 
 const visaPills: { label: string; href: string }[] = [
@@ -255,6 +262,7 @@ const latestPosts = blogPostSummaries.slice(0, 3);
 const blogCategoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
   "UAE Visa Documentation": Plane,
+  "International Visa Documentation": Globe2,
 };
 
 const WHATSAPP_NUMBER = "971589867555";
@@ -864,6 +872,35 @@ export default function HomePage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Featured Destination */}
+      <section className="relative overflow-hidden py-24 md:py-32" style={{ backgroundColor: "#071A2B" }}>
+        <div
+          className="absolute inset-0 opacity-40"
+          style={{ background: "radial-gradient(circle at 80% 20%, rgba(21,94,239,0.5), transparent 60%)" }}
+          aria-hidden
+        />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: "#C9A45C" }}>
+            Featured Destination
+          </p>
+          <h2 className="mb-4">Thinking About the UAE?</h2>
+          <p className="text-white/70 mb-2">Work · Business · Residence</p>
+          <p className="text-white/80 max-w-xl mx-auto mb-10">
+            From employment and investor visas to full company formation, the UAE is where
+            Travelaxis has the deepest hands-on experience — coordinated directly from our
+            Dubai office.
+          </p>
+          <Link
+            href="/dubai"
+            className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
+            style={{ color: "#071A2B" }}
+          >
+            Explore the UAE
+            <ArrowRight className="w-5 h-5" aria-hidden />
+          </Link>
         </div>
       </section>
 

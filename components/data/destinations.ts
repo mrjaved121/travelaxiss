@@ -60,8 +60,8 @@ export const destinations: Destination[] = [
     slug: "germany",
     name: "Germany",
     pathways: ["Study", "Work", "Opportunity"],
-    description: "German pathway guidance is coming soon — talk to our team about your options today.",
-    href: "/consultation",
-    ready: false,
+    description: "Documentation and consultancy support for EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification applications from Pakistan.",
+    href: "/services/germany-visa-from-pakistan",
+    ready: true,
   },
 ];

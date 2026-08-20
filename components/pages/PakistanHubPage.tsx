@@ -18,6 +18,7 @@ import {
   Wallet,
   GraduationCap,
   Flag,
+  Compass,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -135,6 +136,14 @@ const guides: {
       "DS-160, the Embassy Islamabad interview, and B1/B2 visitor or F1 student documentation — what's in scope and what needs a US attorney.",
     icon: Flag,
     link: "/services/usa-visa-from-pakistan",
+  },
+  {
+    title: "Germany Visa from Pakistan",
+    category: "Germany Visas",
+    description:
+      "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification documentation, submitted through the German Mission's official process.",
+    icon: Compass,
+    link: "/services/germany-visa-from-pakistan",
   },
 ];
 
