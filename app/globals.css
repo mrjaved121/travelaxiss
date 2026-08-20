@@ -1,43 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  /* ---- Premium palette (Midnight Navy / Professional Blue / Muted Gold) ---- */
-  --background: #f8fafc;
-  --foreground: #101828;
+  /* ---- Premium palette: TravelAxis Blue / White / Soft Blue / Charcoal ----
+     No navy, no gold, no decorative colors. See CLAUDE.md-linked spec. */
+  --background: #ffffff;
+  --foreground: #1d2939;
   --card: #ffffff;
-  --card-foreground: #101828;
+  --card-foreground: #1d2939;
   --popover: #ffffff;
-  --popover-foreground: #101828;
+  --popover-foreground: #1d2939;
 
   --primary: #155eef;
+  --primary-hover: #0f4fd1;
   --primary-foreground: #ffffff;
-  --brand-dark: #071a2b;
 
-  --secondary: #eaf1ff;
-  --secondary-foreground: #101828;
-  --muted: #eaf1ff;
-  --muted-foreground: #475467;
+  --secondary: #f5f8ff;
+  --secondary-foreground: #1d2939;
+  --muted: #f5f8ff;
+  --muted-foreground: #667085;
   --accent: #155eef;
   --accent-foreground: #ffffff;
 
-  /* Premium accent — muted gold. Reserved for small deliberate details
-     (eyebrow labels, active-state indicators, decorative rules), never
-     as a base UI color. */
-  --gold: #c9a45c;
-  --gold-foreground: #071a2b;
-
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
-  --success: #12b76a;
-  --warning: #f79009;
 
   --border: #e4e7ec;
   --input: transparent;
-  --input-background: #eaf1ff;
+  --input-background: #ffffff;
   --switch-background: #cbced4;
   --ring: #155eef;
 
-  --footer: #071a2b;
   --radius: 1rem;
 
   /* Accessible focus ring aligned with brand blue */
@@ -47,33 +39,35 @@
   /* Card system: light bordered card with a tinted icon bubble, matching
      the brand blue (--primary/--secondary). */
   --card-line: #e4e7ec;
-  --card-line-hover: #c7d3ea;
-  --card-icon-bg: #eaf1ff;
+  --card-line-hover: #155eef;
+  --card-icon-bg: #f5f8ff;
   --card-icon-fg: #155eef;
-  --card-shadow-hover: 0 10px 30px -14px rgba(7, 26, 43, 0.18);
+  --card-shadow-hover: 0 12px 32px rgba(16, 24, 40, 0.08);
 
-  /* Type scale (rem @ 16px base) — premium/SaaS scale: larger display
-     headings, generous 17-19px body. Fluid clamp() sizes cover the
-     mobile→desktop ranges from the spec in a single rule each. */
-  --fs-h1: clamp(2.75rem, 2rem + 3.5vw, 4.75rem);   /* 44px -> 76px */
-  --fs-h2: clamp(2rem, 1.4rem + 2.8vw, 3.5rem);      /* 32px -> 56px */
-  --fs-h3: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);    /* 28px -> 36px */
-  --fs-h4: 1.25rem;
-  --fs-lead: 1.1875rem;
-  --fs-body: 1.0625rem;
-  --fs-sm: 0.9375rem;
-  --fs-note: 0.8125rem;
-  --fs-eyebrow: 0.8125rem;
-  --fs-nav: 0.9375rem;
-  --fs-btn: 1rem;
-  --fs-stat: 2.5rem;
-  --fs-footh: 0.875rem;
+  /* ---- Final type scale (rem @ 16px base) ----
+     Single source of truth. Every heading/body/UI role sitewide is one of
+     these — no page defines its own size. Fluid clamp() rules cover the
+     mobile→desktop range from a single declaration each; fixed roles
+     (H4, Body, Small, Eyebrow, Nav, Button) intentionally don't scale. */
+  --fs-hero: clamp(2.625rem, 2.05rem + 2.4vw, 3.75rem);   /* 42px -> 60px — homepage hero only */
+  --fs-h1: clamp(2.5rem, 2.05rem + 1.9vw, 3.25rem);       /* 40px -> 52px — every other page title */
+  --fs-h2: clamp(2rem, 1.7rem + 1.3vw, 2.5rem);           /* 32px -> 40px — section headings */
+  --fs-h3: clamp(1.375rem, 1.25rem + 0.5vw, 1.5rem);      /* 22px -> 24px — card/subsection titles */
+  --fs-h4: 1.125rem;                                       /* 18px, fixed */
+  --fs-lead: clamp(1.0625rem, 1rem + 0.3vw, 1.125rem);    /* 17px -> 18px */
+  --fs-body: 1rem;                                         /* 16px, fixed */
+  --fs-sm: 0.875rem;                                       /* 14px, fixed — small/meta */
+  --fs-eyebrow: 0.75rem;                                   /* 12px, fixed */
+  --fs-nav: 0.9375rem;                                     /* 15px, fixed */
+  --fs-btn: 0.9375rem;                                     /* 15px, fixed */
+  --fs-stat: clamp(2rem, 1.8rem + 0.9vw, 2.25rem);        /* 32px -> 36px */
+  --fs-footer-heading: 1rem;                               /* 16px, fixed */
+  --fs-footer-link: 0.875rem;                              /* 14px, fixed */
 
   --fw-normal: 400;
   --fw-medium: 500;
   --fw-semibold: 600;
   --fw-bold: 700;
-  --fw-black: 800;
 }
 
 @theme inline {
@@ -84,34 +78,27 @@
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
   --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
   --color-primary-foreground: var(--primary-foreground);
-  --color-brand-dark: var(--brand-dark);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
-  --color-gold: var(--gold);
-  --color-gold-foreground: var(--gold-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
-  --color-success: var(--success);
-  --color-warning: var(--warning);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-input-background: var(--input-background);
   --color-switch-background: var(--switch-background);
   --color-ring: var(--ring);
-  --color-footer: var(--footer);
   --radius-sm: calc(var(--radius) - 6px);
   --radius-md: calc(var(--radius) - 4px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-manrope);
   --font-heading: var(--font-manrope);
-  --font-mono: var(--font-geist-mono);
-  --font-script: var(--font-script);
 
   /* Nudge Tailwind's own text-sm utility to match --fs-sm so the many
      existing `text-sm` classes across every page pick up the spec value
@@ -131,53 +118,28 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: var(--fs-body);
-  line-height: 1.65;
+  line-height: 1.6;
 }
 
-/* Reusable text roles referenced sitewide (section labels, lead paragraphs,
-   fine print, footer headings) so new pages don't re-derive the same
-   Tailwind utility combination by hand. */
-.eyebrow {
-  font-size: var(--fs-eyebrow);
-  font-weight: var(--fw-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  line-height: 1;
-  color: var(--primary);
-}
-.lead {
-  font-size: var(--fs-lead);
-  line-height: 1.6;
-  color: var(--muted-foreground);
-}
-.text-note {
-  font-size: var(--fs-note);
-  line-height: 1.5;
-  color: var(--muted-foreground);
-}
-.foot-heading {
-  font-size: var(--fs-footh);
-  font-weight: var(--fw-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-/* Nav links and primary CTA buttons (e.g. Header's "Call Now") — a step
-   below body size, matching the UI-chrome rung of the type scale. */
-.nav-link {
-  font-size: var(--fs-nav);
-  font-weight: var(--fw-medium);
-}
-.btn {
-  font-size: var(--fs-btn);
-  font-weight: var(--fw-semibold);
-  letter-spacing: 0.01em;
-}
-/* Large highlighted stat figures (e.g. "500+ Clients Served"). */
-.stat-num {
-  font-size: var(--fs-stat);
-  font-weight: var(--fw-black);
-  line-height: 1;
-  letter-spacing: -0.01em;
+/* Base tag defaults: family only. No size/weight here — every heading
+   sitewide is sized by applying one of the semantic classes below
+   (.hero-title / .page-title / .section-title / .subsection-title /
+   .h4-title), never by the bare tag. This is deliberate: forcing size on
+   the bare h1/h2 tag previously fought any Tailwind class placed on the
+   same element (whichever won depended on cascade-layer order), which is
+   exactly what silently 4x'd the Footer's heading size. Classes now own
+   sizing outright, so there's nothing left to fight. */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), var(--font-sans);
+  }
+
+  /* Reflow: allow zoom and narrow viewports without horizontal overflow from media */
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* Bordered card hover state: lift is handled by the Tailwind
@@ -188,42 +150,109 @@ body {
   box-shadow: var(--card-shadow-hover);
 }
 
-/* Sitewide heading hierarchy. Unlayered on purpose: every page currently
-   sizes its h1/h2 with an ad hoc Tailwind text-4xl/5xl/6xl (etc.) utility
-   class, and unlayered rules beat Tailwind's @layer utilities regardless
-   of those classes, so this becomes the single source of truth for
-   heading size/weight instead of 25+ near-duplicate per-page values.
-   h3-h6 are deliberately left alone: h3 in particular is reused as the
-   card-title element (see GuideCard.tsx / the card-hover system) at a
-   smaller, card-specific size that must not be swept into this rule. */
-h1 {
-  font-family: var(--font-heading), var(--font-sans);
+/* ---- Typography roles — the single source of truth ----
+   Every heading and UI text role sitewide applies exactly one of these
+   classes; none of them derive their size from a Tailwind text-* utility.
+   Unlayered on purpose: during the sitewide rollout a few call sites may
+   still carry a leftover Tailwind text-size class alongside the new one,
+   and these must win regardless of which was added first or which layer
+   Tailwind's utilities sit in. */
+.hero-title {
+  font-size: var(--fs-hero);
+  font-weight: var(--fw-bold);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+.page-title {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-black);
+  font-weight: var(--fw-bold);
   line-height: 1.1;
   letter-spacing: -0.02em;
+  color: var(--foreground);
 }
-h2 {
-  font-family: var(--font-heading), var(--font-sans);
+.section-title {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--foreground);
 }
-h3, h4, h5, h6 {
-  font-family: var(--font-heading), var(--font-sans);
+.subsection-title {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-semibold);
   line-height: 1.25;
+  letter-spacing: 0;
+  color: var(--foreground);
 }
-
-/* Reflow: allow zoom and narrow viewports without horizontal overflow from media */
-/* Layered so Tailwind utilities (h-full, object-cover, etc.) can still override this default —
-   an unlayered rule here would always win over layered utilities regardless of specificity. */
-@layer base {
-  img,
-  video {
-    max-width: 100%;
-    height: auto;
-  }
+.h4-title {
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-semibold);
+  line-height: 1.3;
+  letter-spacing: 0;
+  color: var(--foreground);
+}
+.eyebrow {
+  font-size: var(--fs-eyebrow);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  color: var(--primary);
+}
+.lead {
+  font-size: var(--fs-lead);
+  font-weight: var(--fw-normal);
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--muted-foreground);
+}
+/* Fine print — reuses the Small role (14px); kept as a distinct class only
+   because a few call sites reach for ".text-note" by name for disclaimers. */
+.text-note {
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+/* Nav links and primary CTA buttons — a step below body size, matching the
+   UI-chrome rung of the type scale. */
+.nav-link {
+  font-size: var(--fs-nav);
+  font-weight: var(--fw-medium);
+  letter-spacing: 0;
+  color: var(--foreground);
+}
+.nav-link.is-active {
+  font-weight: var(--fw-semibold);
+  color: var(--primary);
+}
+.btn {
+  font-size: var(--fs-btn);
+  font-weight: var(--fw-semibold);
+  line-height: 1;
+  letter-spacing: 0;
+}
+/* Large highlighted stat figures (e.g. "500+ Clients Served"). The number
+   itself is charcoal per spec; pair it with a Small-role (14px) label. */
+.stat-number {
+  font-size: var(--fs-stat);
+  font-weight: var(--fw-bold);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+}
+.footer-heading {
+  font-size: var(--fs-footer-heading);
+  font-weight: var(--fw-semibold);
+  color: var(--foreground);
+}
+.footer-link {
+  font-size: var(--fs-footer-link);
+  font-weight: var(--fw-normal);
+  color: var(--muted-foreground);
+}
+.footer-link:hover {
+  color: var(--primary);
 }
 
 /* Skip link: hidden until keyboard focus */
@@ -239,7 +268,7 @@ h3, h4, h5, h6 {
   border-radius: 0.375rem;
   font-weight: 600;
   text-decoration: none;
-  background-color: #0f1b2d;
+  background-color: #1d2939;
   color: #ffffff;
   outline: none;
 }

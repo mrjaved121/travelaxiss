@@ -10,7 +10,7 @@ export default function DubaiHubPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -20,10 +20,10 @@ export default function DubaiHubPage() {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Areas We Serve
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               Travelaxis <span style={{ color: '#155EEF' }}>Across Dubai</span>
             </h1>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-[#667085]">
               Our office is based in Al Qusais, Dubai — we support company formation, government
               services, legal documentation, and visa documentation for clients across Dubai,
               remotely or by appointment. Looking for another emirate? See our{" "}

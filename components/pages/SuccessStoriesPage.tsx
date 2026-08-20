@@ -12,11 +12,11 @@ export default function SuccessStoriesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Success Stories</p>
-            <h1 className="mb-6" style={{ color: "#071A2B" }}>
+            <h1 className="page-title mb-6">
               Real Journeys. <span style={{ color: "#155EEF" }}>Real Destinations.</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
@@ -46,17 +46,17 @@ export default function SuccessStoriesPage() {
                         key={i}
                         className="w-4 h-4"
                         style={{
-                          color: i < testimonial.rating ? "#C9A45C" : "#E4E7EC",
-                          fill: i < testimonial.rating ? "#C9A45C" : "none",
+                          color: i < testimonial.rating ? "#155EEF" : "#E4E7EC",
+                          fill: i < testimonial.rating ? "#155EEF" : "none",
                         }}
                         aria-hidden
                       />
                     ))}
                   </div>
-                  <p className="text-gray-700 leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
+                  <p className="text-[#667085] leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
                   <div>
-                    <p className="font-semibold" style={{ color: "#071A2B" }}>{testimonial.name}</p>
-                    <p className="text-sm text-gray-500">{testimonial.context}</p>
+                    <p className="font-semibold" style={{ color: "#1D2939" }}>{testimonial.name}</p>
+                    <p className="text-sm text-[#667085]">{testimonial.context}</p>
                   </div>
                 </motion.div>
               ))}
@@ -70,10 +70,10 @@ export default function SuccessStoriesPage() {
               className="rounded-2xl p-10 card-hover"
               style={{ border: "1px solid var(--card-line)" }}
             >
-              <h2 className="mb-4" style={{ color: "#071A2B" }}>
+              <h2 className="section-title mb-4">
                 We&apos;re gathering our first published stories
               </h2>
-              <p className="text-gray-600 mb-8 leading-relaxed">
+              <p className="text-[#667085] mb-8 leading-relaxed">
                 We only publish a success story once a client has given us permission to
                 share it, so this page is still empty. In the meantime, you&apos;re welcome
                 to speak with our team directly about what a journey with Travelaxis looks
@@ -93,7 +93,7 @@ export default function SuccessStoriesPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2 transition-all hover:opacity-90"
-                  style={{ borderColor: "#071A2B", color: "#071A2B" }}
+                  style={{ borderColor: "#1D2939", color: "#1D2939" }}
                   aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
                 >
                   <MessageCircle className="w-4 h-4" aria-hidden />

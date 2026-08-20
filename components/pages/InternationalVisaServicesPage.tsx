@@ -152,7 +152,7 @@ export default function InternationalVisaServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -162,15 +162,15 @@ export default function InternationalVisaServicesPage() {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               International Visa Documentation
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               Visa Documentation <span style={{ color: '#155EEF' }}>Beyond the UAE</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-[#667085] mb-6">
               Documentation and consultancy support for Saudi Arabia, Europe, the USA, Schengen,
               and other regional destinations—for UAE residents traveling, working, or relocating
               abroad.
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
           </motion.div>
@@ -184,7 +184,7 @@ export default function InternationalVisaServicesPage() {
             <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <div
               className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
-              style={{ backgroundColor: '#EAF1FF' }}
+              style={{ backgroundColor: '#F5F8FF' }}
               aria-hidden
             >
               <Globe2 className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#155EEF' }} />
@@ -201,10 +201,10 @@ export default function InternationalVisaServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
+            <h2 className="section-title mb-4" style={{ color: '#FFFFFF' }}>
               Destinations We Support
             </h2>
-            <p className="text-lg text-white/75">
+            <p className="text-white/75">
               Structured documentation and guidance for the international visa categories most
               requested by our clients.
             </p>
@@ -227,7 +227,7 @@ export default function InternationalVisaServicesPage() {
                 >
                   <item.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
                 </div>
-                <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
+                <h3 className="subsection-title mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
@@ -248,10 +248,10 @@ export default function InternationalVisaServicesPage() {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Countries We Cover
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
+            <h2 className="section-title mb-4">
               Documentation Support by Destination
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-[#667085]">
               A snapshot of the destinations we most commonly prepare documentation for. Don&apos;t
               see yours listed — contact us to check.
             </p>
@@ -265,7 +265,7 @@ export default function InternationalVisaServicesPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: groupIndex * 0.08 }}
               >
-                <h3 className="text-lg font-bold mb-4" style={{ color: '#071A2B' }}>
+                <h3 className="subsection-title mb-4">
                   {group.title}
                 </h3>
                 <div className="flex flex-wrap gap-2.5">
@@ -273,7 +273,7 @@ export default function InternationalVisaServicesPage() {
                     <span
                       key={country}
                       className="px-4 py-2 rounded-full text-sm font-medium border"
-                      style={{ borderColor: '#EAF1FF', backgroundColor: '#EAF1FF', color: '#071A2B' }}
+                      style={{ borderColor: '#F5F8FF', backgroundColor: '#F5F8FF', color: '#1D2939' }}
                     >
                       {country}
                     </span>
@@ -283,38 +283,38 @@ export default function InternationalVisaServicesPage() {
             ))}
           </div>
 
-          <p className="text-xs text-gray-500 mt-10 leading-relaxed">
+          <p className="text-xs text-[#667085] mt-10 leading-relaxed">
             {disclaimer}
           </p>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-4">
               Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#071A2B" }}
+                    style={{ color: "#1D2939" }}
                   >
                     <span className="flex items-start gap-2">
                       <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>

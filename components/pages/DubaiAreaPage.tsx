@@ -84,7 +84,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -94,12 +94,12 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               {area.isOffice ? "Our Office Location" : "Serving This Area"}
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               Business Setup &amp; Visa Documentation in{" "}
               <span style={{ color: '#155EEF' }}>{area.name}</span>
             </h1>
-            <p className="text-lg text-gray-600 mb-6">{area.heroIntro}</p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
+            <p className="lead mb-6">{area.heroIntro}</p>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               We provide documentation assistance and consultancy support only. We are not a
               government authority, and we do not guarantee approval. Licenses and visas are
               issued by the relevant UAE authority, not by us.
@@ -115,7 +115,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
             <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <div
               className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
-              style={{ backgroundColor: '#EAF1FF' }}
+              style={{ backgroundColor: '#F5F8FF' }}
               aria-hidden
             >
               <MapPin className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#155EEF' }} />
@@ -131,7 +131,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <h2 className="text-2xl md:text-3xl font-bold mb-6" style={{ color: '#071A2B' }}>
+            <h2 className="section-title mb-6">
               About {area.fullLabel}
             </h2>
             <ul className="space-y-3">
@@ -144,7 +144,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
                   >
                     ✓
                   </span>
-                  <span className="text-gray-700 text-lg">{line}</span>
+                  <span className="text-[#667085] text-lg">{line}</span>
                 </li>
               ))}
             </ul>
@@ -160,7 +160,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#FFFFFF' }}>
+            <h2 className="section-title mb-4" style={{ color: '#FFFFFF' }}>
               {`Services for ${area.name} Businesses & Residents`}
             </h2>
           </motion.div>
@@ -186,7 +186,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
                 >
                   <service.icon className="w-6 h-6" style={{ color: '#155EEF' }} />
                 </div>
-                <h3 className="text-lg font-bold mb-2" style={{ color: '#FFFFFF' }}>
+                <h3 className="subsection-title mb-2" style={{ color: '#FFFFFF' }}>
                   {service.title}
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed">{service.description}</p>
@@ -197,31 +197,31 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
+            <h2 className="section-title mb-4">
               Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: '#071A2B' }}
+                    style={{ color: '#1D2939' }}
                   >
                     <span className="flex items-start gap-2">
                       <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-700 text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -238,10 +238,10 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="section-title mb-4">
             Get Started From {area.name}
           </h2>
-          <p className="text-lg text-white/90 mb-8">
+          <p className="text-white/90 mb-8">
             Tell us what you need and we&apos;ll outline the documentation, timeline, and next
             steps.
           </p>

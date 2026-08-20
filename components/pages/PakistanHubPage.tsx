@@ -169,16 +169,16 @@ export default function PakistanHubPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               For Clients in Pakistan
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#071A2B" }}>
+            <h1 className="page-title mb-6">
               Visa &amp; Business Services for Clients <span style={{ color: "#155EEF" }}>in Pakistan</span>
             </h1>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="lead text-[#667085] leading-relaxed">
               Travelaxis supports Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK, Canada, and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
             </p>
           </motion.div>
@@ -221,7 +221,7 @@ export default function PakistanHubPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#FFFFFF" }}>
+            <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
               Why Clients in Pakistan Work With Us
             </h2>
           </motion.div>
@@ -243,7 +243,7 @@ export default function PakistanHubPage() {
                 >
                   <item.icon className="w-7 h-7" style={{ color: "#155EEF" }} />
                 </div>
-                <h3 className="text-lg font-bold mb-3" style={{ color: "#FFFFFF" }}>
+                <h3 className="subsection-title mb-3" style={{ color: "#FFFFFF" }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
@@ -254,13 +254,13 @@ export default function PakistanHubPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "#071A2B" }}>
+            <h2 className="section-title mb-4">
               Don&apos;t See Your Situation Above?
             </h2>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="lead text-[#667085] mb-8">
               Message us on WhatsApp and we&apos;ll tell you exactly what documents and steps apply to you.
             </p>
             <a

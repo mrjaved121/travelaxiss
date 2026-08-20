@@ -32,7 +32,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -40,10 +40,10 @@ export default function AboutPage() {
             className="min-w-0"
           >
             <p className="eyebrow mb-3">About Travelaxis</p>
-            <h1 className="mb-6" style={{ color: '#071A2B' }}>
+            <h1 className="page-title mb-6">
               Helping People Move <span style={{ color: '#155EEF' }}>Toward What&apos;s Next.</span>
             </h1>
-            <p className="lead text-gray-600">
+            <p className="lead text-[#667085]">
               We help businesses establish and grow, and help individuals plan their next move
               abroad, through structured support, clear communication, and regulatory awareness.
               Our work spans UAE company formation and government coordination, alongside
@@ -51,7 +51,7 @@ export default function AboutPage() {
               Australia, USA, and other destinations&mdash;always aligned with official
               requirements and each client&apos;s goals.
             </p>
-            <p className="text-sm text-gray-500 mt-4 max-w-lg leading-relaxed">
+            <p className="text-sm text-[#667085] mt-4 max-w-lg leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a
               government authority, employer, or recruitment agency, and we do not arrange jobs,
               sponsor employment, or guarantee visa or license approval. All applications are
@@ -86,13 +86,13 @@ export default function AboutPage() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#EAF1FF' }}
+              style={{ backgroundColor: '#F5F8FF' }}
             >
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
                 <Target className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#071A2B' }}>Our Mission</h2>
-              <p className="text-gray-700 text-lg">
+              <h3 className="subsection-title mb-4">Our Mission</h3>
+              <p className="text-[#667085]">
                 To deliver professional, structured services with accurate documentation,
                 realistic timelines, and transparent expectations&mdash;so businesses can operate
                 efficiently and grow with confidence.
@@ -103,13 +103,13 @@ export default function AboutPage() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#EAF1FF' }}
+              style={{ backgroundColor: '#F5F8FF' }}
             >
               <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
                 <Eye className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#071A2B' }}>Our Vision</h2>
-              <p className="text-gray-700 text-lg">
+              <h3 className="subsection-title mb-4">Our Vision</h3>
+              <p className="text-[#667085]">
                 To be recognized as a trusted UAE consultancy partner for business formation and
                 documentation-led visa support.
               </p>
@@ -119,7 +119,7 @@ export default function AboutPage() {
       </section>
 
       {/* How We Work */}
-      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -129,7 +129,7 @@ export default function AboutPage() {
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Why Travelaxis
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#071A2B' }}>
+            <h2 className="section-title">
               How We Work
             </h2>
           </motion.div>
@@ -147,8 +147,8 @@ export default function AboutPage() {
                 <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
                   <item.icon className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
-                <h3 className="font-semibold mb-2" style={{ color: '#071A2B' }}>{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
+                <h3 className="subsection-title mb-2">{item.title}</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>
@@ -162,7 +162,7 @@ export default function AboutPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Talk to Travelaxis</h2>
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Talk to Travelaxis</h2>
           <p className="text-white/90 text-lg mb-8">
             Let us help you build your business, or plan your next move abroad, with professional
             guidance and support.

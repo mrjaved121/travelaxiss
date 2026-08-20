@@ -44,7 +44,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="bg-white border-b border-gray-200 shadow-sm">
+      <div className="bg-white border-b border-[#E4E7EC] shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link
@@ -67,11 +67,8 @@ export default function Header() {
                 key={link.path}
                 href={link.path}
                 className={`nav-link transition-colors rounded-sm focus-visible:outline-offset-4 ${
-                  isActive(link.path) ? "font-semibold" : "hover:opacity-70"
+                  isActive(link.path) ? "is-active" : "hover:opacity-70"
                 }`}
-                style={{
-                  color: isActive(link.path) ? "#155EEF" : "#071A2B",
-                }}
                 aria-current={isActive(link.path) ? "page" : undefined}
               >
                 {link.name}
@@ -92,8 +89,8 @@ export default function Header() {
             </a>
             <Link
               href="/visa-finder"
-              className="btn flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90"
-              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+              className="btn flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
+              style={{ color: "#FFFFFF" }}
             >
               <span>Check Eligibility</span>
               <ArrowRight className="w-4 h-4" aria-hidden />
@@ -104,7 +101,7 @@ export default function Header() {
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 rounded-sm"
-            style={{ color: "#071A2B" }}
+            style={{ color: "#1D2939" }}
             aria-expanded={mobileMenuOpen}
             aria-controls={MOBILE_NAV_PANEL_ID}
             aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
@@ -120,7 +117,7 @@ export default function Header() {
         {mobileMenuOpen ? (
           <div
             id={MOBILE_NAV_PANEL_ID}
-            className="lg:hidden py-4 border-t border-gray-200"
+            className="lg:hidden py-4 border-t border-[#E4E7EC]"
             role="navigation"
             aria-labelledby={navLabelId}
           >
@@ -134,11 +131,8 @@ export default function Header() {
                     href={link.path}
                     onClick={() => setMobileMenuOpen(false)}
                     className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                      isActive(link.path) ? "font-semibold" : "hover:opacity-70"
+                      isActive(link.path) ? "is-active" : "hover:opacity-70"
                     }`}
-                    style={{
-                      color: isActive(link.path) ? "#155EEF" : "#071A2B",
-                    }}
                     aria-current={isActive(link.path) ? "page" : undefined}
                   >
                     {link.name}
@@ -150,11 +144,8 @@ export default function Header() {
                   href="/contact"
                   onClick={() => setMobileMenuOpen(false)}
                   className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                    isActive("/contact") ? "font-semibold" : "hover:opacity-70"
+                    isActive("/contact") ? "is-active" : "hover:opacity-70"
                   }`}
-                  style={{
-                    color: isActive("/contact") ? "#155EEF" : "#071A2B",
-                  }}
                   aria-current={isActive("/contact") ? "page" : undefined}
                 >
                   Contact
@@ -164,8 +155,8 @@ export default function Header() {
                 <Link
                   href="/visa-finder"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="btn mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full"
-                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                  className="btn mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
+                  style={{ color: "#FFFFFF" }}
                 >
                   <span>Check My Eligibility</span>
                   <ArrowRight className="w-4 h-4" aria-hidden />
