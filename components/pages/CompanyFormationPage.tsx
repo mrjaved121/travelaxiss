@@ -199,7 +199,7 @@ export default function CompanyFormationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -208,10 +208,10 @@ export default function CompanyFormationPage() {
           >
             <h1
               className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               Company Formation in UAE – Start Your Business with{" "}
-              <span style={{ color: "#1D63E0" }}>Confidence</span>
+              <span style={{ color: "#155EEF" }}>Confidence</span>
             </h1>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Start your business in the UAE with a simple and stress-free
@@ -223,7 +223,7 @@ export default function CompanyFormationPage() {
                 <span
                   key={label}
                   className="px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ backgroundColor: "#0F1B2D", color: "#1D63E0" }}
+                  style={{ backgroundColor: "#071A2B", color: "#155EEF" }}
                 >
                   {label}
                 </span>
@@ -236,7 +236,7 @@ export default function CompanyFormationPage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 Get Free Consultation
               </Link>
@@ -245,7 +245,7 @@ export default function CompanyFormationPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 text-lg font-semibold"
-                style={{ borderColor: "#0F1B2D", color: "#0F1B2D" }}
+                style={{ borderColor: "#071A2B", color: "#071A2B" }}
               >
                 Chat on WhatsApp
               </a>
@@ -258,7 +258,7 @@ export default function CompanyFormationPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="UAE company formation: mainland, freezone, and offshore business setup"
@@ -280,10 +280,10 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-6"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               Complete Company Formation Services in{" "}
-              <span style={{ color: "#1D63E0" }}>UAE</span>
+              <span style={{ color: "#155EEF" }}>UAE</span>
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               We provide complete business setup solutions in the UAE — from{" "}
@@ -299,7 +299,7 @@ export default function CompanyFormationPage() {
               to <strong>start a business in Dubai</strong> or elsewhere in the
               Emirates, we map the right path for you.
             </p>
-            <p className="font-semibold mb-4" style={{ color: "#0F1B2D" }}>
+            <p className="font-semibold mb-4" style={{ color: "#071A2B" }}>
               We help you:
             </p>
             <ul className="space-y-3">
@@ -312,7 +312,7 @@ export default function CompanyFormationPage() {
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
-                    style={{ color: "#1D63E0" }}
+                    style={{ color: "#155EEF" }}
                   />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
@@ -323,7 +323,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Why choose us */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -332,7 +332,7 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               Why Choose Our Company Formation Services?
             </h2>
@@ -358,7 +358,7 @@ export default function CompanyFormationPage() {
                   </span>
                   <h3
                     className="text-xl font-bold"
-                    style={{ color: "#0F1B2D" }}
+                    style={{ color: "#071A2B" }}
                   >
                     {item.title}
                   </h3>
@@ -371,7 +371,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Services we offer */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -398,7 +398,7 @@ export default function CompanyFormationPage() {
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#1D63E0" }}
+                  style={{ backgroundColor: "#155EEF" }}
                 >
                   <svc.icon className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
@@ -422,7 +422,7 @@ export default function CompanyFormationPage() {
                       key={line}
                       className="flex items-start gap-2 text-sm text-white/90"
                     >
-                      <span className="text-[#1D63E0] mt-0.5">👉</span>
+                      <span className="text-[#155EEF] mt-0.5">👉</span>
                       <span>{line}</span>
                     </li>
                   ))}
@@ -443,10 +443,10 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               Step-by-Step Company Formation Process in{" "}
-              <span style={{ color: "#1D63E0" }}>UAE</span>
+              <span style={{ color: "#155EEF" }}>UAE</span>
             </h2>
             <p className="text-lg text-gray-700 max-w-3xl">
               We follow a simple and structured process to set up your business.
@@ -460,16 +460,16 @@ export default function CompanyFormationPage() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm"
-                style={{ backgroundColor: "#EEF4FF" }}
+                style={{ backgroundColor: "#EAF1FF" }}
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
-                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
                 >
                   {index + 1}
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold mb-1" style={{ color: "#0F1B2D" }}>
+                  <h3 className="text-lg font-bold mb-1" style={{ color: "#071A2B" }}>
                     {s.step}
                   </h3>
                   <p className="text-gray-700">{s.text}</p>
@@ -481,7 +481,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -490,20 +490,20 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-8"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               How Long Does Company Formation{" "}
-              <span style={{ color: "#1D63E0" }}>Take?</span>
+              <span style={{ color: "#155EEF" }}>Take?</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div className="rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex items-center gap-2 mb-2">
-                  <Clock className="w-6 h-6" style={{ color: "#1D63E0" }} />
-                  <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
+                  <Clock className="w-6 h-6" style={{ color: "#155EEF" }} />
+                  <h3 className="text-xl font-bold" style={{ color: "#071A2B" }}>
                     Standard process
                   </h3>
                 </div>
-                <p className="text-2xl font-bold mb-1" style={{ color: "#1D63E0" }}>
+                <p className="text-2xl font-bold mb-1" style={{ color: "#155EEF" }}>
                   5–10 working days
                 </p>
                 <p className="text-gray-600 text-sm">
@@ -512,8 +512,8 @@ export default function CompanyFormationPage() {
               </div>
               <div className="rounded-2xl p-6 bg-white card-hover transition-all duration-200 hover:-translate-y-1" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex items-center gap-2 mb-2">
-                  <Sparkles className="w-6 h-6" style={{ color: "#1D63E0" }} />
-                  <h3 className="text-xl font-bold" style={{ color: "#0F1B2D" }}>
+                  <Sparkles className="w-6 h-6" style={{ color: "#155EEF" }} />
+                  <h3 className="text-xl font-bold" style={{ color: "#071A2B" }}>
                     Express setup
                   </h3>
                 </div>
@@ -542,10 +542,10 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               Flexible Business Setup{" "}
-              <span style={{ color: "#1D63E0" }}>Packages</span>
+              <span style={{ color: "#155EEF" }}>Packages</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -560,26 +560,26 @@ export default function CompanyFormationPage() {
                 }`}
                 style={
                   pkg.highlighted
-                    ? { borderColor: "#1D63E0", backgroundColor: "#FFFCF5" }
-                    : { backgroundColor: "#EEF4FF" }
+                    ? { borderColor: "#155EEF", backgroundColor: "#FFFCF5" }
+                    : { backgroundColor: "#EAF1FF" }
                 }
               >
                 {pkg.highlighted && (
                   <div
                     className="inline-block px-4 py-1 rounded-full mb-4 text-sm font-semibold"
-                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                    style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
                   >
                     Fast track
                   </div>
                 )}
                 <h3
                   className="text-2xl font-bold mb-2"
-                  style={{ color: "#0F1B2D" }}
+                  style={{ color: "#071A2B" }}
                 >
                   {pkg.name}
                 </h3>
                 <p className="text-gray-600 mb-6">{pkg.tagline}</p>
-                <p className="text-sm font-semibold mb-3" style={{ color: "#0F1B2D" }}>
+                <p className="text-sm font-semibold mb-3" style={{ color: "#071A2B" }}>
                   Includes:
                 </p>
                 <ul className="space-y-3 mb-6">
@@ -587,7 +587,7 @@ export default function CompanyFormationPage() {
                     <li key={f} className="flex items-start gap-2">
                       <CheckCircle
                         className="w-5 h-5 flex-shrink-0 mt-0.5"
-                        style={{ color: "#1D63E0" }}
+                        style={{ color: "#155EEF" }}
                       />
                       <span className="text-gray-700">{f}</span>
                     </li>
@@ -599,7 +599,7 @@ export default function CompanyFormationPage() {
                 <Link
                   href="/contact"
                   className="block text-center px-6 py-3 rounded-2xl transition-all hover:opacity-90 font-semibold"
-                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
                 >
                   Get Started
                 </Link>
@@ -610,7 +610,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Why UAE */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -644,7 +644,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Who benefits */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -653,7 +653,7 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               Who Can Benefit from Company Formation?
             </h2>
@@ -666,7 +666,7 @@ export default function CompanyFormationPage() {
               <span
                 key={label}
                 className="px-5 py-2 rounded-full font-semibold bg-white border border-gray-200 shadow-sm"
-                style={{ color: "#0F1B2D" }}
+                style={{ color: "#071A2B" }}
               >
                 {label}
               </span>
@@ -688,17 +688,17 @@ export default function CompanyFormationPage() {
           >
             <h2
               className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
-              Frequently Asked <span style={{ color: "#1D63E0" }}>Questions</span>
+              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, i) => (
               <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
-                <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#0F1B2D" }}>
+                <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#071A2B" }}>
                   <span className="flex items-start gap-2">
-                    <span className="text-[#1D63E0]">❓</span>
+                    <span className="text-[#155EEF]">❓</span>
                     {faq.q}
                   </span>
                 </AccordionTrigger>
@@ -712,7 +712,7 @@ export default function CompanyFormationPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -730,7 +730,7 @@ export default function CompanyFormationPage() {
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-              style={{ backgroundColor: "#FFFFFF", color: "#1D63E0" }}
+              style={{ backgroundColor: "#FFFFFF", color: "#155EEF" }}
             >
               Get Started Now
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -739,7 +739,7 @@ export default function CompanyFormationPage() {
               href={WHATSAPP_HREF}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-white text-white font-semibold transition-all hover:bg-white hover:text-[#1D63E0]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-white text-white font-semibold transition-all hover:bg-white hover:text-[#155EEF]"
             >
               WhatsApp Us
             </a>

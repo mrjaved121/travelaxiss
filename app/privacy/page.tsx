@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-neutral-900">
       <JsonLd data={breadcrumbJsonLd([{ name: "Privacy Policy", path: "/privacy" }])} />
       <h1 className="text-4xl font-bold mb-2">
-        Privacy <span style={{ color: "#1D63E0" }}>Policy</span>
+        Privacy <span style={{ color: "#155EEF" }}>Policy</span>
       </h1>
       <p className="text-neutral-600 text-sm mb-10">Last updated: April 9, 2026</p>
       <div className="prose prose-gray max-w-none space-y-6 text-neutral-700">
@@ -48,13 +48,13 @@ export default function PrivacyPolicyPage() {
         </h2>
         <p>
           For privacy-related requests, contact us at{" "}
-          <a href="mailto:info@travelaxis.me" className="underline" style={{ color: "#1D63E0" }}>
+          <a href="mailto:info@travelaxis.me" className="underline" style={{ color: "#155EEF" }}>
             info@travelaxis.me
           </a>
           .
         </p>
         <p className="pt-8">
-          <Link href="/" className="text-sm font-medium underline" style={{ color: "#1D63E0" }}>
+          <Link href="/" className="text-sm font-medium underline" style={{ color: "#155EEF" }}>
             Return to Travelaxis home
           </Link>
         </p>

@@ -39,21 +39,21 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               {`Free Zone Company Formation — ${zone.emirate}`}
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
               {`${zone.name} Company Formation`}
             </h1>
             <p className="text-lg text-gray-600 mb-6">{zone.heroIntro}</p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
           </motion.div>
@@ -64,13 +64,13 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <div className="absolute -top-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <div
               className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
-              style={{ backgroundColor: '#EEF4FF' }}
+              style={{ backgroundColor: '#EAF1FF' }}
               aria-hidden
             >
-              <Landmark className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#1D63E0' }} />
+              <Landmark className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#155EEF' }} />
             </div>
           </motion.div>
         </div>
@@ -83,15 +83,15 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-            style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
+            style={{ backgroundColor: '#EAF1FF', border: "1px solid var(--card-line)" }}
           >
-            <h2 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-xl font-bold mb-4" style={{ color: '#071A2B' }}>
               {`What ${zone.name} Is Known For`}
             </h2>
             <ul className="space-y-3">
               {zone.knownFor.map((line) => (
                 <li key={line} className="flex items-start gap-3">
-                  <span className="text-[#1D63E0] mt-0.5">👉</span>
+                  <span className="text-[#155EEF] mt-0.5">👉</span>
                   <span className="text-gray-700">{line}</span>
                 </li>
               ))}
@@ -102,15 +102,15 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.08 }}
             className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-            style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
+            style={{ backgroundColor: '#EAF1FF', border: "1px solid var(--card-line)" }}
           >
-            <h2 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-xl font-bold mb-4" style={{ color: '#071A2B' }}>
               {`Who ${zone.name} Best Suits`}
             </h2>
             <ul className="space-y-3">
               {zone.bestFor.map((line) => (
                 <li key={line} className="flex items-start gap-3">
-                  <span className="text-[#1D63E0] mt-0.5">👉</span>
+                  <span className="text-[#155EEF] mt-0.5">👉</span>
                   <span className="text-gray-700">{line}</span>
                 </li>
               ))}
@@ -120,7 +120,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       </section>
 
       {/* How we help */}
-      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -147,7 +147,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
                   style={{ backgroundColor: '#FFFFFF' }}
                   aria-hidden
                 >
-                  <service.icon className="w-6 h-6" style={{ color: '#1D63E0' }} />
+                  <service.icon className="w-6 h-6" style={{ color: '#155EEF' }} />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ color: '#FFFFFF' }}>
                   {service.title}
@@ -160,15 +160,15 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
-              Frequently Asked <span style={{ color: '#1D63E0' }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
+              Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -177,10 +177,10 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: '#0F1B2D' }}
+                    style={{ color: '#071A2B' }}
                   >
                     <span className="flex items-start gap-2">
-                      <span className="text-[#1D63E0]">❓</span>
+                      <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
@@ -199,11 +199,11 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600">
             Not sure {zone.name} is the right fit?{' '}
-            <Link href="/blog/best-freezones-uae" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#1D63E0' }}>
+            <Link href="/blog/best-freezones-uae" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#155EEF' }}>
               Compare it against every major UAE free zone
             </Link>
             {' '}or{' '}
-            <Link href="/free-zones" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#1D63E0' }}>
+            <Link href="/free-zones" className="font-semibold underline-offset-2 hover:underline" style={{ color: '#155EEF' }}>
               browse all free zones we support
             </Link>
             .
@@ -212,7 +212,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -229,7 +229,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
           >
             Contact Travelaxis
             <ArrowRight className="w-5 h-5" aria-hidden />

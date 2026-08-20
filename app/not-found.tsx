@@ -18,12 +18,12 @@ const quickLinks = [
 
 export default function NotFound() {
   return (
-    <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
+    <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+        <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
           404
         </p>
-        <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
           We Couldn&apos;t Find That Page
         </h1>
         <p className="text-lg text-gray-600 mb-10 max-w-xl mx-auto">
@@ -36,10 +36,10 @@ export default function NotFound() {
               key={link.href}
               href={link.href}
               className="flex items-center justify-between gap-2 rounded-2xl p-4 bg-white shadow-sm hover:shadow-md transition-shadow font-semibold"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               <span>{link.label}</span>
-              <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "#1D63E0" }} aria-hidden />
+              <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
             </Link>
           ))}
         </div>
@@ -48,7 +48,7 @@ export default function NotFound() {
           <Link
             href="/"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+            style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
           >
             <Search className="w-5 h-5" aria-hidden />
             <span>Back to Homepage</span>
@@ -58,7 +58,7 @@ export default function NotFound() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-            style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
+            style={{ borderColor: "#155EEF", color: "#155EEF" }}
             aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

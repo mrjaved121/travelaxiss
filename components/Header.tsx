@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Phone, Mail, Menu, X } from "lucide-react";
+import { Phone, Mail, Menu, X, MessageCircle, ArrowRight } from "lucide-react";
 import { useId, useState } from "react";
 
 const MOBILE_NAV_PANEL_ID = "primary-navigation-mobile";
@@ -16,13 +16,12 @@ export default function Header() {
   const whatsappLink = `https://wa.me/${phoneNumber.replace(/\+/g, "")}`;
 
   const navLinks = [
-    { name: "About Us", path: "/about" },
-    { name: "Services", path: "/services" },
-    { name: "For Pakistan", path: "/pakistan" },
-    { name: "Why Business", path: "/why-business" },
-    { name: "Blog", path: "/blog" },
-    { name: "FAQs", path: "/faq" },
-    { name: "Contact Us", path: "/contact" },
+    { name: "Destinations", path: "/destinations" },
+    { name: "Visa Services", path: "/services" },
+    { name: "Visa Finder", path: "/visa-finder" },
+    { name: "Success Stories", path: "/success-stories" },
+    { name: "Resources", path: "/blog" },
+    { name: "About", path: "/about" },
   ];
 
   const isActive = (path: string) => pathname === path;
@@ -30,7 +29,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50">
       {/* Top utility bar */}
-      <div className="hidden md:block text-white" style={{ backgroundColor: "#1D63E0" }}>
+      <div className="hidden md:block text-white" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between text-sm">
           <div className="flex items-center gap-6">
             <a href={`tel:${phoneNumber}`} className="flex items-center gap-2 hover:opacity-80">
@@ -67,11 +66,11 @@ export default function Header() {
               <Link
                 key={link.path}
                 href={link.path}
-                className={`transition-colors rounded-sm focus-visible:outline-offset-4 ${
+                className={`nav-link transition-colors rounded-sm focus-visible:outline-offset-4 ${
                   isActive(link.path) ? "font-semibold" : "hover:opacity-70"
                 }`}
                 style={{
-                  color: isActive(link.path) ? "#1D63E0" : "#0F1B2D",
+                  color: isActive(link.path) ? "#155EEF" : "#071A2B",
                 }}
                 aria-current={isActive(link.path) ? "page" : undefined}
               >
@@ -80,25 +79,32 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="hidden lg:block">
+          <div className="hidden lg:flex items-center gap-3">
             <a
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-6 py-3 rounded-full transition-all hover:opacity-90"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              className="w-11 h-11 flex items-center justify-center rounded-full border-2 transition-all hover:opacity-80"
+              style={{ borderColor: "#E4E7EC", color: "#25D366" }}
               aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
             >
-              <Phone className="w-5 h-5" aria-hidden />
-              <span className="font-semibold">Call Now</span>
+              <MessageCircle className="w-5 h-5" aria-hidden />
             </a>
+            <Link
+              href="/visa-finder"
+              className="btn flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90"
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+            >
+              <span>Check Eligibility</span>
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
           </div>
 
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 rounded-sm"
-            style={{ color: "#0F1B2D" }}
+            style={{ color: "#071A2B" }}
             aria-expanded={mobileMenuOpen}
             aria-controls={MOBILE_NAV_PANEL_ID}
             aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
@@ -127,11 +133,11 @@ export default function Header() {
                   <Link
                     href={link.path}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`block px-4 py-2 transition-colors rounded-sm ${
+                    className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
                       isActive(link.path) ? "font-semibold" : "hover:opacity-70"
                     }`}
                     style={{
-                      color: isActive(link.path) ? "#1D63E0" : "#0F1B2D",
+                      color: isActive(link.path) ? "#155EEF" : "#071A2B",
                     }}
                     aria-current={isActive(link.path) ? "page" : undefined}
                   >
@@ -139,18 +145,44 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/contact"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
+                    isActive("/contact") ? "font-semibold" : "hover:opacity-70"
+                  }`}
+                  style={{
+                    color: isActive("/contact") ? "#155EEF" : "#071A2B",
+                  }}
+                  aria-current={isActive("/contact") ? "page" : undefined}
+                >
+                  Contact
+                </Link>
+              </li>
               <li className="pt-2">
+                <Link
+                  href="/visa-finder"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="btn mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full"
+                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                >
+                  <span>Check My Eligibility</span>
+                  <ArrowRight className="w-4 h-4" aria-hidden />
+                </Link>
+              </li>
+              <li className="px-4 pt-2">
                 <a
                   href={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full"
-                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  className="flex items-center justify-center gap-2 py-2 text-sm font-semibold"
+                  style={{ color: "#25D366" }}
                   aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
                 >
-                  <Phone className="w-5 h-5" aria-hidden />
-                  <span className="font-semibold">Call Now</span>
+                  <MessageCircle className="w-4 h-4" aria-hidden />
+                  WhatsApp Us
                 </a>
               </li>
             </ul>

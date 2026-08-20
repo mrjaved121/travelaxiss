@@ -109,34 +109,34 @@ export default function AttestationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               UAE Attestation Services
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#0F1B2D" }}>
-              UAE Document Attestation <span style={{ color: "#1D63E0" }}>from Pakistan</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#071A2B" }}>
+              UAE Document Attestation <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               UAE degree attestation, marriage certificate attestation, and experience letter attestation for Pakistani nationals all follow the same four-stage chain — HEC or IBCC, then MOFA Islamabad, then the UAE Embassy, then MOFAIC once your document reaches Dubai. We manage the process end to end and keep you updated at every stage.
             </p>
-            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#1D63E0" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#1D63E0" }}>
+            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
                 To use a Pakistani degree, marriage certificate, or experience letter in the UAE, it needs four stages of attestation: the relevant Pakistani issuing authority (HEC, IBCC, Union Council, or Chamber of Commerce) &rarr; MOFA Pakistan &rarr; UAE Embassy &rarr; MOFAIC in the UAE. Total time is usually a few weeks, depending on document type and city.
               </p>
             </div>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 <span>Get a Free Attestation Quote</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -146,7 +146,7 @@ export default function AttestationPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
+                style={{ borderColor: "#155EEF", color: "#155EEF" }}
                 aria-label="Chat with Travelaxis on WhatsApp about attestation (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -166,7 +166,7 @@ export default function AttestationPage() {
             viewport={{ once: true }}
             className="max-w-4xl mb-8"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
               Who Needs UAE Attestation?
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-4">
@@ -174,15 +174,15 @@ export default function AttestationPage() {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               The same HEC/IBCC &rarr; MOFA stages are also the starting point for{" "}
-              <Link href="/services/uk-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+              <Link href="/services/uk-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 UK
               </Link>
               ,{" "}
-              <Link href="/services/canada-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+              <Link href="/services/canada-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 Canada
               </Link>
               , and{" "}
-              <Link href="/services/australia-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#1D63E0" }}>
+              <Link href="/services/australia-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 Australia
               </Link>{" "}
               visa applications from Pakistan — only the final embassy stage differs by destination.
@@ -198,7 +198,7 @@ export default function AttestationPage() {
               <span
                 key={label}
                 className="px-5 py-2 rounded-full font-semibold"
-                style={{ backgroundColor: "#EEF4FF", color: "#1D63E0" }}
+                style={{ backgroundColor: "#EAF1FF", color: "#155EEF" }}
               >
                 {label}
               </span>
@@ -208,7 +208,7 @@ export default function AttestationPage() {
       </section>
 
       {/* Attestation chain */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -216,8 +216,8 @@ export default function AttestationPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              The 4-Stage Attestation <span style={{ color: "#1D63E0" }}>Chain</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              The 4-Stage Attestation <span style={{ color: "#155EEF" }}>Chain</span>
             </h2>
           </motion.div>
           <div className="space-y-4 max-w-4xl">
@@ -232,12 +232,12 @@ export default function AttestationPage() {
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
-                  style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
                 >
                   {index + 1}
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold mb-1" style={{ color: "#0F1B2D" }}>
+                  <h3 className="text-lg font-bold mb-1" style={{ color: "#071A2B" }}>
                     {s.step}
                   </h3>
                   <p className="text-gray-600">{s.text}</p>
@@ -249,7 +249,7 @@ export default function AttestationPage() {
       </section>
 
       {/* Documents we handle */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -277,7 +277,7 @@ export default function AttestationPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#1D63E0" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -298,8 +298,8 @@ export default function AttestationPage() {
             viewport={{ once: true }}
             className="mb-10 max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              Typical <span style={{ color: "#1D63E0" }}>Timelines</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              Typical <span style={{ color: "#155EEF" }}>Timelines</span>
             </h2>
             <p className="text-lg text-gray-600">
               Approximate turnaround for the first stage of the chain in Pakistan, before the document moves to MOFA, the UAE Embassy, and MOFAIC.
@@ -323,7 +323,7 @@ export default function AttestationPage() {
               <TableBody>
                 {timelineRows.map((row) => (
                   <TableRow key={row.doc}>
-                    <TableCell className="whitespace-normal font-medium" style={{ color: "#0F1B2D" }}>
+                    <TableCell className="whitespace-normal font-medium" style={{ color: "#071A2B" }}>
                       {row.doc}
                     </TableCell>
                     <TableCell className="whitespace-normal text-gray-600">{row.authority}</TableCell>
@@ -342,9 +342,9 @@ export default function AttestationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="rounded-3xl p-8 max-w-4xl"
-            style={{ backgroundColor: "#EEF4FF" }}
+            style={{ backgroundColor: "#EAF1FF" }}
           >
-            <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
+            <h3 className="text-xl font-bold mb-3" style={{ color: "#071A2B" }}>
               What determines your total cost
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -355,7 +355,7 @@ export default function AttestationPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               aria-label="Ask Travelaxis for current attestation charges on WhatsApp (opens in a new tab)"
             >
               <span>Ask for Current Charges</span>
@@ -366,7 +366,7 @@ export default function AttestationPage() {
       </section>
 
       {/* How we help */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -374,13 +374,13 @@ export default function AttestationPage() {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              How Travelaxis <span style={{ color: "#1D63E0" }}>Helps</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
               ))}
@@ -398,8 +398,8 @@ export default function AttestationPage() {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              Frequently Asked <span style={{ color: "#1D63E0" }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -408,7 +408,7 @@ export default function AttestationPage() {
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#0F1B2D" }}
+                    style={{ color: "#071A2B" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
@@ -423,15 +423,15 @@ export default function AttestationPage() {
       </section>
 
       {/* Related pages */}
-      <section className="py-16" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-16" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#0F1B2D" }}>
-              Related <span style={{ color: "#1D63E0" }}>Pages</span>
+            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#071A2B" }}>
+              Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[
@@ -443,7 +443,7 @@ export default function AttestationPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-3xl p-4 text-center shadow-sm hover:shadow-md transition-shadow bg-white font-semibold"
-                  style={{ color: "#0F1B2D" }}
+                  style={{ color: "#071A2B" }}
                 >
                   {link.label}
                 </Link>
@@ -454,7 +454,7 @@ export default function AttestationPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -473,7 +473,7 @@ export default function AttestationPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
               <span>Get a Free Attestation Quote</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -483,7 +483,7 @@ export default function AttestationPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#1D63E0" }}
+              style={{ color: "#155EEF" }}
               aria-label="Chat with Travelaxis on WhatsApp about attestation (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

@@ -1,48 +1,79 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f1b2d;
+  /* ---- Premium palette (Midnight Navy / Professional Blue / Muted Gold) ---- */
+  --background: #f8fafc;
+  --foreground: #101828;
   --card: #ffffff;
-  --card-foreground: #0f1b2d;
+  --card-foreground: #101828;
   --popover: #ffffff;
-  --popover-foreground: #0f1b2d;
+  --popover-foreground: #101828;
 
-  --primary: #1d63e0;
+  --primary: #155eef;
   --primary-foreground: #ffffff;
-  --brand-dark: #144db3;
+  --brand-dark: #071a2b;
 
-  --secondary: #eef4ff;
-  --secondary-foreground: #0f1b2d;
-  --muted: #eef4ff;
-  --muted-foreground: #5b6b85;
-  --accent: #1d63e0;
+  --secondary: #eaf1ff;
+  --secondary-foreground: #101828;
+  --muted: #eaf1ff;
+  --muted-foreground: #475467;
+  --accent: #155eef;
   --accent-foreground: #ffffff;
+
+  /* Premium accent — muted gold. Reserved for small deliberate details
+     (eyebrow labels, active-state indicators, decorative rules), never
+     as a base UI color. */
+  --gold: #c9a45c;
+  --gold-foreground: #071a2b;
 
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
+  --success: #12b76a;
+  --warning: #f79009;
 
-  --border: rgba(15, 27, 45, 0.1);
+  --border: #e4e7ec;
   --input: transparent;
-  --input-background: #eef4ff;
+  --input-background: #eaf1ff;
   --switch-background: #cbced4;
-  --ring: #1d63e0;
+  --ring: #155eef;
 
-  --footer: #0e2a57;
+  --footer: #071a2b;
   --radius: 1rem;
 
   /* Accessible focus ring aligned with brand blue */
-  --focus-ring: #1d63e0;
+  --focus-ring: #155eef;
   --focus-ring-offset: #ffffff;
 
   /* Card system: light bordered card with a tinted icon bubble, matching
-     the existing brand blue (--primary/--secondary) rather than introducing
-     a new accent color. */
-  --card-line: #e3e9f4;
+     the brand blue (--primary/--secondary). */
+  --card-line: #e4e7ec;
   --card-line-hover: #c7d3ea;
-  --card-icon-bg: #eef4ff;
-  --card-icon-fg: #1d63e0;
-  --card-shadow-hover: 0 10px 30px -14px rgba(15, 27, 45, 0.18);
+  --card-icon-bg: #eaf1ff;
+  --card-icon-fg: #155eef;
+  --card-shadow-hover: 0 10px 30px -14px rgba(7, 26, 43, 0.18);
+
+  /* Type scale (rem @ 16px base) — premium/SaaS scale: larger display
+     headings, generous 17-19px body. Fluid clamp() sizes cover the
+     mobile→desktop ranges from the spec in a single rule each. */
+  --fs-h1: clamp(2.75rem, 2rem + 3.5vw, 4.75rem);   /* 44px -> 76px */
+  --fs-h2: clamp(2rem, 1.4rem + 2.8vw, 3.5rem);      /* 32px -> 56px */
+  --fs-h3: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);    /* 28px -> 36px */
+  --fs-h4: 1.25rem;
+  --fs-lead: 1.1875rem;
+  --fs-body: 1.0625rem;
+  --fs-sm: 0.9375rem;
+  --fs-note: 0.8125rem;
+  --fs-eyebrow: 0.8125rem;
+  --fs-nav: 0.9375rem;
+  --fs-btn: 1rem;
+  --fs-stat: 2.5rem;
+  --fs-footh: 0.875rem;
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 800;
 }
 
 @theme inline {
@@ -61,8 +92,12 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-input-background: var(--input-background);
@@ -74,30 +109,28 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --font-sans: var(--font-inter);
+  --font-heading: var(--font-manrope);
   --font-mono: var(--font-geist-mono);
   --font-script: var(--font-script);
 
-  /* Restrained hero/display sizes — the stock Tailwind 5xl/6xl steps read
-     oversized at the site's 18px root; these are the only two tokens
-     overridden so smaller text-* utilities (used interchangeably for
-     headings and body copy across pages) are unaffected. */
-  --text-5xl: 2.333rem;
-  --text-5xl--line-height: 1.15;
-  --text-6xl: 2.778rem;
-  --text-6xl--line-height: 1.1;
+  /* Nudge Tailwind's own text-sm utility to match --fs-sm so the many
+     existing `text-sm` classes across every page pick up the spec value
+     without each file needing to change. */
+  --text-sm: var(--fs-sm);
 }
 
-/* Sitewide readability baseline: every Tailwind text-* utility is rem-based,
-   so bumping the root size scales headings, body copy, buttons, and nav
-   consistently everywhere in one place instead of editing each page. */
+/* Base size the whole type scale above is calculated against — matches the
+   site's typography spec exactly (1rem = 16px), so every rem-based
+   Tailwind text-* utility sitewide now renders at its intended size. */
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: var(--fs-body);
   line-height: 1.65;
 }
 
@@ -105,28 +138,46 @@ body {
    fine print, footer headings) so new pages don't re-derive the same
    Tailwind utility combination by hand. */
 .eyebrow {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: var(--fs-eyebrow);
+  font-weight: var(--fw-bold);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   line-height: 1;
   color: var(--primary);
 }
 .lead {
-  font-size: 1.125rem;
+  font-size: var(--fs-lead);
   line-height: 1.6;
   color: var(--muted-foreground);
 }
 .text-note {
-  font-size: 0.75rem;
+  font-size: var(--fs-note);
   line-height: 1.5;
   color: var(--muted-foreground);
 }
 .foot-heading {
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: var(--fs-footh);
+  font-weight: var(--fw-bold);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+/* Nav links and primary CTA buttons (e.g. Header's "Call Now") — a step
+   below body size, matching the UI-chrome rung of the type scale. */
+.nav-link {
+  font-size: var(--fs-nav);
+  font-weight: var(--fw-medium);
+}
+.btn {
+  font-size: var(--fs-btn);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.01em;
+}
+/* Large highlighted stat figures (e.g. "500+ Clients Served"). */
+.stat-num {
+  font-size: var(--fs-stat);
+  font-weight: var(--fw-black);
+  line-height: 1;
+  letter-spacing: -0.01em;
 }
 
 /* Bordered card hover state: lift is handled by the Tailwind
@@ -137,8 +188,30 @@ body {
   box-shadow: var(--card-shadow-hover);
 }
 
-/* Tighter leading is still fine for headings — the bump above is for body copy. */
-h1, h2, h3, h4, h5, h6 {
+/* Sitewide heading hierarchy. Unlayered on purpose: every page currently
+   sizes its h1/h2 with an ad hoc Tailwind text-4xl/5xl/6xl (etc.) utility
+   class, and unlayered rules beat Tailwind's @layer utilities regardless
+   of those classes, so this becomes the single source of truth for
+   heading size/weight instead of 25+ near-duplicate per-page values.
+   h3-h6 are deliberately left alone: h3 in particular is reused as the
+   card-title element (see GuideCard.tsx / the card-hover system) at a
+   smaller, card-specific size that must not be swept into this rule. */
+h1 {
+  font-family: var(--font-heading), var(--font-sans);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-black);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-family: var(--font-heading), var(--font-sans);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+h3, h4, h5, h6 {
+  font-family: var(--font-heading), var(--font-sans);
   line-height: 1.25;
 }
 

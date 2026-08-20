@@ -24,6 +24,13 @@ import {
   Snowflake,
   Sun,
   Flag,
+  ShieldCheck,
+  Headset,
+  Search,
+  ClipboardList,
+  Users2,
+  FileCheck2,
+  Send,
 } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
@@ -39,6 +46,7 @@ import { dubaiAreas } from "@/components/data/dubaiAreas";
 import { freeZones } from "@/components/data/freeZones";
 import { homepageFaqs } from "@/lib/data/faqs";
 import Testimonials from "@/components/Testimonials";
+import { destinations } from "@/components/data/destinations";
 
 const services = [
   {
@@ -204,6 +212,44 @@ const audiences = [
   },
 ];
 
+const trustIndicators = [
+  { label: "Personalized Assessment", icon: ClipboardList },
+  { label: "Transparent Guidance", icon: ShieldCheck },
+  { label: "Dedicated Support", icon: Headset },
+  { label: "Global Destinations", icon: Globe2 },
+];
+
+const whyTravelaxis = [
+  {
+    number: "01",
+    title: "Personalized Assessment",
+    description: "Understand your profile before choosing a pathway — we start with your goals, not a generic checklist.",
+  },
+  {
+    number: "02",
+    title: "Clear Process",
+    description: "Know what happens at every stage, from documentation to submission, with no hidden steps.",
+  },
+  {
+    number: "03",
+    title: "Professional Guidance",
+    description: "Work directly with a team based in Dubai and Lahore who handle documentation and consultancy end to end.",
+  },
+  {
+    number: "04",
+    title: "Dedicated Assistance",
+    description: "Stay supported throughout your journey, from your first enquiry to your final submission.",
+  },
+];
+
+const howItWorks = [
+  { number: "01", title: "Discover", description: "Tell us about your goals.", icon: Search },
+  { number: "02", title: "Assess", description: "Understand potential pathways.", icon: ClipboardList },
+  { number: "03", title: "Consult", description: "Discuss your options with an expert.", icon: Users2 },
+  { number: "04", title: "Prepare", description: "Organize your documents and application.", icon: FileCheck2 },
+  { number: "05", title: "Apply", description: "Move forward with confidence.", icon: Send },
+];
+
 const latestPosts = blogPostSummaries.slice(0, 3);
 
 const blogCategoryIcons: Record<string, typeof FileText> = {
@@ -251,7 +297,7 @@ export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
-      <section className="relative overflow-hidden pt-14 pb-28 md:pt-20 md:pb-32" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden pt-14 pb-28 md:pt-20 md:pb-32" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -259,25 +305,34 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#155EEF" }}>
               UAE Visa &amp; Business Setup Consultancy
             </p>
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6" style={{ color: "#0F1B2D" }}>
-              Your <span style={{ color: "#1D63E0" }}>UAE Visa</span>, Handled Start to Finish
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6" style={{ color: "#071A2B" }}>
+              Your <span style={{ color: "#155EEF" }}>UAE Visa</span>, Handled Start to Finish
             </h1>
             <p className="text-lg mb-8 max-w-xl text-gray-600">
               Visit, employment, family, investor, and golden visa documentation, plus company
               formation and government approvals — handled by a team with 11+ years of
               experience in the UAE.
             </p>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
-            >
-              Get Started Now
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/visa-finder"
+                className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+              >
+                Check My Eligibility
+                <ArrowRight className="w-5 h-5" aria-hidden />
+              </Link>
+              <Link
+                href="/consultation"
+                className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90"
+                style={{ borderColor: "#071A2B", color: "#071A2B" }}
+              >
+                Book a Consultation
+              </Link>
+            </div>
           </motion.div>
 
           {/* Not a motion.div: this holds the LCP image, and an initial-opacity-0
@@ -286,7 +341,7 @@ export default function HomePage() {
           <div className="relative h-80 md:h-[26rem]">
             <div
               className="absolute -top-8 -right-8 w-56 h-56 rounded-full"
-              style={{ backgroundColor: "rgba(29,99,224,0.12)" }}
+              style={{ backgroundColor: "rgba(21, 94, 239,0.12)" }}
               aria-hidden
             />
             <img
@@ -299,7 +354,7 @@ export default function HomePage() {
             />
             <div
               className="absolute bottom-2 left-2 w-24 h-24 rounded-full flex flex-col items-center justify-center text-center shadow-lg"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
             >
               <MapPin className="w-5 h-5 mb-0.5" aria-hidden />
               <span className="text-xs font-bold leading-tight px-1">11+ Years</span>
@@ -318,7 +373,7 @@ export default function HomePage() {
           className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 md:p-8 grid grid-cols-1 md:grid-cols-4 gap-4 items-end"
         >
           <label className="flex flex-col gap-1.5 text-sm">
-            <span className="font-semibold" style={{ color: "#0F1B2D" }}>
+            <span className="font-semibold" style={{ color: "#071A2B" }}>
               Service Type*
             </span>
             <select
@@ -326,7 +381,7 @@ export default function HomePage() {
               value={serviceType}
               onChange={(e) => setServiceType(e.target.value)}
               className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               {SERVICE_TYPES.map((option) => (
                 <option key={option}>{option}</option>
@@ -334,7 +389,7 @@ export default function HomePage() {
             </select>
           </label>
           <label className="flex flex-col gap-1.5 text-sm">
-            <span className="font-semibold" style={{ color: "#0F1B2D" }}>
+            <span className="font-semibold" style={{ color: "#071A2B" }}>
               Preferred Contact*
             </span>
             <select
@@ -344,7 +399,7 @@ export default function HomePage() {
                 setPreferredContact(e.target.value as (typeof CONTACT_METHODS)[number])
               }
               className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             >
               {CONTACT_METHODS.map((option) => (
                 <option key={option}>{option}</option>
@@ -352,7 +407,7 @@ export default function HomePage() {
             </select>
           </label>
           <label className="flex flex-col gap-1.5 text-sm">
-            <span className="font-semibold" style={{ color: "#0F1B2D" }}>
+            <span className="font-semibold" style={{ color: "#071A2B" }}>
               Phone Number*
             </span>
             <input
@@ -362,23 +417,160 @@ export default function HomePage() {
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
               className="h-11 rounded-full border border-gray-200 px-4 outline-none focus-visible:ring-2"
-              style={{ color: "#0F1B2D" }}
+              style={{ color: "#071A2B" }}
             />
           </label>
           <button
             type="submit"
             className="h-11 rounded-full font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+            style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
           >
             Get Free Quote
           </button>
         </motion.form>
       </div>
 
+      {/* Trust bar */}
+      <section className="pt-20 pb-4 md:pt-24 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-gray-500 mb-8">
+            Helping people plan their next move with clarity and confidence.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {trustIndicators.map((item) => (
+              <div key={item.label} className="flex flex-col items-center text-center gap-2">
+                <item.icon className="w-6 h-6" style={{ color: "#C9A45C" }} aria-hidden />
+                <p className="text-sm font-semibold" style={{ color: "#071A2B" }}>
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Visa Finder teaser */}
+      <section className="py-16 md:py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            className="rounded-[2rem] overflow-hidden grid md:grid-cols-2 card-hover"
+            style={{ border: "1px solid var(--card-line)" }}
+          >
+            <div className="p-8 md:p-12 flex flex-col justify-center">
+              <p className="eyebrow mb-3">Visa Finder</p>
+              <h2 className="mb-4" style={{ color: "#071A2B" }}>
+                Find Your Potential Visa Pathway
+              </h2>
+              <p className="text-gray-600 mb-8">
+                Answer a few simple questions and discover which visa pathways may be worth
+                exploring for your profile.
+              </p>
+              <Link
+                href="/visa-finder"
+                className="btn inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold transition-all hover:opacity-90 self-start"
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+              >
+                Start Free Assessment
+                <ArrowRight className="w-5 h-5" aria-hidden />
+              </Link>
+            </div>
+            <div className="p-8 md:p-12 flex flex-col justify-center" style={{ backgroundColor: "#EAF1FF" }}>
+              <div className="flex items-center justify-between mb-4">
+                <span className="text-sm font-semibold" style={{ color: "#155EEF" }}>
+                  01 / 07
+                </span>
+                <span className="text-sm text-gray-500">Goal</span>
+              </div>
+              <div className="h-1.5 rounded-full bg-white overflow-hidden mb-6">
+                <div className="h-full rounded-full" style={{ backgroundColor: "#155EEF", width: "14%" }} />
+              </div>
+              <p className="text-sm font-semibold mb-3" style={{ color: "#071A2B" }}>
+                What&apos;s your goal?
+              </p>
+              <div className="grid grid-cols-3 gap-3">
+                {[
+                  { label: "Study", icon: "🎓" },
+                  { label: "Work", icon: "💼" },
+                  { label: "Visit", icon: "✈️" },
+                  { label: "Immigration", icon: "🏠" },
+                  { label: "Family", icon: "👨‍👩‍👧" },
+                  { label: "Business", icon: "💰" },
+                ].map((item) => (
+                  <div
+                    key={item.label}
+                    className="rounded-xl bg-white p-3 text-center text-xs font-semibold"
+                    style={{ color: "#071A2B", border: "1px solid var(--card-line)" }}
+                  >
+                    <span className="block text-lg mb-1">{item.icon}</span>
+                    {item.label}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Destinations */}
+      <section className="py-16 md:py-20" style={{ backgroundColor: "#EAF1FF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mb-12 max-w-2xl mx-auto"
+          >
+            <p className="eyebrow mb-3">Destinations</p>
+            <h2 style={{ color: "#071A2B" }}>Explore Your Next Destination</h2>
+            <p className="text-gray-600 mt-4">
+              Explore popular destinations and discover the pathways available for your goals.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {destinations.map((destination, index) => (
+              <motion.div
+                key={destination.slug}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.06 }}
+              >
+                <Link
+                  href={destination.href}
+                  className="group relative flex flex-col justify-end h-56 rounded-2xl overflow-hidden card-hover"
+                  style={{
+                    border: "1px solid var(--card-line)",
+                    background: "linear-gradient(150deg, #071A2B 0%, #0E2545 55%, #155EEF 130%)",
+                  }}
+                >
+                  <div className="relative z-[1] p-5 transition-transform duration-300 group-hover:-translate-y-1">
+                    <p className="text-white/70 text-xs mb-1">{destination.pathways.join(" · ")}</p>
+                    <h3 className="text-white text-lg font-bold" style={{ fontFamily: "var(--font-heading)" }}>
+                      {destination.name}
+                    </h3>
+                  </div>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/destinations"
+              className="inline-flex items-center gap-1.5 font-semibold"
+              style={{ color: "#155EEF" }}
+            >
+              Explore All Destinations
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Visa type pills */}
       <section className="pt-16 pb-4 md:pt-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-sm font-semibold uppercase tracking-widest mb-5" style={{ color: "#1D63E0" }}>
+          <p className="text-center text-sm font-semibold uppercase tracking-widest mb-5" style={{ color: "#155EEF" }}>
             Every UAE Visa Category, One Place
           </p>
           <motion.nav
@@ -393,7 +585,7 @@ export default function HomePage() {
                 key={pill.href}
                 href={pill.href}
                 className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all hover:opacity-80"
-                style={{ backgroundColor: "#EEF4FF", color: "#1D63E0", borderColor: "transparent" }}
+                style={{ backgroundColor: "#EAF1FF", color: "#155EEF", borderColor: "transparent" }}
               >
                 {pill.label}
               </Link>
@@ -412,10 +604,10 @@ export default function HomePage() {
           >
             <div
               className="absolute inset-0 rounded-[3rem] flex items-center justify-center"
-              style={{ backgroundColor: "#EEF4FF" }}
+              style={{ backgroundColor: "#EAF1FF" }}
               aria-hidden
             >
-              <Building2 className="w-32 h-32 md:w-40 md:h-40" style={{ color: "#1D63E0" }} />
+              <Building2 className="w-32 h-32 md:w-40 md:h-40" style={{ color: "#155EEF" }} />
             </div>
           </motion.div>
 
@@ -424,10 +616,10 @@ export default function HomePage() {
             animate={{ opacity: 1, x: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               Get to Know Us
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
               More About Travelaxis
             </h2>
             <p className="text-gray-600 mb-4">
@@ -447,7 +639,7 @@ export default function HomePage() {
                 <li key={item} className="flex items-center gap-3">
                   <span
                     className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
-                    style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                    style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
                     aria-hidden
                   >
                     ✓
@@ -459,7 +651,7 @@ export default function HomePage() {
             <Link
               href="/about"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold transition-all hover:opacity-90"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
             >
               More About Us
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -469,21 +661,16 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16 max-w-2xl mx-auto"
           >
-            <p
-              className="font-script text-3xl mb-1"
-              style={{ color: "#1D63E0" }}
-            >
-              Our Services
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
-              Popular Services For Business
+            <p className="eyebrow mb-3">Our Services</p>
+            <h2 style={{ color: "#071A2B" }}>
+              One Goal. The Right Guidance.
             </h2>
           </motion.div>
 
@@ -512,7 +699,7 @@ export default function HomePage() {
                 >
                   <service.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <h3 className="text-[1.15rem] font-bold leading-snug mb-2" style={{ color: "#0F1B2D" }}>
+                <h3 className="text-[1.15rem] font-bold leading-snug mb-2" style={{ color: "#071A2B" }}>
                   {service.title}
                 </h3>
                 <p className="text-[0.9rem] text-gray-600 leading-relaxed line-clamp-3 mb-4 flex-1">{service.description}</p>
@@ -524,7 +711,7 @@ export default function HomePage() {
                   <span>{service.category}</span>
                 </div>
                 <div className="flex items-center justify-between gap-3 pt-4" style={{ borderTop: "1px solid var(--card-line)" }}>
-                  <p className="leading-tight" style={{ color: "#0F1B2D" }}>
+                  <p className="leading-tight" style={{ color: "#071A2B" }}>
                     <span className="text-xl font-bold">{service.highlightBig}</span>
                     <span className="text-sm text-gray-500">/{service.highlightSmall}</span>
                   </p>
@@ -547,10 +734,10 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16 max-w-2xl mx-auto"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               For Clients in Pakistan
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#071A2B" }}>
               Document Attestation &amp; Visa Documentation From Pakistan
             </h2>
           </motion.div>
@@ -577,7 +764,7 @@ export default function HomePage() {
                   >
                     <service.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                   </div>
-                  <h3 className="text-[1.15rem] font-bold mb-2" style={{ color: "#0F1B2D" }}>
+                  <h3 className="text-[1.15rem] font-bold mb-2" style={{ color: "#071A2B" }}>
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-[0.9rem] leading-relaxed">{service.description}</p>
@@ -590,7 +777,7 @@ export default function HomePage() {
             <Link
               href="/pakistan"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
             >
               See All Services for Clients in Pakistan
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -599,18 +786,99 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Areas & Emirates We Serve */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
+      {/* Why Travelaxis */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 lg:gap-20">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+          >
+            <p className="eyebrow mb-3">Why Travelaxis</p>
+            <h2 style={{ color: "#071A2B" }}>Immigration Guidance Designed Around You.</h2>
+          </motion.div>
+
+          <div className="space-y-8">
+            {whyTravelaxis.map((item, index) => (
+              <motion.div
+                key={item.number}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.08 }}
+                className="flex gap-5"
+              >
+                <span
+                  className="text-2xl font-bold shrink-0"
+                  style={{ color: "#C9A45C", fontFamily: "var(--font-heading)" }}
+                >
+                  {item.number}
+                </span>
+                <div>
+                  <h3 className="text-lg font-bold mb-1" style={{ color: "#071A2B" }}>
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16 max-w-2xl mx-auto"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="eyebrow mb-3">How It Works</p>
+            <h2 style={{ color: "#071A2B" }}>From Ambition to Destination.</h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            {howItWorks.map((step, index) => (
+              <motion.div
+                key={step.number}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.08 }}
+                className="rounded-2xl bg-white p-6 card-hover text-center"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mx-auto mb-4"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
+                >
+                  <step.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
+                </div>
+                <p className="text-xs font-semibold mb-1" style={{ color: "#C9A45C" }}>
+                  {step.number}
+                </p>
+                <h3 className="font-bold mb-1" style={{ color: "#071A2B" }}>
+                  {step.title}
+                </h3>
+                <p className="text-sm text-gray-600">{step.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Areas & Emirates We Serve */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mb-16 max-w-2xl mx-auto"
+          >
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               Coverage Across the UAE
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#071A2B" }}>
               Areas &amp; Emirates We Serve
             </h2>
             <p className="text-gray-600 mt-4">
@@ -620,55 +888,55 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="rounded-2xl bg-white p-[26px]" style={{ border: "1px solid var(--card-line)" }}>
-              <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
+              <h3 className="font-bold mb-4" style={{ color: "#071A2B" }}>
                 Emirates
               </h3>
               <ul className="space-y-2 list-none p-0 m-0 mb-5">
                 {emirates.map((e) => (
                   <li key={e.slug}>
-                    <Link href={`/emirates/${e.slug}`} className="text-sm text-gray-600 hover:text-[#1D63E0] transition-colors">
+                    <Link href={`/emirates/${e.slug}`} className="text-sm text-gray-600 hover:text-[#155EEF] transition-colors">
                       {e.name}
                     </Link>
                   </li>
                 ))}
               </ul>
-              <Link href="/emirates" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#1D63E0" }}>
+              <Link href="/emirates" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
                 All Emirates We Serve <ArrowRight className="w-3.5 h-3.5" aria-hidden />
               </Link>
             </div>
 
             <div className="rounded-2xl bg-white p-[26px]" style={{ border: "1px solid var(--card-line)" }}>
-              <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
+              <h3 className="font-bold mb-4" style={{ color: "#071A2B" }}>
                 Dubai Areas
               </h3>
               <ul className="space-y-2 list-none p-0 m-0 mb-5">
                 {featuredDubaiAreas.map((a) => (
                   <li key={a.slug}>
-                    <Link href={`/dubai/${a.slug}`} className="text-sm text-gray-600 hover:text-[#1D63E0] transition-colors">
+                    <Link href={`/dubai/${a.slug}`} className="text-sm text-gray-600 hover:text-[#155EEF] transition-colors">
                       {a.name}
                     </Link>
                   </li>
                 ))}
               </ul>
-              <Link href="/dubai" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#1D63E0" }}>
+              <Link href="/dubai" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
                 All Dubai Areas <ArrowRight className="w-3.5 h-3.5" aria-hidden />
               </Link>
             </div>
 
             <div className="rounded-2xl bg-white p-[26px]" style={{ border: "1px solid var(--card-line)" }}>
-              <h3 className="font-bold mb-4" style={{ color: "#0F1B2D" }}>
+              <h3 className="font-bold mb-4" style={{ color: "#071A2B" }}>
                 Free Zones
               </h3>
               <ul className="space-y-2 list-none p-0 m-0 mb-5">
                 {featuredFreeZones.map((z) => (
                   <li key={z.slug}>
-                    <Link href={`/free-zones/${z.slug}`} className="text-sm text-gray-600 hover:text-[#1D63E0] transition-colors">
+                    <Link href={`/free-zones/${z.slug}`} className="text-sm text-gray-600 hover:text-[#155EEF] transition-colors">
                       {z.name}
                     </Link>
                   </li>
                 ))}
               </ul>
-              <Link href="/free-zones" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#1D63E0" }}>
+              <Link href="/free-zones" className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
                 All UAE Free Zones <ArrowRight className="w-3.5 h-3.5" aria-hidden />
               </Link>
             </div>
@@ -680,7 +948,7 @@ export default function HomePage() {
       <section className="relative py-16 overflow-hidden bg-white">
         <div
           className="absolute inset-x-0 top-1/2 h-40 -translate-y-1/2 -skew-y-3"
-          style={{ backgroundColor: "#1D63E0" }}
+          style={{ backgroundColor: "#155EEF" }}
           aria-hidden
         />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -689,11 +957,11 @@ export default function HomePage() {
               <div key={stat.label} className="min-w-0 text-center">
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3"
-                  style={{ backgroundColor: "#1D63E0" }}
+                  style={{ backgroundColor: "#155EEF" }}
                 >
                   <stat.icon className="w-7 h-7 text-white" aria-hidden />
                 </div>
-                <div className="text-2xl md:text-3xl font-bold" style={{ color: "#0F1B2D" }}>
+                <div className="text-2xl md:text-3xl font-bold" style={{ color: "#071A2B" }}>
                   {stat.value}
                 </div>
                 <p className="text-gray-500 text-sm">{stat.label}</p>
@@ -704,17 +972,17 @@ export default function HomePage() {
       </section>
 
       {/* Who We Help */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               Get Plans For Your Family
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#071A2B" }}>
               Solutions That Fit Your Business Stage
             </h2>
           </motion.div>
@@ -735,7 +1003,7 @@ export default function HomePage() {
                 >
                   <a.icon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <p className="font-bold mb-1" style={{ color: "#0F1B2D" }}>
+                <p className="font-bold mb-1" style={{ color: "#071A2B" }}>
                   {a.label}
                 </p>
                 <p className="text-[0.9rem] text-gray-600">{a.description}</p>
@@ -755,20 +1023,18 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
-              Common Questions
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
-              Frequently Asked Questions
+            <p className="eyebrow mb-3">FAQ</p>
+            <h2 style={{ color: "#071A2B" }}>
+              Questions Before You Begin?
             </h2>
           </motion.div>
-          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: "#EEF4FF" }}>
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: "#EAF1FF" }}>
             <Accordion type="single" collapsible className="w-full">
               {homepageFaqs.map((faq, i) => (
                 <AccordionItem key={faq.question} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#0F1B2D" }}
+                    style={{ color: "#071A2B" }}
                   >
                     {faq.question}
                   </AccordionTrigger>
@@ -780,7 +1046,7 @@ export default function HomePage() {
             </Accordion>
           </div>
           <div className="text-center mt-8">
-            <Link href="/faq" className="font-semibold hover:underline" style={{ color: "#1D63E0" }}>
+            <Link href="/faq" className="font-semibold hover:underline" style={{ color: "#155EEF" }}>
               See all frequently asked questions
             </Link>
           </div>
@@ -794,24 +1060,32 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="relative rounded-[2.5rem] overflow-hidden py-20 md:py-28"
-            style={{ backgroundColor: "#1D63E0" }}
+            style={{ backgroundColor: "#071A2B" }}
           >
             <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+              <div className="w-16 h-[3px] mx-auto mb-8" style={{ backgroundColor: "#C9A45C" }} aria-hidden />
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Are You Ready To Start? Remember Us!!
+                Your Next Chapter Starts Here.
               </h2>
-              <p className="text-white/90 text-lg mb-8">
-                Take the first step with the right support and guidance — we&apos;re here
-                to help you at every stage of your business journey.
+              <p className="text-white/80 text-lg mb-8">
+                Tell us where you want to go. We&apos;ll help you understand the journey ahead.
               </p>
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-                style={{ color: "#1D63E0" }}
-              >
-                Book Now
-                <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  href="/visa-finder"
+                  className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
+                  style={{ color: "#155EEF" }}
+                >
+                  Check My Eligibility
+                  <ArrowRight className="w-5 h-5" aria-hidden />
+                </Link>
+                <Link
+                  href="/consultation"
+                  className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#071A2B]"
+                >
+                  Book a Consultation
+                </Link>
+              </div>
             </div>
           </motion.div>
         </div>
@@ -822,7 +1096,7 @@ export default function HomePage() {
         <div
           className="absolute right-0 top-0 bottom-0 w-1/3 -z-0"
           style={{
-            backgroundColor: "#1D63E0",
+            backgroundColor: "#155EEF",
             clipPath: "polygon(60% 0, 100% 0, 100% 100%, 20% 100%)",
           }}
           aria-hidden
@@ -833,11 +1107,9 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-16"
           >
-            <p className="font-script text-3xl mb-1" style={{ color: "#1D63E0" }}>
-              latest News
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
-              Read Latest Blogs
+            <p className="eyebrow mb-3">Resources</p>
+            <h2 style={{ color: "#071A2B" }}>
+              Knowledge for Your Next Move.
             </h2>
           </motion.div>
 
@@ -863,7 +1135,7 @@ export default function HomePage() {
                       return <CategoryIcon className="w-[22px] h-[22px]" style={{ color: "var(--card-icon-fg)" }} />;
                     })()}
                   </div>
-                  <h3 className="text-[1.15rem] font-bold mb-3 line-clamp-2" style={{ color: "#0F1B2D" }}>
+                  <h3 className="text-[1.15rem] font-bold mb-3 line-clamp-2" style={{ color: "#071A2B" }}>
                     {post.title}
                   </h3>
                   <p className="text-gray-600 text-[0.9rem] leading-relaxed mb-4 line-clamp-3">{post.excerpt}</p>

@@ -53,34 +53,34 @@ export default function UaeRetirementVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               UAE Visa Documentation
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#0F1B2D" }}>
-              UAE <span style={{ color: "#1D63E0" }}>Retirement Visa</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#071A2B" }}>
+              UAE <span style={{ color: "#155EEF" }}>Retirement Visa</span>
             </h1>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               The UAE retirement visa is a long-term residence option for people 55 and older who qualify through property, savings, or income — not employment. This guide covers the three qualifying routes, what documents each one needs, and how to bring your spouse along, so you can plan your retirement in the UAE with a clear picture of what's actually required.
             </p>
-            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#1D63E0" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#1D63E0" }}>
+            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
                 The UAE retirement visa is a renewable long-term residence visa for those 55 and above, granted through one of three routes: owning qualifying UAE property, holding sufficient savings, or having sufficient active income. Thresholds are set by UAE authorities and reviewed periodically — we confirm the current figures against your situation before you apply.
               </p>
             </div>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 <span>Get a Free Consultation</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -90,7 +90,7 @@ export default function UaeRetirementVisaPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
+                style={{ borderColor: "#155EEF", color: "#155EEF" }}
                 aria-label="Chat with Travelaxis on WhatsApp about the UAE retirement visa (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -102,7 +102,7 @@ export default function UaeRetirementVisaPage() {
       </section>
 
       {/* Routes */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -133,7 +133,7 @@ export default function UaeRetirementVisaPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#1D63E0" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -153,7 +153,7 @@ export default function UaeRetirementVisaPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-2xl font-bold mb-3" style={{ color: "#071A2B" }}>
               Eligibility &amp; Bringing Family
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -162,7 +162,7 @@ export default function UaeRetirementVisaPage() {
             <p className="text-gray-600 leading-relaxed">
               If you're not sure which route fits best — for example, you have property but aren't sure it meets the current value threshold — that's exactly the kind of question worth asking before you gather documents, not after.
             </p>
-            <h2 className="text-2xl font-bold mb-3 mt-8" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-2xl font-bold mb-3 mt-8" style={{ color: "#071A2B" }}>
               Renewing Your Retirement Visa
             </h2>
             <p className="text-gray-600 leading-relaxed">
@@ -173,48 +173,48 @@ export default function UaeRetirementVisaPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              Documents by <span style={{ color: "#1D63E0" }}>Qualifying Route</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              Documents by <span style={{ color: "#155EEF" }}>Qualifying Route</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
               Exactly which documents you need depends on which of the three routes you're applying under — a property-based application and a savings-based application look quite different on paper, even though both lead to the same visa. Most applicants find one route is obviously the better fit once they compare all three: the property route suits those who already own suitable UAE real estate outright, the savings route suits those with liquid funds they're comfortable holding in a UAE account for the required period, and the income route suits retirees with an ongoing pension or investment income they can document. There's no advantage to applying through a route that's a stretch when a better-fitting one is available — a straightforward application under the route that clearly fits tends to move faster than a marginal one under a route you're only just able to qualify for.
             </p>
             <div className="grid sm:grid-cols-3 gap-6">
               <div className="rounded-3xl p-6 bg-white">
-                <h3 className="font-bold mb-3 text-sm" style={{ color: "#0F1B2D" }}>Property route</h3>
+                <h3 className="font-bold mb-3 text-sm" style={{ color: "#071A2B" }}>Property route</h3>
                 <ul className="space-y-2">
                   {["Title deed showing ownership", "Current property valuation"].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="rounded-3xl p-6 bg-white">
-                <h3 className="font-bold mb-3 text-sm" style={{ color: "#0F1B2D" }}>Savings route</h3>
+                <h3 className="font-bold mb-3 text-sm" style={{ color: "#071A2B" }}>Savings route</h3>
                 <ul className="space-y-2">
                   {["Bank statements showing the deposit", "Confirmation of funds held for the required period"].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="rounded-3xl p-6 bg-white">
-                <h3 className="font-bold mb-3 text-sm" style={{ color: "#0F1B2D" }}>Income route</h3>
+                <h3 className="font-bold mb-3 text-sm" style={{ color: "#071A2B" }}>Income route</h3>
                 <ul className="space-y-2">
                   {["Pension or income statements", "Evidence the income is ongoing"].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -237,13 +237,13 @@ export default function UaeRetirementVisaPage() {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              How Travelaxis <span style={{ color: "#1D63E0" }}>Helps</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
               ))}
@@ -253,7 +253,7 @@ export default function UaeRetirementVisaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -261,8 +261,8 @@ export default function UaeRetirementVisaPage() {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              Frequently Asked <span style={{ color: "#1D63E0" }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -271,7 +271,7 @@ export default function UaeRetirementVisaPage() {
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#0F1B2D" }}
+                    style={{ color: "#071A2B" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
@@ -293,8 +293,8 @@ export default function UaeRetirementVisaPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#0F1B2D" }}>
-              Related <span style={{ color: "#1D63E0" }}>Pages</span>
+            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#071A2B" }}>
+              Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[
@@ -306,7 +306,7 @@ export default function UaeRetirementVisaPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-3xl p-4 text-center shadow-sm hover:shadow-md transition-shadow bg-white font-semibold"
-                  style={{ color: "#0F1B2D" }}
+                  style={{ color: "#071A2B" }}
                 >
                   {link.label}
                 </Link>
@@ -317,7 +317,7 @@ export default function UaeRetirementVisaPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -334,7 +334,7 @@ export default function UaeRetirementVisaPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
               <span>Get a Free Consultation</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -344,7 +344,7 @@ export default function UaeRetirementVisaPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#1D63E0" }}
+              style={{ color: "#155EEF" }}
               aria-label="Chat with Travelaxis on WhatsApp about the UAE retirement visa (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

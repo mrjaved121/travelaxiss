@@ -66,25 +66,25 @@ export default function VisaServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Visa Services
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              UAE Visa <span style={{ color: '#1D63E0' }}>Documentation &amp; Consultancy</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+              UAE Visa <span style={{ color: '#155EEF' }}>Documentation &amp; Consultancy</span>
             </h1>
             <p className="text-lg text-gray-600 mb-6">
               End-to-end UAE visa documentation and consultancy support&mdash;from eligibility
               review and paperwork to application guidance, renewals, and cancellation
               assistance.
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
           </motion.div>
@@ -95,7 +95,7 @@ export default function VisaServicesPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="UAE visa documentation: investor, employment, family, and visit visa consultancy"
@@ -108,7 +108,7 @@ export default function VisaServicesPage() {
       </section>
 
       {/* Visa categories */}
-      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -140,7 +140,7 @@ export default function VisaServicesPage() {
                   style={{ backgroundColor: '#FFFFFF' }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: '#1D63E0' }} />
+                  <item.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
                 </div>
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
@@ -164,20 +164,20 @@ export default function VisaServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
-              Frequently Asked <span style={{ color: '#1D63E0' }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
+              Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: '#EEF4FF' }}>
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: '#EAF1FF' }}>
             <Accordion type="single" collapsible className="w-full">
               {visaServicesFaqs.map((faq, i) => (
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: '#0F1B2D' }}
+                    style={{ color: '#071A2B' }}
                   >
                     <span className="flex items-start gap-2">
-                      <span className="text-[#1D63E0]">❓</span>
+                      <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
@@ -192,7 +192,7 @@ export default function VisaServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -208,7 +208,7 @@ export default function VisaServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
           >
             Book a Visa Documentation Consultation
             <ArrowRight className="w-5 h-5" aria-hidden />

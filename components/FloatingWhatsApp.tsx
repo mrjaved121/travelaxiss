@@ -28,9 +28,8 @@ export default function FloatingWhatsApp() {
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed z-50 flex items-center justify-center rounded-full shadow-lg hover:shadow-xl transition-shadow group"
+      className="fixed z-50 flex items-center justify-center rounded-full shadow-lg hover:shadow-xl transition-shadow group bottom-[24px] max-md:bottom-[92px]"
       style={{
-        bottom: "24px",
         right: "24px",
         width: "60px",
         height: "60px",
@@ -47,7 +46,7 @@ export default function FloatingWhatsApp() {
 
       <span
         className="absolute right-full mr-3 px-4 py-2 rounded-lg text-sm font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity pointer-events-none max-md:hidden"
-        style={{ backgroundColor: "#0F1B2D", color: "#1D63E0" }}
+        style={{ backgroundColor: "#071A2B", color: "#155EEF" }}
         aria-hidden
       >
         Chat with us on WhatsApp

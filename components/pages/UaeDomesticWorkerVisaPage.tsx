@@ -60,34 +60,34 @@ export default function UaeDomesticWorkerVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               UAE Visa Documentation
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#0F1B2D" }}>
-              UAE Domestic <span style={{ color: "#1D63E0" }}>Worker Visa</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#071A2B" }}>
+              UAE Domestic <span style={{ color: "#155EEF" }}>Worker Visa</span>
             </h1>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Sponsoring a domestic worker — a housemaid, nanny, driver, or caregiver — in the UAE runs through a distinct regulatory framework, separate from standard employment visas, built around government-authorized Tadbeer centers. This guide covers how sponsorship actually works, what your household needs to qualify, and the documents both sides need to get it right the first time.
             </p>
-            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#1D63E0" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#1D63E0" }}>
+            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
                 A UAE domestic worker visa is sponsored by a resident or citizen household, processed through a government-authorized Tadbeer center rather than an informal arrangement. Sponsors typically need to meet a minimum income and accommodation standard, and the process includes a formal employment contract, the worker's medical fitness clearance, and Emirates ID application. We help households prepare this documentation correctly.
               </p>
             </div>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 <span>Get a Free Consultation</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -97,7 +97,7 @@ export default function UaeDomesticWorkerVisaPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
+                style={{ borderColor: "#155EEF", color: "#155EEF" }}
                 aria-label="Chat with Travelaxis on WhatsApp about UAE domestic worker visas (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -109,7 +109,7 @@ export default function UaeDomesticWorkerVisaPage() {
       </section>
 
       {/* Categories */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -137,7 +137,7 @@ export default function UaeDomesticWorkerVisaPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#1D63E0" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -157,8 +157,8 @@ export default function UaeDomesticWorkerVisaPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              How the Process <span style={{ color: "#1D63E0" }}>Actually Works</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              How the Process <span style={{ color: "#155EEF" }}>Actually Works</span>
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-4">
               Since UAE labour reforms brought domestic worker recruitment under formal oversight, the process runs through Tadbeer centers rather than the informal broker arrangements many households used previously. A Tadbeer center is licensed and regulated, meaning both the sponsoring household and the worker have a documented, enforceable relationship from day one — the contract terms, working conditions, and sponsor obligations are all on record with the relevant authority, not agreed verbally.
@@ -174,19 +174,19 @@ export default function UaeDomesticWorkerVisaPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              Documents You&apos;ll <span style={{ color: "#1D63E0" }}>Need</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              Documents You&apos;ll <span style={{ color: "#155EEF" }}>Need</span>
             </h2>
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="rounded-3xl p-6" style={{ backgroundColor: "#EEF4FF" }}>
-                <h3 className="font-bold mb-3" style={{ color: "#0F1B2D" }}>As the sponsoring household</h3>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "#EAF1FF" }}>
+                <h3 className="font-bold mb-3" style={{ color: "#071A2B" }}>As the sponsoring household</h3>
                 <ul className="space-y-2">
                   {[
                     "Emirates ID copy",
@@ -194,14 +194,14 @@ export default function UaeDomesticWorkerVisaPage() {
                     "Tenancy contract showing suitable accommodation",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="rounded-3xl p-6" style={{ backgroundColor: "#EEF4FF" }}>
-                <h3 className="font-bold mb-3" style={{ color: "#0F1B2D" }}>For the domestic worker</h3>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "#EAF1FF" }}>
+                <h3 className="font-bold mb-3" style={{ color: "#071A2B" }}>For the domestic worker</h3>
                 <ul className="space-y-2">
                   {[
                     "Passport copy",
@@ -209,7 +209,7 @@ export default function UaeDomesticWorkerVisaPage() {
                     "Signed employment contract",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -233,7 +233,7 @@ export default function UaeDomesticWorkerVisaPage() {
             <div className="flex items-start gap-3">
               <AlertTriangle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#A23F35" }} aria-hidden />
               <div>
-                <h2 className="text-xl font-bold mb-2" style={{ color: "#0F1B2D" }}>
+                <h2 className="text-xl font-bold mb-2" style={{ color: "#071A2B" }}>
                   Avoid Informal Arrangements
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
@@ -246,14 +246,14 @@ export default function UaeDomesticWorkerVisaPage() {
       </section>
 
       {/* Contract terms */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-2xl font-bold mb-3" style={{ color: "#071A2B" }}>
               What a Proper Contract Covers
             </h2>
             <p className="text-gray-600 leading-relaxed">
@@ -275,13 +275,13 @@ export default function UaeDomesticWorkerVisaPage() {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              How Travelaxis <span style={{ color: "#1D63E0" }}>Helps</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
               ))}
@@ -291,7 +291,7 @@ export default function UaeDomesticWorkerVisaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -299,8 +299,8 @@ export default function UaeDomesticWorkerVisaPage() {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              Frequently Asked <span style={{ color: "#1D63E0" }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -309,7 +309,7 @@ export default function UaeDomesticWorkerVisaPage() {
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#0F1B2D" }}
+                    style={{ color: "#071A2B" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
@@ -331,8 +331,8 @@ export default function UaeDomesticWorkerVisaPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#0F1B2D" }}>
-              Related <span style={{ color: "#1D63E0" }}>Pages</span>
+            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#071A2B" }}>
+              Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[
@@ -344,7 +344,7 @@ export default function UaeDomesticWorkerVisaPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-3xl p-4 text-center shadow-sm hover:shadow-md transition-shadow bg-white font-semibold"
-                  style={{ color: "#0F1B2D" }}
+                  style={{ color: "#071A2B" }}
                 >
                   {link.label}
                 </Link>
@@ -355,7 +355,7 @@ export default function UaeDomesticWorkerVisaPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -372,7 +372,7 @@ export default function UaeDomesticWorkerVisaPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
               <span>Get a Free Consultation</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -382,7 +382,7 @@ export default function UaeDomesticWorkerVisaPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#1D63E0" }}
+              style={{ color: "#155EEF" }}
               aria-label="Chat with Travelaxis on WhatsApp about UAE domestic worker visas (opens in a new tab)"
             >
               <span>WhatsApp Now</span>
