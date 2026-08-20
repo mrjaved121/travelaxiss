@@ -226,29 +226,6 @@ const trustIndicators = [
   { label: "Global Destinations", icon: Globe2 },
 ];
 
-const whyTravelaxis = [
-  {
-    number: "01",
-    title: "Personalized Assessment",
-    description: "Understand your profile before choosing a pathway — we start with your goals, not a generic checklist.",
-  },
-  {
-    number: "02",
-    title: "Clear Process",
-    description: "Know what happens at every stage, from documentation to submission, with no hidden steps.",
-  },
-  {
-    number: "03",
-    title: "Professional Guidance",
-    description: "Work directly with a team based in Dubai and Lahore who handle documentation and consultancy end to end.",
-  },
-  {
-    number: "04",
-    title: "Dedicated Assistance",
-    description: "Stay supported throughout your journey, from your first enquiry to your final submission.",
-  },
-];
-
 const howItWorks = [
   { number: "01", title: "Discover", description: "Tell us about your goals.", icon: Search },
   { number: "02", title: "Assess", description: "Understand potential pathways.", icon: ClipboardList },
@@ -453,68 +430,6 @@ export default function HomePage() {
                 </p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Visa Finder teaser */}
-      <section className="py-16 md:py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div
-            className="rounded-[2rem] overflow-hidden grid md:grid-cols-2 card-hover"
-            style={{ border: "1px solid var(--card-line)" }}
-          >
-            <div className="p-8 md:p-12 flex flex-col justify-center">
-              <p className="eyebrow mb-3">Visa Finder</p>
-              <h2 className="mb-4" style={{ color: "#071A2B" }}>
-                Find Your Potential Visa Pathway
-              </h2>
-              <p className="text-gray-600 mb-8">
-                Answer a few simple questions and discover which visa pathways may be worth
-                exploring for your profile.
-              </p>
-              <Link
-                href="/visa-finder"
-                className="btn inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold transition-all hover:opacity-90 self-start"
-                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
-              >
-                Start Free Assessment
-                <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
-            </div>
-            <div className="p-8 md:p-12 flex flex-col justify-center" style={{ backgroundColor: "#EAF1FF" }}>
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-sm font-semibold" style={{ color: "#155EEF" }}>
-                  01 / 07
-                </span>
-                <span className="text-sm text-gray-500">Goal</span>
-              </div>
-              <div className="h-1.5 rounded-full bg-white overflow-hidden mb-6">
-                <div className="h-full rounded-full" style={{ backgroundColor: "#155EEF", width: "14%" }} />
-              </div>
-              <p className="text-sm font-semibold mb-3" style={{ color: "#071A2B" }}>
-                What&apos;s your goal?
-              </p>
-              <div className="grid grid-cols-3 gap-3">
-                {[
-                  { label: "Study", icon: "🎓" },
-                  { label: "Work", icon: "💼" },
-                  { label: "Visit", icon: "✈️" },
-                  { label: "Immigration", icon: "🏠" },
-                  { label: "Family", icon: "👨‍👩‍👧" },
-                  { label: "Business", icon: "💰" },
-                ].map((item) => (
-                  <div
-                    key={item.label}
-                    className="rounded-xl bg-white p-3 text-center text-xs font-semibold"
-                    style={{ color: "#071A2B", border: "1px solid var(--card-line)" }}
-                  >
-                    <span className="block text-lg mb-1">{item.icon}</span>
-                    {item.label}
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -794,45 +709,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why Travelaxis */}
-      <section className="py-20 md:py-28 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 lg:gap-20">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-          >
-            <p className="eyebrow mb-3">Why Travelaxis</p>
-            <h2 style={{ color: "#071A2B" }}>Immigration Guidance Designed Around You.</h2>
-          </motion.div>
-
-          <div className="space-y-8">
-            {whyTravelaxis.map((item, index) => (
-              <motion.div
-                key={item.number}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
-                className="flex gap-5"
-              >
-                <span
-                  className="text-2xl font-bold shrink-0"
-                  style={{ color: "#C9A45C", fontFamily: "var(--font-heading)" }}
-                >
-                  {item.number}
-                </span>
-                <div>
-                  <h3 className="text-lg font-bold mb-1" style={{ color: "#071A2B" }}>
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600">{item.description}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* How It Works */}
       <section className="py-20 md:py-28" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1087,44 +963,6 @@ export default function HomePage() {
               See all frequently asked questions
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* CTA banner */}
-      <section className="py-10 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="relative rounded-[2.5rem] overflow-hidden py-20 md:py-28"
-            style={{ backgroundColor: "#071A2B" }}
-          >
-            <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-              <div className="w-16 h-[3px] mx-auto mb-8" style={{ backgroundColor: "#C9A45C" }} aria-hidden />
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Your Next Chapter Starts Here.
-              </h2>
-              <p className="text-white/80 text-lg mb-8">
-                Tell us where you want to go. We&apos;ll help you understand the journey ahead.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/visa-finder"
-                  className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-                  style={{ color: "#155EEF" }}
-                >
-                  Check My Eligibility
-                  <ArrowRight className="w-5 h-5" aria-hidden />
-                </Link>
-                <Link
-                  href="/consultation"
-                  className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#071A2B]"
-                >
-                  Book a Consultation
-                </Link>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </section>
 
