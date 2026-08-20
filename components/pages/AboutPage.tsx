@@ -32,24 +32,24 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
-              About Travelaxis
-            </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              Building Businesses, <span style={{ color: '#1D63E0' }}>Driving Success</span>
+            <p className="eyebrow mb-3">About Travelaxis</p>
+            <h1 className="mb-6" style={{ color: '#071A2B' }}>
+              Helping People Move <span style={{ color: '#155EEF' }}>Toward What&apos;s Next.</span>
             </h1>
-            <p className="text-lg text-gray-600">
-              We help businesses establish and grow through structured support, clear
-              communication, and regulatory awareness. Our work spans company formation,
-              government-related coordination, and UAE visa documentation and application
-              guidance&mdash;always aligned with official requirements and each client&apos;s goals.
+            <p className="lead text-gray-600">
+              We help businesses establish and grow, and help individuals plan their next move
+              abroad, through structured support, clear communication, and regulatory awareness.
+              Our work spans UAE company formation and government coordination, alongside
+              documentation and consultancy support for visa pathways to the UAE, UK, Canada,
+              Australia, USA, and other destinations&mdash;always aligned with official
+              requirements and each client&apos;s goals.
             </p>
             <p className="text-sm text-gray-500 mt-4 max-w-lg leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a
@@ -66,7 +66,7 @@ export default function AboutPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="Travelaxis UAE business setup and visa documentation consultancy team"
@@ -86,12 +86,12 @@ export default function AboutPage() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#EEF4FF' }}
+              style={{ backgroundColor: '#EAF1FF' }}
             >
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
                 <Target className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#0F1B2D' }}>Our Mission</h2>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: '#071A2B' }}>Our Mission</h2>
               <p className="text-gray-700 text-lg">
                 To deliver professional, structured services with accurate documentation,
                 realistic timelines, and transparent expectations&mdash;so businesses can operate
@@ -103,12 +103,12 @@ export default function AboutPage() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#EEF4FF' }}
+              style={{ backgroundColor: '#EAF1FF' }}
             >
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#1D63E0' }} aria-hidden>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
                 <Eye className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: '#0F1B2D' }}>Our Vision</h2>
+              <h2 className="text-2xl font-bold mb-4" style={{ color: '#071A2B' }}>Our Vision</h2>
               <p className="text-gray-700 text-lg">
                 To be recognized as a trusted UAE consultancy partner for business formation and
                 documentation-led visa support.
@@ -119,17 +119,17 @@ export default function AboutPage() {
       </section>
 
       {/* How We Work */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Why Travelaxis
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#071A2B' }}>
               How We Work
             </h2>
           </motion.div>
@@ -147,7 +147,7 @@ export default function AboutPage() {
                 <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
                   <item.icon className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
-                <h3 className="font-semibold mb-2" style={{ color: '#0F1B2D' }}>{item.title}</h3>
+                <h3 className="font-semibold mb-2" style={{ color: '#071A2B' }}>{item.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
@@ -156,23 +156,33 @@ export default function AboutPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Talk to Travelaxis</h2>
           <p className="text-white/90 text-lg mb-8">
-            Let us help you build your business with professional guidance and support.
+            Let us help you build your business, or plan your next move abroad, with professional
+            guidance and support.
           </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
-          >
-            Contact Us
-            <ArrowRight className="w-5 h-5" aria-hidden />
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/consultation"
+              className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
+              style={{ color: "#155EEF" }}
+            >
+              Book a Consultation
+              <ArrowRight className="w-5 h-5" aria-hidden />
+            </Link>
+            <Link
+              href="/contact"
+              className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            >
+              Contact Us
+            </Link>
+          </div>
         </motion.div>
       </section>
     </div>

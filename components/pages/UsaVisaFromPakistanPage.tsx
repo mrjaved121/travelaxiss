@@ -69,20 +69,20 @@ export default function UsaVisaFromPakistanPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               USA Visa Documentation
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#0F1B2D" }}>
-              USA Visa <span style={{ color: "#1D63E0" }}>from Pakistan</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#071A2B" }}>
+              USA Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               A US visa application from Pakistan works differently from a UAE, UK, or Canada application — there&apos;s no formal attestation chain for most categories. Instead, it centers on the DS-160 form, a fee payment, and an in-person interview at the US Embassy in Islamabad or a consulate in Karachi, Lahore, or Peshawar. We prepare documentation for B1/B2 visitor and F1 student visa applicants.
             </p>
-            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#1D63E0" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#1D63E0" }}>
+            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
               <p className="text-gray-700 leading-relaxed">
@@ -92,7 +92,7 @@ export default function UsaVisaFromPakistanPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold underline-offset-2 hover:underline"
-                  style={{ color: "#1D63E0" }}
+                  style={{ color: "#155EEF" }}
                 >
                   US Department of State&apos;s
                 </a>{" "}
@@ -102,21 +102,21 @@ export default function UsaVisaFromPakistanPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold underline-offset-2 hover:underline"
-                  style={{ color: "#1D63E0" }}
+                  style={{ color: "#155EEF" }}
                 >
                   the US Embassy in Islamabad
                 </a>{" "}
                 or a consulate, where a consular officer decides on the spot in most cases. We prepare documentation for B1/B2 and F1 applicants; we don&apos;t file H-1B, family-based, or Diversity Visa petitions, which require a US immigration attorney.
               </p>
             </div>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
                 <span>Get a Free USA Visa Consultation</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -126,7 +126,7 @@ export default function UsaVisaFromPakistanPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#1D63E0", color: "#1D63E0" }}
+                style={{ borderColor: "#155EEF", color: "#155EEF" }}
                 aria-label="Chat with Travelaxis on WhatsApp about USA visas (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -138,7 +138,7 @@ export default function UsaVisaFromPakistanPage() {
       </section>
 
       {/* Categories */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -166,7 +166,7 @@ export default function UsaVisaFromPakistanPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#1D63E0" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -186,11 +186,11 @@ export default function UsaVisaFromPakistanPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="rounded-3xl p-8 border border-gray-100 shadow-sm"
-            style={{ backgroundColor: "#EEF4FF" }}
+            style={{ backgroundColor: "#EAF1FF" }}
           >
             <div className="flex items-start gap-3 mb-3">
-              <AlertTriangle className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: "#1D63E0" }} aria-hidden />
-              <h2 className="text-2xl font-bold" style={{ color: "#0F1B2D" }}>
+              <AlertTriangle className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: "#155EEF" }} aria-hidden />
+              <h2 className="text-2xl font-bold" style={{ color: "#071A2B" }}>
                 What&apos;s Outside Document-Preparation Scope
               </h2>
             </div>
@@ -209,7 +209,7 @@ export default function UsaVisaFromPakistanPage() {
       </section>
 
       {/* Timelines + pricing */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -217,8 +217,8 @@ export default function UsaVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="mb-10 max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              Typical <span style={{ color: "#1D63E0" }}>Process Timeline</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              Typical <span style={{ color: "#155EEF" }}>Process Timeline</span>
             </h2>
           </motion.div>
 
@@ -239,7 +239,7 @@ export default function UsaVisaFromPakistanPage() {
               <TableBody>
                 {timelineRows.map((row) => (
                   <TableRow key={row.doc}>
-                    <TableCell className="whitespace-normal font-medium" style={{ color: "#0F1B2D" }}>
+                    <TableCell className="whitespace-normal font-medium" style={{ color: "#071A2B" }}>
                       {row.doc}
                     </TableCell>
                     <TableCell className="whitespace-normal text-gray-600">{row.authority}</TableCell>
@@ -259,7 +259,7 @@ export default function UsaVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="rounded-3xl p-8 max-w-4xl bg-white"
           >
-            <h3 className="text-xl font-bold mb-3" style={{ color: "#0F1B2D" }}>
+            <h3 className="text-xl font-bold mb-3" style={{ color: "#071A2B" }}>
               What determines your total cost
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -270,7 +270,7 @@ export default function UsaVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               aria-label="Ask Travelaxis about USA visa costs on WhatsApp (opens in a new tab)"
             >
               <span>Ask About Your Case</span>
@@ -289,13 +289,13 @@ export default function UsaVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="max-w-3xl"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              How Travelaxis <span style={{ color: "#1D63E0" }}>Helps</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#1D63E0" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                   <span className="text-lg text-gray-700">{item}</span>
                 </li>
               ))}
@@ -305,7 +305,7 @@ export default function UsaVisaFromPakistanPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -313,8 +313,8 @@ export default function UsaVisaFromPakistanPage() {
             viewport={{ once: true }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
-              Frequently Asked <span style={{ color: "#1D63E0" }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#071A2B" }}>
+              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100">
@@ -323,7 +323,7 @@ export default function UsaVisaFromPakistanPage() {
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#0F1B2D" }}
+                    style={{ color: "#071A2B" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
@@ -345,8 +345,8 @@ export default function UsaVisaFromPakistanPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#0F1B2D" }}>
-              Related <span style={{ color: "#1D63E0" }}>Pages</span>
+            <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#071A2B" }}>
+              Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -359,7 +359,7 @@ export default function UsaVisaFromPakistanPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-3xl p-4 text-center shadow-sm hover:shadow-md transition-shadow bg-white font-semibold"
-                  style={{ color: "#0F1B2D" }}
+                  style={{ color: "#071A2B" }}
                 >
                   {link.label}
                 </Link>
@@ -370,7 +370,7 @@ export default function UsaVisaFromPakistanPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -387,7 +387,7 @@ export default function UsaVisaFromPakistanPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
               <span>Get a Free USA Visa Consultation</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -397,7 +397,7 @@ export default function UsaVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#1D63E0" }}
+              style={{ color: "#155EEF" }}
               aria-label="Chat with Travelaxis on WhatsApp about USA visas (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

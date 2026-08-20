@@ -16,20 +16,20 @@ export default function BlogPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              Latest <span style={{ color: '#1D63E0' }}>Insights</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+              Latest <span style={{ color: '#155EEF' }}>Insights</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
               Expert guides and articles on business setup, company formation, and entrepreneurship in UAE
             </p>
-            <p className="mt-4 font-semibold" style={{ color: '#1D63E0' }}>
+            <p className="mt-4 font-semibold" style={{ color: '#155EEF' }}>
               Showing all {blogs.length} articles
             </p>
           </motion.div>
@@ -62,7 +62,7 @@ export default function BlogPage() {
                         return <CategoryIcon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />;
                       })()}
                     </div>
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#EEF4FF', color: '#1D63E0' }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#EAF1FF', color: '#155EEF' }}>
                       {blog.category}
                     </span>
                   </div>
@@ -73,7 +73,7 @@ export default function BlogPage() {
                     </div>
                   </div>
                   
-                  <h2 className="text-xl font-bold mb-3 group-hover:text-opacity-80 transition-colors" style={{ color: '#0F1B2D' }}>
+                  <h2 className="text-xl font-bold mb-3 group-hover:text-opacity-80 transition-colors" style={{ color: '#071A2B' }}>
                     {blog.title}
                   </h2>
                   
@@ -84,7 +84,7 @@ export default function BlogPage() {
                   <span
                     aria-hidden="true"
                     className="inline-flex items-center space-x-2 font-semibold group-hover:underline"
-                    style={{ color: '#1D63E0' }}
+                    style={{ color: '#155EEF' }}
                   >
                     <span>Read full article</span>
                     <ArrowRight className="w-4 h-4" aria-hidden />
@@ -97,7 +97,7 @@ export default function BlogPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -111,7 +111,7 @@ export default function BlogPage() {
             href="https://wa.me/971589867555"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             aria-label="Contact Travelaxis on WhatsApp about UAE company formation (opens in a new tab)"
           >
             Contact Us on WhatsApp

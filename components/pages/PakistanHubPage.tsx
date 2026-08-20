@@ -160,14 +160,14 @@ export default function PakistanHubPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               For Clients in Pakistan
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#0F1B2D" }}>
-              Visa &amp; Business Services for Clients <span style={{ color: "#1D63E0" }}>in Pakistan</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#071A2B" }}>
+              Visa &amp; Business Services for Clients <span style={{ color: "#155EEF" }}>in Pakistan</span>
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
               Travelaxis supports Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK, Canada, and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
@@ -196,7 +196,7 @@ export default function PakistanHubPage() {
             ))}
           </div>
           <p className="text-center mt-12">
-            <Link href="/services" className="font-semibold hover:underline" style={{ color: "#1D63E0" }}>
+            <Link href="/services" className="font-semibold hover:underline" style={{ color: "#155EEF" }}>
               Browse our full range of UAE services
             </Link>
           </p>
@@ -204,7 +204,7 @@ export default function PakistanHubPage() {
       </section>
 
       {/* Why us */}
-      <section className="py-20" style={{ backgroundColor: "#1D63E0" }}>
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -232,7 +232,7 @@ export default function PakistanHubPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: "#1D63E0" }} />
+                  <item.icon className="w-7 h-7" style={{ color: "#155EEF" }} />
                 </div>
                 <h3 className="text-lg font-bold mb-3" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -245,10 +245,10 @@ export default function PakistanHubPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "#0F1B2D" }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: "#071A2B" }}>
               Don&apos;t See Your Situation Above?
             </h2>
             <p className="text-lg text-gray-600 mb-8">
@@ -259,7 +259,7 @@ export default function PakistanHubPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-              style={{ backgroundColor: "#1D63E0", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
             >
               <span>Chat on WhatsApp</span>

@@ -24,7 +24,7 @@ export default async function Image() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px 96px",
-          background: "linear-gradient(135deg, #FFFFFF 0%, #EEF4FF 100%)",
+          background: "linear-gradient(135deg, #FFFFFF 0%, #EAF1FF 100%)",
         }}
       >
         <div
@@ -35,7 +35,7 @@ export default async function Image() {
             width: 420,
             height: 420,
             borderRadius: "50%",
-            background: "rgba(29,99,224,0.12)",
+            background: "rgba(21, 94, 239,0.12)",
             display: "flex",
           }}
         />
@@ -48,7 +48,7 @@ export default async function Image() {
             fontSize: 54,
             fontWeight: 700,
             lineHeight: 1.15,
-            color: "#0F1B2D",
+            color: "#071A2B",
             maxWidth: 900,
           }}
         >
@@ -60,7 +60,7 @@ export default async function Image() {
             marginTop: 28,
             fontSize: 30,
             fontWeight: 600,
-            color: "#1D63E0",
+            color: "#155EEF",
           }}
         >
           Company Formation &nbsp;•&nbsp; Government Services &nbsp;•&nbsp; Legal Documentation

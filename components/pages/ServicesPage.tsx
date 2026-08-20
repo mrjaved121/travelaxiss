@@ -1,14 +1,25 @@
 'use client';
 
+import { useState } from "react";
 import Link from "next/link";
 import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, RefreshCw, Briefcase, Home, PiggyBank, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
-const services = [
+type Group = "All" | "Business Setup" | "UAE Visas" | "International Visas" | "Documentation";
+
+const services: {
+  title: string;
+  category: string;
+  group: Exclude<Group, "All">;
+  description: string;
+  icon: typeof Building2;
+  link: string;
+}[] = [
   {
     title: "Company Formation",
     category: "Business Setup",
+    group: "Business Setup",
     description: "Comprehensive formation services for mainland, freezone, and offshore business structures.",
     icon: Building2,
     link: "/services/company-formation",
@@ -16,6 +27,7 @@ const services = [
   {
     title: "Government Services",
     category: "Approvals",
+    group: "Business Setup",
     description: "Streamlined government approvals and regulatory coordination through expert handling.",
     icon: FileText,
     link: "/services/government-services",
@@ -23,6 +35,7 @@ const services = [
   {
     title: "Legal Documentation",
     category: "Compliance",
+    group: "Documentation",
     description: "Professional preparation and attestation of corporate and legal documents.",
     icon: Scale,
     link: "/services/legal-documentation",
@@ -30,6 +43,7 @@ const services = [
   {
     title: "Business Support Services",
     category: "Ongoing Support",
+    group: "Business Setup",
     description: "Ongoing support services including trademark registration, ISO certification, and operational assistance.",
     icon: HeadphonesIcon,
     link: "/services/business-support",
@@ -37,6 +51,7 @@ const services = [
   {
     title: "UAE Visa Documentation & Consultancy",
     category: "Visa Services",
+    group: "UAE Visas",
     description:
       "Investor, employment, and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
     icon: Plane,
@@ -45,6 +60,7 @@ const services = [
   {
     title: "International Visa Documentation",
     category: "Global Visas",
+    group: "International Visas",
     description:
       "Documentation support for Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations, for UAE residents traveling or relocating abroad.",
     icon: Globe2,
@@ -53,6 +69,7 @@ const services = [
   {
     title: "Umrah Services",
     category: "Pilgrimage Travel",
+    group: "International Visas",
     description:
       "Umrah visa processing, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
     icon: Moon,
@@ -61,6 +78,7 @@ const services = [
   {
     title: "UAE Document Attestation",
     category: "Attestation",
+    group: "Documentation",
     description:
       "Degree, marriage, birth, and experience certificate attestation from Pakistan — the full HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain.",
     icon: Stamp,
@@ -69,6 +87,7 @@ const services = [
   {
     title: "UK Visa from Pakistan",
     category: "UK Visas",
+    group: "International Visas",
     description:
       "Skilled Worker, Student, Visit, and Family/Spouse visa documentation for Pakistani applicants, submitted through UKVI's official channels.",
     icon: Landmark,
@@ -77,6 +96,7 @@ const services = [
   {
     title: "Canada Visa from Pakistan",
     category: "Canada Visas",
+    group: "International Visas",
     description:
       "Study permit, work permit, visit visa, and spouse open work permit documentation for Pakistani applicants, submitted through IRCC.",
     icon: Snowflake,
@@ -85,6 +105,7 @@ const services = [
   {
     title: "Australia Visa from Pakistan",
     category: "Australia Visas",
+    group: "International Visas",
     description:
       "Visitor, Student, and Partner/Family visa documentation for Pakistani applicants, submitted through the Department of Home Affairs.",
     icon: Sun,
@@ -93,6 +114,7 @@ const services = [
   {
     title: "USA Visa from Pakistan",
     category: "USA Visas",
+    group: "International Visas",
     description:
       "B1/B2 visitor and F1 student visa documentation for Pakistani applicants, including DS-160 review and Embassy Islamabad interview preparation.",
     icon: Flag,
@@ -101,6 +123,7 @@ const services = [
   {
     title: "UAE Visit & Tourist Visa",
     category: "Visit Visas",
+    group: "UAE Visas",
     description:
       "14/30/60/90-day visit and tourist visa documentation, covering airline, hotel, tour operator, and resident sponsor routes.",
     icon: Plane,
@@ -109,6 +132,7 @@ const services = [
   {
     title: "UAE Visa Extension & Renewal",
     category: "Extension & Renewal",
+    group: "UAE Visas",
     description:
       "Visit visa extension, residence visa renewal, and status change — clearly explained, with documents and timelines.",
     icon: RefreshCw,
@@ -117,6 +141,7 @@ const services = [
   {
     title: "UAE Employment & Labour Visa",
     category: "Employment Visas",
+    group: "UAE Visas",
     description:
       "Work permit, medical, Emirates ID, and visa stamping documentation — plus who legally pays for what.",
     icon: Briefcase,
@@ -125,6 +150,7 @@ const services = [
   {
     title: "UAE Domestic Worker Visa",
     category: "Domestic Worker",
+    group: "UAE Visas",
     description:
       "Tadbeer-channel sponsorship documentation for households sponsoring a domestic worker in the UAE.",
     icon: Home,
@@ -133,12 +159,15 @@ const services = [
   {
     title: "UAE Retirement Visa",
     category: "Retirement",
+    group: "UAE Visas",
     description:
       "Documentation support for the property, savings, and income routes to UAE retirement residency.",
     icon: PiggyBank,
     link: "/services/uae-retirement-visa",
   },
 ];
+
+const GROUPS: Group[] = ["All", "Business Setup", "UAE Visas", "International Visas", "Documentation"];
 
 const advantages = [
   {
@@ -159,21 +188,25 @@ const advantages = [
 ];
 
 export default function ServicesPage() {
+  const [activeGroup, setActiveGroup] = useState<Group>("All");
+  const visibleServices =
+    activeGroup === "All" ? services : services.filter((s) => s.group === activeGroup);
+
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               What We Offer
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              Our <span style={{ color: '#1D63E0' }}>Services</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+              Our <span style={{ color: '#155EEF' }}>Services</span>
             </h1>
             <p className="text-lg text-gray-600">
               We provide a full range of services designed to support businesses from setup to
@@ -188,7 +221,7 @@ export default function ServicesPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
+            <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="Travelaxis UAE business setup, visa documentation, and government services"
@@ -206,8 +239,28 @@ export default function ServicesPage() {
           <h2 id="services-overview-heading" className="sr-only">
             Service overview
           </h2>
+
+          <div className="flex flex-wrap justify-center gap-3 mb-12" role="group" aria-label="Filter services by category">
+            {GROUPS.map((group) => (
+              <button
+                key={group}
+                type="button"
+                onClick={() => setActiveGroup(group)}
+                className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all"
+                style={
+                  activeGroup === group
+                    ? { backgroundColor: "#155EEF", color: "#FFFFFF", borderColor: "#155EEF" }
+                    : { backgroundColor: "#FFFFFF", color: "#071A2B", borderColor: "var(--card-line)" }
+                }
+                aria-pressed={activeGroup === group}
+              >
+                {group}
+              </button>
+            ))}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
-            {services.map((service, index) => (
+            {visibleServices.map((service, index) => (
               <GuideCard
                 key={service.title}
                 icon={service.icon}
@@ -216,9 +269,9 @@ export default function ServicesPage() {
                 href={service.link}
                 badge={service.category}
                 ariaLabel={`Learn more about ${service.title}`}
-                delay={index * 0.1}
+                delay={index * 0.06}
                 className={
-                  index === services.length - 1 && services.length % 3 === 1
+                  index === visibleServices.length - 1 && visibleServices.length % 3 === 1
                     ? "md:col-start-1 lg:col-start-2"
                     : ""
                 }
@@ -229,15 +282,15 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Advantages */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#0F1B2D' }}>
-              Service <span style={{ color: '#1D63E0' }}>Advantages</span>
+            <h2 className="text-3xl md:text-4xl font-bold" style={{ color: '#071A2B' }}>
+              Service <span style={{ color: '#155EEF' }}>Advantages</span>
             </h2>
           </motion.div>
 
@@ -254,7 +307,7 @@ export default function ServicesPage() {
                 <div className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-6 mx-auto" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
                   <advantage.icon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
-                <h3 className="text-xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+                <h3 className="text-xl font-bold mb-4" style={{ color: '#071A2B' }}>
                   {advantage.title}
                 </h3>
                 <p className="text-gray-600">{advantage.description}</p>
@@ -265,7 +318,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -277,7 +330,7 @@ export default function ServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
           >
             Contact Travelaxis about our services
           </Link>

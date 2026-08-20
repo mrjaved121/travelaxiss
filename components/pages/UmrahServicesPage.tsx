@@ -171,25 +171,25 @@ export default function UmrahServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Umrah Services
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0F1B2D' }}>
-              Umrah Package From <span style={{ color: '#1D63E0' }}>Dubai</span>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#071A2B' }}>
+              Umrah Package From <span style={{ color: '#155EEF' }}>Dubai</span>
             </h1>
             <p className="text-lg text-gray-600 mb-6">
               Visa processing, bus or flight transport, hotel arrangements, and group travel
               coordination for Umrah pilgrims traveling from Dubai and across the UAE — organized
               end-to-end so you can focus on your journey.
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#1D63E0" }}>
+            <p className="text-sm text-gray-500 leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
           </motion.div>
@@ -200,8 +200,8 @@ export default function UmrahServicesPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96 flex items-center justify-center"
           >
-            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.12)' }} aria-hidden />
-            <div className="absolute bottom-0 right-6 w-24 h-24 rounded-full" style={{ backgroundColor: 'rgba(29,99,224,0.08)' }} aria-hidden />
+            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
+            <div className="absolute bottom-0 right-6 w-24 h-24 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.08)' }} aria-hidden />
             <img
               src="/images/ummarah-visa.webp"
               alt="Umrah visa from UAE: processing, flights, and hotel coordination for pilgrims"
@@ -214,7 +214,7 @@ export default function UmrahServicesPage() {
       </section>
 
       {/* What's included */}
-      <section className="py-20" style={{ backgroundColor: '#1D63E0' }}>
+      <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -245,7 +245,7 @@ export default function UmrahServicesPage() {
                   style={{ backgroundColor: '#FFFFFF' }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: '#1D63E0' }} />
+                  <item.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
                 </div>
                 <h3 className="text-lg font-bold mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
@@ -265,10 +265,10 @@ export default function UmrahServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Package Options
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
               Umrah Packages From Dubai
             </h2>
             <p className="text-lg text-gray-600">
@@ -285,22 +285,22 @@ export default function UmrahServicesPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className="rounded-2xl p-6 md:p-8 card-hover transition-all duration-200 hover:-translate-y-1"
-                style={{ backgroundColor: '#EEF4FF', border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: '#EAF1FF', border: "1px solid var(--card-line)" }}
               >
                 <p
                   className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-4"
-                  style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
+                  style={{ backgroundColor: '#155EEF', color: '#FFFFFF' }}
                 >
                   {pkg.duration}
                 </p>
-                <h3 className="text-lg font-bold mb-2" style={{ color: '#0F1B2D' }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: '#071A2B' }}>
                   {pkg.name}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed mb-4">{pkg.description}</p>
                 <ul className="space-y-2 mb-6">
                   {pkg.items.map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
-                      <span className="text-[#1D63E0] mt-0.5">👉</span>
+                      <span className="text-[#155EEF] mt-0.5">👉</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -308,7 +308,7 @@ export default function UmrahServicesPage() {
                 <Link
                   href="/contact"
                   className="block text-center px-6 py-3 rounded-2xl transition-all hover:opacity-90 font-semibold text-sm"
-                  style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
+                  style={{ backgroundColor: '#155EEF', color: '#FFFFFF' }}
                 >
                   Get a Custom Quote
                 </Link>
@@ -323,17 +323,17 @@ export default function UmrahServicesPage() {
       </section>
 
       {/* Travel options & pricing */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Travel Options
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
               Flight &amp; Bus Travel Pricing
             </h2>
             <p className="text-lg text-gray-600">
@@ -354,20 +354,20 @@ export default function UmrahServicesPage() {
               >
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"
-                  style={{ backgroundColor: '#EEF4FF' }}
+                  style={{ backgroundColor: '#EAF1FF' }}
                   aria-hidden
                 >
-                  <option.icon className="w-7 h-7" style={{ color: '#1D63E0' }} />
+                  <option.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
                 </div>
-                <h3 className="text-lg font-bold mb-2" style={{ color: '#0F1B2D' }}>
+                <h3 className="text-lg font-bold mb-2" style={{ color: '#071A2B' }}>
                   {option.title}
                 </h3>
                 {option.price ? (
-                  <p className="text-2xl font-bold mb-3" style={{ color: '#1D63E0' }}>
+                  <p className="text-2xl font-bold mb-3" style={{ color: '#155EEF' }}>
                     {option.price}
                   </p>
                 ) : (
-                  <p className="text-sm font-semibold mb-3" style={{ color: '#1D63E0' }}>
+                  <p className="text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
                     Contact us for current pricing
                   </p>
                 )}
@@ -391,7 +391,7 @@ export default function UmrahServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
               Why Book Your Umrah Journey With Us
             </h2>
           </motion.div>
@@ -407,12 +407,12 @@ export default function UmrahServicesPage() {
               >
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center mb-5 mx-auto"
-                  style={{ backgroundColor: '#EEF4FF' }}
+                  style={{ backgroundColor: '#EAF1FF' }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: '#1D63E0' }} />
+                  <item.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
                 </div>
-                <h3 className="text-lg font-bold mb-3" style={{ color: '#0F1B2D' }}>
+                <h3 className="text-lg font-bold mb-3" style={{ color: '#071A2B' }}>
                   {item.title}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{item.body}</p>
@@ -423,14 +423,14 @@ export default function UmrahServicesPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20" style={{ backgroundColor: '#EEF4FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#EAF1FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
               How Booking Your Umrah Package Works
             </h2>
           </motion.div>
@@ -445,12 +445,12 @@ export default function UmrahServicesPage() {
               >
                 <div
                   className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold"
-                  style={{ backgroundColor: '#1D63E0', color: '#FFFFFF' }}
+                  style={{ backgroundColor: '#155EEF', color: '#FFFFFF' }}
                 >
                   {index + 1}
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold mb-1" style={{ color: '#0F1B2D' }}>
+                  <h3 className="text-lg font-bold mb-1" style={{ color: '#071A2B' }}>
                     {s.step}
                   </h3>
                   <p className="text-gray-700">{s.text}</p>
@@ -469,20 +469,20 @@ export default function UmrahServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#0F1B2D' }}>
-              Frequently Asked <span style={{ color: '#1D63E0' }}>Questions</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#071A2B' }}>
+              Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: '#EEF4FF' }}>
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-gray-100" style={{ backgroundColor: '#EAF1FF' }}>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-gray-200">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: '#0F1B2D' }}
+                    style={{ color: '#071A2B' }}
                   >
                     <span className="flex items-start gap-2">
-                      <span className="text-[#1D63E0]">❓</span>
+                      <span className="text-[#155EEF]">❓</span>
                       {faq.q}
                     </span>
                   </AccordionTrigger>
@@ -497,7 +497,7 @@ export default function UmrahServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0F1B2D' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#071A2B' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -513,7 +513,7 @@ export default function UmrahServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#1D63E0]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
           >
             Book an Umrah Travel Consultation
             <ArrowRight className="w-5 h-5" aria-hidden />

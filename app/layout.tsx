@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Geist, Geist_Mono, Inter, Pacifico } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Manrope, Pacifico } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import MobileStickyCta from "@/components/MobileStickyCta";
 import SkipToContent from "@/components/SkipToContent";
 import {
   DEFAULT_DESCRIPTION,
@@ -22,6 +23,11 @@ const geistSans = Geist({
 });
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+});
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
   display: "swap",
 });
@@ -91,7 +97,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} ${inter.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} ${inter.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <SkipToContent />
@@ -100,12 +106,13 @@ export default function RootLayout({
         <main
           id="main-content"
           tabIndex={-1}
-          className="flex-1 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1D63E0]"
+          className="flex-1 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#155EEF]"
         >
           {children}
         </main>
         <Footer />
         <FloatingWhatsApp />
+        <MobileStickyCta />
         {GA_MEASUREMENT_ID && (
           <>
             <Script

@@ -8,9 +8,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer style={{ backgroundColor: "#0E2A57", color: "#FFFFFF" }}>
+    <footer className="pb-16 md:pb-0" style={{ backgroundColor: "#071A2B", color: "#FFFFFF" }}>
       {/* Newsletter band */}
-      <div style={{ backgroundColor: "#1D63E0" }}>
+      <div style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h2 className="text-xl font-bold text-white">Subscribe for the Latest Newsletter</h2>
@@ -27,12 +27,12 @@ export default function Footer() {
               type="email"
               required
               placeholder="Your Email Address"
-              className="flex-1 md:w-72 px-5 py-3 rounded-full text-[#0F1B2D] bg-white placeholder:text-gray-500 focus:outline-none"
+              className="flex-1 md:w-72 px-5 py-3 rounded-full text-[#071A2B] bg-white placeholder:text-gray-500 focus:outline-none"
             />
             <button
               type="submit"
               className="px-6 py-3 rounded-full font-semibold bg-white shrink-0"
-              style={{ color: "#1D63E0" }}
+              style={{ color: "#155EEF" }}
             >
               Subscribe
             </button>
@@ -63,33 +63,38 @@ export default function Footer() {
             </h2>
             <ul className="space-y-2 list-none p-0 m-0">
               <li>
+                <Link href="/destinations" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Destinations
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Visa Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/visa-finder" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Visa Finder
+                </Link>
+              </li>
+              <li>
+                <Link href="/success-stories" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Success Stories
+                </Link>
+              </li>
+              <li>
+                <Link href="/consultation" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  Book a Consultation
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="text-gray-400 hover:text-white transition-colors text-sm">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Services
-                </Link>
-              </li>
-              <li>
                 <Link href="/why-business" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Why Choose Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/dubai" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Areas We Serve
-                </Link>
-              </li>
-              <li>
-                <Link href="/emirates" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Emirates We Serve
-                </Link>
-              </li>
-              <li>
-                <Link href="/free-zones" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  UAE Free Zones
                 </Link>
               </li>
               <li>
@@ -99,7 +104,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/blog" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Blog
+                  Resources / Blog
                 </Link>
               </li>
               <li>

@@ -9,17 +9,17 @@ export default function Testimonials() {
   if (testimonials.length === 0) return null;
 
   return (
-    <section className="py-20" style={{ backgroundColor: "#EEF4FF" }}>
+    <section className="py-20" style={{ backgroundColor: "#EAF1FF" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#1D63E0" }}>
+          <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
             Client Feedback
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#0F1B2D" }}>
+          <h2 className="text-3xl md:text-4xl font-bold" style={{ color: "#071A2B" }}>
             What Clients Say
           </h2>
         </motion.div>
@@ -48,7 +48,7 @@ export default function Testimonials() {
               </div>
               <p className="text-gray-700 leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
               <div>
-                <p className="font-semibold" style={{ color: "#0F1B2D" }}>{testimonial.name}</p>
+                <p className="font-semibold" style={{ color: "#071A2B" }}>{testimonial.name}</p>
                 <p className="text-sm text-gray-500">{testimonial.context}</p>
               </div>
             </motion.div>
