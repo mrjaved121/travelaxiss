@@ -250,7 +250,7 @@ body {
 .footer-link {
   font-size: var(--fs-footer-link);
   font-weight: var(--fw-normal);
-  line-height: 1.5;
+  line-height: 1.65;
   color: var(--muted-foreground);
 }
 .footer-link:hover {

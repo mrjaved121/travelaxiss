@@ -56,11 +56,11 @@ export default function Header() {
               alt=""
               width={352}
               height={94}
-              className="h-10 w-auto"
+              className="h-11 w-auto"
             />
           </Link>
 
-          <nav className="hidden lg:flex items-center space-x-8" aria-label="Primary">
+          <nav className="hidden lg:flex items-center space-x-10" aria-label="Primary">
             {navLinks.map((link) => (
               <Link
                 key={link.path}

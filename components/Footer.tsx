@@ -8,14 +8,14 @@ export default function Footer() {
     <footer className="pb-16 md:pb-0 border-t" style={{ backgroundColor: "#FFFFFF", color: "#1D2939", borderColor: "#E4E7EC" }}>
       {/* Newsletter band */}
       <div style={{ backgroundColor: "#155EEF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-9 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="subsection-title text-white">Subscribe for the Latest Newsletter</h3>
-            <p className="text-white/90 text-sm mt-1">
+            <p className="text-white/90 text-sm mt-1.5">
               UAE business setup tips and visa updates, straight to your inbox.
             </p>
           </div>
-          <form className="w-full md:w-auto flex gap-2" aria-label="Newsletter signup">
+          <form className="w-full md:w-auto flex gap-2.5" aria-label="Newsletter signup">
             <label htmlFor="newsletter-email" className="sr-only">
               Your email address
             </label>
@@ -24,11 +24,11 @@ export default function Footer() {
               type="email"
               required
               placeholder="Your Email Address"
-              className="flex-1 md:w-72 px-5 py-3 rounded-full text-[#1D2939] bg-white placeholder:text-[#667085] focus:outline-none"
+              className="flex-1 md:w-72 h-12 px-5 rounded-full text-[0.9375rem] text-[#1D2939] bg-white placeholder:text-[#667085] focus:outline-none"
             />
             <button
               type="submit"
-              className="px-6 py-3 rounded-full font-semibold bg-white shrink-0"
+              className="h-12 px-7 rounded-full font-semibold text-[0.9375rem] bg-white shrink-0"
               style={{ color: "#155EEF" }}
             >
               Subscribe
