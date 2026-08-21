@@ -16,10 +16,9 @@ export default function Header() {
   const whatsappLink = `https://wa.me/${phoneNumber.replace(/\+/g, "")}`;
 
   const navLinks = [
-    { name: "Destinations", path: "/destinations" },
     { name: "Visa Services", path: "/services" },
+    { name: "Destinations", path: "/destinations" },
     { name: "Visa Finder", path: "/visa-finder" },
-    { name: "Success Stories", path: "/success-stories" },
     { name: "Resources", path: "/blog" },
     { name: "About", path: "/about" },
   ];
@@ -92,7 +91,7 @@ export default function Header() {
               className="btn flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
               style={{ color: "#FFFFFF" }}
             >
-              <span>Check Eligibility</span>
+              <span>Check Visa Requirements</span>
               <ArrowRight className="w-4 h-4" aria-hidden />
             </Link>
           </div>
@@ -158,7 +157,7 @@ export default function Header() {
                   className="btn mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
                   style={{ color: "#FFFFFF" }}
                 >
-                  <span>Check My Eligibility</span>
+                  <span>Check Visa Requirements</span>
                   <ArrowRight className="w-4 h-4" aria-hidden />
                 </Link>
               </li>
