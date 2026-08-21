@@ -293,7 +293,7 @@ export default function CanadaVisaFromPakistanPage() {
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
-                  <span className="text-lg text-[#667085]">{item}</span>
+                  <span className="text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>

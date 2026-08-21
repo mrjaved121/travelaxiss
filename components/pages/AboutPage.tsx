@@ -163,7 +163,7 @@ export default function AboutPage() {
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Talk to Travelaxis</h2>
-          <p className="text-white/90 text-lg mb-8">
+          <p className="lead mb-8" style={{ color: "rgba(255,255,255,0.9)" }}>
             Let us help you build your business, or plan your next move abroad, with professional
             guidance and support.
           </p>

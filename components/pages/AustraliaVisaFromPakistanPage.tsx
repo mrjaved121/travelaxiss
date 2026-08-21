@@ -76,7 +76,7 @@ export default function AustraliaVisaFromPakistanPage() {
             <h1 className="page-title mb-6">
               Australia Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
-            <p className="text-lg text-[#667085] mb-6 leading-relaxed">
+            <p className="lead mb-6 leading-relaxed">
               Whether you&apos;re visiting family, starting a course, or joining a partner in Australia, an application from Pakistan comes down to a complete, correctly prepared document set submitted through the Department of Home Affairs. We handle the paperwork for Visitor, Student, and Partner/Family visas.
             </p>
             <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
@@ -367,7 +367,7 @@ export default function AustraliaVisaFromPakistanPage() {
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Australia Visa Application</h2>
-          <p className="text-white/90 text-lg mb-4 max-w-2xl mx-auto">
+          <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
             Tell us your category — visit, study, or partner — and we&apos;ll map out exactly what you need.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">

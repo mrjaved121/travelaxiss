@@ -56,7 +56,7 @@ export default function WhyBusinessPage() {
               The Ultimate Business Destination for{" "}
               <span style={{ color: '#155EEF' }}>Success</span>
             </h1>
-            <p className="text-lg text-[#667085]">
+            <p className="lead">
               The business environment offers strong opportunities for growth, global
               connectivity, and operational efficiency.
             </p>
@@ -159,7 +159,7 @@ export default function WhyBusinessPage() {
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Journey</h2>
-          <p className="text-white/90 text-lg mb-8">
+          <p className="lead mb-8" style={{ color: "rgba(255,255,255,0.9)" }}>
             Let us help you establish your business in one of the world&apos;s most dynamic markets.
           </p>
           <Link

@@ -64,7 +64,7 @@ export default function ContactPage() {
             <h1 className="page-title mb-6">
               Connect <span style={{ color: '#155EEF' }}>With Us</span>
             </h1>
-            <p className="text-lg text-[#667085] mb-6">
+            <p className="lead mb-6">
               Reach out for professional guidance on business setup, compliance, and UAE
               visa-related documentation support.
             </p>
@@ -191,7 +191,7 @@ export default function ContactPage() {
                   href={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full flex items-center justify-center space-x-3 px-8 py-4 rounded-2xl transition-all hover:opacity-90 font-semibold text-lg"
+                  className="btn w-full flex items-center justify-center space-x-3 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
                   style={{ backgroundColor: '#25D366', color: '#FFFFFF' }}
                   aria-label="Start a WhatsApp chat with Travelaxis (opens in a new tab)"
                 >
@@ -315,7 +315,7 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-semibold text-lg transition-all hover:opacity-90"
+              className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
               style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
             >
               <Send className="w-5 h-5" aria-hidden />

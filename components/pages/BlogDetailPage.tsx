@@ -69,7 +69,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
         <div className="text-center max-w-md">
           <h1 className="page-title mb-4">Blog Not Found</h1>
           <p className="text-[#667085] mb-6">We could not find that article. It may have been moved or removed.</p>
-          <Link href="/blog" className="text-lg font-semibold" style={{ color: '#155EEF' }}>
+          <Link href="/blog" className="font-semibold" style={{ color: '#155EEF' }}>
             Return to the Travelaxis blog listing
           </Link>
         </div>

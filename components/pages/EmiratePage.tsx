@@ -144,7 +144,7 @@ export default function EmiratePage({ emirate }: { emirate: Emirate }) {
                   >
                     ✓
                   </span>
-                  <span className="text-[#667085] text-lg">{line}</span>
+                  <span className="text-[#667085]">{line}</span>
                 </li>
               ))}
             </ul>

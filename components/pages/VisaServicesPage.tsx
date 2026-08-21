@@ -79,7 +79,7 @@ export default function VisaServicesPage() {
             <h1 className="page-title mb-6">
               UAE Visa <span style={{ color: '#155EEF' }}>Documentation &amp; Consultancy</span>
             </h1>
-            <p className="text-lg text-[#667085] mb-6">
+            <p className="lead mb-6">
               End-to-end UAE visa documentation and consultancy support&mdash;from eligibility
               review and paperwork to application guidance, renewals, and cancellation
               assistance.
@@ -198,7 +198,7 @@ export default function VisaServicesPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <p className="text-lg text-white/90 mb-4">
+          <p className="lead mb-4" style={{ color: "rgba(255,255,255,0.9)" }}>
             Not sure which category fits? We&apos;ll review your situation, outline
             documentation requirements, realistic timelines, and next steps for official
             submission.

@@ -22,7 +22,7 @@ export default function FreeZonesHubPage() {
             <h1 className="page-title mb-6">
               Free Zone Company <span style={{ color: '#155EEF' }}>Formation</span>
             </h1>
-            <p className="text-lg text-[#667085]">
+            <p className="lead">
               Documentation support for company formation across the UAE&apos;s major free zones.
               We help you prepare and organize your application — licenses are issued directly by
               each free zone authority, not by us.

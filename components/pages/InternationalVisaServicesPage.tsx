@@ -165,7 +165,7 @@ export default function InternationalVisaServicesPage() {
             <h1 className="page-title mb-6">
               Visa Documentation <span style={{ color: '#155EEF' }}>Beyond the UAE</span>
             </h1>
-            <p className="text-lg text-[#667085] mb-6">
+            <p className="lead mb-6">
               Documentation and consultancy support for Saudi Arabia, Europe, the USA, Schengen,
               and other regional destinations—for UAE residents traveling, working, or relocating
               abroad.
@@ -331,7 +331,7 @@ export default function InternationalVisaServicesPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <p className="text-lg text-white/90 mb-4">
+          <p className="lead mb-4" style={{ color: "rgba(255,255,255,0.9)" }}>
             Not sure which destination or visa category fits your plans? We&apos;ll review your
             situation and outline the documentation you need.
           </p>
