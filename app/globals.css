@@ -49,7 +49,7 @@
      these — no page defines its own size. Fluid clamp() rules cover the
      mobile→desktop range from a single declaration each; fixed roles
      (H4, Body, Small, Eyebrow, Nav, Button) intentionally don't scale. */
-  --fs-hero: clamp(2.625rem, 2.05rem + 2.4vw, 3.75rem);   /* 42px -> 60px — homepage hero only */
+  --fs-hero: clamp(2.625rem, 1.95rem + 2.9vw, 4rem);      /* 42px -> 64px — homepage hero only */
   --fs-h1: clamp(2.5rem, 2.05rem + 1.9vw, 3.25rem);       /* 40px -> 52px — every other page title */
   --fs-h2: clamp(2rem, 1.7rem + 1.3vw, 2.5rem);           /* 32px -> 40px — section headings */
   --fs-h3: clamp(1.375rem, 1.25rem + 0.5vw, 1.5rem);      /* 22px -> 24px — card/subsection titles */
@@ -244,11 +244,13 @@ body {
 .footer-heading {
   font-size: var(--fs-footer-heading);
   font-weight: var(--fw-semibold);
+  line-height: 1.3;
   color: var(--foreground);
 }
 .footer-link {
   font-size: var(--fs-footer-link);
   font-weight: var(--fw-normal);
+  line-height: 1.5;
   color: var(--muted-foreground);
 }
 .footer-link:hover {
