@@ -160,7 +160,7 @@ export default function HomePage() {
             <h1 className="hero-title mb-6">
               UAE Visa Services, <span style={{ color: "#155EEF" }}>Made Simple.</span>
             </h1>
-            <p className="lead mb-8 max-w-xl">
+            <p className="lead mb-8 max-w-[540px]" style={{ color: "#1D2939" }}>
               From visit visas and multiple-entry visas to visa documentation and application
               support, Travelaxis helps you prepare the right documents and navigate the process
               with clarity.
@@ -223,16 +223,16 @@ export default function HomePage() {
       </section>
 
       {/* Trust strip */}
-      <section className="py-8" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-9" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-y sm:divide-y-0 md:divide-x" style={{ borderColor: "#E4E7EC" }}>
+          <div className="grid grid-cols-2 md:grid-cols-4 divide-y sm:divide-y-0 md:divide-x-2" style={{ borderColor: "#E4E7EC" }}>
             {trustStrip.map((item) => (
-              <div key={item.label} className="flex items-center justify-center gap-3 py-3 md:py-0">
+              <div key={item.label} className="flex items-center justify-center gap-3 py-3.5 md:py-0">
                 <div
-                  className="w-9 h-9 rounded-full flex items-center justify-center shrink-0"
+                  className="w-10 h-10 rounded-full flex items-center justify-center shrink-0"
                   style={{ backgroundColor: "#FFFFFF" }}
                 >
-                  <item.icon className="w-4 h-4" style={{ color: "#155EEF" }} aria-hidden />
+                  <item.icon className="w-[18px] h-[18px]" style={{ color: "#155EEF" }} aria-hidden />
                 </div>
                 <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>
                   {item.label}
@@ -282,7 +282,7 @@ export default function HomePage() {
                   <service.icon className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
                 </div>
                 <h3 className="subsection-title mb-2">{service.title}</h3>
-                <p className="text-[#667085] text-sm leading-relaxed mb-4">{service.description}</p>
+                <p className="text-[#667085] text-[0.9375rem] leading-relaxed mb-4">{service.description}</p>
                 <span className="inline-flex items-center gap-1 text-sm font-bold pt-3 border-t" style={{ color: "#155EEF", borderColor: "var(--card-line)" }}>
                   Explore
                   <ArrowUpRight className="w-3.5 h-3.5" aria-hidden />
@@ -360,10 +360,10 @@ export default function HomePage() {
                 <div key={item.title} className="flex items-start gap-3">
                   <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                   <div>
-                    <p className="font-semibold" style={{ color: "#1D2939" }}>
+                    <p className="text-base font-bold mb-0.5" style={{ color: "#1D2939" }}>
                       {item.title}
                     </p>
-                    <p className="text-sm text-[#667085] leading-relaxed">{item.description}</p>
+                    <p className="text-[0.9375rem] text-[#667085] leading-relaxed">{item.description}</p>
                   </div>
                 </div>
               ))}
@@ -386,8 +386,8 @@ export default function HomePage() {
 
           <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div
-              className="hidden lg:block absolute left-0 right-0 h-px"
-              style={{ top: "46px", backgroundColor: "#E4E7EC" }}
+              className="hidden lg:block absolute left-0 right-0"
+              style={{ top: "50px", height: "2px", backgroundColor: "#E4E7EC" }}
               aria-hidden
             />
             {howItWorks.map((step, index) => (
@@ -397,7 +397,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.08 }}
-                className="relative rounded-[24px] bg-white p-6 card-hover text-center"
+                className="relative rounded-[24px] bg-white p-7 card-hover text-center"
                 style={{ border: "1px solid var(--card-line)" }}
               >
                 <div
@@ -409,8 +409,8 @@ export default function HomePage() {
                 <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#155EEF" }}>
                   {step.number}
                 </p>
-                <h3 className="subsection-title mb-1.5">{step.title}</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">{step.description}</p>
+                <h3 className="subsection-title mb-2">{step.title}</h3>
+                <p className="text-[0.9375rem] text-[#667085] leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
           </div>
@@ -444,7 +444,7 @@ export default function HomePage() {
               >
                 <Link
                   href={destination.href}
-                  className="group relative flex flex-col justify-between h-full rounded-[24px] bg-white pl-6 pr-5 py-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
+                  className="group relative flex flex-col justify-between h-full rounded-[24px] bg-white px-6 py-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
                   style={{
                     borderTop: "3px solid #155EEF",
                     borderRight: "1px solid var(--card-line)",
@@ -453,9 +453,9 @@ export default function HomePage() {
                   }}
                 >
                   <div>
-                    <div className="flex items-center gap-3 mb-2.5">
+                    <div className="flex items-center gap-3 mb-3">
                       <span
-                        className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
+                        className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
                         style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
                         aria-hidden
                       >
@@ -465,7 +465,7 @@ export default function HomePage() {
                         {destination.name}
                       </h3>
                     </div>
-                    <p className="text-sm text-[#667085]">{destination.pathways.join(" · ")}</p>
+                    <p className="text-[0.9375rem] text-[#667085]">{destination.pathways.join(" · ")}</p>
                   </div>
                   <span
                     className="inline-flex items-center gap-1 text-sm font-bold mt-4 pt-3 border-t"
@@ -497,19 +497,27 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
             {pakistanDestinations.map((item) => (
               <Link
                 key={item.link}
                 href={item.link}
-                className="group flex items-center justify-between gap-3 rounded-2xl px-6 py-5 bg-white transition-all hover:-translate-y-0.5 hover:shadow-md"
+                className="group flex items-center justify-between gap-4 rounded-[24px] px-7 py-6 bg-white transition-all hover:-translate-y-1 hover:shadow-md card-hover"
                 style={{ border: "1px solid var(--card-line)" }}
               >
-                <span className="font-semibold" style={{ color: "#1D2939" }}>
-                  {item.title}
-                </span>
+                <div className="flex items-center gap-4 min-w-0">
+                  <div
+                    className="w-11 h-11 rounded-[10px] flex items-center justify-center shrink-0"
+                    style={{ backgroundColor: "#F5F8FF" }}
+                  >
+                    <FileCheck2 className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
+                  </div>
+                  <span className="font-bold text-[1.0625rem] leading-snug" style={{ color: "#1D2939" }}>
+                    {item.title}
+                  </span>
+                </div>
                 <ArrowUpRight
-                  className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                   style={{ color: "#155EEF" }}
                   aria-hidden
                 />
@@ -572,7 +580,7 @@ export default function HomePage() {
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
             Ready to Start Your Visa Application?
           </h2>
-          <p className="text-white/85 max-w-xl mx-auto mb-12">
+          <p className="text-white/85 text-[1.0625rem] max-w-xl mx-auto mb-12">
             Tell us your destination and visa type and we&apos;ll help you understand the
             documentation and next steps.
           </p>
