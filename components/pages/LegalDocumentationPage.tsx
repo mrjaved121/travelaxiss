@@ -221,7 +221,7 @@ export default function LegalDocumentationPage() {
               and consultancy support for agreements, corporate records, and
               certificates.
             </p>
-            <ul className="space-y-2 mb-6 text-lg text-[#1D2939]">
+            <ul className="space-y-2 mb-6 text-[#1D2939] font-semibold">
               {[
                 "Fast processing",
                 "Accurate documentation",
@@ -309,7 +309,7 @@ export default function LegalDocumentationPage() {
                       className="w-6 h-6 flex-shrink-0 mt-0.5"
                       style={{ color: "#155EEF" }}
                     />
-                    <span className="text-lg text-[#667085]">{item}</span>
+                    <span className="text-[#667085]">{item}</span>
                   </li>
                 )
               )}

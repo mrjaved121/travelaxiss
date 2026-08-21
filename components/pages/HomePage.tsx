@@ -296,7 +296,7 @@ export default function HomePage() {
             <h1 className="hero-title mb-6">
               Your <span style={{ color: "#155EEF" }}>UAE Visa</span>, Handled Start to Finish
             </h1>
-            <p className="text-lg mb-8 max-w-xl text-[#667085]">
+            <p className="lead mb-8 max-w-xl">
               Visit, employment, family, investor, and golden visa documentation, plus company
               formation and government approvals — handled by a team with 11+ years of
               experience in the UAE.

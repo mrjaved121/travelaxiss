@@ -322,7 +322,7 @@ export default function BusinessSupportPage() {
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
                     style={{ color: "#155EEF" }}
                   />
-                  <span className="text-lg text-[#667085]">{item}</span>
+                  <span className="text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>

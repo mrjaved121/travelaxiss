@@ -199,7 +199,7 @@ export default function GovernmentServicesPage() {
               services. We handle approvals, documentation, and regulatory
               processes so you can focus on growing your business.
             </p>
-            <ul className="space-y-2 mb-8 text-lg text-[#1D2939]">
+            <ul className="space-y-2 mb-8 text-[#1D2939] font-semibold">
               {[
                 "Fast processing",
                 "Expert liaison support",
@@ -293,7 +293,7 @@ export default function GovernmentServicesPage() {
                     className="w-6 h-6 flex-shrink-0 mt-0.5"
                     style={{ color: "#155EEF" }}
                   />
-                  <span className="text-lg text-[#667085]">{item}</span>
+                  <span className="text-[#667085]">{item}</span>
                 </li>
               ))}
             </ul>

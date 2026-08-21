@@ -83,7 +83,7 @@ export default function UaeVisaExtensionRenewalPage() {
             <h1 className="page-title mb-6">
               UAE Visa Extension &amp; <span style={{ color: "#155EEF" }}>Renewal</span>
             </h1>
-            <p className="text-lg text-[#667085] mb-6 leading-relaxed">
+            <p className="lead mb-6 leading-relaxed">
               &quot;Extension,&quot; &quot;renewal,&quot; and &quot;status change&quot; get used interchangeably, but they&apos;re three different processes with different documents and different rules. Getting the wrong one confused with the right one is one of the most common reasons UAE visa deadlines get missed. This guide separates all three clearly, plus how to check your current status before you assume you know what it says.
             </p>
             <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
@@ -384,7 +384,7 @@ export default function UaeVisaExtensionRenewalPage() {
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Don&apos;t Let a Deadline Catch You Off Guard</h2>
-          <p className="text-white/90 text-lg mb-4 max-w-2xl mx-auto">
+          <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
             Tell us your current visa type and expiry date, and we&apos;ll confirm exactly what applies to your case.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">

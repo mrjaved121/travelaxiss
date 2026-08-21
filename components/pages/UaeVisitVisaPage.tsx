@@ -192,7 +192,7 @@ export default function UaeVisitVisaPage() {
             <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
               Who Can Sponsor Your Visit Visa
             </h2>
-            <p className="text-lg text-white/75">
+            <p className="lead" style={{ color: "rgba(255,255,255,0.75)" }}>
               Your sponsor route determines which documents you need and often how quickly your application moves.
             </p>
           </motion.div>

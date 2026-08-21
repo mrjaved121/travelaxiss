@@ -26,7 +26,7 @@ export default function NotFound() {
         <h1 className="page-title mb-4">
           We Couldn&apos;t Find That Page
         </h1>
-        <p className="text-lg text-[#667085] mb-10 max-w-xl mx-auto">
+        <p className="lead mb-10 max-w-xl mx-auto">
           The page you're looking for may have moved or no longer exists. Here's where most visitors were headed:
         </p>
 

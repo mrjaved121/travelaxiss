@@ -118,7 +118,7 @@ export default function AttestationPage() {
             <h1 className="page-title mb-6">
               UAE Document Attestation <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
-            <p className="text-lg text-[#667085] mb-6 leading-relaxed">
+            <p className="lead mb-6 leading-relaxed">
               UAE degree attestation, marriage certificate attestation, and experience letter attestation for Pakistani nationals all follow the same four-stage chain — HEC or IBCC, then MOFA Islamabad, then the UAE Embassy, then MOFAIC once your document reaches Dubai. We manage the process end to end and keep you updated at every stage.
             </p>
             <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
@@ -464,7 +464,7 @@ export default function AttestationPage() {
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
             Start Your Attestation Today
           </h2>
-          <p className="text-white/90 text-lg mb-4 max-w-2xl mx-auto">
+          <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
             Send us your document details and we&apos;ll map out the exact chain, timeline, and charges for your case.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">

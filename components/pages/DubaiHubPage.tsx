@@ -23,7 +23,7 @@ export default function DubaiHubPage() {
             <h1 className="page-title mb-6">
               Travelaxis <span style={{ color: '#155EEF' }}>Across Dubai</span>
             </h1>
-            <p className="text-lg text-[#667085]">
+            <p className="lead">
               Our office is based in Al Qusais, Dubai — we support company formation, government
               services, legal documentation, and visa documentation for clients across Dubai,
               remotely or by appointment. Looking for another emirate? See our{" "}
