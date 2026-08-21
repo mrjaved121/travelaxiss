@@ -132,13 +132,37 @@ const destinationCodes: Record<string, string> = {
   germany: "DE",
 };
 
-const pakistanDestinations: { title: string; link: string }[] = [
-  { title: "UAE Document Attestation", link: "/services/attestation" },
-  { title: "UK Visa from Pakistan", link: "/services/uk-visa-from-pakistan" },
-  { title: "USA Visa from Pakistan", link: "/services/usa-visa-from-pakistan" },
-  { title: "Canada Visa from Pakistan", link: "/services/canada-visa-from-pakistan" },
-  { title: "Australia Visa from Pakistan", link: "/services/australia-visa-from-pakistan" },
-  { title: "Germany Visa from Pakistan", link: "/services/germany-visa-from-pakistan" },
+const pakistanDestinations: { title: string; description: string; link: string }[] = [
+  {
+    title: "UAE Document Attestation",
+    description: "HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain for degree, marriage, and experience certificates.",
+    link: "/services/attestation",
+  },
+  {
+    title: "UK Visa from Pakistan",
+    description: "Skilled Worker, Student, Visit, and Family/Spouse visa documentation.",
+    link: "/services/uk-visa-from-pakistan",
+  },
+  {
+    title: "USA Visa from Pakistan",
+    description: "B1/B2 visitor and F1 student visa documentation, DS-160 review, and interview prep.",
+    link: "/services/usa-visa-from-pakistan",
+  },
+  {
+    title: "Canada Visa from Pakistan",
+    description: "Study permit, work permit, visit visa, and spouse open work permit documentation.",
+    link: "/services/canada-visa-from-pakistan",
+  },
+  {
+    title: "Australia Visa from Pakistan",
+    description: "Visitor, Student, and Partner/Family visa documentation.",
+    link: "/services/australia-visa-from-pakistan",
+  },
+  {
+    title: "Germany Visa from Pakistan",
+    description: "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification documentation.",
+    link: "/services/germany-visa-from-pakistan",
+  },
 ];
 
 export default function HomePage() {
@@ -244,7 +268,7 @@ export default function HomePage() {
       </section>
 
       {/* Popular Visa Services */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="pt-20 md:pt-28 pb-[72px] md:pb-[104px] bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -267,8 +291,8 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="relative group rounded-[24px] bg-white p-6 transition-all duration-200 hover:-translate-y-1 card-hover"
-                style={{ border: "1px solid var(--card-line)" }}
+                className="relative group rounded-[24px] bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 card-hover"
+                style={{ border: "1.5px solid var(--card-line)" }}
               >
                 <Link
                   href={service.link}
@@ -281,11 +305,11 @@ export default function HomePage() {
                 >
                   <service.icon className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
                 </div>
-                <h3 className="subsection-title mb-2">{service.title}</h3>
+                <h3 className="subsection-title mb-2" style={{ fontWeight: 700 }}>{service.title}</h3>
                 <p className="text-[#667085] text-[0.9375rem] leading-relaxed mb-4">{service.description}</p>
-                <span className="inline-flex items-center gap-1 text-sm font-bold pt-3 border-t" style={{ color: "#155EEF", borderColor: "var(--card-line)" }}>
+                <span className="inline-flex items-center gap-1.5 text-sm font-bold pt-3 border-t group-hover:underline" style={{ color: "#155EEF", borderColor: "var(--card-line)" }}>
                   Explore
-                  <ArrowUpRight className="w-3.5 h-3.5" aria-hidden />
+                  <ArrowUpRight className="w-4 h-4" aria-hidden />
                 </span>
               </motion.div>
             ))}
@@ -302,7 +326,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Travelaxis */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="pt-[72px] md:pt-[104px] pb-20 md:pb-28" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -373,7 +397,7 @@ export default function HomePage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="pt-20 md:pt-28 pb-[72px] md:pb-[104px] bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -387,7 +411,7 @@ export default function HomePage() {
           <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div
               className="hidden lg:block absolute left-0 right-0"
-              style={{ top: "50px", height: "2px", backgroundColor: "#E4E7EC" }}
+              style={{ top: "108px", height: "2px", backgroundColor: "rgba(21,94,239,0.25)" }}
               aria-hidden
             />
             {howItWorks.map((step, index) => (
@@ -418,7 +442,7 @@ export default function HomePage() {
       </section>
 
       {/* Popular Destinations */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="pt-[72px] md:pt-[104px] pb-20 md:pb-28" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -453,19 +477,22 @@ export default function HomePage() {
                   }}
                 >
                   <div>
-                    <div className="flex items-center gap-3 mb-3">
-                      <span
-                        className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
-                        style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
-                        aria-hidden
-                      >
-                        {destinationCodes[destination.slug]}
-                      </span>
-                      <h3 className="font-bold text-lg" style={{ color: "#1D2939" }}>
-                        {destination.name}
-                      </h3>
-                    </div>
-                    <p className="text-[0.9375rem] text-[#667085]">{destination.pathways.join(" · ")}</p>
+                    <span
+                      className="w-11 h-11 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mb-3"
+                      style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
+                      aria-hidden
+                    >
+                      {destinationCodes[destination.slug]}
+                    </span>
+                    <h3 className="font-bold text-xl mb-2" style={{ color: "#1D2939" }}>
+                      {destination.name}
+                    </h3>
+                    <p
+                      className="text-xs font-semibold uppercase tracking-wide"
+                      style={{ color: "#667085" }}
+                    >
+                      {destination.pathways.join(" / ")}
+                    </p>
                   </div>
                   <span
                     className="inline-flex items-center gap-1 text-sm font-bold mt-4 pt-3 border-t"
@@ -502,20 +529,19 @@ export default function HomePage() {
               <Link
                 key={item.link}
                 href={item.link}
-                className="group flex items-center justify-between gap-4 rounded-[24px] px-7 py-6 bg-white transition-all hover:-translate-y-1 hover:shadow-md card-hover"
+                className="group relative flex flex-col rounded-[24px] px-6 py-7 bg-white transition-all hover:-translate-y-1 hover:shadow-md card-hover"
                 style={{ border: "1px solid var(--card-line)" }}
               >
-                <div className="flex items-center gap-4 min-w-0">
-                  <div
-                    className="w-11 h-11 rounded-[10px] flex items-center justify-center shrink-0"
-                    style={{ backgroundColor: "#F5F8FF" }}
-                  >
-                    <FileCheck2 className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
-                  </div>
-                  <span className="font-bold text-[1.0625rem] leading-snug" style={{ color: "#1D2939" }}>
-                    {item.title}
-                  </span>
+                <div
+                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#F5F8FF" }}
+                >
+                  <FileCheck2 className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
                 </div>
+                <span className="font-bold text-[1.0625rem] leading-snug mb-1.5" style={{ color: "#1D2939" }}>
+                  {item.title}
+                </span>
+                <p className="text-sm text-[#667085] leading-relaxed mb-4 flex-1">{item.description}</p>
                 <ArrowUpRight
                   className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                   style={{ color: "#155EEF" }}

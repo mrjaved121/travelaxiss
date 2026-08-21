@@ -37,28 +37,28 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <p className="text-2xl font-bold mb-4">
               <span style={{ color: "#1D2939" }}>Travel</span>
               <span style={{ color: "#155EEF" }}>axis</span>
             </p>
-            <p className="text-[#667085] text-sm">
-              Premium UAE consultancy: company formation, government coordination, legal documentation, and UAE visa documentation and application support.
+            <p className="text-[#667085] text-sm leading-relaxed">
+              Visa documentation and business setup support in the UAE, from our Dubai and Lahore offices.
             </p>
-            <p className="text-[#667085] text-xs mt-3 leading-relaxed">
+            <p className="text-[#667085] text-xs mt-4 leading-relaxed">
               We provide documentation preparation and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not guarantee visa approval or employment outcomes. Applications are submitted through official government channels or by the applicant/employer.
             </p>
           </div>
 
           {/* Quick Links */}
           <nav aria-label="Quick links">
-            <h3 className="footer-heading mb-4">
+            <h3 className="footer-heading mb-5">
               Quick Links
             </h3>
-            <ul className="space-y-2.5 list-none p-0 m-0">
+            <ul className="space-y-3 list-none p-0 m-0">
               <li>
                 <Link href="/destinations" className="footer-link transition-colors">
                   Destinations
@@ -119,10 +119,10 @@ export default function Footer() {
 
           {/* Services */}
           <nav aria-label="Services">
-            <h3 className="footer-heading mb-4">
+            <h3 className="footer-heading mb-5">
               Services
             </h3>
-            <ul className="space-y-2.5 list-none p-0 m-0">
+            <ul className="space-y-3 list-none p-0 m-0">
               <li>
                 <Link href="/services/company-formation" className="footer-link transition-colors">
                   Company Formation
@@ -193,10 +193,10 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="footer-heading mb-4">
+            <h3 className="footer-heading mb-5">
               Contact
             </h3>
-            <ul className="space-y-3 list-none p-0 m-0">
+            <ul className="space-y-3.5 list-none p-0 m-0">
               <li className="flex items-start space-x-2">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
                 <a href="tel:+971589867555" className="footer-link transition-colors">
