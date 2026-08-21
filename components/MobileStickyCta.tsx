@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 const HIDDEN_ON = ["/visa-finder", "/consultation"];
 
-/** Sticky bottom "Check Eligibility" bar shown only on mobile, above the site's fixed WhatsApp button. */
+/** Sticky bottom "Check Visa Requirements" bar shown only on mobile, above the site's fixed WhatsApp button. */
 export default function MobileStickyCta() {
   const pathname = usePathname();
   if (HIDDEN_ON.some((path) => pathname === path || pathname.startsWith(`${path}/`))) {
@@ -28,7 +28,7 @@ export default function MobileStickyCta() {
           className="btn w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-full transition-all hover:opacity-90"
           style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
         >
-          <span>Check Eligibility</span>
+          <span>Check Visa Requirements</span>
           <ArrowRight className="w-4 h-4" aria-hidden />
         </Link>
       </div>

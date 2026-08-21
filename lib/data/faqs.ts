@@ -131,15 +131,51 @@ export const faqItems: FaqItem[] = [
       "Yes, ongoing support services include documentation, renewals, and business assistance.",
     category: "Why Choose Us",
   },
+  {
+    question: "What documents are required for a UAE visit visa?",
+    answer:
+      "Typically a passport valid for 6+ months, a passport-style photo, proof of funds, and a confirmed return ticket. The exact list depends on your sponsor route (airline, hotel, tour operator, or a UAE resident/citizen) — we confirm the precise checklist for your situation before you apply.",
+    category: "UAE Visa Documentation",
+  },
+  {
+    question: "Do you provide multiple-entry visa assistance?",
+    answer:
+      "Yes. UAE visit visas can be issued as single or multiple entry depending on the duration and route. We help you choose the right entry type for your travel pattern and prepare the documentation accordingly.",
+    category: "UAE Visa Documentation",
+  },
+  {
+    question: "How does Travelaxis visa documentation work?",
+    answer:
+      "We review your requirements, confirm the current document checklist for your visa category, help you prepare and organize everything accurately, and submit through the correct official channel — with updates at each stage.",
+    category: "UAE Visa Documentation",
+  },
+  {
+    question: "Can you help with international visa documentation?",
+    answer:
+      "Yes. Beyond the UAE, we support documentation for the UK, USA, Canada, Australia, Schengen Europe, and other regional destinations, primarily for UAE residents traveling, working, or relocating abroad.",
+    category: "UAE Visa Documentation",
+  },
+  {
+    question: "How long does visa processing take?",
+    answer:
+      "Timelines vary by visa category and the issuing authority's current workload — many applications fall in a range of several business days to a few weeks. These figures are indicative only; we confirm a realistic timeline once we review your specific case.",
+    category: "UAE Visa Documentation",
+  },
+  {
+    question: "Does Travelaxis guarantee visa approval?",
+    answer:
+      "No. We provide documentation preparation and consultancy support only — we are not a government authority and do not issue visas. Final approval decisions are made solely by the relevant government authority.",
+    category: "UAE Visa Documentation",
+  },
 ];
 
 const homepageFaqQuestions = [
-  "What is the cost of company formation in UAE?",
-  "Can a foreigner start a business in UAE?",
-  "Which is better: mainland or freezone company in UAE?",
-  "Can I start a business in UAE remotely?",
-  "What services does a UAE visa consultancy provide?",
-  "How long does it take to start a business in Dubai?",
+  "What documents are required for a UAE visit visa?",
+  "Do you provide multiple-entry visa assistance?",
+  "How does Travelaxis visa documentation work?",
+  "Can you help with international visa documentation?",
+  "How long does visa processing take?",
+  "Does Travelaxis guarantee visa approval?",
 ];
 
 /** Curated subset of faqItems shown on the homepage; keep in sync with the FAQPage JSON-LD in app/page.tsx. */
