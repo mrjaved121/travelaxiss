@@ -58,7 +58,7 @@ export default function Footer() {
             <h3 className="footer-heading mb-4">
               Quick Links
             </h3>
-            <ul className="space-y-2 list-none p-0 m-0">
+            <ul className="space-y-2.5 list-none p-0 m-0">
               <li>
                 <Link href="/destinations" className="footer-link transition-colors">
                   Destinations
@@ -122,7 +122,7 @@ export default function Footer() {
             <h3 className="footer-heading mb-4">
               Services
             </h3>
-            <ul className="space-y-2 list-none p-0 m-0">
+            <ul className="space-y-2.5 list-none p-0 m-0">
               <li>
                 <Link href="/services/company-formation" className="footer-link transition-colors">
                   Company Formation

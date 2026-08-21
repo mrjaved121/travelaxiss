@@ -16,7 +16,6 @@ import {
   Search,
   Send,
   ShieldCheck,
-  MapPin,
   MessageCircle,
   Check,
 } from "lucide-react";
@@ -124,6 +123,15 @@ const howItWorks: { number: string; title: string; description: string; icon: Lu
   },
 ];
 
+const destinationCodes: Record<string, string> = {
+  uae: "AE",
+  usa: "US",
+  canada: "CA",
+  uk: "UK",
+  australia: "AU",
+  germany: "DE",
+};
+
 const pakistanDestinations: { title: string; link: string }[] = [
   { title: "UAE Document Attestation", link: "/services/attestation" },
   { title: "UK Visa from Pakistan", link: "/services/uk-visa-from-pakistan" },
@@ -137,7 +145,10 @@ export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
       {/* Hero */}
-      <section className="relative overflow-hidden py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
+      <section
+        className="relative overflow-hidden py-16 md:py-24"
+        style={{ background: "linear-gradient(180deg, #FFFFFF 0%, #F5F8FF 100%)" }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -157,8 +168,8 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/visa-finder"
-                className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
-                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
+                style={{ color: "#FFFFFF" }}
               >
                 Check Visa Requirements
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -188,10 +199,15 @@ export default function HomePage() {
           {/* Not a motion.div: this holds the LCP image, and an initial-opacity-0
               mount animation delays when Chrome counts it as painted until Motion
               hydrates and runs the transition. */}
-          <div className="relative h-80 md:h-[34rem]">
+          <div className="relative h-80 md:h-[36rem]">
             <div
               className="absolute -top-8 -right-8 w-56 h-56 rounded-full"
               style={{ backgroundColor: "rgba(21, 94, 239,0.12)" }}
+              aria-hidden
+            />
+            <div
+              className="absolute inset-x-4 bottom-6 top-16 md:top-20 rounded-[2.5rem]"
+              style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
               aria-hidden
             />
             <img
@@ -200,7 +216,7 @@ export default function HomePage() {
               width={640}
               height={427}
               fetchPriority="high"
-              className="absolute inset-0 w-full h-full object-contain"
+              className="absolute inset-0 w-full h-full object-contain scale-110"
             />
           </div>
         </div>
@@ -251,7 +267,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="relative group rounded-[24px] bg-white p-7 transition-all duration-200 hover:-translate-y-1 card-hover"
+                className="relative group rounded-[24px] bg-white p-6 transition-all duration-200 hover:-translate-y-1 card-hover"
                 style={{ border: "1px solid var(--card-line)" }}
               >
                 <Link
@@ -260,14 +276,14 @@ export default function HomePage() {
                   aria-label={`Explore ${service.title}`}
                 />
                 <div
-                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "var(--card-icon-bg)" }}
+                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mb-3.5"
+                  style={{ backgroundColor: "#F5F8FF" }}
                 >
-                  <service.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
+                  <service.icon className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
                 </div>
                 <h3 className="subsection-title mb-2">{service.title}</h3>
                 <p className="text-[#667085] text-sm leading-relaxed mb-4">{service.description}</p>
-                <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: "#155EEF" }}>
+                <span className="inline-flex items-center gap-1 text-sm font-bold pt-3 border-t" style={{ color: "#155EEF", borderColor: "var(--card-line)" }}>
                   Explore
                   <ArrowUpRight className="w-3.5 h-3.5" aria-hidden />
                 </span>
@@ -294,11 +310,16 @@ export default function HomePage() {
             className="relative h-72 md:h-96 order-2 lg:order-1"
           >
             <div
-              className="absolute inset-0 rounded-[3rem] flex items-center justify-center"
-              style={{ backgroundColor: "#FFFFFF" }}
+              className="absolute inset-0 rounded-[3rem] flex items-center justify-center overflow-hidden"
+              style={{
+                backgroundColor: "#FFFFFF",
+                border: "1px solid var(--card-line)",
+                backgroundImage: "radial-gradient(rgba(21,94,239,0.14) 1.5px, transparent 1.5px)",
+                backgroundSize: "22px 22px",
+              }}
               aria-hidden
             >
-              <div className="relative w-40 h-40 md:w-48 md:h-48">
+              <div className="relative w-44 h-44 md:w-52 md:h-52">
                 <div
                   className="absolute top-0 left-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl flex items-center justify-center shadow-sm"
                   style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
@@ -310,6 +331,12 @@ export default function HomePage() {
                   style={{ backgroundColor: "#155EEF" }}
                 >
                   <ShieldCheck className="w-10 h-10 md:w-12 md:h-12 text-white" />
+                </div>
+                <div
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full flex items-center justify-center shadow-md"
+                  style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
+                >
+                  <Stamp className="w-7 h-7" style={{ color: "#155EEF" }} />
                 </div>
               </div>
             </div>
@@ -379,11 +406,11 @@ export default function HomePage() {
                 >
                   <step.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <p className="text-3xl font-bold mb-2" style={{ color: "#155EEF" }}>
+                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#155EEF" }}>
                   {step.number}
                 </p>
-                <h3 className="subsection-title mb-1">{step.title}</h3>
-                <p className="text-sm text-[#667085]">{step.description}</p>
+                <h3 className="subsection-title mb-1.5">{step.title}</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
           </div>
@@ -417,7 +444,7 @@ export default function HomePage() {
               >
                 <Link
                   href={destination.href}
-                  className="group relative flex flex-col justify-between h-full rounded-xl bg-white pl-6 pr-5 py-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
+                  className="group relative flex flex-col justify-between h-full rounded-[24px] bg-white pl-6 pr-5 py-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
                   style={{
                     borderTop: "3px solid #155EEF",
                     borderRight: "1px solid var(--card-line)",
@@ -426,17 +453,23 @@ export default function HomePage() {
                   }}
                 >
                   <div>
-                    <h3 className="font-bold text-lg mb-1.5" style={{ color: "#1D2939" }}>
-                      {destination.name}
-                    </h3>
-                    <p className="text-sm text-[#667085] flex items-center gap-1.5">
-                      <MapPin className="w-3.5 h-3.5 shrink-0" style={{ color: "#155EEF" }} aria-hidden />
-                      {destination.pathways.join(" · ")}
-                    </p>
+                    <div className="flex items-center gap-3 mb-2.5">
+                      <span
+                        className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold shrink-0"
+                        style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
+                        aria-hidden
+                      >
+                        {destinationCodes[destination.slug]}
+                      </span>
+                      <h3 className="font-bold text-lg" style={{ color: "#1D2939" }}>
+                        {destination.name}
+                      </h3>
+                    </div>
+                    <p className="text-sm text-[#667085]">{destination.pathways.join(" · ")}</p>
                   </div>
                   <span
-                    className="inline-flex items-center gap-1 text-sm font-semibold mt-4"
-                    style={{ color: "#155EEF" }}
+                    className="inline-flex items-center gap-1 text-sm font-bold mt-4 pt-3 border-t"
+                    style={{ color: "#155EEF", borderColor: "var(--card-line)" }}
                   >
                     Explore
                     <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -464,16 +497,13 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 gap-3 mb-10 rounded-2xl overflow-hidden" style={{ border: "1px solid var(--card-line)" }}>
-            {pakistanDestinations.map((item, index) => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+            {pakistanDestinations.map((item) => (
               <Link
                 key={item.link}
                 href={item.link}
-                className="group flex items-center justify-between gap-3 px-6 py-5 bg-white transition-colors hover:bg-[#F5F8FF]"
-                style={{
-                  borderBottom: index < pakistanDestinations.length - 2 ? "1px solid var(--card-line)" : undefined,
-                  borderRight: index % 2 === 0 ? "1px solid var(--card-line)" : undefined,
-                }}
+                className="group flex items-center justify-between gap-3 rounded-2xl px-6 py-5 bg-white transition-all hover:-translate-y-0.5 hover:shadow-md"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <span className="font-semibold" style={{ color: "#1D2939" }}>
                   {item.title}
