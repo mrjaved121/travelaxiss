@@ -18,6 +18,7 @@ import {
   ShieldCheck,
   MapPin,
   MessageCircle,
+  Check,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -33,10 +34,10 @@ import { destinations } from "@/components/data/destinations";
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const trustStrip: { label: string; icon: LucideIcon }[] = [
-  { label: "11+ Years Experience", icon: Award },
-  { label: "Visa Documentation", icon: FileText },
-  { label: "Application Support", icon: Headset },
-  { label: "Dubai & Pakistan", icon: MapPin },
+  { label: "Expert Guidance", icon: Award },
+  { label: "Transparent Process", icon: ShieldCheck },
+  { label: "Document Support", icon: FileText },
+  { label: "Fast Response", icon: Headset },
 ];
 
 const popularVisaServices: {
@@ -77,26 +78,22 @@ const popularVisaServices: {
   },
 ];
 
-const whyBenefits: { title: string; description: string; icon: LucideIcon }[] = [
+const whyBenefits: { title: string; description: string }[] = [
   {
     title: "Clear Documentation",
     description: "Every document checklist confirmed against your specific case, not a generic template.",
-    icon: FileCheck2,
   },
   {
     title: "Transparent Process",
     description: "You know what's needed, what it costs, and what happens next at every stage.",
-    icon: ShieldCheck,
   },
   {
     title: "Dedicated Assistance",
     description: "One point of contact from your first message through to submission.",
-    icon: Headset,
   },
   {
     title: "Practical Application Support",
     description: "Hands-on help preparing and organizing your application, not just advice.",
-    icon: ClipboardList,
   },
 ];
 
@@ -178,12 +175,20 @@ export default function HomePage() {
                 WhatsApp Us
               </a>
             </div>
+            <div className="flex flex-wrap gap-x-6 gap-y-2 mt-8">
+              {["Clear requirements", "Transparent process", "Application support"].map((item) => (
+                <span key={item} className="inline-flex items-center gap-1.5 text-sm font-medium" style={{ color: "#1D2939" }}>
+                  <Check className="w-4 h-4 shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                  {item}
+                </span>
+              ))}
+            </div>
           </motion.div>
 
           {/* Not a motion.div: this holds the LCP image, and an initial-opacity-0
               mount animation delays when Chrome counts it as painted until Motion
               hydrates and runs the transition. */}
-          <div className="relative h-80 md:h-[26rem]">
+          <div className="relative h-80 md:h-[34rem]">
             <div
               className="absolute -top-8 -right-8 w-56 h-56 rounded-full"
               style={{ backgroundColor: "rgba(21, 94, 239,0.12)" }}
@@ -202,12 +207,17 @@ export default function HomePage() {
       </section>
 
       {/* Trust strip */}
-      <section className="py-10 bg-white border-b" style={{ borderColor: "#E4E7EC" }}>
+      <section className="py-8" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 divide-y sm:divide-y-0 md:divide-x" style={{ borderColor: "#E4E7EC" }}>
             {trustStrip.map((item) => (
-              <div key={item.label} className="flex items-center justify-center gap-2.5 text-center md:text-left">
-                <item.icon className="w-5 h-5 shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+              <div key={item.label} className="flex items-center justify-center gap-3 py-3 md:py-0">
+                <div
+                  className="w-9 h-9 rounded-full flex items-center justify-center shrink-0"
+                  style={{ backgroundColor: "#FFFFFF" }}
+                >
+                  <item.icon className="w-4 h-4" style={{ color: "#155EEF" }} aria-hidden />
+                </div>
                 <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>
                   {item.label}
                 </p>
@@ -241,12 +251,12 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="relative group rounded-2xl bg-white p-7 transition-all duration-200 hover:-translate-y-1 card-hover"
+                className="relative group rounded-[24px] bg-white p-7 transition-all duration-200 hover:-translate-y-1 card-hover"
                 style={{ border: "1px solid var(--card-line)" }}
               >
                 <Link
                   href={service.link}
-                  className="absolute inset-0 z-10 rounded-2xl"
+                  className="absolute inset-0 z-10 rounded-[24px]"
                   aria-label={`Explore ${service.title}`}
                 />
                 <div
@@ -288,7 +298,20 @@ export default function HomePage() {
               style={{ backgroundColor: "#FFFFFF" }}
               aria-hidden
             >
-              <ShieldCheck className="w-28 h-28 md:w-36 md:h-36" style={{ color: "#155EEF" }} />
+              <div className="relative w-40 h-40 md:w-48 md:h-48">
+                <div
+                  className="absolute top-0 left-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl flex items-center justify-center shadow-sm"
+                  style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+                >
+                  <FileCheck2 className="w-10 h-10 md:w-12 md:h-12" style={{ color: "#155EEF" }} />
+                </div>
+                <div
+                  className="absolute bottom-0 right-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl flex items-center justify-center shadow-md"
+                  style={{ backgroundColor: "#155EEF" }}
+                >
+                  <ShieldCheck className="w-10 h-10 md:w-12 md:h-12 text-white" />
+                </div>
+              </div>
             </div>
           </motion.div>
 
@@ -302,16 +325,15 @@ export default function HomePage() {
               Clear Guidance. Complete Documentation. Less Confusion.
             </h2>
             <p className="text-[#667085] mb-8">
-              We prepare accurate documentation, explain your options in plain language, and
-              support you through submission — so you always know what&apos;s happening and what
-              comes next.
+              Avoid mistakes and delays with professional guidance at every stage of your visa
+              application.
             </p>
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="space-y-4">
               {whyBenefits.map((item) => (
                 <div key={item.title} className="flex items-start gap-3">
-                  <item.icon className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                  <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
                   <div>
-                    <p className="font-semibold mb-1" style={{ color: "#1D2939" }}>
+                    <p className="font-semibold" style={{ color: "#1D2939" }}>
                       {item.title}
                     </p>
                     <p className="text-sm text-[#667085] leading-relaxed">{item.description}</p>
@@ -335,7 +357,12 @@ export default function HomePage() {
             <h2 className="section-title">A Simple Visa Process</h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div
+              className="hidden lg:block absolute left-0 right-0 h-px"
+              style={{ top: "46px", backgroundColor: "#E4E7EC" }}
+              aria-hidden
+            />
             {howItWorks.map((step, index) => (
               <motion.div
                 key={step.number}
@@ -343,7 +370,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.08 }}
-                className="rounded-2xl bg-white p-6 card-hover text-center"
+                className="relative rounded-[24px] bg-white p-6 card-hover text-center"
                 style={{ border: "1px solid var(--card-line)" }}
               >
                 <div
@@ -352,7 +379,7 @@ export default function HomePage() {
                 >
                   <step.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <p className="text-xs font-semibold mb-1" style={{ color: "#155EEF" }}>
+                <p className="text-3xl font-bold mb-2" style={{ color: "#155EEF" }}>
                   {step.number}
                 </p>
                 <h3 className="subsection-title mb-1">{step.title}</h3>
@@ -390,12 +417,22 @@ export default function HomePage() {
               >
                 <Link
                   href={destination.href}
-                  className="group relative flex flex-col justify-between h-full rounded-2xl bg-white p-6 card-hover transition-all duration-200 hover:-translate-y-1"
-                  style={{ border: "1px solid var(--card-line)" }}
+                  className="group relative flex flex-col justify-between h-full rounded-xl bg-white pl-6 pr-5 py-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
+                  style={{
+                    borderTop: "3px solid #155EEF",
+                    borderRight: "1px solid var(--card-line)",
+                    borderBottom: "1px solid var(--card-line)",
+                    borderLeft: "1px solid var(--card-line)",
+                  }}
                 >
                   <div>
-                    <h3 className="subsection-title mb-2">{destination.name}</h3>
-                    <p className="text-sm text-[#667085]">{destination.pathways.join(" · ")}</p>
+                    <h3 className="font-bold text-lg mb-1.5" style={{ color: "#1D2939" }}>
+                      {destination.name}
+                    </h3>
+                    <p className="text-sm text-[#667085] flex items-center gap-1.5">
+                      <MapPin className="w-3.5 h-3.5 shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                      {destination.pathways.join(" · ")}
+                    </p>
                   </div>
                   <span
                     className="inline-flex items-center gap-1 text-sm font-semibold mt-4"
@@ -427,18 +464,25 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-10">
-            {pakistanDestinations.map((item) => (
+          <div className="grid sm:grid-cols-2 gap-3 mb-10 rounded-2xl overflow-hidden" style={{ border: "1px solid var(--card-line)" }}>
+            {pakistanDestinations.map((item, index) => (
               <Link
                 key={item.link}
                 href={item.link}
-                className="flex items-center justify-between gap-2 rounded-xl px-4 py-3.5 bg-white transition-colors hover:opacity-80"
-                style={{ border: "1px solid var(--card-line)" }}
+                className="group flex items-center justify-between gap-3 px-6 py-5 bg-white transition-colors hover:bg-[#F5F8FF]"
+                style={{
+                  borderBottom: index < pakistanDestinations.length - 2 ? "1px solid var(--card-line)" : undefined,
+                  borderRight: index % 2 === 0 ? "1px solid var(--card-line)" : undefined,
+                }}
               >
-                <span className="text-sm font-semibold" style={{ color: "#1D2939" }}>
+                <span className="font-semibold" style={{ color: "#1D2939" }}>
                   {item.title}
                 </span>
-                <ArrowUpRight className="w-4 h-4 shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                <ArrowUpRight
+                  className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  style={{ color: "#155EEF" }}
+                  aria-hidden
+                />
               </Link>
             ))}
           </div>
@@ -458,7 +502,7 @@ export default function HomePage() {
 
       {/* FAQ */}
       <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -467,12 +511,12 @@ export default function HomePage() {
             <p className="eyebrow mb-3">FAQ</p>
             <h2 className="section-title">Frequently Asked Questions</h2>
           </motion.div>
-          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC] bg-white">
+          <div className="rounded-3xl px-4 md:px-10 py-2 shadow-sm border border-[#E4E7EC] bg-white">
             <Accordion type="single" collapsible className="w-full">
               {homepageFaqs.map((faq, i) => (
                 <AccordionItem key={faq.question} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger
-                    className="text-left text-base font-bold py-5 hover:no-underline"
+                    className="text-left text-lg font-bold py-6 hover:no-underline"
                     style={{ color: "#1D2939" }}
                   >
                     {faq.question}
@@ -493,12 +537,12 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
+      <section className="relative py-24 md:py-32 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
             Ready to Start Your Visa Application?
           </h2>
-          <p className="text-white/85 max-w-xl mx-auto mb-10">
+          <p className="text-white/85 max-w-xl mx-auto mb-12">
             Tell us your destination and visa type and we&apos;ll help you understand the
             documentation and next steps.
           </p>
