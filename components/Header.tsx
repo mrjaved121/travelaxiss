@@ -56,7 +56,7 @@ export default function Header() {
               alt=""
               width={352}
               height={94}
-              className="h-9 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
 
@@ -66,7 +66,7 @@ export default function Header() {
                 key={link.path}
                 href={link.path}
                 className={`nav-link transition-colors rounded-sm focus-visible:outline-offset-4 ${
-                  isActive(link.path) ? "is-active" : "hover:opacity-70"
+                  isActive(link.path) ? "is-active" : "hover:text-[#155EEF]"
                 }`}
                 aria-current={isActive(link.path) ? "page" : undefined}
               >
@@ -88,7 +88,7 @@ export default function Header() {
             </a>
             <Link
               href="/visa-finder"
-              className="btn flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
+              className="btn flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-all shadow-sm hover:shadow-md"
               style={{ color: "#FFFFFF" }}
             >
               <span>Check Visa Requirements</span>
@@ -130,7 +130,7 @@ export default function Header() {
                     href={link.path}
                     onClick={() => setMobileMenuOpen(false)}
                     className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                      isActive(link.path) ? "is-active" : "hover:opacity-70"
+                      isActive(link.path) ? "is-active" : "hover:text-[#155EEF]"
                     }`}
                     aria-current={isActive(link.path) ? "page" : undefined}
                   >
@@ -143,7 +143,7 @@ export default function Header() {
                   href="/contact"
                   onClick={() => setMobileMenuOpen(false)}
                   className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                    isActive("/contact") ? "is-active" : "hover:opacity-70"
+                    isActive("/contact") ? "is-active" : "hover:text-[#155EEF]"
                   }`}
                   aria-current={isActive("/contact") ? "page" : undefined}
                 >
