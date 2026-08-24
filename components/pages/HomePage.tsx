@@ -229,11 +229,6 @@ export default function HomePage() {
               style={{ backgroundColor: "rgba(21, 94, 239,0.12)" }}
               aria-hidden
             />
-            <div
-              className="absolute inset-x-4 bottom-6 top-16 md:top-20 rounded-[2.5rem]"
-              style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
-              aria-hidden
-            />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="UAE visa documentation and application support in Dubai"
