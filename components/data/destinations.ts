@@ -18,9 +18,9 @@ export const destinations: Destination[] = [
   {
     slug: "uae",
     name: "United Arab Emirates",
-    pathways: ["Work", "Business", "Residence"],
+    pathways: ["Visit", "Work", "Residence"],
     description:
-      "Company formation, employment visas, and residence pathways in Dubai and across the UAE.",
+      "Visit visas, employment visas, and residence visa documentation for Dubai and across the UAE.",
     href: "/dubai",
     ready: true,
   },

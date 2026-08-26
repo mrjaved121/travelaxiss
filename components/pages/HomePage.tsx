@@ -10,7 +10,7 @@ import {
   Globe2,
   Stamp,
   Award,
-  Headset,
+  MapPin,
   ClipboardList,
   FileCheck2,
   Search,
@@ -28,7 +28,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { homepageFaqs } from "@/lib/data/faqs";
-import { destinations } from "@/components/data/destinations";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -36,7 +35,7 @@ const trustStrip: { label: string; icon: LucideIcon }[] = [
   { label: "Expert Guidance", icon: Award },
   { label: "Transparent Process", icon: ShieldCheck },
   { label: "Document Support", icon: FileText },
-  { label: "Fast Response", icon: Headset },
+  { label: "Dubai & Lahore Offices", icon: MapPin },
 ];
 
 const popularVisaServices: {
@@ -47,31 +46,31 @@ const popularVisaServices: {
 }[] = [
   {
     title: "UAE Visit Visa",
-    description: "Single and multiple-entry visit visa documentation for tourism, family visits, and short business trips.",
+    description: "Get your documents ready for a single or multiple-entry visit visa — for tourism, visiting family, or a short business trip.",
     icon: Plane,
     link: "/services/uae-visit-visa",
   },
   {
     title: "Visa Extension & Renewal",
-    description: "Extending a visit visa, renewing a residence visa, or handling a status change — clearly explained.",
+    description: "Need to extend a visit visa, renew a residence visa, or change your status? We explain exactly what to do.",
     icon: Clock,
     link: "/services/uae-visa-extension-renewal",
   },
   {
     title: "UAE Visa Documentation",
-    description: "Investor, employment, family, and visit visa documentation, renewals, and cancellations.",
+    description: "Documents for investor, employment, and family visas — including cancellations — prepared correctly from start to finish.",
     icon: FileText,
     link: "/services/visa-services",
   },
   {
     title: "International Visa Documentation",
-    description: "Documentation support for the UK, USA, Canada, Australia, Schengen Europe, and beyond.",
+    description: "Help with visa paperwork for the UK, USA, Canada, Australia, Europe, and other countries.",
     icon: Globe2,
     link: "/services/international-visas",
   },
   {
     title: "UAE Document Attestation",
-    description: "Degree, marriage, and experience certificate attestation through the full official chain.",
+    description: "We get your degree, marriage, or work certificates officially attested, through every required step.",
     icon: Stamp,
     link: "/services/attestation",
   },
@@ -80,87 +79,78 @@ const popularVisaServices: {
 const whyBenefits: { title: string; description: string }[] = [
   {
     title: "Clear Documentation",
-    description: "Every document checklist confirmed against your specific case, not a generic template.",
+    description: "We check your document list ourselves — not a generic list, but the one that matches your exact situation.",
   },
   {
-    title: "Transparent Process",
-    description: "You know what's needed, what it costs, and what happens next at every stage.",
+    title: "Nothing Hidden",
+    description: "You'll always know what's needed, what it costs, and what happens next at every stage.",
   },
   {
-    title: "Dedicated Assistance",
-    description: "One point of contact from your first message through to submission.",
+    title: "One Point of Contact",
+    description: "One person to talk to, from your very first message until your papers are submitted.",
   },
   {
-    title: "Practical Application Support",
-    description: "Hands-on help preparing and organizing your application, not just advice.",
+    title: "Hands-On Support",
+    description: "We don't just tell you what to do — we help you actually prepare and organize everything.",
   },
 ];
 
 const howItWorks: { number: string; title: string; description: string; icon: LucideIcon }[] = [
   {
     number: "01",
-    title: "Tell Us Your Visa Need",
-    description: "Share your destination and visa type so we understand your situation.",
+    title: "Tell Us What You Need",
+    description: "Let us know where you're going and what type of visa you need.",
     icon: Search,
   },
   {
     number: "02",
-    title: "Check Your Requirements",
-    description: "We confirm the current documents and requirements for your case.",
+    title: "We Check the Requirements",
+    description: "We find out exactly which documents you need, based on current rules.",
     icon: ClipboardList,
   },
   {
     number: "03",
-    title: "Prepare Your Documents",
-    description: "We help you prepare and organize everything accurately.",
+    title: "We Help You Prepare",
+    description: "We help you get every document ready and organized correctly.",
     icon: FileCheck2,
   },
   {
     number: "04",
-    title: "Submit & Track",
-    description: "Your application moves through the correct official channel, with updates along the way.",
+    title: "We Submit & Keep You Updated",
+    description: "Your application goes through the right government channel, and we keep you posted.",
     icon: Send,
   },
 ];
 
-const destinationCodes: Record<string, string> = {
-  uae: "AE",
-  usa: "US",
-  canada: "CA",
-  uk: "UK",
-  australia: "AU",
-  germany: "DE",
-};
-
 const pakistanDestinations: { title: string; description: string; link: string }[] = [
   {
     title: "UAE Document Attestation",
-    description: "HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain for degree, marriage, and experience certificates.",
+    description: "We get your degree, marriage, or work certificates attested — through HEC/IBCC, MOFA, the UAE Embassy, and MOFAIC, step by step.",
     link: "/services/attestation",
   },
   {
     title: "UK Visa from Pakistan",
-    description: "Skilled Worker, Student, Visit, and Family/Spouse visa documentation.",
+    description: "Help with documents for Skilled Worker, Student, Visit, and Family or Spouse UK visas.",
     link: "/services/uk-visa-from-pakistan",
   },
   {
     title: "USA Visa from Pakistan",
-    description: "B1/B2 visitor and F1 student visa documentation, DS-160 review, and interview prep.",
+    description: "Help with B1/B2 visitor and F1 student visa paperwork, plus DS-160 form review and interview preparation.",
     link: "/services/usa-visa-from-pakistan",
   },
   {
     title: "Canada Visa from Pakistan",
-    description: "Study permit, work permit, visit visa, and spouse open work permit documentation.",
+    description: "Help with documents for a Canada study permit, work permit, visit visa, or spouse open work permit.",
     link: "/services/canada-visa-from-pakistan",
   },
   {
     title: "Australia Visa from Pakistan",
-    description: "Visitor, Student, and Partner/Family visa documentation.",
+    description: "Help with documents for Visitor, Student, and Partner or Family visas to Australia.",
     link: "/services/australia-visa-from-pakistan",
   },
   {
     title: "Germany Visa from Pakistan",
-    description: "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification documentation.",
+    description: "Help with documents for the EU Blue Card, Job Seeker visa, Student/Ausbildung visa, or Family Reunification visa.",
     link: "/services/germany-visa-from-pakistan",
   },
 ];
@@ -185,9 +175,8 @@ export default function HomePage() {
               UAE Visa Services, <span style={{ color: "#155EEF" }}>Made Simple.</span>
             </h1>
             <p className="lead mb-8 max-w-[540px]" style={{ color: "#1D2939" }}>
-              From visit visas and multiple-entry visas to visa documentation and application
-              support, Travelaxis helps you prepare the right documents and navigate the process
-              with clarity.
+              We help you understand exactly which documents you need for your UAE visa, get them
+              ready correctly, and guide you through every step — in plain, simple language.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -273,8 +262,7 @@ export default function HomePage() {
           >
             <h2 className="section-title mb-4">Visa Services That Fit Your Journey</h2>
             <p className="text-[#667085]">
-              Clear documentation and practical support for common UAE and international visa
-              needs.
+              Straightforward help with the most common UAE and international visa needs.
             </p>
           </motion.div>
 
@@ -371,8 +359,8 @@ export default function HomePage() {
               Clear Guidance. Complete Documentation. Less Confusion.
             </h2>
             <p className="text-[#667085] mb-8">
-              Avoid mistakes and delays with professional guidance at every stage of your visa
-              application.
+              We're not a government office — we're your guide. We help you avoid mistakes and
+              delays at every step, so your application goes in correctly the first time.
             </p>
             <div className="space-y-4">
               {whyBenefits.map((item) => (
@@ -436,75 +424,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Popular Destinations */}
-      <section className="pt-[72px] md:pt-[104px] pb-20 md:pb-28" style={{ backgroundColor: "#F5F8FF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-14 max-w-2xl mx-auto"
-          >
-            <h2 className="section-title mb-4">Visa Services for Popular Destinations</h2>
-            <p className="text-[#667085]">
-              Documentation and consultancy support for the destinations our clients ask about
-              most.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {destinations.map((destination, index) => (
-              <motion.div
-                key={destination.slug}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.06 }}
-              >
-                <Link
-                  href={destination.href}
-                  className="group relative flex flex-col justify-between h-full rounded-[24px] bg-white px-6 py-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
-                  style={{
-                    borderTop: "3px solid #155EEF",
-                    borderRight: "1px solid var(--card-line)",
-                    borderBottom: "1px solid var(--card-line)",
-                    borderLeft: "1px solid var(--card-line)",
-                  }}
-                >
-                  <div>
-                    <span
-                      className="w-11 h-11 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mb-3"
-                      style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
-                      aria-hidden
-                    >
-                      {destinationCodes[destination.slug]}
-                    </span>
-                    <h3 className="font-bold text-xl mb-2" style={{ color: "#1D2939" }}>
-                      {destination.name}
-                    </h3>
-                    <p
-                      className="text-xs font-semibold uppercase tracking-wide"
-                      style={{ color: "#667085" }}
-                    >
-                      {destination.pathways.join(" / ")}
-                    </p>
-                  </div>
-                  <span
-                    className="inline-flex items-center gap-1 text-sm font-bold mt-4 pt-3 border-t"
-                    style={{ color: "#155EEF", borderColor: "var(--card-line)" }}
-                  >
-                    Explore
-                    <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
-                  </span>
-                </Link>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Visa Documentation From Pakistan */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -514,8 +435,8 @@ export default function HomePage() {
           >
             <h2 className="section-title mb-4">Visa Documentation From Pakistan</h2>
             <p className="text-[#667085]">
-              Professional documentation support for applicants preparing visa applications for
-              major destinations.
+              If you're applying from Pakistan, we help you prepare the right documents for these
+              popular destinations.
             </p>
           </motion.div>
 
