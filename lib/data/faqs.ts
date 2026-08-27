@@ -167,6 +167,18 @@ export const faqItems: FaqItem[] = [
       "No, and you should be careful of anyone who promises this. We prepare your documents and guide you through the process, but we are not a government authority — we don't issue visas. The final decision is always made by the relevant government authority.",
     category: "UAE Visa Documentation",
   },
+  {
+    question: "Do you help with study visa documentation for applicants in Pakistan?",
+    answer:
+      "Yes. We help prepare study visa documentation for the UK, USA (F1), Canada, Australia, and Germany, including university admission evidence, financial proof, and certificate attestation where it's required. Documents are submitted through each country's official visa channels.",
+    category: "UAE Visa Documentation",
+  },
+  {
+    question: "Do you provide document attestation services?",
+    answer:
+      "Yes. We handle the full UAE attestation chain for degree, marriage, and experience certificates — through HEC/IBCC, MOFA, the UAE Embassy, and MOFAIC — so your documents are accepted for your visa or job application.",
+    category: "UAE Visa Documentation",
+  },
 ];
 
 const homepageFaqQuestions = [
@@ -174,6 +186,8 @@ const homepageFaqQuestions = [
   "Do you provide multiple-entry visa assistance?",
   "How does Travelaxis visa documentation work?",
   "Can you help with international visa documentation?",
+  "Do you help with study visa documentation for applicants in Pakistan?",
+  "Do you provide document attestation services?",
   "How long does visa processing take?",
   "Does Travelaxis guarantee visa approval?",
 ];
