@@ -72,48 +72,61 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
   },
 ];
 
-const countryGroups: { title: string; countries: string[] }[] = [
+const countryGroups: {
+  title: string;
+  groupDescription: string;
+  countries: { name: string; pakistanHref?: string }[];
+}[] = [
   {
     title: "Schengen Area",
+    groupDescription:
+      "Short-stay visit and business visa documentation across Schengen member states, submitted through the relevant country's visa application centre in the UAE.",
     countries: [
-      "France",
-      "Italy",
-      "Spain",
-      "Germany",
-      "Switzerland",
-      "Netherlands",
-      "Portugal",
-      "Czech Republic",
-      "Austria",
-      "Greece",
-      "Belgium",
-      "Croatia",
-      "Sweden",
-      "Lithuania",
-      "Iceland",
-      "Finland",
-      "Denmark",
-      "Hungary",
+      { name: "France" },
+      { name: "Italy" },
+      { name: "Spain" },
+      { name: "Germany", pakistanHref: "/services/germany-visa-from-pakistan" },
+      { name: "Switzerland" },
+      { name: "Netherlands" },
+      { name: "Portugal" },
+      { name: "Czech Republic" },
+      { name: "Austria" },
+      { name: "Greece" },
+      { name: "Belgium" },
+      { name: "Croatia" },
+      { name: "Sweden" },
+      { name: "Lithuania" },
+      { name: "Iceland" },
+      { name: "Finland" },
+      { name: "Denmark" },
+      { name: "Hungary" },
     ],
   },
   {
     title: "USA & UK",
-    countries: ["USA", "UK"],
+    groupDescription:
+      "Visitor, student, and other common visa-category documentation for the USA and UK, submitted through each country's official consular process.",
+    countries: [
+      { name: "USA", pakistanHref: "/services/usa-visa-from-pakistan" },
+      { name: "UK", pakistanHref: "/services/uk-visa-from-pakistan" },
+    ],
   },
   {
     title: "Other Popular Destinations",
+    groupDescription:
+      "Visit, study, and work visa documentation for a range of other frequently requested destinations.",
     countries: [
-      "South Africa",
-      "New Zealand",
-      "Indonesia (Bali)",
-      "Canada",
-      "Cyprus",
-      "Russia",
-      "China",
-      "Japan",
-      "Turkey",
-      "Singapore",
-      "Australia",
+      { name: "South Africa" },
+      { name: "New Zealand" },
+      { name: "Indonesia (Bali)" },
+      { name: "Canada", pakistanHref: "/services/canada-visa-from-pakistan" },
+      { name: "Cyprus" },
+      { name: "Russia" },
+      { name: "China" },
+      { name: "Japan" },
+      { name: "Turkey" },
+      { name: "Singapore" },
+      { name: "Australia", pakistanHref: "/services/australia-visa-from-pakistan" },
     ],
   },
 ];
@@ -257,7 +270,7 @@ export default function InternationalVisaServicesPage() {
             </p>
           </motion.div>
 
-          <div className="space-y-10">
+          <div className="space-y-12">
             {countryGroups.map((group, groupIndex) => (
               <motion.div
                 key={group.title}
@@ -265,18 +278,33 @@ export default function InternationalVisaServicesPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: groupIndex * 0.08 }}
               >
-                <h3 className="subsection-title mb-4">
+                <h3 className="subsection-title mb-2">
                   {group.title}
                 </h3>
-                <div className="flex flex-wrap gap-2.5">
+                <p className="text-sm text-[#667085] leading-relaxed mb-5 max-w-2xl">
+                  {group.groupDescription}
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                   {group.countries.map((country) => (
-                    <span
-                      key={country}
-                      className="px-4 py-2 rounded-full text-sm font-medium border"
-                      style={{ borderColor: '#F5F8FF', backgroundColor: '#F5F8FF', color: '#1D2939' }}
+                    <div
+                      key={country.name}
+                      className="rounded-2xl px-4 py-3.5 bg-white card-hover"
+                      style={{ border: "1px solid var(--card-line)" }}
                     >
-                      {country}
-                    </span>
+                      <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>
+                        {country.name}
+                      </p>
+                      {country.pakistanHref && (
+                        <Link
+                          href={country.pakistanHref}
+                          className="inline-flex items-center gap-1 text-xs font-semibold mt-1.5"
+                          style={{ color: "#155EEF" }}
+                        >
+                          Applying from Pakistan? See {country.name} Visa from Pakistan
+                          <ArrowRight className="w-3 h-3 shrink-0" aria-hidden />
+                        </Link>
+                      )}
+                    </div>
                   ))}
                 </div>
               </motion.div>
@@ -309,12 +337,9 @@ export default function InternationalVisaServicesPage() {
                     className="text-left text-base font-bold py-5 hover:no-underline"
                     style={{ color: "#1D2939" }}
                   >
-                    <span className="flex items-start gap-2">
-                      <span className="text-[#155EEF]">❓</span>
-                      {faq.q}
-                    </span>
+                    {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>

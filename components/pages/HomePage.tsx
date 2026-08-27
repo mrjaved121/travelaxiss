@@ -5,10 +5,12 @@ import {
   ArrowRight,
   ArrowUpRight,
   Plane,
-  Clock,
+  GraduationCap,
+  Briefcase,
   FileText,
   Globe2,
   Stamp,
+  Landmark,
   Award,
   MapPin,
   ClipboardList,
@@ -38,7 +40,7 @@ const trustStrip: { label: string; icon: LucideIcon }[] = [
   { label: "Dubai & Lahore Offices", icon: MapPin },
 ];
 
-const popularVisaServices: {
+const mainServices: {
   title: string;
   description: string;
   icon: LucideIcon;
@@ -46,33 +48,39 @@ const popularVisaServices: {
 }[] = [
   {
     title: "UAE Visit Visa",
-    description: "Get your documents ready for a single or multiple-entry visit visa — for tourism, visiting family, or a short business trip.",
+    description: "Visit, multiple-entry, and visa extension support for the UAE.",
     icon: Plane,
     link: "/services/uae-visit-visa",
   },
   {
-    title: "Visa Extension & Renewal",
-    description: "Need to extend a visit visa, renew a residence visa, or change your status? We explain exactly what to do.",
-    icon: Clock,
-    link: "/services/uae-visa-extension-renewal",
+    title: "Study Visa",
+    description: "Documentation support for study visas to the UK, USA, Canada, Australia, and Germany.",
+    icon: GraduationCap,
+    link: "/services/study-visa",
   },
   {
-    title: "UAE Visa Documentation",
-    description: "Documents for investor, employment, and family visas — including cancellations — prepared correctly from start to finish.",
-    icon: FileText,
-    link: "/services/visa-services",
+    title: "Work Visa",
+    description: "Documentation support for work and skilled-visa applications, prepared correctly and clearly explained.",
+    icon: Briefcase,
+    link: "/services/work-visa",
   },
   {
-    title: "International Visa Documentation",
-    description: "Help with visa paperwork for the UK, USA, Canada, Australia, Europe, and other countries.",
+    title: "International Visa",
+    description: "Visa documentation for Saudi Arabia, Europe, the USA, and other destinations.",
     icon: Globe2,
     link: "/services/international-visas",
   },
   {
-    title: "UAE Document Attestation",
-    description: "We get your degree, marriage, or work certificates officially attested, through every required step.",
+    title: "Document Attestation",
+    description: "Degree, marriage, and experience certificate attestation, from HEC/IBCC through to the embassy.",
     icon: Stamp,
     link: "/services/attestation",
+  },
+  {
+    title: "Umrah Visa",
+    description: "Visa, flight, and hotel support for your Umrah journey from Dubai.",
+    icon: Landmark,
+    link: "/services/umrah-services",
   },
 ];
 
@@ -251,7 +259,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Popular Visa Services */}
+      {/* Main Services */}
       <section className="pt-20 md:pt-28 pb-[72px] md:pb-[104px] bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -260,14 +268,15 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-14 max-w-2xl mx-auto"
           >
-            <h2 className="section-title mb-4">Visa Services That Fit Your Journey</h2>
+            <p className="eyebrow mb-3">Our Services</p>
+            <h2 className="section-title mb-4">Services for Your Next Journey</h2>
             <p className="text-[#667085]">
-              Straightforward help with the most common UAE and international visa needs.
+              Choose the service that best matches your plans.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {popularVisaServices.map((service, index) => (
+            {mainServices.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
@@ -305,6 +314,53 @@ export default function HomePage() {
               <ArrowRight className="w-3.5 h-3.5 inline ml-1" aria-hidden />
             </Link>
           </p>
+        </div>
+      </section>
+
+      {/* Featured UAE Visit Visa */}
+      <section className="pb-20 md:pb-28 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="grid lg:grid-cols-2 gap-10 items-center rounded-[2.5rem] p-8 md:p-14"
+            style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+          >
+            <div className="relative h-56 md:h-64 order-2 lg:order-1">
+              <div
+                className="absolute inset-0 rounded-[2rem] flex items-center justify-center overflow-hidden"
+                style={{
+                  backgroundImage: "radial-gradient(rgba(21,94,239,0.16) 1.5px, transparent 1.5px)",
+                  backgroundSize: "20px 20px",
+                }}
+                aria-hidden
+              >
+                <div
+                  className="w-28 h-28 md:w-32 md:h-32 rounded-full flex items-center justify-center shadow-md"
+                  style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
+                >
+                  <Plane className="w-12 h-12 md:w-14 md:h-14" style={{ color: "#155EEF" }} />
+                </div>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <p className="eyebrow mb-3">Featured</p>
+              <h2 className="section-title mb-4">Planning a Visit to the UAE?</h2>
+              <p className="text-[#667085] mb-8 max-w-md">
+                Explore UAE visit visa options, multiple-entry services, and visa extension
+                support.
+              </p>
+              <Link
+                href="/services/uae-visit-visa"
+                className="btn inline-flex items-center gap-2 px-7 py-3.5 rounded-full transition-all hover:bg-primary-hover shadow-sm hover:shadow-md bg-primary"
+                style={{ color: "#FFFFFF" }}
+              >
+                Explore UAE Visit Visa
+                <ArrowRight className="w-4 h-4" aria-hidden />
+              </Link>
+            </div>
+          </motion.div>
         </div>
       </section>
 

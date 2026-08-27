@@ -149,6 +149,41 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/services/uae-visit-visa" className="footer-link transition-colors">
+                  UAE Visit & Tourist Visa
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/uae-visa-extension-renewal" className="footer-link transition-colors">
+                  UAE Visa Extension & Renewal
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/uae-employment-visa" className="footer-link transition-colors">
+                  UAE Employment & Labour Visa
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/uae-domestic-worker-visa" className="footer-link transition-colors">
+                  UAE Domestic Worker Visa
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/uae-retirement-visa" className="footer-link transition-colors">
+                  UAE Retirement Visa
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/study-visa" className="footer-link transition-colors">
+                  Study Visa
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/work-visa" className="footer-link transition-colors">
+                  Work Visa
+                </Link>
+              </li>
+              <li>
                 <Link href="/services/international-visas" className="footer-link transition-colors">
                   International Visa Documentation
                 </Link>
