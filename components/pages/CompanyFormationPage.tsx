@@ -19,17 +19,26 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
+
+const relatedServices = [
+  { href: "/services/study-visa", label: "Study Visas" },
+  { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
+  { href: "/services/visa-services", label: "UAE Residency Visas" },
+  { href: "/services/attestation", label: "Document Services" },
+];
 
 const whyChooseUs = [
   {
     title: "Expert Guidance",
-    body: "We help you select the best business structure based on your goals.",
+    body: "We help you select the right business structure based on your goals.",
   },
   {
-    title: "Fast Processing",
-    body: "We work toward quick approvals and minimal unnecessary delays.",
+    title: "Efficient Processing",
+    body: "We keep your setup moving and reduce avoidable delays.",
   },
   {
     title: "Complete Transparency",
@@ -183,14 +192,14 @@ const packages = [
   },
   {
     name: "Express Company Formation",
-    tagline: "For a fast business launch.",
+    tagline: "For a quicker launch.",
     features: [
       "Priority processing",
-      "Faster approvals",
+      "Priority government coordination",
       "Dedicated support",
       "Premium assistance",
     ],
-    footnote: "Ideal for urgent business setup",
+    footnote: "Ideal for time-sensitive business setup",
     highlighted: true,
   },
 ];
@@ -206,6 +215,7 @@ export default function CompanyFormationPage() {
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
+            <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "Business & Investment" }]} />
             <h1 className="page-title mb-6">
               Company Formation in UAE – Start Your Business with{" "}
               <span style={{ color: "#155EEF" }}>Confidence</span>
@@ -227,7 +237,7 @@ export default function CompanyFormationPage() {
               ))}
             </div>
             <p className="text-[#667085] mb-8 font-medium">
-              100% guidance from start to finish.
+              Guidance from start to finish.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -235,7 +245,7 @@ export default function CompanyFormationPage() {
                 className="btn inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                Get Free Consultation
+                Get a Free Quote
               </Link>
               <a
                 href={WHATSAPP_HREF}
@@ -348,9 +358,11 @@ export default function CompanyFormationPage() {
                 style={{ border: "1px solid var(--card-line)" }}
               >
                 <div className="flex items-start gap-3 mb-3">
-                  <span className="text-xl" aria-hidden>
-                    ✅
-                  </span>
+                  <CheckCircle
+                    className="w-6 h-6 shrink-0 mt-0.5"
+                    style={{ color: "#155EEF" }}
+                    aria-hidden
+                  />
                   <h3
                     className="subsection-title"
                   >
@@ -416,7 +428,7 @@ export default function CompanyFormationPage() {
                       key={line}
                       className="flex items-start gap-2 text-sm text-white/90"
                     >
-                      <span className="text-[#155EEF] mt-0.5">👉</span>
+                      <CheckCircle className="w-4 h-4 shrink-0 mt-0.5 text-white/90" aria-hidden />
                       <span>{line}</span>
                     </li>
                   ))}
@@ -510,7 +522,7 @@ export default function CompanyFormationPage() {
                   </h3>
                 </div>
                 <p className="font-semibold text-[#1D2939] mb-1">
-                  Faster processing available
+                  Priority handling available
                 </p>
                 <p className="text-[#667085] text-sm">
                   For eligible cases when urgency and completeness align.
@@ -584,7 +596,7 @@ export default function CompanyFormationPage() {
                   ))}
                 </ul>
                 <p className="text-sm text-[#667085] mb-6 italic">
-                  👉 {pkg.footnote}
+                  {pkg.footnote}
                 </p>
                 <Link
                   href="/contact"
@@ -625,7 +637,7 @@ export default function CompanyFormationPage() {
                 className="flex items-center gap-3 rounded-2xl px-4 py-4 border border-white/10"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
-                <span className="text-lg">✅</span>
+                <CheckCircle className="w-5 h-5 shrink-0 text-white/90" aria-hidden />
                 <span className="text-white/90 font-medium">{b}</span>
               </motion.div>
             ))}
@@ -685,12 +697,9 @@ export default function CompanyFormationPage() {
             {faqs.map((faq, i) => (
               <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                 <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#1D2939" }}>
-                  <span className="flex items-start gap-2">
-                    <span className="text-[#155EEF]">❓</span>
-                    {faq.q}
-                  </span>
+                  {faq.q}
                 </AccordionTrigger>
-                <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
+                <AccordionContent className="text-[#667085] text-base leading-relaxed">
                   {faq.a}
                 </AccordionContent>
               </AccordionItem>
@@ -698,6 +707,9 @@ export default function CompanyFormationPage() {
           </Accordion>
         </div>
       </section>
+
+      {/* Related services */}
+      <RelatedLinks links={relatedServices} />
 
       {/* Final CTA */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
@@ -712,7 +724,7 @@ export default function CompanyFormationPage() {
           <p className="lead mb-4" style={{ color: "rgba(255,255,255,0.9)" }}>Ready to launch your business?</p>
           <p className="lead mb-10" style={{ color: "rgba(255,255,255,0.9)" }}>
             Contact us today for expert company formation services. We make the
-            process simple, fast, and stress-free.
+            process simple, clear, and well-organised.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link

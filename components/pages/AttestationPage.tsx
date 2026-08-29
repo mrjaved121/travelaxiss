@@ -28,9 +28,18 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import { attestationFaqs } from "@/components/data/attestationFaqs";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
+
+const relatedServices = [
+  { href: "/services/study-visa", label: "Study Visas" },
+  { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
+  { href: "/services/visa-services", label: "UAE Residency Visas" },
+  { href: "/services/company-formation", label: "Business & Investment" },
+];
 
 const disclaimer =
   "We provide documentation assistance and consultancy support only. Attestation is issued by the relevant Pakistani and UAE government authorities; we do not control their processing times or approval decisions.";
@@ -112,6 +121,7 @@ export default function AttestationPage() {
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+            <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "Document Services" }]} />
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
               UAE Attestation Services
             </p>
@@ -422,36 +432,8 @@ export default function AttestationPage() {
         </div>
       </section>
 
-      {/* Related pages */}
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="section-title mb-6 text-center">
-              Related <span style={{ color: "#155EEF" }}>Pages</span>
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              {[
-                { href: "/services/visa-services", label: "UAE Visa Documentation & Consultancy" },
-                { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
-                { href: "/contact", label: "Contact Travelaxis" },
-              ].map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="rounded-3xl p-4 text-center shadow-sm hover:shadow-md transition-shadow bg-white font-semibold"
-                  style={{ color: "#1D2939" }}
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
+      {/* Related services */}
+      <RelatedLinks links={relatedServices} />
 
       {/* Final CTA */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>

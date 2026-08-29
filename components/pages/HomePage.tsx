@@ -4,22 +4,16 @@ import Link from "next/link";
 import {
   ArrowRight,
   ArrowUpRight,
-  Plane,
   GraduationCap,
-  Briefcase,
-  FileText,
-  Globe2,
+  Plane,
+  Building2,
+  IdCard,
   Stamp,
-  Landmark,
-  Award,
-  MapPin,
-  ClipboardList,
-  FileCheck2,
-  Search,
-  Send,
   ShieldCheck,
+  FileText,
+  MapPin,
+  Compass,
   MessageCircle,
-  Check,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -30,136 +24,101 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { homepageFaqs } from "@/lib/data/faqs";
+import { destinations } from "@/components/data/destinations";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
+/** Non-numeric, verifiable trust signals only — offices are real (see Footer / schema.ts). */
 const trustStrip: { label: string; icon: LucideIcon }[] = [
-  { label: "Expert Guidance", icon: Award },
-  { label: "Transparent Process", icon: ShieldCheck },
-  { label: "Document Support", icon: FileText },
-  { label: "Dubai & Lahore Offices", icon: MapPin },
+  { label: "Dubai & Lahore offices", icon: MapPin },
+  { label: "Clear, transparent process", icon: ShieldCheck },
+  { label: "Document preparation", icon: FileText },
+  { label: "Visa & business services", icon: Compass },
 ];
 
-const mainServices: {
+/** The five homepage service categories. Each links to an existing hub page that lists its sub-pages. */
+const coreServices: {
   title: string;
   description: string;
   icon: LucideIcon;
-  link: string;
+  href: string;
 }[] = [
   {
-    title: "UAE Visit Visa",
-    description: "Visit, multiple-entry, and visa extension support for the UAE.",
-    icon: Plane,
-    link: "/services/uae-visit-visa",
-  },
-  {
-    title: "Study Visa",
-    description: "Documentation support for study visas to the UK, USA, Canada, Australia, and Germany.",
+    title: "Study Visas",
+    description:
+      "Student visa document preparation for the UK, USA, Canada, Australia, and Germany.",
     icon: GraduationCap,
-    link: "/services/study-visa",
+    href: "/services/study-visa",
   },
   {
-    title: "Work Visa",
-    description: "Documentation support for work and skilled-visa applications, prepared correctly and clearly explained.",
-    icon: Briefcase,
-    link: "/services/work-visa",
+    title: "Tourist & Visit Visas",
+    description:
+      "Visit and tourist visa document preparation for the UAE and other popular destinations.",
+    icon: Plane,
+    href: "/services/visit-visa",
   },
   {
-    title: "International Visa",
-    description: "Visa documentation for Saudi Arabia, Europe, the USA, and other destinations.",
-    icon: Globe2,
-    link: "/services/international-visas",
+    title: "Business & Investment",
+    description:
+      "Company formation and licensing support for mainland, free zone, and offshore setups.",
+    icon: Building2,
+    href: "/services/company-formation",
   },
   {
-    title: "Document Attestation",
-    description: "Degree, marriage, and experience certificate attestation, from HEC/IBCC through to the embassy.",
+    title: "UAE Residency Visas",
+    description:
+      "Documentation for investor, employment, family, and renewal visa categories in the UAE.",
+    icon: IdCard,
+    href: "/services/visa-services",
+  },
+  {
+    title: "Document Services",
+    description:
+      "Certificate attestation and legal document preparation for visa and job applications.",
     icon: Stamp,
-    link: "/services/attestation",
-  },
-  {
-    title: "Umrah Visa",
-    description: "Visa, flight, and hotel support for your Umrah journey from Dubai.",
-    icon: Landmark,
-    link: "/services/umrah-services",
+    href: "/services/attestation",
   },
 ];
 
-const whyBenefits: { title: string; description: string }[] = [
+const whyValues: { title: string; description: string }[] = [
   {
-    title: "Clear Documentation",
-    description: "We check your document list ourselves — not a generic list, but the one that matches your exact situation.",
+    title: "Clear guidance",
+    description:
+      "We confirm the exact requirements for your destination and situation — not a generic checklist.",
   },
   {
-    title: "Nothing Hidden",
-    description: "You'll always know what's needed, what it costs, and what happens next at every stage.",
+    title: "Organised application support",
+    description:
+      "Help preparing documents, financial evidence, and appointment bookings, step by step.",
   },
   {
-    title: "One Point of Contact",
-    description: "One person to talk to, from your very first message until your papers are submitted.",
-  },
-  {
-    title: "Hands-On Support",
-    description: "We don't just tell you what to do — we help you actually prepare and organize everything.",
+    title: "Support in Dubai and Pakistan",
+    description:
+      "One point of contact from our Dubai and Lahore offices, from your first message to submission.",
   },
 ];
 
-const howItWorks: { number: string; title: string; description: string; icon: LucideIcon }[] = [
+const processSteps: { number: string; title: string; description: string }[] = [
   {
     number: "01",
-    title: "Tell Us What You Need",
-    description: "Let us know where you're going and what type of visa you need.",
-    icon: Search,
+    title: "Choose your service",
+    description: "Pick the visa or business service that matches your plans.",
   },
   {
     number: "02",
-    title: "We Check the Requirements",
-    description: "We find out exactly which documents you need, based on current rules.",
-    icon: ClipboardList,
+    title: "Understand the requirements",
+    description: "We confirm the documents and steps for your specific case.",
   },
   {
     number: "03",
-    title: "We Help You Prepare",
-    description: "We help you get every document ready and organized correctly.",
-    icon: FileCheck2,
+    title: "Prepare your application",
+    description: "We help you get every document ready and correctly organised.",
   },
   {
     number: "04",
-    title: "We Submit & Keep You Updated",
-    description: "Your application goes through the right government channel, and we keep you posted.",
-    icon: Send,
-  },
-];
-
-const pakistanDestinations: { title: string; description: string; link: string }[] = [
-  {
-    title: "UAE Document Attestation",
-    description: "We get your degree, marriage, or work certificates attested — through HEC/IBCC, MOFA, the UAE Embassy, and MOFAIC, step by step.",
-    link: "/services/attestation",
-  },
-  {
-    title: "UK Visa from Pakistan",
-    description: "Help with documents for Skilled Worker, Student, Visit, and Family or Spouse UK visas.",
-    link: "/services/uk-visa-from-pakistan",
-  },
-  {
-    title: "USA Visa from Pakistan",
-    description: "Help with B1/B2 visitor and F1 student visa paperwork, plus DS-160 form review and interview preparation.",
-    link: "/services/usa-visa-from-pakistan",
-  },
-  {
-    title: "Canada Visa from Pakistan",
-    description: "Help with documents for a Canada study permit, work permit, visit visa, or spouse open work permit.",
-    link: "/services/canada-visa-from-pakistan",
-  },
-  {
-    title: "Australia Visa from Pakistan",
-    description: "Help with documents for Visitor, Student, and Partner or Family visas to Australia.",
-    link: "/services/australia-visa-from-pakistan",
-  },
-  {
-    title: "Germany Visa from Pakistan",
-    description: "Help with documents for the EU Blue Card, Job Seeker visa, Student/Ausbildung visa, or Family Reunification visa.",
-    link: "/services/germany-visa-from-pakistan",
+    title: "Move forward with support",
+    description:
+      "Your application goes through the official channel, and we keep you updated.",
   },
 ];
 
@@ -168,31 +127,33 @@ export default function HomePage() {
     <div className="overflow-x-hidden">
       {/* Hero */}
       <section
+        aria-labelledby="hero-heading"
         className="relative overflow-hidden py-16 md:py-24"
         style={{ background: "linear-gradient(180deg, #FFFFFF 0%, #F5F8FF 100%)" }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="min-w-0"
           >
-            <p className="eyebrow mb-4">UAE Visa Services in Dubai</p>
-            <h1 className="hero-title mb-6">
-              UAE Visa Services, <span style={{ color: "#155EEF" }}>Made Simple.</span>
+            <p className="eyebrow mb-4">Travelaxis Visa Services</p>
+            <h1 id="hero-heading" className="hero-title mb-6">
+              Clear support for your next{" "}
+              <span style={{ color: "#155EEF" }}>visa journey.</span>
             </h1>
-            <p className="lead mb-8 max-w-[540px]" style={{ color: "#1D2939" }}>
-              We help you understand exactly which documents you need for your UAE visa, get them
-              ready correctly, and guide you through every step — in plain, simple language.
+            <p className="lead mb-8 max-w-[540px]">
+              Explore visa, document, and business support services with a clear
+              next step for your destination and plans.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/visa-finder"
+                href="/services"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
                 style={{ color: "#FFFFFF" }}
               >
-                Check Visa Requirements
+                Explore Visa Services
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
               <a
@@ -203,319 +164,169 @@ export default function HomePage() {
                 style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
                 aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
+                <MessageCircle
+                  className="w-5 h-5"
+                  style={{ color: "#155EEF" }}
+                  aria-hidden
+                />
                 WhatsApp Us
               </a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2 mt-8">
-              {["Clear requirements", "Transparent process", "Application support"].map((item) => (
-                <span key={item} className="inline-flex items-center gap-1.5 text-sm font-medium" style={{ color: "#1D2939" }}>
-                  <Check className="w-4 h-4 shrink-0" style={{ color: "#155EEF" }} aria-hidden />
-                  {item}
-                </span>
-              ))}
             </div>
           </motion.div>
 
           {/* Not a motion.div: this holds the LCP image, and an initial-opacity-0
               mount animation delays when Chrome counts it as painted until Motion
               hydrates and runs the transition. */}
-          <div className="relative h-80 md:h-[36rem]">
+          <div className="relative h-72 md:h-[32rem]">
             <div
-              className="absolute -top-8 -right-8 w-56 h-56 rounded-full"
-              style={{ backgroundColor: "rgba(21, 94, 239,0.12)" }}
+              className="absolute -top-8 -right-8 w-52 h-52 rounded-full"
+              style={{ backgroundColor: "rgba(21, 94, 239, 0.10)" }}
               aria-hidden
             />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="UAE visa documentation and application support in Dubai"
+              alt="Travelaxis visa and documentation support"
               width={640}
               height={427}
               fetchPriority="high"
-              className="absolute inset-0 w-full h-full object-contain scale-110"
+              className="absolute inset-0 w-full h-full object-contain"
             />
           </div>
         </div>
       </section>
 
       {/* Trust strip */}
-      <section className="py-9" style={{ backgroundColor: "#F5F8FF" }}>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-y sm:divide-y-0 md:divide-x-2" style={{ borderColor: "#E4E7EC" }}>
+      <section
+        aria-label="What Travelaxis offers"
+        className="border-y"
+        style={{ backgroundColor: "#F5F8FF", borderColor: "#E4E7EC" }}
+      >
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <ul className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-4 list-none p-0 m-0">
             {trustStrip.map((item) => (
-              <div key={item.label} className="flex items-center justify-center gap-3 py-3.5 md:py-0">
-                <div
-                  className="w-10 h-10 rounded-full flex items-center justify-center shrink-0"
-                  style={{ backgroundColor: "#FFFFFF" }}
+              <li key={item.label} className="flex items-center gap-3">
+                <item.icon
+                  className="w-[18px] h-[18px] shrink-0"
+                  style={{ color: "#155EEF" }}
+                  aria-hidden
+                />
+                <span
+                  className="text-sm font-semibold"
+                  style={{ color: "#1D2939" }}
                 >
-                  <item.icon className="w-[18px] h-[18px]" style={{ color: "#155EEF" }} aria-hidden />
-                </div>
-                <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>
                   {item.label}
-                </p>
-              </div>
+                </span>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
-      {/* Main Services */}
-      <section className="pt-20 md:pt-28 pb-[72px] md:pb-[104px] bg-white">
+      {/* Core Services */}
+      <section
+        aria-labelledby="services-heading"
+        className="py-20 md:py-28 bg-white"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-14 max-w-2xl mx-auto"
+            className="max-w-2xl mb-12 md:mb-14"
           >
-            <p className="eyebrow mb-3">Our Services</p>
-            <h2 className="section-title mb-4">Services for Your Next Journey</h2>
-            <p className="text-[#667085]">
-              Choose the service that best matches your plans.
+            <p className="eyebrow mb-3">What we do</p>
+            <h2 id="services-heading" className="section-title mb-4">
+              Services for your next journey
+            </h2>
+            <p className="lead">
+              Five core areas of support. Each one opens onto detailed guidance
+              for your destination and situation.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {mainServices.map((service, index) => (
+            {coreServices.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="relative group rounded-[24px] bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 card-hover"
-                style={{ border: "1.5px solid var(--card-line)" }}
+                className="relative group h-full flex flex-col rounded-2xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 card-hover"
+                style={{ border: "1px solid var(--card-line)" }}
               >
                 <Link
-                  href={service.link}
-                  className="absolute inset-0 z-10 rounded-[24px]"
+                  href={service.href}
+                  className="absolute inset-0 z-10 rounded-2xl"
                   aria-label={`Explore ${service.title}`}
                 />
                 <div
-                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mb-3.5"
-                  style={{ backgroundColor: "#F5F8FF" }}
+                  className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
+                  aria-hidden
                 >
-                  <service.icon className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
+                  <service.icon
+                    className="w-[22px] h-[22px]"
+                    style={{ color: "var(--card-icon-fg)" }}
+                  />
                 </div>
-                <h3 className="subsection-title mb-2" style={{ fontWeight: 700 }}>{service.title}</h3>
-                <p className="text-[#667085] text-[0.9375rem] leading-relaxed mb-4">{service.description}</p>
-                <span className="inline-flex items-center gap-1.5 text-sm font-bold pt-3 border-t group-hover:underline" style={{ color: "#155EEF", borderColor: "var(--card-line)" }}>
+                <h3 className="subsection-title leading-snug mb-2">
+                  {service.title}
+                </h3>
+                <p className="text-[0.9375rem] text-[#667085] leading-relaxed mb-5 flex-1">
+                  {service.description}
+                </p>
+                <span
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold transition-all group-hover:gap-2.5"
+                  style={{ color: "#155EEF" }}
+                >
                   Explore
                   <ArrowUpRight className="w-4 h-4" aria-hidden />
                 </span>
               </motion.div>
             ))}
           </div>
-
-          <p className="text-center text-sm text-[#667085] mt-10">
-            Also need business setup or company formation?{" "}
-            <Link href="/services/company-formation" className="font-semibold" style={{ color: "#155EEF" }}>
-              Business Setup Services
-              <ArrowRight className="w-3.5 h-3.5 inline ml-1" aria-hidden />
-            </Link>
-          </p>
         </div>
       </section>
 
-      {/* Featured UAE Visit Visa */}
-      <section className="pb-20 md:pb-28 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="grid lg:grid-cols-2 gap-10 items-center rounded-[2.5rem] p-8 md:p-14"
-            style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
-          >
-            <div className="relative h-56 md:h-64 order-2 lg:order-1">
-              <div
-                className="absolute inset-0 rounded-[2rem] flex items-center justify-center overflow-hidden"
-                style={{
-                  backgroundImage: "radial-gradient(rgba(21,94,239,0.16) 1.5px, transparent 1.5px)",
-                  backgroundSize: "20px 20px",
-                }}
-                aria-hidden
-              >
-                <div
-                  className="w-28 h-28 md:w-32 md:h-32 rounded-full flex items-center justify-center shadow-md"
-                  style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
-                >
-                  <Plane className="w-12 h-12 md:w-14 md:h-14" style={{ color: "#155EEF" }} />
-                </div>
-              </div>
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="eyebrow mb-3">Featured</p>
-              <h2 className="section-title mb-4">Planning a Visit to the UAE?</h2>
-              <p className="text-[#667085] mb-8 max-w-md">
-                Explore UAE visit visa options, multiple-entry services, and visa extension
-                support.
-              </p>
-              <Link
-                href="/services/uae-visit-visa"
-                className="btn inline-flex items-center gap-2 px-7 py-3.5 rounded-full transition-all hover:bg-primary-hover shadow-sm hover:shadow-md bg-primary"
-                style={{ color: "#FFFFFF" }}
-              >
-                Explore UAE Visit Visa
-                <ArrowRight className="w-4 h-4" aria-hidden />
-              </Link>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Why Travelaxis */}
-      <section className="pt-[72px] md:pt-[104px] pb-20 md:pb-28" style={{ backgroundColor: "#F5F8FF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="relative h-72 md:h-96 order-2 lg:order-1"
-          >
-            <div
-              className="absolute inset-0 rounded-[3rem] flex items-center justify-center overflow-hidden"
-              style={{
-                backgroundColor: "#FFFFFF",
-                border: "1px solid var(--card-line)",
-                backgroundImage: "radial-gradient(rgba(21,94,239,0.14) 1.5px, transparent 1.5px)",
-                backgroundSize: "22px 22px",
-              }}
-              aria-hidden
-            >
-              <div className="relative w-44 h-44 md:w-52 md:h-52">
-                <div
-                  className="absolute top-0 left-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl flex items-center justify-center shadow-sm"
-                  style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
-                >
-                  <FileCheck2 className="w-10 h-10 md:w-12 md:h-12" style={{ color: "#155EEF" }} />
-                </div>
-                <div
-                  className="absolute bottom-0 right-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl flex items-center justify-center shadow-md"
-                  style={{ backgroundColor: "#155EEF" }}
-                >
-                  <ShieldCheck className="w-10 h-10 md:w-12 md:h-12 text-white" />
-                </div>
-                <div
-                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full flex items-center justify-center shadow-md"
-                  style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
-                >
-                  <Stamp className="w-7 h-7" style={{ color: "#155EEF" }} />
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="min-w-0 order-1 lg:order-2"
-          >
-            <p className="eyebrow mb-3">Why Travelaxis</p>
-            <h2 className="section-title mb-6">
-              Clear Guidance. Complete Documentation. Less Confusion.
-            </h2>
-            <p className="text-[#667085] mb-8">
-              We're not a government office — we're your guide. We help you avoid mistakes and
-              delays at every step, so your application goes in correctly the first time.
-            </p>
-            <div className="space-y-4">
-              {whyBenefits.map((item) => (
-                <div key={item.title} className="flex items-start gap-3">
-                  <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
-                  <div>
-                    <p className="text-base font-bold mb-0.5" style={{ color: "#1D2939" }}>
-                      {item.title}
-                    </p>
-                    <p className="text-[0.9375rem] text-[#667085] leading-relaxed">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* How It Works */}
-      <section className="pt-20 md:pt-28 pb-[72px] md:pb-[104px] bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-14"
-          >
-            <h2 className="section-title">A Simple Visa Process</h2>
-          </motion.div>
-
-          <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div
-              className="hidden lg:block absolute left-0 right-0"
-              style={{ top: "108px", height: "2px", backgroundColor: "rgba(21,94,239,0.25)" }}
-              aria-hidden
-            />
-            {howItWorks.map((step, index) => (
-              <motion.div
-                key={step.number}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
-                className="relative rounded-[24px] bg-white p-7 card-hover text-center"
-                style={{ border: "1px solid var(--card-line)" }}
-              >
-                <div
-                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mx-auto mb-4"
-                  style={{ backgroundColor: "var(--card-icon-bg)" }}
-                >
-                  <step.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
-                </div>
-                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#155EEF" }}>
-                  {step.number}
-                </p>
-                <h3 className="subsection-title mb-2">{step.title}</h3>
-                <p className="text-[0.9375rem] text-[#667085] leading-relaxed">{step.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Visa Documentation From Pakistan */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
+      {/* Popular Destinations */}
+      <section
+        aria-labelledby="destinations-heading"
+        className="py-20 md:py-24 border-t bg-white"
+        style={{ borderColor: "#E4E7EC" }}
+      >
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12 max-w-2xl mx-auto"
+            className="max-w-2xl mb-10"
           >
-            <h2 className="section-title mb-4">Visa Documentation From Pakistan</h2>
-            <p className="text-[#667085]">
-              If you're applying from Pakistan, we help you prepare the right documents for these
-              popular destinations.
+            <p className="eyebrow mb-3">Popular destinations</p>
+            <h2 id="destinations-heading" className="section-title mb-4">
+              Where our clients are heading
+            </h2>
+            <p className="lead">
+              Visa document support for the destinations we are asked about most.
             </p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
-            {pakistanDestinations.map((item) => (
+          <div className="flex flex-wrap gap-3">
+            {destinations.map((item) => (
               <Link
-                key={item.link}
-                href={item.link}
-                className="group relative flex flex-col rounded-[24px] px-6 py-7 bg-white transition-all hover:-translate-y-1 hover:shadow-md card-hover"
+                key={item.slug}
+                href={item.href}
+                className="group inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white transition-all hover:-translate-y-0.5 hover:shadow-md card-hover"
                 style={{ border: "1px solid var(--card-line)" }}
               >
-                <div
-                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#F5F8FF" }}
+                <span
+                  className="font-semibold text-[0.9375rem]"
+                  style={{ color: "#1D2939" }}
                 >
-                  <FileCheck2 className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
-                </div>
-                <span className="font-bold text-[1.0625rem] leading-snug mb-1.5" style={{ color: "#1D2939" }}>
-                  {item.title}
+                  {item.name}
                 </span>
-                <p className="text-sm text-[#667085] leading-relaxed mb-4 flex-1">{item.description}</p>
                 <ArrowUpRight
-                  className="w-5 h-5 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                   style={{ color: "#155EEF" }}
                   aria-hidden
                 />
@@ -523,36 +334,151 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="text-center">
+          <p className="mt-8">
             <Link
-              href="/pakistan"
+              href="/destinations"
               className="inline-flex items-center gap-1.5 font-semibold"
               style={{ color: "#155EEF" }}
             >
-              View Visa Services From Pakistan
+              Explore all destinations
               <ArrowRight className="w-4 h-4" aria-hidden />
             </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* Why Travelaxis */}
+      <section
+        aria-labelledby="why-heading"
+        className="py-20 md:py-28"
+        style={{ backgroundColor: "#F5F8FF" }}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[0.9fr_1.1fr] gap-12 lg:gap-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <p className="eyebrow mb-3">Why Travelaxis</p>
+            <h2 id="why-heading" className="section-title mb-4">
+              A calmer way through the paperwork
+            </h2>
+            <p className="lead">
+              We are not a government office and we do not decide applications.
+              We help you prepare a complete, well-organised application and
+              understand each step before you take it.
+            </p>
+          </motion.div>
+
+          <motion.ul
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.08 }}
+            className="space-y-4 list-none p-0 m-0"
+          >
+            {whyValues.map((value) => (
+              <li
+                key={value.title}
+                className="rounded-2xl bg-white p-6"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <h3 className="h4-title mb-1.5">{value.title}</h3>
+                <p className="text-[0.9375rem] text-[#667085] leading-relaxed">
+                  {value.description}
+                </p>
+              </li>
+            ))}
+          </motion.ul>
+        </div>
+      </section>
+
+      {/* Process */}
+      <section
+        aria-labelledby="process-heading"
+        className="py-20 md:py-28 bg-white"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mb-12 md:mb-14"
+          >
+            <p className="eyebrow mb-3">How it works</p>
+            <h2 id="process-heading" className="section-title">
+              A simple, four-step process
+            </h2>
+          </motion.div>
+
+          <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+            <div
+              className="hidden lg:block absolute left-0 right-0"
+              style={{
+                top: "21px",
+                height: "2px",
+                backgroundColor: "rgba(21, 94, 239, 0.2)",
+              }}
+              aria-hidden
+            />
+            {processSteps.map((step, index) => (
+              <motion.div
+                key={step.number}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.08 }}
+                className="relative"
+              >
+                <div
+                  className="relative z-10 w-11 h-11 rounded-full flex items-center justify-center mb-5 bg-white"
+                  style={{ border: "2px solid #155EEF" }}
+                >
+                  <span
+                    className="text-sm font-bold"
+                    style={{ color: "#155EEF" }}
+                  >
+                    {step.number}
+                  </span>
+                </div>
+                <h3 className="h4-title mb-2">{step.title}</h3>
+                <p className="text-[0.9375rem] text-[#667085] leading-relaxed max-w-[260px]">
+                  {step.description}
+                </p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        aria-labelledby="faq-heading"
+        className="py-20 md:py-28"
+        style={{ backgroundColor: "#F5F8FF" }}
+      >
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center mb-12"
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-10"
           >
             <p className="eyebrow mb-3">FAQ</p>
-            <h2 className="section-title">Frequently Asked Questions</h2>
+            <h2 id="faq-heading" className="section-title">
+              Frequently asked questions
+            </h2>
           </motion.div>
-          <div className="rounded-3xl px-4 md:px-10 py-2 shadow-sm border border-[#E4E7EC] bg-white">
+          <div className="rounded-3xl px-4 md:px-8 py-2 shadow-sm border bg-white" style={{ borderColor: "#E4E7EC" }}>
             <Accordion type="single" collapsible className="w-full">
               {homepageFaqs.map((faq, i) => (
-                <AccordionItem key={faq.question} value={`item-${i}`} className="border-[#E4E7EC]">
+                <AccordionItem
+                  key={faq.question}
+                  value={`item-${i}`}
+                  className="border-[#E4E7EC]"
+                >
                   <AccordionTrigger
-                    className="text-left text-lg font-bold py-6 hover:no-underline"
+                    className="text-left text-base md:text-lg font-bold py-5 hover:no-underline"
                     style={{ color: "#1D2939" }}
                   >
                     {faq.question}
@@ -564,43 +490,52 @@ export default function HomePage() {
               ))}
             </Accordion>
           </div>
-          <div className="text-center mt-8">
-            <Link href="/faq" className="font-semibold hover:underline" style={{ color: "#155EEF" }}>
+          <p className="mt-8">
+            <Link
+              href="/faq"
+              className="inline-flex items-center gap-1.5 font-semibold"
+              style={{ color: "#155EEF" }}
+            >
               See all frequently asked questions
+              <ArrowRight className="w-4 h-4" aria-hidden />
             </Link>
-          </div>
+          </p>
         </div>
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 md:py-32 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
-        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>
-            Ready to Start Your Visa Application?
+      <section
+        aria-labelledby="cta-heading"
+        className="py-20 md:py-28"
+        style={{ backgroundColor: "#155EEF" }}
+      >
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <h2
+            id="cta-heading"
+            className="section-title mb-5"
+            style={{ color: "#FFFFFF" }}
+          >
+            Not sure where to begin?
           </h2>
-          <p className="text-white/85 text-[1.0625rem] max-w-xl mx-auto mb-12">
-            Tell us your destination and visa type and we&apos;ll help you understand the
-            documentation and next steps.
+          <p className="text-white/85 text-[1.0625rem] max-w-xl mx-auto mb-10">
+            Explore the service that fits your plans, or speak with the Travelaxis
+            team about your next step.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
-              href="/visa-finder"
-              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
+              href="/services"
+              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white transition-all hover:opacity-90"
               style={{ color: "#155EEF" }}
             >
-              Check Visa Requirements
+              Explore Services
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#155EEF]"
-              aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
+            <Link
+              href="/contact"
+              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-white text-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
-              <MessageCircle className="w-5 h-5" aria-hidden />
-              WhatsApp Us
-            </a>
+              Contact Us
+            </Link>
           </div>
         </div>
       </section>

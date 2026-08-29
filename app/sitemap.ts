@@ -28,6 +28,7 @@ const staticPaths = [
   "/services/australia-visa-from-pakistan",
   "/services/usa-visa-from-pakistan",
   "/services/germany-visa-from-pakistan",
+  "/services/visit-visa",
   "/services/study-visa",
   "/services/work-visa",
   "/services/uae-visit-visa",

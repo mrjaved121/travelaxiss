@@ -18,7 +18,16 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import RelatedLinks from "@/components/RelatedLinks";
 import { visaServicesFaqs } from "@/components/data/visaServicesFaqs";
+
+const relatedServices = [
+  { href: "/services/study-visa", label: "Study Visas" },
+  { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
+  { href: "/services/company-formation", label: "Business & Investment" },
+  { href: "/services/attestation", label: "Document Services" },
+];
 
 const visaTypes: { title: string; description: string; icon: LucideIcon; link: string }[] = [
   {
@@ -73,6 +82,7 @@ export default function VisaServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
+            <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "UAE Residency Visas" }]} />
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Visa Services
             </p>
@@ -176,12 +186,9 @@ export default function VisaServicesPage() {
                     className="text-left text-base font-bold py-5 hover:no-underline"
                     style={{ color: '#1D2939' }}
                   >
-                    <span className="flex items-start gap-2">
-                      <span className="text-[#155EEF]">❓</span>
-                      {faq.q}
-                    </span>
+                    {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed pl-8">
+                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -190,6 +197,9 @@ export default function VisaServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Related services */}
+      <RelatedLinks links={relatedServices} />
 
       {/* CTA banner */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>

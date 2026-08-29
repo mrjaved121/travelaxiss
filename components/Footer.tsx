@@ -1,5 +1,8 @@
 import Link from "next/link";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { destinations } from "@/components/data/destinations";
+
+const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -38,9 +41,9 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
-          <div className="col-span-1 md:col-span-1">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <p className="text-2xl font-bold mb-4">
               <span style={{ color: "#1D2939" }}>Travel</span>
               <span style={{ color: "#155EEF" }}>axis</span>
@@ -53,124 +56,15 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
-          <nav aria-label="Quick links">
+          {/* Visa Services */}
+          <nav aria-label="Visa services">
             <h3 className="footer-heading mb-5">
-              Quick Links
+              Visa Services
             </h3>
             <ul className="space-y-3 list-none p-0 m-0">
               <li>
-                <Link href="/destinations" className="footer-link transition-colors">
-                  Destinations
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="footer-link transition-colors">
-                  Visa Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/visa-finder" className="footer-link transition-colors">
-                  Visa Finder
-                </Link>
-              </li>
-              <li>
-                <Link href="/success-stories" className="footer-link transition-colors">
-                  Success Stories
-                </Link>
-              </li>
-              <li>
-                <Link href="/consultation" className="footer-link transition-colors">
-                  Book a Consultation
-                </Link>
-              </li>
-              <li>
-                <Link href="/about" className="footer-link transition-colors">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/why-business" className="footer-link transition-colors">
-                  Why Choose Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/pakistan" className="footer-link transition-colors">
-                  For Clients in Pakistan
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="footer-link transition-colors">
-                  Resources / Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="footer-link transition-colors">
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="footer-link transition-colors">
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </nav>
-
-          {/* Services */}
-          <nav aria-label="Services">
-            <h3 className="footer-heading mb-5">
-              Services
-            </h3>
-            <ul className="space-y-3 list-none p-0 m-0">
-              <li>
-                <Link href="/services/company-formation" className="footer-link transition-colors">
-                  Company Formation
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/government-services" className="footer-link transition-colors">
-                  Government Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/legal-documentation" className="footer-link transition-colors">
-                  Legal Documentation
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/business-support" className="footer-link transition-colors">
-                  Business Support
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/visa-services" className="footer-link transition-colors">
-                  UAE Visa Documentation
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/uae-visit-visa" className="footer-link transition-colors">
-                  UAE Visit & Tourist Visa
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/uae-visa-extension-renewal" className="footer-link transition-colors">
-                  UAE Visa Extension & Renewal
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/uae-employment-visa" className="footer-link transition-colors">
-                  UAE Employment & Labour Visa
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/uae-domestic-worker-visa" className="footer-link transition-colors">
-                  UAE Domestic Worker Visa
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/uae-retirement-visa" className="footer-link transition-colors">
-                  UAE Retirement Visa
+                <Link href="/services/visit-visa" className="footer-link transition-colors">
+                  Visit Visa
                 </Link>
               </li>
               <li>
@@ -185,57 +79,101 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services/international-visas" className="footer-link transition-colors">
-                  International Visa Documentation
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/umrah-services" className="footer-link transition-colors">
-                  Umrah Services
+                  International Visa
                 </Link>
               </li>
               <li>
                 <Link href="/services/attestation" className="footer-link transition-colors">
-                  UAE Document Attestation
+                  Visa Documentation
                 </Link>
               </li>
-              <li>
-                <Link href="/services/uk-visa-from-pakistan" className="footer-link transition-colors">
-                  UK Visa from Pakistan
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/canada-visa-from-pakistan" className="footer-link transition-colors">
-                  Canada Visa from Pakistan
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/australia-visa-from-pakistan" className="footer-link transition-colors">
-                  Australia Visa from Pakistan
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/usa-visa-from-pakistan" className="footer-link transition-colors">
-                  USA Visa from Pakistan
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/germany-visa-from-pakistan" className="footer-link transition-colors">
-                  Germany Visa from Pakistan
+              <li className="pt-1">
+                <Link href="/services" className="footer-link font-semibold transition-colors" style={{ color: "#155EEF" }}>
+                  View All Visa Services &rarr;
                 </Link>
               </li>
             </ul>
           </nav>
 
-          {/* Contact Info */}
+          {/* Destinations */}
+          <nav aria-label="Destinations">
+            <h3 className="footer-heading mb-5">
+              Destinations
+            </h3>
+            <ul className="space-y-3 list-none p-0 m-0">
+              {destinations.map((destination) => (
+                <li key={destination.slug}>
+                  <Link href={destination.href} className="footer-link transition-colors">
+                    {destination.name}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-1">
+                <Link href="/destinations" className="footer-link font-semibold transition-colors" style={{ color: "#155EEF" }}>
+                  Explore All Destinations &rarr;
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Company */}
+          <nav aria-label="Company">
+            <h3 className="footer-heading mb-5">
+              Company
+            </h3>
+            <ul className="space-y-3 list-none p-0 m-0">
+              <li>
+                <Link href="/about" className="footer-link transition-colors">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/why-business" className="footer-link transition-colors">
+                  Why Travelaxis
+                </Link>
+              </li>
+              <li>
+                <Link href="/success-stories" className="footer-link transition-colors">
+                  Success Stories
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="footer-link transition-colors">
+                  Resources
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="footer-link transition-colors">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Contact */}
           <div>
             <h3 className="footer-heading mb-5">
               Contact
             </h3>
             <ul className="space-y-3.5 list-none p-0 m-0">
               <li className="flex items-start space-x-2">
-                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
-                <a href="tel:+971589867555" className="footer-link transition-colors">
-                  +971 58 986 7555
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                <span className="text-[#667085] text-sm">Al Qusais, Dubai, UAE</span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                <span className="text-[#667085] text-sm">DHA Phase 8, Lahore, Pakistan</span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <MessageCircle className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                <a
+                  href={WHATSAPP_HREF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link transition-colors"
+                  aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
+                >
+                  WhatsApp Us
                 </a>
               </li>
               <li className="flex items-start space-x-2">
@@ -245,12 +183,10 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
-                <span className="text-[#667085] text-sm">Al Qusais, Dubai, UAE</span>
-              </li>
-              <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
-                <span className="text-[#667085] text-sm">DHA Phase 8, Lahore, Pakistan</span>
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                <a href="tel:+971589867555" className="footer-link transition-colors">
+                  +971 58 986 7555
+                </a>
               </li>
             </ul>
           </div>
