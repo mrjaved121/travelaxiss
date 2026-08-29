@@ -507,35 +507,43 @@ export default function HomePage() {
       <section
         aria-labelledby="cta-heading"
         className="py-20 md:py-28"
-        style={{ backgroundColor: "#155EEF" }}
+        style={{ backgroundColor: "#F5F8FF" }}
       >
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2
-            id="cta-heading"
-            className="section-title mb-5"
-            style={{ color: "#FFFFFF" }}
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            className="rounded-[22px] bg-white px-6 py-12 md:px-12 md:py-14 text-center shadow-sm"
+            style={{ border: "1px solid #E4E7EC" }}
           >
-            Not sure where to begin?
-          </h2>
-          <p className="text-white/85 text-[1.0625rem] max-w-xl mx-auto mb-10">
-            Explore the service that fits your plans, or speak with the Travelaxis
-            team about your next step.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link
-              href="/services"
-              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white transition-all hover:opacity-90"
-              style={{ color: "#155EEF" }}
-            >
-              Explore Services
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </Link>
-            <Link
-              href="/contact"
-              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-white text-white transition-all hover:bg-white hover:text-[#155EEF]"
-            >
-              Contact Us
-            </Link>
+            <span
+              className="block w-10 h-1 rounded-full mx-auto mb-6"
+              style={{ backgroundColor: "#155EEF" }}
+              aria-hidden
+            />
+            <p className="eyebrow mb-3">Travelaxis Support</p>
+            <h2 id="cta-heading" className="section-title mb-4">
+              Not sure where to begin?
+            </h2>
+            <p className="lead max-w-md mx-auto mb-9">
+              Explore the service that fits your plans, or speak with the
+              Travelaxis team about your next step.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link
+                href="/services"
+                className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary transition-all hover:bg-primary-hover shadow-sm hover:shadow-md"
+                style={{ color: "#FFFFFF" }}
+              >
+                Explore Services
+                <ArrowRight className="w-5 h-5" aria-hidden />
+              </Link>
+              <Link
+                href="/contact"
+                className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white transition-colors hover:bg-[#F5F8FF]"
+                style={{ color: "#1D2939", border: "1px solid #E4E7EC" }}
+              >
+                Contact Us
+              </Link>
+            </div>
           </div>
         </div>
       </section>
