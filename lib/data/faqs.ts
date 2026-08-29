@@ -186,8 +186,6 @@ const homepageFaqQuestions = [
   "Do you provide multiple-entry visa assistance?",
   "How does Travelaxis visa documentation work?",
   "Can you help with international visa documentation?",
-  "Do you help with study visa documentation for applicants in Pakistan?",
-  "Do you provide document attestation services?",
   "How long does visa processing take?",
   "Does Travelaxis guarantee visa approval?",
 ];

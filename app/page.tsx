@@ -6,20 +6,20 @@ import { SITE_URL } from "@/lib/seo/site";
 import { homepageFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
-  title: "UAE Visa Services & Documentation | Travelaxis Dubai",
+  title: "Visa, Document & Business Setup Services | Travelaxis",
   description:
-    "Professional UAE visa services in Dubai, including visit visa assistance, visa documentation, multiple-entry visas, and application support. Contact Travelaxis today.",
+    "Travelaxis provides visa application support, document preparation, attestation, and business setup services from our Dubai and Lahore offices. Find the service that fits your plans.",
   keywords: [
-    "UAE visa services Dubai",
-    "UAE visit visa",
-    "Dubai visit visa",
-    "visa documentation Dubai",
-    "UAE visa assistance",
-    "multiple entry visa UAE",
-    "multiple entry visa Dubai",
-    "UAE visa application support",
-    "UAE visa documentation",
-    "international visa documentation",
+    "visa services",
+    "visa application support",
+    "visa document preparation",
+    "study visa support",
+    "visit visa support",
+    "certificate attestation",
+    "UAE residency visa documentation",
+    "business setup Dubai",
+    "company formation UAE",
+    "Travelaxis",
   ],
   alternates: {
     canonical: `${SITE_URL}/`,
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     google: "zkDBpIKHKEwlOYkVQQ4OL-rcZna0NxhTkNqNn8VEYUE",
   },
   openGraph: {
-    title: "UAE Visa Services & Documentation | Travelaxis",
+    title: "Visa, Document & Business Setup Services | Travelaxis",
     description:
-      "Visit visas, multiple-entry visas, visa documentation, and application support in Dubai — plus international visa documentation for major destinations.",
+      "Visa application support, document preparation, attestation, and business setup services from Travelaxis — with offices in Dubai and Lahore.",
     url: `${SITE_URL}/`,
   },
 };
