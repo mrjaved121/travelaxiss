@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 import { destinations } from "@/components/data/destinations";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -9,38 +10,13 @@ export default function Footer() {
 
   return (
     <footer className="pb-16 md:pb-0 border-t" style={{ backgroundColor: "#FFFFFF", color: "#1D2939", borderColor: "#E4E7EC" }}>
-      {/* Newsletter band */}
-      <div style={{ backgroundColor: "#155EEF" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-9 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="text-center md:text-left">
-            <h3 className="subsection-title text-white">Subscribe for the Latest Newsletter</h3>
-            <p className="text-white/90 text-sm mt-1.5">
-              UAE business setup tips and visa updates, straight to your inbox.
-            </p>
-          </div>
-          <form className="w-full md:w-auto flex gap-2.5" aria-label="Newsletter signup">
-            <label htmlFor="newsletter-email" className="sr-only">
-              Your email address
-            </label>
-            <input
-              id="newsletter-email"
-              type="email"
-              required
-              placeholder="Your Email Address"
-              className="flex-1 md:w-72 h-12 px-5 rounded-full text-[0.9375rem] text-[#1D2939] bg-white placeholder:text-[#667085] focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="h-12 px-7 rounded-full font-semibold text-[0.9375rem] bg-white shrink-0"
-              style={{ color: "#155EEF" }}
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
+      {/* Newsletter strip */}
+      <NewsletterSignup />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 border-t"
+        style={{ borderColor: "#E4E7EC" }}
+      >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-1">
