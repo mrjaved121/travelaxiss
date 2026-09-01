@@ -3,10 +3,8 @@
 import Link from "next/link";
 import {
   ArrowRight,
-  Briefcase,
   GraduationCap,
   Plane,
-  Heart,
   CheckCircle,
   MessageCircle,
 } from "lucide-react";
@@ -31,7 +29,7 @@ import { canadaVisaFaqs } from "@/components/data/canadaVisaFaqs";
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const disclaimer =
-  "We provide documentation assistance and consultancy support only, for study permits, work permits, visit visas, and spouse open work permits. We are not a CICC-licensed Canadian immigration consultant and do not file Express Entry, Provincial Nominee, or other regulated permanent-residence applications. All applications are submitted through IRCC's official channels, subject to their rules and approvals.";
+  "We provide documentation assistance and consultancy support only, for study permits and visit visas. We are not a CICC-licensed Canadian immigration consultant and do not file Express Entry, Provincial Nominee, or other regulated permanent-residence applications. All applications are submitted through IRCC's official channels, subject to their rules and approvals.";
 
 const categories: { title: string; description: string; icon: LucideIcon }[] = [
   {
@@ -40,32 +38,20 @@ const categories: { title: string; description: string; icon: LucideIcon }[] = [
     icon: GraduationCap,
   },
   {
-    title: "Work Permit",
-    description: "Support for employer-specific and open work permit applicants who already have a valid job offer or LMIA.",
-    icon: Briefcase,
-  },
-  {
     title: "Visit Visa",
     description: "Tourist, family-visit, and business-visit applications, with a clear document checklist.",
     icon: Plane,
-  },
-  {
-    title: "Spouse Open Work Permit",
-    description: "Documentation for spouses of Canadian study or work permit holders applying to work in Canada.",
-    icon: Heart,
   },
 ];
 
 const timelineRows = [
   { doc: "Visit Visa", authority: "IRCC", turnaround: "Often 3–6 weeks" },
   { doc: "Study Permit", authority: "IRCC, via your DLI acceptance", turnaround: "4–12 weeks, varies by intake" },
-  { doc: "Work Permit", authority: "IRCC", turnaround: "4–16 weeks, depends on permit type" },
-  { doc: "Spouse Open Work Permit", authority: "IRCC", turnaround: "Processed alongside the sponsoring permit, timelines vary" },
 ];
 
 const howWeHelp = [
   "A document checklist reviewed with you before you submit anything",
-  "Help organizing proof of funds, acceptance letters, and job offer paperwork",
+  "Help organizing proof of funds and acceptance letters",
   "Coordination on attestation where your documents need it first",
   "Biometric appointment scheduling support in Pakistan",
 ];
@@ -84,7 +70,7 @@ export default function CanadaVisaFromPakistanPage() {
               Canada Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
-              Whether you have a study offer, a job offer, a spouse in Canada, or a trip to plan, a Canada visa application from Pakistan starts with the right documents submitted correctly through IRCC. We prepare the paperwork for study permits, work permits, visit visas, and spouse open work permits.
+              Whether you have a study offer or a trip to plan, a Canada visa application from Pakistan starts with the right documents submitted correctly through IRCC. We prepare the paperwork for study permits and visit visas.
             </p>
             <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
@@ -101,7 +87,7 @@ export default function CanadaVisaFromPakistanPage() {
                 >
                   IRCC
                 </a>
-                , with biometrics completed at a visa application centre in Pakistan. Requirements depend on category — study permit, work permit, visit visa, or spouse open work permit. We prepare documentation for these categories; we don&apos;t file Express Entry or Provincial Nominee (PR) applications, which require a licensed Canadian immigration consultant.
+                , with biometrics completed at a visa application centre in Pakistan. Requirements depend on category — study permit or visit visa. We prepare documentation for these categories; we don&apos;t file Express Entry or Provincial Nominee (PR) applications, which require a licensed Canadian immigration consultant.
               </p>
             </div>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
@@ -145,7 +131,7 @@ export default function CanadaVisaFromPakistanPage() {
               Canada Visa Categories We Support
             </h2>
           </motion.div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {categories.map((item, index) => (
               <motion.div
                 key={item.title}
@@ -187,7 +173,7 @@ export default function CanadaVisaFromPakistanPage() {
               Some Canada Applications Need Attested Documents Too
             </h3>
             <p className="text-[#667085] leading-relaxed mb-4">
-              Spouse open work permit and some study permit applications may require attested marriage or educational certificates. Where they do, the{" "}
+              Some study permit applications may require attested educational certificates. Where they do, the{" "}
               <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
               </Link>{" "}
@@ -375,7 +361,7 @@ export default function CanadaVisaFromPakistanPage() {
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Canada Visa Application</h2>
           <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
-            Tell us your category — study, work, visit, or spouse permit — and we&apos;ll map out exactly what you need.
+            Tell us your category — study or visit — and we&apos;ll map out exactly what you need.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
             {disclaimer}

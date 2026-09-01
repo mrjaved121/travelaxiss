@@ -359,7 +359,7 @@ export default function UaeVisaExtensionRenewalPage() {
               {[
                 { href: "/services/uae-visit-visa", label: "UAE Visit & Tourist Visa" },
                 { href: "/services/visa-services", label: "UAE Visa Documentation & Consultancy" },
-                { href: "/services/uae-employment-visa", label: "UAE Employment & Labour Visa" },
+                { href: "/services/uae-retirement-visa", label: "UAE Retirement Visa" },
               ].map((link) => (
                 <Link
                   key={link.href}

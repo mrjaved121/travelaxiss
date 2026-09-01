@@ -1,7 +1,7 @@
 export const attestationFaqs: { q: string; a: string }[] = [
   {
     q: "What is UAE degree attestation and why do I need it from Pakistan?",
-    a: "UAE degree attestation is the process of getting a Pakistani university degree formally verified and recognized by UAE authorities. It's required for most UAE work visas, some family visas, and university admissions — employers and immigration will not accept an unattested degree.",
+    a: "UAE degree attestation is the process of getting a Pakistani university degree formally verified and recognized by UAE authorities. It's required for some family visas and university admissions — UAE authorities will not accept an unattested degree.",
   },
   {
     q: "What is the full attestation chain for a Pakistani degree going to the UAE?",

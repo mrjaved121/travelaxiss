@@ -18,16 +18,16 @@ export const destinations: Destination[] = [
   {
     slug: "uae",
     name: "United Arab Emirates",
-    pathways: ["Visit", "Work", "Residence"],
+    pathways: ["Visit", "Residence"],
     description:
-      "Visit visas, employment visas, and residence visa documentation for Dubai and across the UAE.",
+      "Visit visas and residence visa documentation for Dubai and across the UAE.",
     href: "/dubai",
     ready: true,
   },
   {
     slug: "usa",
     name: "United States",
-    pathways: ["Study", "Work", "Visit", "Immigration"],
+    pathways: ["Study", "Visit", "Immigration"],
     description: "Documentation and consultancy support for US visa applications from Pakistan.",
     href: "/services/usa-visa-from-pakistan",
     ready: true,
@@ -35,7 +35,7 @@ export const destinations: Destination[] = [
   {
     slug: "canada",
     name: "Canada",
-    pathways: ["Study", "Work", "Immigration"],
+    pathways: ["Study", "Immigration"],
     description: "Documentation and consultancy support for Canadian visa applications from Pakistan.",
     href: "/services/canada-visa-from-pakistan",
     ready: true,
@@ -43,7 +43,7 @@ export const destinations: Destination[] = [
   {
     slug: "uk",
     name: "United Kingdom",
-    pathways: ["Study", "Work", "Visit"],
+    pathways: ["Study", "Visit"],
     description: "Documentation and consultancy support for UK visa applications from Pakistan.",
     href: "/services/uk-visa-from-pakistan",
     ready: true,
@@ -51,7 +51,7 @@ export const destinations: Destination[] = [
   {
     slug: "australia",
     name: "Australia",
-    pathways: ["Study", "Work", "Migration"],
+    pathways: ["Study", "Migration"],
     description: "Documentation and consultancy support for Australian visa applications from Pakistan.",
     href: "/services/australia-visa-from-pakistan",
     ready: true,
@@ -59,8 +59,8 @@ export const destinations: Destination[] = [
   {
     slug: "germany",
     name: "Germany",
-    pathways: ["Study", "Work", "Opportunity"],
-    description: "Documentation and consultancy support for EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification applications from Pakistan.",
+    pathways: ["Study", "Opportunity"],
+    description: "Documentation and consultancy support for Student/Ausbildung and Family Reunification applications from Pakistan.",
     href: "/services/germany-visa-from-pakistan",
     ready: true,
   },

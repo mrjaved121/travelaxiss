@@ -12,7 +12,7 @@ export const studyVisaFaqs: { q: string; a: string }[] = [
     a: "You need a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of funds, Genuine Temporary Entrant evidence, and health insurance (OSHC). We help prepare each of these before you submit through ImmiAccount.",
   },
   {
-    q: "Do I need my degree attested for a Germany student or work visa from Pakistan?",
+    q: "Do I need my degree attested for a Germany student visa from Pakistan?",
     a: "German missions and universities often require verified or attested academic documents, and requirements can vary by university and visa category. We confirm exactly what your case needs and can run attestation in parallel if required.",
   },
 ];

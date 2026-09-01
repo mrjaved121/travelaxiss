@@ -6,13 +6,11 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Germany Visa from Pakistan – EU Blue Card, Job Seeker, Student & Family",
+  title: "Germany Visa from Pakistan – Student & Family",
   description:
-    "Germany visa documentation for Pakistani applicants: EU Blue Card, Job Seeker Visa, Student/Ausbildung, and Family Reunification categories. Document checklists & how to apply.",
+    "Germany visa documentation for Pakistani applicants: Student/Ausbildung and Family Reunification categories. Document checklists & how to apply.",
   keywords: [
     "germany visa from pakistan",
-    "eu blue card from pakistan",
-    "germany job seeker visa pakistan",
     "germany student visa from pakistan",
     "ausbildung visa pakistan",
   ],
@@ -23,7 +21,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/services/germany-visa-from-pakistan/`,
     title: "Germany Visa from Pakistan | Travelaxis",
     description:
-      "Document preparation for Germany EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification visa applicants in Pakistan.",
+      "Document preparation for Germany Student/Ausbildung and Family Reunification visa applicants in Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -40,7 +38,7 @@ export default function Page() {
           serviceJsonLd({
             name: "Germany Visa Documentation from Pakistan",
             description:
-              "Document preparation and application support for Germany EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification visa applicants in Pakistan.",
+              "Document preparation and application support for Germany Student/Ausbildung and Family Reunification visa applicants in Pakistan.",
             path: "/services/germany-visa-from-pakistan",
             serviceType: "Germany visa documentation consultancy",
           }),

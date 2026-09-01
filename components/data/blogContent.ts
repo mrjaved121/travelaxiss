@@ -325,7 +325,6 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "UAE Visa Consultancy", href: "/" },
             { label: "UAE Visa Ban & Status Check", href: "/blog/uae-visa-ban-status-check-guide" },
-            { label: "UAE Employment & Labour Visa", href: "/services/uae-employment-visa" },
             { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
           ],
         },
@@ -571,7 +570,6 @@ export const blogData: Record<string, any> = {
           heading: "Related Reading",
           relatedLinks: [
             { label: "UAE Business Setup & Visa Support", href: "/" },
-            { label: "UAE Employment & Labour Visa", href: "/services/uae-employment-visa" },
             { label: "UAE Retirement Visa", href: "/services/uae-retirement-visa" },
             { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide" },
           ],
@@ -7438,7 +7436,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Employment Visa Documentation", href: "/" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
