@@ -6,15 +6,13 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Canada Visa from Pakistan – Study, Work, Visit & Spouse Permits",
+  title: "Canada Visa from Pakistan – Study & Visit",
   description:
-    "Canada visa documentation for Pakistani applicants: study permit, work permit, visit visa, and spouse open work permit. Checklists, timelines & how to apply.",
+    "Canada visa documentation for Pakistani applicants: study permit and visit visa. Checklists, timelines & how to apply.",
   keywords: [
     "canada visa from pakistan",
     "canada visit visa from pakistan",
     "canada study visa from pakistan",
-    "canada work permit from pakistan",
-    "canada spouse visa from pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/services/canada-visa-from-pakistan/`,
@@ -23,7 +21,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/services/canada-visa-from-pakistan/`,
     title: "Canada Visa from Pakistan | Travelaxis",
     description:
-      "Document preparation for Canada study permit, work permit, visit visa, and spouse open work permit applicants in Pakistan.",
+      "Document preparation for Canada study permit and visit visa applicants in Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -40,7 +38,7 @@ export default function Page() {
           serviceJsonLd({
             name: "Canada Visa Documentation from Pakistan",
             description:
-              "Document preparation and application support for Canada study permit, work permit, visit visa, and spouse open work permit applicants in Pakistan.",
+              "Document preparation and application support for Canada study permit and visit visa applicants in Pakistan.",
             path: "/services/canada-visa-from-pakistan",
             serviceType: "Canada visa documentation consultancy",
           }),

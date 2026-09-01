@@ -3,7 +3,6 @@
 import Link from "next/link";
 import {
   ArrowRight,
-  Briefcase,
   GraduationCap,
   Plane,
   Heart,
@@ -31,14 +30,9 @@ import { ukVisaFaqs } from "@/components/data/ukVisaFaqs";
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const disclaimer =
-  "We provide documentation assistance and consultancy support only. We are not the UK Home Office, a UK employer, or a recruitment agency, and we do not arrange sponsorship, guarantee visa approval, or provide regulated immigration advice. All applications are submitted through UK Visas and Immigration's official channels, subject to their rules and approvals.";
+  "We provide documentation assistance and consultancy support only. We are not the UK Home Office, and we do not guarantee visa approval or provide regulated immigration advice. All applications are submitted through UK Visas and Immigration's official channels, subject to their rules and approvals.";
 
 const categories: { title: string; description: string; icon: LucideIcon }[] = [
-  {
-    title: "Skilled Worker Visa",
-    description: "Document preparation for applicants who already hold a Certificate of Sponsorship from a licensed UK employer.",
-    icon: Briefcase,
-  },
   {
     title: "Student Visa",
     description: "Documentation support for admitted students with a Confirmation of Acceptance for Studies (CAS) from a licensed UK institution.",
@@ -59,7 +53,6 @@ const categories: { title: string; description: string; icon: LucideIcon }[] = [
 const timelineRows = [
   { doc: "Visit Visa", authority: "UK Visas and Immigration (UKVI)", turnaround: "Often 3–4 weeks" },
   { doc: "Student Visa", authority: "UKVI, via your CAS-issuing institution", turnaround: "3–8 weeks, varies by season" },
-  { doc: "Skilled Worker Visa", authority: "UKVI, via your sponsoring employer", turnaround: "3–8 weeks" },
   { doc: "Family / Spouse Visa", authority: "UKVI", turnaround: "8–12 weeks, often longer" },
 ];
 
@@ -84,7 +77,7 @@ export default function UkVisaFromPakistanPage() {
               UK Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
-              Whether you have a UK job offer, a university place, a family member to join, or a trip to plan, a UK visa application from Pakistan comes down to the same thing: complete, correctly prepared documents submitted through UKVI's official process. We handle the paperwork so you don&apos;t have to figure it out alone.
+              Whether you have a university place, a family member to join, or a trip to plan, a UK visa application from Pakistan comes down to the same thing: complete, correctly prepared documents submitted through UKVI's official process. We handle the paperwork so you don&apos;t have to figure it out alone.
             </p>
             <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
@@ -101,7 +94,7 @@ export default function UkVisaFromPakistanPage() {
                 >
                   UKVI
                 </a>
-                , with a biometric appointment at a visa application centre in Pakistan. Requirements depend on category — Skilled Worker, Student, Visit, or Family — but all need a valid passport, category-specific supporting documents, and (for some categories) attested certificates. We don&apos;t arrange sponsorship or jobs; we prepare the documentation for an application you already have grounds to make.
+                , with a biometric appointment at a visa application centre in Pakistan. Requirements depend on category — Student, Visit, or Family — but all need a valid passport, category-specific supporting documents, and (for some categories) attested certificates. We prepare the documentation for an application you already have grounds to make.
               </p>
             </div>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
@@ -145,7 +138,7 @@ export default function UkVisaFromPakistanPage() {
               UK Visa Categories We Support
             </h2>
           </motion.div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {categories.map((item, index) => (
               <motion.div
                 key={item.title}
@@ -375,7 +368,7 @@ export default function UkVisaFromPakistanPage() {
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your UK Visa Application</h2>
           <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
-            Tell us your category — work, study, visit, or family — and we&apos;ll map out exactly what you need.
+            Tell us your category — study, visit, or family — and we&apos;ll map out exactly what you need.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
             {disclaimer}

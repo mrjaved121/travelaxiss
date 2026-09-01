@@ -8,10 +8,9 @@ export const metadata: Metadata = {
   title:
     "International Visa Documentation | Saudi, Europe, USA, Schengen | Travelaxis",
   description:
-    "Visa documentation and consultancy support for Saudi Arabia, Europe work visas, the USA, Schengen, and other African and Asian destinations—for UAE residents traveling or relocating abroad.",
+    "Visa documentation and consultancy support for Saudi Arabia, Europe, the USA, Schengen, and other African and Asian destinations—for UAE residents traveling or relocating abroad.",
   keywords: [
     "Saudi Arabia visa services",
-    "Europe work visa documentation",
     "USA visa services UAE",
     "Schengen visa services UAE",
     "African countries visas UAE",

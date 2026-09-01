@@ -4,7 +4,6 @@ import Link from "next/link";
 import {
   ArrowRight,
   Landmark,
-  Briefcase,
   Flag,
   Globe2,
   Compass,
@@ -25,14 +24,8 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
   {
     title: "Saudi Arabia Visa Documentation",
     description:
-      "Documentation support for Saudi visit, business, and work visa applications, submitted through official Saudi channels.",
+      "Documentation support for Saudi visit and business visa applications, submitted through official Saudi channels.",
     icon: Landmark,
-  },
-  {
-    title: "Europe Work Visa Documentation",
-    description:
-      "Guidance and paperwork support for individuals already sponsored by a European employer. We do not arrange jobs or sponsorship.",
-    icon: Briefcase,
   },
   {
     title: "USA Visa Documentation",
@@ -61,7 +54,7 @@ const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
   {
     title: "Asian Countries Visas",
     description:
-      "Documentation assistance for visit, business, and work visa applications across Asian destination countries.",
+      "Documentation assistance for visit and business visa applications across Asian destination countries.",
     icon: MapPin,
   },
   {
@@ -114,7 +107,7 @@ const countryGroups: {
   {
     title: "Other Popular Destinations",
     groupDescription:
-      "Visit, study, and work visa documentation for a range of other frequently requested destinations.",
+      "Visit and study visa documentation for a range of other frequently requested destinations.",
     countries: [
       { name: "South Africa" },
       { name: "New Zealand" },
@@ -142,10 +135,6 @@ const faqs = [
   {
     q: "Can you guarantee my visa will be approved?",
     a: "No consultancy can guarantee approval for any country. We help ensure your application is complete and correctly documented, which is the biggest factor within your control.",
-  },
-  {
-    q: "Do you help me find a job abroad for a work visa?",
-    a: "No. We are a documentation and consultancy service, not a recruitment agency. We support paperwork for applicants who already have a sponsor, employer, or invitation—we don't source jobs or place candidates.",
   },
   {
     q: "Which countries do you currently support?",

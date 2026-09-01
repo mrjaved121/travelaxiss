@@ -5,7 +5,6 @@ import {
   ArrowRight,
   ArrowUpRight,
   CircleDollarSign,
-  Briefcase,
   Users,
   Plane,
   FileStack,
@@ -36,13 +35,6 @@ const visaTypes: { title: string; description: string; icon: LucideIcon; link: s
       "Documentation and application support for business owners and investors establishing a company.",
     icon: CircleDollarSign,
     link: "/blog/investor-visa-uae-guide",
-  },
-  {
-    title: "Employment Visas",
-    description:
-      "Guidance and paperwork support for individuals already sponsored by a UAE-based employer. We do not arrange jobs or sponsorship.",
-    icon: Briefcase,
-    link: "/services/uae-employment-visa",
   },
   {
     title: "Family Sponsorship Visas",
@@ -108,7 +100,7 @@ export default function VisaServicesPage() {
             <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="UAE visa documentation: investor, employment, family, and visit visa consultancy"
+              alt="UAE visa documentation: investor, family, and visit visa consultancy"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"

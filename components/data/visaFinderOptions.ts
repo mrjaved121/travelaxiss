@@ -1,6 +1,5 @@
 import {
   GraduationCap,
-  Briefcase,
   Plane,
   Home,
   Users,
@@ -8,12 +7,11 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-export type GoalKey = "study" | "work" | "visit" | "immigration" | "family" | "business";
+export type GoalKey = "study" | "visit" | "immigration" | "family" | "business";
 export type DestinationKey = "uae" | "usa" | "canada" | "uk" | "australia" | "germany";
 
 export const GOALS: { key: GoalKey; label: string; icon: LucideIcon }[] = [
   { key: "study", label: "Study", icon: GraduationCap },
-  { key: "work", label: "Work", icon: Briefcase },
   { key: "visit", label: "Visit", icon: Plane },
   { key: "immigration", label: "Immigration", icon: Home },
   { key: "family", label: "Family", icon: Users },
@@ -48,7 +46,6 @@ export const BUDGET_BANDS = ["Limited", "Moderate", "Flexible", "Not a constrain
 export const PATHWAY_LABELS: Record<DestinationKey, Partial<Record<GoalKey, string>>> = {
   uae: {
     study: "UAE student visa sponsorship",
-    work: "UAE employment visa",
     visit: "UAE visit visa",
     immigration: "UAE Golden Visa / long-term residence",
     family: "UAE family / dependent visa",
@@ -56,7 +53,6 @@ export const PATHWAY_LABELS: Record<DestinationKey, Partial<Record<GoalKey, stri
   },
   usa: {
     study: "US F-1 student visa",
-    work: "US employment-based visa categories (e.g. H-1B)",
     visit: "US B1/B2 visitor visa",
     immigration: "US employment or family-based immigrant visa",
     family: "US family sponsorship visa",
@@ -64,7 +60,6 @@ export const PATHWAY_LABELS: Record<DestinationKey, Partial<Record<GoalKey, stri
   },
   canada: {
     study: "Canada study permit",
-    work: "Canada work permit",
     visit: "Canada visitor visa",
     immigration: "Canada Express Entry / permanent residence programs",
     family: "Canada family sponsorship",
@@ -72,7 +67,6 @@ export const PATHWAY_LABELS: Record<DestinationKey, Partial<Record<GoalKey, stri
   },
   uk: {
     study: "UK Student visa",
-    work: "UK Skilled Worker visa",
     visit: "UK Standard Visitor visa",
     immigration: "UK long-term settlement pathways",
     family: "UK family visa",
@@ -80,7 +74,6 @@ export const PATHWAY_LABELS: Record<DestinationKey, Partial<Record<GoalKey, stri
   },
   australia: {
     study: "Australia student visa",
-    work: "Australia skilled/employer-sponsored work visa",
     visit: "Australia visitor visa",
     immigration: "Australia skilled migration (points-based)",
     family: "Australia family/partner visa",
@@ -88,7 +81,6 @@ export const PATHWAY_LABELS: Record<DestinationKey, Partial<Record<GoalKey, stri
   },
   germany: {
     study: "Germany student visa",
-    work: "Germany EU Blue Card / work visa",
     visit: "Germany Schengen visitor visa",
     immigration: "Germany long-term residence pathways",
     family: "Germany family reunification visa",

@@ -200,7 +200,6 @@ export default function AttestationPage() {
           </motion.div>
           <div className="flex flex-wrap gap-3 max-w-4xl">
             {[
-              "UAE work visa applicants",
               "Family & dependent visa sponsors",
               "Students applying to UAE universities",
               "Business owners submitting Pakistani commercial documents",

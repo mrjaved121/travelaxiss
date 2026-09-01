@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, Compass, RefreshCw, Briefcase, Home, PiggyBank, Clock, Shield, Target } from "lucide-react";
+import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, Compass, RefreshCw, PiggyBank, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
@@ -53,7 +53,7 @@ const services: {
     category: "Visa Services",
     group: "UAE Visas",
     description:
-      "Investor, employment, and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
+      "Investor and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
     icon: Plane,
     link: "/services/visa-services",
   },
@@ -89,7 +89,7 @@ const services: {
     category: "UK Visas",
     group: "International Visas",
     description:
-      "Skilled Worker, Student, Visit, and Family/Spouse visa documentation for Pakistani applicants, submitted through UKVI's official channels.",
+      "Student, Visit, and Family/Spouse visa documentation for Pakistani applicants, submitted through UKVI's official channels.",
     icon: Landmark,
     link: "/services/uk-visa-from-pakistan",
   },
@@ -98,7 +98,7 @@ const services: {
     category: "Canada Visas",
     group: "International Visas",
     description:
-      "Study permit, work permit, visit visa, and spouse open work permit documentation for Pakistani applicants, submitted through IRCC.",
+      "Study permit and visit visa documentation for Pakistani applicants, submitted through IRCC.",
     icon: Snowflake,
     link: "/services/canada-visa-from-pakistan",
   },
@@ -125,7 +125,7 @@ const services: {
     category: "Germany Visas",
     group: "International Visas",
     description:
-      "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification visa documentation for Pakistani applicants.",
+      "Student/Ausbildung and Family Reunification visa documentation for Pakistani applicants.",
     icon: Compass,
     link: "/services/germany-visa-from-pakistan",
   },
@@ -146,24 +146,6 @@ const services: {
       "Visit visa extension, residence visa renewal, and status change — clearly explained, with documents and timelines.",
     icon: RefreshCw,
     link: "/services/uae-visa-extension-renewal",
-  },
-  {
-    title: "UAE Employment & Labour Visa",
-    category: "Employment Visas",
-    group: "UAE Visas",
-    description:
-      "Work permit, medical, Emirates ID, and visa stamping documentation — plus who legally pays for what.",
-    icon: Briefcase,
-    link: "/services/uae-employment-visa",
-  },
-  {
-    title: "UAE Domestic Worker Visa",
-    category: "Domestic Worker",
-    group: "UAE Visas",
-    description:
-      "Tadbeer-channel sponsorship documentation for households sponsoring a domestic worker in the UAE.",
-    icon: Home,
-    link: "/services/uae-domestic-worker-visa",
   },
   {
     title: "UAE Retirement Visa",

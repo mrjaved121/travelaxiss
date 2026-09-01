@@ -3,9 +3,7 @@
 import Link from "next/link";
 import {
   ArrowRight,
-  Briefcase,
   GraduationCap,
-  Search,
   Heart,
   CheckCircle,
   MessageCircle,
@@ -23,19 +21,9 @@ import { germanyVisaFaqs } from "@/components/data/germanyVisaFaqs";
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const disclaimer =
-  "We provide documentation assistance and consultancy support only. We are not the German Federal Foreign Office, a German employer, or a recruitment agency, and we do not arrange job offers, sponsorship, or guarantee visa approval. All applications are submitted through the German Mission's official channels, subject to their rules and approvals.";
+  "We provide documentation assistance and consultancy support only. We are not the German Federal Foreign Office, and we do not guarantee visa approval. All applications are submitted through the German Mission's official channels, subject to their rules and approvals.";
 
 const categories: { title: string; description: string; icon: LucideIcon }[] = [
-  {
-    title: "EU Blue Card",
-    description: "Document preparation for university graduates with a qualifying job offer meeting Germany's salary threshold.",
-    icon: Briefcase,
-  },
-  {
-    title: "Job Seeker Visa",
-    description: "Documentation support for qualified professionals travelling to Germany to search for work in person.",
-    icon: Search,
-  },
   {
     title: "Student Visa",
     description: "Documentation for applicants admitted to a German university or an accredited Ausbildung (vocational training) program.",
@@ -50,7 +38,7 @@ const categories: { title: string; description: string; icon: LucideIcon }[] = [
 
 const howWeHelp = [
   "A document checklist reviewed with you before you submit anything",
-  "Help preparing academic, employment, and financial supporting documents",
+  "Help preparing academic and financial supporting documents",
   "Coordination on attestation where your documents need it first",
   "Appointment scheduling support at your local visa application centre",
 ];
@@ -67,11 +55,11 @@ export default function GermanyVisaFromPakistanPage() {
               Germany Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead mb-6">
-              Whether you have a German job offer, a university or Ausbildung place, a family
-              member to join, or you&apos;re exploring the Job Seeker Visa, a Germany
-              application from Pakistan comes down to complete, correctly prepared documents
-              submitted through the German Mission&apos;s official process. We handle the
-              paperwork so you don&apos;t have to figure it out alone.
+              Whether you have a university or Ausbildung place, or a family
+              member to join, a Germany application from Pakistan comes down to complete,
+              correctly prepared documents submitted through the German Mission&apos;s
+              official process. We handle the paperwork so you don&apos;t have to figure it
+              out alone.
             </p>
             <div className="rounded-2xl p-6 mb-8 card-hover" style={{ borderLeft: "4px solid #155EEF", backgroundColor: "#FFFFFF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
@@ -80,11 +68,11 @@ export default function GermanyVisaFromPakistanPage() {
               <p className="text-[#667085] leading-relaxed">
                 A Germany visa from Pakistan is applied for through the German Mission&apos;s
                 official visa process, typically via an authorized visa application centre in
-                Pakistan. Requirements depend on category — EU Blue Card, Job Seeker, Student,
-                Ausbildung, or Family Reunification — but all need a valid passport,
-                category-specific supporting documents, and often attested academic or civil
-                certificates. We don&apos;t arrange job offers or university admission; we
-                prepare the documentation for an application you already have grounds to make.
+                Pakistan. Requirements depend on category — Student, Ausbildung, or Family
+                Reunification — but all need a valid passport, category-specific supporting
+                documents, and often attested academic or civil certificates. We don&apos;t
+                arrange university admission; we prepare the documentation for an application
+                you already have grounds to make.
               </p>
             </div>
             <p className="text-note border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
@@ -128,7 +116,7 @@ export default function GermanyVisaFromPakistanPage() {
               Germany Pathways We Support
             </h2>
           </motion.div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {categories.map((item, index) => (
               <motion.div
                 key={item.title}
@@ -170,8 +158,8 @@ export default function GermanyVisaFromPakistanPage() {
               Germany Applications Often Need Attested Documents
             </h2>
             <p className="text-[#667085] leading-relaxed mb-4">
-              Student, Ausbildung, and some work-category applications commonly require attested
-              academic or civil certificates. Where they do, the{" "}
+              Student and Ausbildung applications commonly require attested academic or civil
+              certificates. Where they do, the{" "}
               <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
               </Link>{" "}
@@ -288,7 +276,7 @@ export default function GermanyVisaFromPakistanPage() {
           <div className="w-16 h-[3px] mx-auto mb-8 bg-white/40" aria-hidden />
           <h2 className="section-title mb-6">Start Your Germany Application</h2>
           <p className="text-white/80 mb-4 max-w-2xl mx-auto">
-            Tell us your pathway — Blue Card, Job Seeker, Student, Ausbildung, or Family — and
+            Tell us your pathway — Student, Ausbildung, or Family — and
             we&apos;ll map out exactly what you need.
           </p>
           <p className="text-sm text-white/60 mb-10 max-w-2xl mx-auto leading-relaxed">

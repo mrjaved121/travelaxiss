@@ -4,7 +4,6 @@ import Link from "next/link";
 import {
   ArrowUpRight,
   Stamp,
-  Briefcase,
   Plane,
   Heart,
   Building2,
@@ -15,7 +14,6 @@ import {
   MessageCircle,
   Clock,
   Users,
-  Wallet,
   GraduationCap,
   Flag,
   Compass,
@@ -50,22 +48,6 @@ const guides: {
     link: "/blog/uae-student-visa-from-pakistan",
   },
   {
-    title: "UAE Job Seeker Visa — Eligibility & Documents",
-    category: "Work Visa",
-    description:
-      "Who qualifies for the Job Seeker entry permit, the full document checklist, and the Pakistan-specific attestation chain for your qualification tier.",
-    icon: Briefcase,
-    link: "/blog/job-seeker-visa-from-pakistan",
-  },
-  {
-    title: "UAE Work Visa Documents Checklist",
-    category: "Work Visa",
-    description:
-      "Everything Pakistani applicants need for an employer-sponsored work visa: GAMCA medical, BE&OE registration, and attestation by job category.",
-    icon: Briefcase,
-    link: "/blog/uae-work-visa-documents-checklist",
-  },
-  {
     title: "Dubai Visit Visa from Pakistan",
     category: "Visit Visa",
     description:
@@ -90,14 +72,6 @@ const guides: {
     link: "/blog/start-business-in-dubai-from-pakistan",
   },
   {
-    title: "Dubai Work Visa Price from Pakistan",
-    category: "Work Visa",
-    description:
-      "What a legitimate work visa actually costs, who's supposed to pay for what, and the overcharging patterns to watch for.",
-    icon: Wallet,
-    link: "/blog/dubai-work-visa-price-from-pakistan",
-  },
-  {
     title: "Umrah Visa & Packages",
     category: "Pilgrimage Travel",
     description:
@@ -109,7 +83,7 @@ const guides: {
     title: "UK Visa from Pakistan",
     category: "UK Visas",
     description:
-      "Skilled Worker, Student, Visit, and Family/Spouse visa documentation, submitted through UKVI's official channels.",
+      "Student, Visit, and Family/Spouse visa documentation, submitted through UKVI's official channels.",
     icon: Landmark,
     link: "/services/uk-visa-from-pakistan",
   },
@@ -117,7 +91,7 @@ const guides: {
     title: "Canada Visa from Pakistan",
     category: "Canada Visas",
     description:
-      "Study permit, work permit, visit visa, and spouse open work permit documentation, submitted through IRCC.",
+      "Study permit and visit visa documentation, submitted through IRCC.",
     icon: Snowflake,
     link: "/services/canada-visa-from-pakistan",
   },
@@ -141,7 +115,7 @@ const guides: {
     title: "Germany Visa from Pakistan",
     category: "Germany Visas",
     description:
-      "EU Blue Card, Job Seeker, Student/Ausbildung, and Family Reunification documentation, submitted through the German Mission's official process.",
+      "Student/Ausbildung and Family Reunification documentation, submitted through the German Mission's official process.",
     icon: Compass,
     link: "/services/germany-visa-from-pakistan",
   },

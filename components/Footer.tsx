@@ -49,11 +49,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/work-visa" className="footer-link transition-colors">
-                  Work Visa
-                </Link>
-              </li>
-              <li>
                 <Link href="/services/international-visas" className="footer-link transition-colors">
                   International Visa
                 </Link>
