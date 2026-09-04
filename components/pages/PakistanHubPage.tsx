@@ -53,7 +53,7 @@ const guides: {
     description:
       "30/60/90-day visit visa durations, sponsor routes, documents, and the solvency proof that gets Pakistani applications approved.",
     icon: Plane,
-    link: "/blog/dubai-visit-visa-from-pakistan",
+    link: "/services/uae-visit-visa-from-pakistan",
   },
   {
     title: "UAE Family Visa from Pakistan",
