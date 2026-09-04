@@ -31,6 +31,7 @@ const staticPaths = [
   "/services/visit-visa",
   "/services/study-visa",
   "/services/uae-visit-visa",
+  "/services/uae-visit-visa-from-pakistan",
   "/services/uae-visa-extension-renewal",
   "/services/uae-retirement-visa",
   "/dubai",

@@ -2459,7 +2459,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Process",
           content:
-            "We help Pakistani applicants choose the right sponsor route for their situation, review and organize bank statements and financial proof to present solvency clearly, and prepare a complete application file for submission through the appropriate channel — final approval rests with UAE immigration authorities, not with us. We also help coordinate documentation for sponsor-based applications where the relationship needs formal support.",
+            "We help Pakistani applicants choose the right sponsor route for their situation, review and organize bank statements and financial proof to present solvency clearly, and prepare a complete application file for submission through the appropriate channel — final approval rests with UAE immigration authorities, not with us. We also help coordinate documentation for sponsor-based applications where the relationship needs formal support. See our [Dubai visit visa from Pakistan](/services/uae-visit-visa-from-pakistan) page for current requirements and to start your application.",
         },
         {
           heading: "Frequently Asked Questions",
@@ -2579,7 +2579,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Price & Documentation", href: "/" },
+            { label: "Dubai Visit Visa from Pakistan — Apply Now", href: "/services/uae-visit-visa-from-pakistan" },
             { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
             { label: "Bank Statement Requirements for UAE Visas", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },

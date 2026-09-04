@@ -11,8 +11,6 @@ export const metadata: Metadata = {
     "Visit visa documentation support for the UAE, UK, USA, Canada, Australia, Saudi Arabia, and Schengen destinations. Document preparation for tourism, family, and business visits.",
   keywords: [
     "visit visa documentation",
-    "uae visit visa",
-    "visit visa from pakistan",
     "uk visit visa from pakistan",
     "canada visit visa from pakistan",
     "australia visitor visa from pakistan",
