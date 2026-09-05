@@ -24,10 +24,10 @@ const visitRegions: { title: string; description: string; icon: LucideIcon; href
 ];
 
 const studyCountries: { title: string; description: string; icon: LucideIcon; href: string }[] = [
-  { title: "UK", description: "Student Visa documentation for admitted students with a CAS.", icon: Landmark, href: "/services/uk-visa-from-pakistan" },
-  { title: "USA", description: "F1 Student Visa documentation, DS-160 review, and interview prep.", icon: Sun, href: "/services/usa-visa-from-pakistan" },
-  { title: "Canada", description: "Study Permit documentation for a Letter of Acceptance.", icon: Snowflake, href: "/services/canada-visa-from-pakistan" },
-  { title: "Australia", description: "Student Visa (Subclass 500) documentation.", icon: Sun, href: "/services/australia-visa-from-pakistan" },
+  { title: "UK", description: "Student Visa documentation for admitted students with a CAS.", icon: Landmark, href: "/study-visa/uk" },
+  { title: "USA", description: "F1 Student Visa documentation, DS-160 review, and interview prep.", icon: Sun, href: "/study-visa/usa" },
+  { title: "Canada", description: "Study Permit documentation for a Letter of Acceptance.", icon: Snowflake, href: "/study-visa/canada" },
+  { title: "Australia", description: "Student Visa (Subclass 500) documentation.", icon: Sun, href: "/study-visa/australia" },
   { title: "Germany", description: "Student/Ausbildung Visa documentation.", icon: Globe2, href: "/services/germany-visa-from-pakistan" },
 ];
 

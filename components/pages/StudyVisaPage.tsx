@@ -42,28 +42,28 @@ const disclaimer =
 
 const countries: { title: string; description: string; icon: LucideIcon; href: string }[] = [
   {
-    title: "UK Visa Documentation",
-    description: "Including Student Visa documentation for admitted students with a CAS from a licensed UK institution.",
+    title: "UK Study Visa",
+    description: "Student Visa documentation for admitted students with a CAS from a licensed UK institution.",
     icon: Landmark,
-    href: "/services/uk-visa-from-pakistan",
+    href: "/study-visa/uk",
   },
   {
-    title: "USA Visa Documentation",
-    description: "Including F1 Student Visa documentation, DS-160 review, and interview preparation.",
+    title: "USA Study Visa",
+    description: "F1 Student Visa documentation, DS-160 review, and interview preparation.",
     icon: Flag,
-    href: "/services/usa-visa-from-pakistan",
+    href: "/study-visa/usa",
   },
   {
-    title: "Canada Visa Documentation",
-    description: "Including Study Permit documentation for a Letter of Acceptance from a Designated Learning Institution.",
+    title: "Canada Study Visa",
+    description: "Study Permit documentation for a Letter of Acceptance from a Designated Learning Institution.",
     icon: Snowflake,
-    href: "/services/canada-visa-from-pakistan",
+    href: "/study-visa/canada",
   },
   {
-    title: "Australia Visa Documentation",
-    description: "Including Student Visa (Subclass 500) documentation for a Confirmation of Enrolment.",
+    title: "Australia Study Visa",
+    description: "Student Visa (Subclass 500) documentation for a Confirmation of Enrolment.",
     icon: Sun,
-    href: "/services/australia-visa-from-pakistan",
+    href: "/study-visa/australia",
   },
   {
     title: "Germany Visa Documentation",

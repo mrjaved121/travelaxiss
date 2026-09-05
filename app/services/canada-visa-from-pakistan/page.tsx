@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Canada Visa from Pakistan – Study & Visit",
+  title: "Canada Visa from Pakistan – Visit & Study Routes",
   description:
-    "Canada visa documentation for Pakistani applicants: study permit and visit visa. Checklists, timelines & how to apply.",
+    "Find the right Canada visa route from Pakistan: Visit Visa or Study Permit. Checklists, timelines & how Travelaxis can help.",
   keywords: [
     "canada visa from pakistan",
     "canada visit visa from pakistan",

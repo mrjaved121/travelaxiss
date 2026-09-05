@@ -1,11 +1,7 @@
 export const ukVisaFaqs: { q: string; a: string }[] = [
   {
-    q: "What is the process for a UK visit visa from Pakistan?",
-    a: "You submit a passport, financial evidence, and a travel itinerary through the UK's official visa application system, attend a biometric appointment at a visa application centre in Pakistan, and wait for a decision. We help prepare and check every document before you submit.",
-  },
-  {
-    q: "Do I need my degree attested for a UK student visa from Pakistan?",
-    a: "UK universities and UKVI don't always require the same attestation chain as UAE visas do, but some institutions request verified transcripts. We confirm what your specific university and course require before you apply.",
+    q: "Which UK visa category is right for me?",
+    a: "It depends on your purpose: a short trip is a Visit Visa, an offer from a licensed UK institution is a Study Visa, and joining or sponsoring a spouse or family member already in the UK is the Family & Spouse route. We can help you confirm the right one for your situation.",
   },
   {
     q: "What documents does a UK spouse visa from Pakistan need?",
@@ -13,6 +9,6 @@ export const ukVisaFaqs: { q: string; a: string }[] = [
   },
   {
     q: "How long does a UK visa from Pakistan take to process?",
-    a: "Standard visit visa decisions are often issued within a few weeks, while student and family visas can take longer depending on category and season. We give you a realistic timeline once we see your documents.",
+    a: "It varies significantly by category — visit visas are usually fastest, family visas usually slowest. We give you a realistic timeline for your specific category once we see your documents.",
   },
 ];
