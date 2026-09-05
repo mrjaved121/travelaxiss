@@ -7,9 +7,9 @@ import {
 export const blogData: Record<string, any> = {
   "uae-visa-ban-status-check-guide": {
     title: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
-    metaTitle: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
+    metaTitle: "UAE Visa Ban & Status Check – Passport Number & Expiry",
     metaDescription:
-      "How to check a UAE visa ban status by passport number, check your visa expiry date, and what a file number actually is — official channels only, no third-party lookup tools.",
+      "How to check a UAE visa ban status by passport number, check your visa expiry date, and what a file number is — official channels only.",
     date: "August 20, 2026",
     readTime: "11 min read",
     category: "UAE Visa Documentation",
@@ -181,7 +181,7 @@ export const blogData: Record<string, any> = {
     title: "How to Cancel an Employment Visa in the UAE (2026 Guide)",
     metaTitle: "How to Cancel an Employment Visa in the UAE (2026 Guide)",
     metaDescription:
-      "How UAE employment visa cancellation actually works: who initiates it, the MOHRE/GDRFA steps, the grace period to leave or switch status, and common mistakes that cause fines.",
+      "How UAE employment visa cancellation actually works: who initiates it, the MOHRE/GDRFA steps, the grace period, and common mistakes that cause fines.",
     date: "August 20, 2026",
     readTime: "10 min read",
     category: "UAE Visa Documentation",
@@ -335,7 +335,7 @@ export const blogData: Record<string, any> = {
     title: "UAE Visa Photo Size & Requirements (2026)",
     metaTitle: "UAE Visa Photo Size & Requirements (2026)",
     metaDescription:
-      "UAE visa photo specifications: size, background, and common reasons photos get rejected — plus why confirming exact requirements with your specific application channel matters.",
+      "UAE visa photo specifications: size, background, and the most common reasons photos get rejected.",
     date: "August 20, 2026",
     readTime: "6 min read",
     category: "UAE Visa Documentation",
@@ -451,7 +451,7 @@ export const blogData: Record<string, any> = {
     title: "UAE Work Visa Age Limit – What Actually Applies (2026)",
     metaTitle: "UAE Work Visa Age Limit – What Actually Applies (2026)",
     metaDescription:
-      "Is there a maximum or minimum age for a UAE employment visa? How age limits actually work by category, what changes after 60, and what employers and applicants should confirm.",
+      "Is there a maximum or minimum age for a UAE employment visa? How age limits work by category, and what changes after 60.",
     date: "August 20, 2026",
     readTime: "8 min read",
     category: "UAE Visa Documentation",
@@ -581,7 +581,7 @@ export const blogData: Record<string, any> = {
     title: "USA Visa from Pakistan – Documents & Process Guide",
     metaTitle: "USA Visa from Pakistan – Documents & Process Guide",
     metaDescription:
-      "How Pakistani nationals apply for a US visa: DS-160, the Embassy Islamabad interview, B1/B2 visitor and F1 student documents, and what's out of scope for document-prep support.",
+      "How Pakistani nationals apply for a US visa: DS-160, the Embassy Islamabad interview, and B1/B2 visitor and F1 student documents.",
     date: "August 14, 2026",
     readTime: "12 min read",
     category: "International Visa Documentation",
@@ -1758,7 +1758,7 @@ export const blogData: Record<string, any> = {
   },
   "start-business-in-dubai-from-pakistan": {
     title: "How to Start a Business in Dubai from Pakistan – Cost & Steps",
-    metaTitle: "How to Start a Business in Dubai from Pakistan – Cost & Steps",
+    metaTitle: "Start a Business in Dubai from Pakistan – Cost & Steps",
     metaDescription:
       "How Pakistani founders set up a company in Dubai remotely: mainland vs free zone, power of attorney signing, document attestation, remittance rules, and setup costs.",
     date: "August 12, 2026",
@@ -2034,7 +2034,7 @@ export const blogData: Record<string, any> = {
     title: "UAE Family Visa from Pakistan – Requirements & Income",
     metaTitle: "UAE Family Visa from Pakistan – Requirements & Income",
     metaDescription:
-      "UAE family visa requirements for Pakistani sponsors: minimum income, tenancy contract rules, attested marriage and birth certificates, and the full dependent checklist.",
+      "UAE family visa requirements for Pakistani sponsors: minimum income, tenancy rules, attested certificates, and the full dependent checklist.",
     date: "August 12, 2026",
     readTime: "12 min read",
     category: "UAE Visa Documentation",
@@ -2902,7 +2902,7 @@ export const blogData: Record<string, any> = {
     title: "Dubai Work Visa Price from Pakistan – Full Cost Breakdown",
     metaTitle: "Dubai Work Visa Price from Pakistan – Full Cost Breakdown",
     metaDescription:
-      "What actually makes up a Dubai work visa cost from Pakistan: entry permit, medical, Emirates ID, insurance, and attestation — plus who legally pays and typical timelines.",
+      "What actually makes up a Dubai work visa cost from Pakistan: entry permit, medical, Emirates ID, insurance, and attestation.",
     date: "August 12, 2026",
     readTime: "11 min read",
     category: "UAE Visa Documentation",
@@ -3166,7 +3166,7 @@ export const blogData: Record<string, any> = {
     title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
     metaTitle: "UAE Job Seeker Visa – Full Eligibility & Document Checklist",
     metaDescription:
-      "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, validity by qualification tier, and what happens once you find a role.",
+      "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, and validity by qualification tier.",
     date: "July 6, 2026",
     readTime: "11 min read",
     category: "UAE Visa Documentation",
@@ -4587,7 +4587,7 @@ export const blogData: Record<string, any> = {
   },
   "fast-track-visa-document-verification-dubai": {
     title: "Fast-Track Visa Document Verification in Dubai – What It Actually Means",
-    metaTitle: "Fast-Track Visa Document Verification in Dubai – What It Actually Means",
+    metaTitle: "Fast-Track Visa Document Verification in Dubai",
     metaDescription:
       "What genuinely speeds up UAE visa document verification, what 'fast-track' services really cover, and why a complete file is the only real shortcut.",
     date: "July 6, 2026",
@@ -4854,9 +4854,9 @@ export const blogData: Record<string, any> = {
   },
   "urgent-gdrfa-document-approval-guide": {
     title: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite",
-    metaTitle: "Urgent GDRFA Document Approval – What You Can (and Can't) Expedite",
+    metaTitle: "Urgent GDRFA Document Approval – What You Can Expedite",
     metaDescription:
-      "How Dubai's GDRFA actually processes residency documents, which priority options genuinely exist, and the habits that prevent last-minute urgency in the first place.",
+      "How Dubai's GDRFA actually processes residency documents, which priority options genuinely exist, and how to prevent last-minute urgency.",
     date: "July 6, 2026",
     readTime: "9 min read",
     category: "UAE Visa Documentation",
@@ -5092,7 +5092,7 @@ export const blogData: Record<string, any> = {
   },
   "amer-center-visa-documentation-guide": {
     title: "Amer Center Visa Application – Documentation Help & What to Expect",
-    metaTitle: "Amer Center Visa Application – Documentation Help & What to Expect",
+    metaTitle: "Amer Center Visa Application – What to Expect",
     metaDescription:
       "What Amer centers handle for Dubai visa and residency transactions, how to book an appointment, and how to prepare a complete file before you go.",
     date: "July 6, 2026",
@@ -5423,9 +5423,9 @@ export const blogData: Record<string, any> = {
     title:
       "Software Engineer Golden Visa UAE – Documentation & Eligibility Guide",
     metaTitle:
-      "Software Engineer Golden Visa UAE – Full Documentation & Eligibility Guide",
+      "Software Engineer Golden Visa UAE – Eligibility Guide",
     metaDescription:
-      "Complete guide to the UAE Golden Visa for software engineers and developers: eligibility routes, the full document checklist, and how to avoid the mistakes that delay approval.",
+      "Complete guide to the UAE Golden Visa for software engineers: eligibility routes, the document checklist, and how to avoid delays.",
     date: "July 6, 2026",
     readTime: "13 min read",
     category: "UAE Visa Documentation",
@@ -5669,9 +5669,9 @@ export const blogData: Record<string, any> = {
   "ai-specialist-golden-visa-uae-guide": {
     title: "AI Specialist Golden Visa UAE – Requirements & Documents Guide",
     metaTitle:
-      "AI Specialist Golden Visa UAE – Full Requirements & Documents Guide",
+      "AI Specialist Golden Visa UAE – Requirements Guide",
     metaDescription:
-      "How AI, machine learning, and data specialists qualify for the UAE Golden Visa: the two eligibility routes, what evidence strengthens your file, and the full document checklist.",
+      "How AI, machine learning, and data specialists qualify for the UAE Golden Visa: the eligibility routes and full document checklist.",
     date: "July 6, 2026",
     readTime: "13 min read",
     category: "UAE Visa Documentation",
@@ -5928,9 +5928,9 @@ export const blogData: Record<string, any> = {
     title:
       "Property Investor Golden Visa UAE – Document & File Preparation Guide",
     metaTitle:
-      "Property Investor Golden Visa UAE – Document & File Preparation Guide",
+      "Property Investor Golden Visa UAE – Document Guide",
     metaDescription:
-      "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the AED 2 million rule, mortgage documentation, and a step-by-step submission checklist.",
+      "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the AED 2 million rule, and a submission checklist.",
     date: "July 6, 2026",
     readTime: "13 min read",
     category: "UAE Visa Documentation",
@@ -6164,7 +6164,7 @@ export const blogData: Record<string, any> = {
     title:
       "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa",
     metaTitle:
-      "Bank Statement Requirements for UAE 5-Year Multiple Entry Visa",
+      "Bank Statement Requirements for UAE Multiple Entry Visa",
     metaDescription:
       "What your bank statement needs to show for the UAE 5-year multiple entry visa, how it differs from the Golden Visa, and the full supporting document checklist.",
     date: "July 6, 2026",
@@ -6395,9 +6395,9 @@ export const blogData: Record<string, any> = {
   "humanitarian-pioneers-visa-uae-documents-guide": {
     title: "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents",
     metaTitle:
-      "UAE Humanitarian Pioneers Visa – How to Prepare Your Documents",
+      "UAE Humanitarian Pioneers Visa – Document Guide",
     metaDescription:
-      "A practical guide to the UAE Golden Visa for Humanitarian Pioneers: who qualifies, how to secure an endorsement letter, and the full document file you need to prepare.",
+      "A practical guide to the UAE Golden Visa for Humanitarian Pioneers: who qualifies and the full document file you need to prepare.",
     date: "July 6, 2026",
     readTime: "12 min read",
     category: "UAE Visa Documentation",
@@ -11534,7 +11534,7 @@ export const blogData: Record<string, any> = {
     title:
       "Noon Seller Account UAE – Complete Guide for Beginners & Businesses",
     metaTitle:
-      "Noon Seller Account UAE – Complete Step-by-Step Guide to Start Selling Online in UAE",
+      "Noon Seller Account UAE – Step-by-Step Guide",
     metaDescription:
       "Learn how to open a Noon seller account in UAE with this complete guide. Step-by-step process, requirements, product strategy, and SEO tips to succeed.",
     date: "April 12, 2026",
@@ -12232,7 +12232,7 @@ export const blogData: Record<string, any> = {
   },
   "ecommerce-license-uae-guide": {
     title: "E-Commerce License UAE – Complete Guide for Online Business",
-    metaTitle: "E-Commerce License UAE – Complete Guide to Start Online Business in UAE",
+    metaTitle: "E-Commerce License UAE – Setup Guide",
     metaDescription: "Learn how to get an e-commerce license in UAE. Complete guide covering business setup, requirements, process, and online business strategies.",
     date: "April 9, 2026",
     readTime: "13 min read",

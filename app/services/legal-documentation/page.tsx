@@ -5,8 +5,7 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title:
-    "Legal Documentation Services UAE – Attestation, MOA, POA & Notary",
+  title: "Legal Documentation Services UAE – MOA, POA & Attestation",
   description:
     "Get professional legal documentation services in UAE. We handle MOA, POA, attestation, contracts, and legal translation with full compliance.",
   keywords: [
@@ -21,8 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: `${SITE_URL}/services/legal-documentation/`,
-    title:
-      "Legal Documentation Services UAE – Attestation, MOA, POA & Notary",
+    title: "Legal Documentation Services UAE – MOA, POA & Attestation | Travelaxis",
     description:
       "Get professional legal documentation services in UAE. We handle MOA, POA, attestation, contracts, and legal translation with full compliance.",
     images: [DEFAULT_OG_IMAGE],

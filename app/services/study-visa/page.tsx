@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Study Visa Documentation | UK, USA, Canada, Australia & Germany",
+  title: "Study Visa Documentation | UK, USA, Canada & More",
   description:
-    "Study visa documentation support for the UK, USA, Canada, Australia, and Germany. Admission, financial, and attestation document preparation for students applying from Pakistan.",
+    "Study visa documentation for the UK, USA, Canada, Australia, and Germany — admission, financial, and attestation documents for applicants from Pakistan.",
   keywords: [
     "study visa documentation",
     "student visa documents pakistan",

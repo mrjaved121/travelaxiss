@@ -2,9 +2,10 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, Share2, Building2, Plane, FileText, BadgeCheck } from "lucide-react";
+import { ArrowLeft, Clock, Share2, Building2, Plane, FileText, BadgeCheck, CalendarDays } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
+import { blogIsoDayToDisplay } from "@/lib/seo/blog-dates";
 
 /**
  * Renders body text with `[label](url)` markdown-style links inline —
@@ -115,6 +116,16 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
                 <BadgeCheck className="w-5 h-5" style={{ color: '#155EEF' }} aria-hidden />
                 <span>Reviewed by the Travelaxis Consultancy Team</span>
               </div>
+              {blog.date && (
+                <div className="flex items-center space-x-2">
+                  <CalendarDays className="w-5 h-5" aria-hidden />
+                  <span>
+                    {blog.dateModifiedIso
+                      ? `Updated ${blogIsoDayToDisplay(blog.dateModifiedIso)}`
+                      : `Published ${blog.date}`}
+                  </span>
+                </div>
+              )}
               <div className="flex items-center space-x-2">
                 <Clock className="w-5 h-5" aria-hidden />
                 <span>{blog.readTime}</span>

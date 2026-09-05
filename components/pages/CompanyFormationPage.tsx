@@ -24,6 +24,9 @@ import RelatedLinks from "@/components/RelatedLinks";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
+const disclaimer =
+  "We provide business setup documentation and consultancy support only. We are not a licensed tax advisory or law firm, a government authority, or a bank, and we do not guarantee licence approval, tax outcomes, or business results. Formation is completed through official UAE government and free zone channels, subject to their rules and approvals.";
+
 const relatedServices = [
   { href: "/services/study-visa", label: "Study Visas" },
   { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
@@ -63,7 +66,7 @@ const formationServices: {
       "Start your business in the UAE mainland and operate freely across the country.",
     listLabel: "Benefits",
     items: [
-      "No business restrictions",
+      "Wide range of permitted business activities",
       "Access to UAE local market",
       "Eligible for government contracts",
     ],
@@ -87,8 +90,8 @@ const formationServices: {
       "Best for international business and asset management structures.",
     listLabel: "Benefits",
     items: [
-      "Tax efficiency",
-      "Privacy protection",
+      "UAE tax treatment, activity- and structure-dependent",
+      "Confidential ownership structure, within UAE rules",
       "Global business operations",
     ],
     icon: Anchor,
@@ -223,7 +226,7 @@ export default function CompanyFormationPage() {
             <p className="lead text-[#667085] mb-4 leading-relaxed">
               Start your business in the UAE with a simple and stress-free
               process. We help entrepreneurs, startups, and investors set up
-              companies with complete legal support and fast approvals.
+              companies with complete documentation support and fast approvals.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["Mainland", "Freezone", "Offshore"].map((label) => (
@@ -236,8 +239,11 @@ export default function CompanyFormationPage() {
                 </span>
               ))}
             </div>
-            <p className="text-[#667085] mb-8 font-medium">
+            <p className="text-[#667085] mb-4 font-medium">
               Guidance from start to finish.
+            </p>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
+              {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

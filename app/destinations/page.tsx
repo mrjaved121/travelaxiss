@@ -5,7 +5,7 @@ import { breadcrumbJsonLd, professionalServiceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Destinations | Travelaxis",
+  title: "Destinations",
   description:
     "Explore visa and immigration pathways for the UAE, USA, Canada, UK, Australia, and Germany with Travelaxis.",
   alternates: {

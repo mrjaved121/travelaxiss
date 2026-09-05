@@ -118,6 +118,35 @@ export default function VisaFinderPage() {
         </div>
       </section>
 
+      <section className="py-12 bg-white border-b" style={{ borderColor: "#E4E7EC" }}>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid sm:grid-cols-2 gap-8 text-sm text-[#667085] leading-relaxed">
+            <div>
+              <h2 className="subsection-title mb-2">What this tool covers</h2>
+              <p className="mb-2">
+                We match your goal — Study, Visit, Immigration, Family, or Business — against
+                six destinations: the UAE, USA, Canada, UK, Australia, and Germany. You&apos;ll
+                also answer a few questions about your education, experience, age, language, and
+                budget so the result reflects your actual profile rather than a generic checklist.
+              </p>
+              <p>
+                The result names a general pathway category worth researching — it is not an
+                eligibility determination, and no consultant can guarantee a government
+                immigration decision.
+              </p>
+            </div>
+            <div>
+              <h2 className="subsection-title mb-2">Your answers and privacy</h2>
+              <p>
+                Your answers stay in your browser for this session only — nothing is submitted,
+                stored, or sent anywhere unless you choose to continue to a consultation with us
+                afterward. Refreshing or leaving the page clears everything.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           {!complete ? (

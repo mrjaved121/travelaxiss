@@ -6,13 +6,15 @@ import { SITE_URL } from "@/lib/seo/site";
 import { homepageFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
-  title: "Visa, Document & Business Setup Services | Travelaxis",
+  title: "Visa Services in Dubai & Pakistan | Travelaxis",
   description:
-    "Travelaxis provides visa application support, document preparation, attestation, and business setup services from our Dubai and Lahore offices. Find the service that fits your plans.",
+    "Get clear visa documentation and application support for the UAE and international destinations from Travelaxis offices in Dubai and Lahore.",
   keywords: [
-    "visa services",
-    "visa application support",
-    "visa document preparation",
+    "visa services Dubai",
+    "UAE visa documentation",
+    "visa application support Dubai",
+    "visa consultancy Dubai",
+    "visa services for Pakistanis",
     "study visa support",
     "visit visa support",
     "certificate attestation",
@@ -28,9 +30,9 @@ export const metadata: Metadata = {
     google: "zkDBpIKHKEwlOYkVQQ4OL-rcZna0NxhTkNqNn8VEYUE",
   },
   openGraph: {
-    title: "Visa, Document & Business Setup Services | Travelaxis",
+    title: "Visa Services in Dubai & Pakistan | Travelaxis",
     description:
-      "Visa application support, document preparation, attestation, and business setup services from Travelaxis — with offices in Dubai and Lahore.",
+      "Clear visa documentation and application support for the UAE and international destinations, from Travelaxis offices in Dubai and Lahore.",
     url: `${SITE_URL}/`,
   },
 };

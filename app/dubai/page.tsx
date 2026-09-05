@@ -5,9 +5,9 @@ import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Travelaxis Across Dubai – Areas We Serve | Travelaxis",
+  title: "Travelaxis Across Dubai – Areas We Serve",
   description:
-    "Travelaxis is based in Al Qusais, Dubai, and supports company formation, government services, legal documentation, and visa documentation for clients across Deira, Business Bay, Bur Dubai, JLT, and beyond.",
+    "Company formation, government services, legal documentation, and visa documentation support for clients across Dubai, from our Al Qusais office.",
   alternates: {
     canonical: `${SITE_URL}/dubai/`,
   },

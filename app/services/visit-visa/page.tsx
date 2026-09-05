@@ -8,7 +8,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Visit Visa Documentation | UAE, UK, USA, Canada & Australia",
   description:
-    "Visit visa documentation support for the UAE, UK, USA, Canada, Australia, Saudi Arabia, and Schengen destinations. Document preparation for tourism, family, and business visits.",
+    "Visit visa documentation support for the UAE, UK, USA, Canada, Australia, and other destinations — document preparation for tourism, family, and business visits.",
   keywords: [
     "visit visa documentation",
     "uk visit visa from pakistan",

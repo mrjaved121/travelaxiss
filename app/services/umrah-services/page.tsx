@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Umrah Package From Dubai – Visa, Flights & Hotel | Travelaxis",
+  title: "Umrah Package From Dubai – Visa, Flights & Hotel",
   description:
-    "Umrah packages from Dubai: visa documentation, bus or flight transport, and hotel coordination near the Haram. 7, 10, and 15+ day options for individuals, families, and groups.",
+    "Umrah packages from Dubai: visa documentation, bus or flight transport, and hotel coordination near the Haram, for individuals, families, and groups.",
   keywords: [
     "Umrah package from Dubai",
     "Umrah packages UAE",

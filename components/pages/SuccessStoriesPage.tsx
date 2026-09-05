@@ -1,9 +1,31 @@
 "use client";
 
 import Link from "next/link";
-import { Star, MessageCircle, ArrowRight } from "lucide-react";
+import { Star, MessageCircle, ArrowRight, FileCheck2, ClipboardList, Send } from "lucide-react";
 import { motion } from "motion/react";
+import type { LucideIcon } from "lucide-react";
 import { testimonials } from "@/components/data/testimonials";
+
+const journeyStages: { title: string; description: string; icon: LucideIcon }[] = [
+  {
+    title: "A reviewed, complete file",
+    description:
+      "Every case starts the same way regardless of service — we go through your specific requirements together and build a document checklist before anything is submitted.",
+    icon: ClipboardList,
+  },
+  {
+    title: "Issues caught before submission",
+    description:
+      "Bank statements, attestation chains, sponsor documents — we flag the details that commonly cause delays or refusals while there's still time to fix them.",
+    icon: FileCheck2,
+  },
+  {
+    title: "Submission through the official channel",
+    description:
+      "Your file goes to the relevant government authority or free zone — GDRFA, ICP, DED, a specific free zone, or an embassy/consulate — with us keeping you updated on status.",
+    icon: Send,
+  },
+];
 
 export default function SuccessStoriesPage() {
   const phoneNumber = "+971589867555";
@@ -24,6 +46,50 @@ export default function SuccessStoriesPage() {
               given us permission to share it.
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      {/* What a journey with us looks like */}
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mx-auto text-center mb-12"
+          >
+            <h2 className="section-title mb-4">What a Journey With Us Looks Like</h2>
+            <p className="text-[#667085] leading-relaxed">
+              Every client's situation is different, but the underlying process stays the same
+              across visa documentation and business setup cases.
+            </p>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {journeyStages.map((stage, index) => (
+              <motion.div
+                key={stage.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.08 }}
+                className="rounded-2xl p-6 bg-white card-hover"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-11 h-11 rounded-[10px] flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
+                >
+                  <stage.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
+                </div>
+                <h3 className="subsection-title mb-2">{stage.title}</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">{stage.description}</p>
+              </motion.div>
+            ))}
+          </div>
+          <p className="text-xs text-[#667085] text-center mt-10 max-w-2xl mx-auto leading-relaxed">
+            We provide documentation assistance and consultancy support only. We do not guarantee
+            approval — final decisions rest with the relevant government authority or institution.
+          </p>
         </div>
       </section>
 

@@ -5,7 +5,7 @@ import { breadcrumbJsonLd, professionalServiceJsonLd, pakistanOfficeJsonLd } fro
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Contact Travelaxis | UAE Business & Visa Documentation Consultancy",
+  title: "Contact Travelaxis | Dubai Visa & Business Consultancy",
   description:
     "Contact our Dubai team for company formation, government coordination, and UAE visa documentation and consultancy. WhatsApp, phone, and email—Mon–Fri 9AM–6PM.",
   keywords: [

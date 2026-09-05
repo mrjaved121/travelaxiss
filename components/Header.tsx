@@ -53,7 +53,7 @@ export default function Header() {
           >
             <img
               src="/travelaxis-logo.png"
-              alt=""
+              alt="Travelaxis"
               width={352}
               height={94}
               className="h-11 w-auto"

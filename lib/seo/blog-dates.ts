@@ -28,3 +28,8 @@ export function blogIsoDayToDate(isoDay: string): Date {
   }
   return new Date(`${trimmed}T12:00:00.000Z`);
 }
+
+/** Formats a `dateModifiedIso` (yyyy-MM-dd) value for reader-facing display, e.g. "April 9, 2026". */
+export function blogIsoDayToDisplay(isoDay: string): string {
+  return format(blogIsoDayToDate(isoDay), DISPLAY_FORMAT);
+}

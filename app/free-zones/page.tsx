@@ -5,7 +5,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UAE Free Zone Company Formation | IFZA, DMCC, Meydan & More | Travelaxis",
+  title: "UAE Free Zone Company Formation – IFZA, DMCC & More",
   description:
     "Documentation support for company formation across the UAE's major free zones — IFZA, DMCC, Meydan Free Zone, RAKEZ, SHAMS, and JAFZA.",
   alternates: {
