@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "USA Visa from Pakistan – B1/B2 Visitor & F1 Student Visas",
+  title: "USA Visa from Pakistan – B1/B2 Visitor & F1 Student Routes",
   description:
-    "USA visa documentation for Pakistani applicants: B1/B2 visitor and F1 student visas. DS-160, Embassy Islamabad interview prep, checklists & timelines.",
+    "Find the right USA visa route from Pakistan: B1/B2 Visitor or F1 Student. DS-160, Embassy Islamabad interview prep, checklists & timelines.",
   keywords: [
     "usa visa from pakistan",
     "us visit visa from pakistan",

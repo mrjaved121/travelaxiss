@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Australia Visa from Pakistan – Visitor, Student & Partner",
+  title: "Australia Visa from Pakistan – Visitor, Student & Partner Routes",
   description:
-    "Australia visa documentation for Pakistani applicants: Visitor (600), Student (500), and Partner/Family visas. Checklists, timelines & how to apply.",
+    "Find the right Australia visa route from Pakistan: Visitor (600), Student (500), or Partner/Family. Checklists, timelines & how to apply.",
   keywords: [
     "australia visa from pakistan",
     "australia visit visa from pakistan",

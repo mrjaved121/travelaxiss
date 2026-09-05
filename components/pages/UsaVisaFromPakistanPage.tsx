@@ -32,16 +32,26 @@ const WHATSAPP_HREF = "https://wa.me/971589867555";
 const disclaimer =
   "We provide documentation assistance and consultancy support only, for B1/B2 visitor and F1 student visa categories. We are not a US immigration attorney or accredited representative and don't file USCIS petitions (H-1B, family-based I-130) or represent you before US authorities. All applications are submitted through the US Department of State's official channels, and the final decision rests entirely with the consular officer.";
 
-const categories: { title: string; description: string; icon: LucideIcon }[] = [
+const routeCards: {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+  href: string;
+  cta: string;
+}[] = [
   {
     title: "B1/B2 Visitor Visa",
     description: "Tourism, visiting family, or short business trips — the most common category for Pakistani applicants.",
     icon: Plane,
+    href: "/visit-visa/usa",
+    cta: "See USA Visitor Visa requirements",
   },
   {
     title: "F1 Student Visa",
     description: "For applicants holding a Form I-20 from a SEVP-certified US school, after paying the SEVIS I-901 fee.",
     icon: GraduationCap,
+    href: "/study-visa/usa",
+    cta: "See USA Student Visa requirements",
   },
 ];
 
@@ -65,6 +75,7 @@ const howWeHelp = [
   "Preparation for what the interview at Embassy Islamabad or your consulate typically covers",
 ];
 
+
 export default function UsaVisaFromPakistanPage() {
   return (
     <div>
@@ -79,48 +90,20 @@ export default function UsaVisaFromPakistanPage() {
               USA Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
-              A US visa application from Pakistan works differently from a UAE, UK, or Canada application — there&apos;s no formal attestation chain for most categories. Instead, it centers on the DS-160 form, a fee payment, and an in-person interview at the US Embassy in Islamabad or a consulate in Karachi, Lahore, or Peshawar. We prepare documentation for B1/B2 visitor and F1 student visa applicants.
+              A US visa application from Pakistan works differently from a UAE, UK, or Canada application — there&apos;s no formal attestation chain for most categories. Instead, it centers on the DS-160 form, a fee payment, and an in-person interview at the US Embassy in Islamabad or a consulate in Karachi, Lahore, or Peshawar. Pick your route below — B1/B2 Visitor or F1 Student — for a dedicated document checklist.
             </p>
-            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
-                Quick answer
-              </p>
-              <p className="text-[#667085] leading-relaxed">
-                A US visa from Pakistan is applied for online through the{" "}
-                <a
-                  href="https://travel.state.gov"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold underline-offset-2 hover:underline"
-                  style={{ color: "#155EEF" }}
-                >
-                  US Department of State&apos;s
-                </a>{" "}
-                DS-160 system, followed by an in-person interview at{" "}
-                <a
-                  href="https://pk.usembassy.gov"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold underline-offset-2 hover:underline"
-                  style={{ color: "#155EEF" }}
-                >
-                  the US Embassy in Islamabad
-                </a>{" "}
-                or a consulate, where a consular officer decides on the spot in most cases. We prepare documentation for B1/B2 and F1 applicants; we don&apos;t file H-1B, family-based, or Diversity Visa petitions, which require a US immigration attorney.
-              </p>
-            </div>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/contact"
+              <a
+                href="#routes"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                <span>Check Requirements</span>
+                <span>Choose My Route</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
+              </a>
               <a
                 href={WHATSAPP_HREF}
                 target="_blank"
@@ -137,8 +120,8 @@ export default function UsaVisaFromPakistanPage() {
         </div>
       </section>
 
-      {/* Categories */}
-      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
+      {/* Route cards */}
+      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -147,18 +130,19 @@ export default function UsaVisaFromPakistanPage() {
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
-              USA Visa Categories We Support
+              Which USA Visa Do You Need?
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            {categories.map((item, index) => (
-              <motion.div
+            {routeCards.map((item, index) => (
+              <motion.a
                 key={item.title}
+                href={item.href}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 border border-white/10"
+                className="rounded-3xl p-6 md:p-8 border border-white/10 block transition-colors hover:bg-white/[0.08]"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <div
@@ -171,8 +155,12 @@ export default function UsaVisaFromPakistanPage() {
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
-              </motion.div>
+                <p className="text-sm text-white/75 leading-relaxed mb-4">{item.description}</p>
+                <span className="inline-flex items-center gap-2 text-sm font-semibold" style={{ color: "#FFFFFF" }}>
+                  {item.cta}
+                  <ArrowRight className="w-4 h-4" aria-hidden />
+                </span>
+              </motion.a>
             ))}
           </div>
         </div>
@@ -350,10 +338,10 @@ export default function UsaVisaFromPakistanPage() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
+                { href: "/visit-visa/usa", label: "USA Visitor Visa" },
+                { href: "/study-visa/usa", label: "USA Student Visa" },
                 { href: "/blog/usa-visa-from-pakistan", label: "Full USA Visa Guide (Deep Dive)" },
-                { href: "/services/uk-visa-from-pakistan", label: "UK Visa from Pakistan" },
-                { href: "/services/canada-visa-from-pakistan", label: "Canada Visa from Pakistan" },
-                { href: "/services/australia-visa-from-pakistan", label: "Australia Visa from Pakistan" },
+                { href: "/services/attestation", label: "UAE Document Attestation" },
               ].map((link) => (
                 <Link
                   key={link.href}

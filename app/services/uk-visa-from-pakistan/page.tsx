@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UK Visa from Pakistan – Student, Visit & Family",
+  title: "UK Visa from Pakistan – Visit, Study & Family Routes",
   description:
-    "UK visa documentation for Pakistani applicants: Student, Visit, and Family/Spouse categories. Document checklists, timelines & how to apply.",
+    "Find the right UK visa route from Pakistan: Visit, Study, or Family & Spouse. Document checklists, timelines & how Travelaxis can help.",
   keywords: [
     "uk visa from pakistan",
     "uk visit visa from pakistan",
@@ -39,7 +39,7 @@ export default function Page() {
           serviceJsonLd({
             name: "UK Visa Documentation from Pakistan",
             description:
-              "Document preparation and application support for UK Student, Visit, and Family visa applicants in Pakistan.",
+              "Document preparation and application support for UK Visit, Study, and Family visa applicants in Pakistan.",
             path: "/services/uk-visa-from-pakistan",
             serviceType: "UK visa documentation consultancy",
           }),

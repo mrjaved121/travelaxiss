@@ -25,6 +25,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 import { australiaVisaFaqs } from "@/components/data/australiaVisaFaqs";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
@@ -32,21 +33,33 @@ const WHATSAPP_HREF = "https://wa.me/971589867555";
 const disclaimer =
   "We provide documentation assistance and consultancy support only, for Visitor, Student, and Partner/Family visa categories. We are not a MARA-registered migration agent and do not handle skilled-visa points assessments or lodge points-tested applications. All applications are submitted through the Department of Home Affairs' official channels, subject to their rules and approvals.";
 
-const categories: { title: string; description: string; icon: LucideIcon }[] = [
+const routeCards: {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+  href: string;
+  cta: string;
+}[] = [
   {
     title: "Visitor Visa (Subclass 600)",
     description: "Tourism, business-visitor, and sponsored-family streams, with the right document set for each.",
     icon: Plane,
+    href: "/visit-visa/australia",
+    cta: "See Australia Visitor Visa requirements",
   },
   {
     title: "Student Visa (Subclass 500)",
     description: "Documentation for students holding a Confirmation of Enrolment from a registered Australian institution.",
     icon: GraduationCap,
+    href: "/study-visa/australia",
+    cta: "See Australia Student Visa requirements",
   },
   {
     title: "Partner / Family Visa",
     description: "Evidence and documentation support for partners and family of Australian citizens, residents, or eligible visa holders.",
     icon: Heart,
+    href: "#partner-visa",
+    cta: "See Partner & Family Visa details",
   },
 ];
 
@@ -63,6 +76,13 @@ const howWeHelp = [
   "Guidance through ImmiAccount submission and follow-up",
 ];
 
+const partnerDocuments = [
+  "Attested marriage certificate, where applicable",
+  "Evidence of a genuine and ongoing relationship",
+  "Sponsor documentation from the Australian partner",
+  "Identity and character documents as required by the Department of Home Affairs",
+];
+
 export default function AustraliaVisaFromPakistanPage() {
   return (
     <div>
@@ -77,38 +97,20 @@ export default function AustraliaVisaFromPakistanPage() {
               Australia Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead mb-6 leading-relaxed">
-              Whether you&apos;re visiting family, starting a course, or joining a partner in Australia, an application from Pakistan comes down to a complete, correctly prepared document set submitted through the Department of Home Affairs. We handle the paperwork for Visitor, Student, and Partner/Family visas.
+              An Australia visa application from Pakistan comes down to a complete, correctly prepared document set submitted through the Department of Home Affairs, regardless of category. Pick your route below — Visitor, Student, or Partner/Family — for a dedicated document checklist and application support.
             </p>
-            <div className="rounded-3xl p-6 mb-8 border-l-4 bg-white shadow-sm" style={{ borderColor: "#155EEF" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
-                Quick answer
-              </p>
-              <p className="text-[#667085] leading-relaxed">
-                An Australia visa from Pakistan is applied for online via ImmiAccount, through the{" "}
-                <a
-                  href="https://immi.homeaffairs.gov.au"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold underline-offset-2 hover:underline"
-                  style={{ color: "#155EEF" }}
-                >
-                  Department of Home Affairs
-                </a>
-                . Requirements depend on category — Visitor (subclass 600), Student (subclass 500), or Partner/Family. We prepare documentation for these categories; we don&apos;t handle skilled-visa points assessments or lodge points-tested applications, which require a MARA-registered agent.
-              </p>
-            </div>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/contact"
+              <a
+                href="#routes"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                <span>Check Requirements</span>
+                <span>Choose My Route</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
+              </a>
               <a
                 href={WHATSAPP_HREF}
                 target="_blank"
@@ -125,8 +127,8 @@ export default function AustraliaVisaFromPakistanPage() {
         </div>
       </section>
 
-      {/* Categories */}
-      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
+      {/* Route cards */}
+      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -135,18 +137,19 @@ export default function AustraliaVisaFromPakistanPage() {
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
-              Australia Visa Categories We Support
+              Which Australia Visa Do You Need?
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {categories.map((item, index) => (
-              <motion.div
+            {routeCards.map((item, index) => (
+              <motion.a
                 key={item.title}
+                href={item.href}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 border border-white/10"
+                className="rounded-3xl p-6 md:p-8 border border-white/10 block transition-colors hover:bg-white/[0.08]"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <div
@@ -159,8 +162,12 @@ export default function AustraliaVisaFromPakistanPage() {
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
-              </motion.div>
+                <p className="text-sm text-white/75 leading-relaxed mb-4">{item.description}</p>
+                <span className="inline-flex items-center gap-2 text-sm font-semibold" style={{ color: "#FFFFFF" }}>
+                  {item.cta}
+                  <ArrowRight className="w-4 h-4" aria-hidden />
+                </span>
+              </motion.a>
             ))}
           </div>
         </div>
@@ -208,7 +215,7 @@ export default function AustraliaVisaFromPakistanPage() {
             className="mb-10 max-w-3xl"
           >
             <h2 className="section-title mb-4">
-              Typical <span style={{ color: "#155EEF" }}>Timelines</span>
+              Compare <span style={{ color: "#155EEF" }}>Timelines by Route</span>
             </h2>
           </motion.div>
 
@@ -294,6 +301,43 @@ export default function AustraliaVisaFromPakistanPage() {
         </div>
       </section>
 
+      {/* Partner / Family Visa detail */}
+      <section id="partner-visa" className="py-20 scroll-mt-24" style={{ backgroundColor: "#F5F8FF" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <p className="eyebrow mb-3">Partner / Family Visa</p>
+            <h2 className="section-title mb-4">
+              Australia Partner & Family Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
+            </h2>
+            <p className="text-[#667085] leading-relaxed mb-8">
+              For joining or sponsoring a partner, spouse, or family member who is an Australian citizen, resident, or eligible visa holder. Processing is thorough, so a complete evidence package matters from the start.
+            </p>
+            <h3 className="subsection-title mb-4">Documents You&apos;ll Need</h3>
+            <ul className="grid sm:grid-cols-2 gap-3 mb-6">
+              {partnerDocuments.map((doc) => (
+                <li key={doc} className="flex items-start gap-2 text-[#667085] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
+                  <span>{doc}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-sm text-[#667085]">
+              Requirements are set by the{" "}
+              <a href="https://immi.homeaffairs.gov.au" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+                Department of Home Affairs
+              </a>{" "}
+              — we confirm the current document list for your specific case.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Enquiry form */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <VisitVisaEnquiryForm defaultDestination="Australia" heading="Get Help With Your Australia Partner Visa" subheading="Tell us about your relationship and sponsor's situation. We'll help you understand the document requirements." />
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -338,10 +382,11 @@ export default function AustraliaVisaFromPakistanPage() {
             <h2 className="section-title mb-6 text-center">
               Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
+                { href: "/visit-visa/australia", label: "Australia Visitor Visa" },
+                { href: "/study-visa/australia", label: "Australia Student Visa" },
                 { href: "/services/attestation", label: "UAE Document Attestation from Pakistan" },
-                { href: "/services/international-visas", label: "International Visa Documentation" },
                 { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
               ].map((link) => (
                 <Link
