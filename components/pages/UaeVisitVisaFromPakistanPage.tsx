@@ -102,7 +102,7 @@ export default function UaeVisitVisaFromPakistanPage() {
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                <span>Get a Free Visit Visa Consultation</span>
+                <span>Check Requirements</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
               <a
@@ -441,7 +441,7 @@ export default function UaeVisitVisaFromPakistanPage() {
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
-              <span>Get a Free Visit Visa Consultation</span>
+              <span>Check Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
             <a

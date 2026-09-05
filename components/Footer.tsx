@@ -17,7 +17,7 @@ export default function Footer() {
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 border-t"
         style={{ borderColor: "#E4E7EC" }}
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Brand */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <p className="text-2xl font-bold mb-4">
@@ -32,14 +32,14 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Visa Services */}
-          <nav aria-label="Visa services">
+          {/* Visa Assistance */}
+          <nav aria-label="Visa assistance">
             <h3 className="footer-heading mb-5">
-              Visa Services
+              Visa Assistance
             </h3>
             <ul className="space-y-3 list-none p-0 m-0">
               <li>
-                <Link href="/services/visit-visa" className="footer-link transition-colors">
+                <Link href="/visit-visa" className="footer-link transition-colors">
                   Visit Visa
                 </Link>
               </li>
@@ -49,18 +49,47 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/international-visas" className="footer-link transition-colors">
-                  International Visa
+                <Link href="/services/visa-services" className="footer-link transition-colors">
+                  UAE Residency Support
                 </Link>
               </li>
               <li>
                 <Link href="/services/attestation" className="footer-link transition-colors">
-                  Visa Documentation
+                  Document Attestation
                 </Link>
               </li>
               <li className="pt-1">
                 <Link href="/services" className="footer-link font-semibold transition-colors" style={{ color: "#155EEF" }}>
                   View All Visa Services &rarr;
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Business Setup */}
+          <nav aria-label="Business setup">
+            <h3 className="footer-heading mb-5">
+              Business Setup
+            </h3>
+            <ul className="space-y-3 list-none p-0 m-0">
+              <li>
+                <Link href="/services/company-formation" className="footer-link transition-colors">
+                  Company Formation
+                </Link>
+              </li>
+              <li>
+                <Link href="/free-zones" className="footer-link transition-colors">
+                  Free Zones
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/business-support" className="footer-link transition-colors">
+                  Business Support Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/government-services" className="footer-link transition-colors">
+                  Government Services
                 </Link>
               </li>
             </ul>
@@ -87,12 +116,22 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Company */}
-          <nav aria-label="Company">
+          {/* Resources */}
+          <nav aria-label="Resources">
             <h3 className="footer-heading mb-5">
-              Company
+              Resources
             </h3>
             <ul className="space-y-3 list-none p-0 m-0">
+              <li>
+                <Link href="/blog" className="footer-link transition-colors">
+                  Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="footer-link transition-colors">
+                  FAQs
+                </Link>
+              </li>
               <li>
                 <Link href="/about" className="footer-link transition-colors">
                   About
@@ -106,11 +145,6 @@ export default function Footer() {
               <li>
                 <Link href="/success-stories" className="footer-link transition-colors">
                   Success Stories
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="footer-link transition-colors">
-                  Resources
                 </Link>
               </li>
               <li>

@@ -23,7 +23,7 @@ import { visaServicesFaqs } from "@/components/data/visaServicesFaqs";
 
 const relatedServices = [
   { href: "/services/study-visa", label: "Study Visas" },
-  { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
+  { href: "/visit-visa", label: "Tourist & Visit Visas" },
   { href: "/services/company-formation", label: "Business & Investment" },
   { href: "/services/attestation", label: "Document Services" },
 ];

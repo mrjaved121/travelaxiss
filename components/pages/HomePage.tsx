@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useId, useState, type FormEvent } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -14,6 +15,8 @@ import {
   MapPin,
   Compass,
   MessageCircle,
+  Globe2,
+  HeadphonesIcon,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -25,12 +28,14 @@ import {
 } from "@/components/ui/accordion";
 import { homepageFaqs } from "@/lib/data/faqs";
 import { destinations } from "@/components/data/destinations";
+import { blogPostSummaries } from "@/components/data/blogIndex";
 import { trackEvent } from "@/lib/seo/analytics";
 
-const WHATSAPP_HREF = "https://wa.me/971589867555";
+const WHATSAPP_NUMBER = "971589867555";
+const WHATSAPP_HREF = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 const disclosure =
-  "We are a documentation and consultancy service, not a government authority. We do not issue visas and cannot guarantee approval — applications are decided by the relevant government authority.";
+  "We are a documentation and consultancy service, not a government authority. We do not issue visas or licences and cannot guarantee an outcome — decisions are made by the relevant authority.";
 
 /** Non-numeric, verifiable trust signals only — offices are real (see Footer / schema.ts). */
 const trustStrip: { label: string; icon: LucideIcon }[] = [
@@ -40,47 +45,57 @@ const trustStrip: { label: string; icon: LucideIcon }[] = [
   { label: "Visa & business services", icon: Compass },
 ];
 
-/** The five homepage service categories. Each links to an existing hub page that lists its sub-pages. */
-const coreServices: {
-  title: string;
-  description: string;
-  icon: LucideIcon;
-  href: string;
-}[] = [
+const visaAssistanceServices: { title: string; description: string; icon: LucideIcon; href: string }[] = [
   {
-    title: "Study Visas",
-    description:
-      "Student visa document preparation for the UK, USA, Canada, Australia, and Germany.",
+    title: "Visit Visa",
+    description: "Visit and tourist visa document preparation for the UAE and other popular destinations.",
+    icon: Plane,
+    href: "/visit-visa",
+  },
+  {
+    title: "Study Visa",
+    description: "Student visa document preparation for the UK, USA, Canada, Australia, and Germany.",
     icon: GraduationCap,
     href: "/services/study-visa",
   },
   {
-    title: "Tourist & Visit Visas",
-    description:
-      "Visit and tourist visa document preparation for the UAE and other popular destinations.",
-    icon: Plane,
-    href: "/services/visit-visa",
-  },
-  {
-    title: "UAE Residency Visas",
-    description:
-      "Documentation for investor, employment, family, and renewal visa categories in the UAE.",
+    title: "UAE Residency Support",
+    description: "Documentation for investor, family, visit, and renewal visa categories in the UAE.",
     icon: IdCard,
     href: "/services/visa-services",
   },
   {
-    title: "Document Services",
-    description:
-      "Certificate attestation and legal document preparation for visa and job applications.",
+    title: "Document Attestation",
+    description: "Certificate attestation and legal document preparation for visa and job applications.",
     icon: Stamp,
     href: "/services/attestation",
   },
+];
+
+const businessSetupServices: { title: string; description: string; icon: LucideIcon; href: string }[] = [
   {
-    title: "Business & Investment",
-    description:
-      "Company formation and licensing support for mainland, free zone, and offshore setups.",
+    title: "Company Formation",
+    description: "Mainland, free zone, and offshore company setup and licensing support.",
     icon: Building2,
     href: "/services/company-formation",
+  },
+  {
+    title: "Free Zones",
+    description: "Compare and set up in the UAE's major free zones — IFZA, DMCC, Meydan, and more.",
+    icon: Globe2,
+    href: "/free-zones",
+  },
+  {
+    title: "Business Support Services",
+    description: "Trademark registration, ISO certification, and corporate bank account support.",
+    icon: HeadphonesIcon,
+    href: "/services/business-support",
+  },
+  {
+    title: "Government Services",
+    description: "Approvals, Dubai Chamber services, and multi-authority coordination.",
+    icon: FileText,
+    href: "/services/government-services",
   },
 ];
 
@@ -105,8 +120,8 @@ const whyValues: { title: string; description: string }[] = [
 const processSteps: { number: string; title: string; description: string }[] = [
   {
     number: "01",
-    title: "Choose your service",
-    description: "Pick the visa or business service that matches your plans.",
+    title: "Choose your path",
+    description: "Visa assistance or UAE business setup — pick what matches your plans.",
   },
   {
     number: "02",
@@ -126,6 +141,119 @@ const processSteps: { number: string; title: string; description: string }[] = [
   },
 ];
 
+const NEED_OPTIONS = [
+  { label: "Visa assistance", services: ["Visit Visa", "Study Visa", "UAE Residency Support", "Document Attestation"] },
+  { label: "UAE business setup", services: ["Company Formation", "Free Zones", "Business Support", "Not sure yet"] },
+];
+
+const guideHighlights = blogPostSummaries.slice(0, 3);
+
+function QualificationForm() {
+  const idPrefix = useId();
+  const [needIndex, setNeedIndex] = useState(0);
+  const [service, setService] = useState(NEED_OPTIONS[0].services[0]);
+  const [name, setName] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
+
+  const need = NEED_OPTIONS[needIndex];
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const lines = [
+      `Hi, I'd like help with ${need.label.toLowerCase()}.`,
+      `Service: ${service}`,
+      `Name: ${name}`,
+      `WhatsApp: ${whatsapp}`,
+    ];
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join("\n"))}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
+  const fieldClassName =
+    "w-full rounded-xl border border-[#E4E7EC] bg-white px-4 py-3 text-[#1D2939] placeholder:text-[#667085] focus:outline-none focus:ring-2 transition-shadow";
+
+  return (
+    <form onSubmit={handleSubmit} className="bg-white rounded-3xl p-6 md:p-8 shadow-sm space-y-5" style={{ border: "1px solid var(--card-line)" }}>
+      <div>
+        <span className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>I&apos;m looking for</span>
+        <div className="grid grid-cols-2 gap-3">
+          {NEED_OPTIONS.map((option, index) => (
+            <button
+              key={option.label}
+              type="button"
+              onClick={() => {
+                setNeedIndex(index);
+                setService(option.services[0]);
+              }}
+              className="px-4 py-3 rounded-xl text-sm font-semibold transition-all"
+              style={
+                needIndex === index
+                  ? { backgroundColor: "#155EEF", color: "#FFFFFF" }
+                  : { backgroundColor: "#F5F8FF", color: "#1D2939", border: "1px solid var(--card-line)" }
+              }
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div>
+        <label htmlFor={`${idPrefix}-service`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+          Service
+        </label>
+        <select
+          id={`${idPrefix}-service`}
+          value={service}
+          onChange={(e) => setService(e.target.value)}
+          className={fieldClassName}
+        >
+          {need.services.map((option) => (
+            <option key={option} value={option}>{option}</option>
+          ))}
+        </select>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-5">
+        <div>
+          <label htmlFor={`${idPrefix}-name`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            Name
+          </label>
+          <input
+            id={`${idPrefix}-name`}
+            type="text"
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Your name"
+            className={fieldClassName}
+          />
+        </div>
+        <div>
+          <label htmlFor={`${idPrefix}-whatsapp`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            WhatsApp number
+          </label>
+          <input
+            id={`${idPrefix}-whatsapp`}
+            type="tel"
+            required
+            value={whatsapp}
+            onChange={(e) => setWhatsapp(e.target.value)}
+            placeholder="+92…"
+            className={fieldClassName}
+          />
+        </div>
+      </div>
+      <button
+        type="submit"
+        className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
+        style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+      >
+        <span>Check Requirements</span>
+        <ArrowRight className="w-5 h-5" aria-hidden />
+      </button>
+    </form>
+  );
+}
+
 export default function HomePage() {
   return (
     <div className="overflow-x-hidden">
@@ -135,72 +263,53 @@ export default function HomePage() {
         className="relative overflow-hidden py-16 md:py-24"
         style={{ background: "linear-gradient(180deg, #FFFFFF 0%, #F5F8FF 100%)" }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="min-w-0"
           >
-            <p className="eyebrow mb-4">Visa Documentation in Dubai &amp; Pakistan</p>
+            <p className="eyebrow mb-4">Travelaxis</p>
             <h1 id="hero-heading" className="hero-title mb-6">
-              Visa Documentation and{" "}
-              <span style={{ color: "#155EEF" }}>Application Support in Dubai</span>
+              Clear support for your{" "}
+              <span style={{ color: "#155EEF" }}>next application</span>
             </h1>
-            <p className="lead mb-4 max-w-[540px]">
-              We prepare and organize visa documentation for individuals and
-              families applying to the UAE and abroad, from our offices in Al
-              Qusais, Dubai and Lahore. Business setup and company formation
-              support is also available.
+            <p className="lead mb-8 max-w-2xl mx-auto">
+              Explore visa application assistance, document preparation, and UAE business setup
+              support from Travelaxis.
             </p>
-            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8 max-w-[540px]" style={{ borderColor: "#155EEF" }}>
-              {disclosure}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/services"
-                className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
-                style={{ color: "#FFFFFF" }}
-              >
-                Explore Visa Services
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+              <a href="#visa-assistance" className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary" style={{ color: "#FFFFFF" }}>
+                Check Requirements
                 <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
-              <a
-                href={WHATSAPP_HREF}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => trackEvent("whatsapp_click", { page: "homepage_hero" })}
-                className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
-                style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
-                aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
-              >
-                <MessageCircle
-                  className="w-5 h-5"
-                  style={{ color: "#155EEF" }}
-                  aria-hidden
-                />
-                WhatsApp Us
+              </a>
+              <a href="#business-setup" className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white" style={{ borderColor: "#E4E7EC", color: "#1D2939" }}>
+                Discuss My Business Setup
               </a>
             </div>
+            <p className="text-sm text-[#667085] leading-relaxed max-w-2xl mx-auto border-l-4 pl-4 text-left" style={{ borderColor: "#155EEF" }}>
+              {disclosure}
+            </p>
           </motion.div>
+        </div>
 
-          {/* Not a motion.div: this holds the LCP image, and an initial-opacity-0
-              mount animation delays when Chrome counts it as painted until Motion
-              hydrates and runs the transition. */}
-          <div className="relative h-72 md:h-[32rem]">
-            <div
-              className="absolute -top-8 -right-8 w-52 h-52 rounded-full"
-              style={{ backgroundColor: "rgba(21, 94, 239, 0.10)" }}
-              aria-hidden
-            />
-            <img
-              src="/images/hero-image-travelaxis.webp"
-              alt="Travelaxis visa and documentation support"
-              width={640}
-              height={427}
-              fetchPriority="high"
-              className="absolute inset-0 w-full h-full object-contain"
-            />
+        {/* Two-path selector */}
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-14">
+          <div className="grid sm:grid-cols-2 gap-6">
+            <a href="#visa-assistance" className="block rounded-3xl p-8 bg-white card-hover" style={{ border: "1px solid var(--card-line)" }}>
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
+                <Plane className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
+              </div>
+              <h2 className="subsection-title mb-2">I need visa assistance</h2>
+              <p className="text-sm text-[#667085]">Visit visa, study visa, UAE residency, document attestation.</p>
+            </a>
+            <a href="#business-setup" className="block rounded-3xl p-8 bg-white card-hover" style={{ border: "1px solid var(--card-line)" }}>
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
+                <Building2 className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
+              </div>
+              <h2 className="subsection-title mb-2">I want to set up a UAE business</h2>
+              <p className="text-sm text-[#667085]">Mainland, free zone, offshore, and licensing support.</p>
+            </a>
           </div>
         </div>
       </section>
@@ -232,10 +341,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Core Services */}
+      {/* Visa Assistance */}
       <section
-        aria-labelledby="services-heading"
-        className="py-20 md:py-28 bg-white"
+        id="visa-assistance"
+        aria-labelledby="visa-assistance-heading"
+        className="py-20 md:py-28 bg-white scroll-mt-24"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -244,18 +354,87 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="max-w-2xl mb-12 md:mb-14"
           >
-            <p className="eyebrow mb-3">What we do</p>
-            <h2 id="services-heading" className="section-title mb-4">
-              Services for your next journey
+            <p className="eyebrow mb-3">Path 1</p>
+            <h2 id="visa-assistance-heading" className="section-title mb-4">
+              Visa Assistance
             </h2>
             <p className="lead">
-              Five core areas of support. Each one opens onto detailed guidance
-              for your destination and situation.
+              Document preparation and application support for visit, study, UAE residency, and
+              attestation needs.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {coreServices.map((service, index) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {visaAssistanceServices.map((service, index) => (
+              <motion.div
+                key={service.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.06 }}
+                className="relative group h-full flex flex-col rounded-2xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 card-hover"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <Link
+                  href={service.href}
+                  className="absolute inset-0 z-10 rounded-2xl"
+                  aria-label={`Explore ${service.title}`}
+                />
+                <div
+                  className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "var(--card-icon-bg)" }}
+                  aria-hidden
+                >
+                  <service.icon
+                    className="w-[22px] h-[22px]"
+                    style={{ color: "var(--card-icon-fg)" }}
+                  />
+                </div>
+                <h3 className="subsection-title leading-snug mb-2">
+                  {service.title}
+                </h3>
+                <p className="text-[0.9375rem] text-[#667085] leading-relaxed mb-5 flex-1">
+                  {service.description}
+                </p>
+                <span
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold transition-all group-hover:gap-2.5"
+                  style={{ color: "#155EEF" }}
+                >
+                  Explore
+                  <ArrowUpRight className="w-4 h-4" aria-hidden />
+                </span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Business Setup */}
+      <section
+        id="business-setup"
+        aria-labelledby="business-setup-heading"
+        className="py-20 md:py-28 border-t scroll-mt-24"
+        style={{ backgroundColor: "#F5F8FF", borderColor: "#E4E7EC" }}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mb-12 md:mb-14"
+          >
+            <p className="eyebrow mb-3">Path 2</p>
+            <h2 id="business-setup-heading" className="section-title mb-4">
+              UAE Business Setup
+            </h2>
+            <p className="lead">
+              Company formation, free zone setup, and ongoing business support from our Dubai
+              office.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {businessSetupServices.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
@@ -461,6 +640,66 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Short qualification form */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#F5F8FF" }}>
+        <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-10"
+          >
+            <p className="eyebrow mb-3">Get started</p>
+            <h2 className="section-title mb-4">Tell Us What You Need</h2>
+            <p className="text-[#667085]">
+              A couple of questions, then we&apos;ll take it from there on WhatsApp.
+            </p>
+          </motion.div>
+          <QualificationForm />
+        </div>
+      </section>
+
+      {/* Useful guides */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mb-10"
+          >
+            <p className="eyebrow mb-3">Resources</p>
+            <h2 className="section-title mb-4">Useful Guides</h2>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {guideHighlights.map((post) => (
+              <Link
+                key={post.id}
+                href={`/blog/${post.id}`}
+                className="block rounded-2xl p-6 bg-white card-hover h-full"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <p className="text-xs font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
+                  {post.category}
+                </p>
+                <h3 className="subsection-title mb-2 leading-snug">{post.title}</h3>
+                <p className="text-sm text-[#667085] line-clamp-3">{post.excerpt}</p>
+              </Link>
+            ))}
+          </div>
+          <p className="mt-8">
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-1.5 font-semibold"
+              style={{ color: "#155EEF" }}
+            >
+              Browse all guides
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
+          </p>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section
         aria-labelledby="faq-heading"
@@ -516,13 +755,12 @@ export default function HomePage() {
       {/* Final CTA */}
       <section
         aria-labelledby="cta-heading"
-        className="py-20 md:py-28"
-        style={{ backgroundColor: "#F5F8FF" }}
+        className="py-20 md:py-28 bg-white"
       >
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className="rounded-[22px] bg-white px-6 py-12 md:px-12 md:py-14 text-center shadow-sm"
-            style={{ border: "1px solid #E4E7EC" }}
+            className="rounded-[22px] px-6 py-12 md:px-12 md:py-14 text-center shadow-sm"
+            style={{ border: "1px solid #E4E7EC", backgroundColor: "#F5F8FF" }}
           >
             <span
               className="block w-10 h-1 rounded-full mx-auto mb-6"
@@ -534,25 +772,25 @@ export default function HomePage() {
               Not sure where to begin?
             </h2>
             <p className="lead max-w-md mx-auto mb-9">
-              Explore the service that fits your plans, or speak with the
-              Travelaxis team about your next step.
+              Choose your path above, or message us directly and we&apos;ll point you the right way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link
-                href="/services"
-                className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary transition-all hover:bg-primary-hover shadow-sm hover:shadow-md"
-                style={{ color: "#FFFFFF" }}
-              >
-                Explore Services
+              <a href="#visa-assistance" className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary transition-all hover:bg-primary-hover shadow-sm hover:shadow-md" style={{ color: "#FFFFFF" }}>
+                Check Requirements
                 <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
-              <Link
-                href="/contact"
+              </a>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackEvent("whatsapp_click", { page: "homepage_final_cta" })}
                 className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white transition-colors hover:bg-[#F5F8FF]"
                 style={{ color: "#1D2939", border: "1px solid #E4E7EC" }}
+                aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
               >
-                Contact Us
-              </Link>
+                <MessageCircle className="w-5 h-5" style={{ color: "#25D366" }} aria-hidden />
+                WhatsApp Us
+              </a>
             </div>
           </div>
         </div>

@@ -84,7 +84,7 @@ export default function GermanyVisaFromPakistanPage() {
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                <span>Get a Free Germany Visa Consultation</span>
+                <span>Check Requirements</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
               <a
@@ -287,7 +287,7 @@ export default function GermanyVisaFromPakistanPage() {
               href="/consultation"
               className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
-              <span>Get a Free Germany Visa Consultation</span>
+              <span>Check Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
             <a
