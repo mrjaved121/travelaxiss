@@ -5,7 +5,7 @@ import { breadcrumbJsonLd, professionalServiceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Success Stories | Travelaxis",
+  title: "Success Stories",
   description:
     "Genuine client stories from people Travelaxis has helped with UAE visas, business setup, and documentation support.",
   alternates: {

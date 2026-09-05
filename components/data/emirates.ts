@@ -13,9 +13,9 @@ export const emirates: Emirate[] = [
   {
     slug: "abu-dhabi",
     name: "Abu Dhabi",
-    metaTitle: "Business Setup & Visa Documentation in Abu Dhabi | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Abu Dhabi",
     metaDescription:
-      "Documentation and consultancy support for company formation, government approvals, and visa applications in Abu Dhabi — coordinated remotely from our Al Qusais, Dubai office.",
+      "Documentation and consultancy support for company formation, government approvals, and visa applications in Abu Dhabi — coordinated remotely from Al Qusais, Dubai.",
     heroIntro:
       "Abu Dhabi is the UAE's capital and largest emirate by area, home to major free zones like ADGM (Abu Dhabi Global Market) and Masdar City, a strong government and energy sector presence, and Abu Dhabi's own Department of Economic Development for mainland licensing. We support company formation, government approvals, legal documentation, and visa applications for businesses and residents in Abu Dhabi, coordinated remotely from our Al Qusais office.",
     context: [
@@ -38,14 +38,22 @@ export const emirates: Emirate[] = [
         q: "Can you help with ADGM company formation?",
         a: "Yes — we help prepare and organize documentation for ADGM and other Abu Dhabi free zone applications, though the license itself is issued by the relevant free zone authority.",
       },
+      {
+        q: "What is twofour54 and Masdar City used for?",
+        a: "Masdar City focuses on clean-tech and sustainability-linked businesses, while twofour54 is Abu Dhabi's media free zone — both operate alongside ADGM and KIZAD as separate licensing options depending on your activity.",
+      },
+      {
+        q: "Is Abu Dhabi far from your Al Qusais office?",
+        a: "Abu Dhabi is roughly 1.5 hours from central Dubai by road — we support Abu Dhabi clients remotely rather than requiring in-person visits.",
+      },
     ],
   },
   {
     slug: "sharjah",
     name: "Sharjah",
-    metaTitle: "Business Setup & Visa Documentation in Sharjah | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Sharjah",
     metaDescription:
-      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Sharjah — coordinated from our Al Qusais, Dubai office, right at the Sharjah border.",
+      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Sharjah — from our Al Qusais office, right at the border.",
     heroIntro:
       "Sharjah directly borders Al Qusais, where our office is based, making it one of the emirates we support most conveniently. Known as the UAE's cultural capital, Sharjah offers generally lower-cost mainland and free zone licensing than Dubai — including SHAMS, SAIF Zone, and Hamriyah Free Zone — while remaining a short drive from central Dubai. We support company formation, trade licensing, and visa documentation for businesses and residents across Sharjah.",
     context: [
@@ -68,14 +76,22 @@ export const emirates: Emirate[] = [
         q: "Can a Sharjah-licensed company trade in Dubai?",
         a: "Mainland companies can generally trade UAE-wide regardless of which emirate issued the license; free zone companies may have restrictions on direct mainland trading depending on the specific zone and activity.",
       },
+      {
+        q: "Why is Sharjah called the UAE's cultural capital?",
+        a: "Sharjah has invested heavily in museums, heritage sites, and cultural institutions, earning it recognition as the UAE's cultural capital — though for business purposes, its main draw is lower-cost licensing close to Dubai.",
+      },
+      {
+        q: "Can I use a Sharjah free zone license to work from Dubai?",
+        a: "Yes — where you personally reside or work day-to-day isn't restricted by which emirate issued your license, subject to the specific free zone's own visa and office rules.",
+      },
     ],
   },
   {
     slug: "ajman",
     name: "Ajman",
-    metaTitle: "Business Setup & Visa Documentation in Ajman | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Ajman",
     metaDescription:
-      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Ajman — coordinated remotely from our Al Qusais, Dubai office.",
+      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Ajman — coordinated remotely from Al Qusais, Dubai.",
     heroIntro:
       "Ajman is the smallest UAE emirate by area, known for some of the most cost-effective company formation packages in the country through Ajman Free Zone (AFZA) and Ajman's mainland DED. It's a common choice for budget-conscious founders and small trading businesses who want a UAE presence without Dubai-level costs. We support company formation, trade licensing, and visa documentation for businesses and residents in Ajman.",
     context: [
@@ -98,14 +114,22 @@ export const emirates: Emirate[] = [
         q: "How far is Ajman from Dubai for in-person visits?",
         a: "Ajman is roughly 30–40 minutes from central Dubai by road, making periodic in-person visits to government offices or banks manageable for most clients.",
       },
+      {
+        q: "Is Ajman a good choice if I want the lowest possible setup cost?",
+        a: "Ajman Free Zone (AFZA) is regularly among the more cost-effective UAE options, which is why it's popular with budget-conscious founders — though the right choice still depends on your specific activity and visa needs.",
+      },
+      {
+        q: "Can I visit Ajman government offices in person if needed?",
+        a: "Yes — Ajman is roughly 30–40 minutes from central Dubai by road, making occasional in-person visits manageable.",
+      },
     ],
   },
   {
     slug: "ras-al-khaimah",
     name: "Ras Al Khaimah",
-    metaTitle: "Business Setup & Visa Documentation in Ras Al Khaimah (RAK) | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Ras Al Khaimah",
     metaDescription:
-      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Ras Al Khaimah — coordinated remotely from our Al Qusais, Dubai office.",
+      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Ras Al Khaimah — coordinated remotely from Al Qusais, Dubai.",
     heroIntro:
       "Ras Al Khaimah (RAK) is a growing industrial and manufacturing hub in the UAE's north, home to RAKEZ (Ras Al Khaimah Economic Zone), one of the region's larger cost-effective free zones. RAK has invested heavily in infrastructure and tourism alongside its industrial base, making it an increasingly popular option for founders comparing costs against Dubai and Sharjah. We support company formation, trade licensing, and visa documentation for businesses and residents in RAK — see our dedicated RAKEZ free zone guide for zone-specific detail.",
     context: [
@@ -128,14 +152,22 @@ export const emirates: Emirate[] = [
         q: "Is RAK good for industrial or manufacturing activities?",
         a: "Yes — RAK has invested significantly in industrial infrastructure, and RAKEZ specifically supports a wide range of industrial and manufacturing activities alongside standard trading and service licenses.",
       },
+      {
+        q: "Has RAK invested in anything besides industry?",
+        a: "Yes — alongside its industrial base, RAK has invested significantly in tourism and infrastructure in recent years, which has broadened the range of businesses choosing to set up there.",
+      },
+      {
+        q: "Is RAK a free zone or an emirate?",
+        a: "Ras Al Khaimah is an emirate; RAKEZ (Ras Al Khaimah Economic Zone) is the main free zone operating within it, alongside RAK's separate mainland licensing route.",
+      },
     ],
   },
   {
     slug: "fujairah",
     name: "Fujairah",
-    metaTitle: "Business Setup & Visa Documentation in Fujairah | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Fujairah",
     metaDescription:
-      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Fujairah — coordinated remotely from our Al Qusais, Dubai office.",
+      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Fujairah — coordinated remotely from Al Qusais, Dubai.",
     heroIntro:
       "Fujairah is the only UAE emirate located entirely on the east coast, facing the Gulf of Oman rather than the Arabian Gulf — a strategic position for shipping and logistics businesses wanting to avoid the Strait of Hormuz. Fujairah Free Zone and Fujairah's mainland DED both support company formation, and the emirate's port is a major regional bunkering and cargo hub. We support company formation, trade licensing, and visa documentation for businesses and residents in Fujairah.",
     context: [
@@ -158,14 +190,22 @@ export const emirates: Emirate[] = [
         q: "Is Fujairah far from Dubai for occasional in-person visits?",
         a: "It's roughly 1.5–2 hours by road, which is manageable for occasional visits but worth factoring in if your business needs frequent in-person government or banking appointments.",
       },
+      {
+        q: "What does 'bunkering' mean for Fujairah's port?",
+        a: "Bunkering refers to supplying fuel to ships — Fujairah's port is one of the world's major bunkering hubs, which is a key reason shipping and logistics businesses base operations there.",
+      },
+      {
+        q: "How do you get from Dubai to Fujairah?",
+        a: "The drive crosses the Hajar Mountains and takes roughly 1.5–2 hours from central Dubai — we support Fujairah clients remotely rather than requiring travel for standard documentation work.",
+      },
     ],
   },
   {
     slug: "umm-al-quwain",
     name: "Umm Al Quwain",
-    metaTitle: "Business Setup & Visa Documentation in Umm Al Quwain (UAQ) | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Umm Al Quwain",
     metaDescription:
-      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Umm Al Quwain — coordinated remotely from our Al Qusais, Dubai office.",
+      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Umm Al Quwain — coordinated remotely from Al Qusais, Dubai.",
     heroIntro:
       "Umm Al Quwain (UAQ) is one of the UAE's smallest and quietest emirates, known for the UAQ Free Trade Zone's especially low-cost company formation packages, popular with e-commerce sellers, freelancers, and small trading businesses on a tight budget. We support company formation, trade licensing, and visa documentation for businesses and residents in Umm Al Quwain.",
     context: [
@@ -187,6 +227,14 @@ export const emirates: Emirate[] = [
       {
         q: "Can a UAQ-licensed company sell on Noon or Amazon UAE?",
         a: "Yes — a UAQ trade license can support e-commerce activity the same way any other emirate's license can, provided the registered activity covers online trading.",
+      },
+      {
+        q: "Is Umm Al Quwain a quiet place to run a business?",
+        a: "Yes — UAQ is one of the UAE's smallest and least densely populated emirates, which appeals to founders who don't need a high-visibility commercial location for their activity.",
+      },
+      {
+        q: "Do I need to travel to UAQ to complete my company formation?",
+        a: "In most cases no — we coordinate documentation and submission with the UAQ Free Trade Zone or mainland DED remotely, and travel is only needed for steps that legally require your physical presence.",
       },
     ],
   },

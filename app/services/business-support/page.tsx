@@ -5,8 +5,7 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title:
-    "Business Support Services UAE – Trademark, ISO, Banking & Compliance",
+  title: "Business Support Services UAE – Trademark, ISO & Banking",
   description:
     "Get complete business support services in UAE. We help with trademark registration, ISO certification, bank account opening, and compliance.",
   keywords: [

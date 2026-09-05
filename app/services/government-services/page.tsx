@@ -5,10 +5,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title:
-    "Government Services UAE – Business Approvals & Regulatory Support Dubai",
+  title: "Government Services UAE – Approvals & Regulatory Support",
   description:
-    "Coordination support for UAE business approvals: documentation preparation and submission assistance for Dubai Chamber, customs registration, and regulatory steps—aiming to reduce avoidable delays.",
+    "Coordination support for UAE business approvals: documentation preparation and submission assistance for Dubai Chamber and customs registration.",
   keywords: [
     "government services UAE",
     "Dubai Chamber registration UAE",

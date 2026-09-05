@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "FAQ | UAE Business Setup & Visa Documentation Support",
   description:
-    "Frequently asked questions about company formation, business setup, and UAE visa documentation and application guidance in Dubai. Clear answers on freezone, mainland, and offshore companies.",
+    "Frequently asked questions about company formation, business setup, and UAE visa documentation in Dubai.",
   keywords: [
     "Dubai business setup FAQ",
     "company formation questions UAE",

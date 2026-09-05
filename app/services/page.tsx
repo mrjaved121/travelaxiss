@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Business Setup, UAE Visa & Attestation Services",
   description:
-    "Company formation, UAE visa documentation, document attestation from Pakistan, and UK/Canada/Australia visa documentation and consultancy—structured assistance for individuals and companies.",
+    "Company formation, UAE visa documentation, document attestation, and international visa documentation — structured assistance for individuals and companies.",
   keywords: [
     "business setup UAE",
     "UAE visa documentation",

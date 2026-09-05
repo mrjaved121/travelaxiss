@@ -25,8 +25,12 @@ import {
 } from "@/components/ui/accordion";
 import { homepageFaqs } from "@/lib/data/faqs";
 import { destinations } from "@/components/data/destinations";
+import { trackEvent } from "@/lib/seo/analytics";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
+
+const disclosure =
+  "We are a documentation and consultancy service, not a government authority. We do not issue visas and cannot guarantee approval — applications are decided by the relevant government authority.";
 
 /** Non-numeric, verifiable trust signals only — offices are real (see Footer / schema.ts). */
 const trustStrip: { label: string; icon: LucideIcon }[] = [
@@ -58,13 +62,6 @@ const coreServices: {
     href: "/services/visit-visa",
   },
   {
-    title: "Business & Investment",
-    description:
-      "Company formation and licensing support for mainland, free zone, and offshore setups.",
-    icon: Building2,
-    href: "/services/company-formation",
-  },
-  {
     title: "UAE Residency Visas",
     description:
       "Documentation for investor, employment, family, and renewal visa categories in the UAE.",
@@ -77,6 +74,13 @@ const coreServices: {
       "Certificate attestation and legal document preparation for visa and job applications.",
     icon: Stamp,
     href: "/services/attestation",
+  },
+  {
+    title: "Business & Investment",
+    description:
+      "Company formation and licensing support for mainland, free zone, and offshore setups.",
+    icon: Building2,
+    href: "/services/company-formation",
   },
 ];
 
@@ -138,14 +142,19 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
             className="min-w-0"
           >
-            <p className="eyebrow mb-4">Travelaxis Visa Services</p>
+            <p className="eyebrow mb-4">Visa Documentation in Dubai &amp; Pakistan</p>
             <h1 id="hero-heading" className="hero-title mb-6">
-              Clear support for your next{" "}
-              <span style={{ color: "#155EEF" }}>visa journey.</span>
+              Visa Documentation and{" "}
+              <span style={{ color: "#155EEF" }}>Application Support in Dubai</span>
             </h1>
-            <p className="lead mb-8 max-w-[540px]">
-              Explore visa, document, and business support services with a clear
-              next step for your destination and plans.
+            <p className="lead mb-4 max-w-[540px]">
+              We prepare and organize visa documentation for individuals and
+              families applying to the UAE and abroad, from our offices in Al
+              Qusais, Dubai and Lahore. Business setup and company formation
+              support is also available.
+            </p>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8 max-w-[540px]" style={{ borderColor: "#155EEF" }}>
+              {disclosure}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -160,6 +169,7 @@ export default function HomePage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("whatsapp_click", { page: "homepage_hero" })}
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
                 style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
                 aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"

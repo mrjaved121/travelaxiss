@@ -20,58 +20,67 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const visaTypes: { title: string; description: string; icon: LucideIcon }[] = [
+const visaTypes: { title: string; description: string; icon: LucideIcon; id: string }[] = [
   {
     title: "Saudi Arabia Visa Documentation",
     description:
       "Documentation support for Saudi visit and business visa applications, submitted through official Saudi channels.",
     icon: Landmark,
+    id: "saudi-arabia",
   },
   {
     title: "USA Visa Documentation",
     description:
       "Documentation and application support for common US visa categories, submitted through official US consular channels.",
     icon: Flag,
+    id: "usa",
   },
   {
     title: "Schengen Visa Documentation",
     description:
       "Paperwork support for short-stay Schengen visit and business visa applications across participating European countries.",
     icon: Globe2,
+    id: "schengen",
   },
   {
     title: "European Countries Visas",
     description:
       "Documentation assistance for UK and other European visa applications outside the Schengen area.",
     icon: Compass,
+    id: "europe",
   },
   {
     title: "African Countries Visas",
     description:
       "Visa documentation support for business and travel visa applications across African destination countries.",
     icon: Globe,
+    id: "africa",
   },
   {
     title: "Asian Countries Visas",
     description:
       "Documentation assistance for visit and business visa applications across Asian destination countries.",
     icon: MapPin,
+    id: "asia",
   },
   {
     title: "Visa Appointment Booking Support",
     description:
       "Help scheduling and preparing for embassy, consulate, or visa center appointments.",
     icon: CalendarCheck,
+    id: "appointment-booking",
   },
 ];
 
 const countryGroups: {
   title: string;
+  id: string;
   groupDescription: string;
   countries: { name: string; pakistanHref?: string }[];
 }[] = [
   {
     title: "Schengen Area",
+    id: "schengen-countries",
     groupDescription:
       "Short-stay visit and business visa documentation across Schengen member states, submitted through the relevant country's visa application centre in the UAE.",
     countries: [
@@ -97,6 +106,7 @@ const countryGroups: {
   },
   {
     title: "USA & UK",
+    id: "usa-uk-countries",
     groupDescription:
       "Visitor, student, and other common visa-category documentation for the USA and UK, submitted through each country's official consular process.",
     countries: [
@@ -106,6 +116,7 @@ const countryGroups: {
   },
   {
     title: "Other Popular Destinations",
+    id: "other-countries",
     groupDescription:
       "Visit and study visa documentation for a range of other frequently requested destinations.",
     countries: [
@@ -216,10 +227,11 @@ export default function InternationalVisaServicesPage() {
             {visaTypes.map((item, index) => (
               <motion.div
                 key={item.title}
+                id={item.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 text-center border border-white/10"
+                className="rounded-3xl p-6 md:p-8 text-center border border-white/10 scroll-mt-32"
                 style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}
               >
                 <div
@@ -263,9 +275,11 @@ export default function InternationalVisaServicesPage() {
             {countryGroups.map((group, groupIndex) => (
               <motion.div
                 key={group.title}
+                id={group.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: groupIndex * 0.08 }}
+                className="scroll-mt-32"
               >
                 <h3 className="subsection-title mb-2">
                   {group.title}

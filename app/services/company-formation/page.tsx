@@ -5,9 +5,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Company Formation in UAE – Complete Business Setup Services Dubai",
+  title: "Company Formation in UAE – Mainland, Freezone & Offshore",
   description:
-    "Expert UAE company formation: mainland, freezone, and offshore setup with structured documentation and full support—including guidance on residency-linked documentation where relevant.",
+    "Expert UAE company formation: mainland, freezone, and offshore setup with structured documentation and full support.",
   keywords: [
     "company formation UAE",
     "business setup UAE",

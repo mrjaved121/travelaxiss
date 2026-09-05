@@ -5,10 +5,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title:
-    "International Visa Documentation | Saudi, Europe, USA, Schengen | Travelaxis",
+  title: "International Visa Documentation – Saudi, Europe & More",
   description:
-    "Visa documentation and consultancy support for Saudi Arabia, Europe, the USA, Schengen, and other African and Asian destinations—for UAE residents traveling or relocating abroad.",
+    "Visa documentation and consultancy support for Saudi Arabia, Europe, USA, Schengen, and other destinations — for UAE residents traveling or relocating abroad.",
   keywords: [
     "Saudi Arabia visa services",
     "USA visa services UAE",

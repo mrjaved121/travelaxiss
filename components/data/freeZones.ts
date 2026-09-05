@@ -17,7 +17,7 @@ export const freeZones: FreeZone[] = [
     name: "IFZA",
     fullName: "International Free Zone Authority (IFZA)",
     emirate: "Dubai",
-    metaTitle: "IFZA Company Formation – Documentation & Setup Guide | Travelaxis",
+    metaTitle: "IFZA Company Formation – Documentation & Setup Guide",
     metaDescription:
       "Documentation support for IFZA (International Free Zone Authority) company formation in Dubai — activity selection, licensing paperwork, and visa documentation.",
     heroIntro:
@@ -50,6 +50,14 @@ export const freeZones: FreeZone[] = [
         q: "How many visas can I get with an IFZA license?",
         a: "Visa quota depends on the specific package and office/flexi-desk option chosen — we'll confirm the right package for your visa needs.",
       },
+      {
+        q: "Where is IFZA physically located?",
+        a: "IFZA is based in Dubai Silicon Oasis, though most applicants register remotely without needing to visit in person.",
+      },
+      {
+        q: "Does IFZA support general trading activities?",
+        a: "Yes — IFZA licenses a broad range of commercial, consultancy, and general trading activities, which is part of why it's popular across many business types.",
+      },
     ],
   },
   {
@@ -57,9 +65,9 @@ export const freeZones: FreeZone[] = [
     name: "DMCC",
     fullName: "Dubai Multi Commodities Centre (DMCC)",
     emirate: "Dubai",
-    metaTitle: "DMCC Company Formation – Documentation & Setup Guide | Travelaxis",
+    metaTitle: "DMCC Company Formation – Documentation & Setup Guide",
     metaDescription:
-      "Documentation support for DMCC (Dubai Multi Commodities Centre) company formation in JLT, Dubai — one of the world's most awarded free zones for trading and general business.",
+      "Documentation support for DMCC (Dubai Multi Commodities Centre) company formation in JLT — one of the world's most awarded free zones for trading and business.",
     heroIntro:
       "DMCC (Dubai Multi Commodities Centre), based in Jumeirah Lakes Towers (JLT), is one of the world's most awarded free zones and a long-established hub for commodities trading, though it now licenses a wide range of general business activities. We help you prepare the documentation for DMCC company formation — the license itself is issued by DMCC, not by us.",
     knownFor: [
@@ -90,6 +98,14 @@ export const freeZones: FreeZone[] = [
         q: "What activities does DMCC support beyond commodities trading?",
         a: "DMCC now licenses a wide range of activities including consultancy, technology, and general trading, well beyond its original commodities focus — we can confirm whether your specific activity is supported.",
       },
+      {
+        q: "What is the Almas Tower?",
+        a: "Almas Tower is DMCC's flagship building in JLT, housing many of the free zone's own facilities and a large concentration of DMCC-licensed companies.",
+      },
+      {
+        q: "Does DMCC offer networking opportunities for member companies?",
+        a: "Yes — DMCC has a large, established business community and regularly runs networking and industry events for its licensed companies.",
+      },
     ],
   },
   {
@@ -97,7 +113,7 @@ export const freeZones: FreeZone[] = [
     name: "Meydan Free Zone",
     fullName: "Meydan Free Zone",
     emirate: "Dubai",
-    metaTitle: "Meydan Free Zone Company Formation – Documentation Guide | Travelaxis",
+    metaTitle: "Meydan Free Zone Company Formation – Documentation Guide",
     metaDescription:
       "Documentation support for Meydan Free Zone company formation in Dubai — flexible packages, 100% ownership, and streamlined setup for startups and SMEs.",
     heroIntro:
@@ -130,6 +146,14 @@ export const freeZones: FreeZone[] = [
         q: "Is Meydan Free Zone suitable for e-commerce businesses?",
         a: "Many e-commerce and online business activities are supported — we'll confirm your specific activity is on their current licensable list before applying.",
       },
+      {
+        q: "How long does Meydan Free Zone company formation typically take?",
+        a: "Meydan Free Zone is known for a relatively fast, streamlined application process compared to some other free zones, though exact timelines depend on your activity and current processing volumes.",
+      },
+      {
+        q: "Does Meydan Free Zone require a physical office?",
+        a: "Package options vary — some Meydan Free Zone packages include flexible or virtual office arrangements rather than requiring a dedicated physical space.",
+      },
     ],
   },
   {
@@ -137,7 +161,7 @@ export const freeZones: FreeZone[] = [
     name: "RAKEZ",
     fullName: "Ras Al Khaimah Economic Zone (RAKEZ)",
     emirate: "Ras Al Khaimah",
-    metaTitle: "RAKEZ Company Formation – Documentation & Setup Guide | Travelaxis",
+    metaTitle: "RAKEZ Company Formation – Documentation & Setup Guide",
     metaDescription:
       "Documentation support for RAKEZ (Ras Al Khaimah Economic Zone) company formation — cost-effective setup for commercial, industrial, and freelance businesses.",
     heroIntro:
@@ -170,6 +194,14 @@ export const freeZones: FreeZone[] = [
         q: "Does RAKEZ support industrial and manufacturing activities?",
         a: "Yes — RAKEZ is a common choice for industrial, manufacturing, and warehousing businesses in addition to standard commercial and consultancy activities.",
       },
+      {
+        q: "Does RAKEZ offer a mainland-equivalent option?",
+        a: "Yes — alongside its free zone licenses, RAKEZ offers a non-free-zone option that functions similarly to mainland licensing within Ras Al Khaimah.",
+      },
+      {
+        q: "Is RAKEZ only for large industrial companies?",
+        a: "No — RAKEZ covers a wide range of business sizes, from small commercial and consultancy setups to larger industrial and manufacturing operations.",
+      },
     ],
   },
   {
@@ -177,7 +209,7 @@ export const freeZones: FreeZone[] = [
     name: "SHAMS",
     fullName: "Sharjah Media City (SHAMS)",
     emirate: "Sharjah",
-    metaTitle: "SHAMS Free Zone Company Formation – Documentation Guide | Travelaxis",
+    metaTitle: "SHAMS Free Zone Company Formation – Documentation Guide",
     metaDescription:
       "Documentation support for SHAMS (Sharjah Media City) company formation and freelance permits — affordable setup for creatives, consultants, and freelancers.",
     heroIntro:
@@ -210,6 +242,14 @@ export const freeZones: FreeZone[] = [
         q: "Is SHAMS only for media businesses?",
         a: "Media and creative activities are a strong focus, but SHAMS also licenses a range of consultancy and commercial activities — we can confirm whether your specific activity is supported.",
       },
+      {
+        q: "How fast is SHAMS company or freelance permit setup?",
+        a: "SHAMS is known for a relatively fast setup process, particularly for individual freelance permits, though exact timelines depend on your specific activity and documentation.",
+      },
+      {
+        q: "Does SHAMS support consultancy activities beyond media?",
+        a: "Yes — while media and creative work is SHAMS's strongest focus, it also licenses a range of consultancy and commercial activities.",
+      },
     ],
   },
   {
@@ -217,9 +257,9 @@ export const freeZones: FreeZone[] = [
     name: "JAFZA",
     fullName: "Jebel Ali Free Zone (JAFZA)",
     emirate: "Dubai",
-    metaTitle: "JAFZA Company Formation – Documentation & Setup Guide | Travelaxis",
+    metaTitle: "JAFZA Company Formation – Documentation & Setup Guide",
     metaDescription:
-      "Documentation support for JAFZA (Jebel Ali Free Zone) company formation in Dubai — one of the region's oldest and largest free zones for trading, logistics, and manufacturing.",
+      "Documentation support for JAFZA (Jebel Ali Free Zone) company formation — a major free zone for trading, logistics, and manufacturing.",
     heroIntro:
       "JAFZA (Jebel Ali Free Zone) is one of the region's oldest and largest free zones, built around direct access to Jebel Ali Port, and widely used for trading, logistics, and manufacturing. We help you prepare the documentation for JAFZA company formation — the license itself is issued by JAFZA, not by us.",
     knownFor: [
@@ -249,6 +289,14 @@ export const freeZones: FreeZone[] = [
       {
         q: "How does JAFZA compare to DMCC for trading businesses?",
         a: "Both are well-established free zones for trading; JAFZA is more geared toward logistics, warehousing, and port-based trade, while DMCC is centered on commodities and general business in JLT — the right fit depends on your specific trade flows.",
+      },
+      {
+        q: "What kind of office or facility options does JAFZA offer?",
+        a: "JAFZA offers a wide range of options, from standard offices to large warehouse and logistics facilities, reflecting its focus on trading, logistics, and manufacturing businesses.",
+      },
+      {
+        q: "Is JAFZA good for a business that just needs a standard office, not a warehouse?",
+        a: "Yes — JAFZA does offer standard office packages alongside its warehouse and logistics facilities, though founders with simpler, lower-budget needs sometimes find other Dubai free zones a better fit.",
       },
     ],
   },

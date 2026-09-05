@@ -8,8 +8,6 @@ import {
   Flag,
   Snowflake,
   Sun,
-  Building2,
-  Globe2,
   CheckCircle,
   MessageCircle,
   Search,
@@ -73,18 +71,28 @@ const destinations: { title: string; description: string; icon: LucideIcon; href
     icon: Sun,
     href: "/services/australia-visa-from-pakistan",
   },
-  {
-    title: "Saudi Arabia Visa Documentation",
-    description: "Visit and business visa documentation, submitted through official Saudi channels.",
-    icon: Building2,
-    href: "/services/international-visas",
-  },
-  {
-    title: "Schengen Visa Documentation",
-    description: "Short-stay visit and business visa support across Schengen member states.",
-    icon: Globe2,
-    href: "/services/international-visas",
-  },
+];
+
+const otherCountries = [
+  "Saudi Arabia",
+  "France",
+  "Italy",
+  "Spain",
+  "Germany",
+  "Switzerland",
+  "Netherlands",
+  "Portugal",
+  "Czech Republic",
+  "Austria",
+  "Greece",
+  "Belgium",
+  "Croatia",
+  "Sweden",
+  "Lithuania",
+  "Iceland",
+  "Finland",
+  "Denmark",
+  "Hungary",
 ];
 
 const howWeHelp = [
@@ -172,6 +180,47 @@ export default function VisitVisaPage() {
               />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Also covered */}
+      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-8 max-w-2xl mx-auto"
+          >
+            <h2 className="section-title mb-3">Also Covered: Saudi Arabia &amp; Schengen</h2>
+            <p className="text-[#667085]">
+              Visit and business visa documentation for Saudi Arabia and every Schengen member
+              state, submitted through the relevant country&apos;s visa application centre.
+            </p>
+          </motion.div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {otherCountries.map((country) => (
+              <div
+                key={country}
+                className="rounded-2xl px-4 py-3.5 text-center bg-white card-hover"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>
+                  {country}
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="text-center mt-8">
+            <Link
+              href="/services/international-visas"
+              className="inline-flex items-center gap-1.5 font-semibold"
+              style={{ color: "#155EEF" }}
+            >
+              See full international visa documentation details
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
+          </p>
         </div>
       </section>
 

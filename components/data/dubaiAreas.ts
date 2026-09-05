@@ -16,7 +16,7 @@ export const dubaiAreas: DubaiArea[] = [
     name: "Al Qusais",
     fullLabel: "Al Qusais, Dubai",
     isOffice: true,
-    metaTitle: "Business Setup & Visa Documentation in Al Qusais, Dubai | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Al Qusais, Dubai",
     metaDescription:
       "Travelaxis is based in Al Qusais, Dubai, offering company formation, government services, legal documentation, and visa documentation support in person and remotely.",
     heroIntro:
@@ -40,6 +40,14 @@ export const dubaiAreas: DubaiArea[] = [
         q: "Do you only serve clients based in Al Qusais?",
         a: "No — we support clients across Dubai and the wider UAE. Al Qusais is simply where our office is physically located.",
       },
+      {
+        q: "Is Al Qusais well connected by public transport?",
+        a: "Yes — Al Qusais is served by Dubai Metro's Red Line and sits on several major roads connecting to central Dubai, making it straightforward to reach for an in-person appointment.",
+      },
+      {
+        q: "What kind of businesses are typically based in Al Qusais?",
+        a: "Al Qusais has a large concentration of small and medium trading businesses alongside its residential population, reflecting its mixed residential and light-industrial character.",
+      },
     ],
   },
   {
@@ -47,9 +55,9 @@ export const dubaiAreas: DubaiArea[] = [
     name: "Deira",
     fullLabel: "Deira, Dubai",
     isOffice: false,
-    metaTitle: "Business Setup & Visa Documentation Support in Deira, Dubai | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Deira, Dubai",
     metaDescription:
-      "Documentation and consultancy support for company formation, trade licensing, and visa applications for businesses and residents in Deira, Dubai — coordinated from our Al Qusais office.",
+      "Documentation and consultancy support for company formation, trade licensing, and visa applications in Deira, Dubai — coordinated from our Al Qusais office.",
     heroIntro:
       "Deira is one of Dubai's oldest and busiest commercial districts, home to the Gold Souk, Spice Souk, and a dense concentration of trading and import/export businesses licensed through Dubai's Department of Economic Development. We support company formation, trade licensing documentation, and visa applications for businesses and residents in Deira, coordinated from our Al Qusais office — remotely or by appointment.",
     context: [
@@ -71,6 +79,14 @@ export const dubaiAreas: DubaiArea[] = [
         q: "Is Deira a good location for a trading company?",
         a: "Deira has a long-established trading and import/export ecosystem, which is why many trading businesses choose to be based there, though the right location depends on your specific activity and target market.",
       },
+      {
+        q: "Is Deira known for anything besides trading?",
+        a: "Deira is home to Dubai's historic Gold Souk, Spice Souk, and the Dubai Creek waterfront — alongside its long-standing trading and import/export business community.",
+      },
+      {
+        q: "What type of trade license do Deira businesses typically need?",
+        a: "Most Deira-based businesses operate under a Dubai mainland trade license issued by Dubai's Department of Economic Development (DED), reflecting the area's DED-licensed trading and import/export focus.",
+      },
     ],
   },
   {
@@ -78,9 +94,9 @@ export const dubaiAreas: DubaiArea[] = [
     name: "Business Bay",
     fullLabel: "Business Bay, Dubai",
     isOffice: false,
-    metaTitle: "Business Setup & Visa Documentation Support in Business Bay, Dubai | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Business Bay",
     metaDescription:
-      "Documentation and consultancy support for company formation, government approvals, and visa applications for businesses in Business Bay, Dubai — coordinated from our Al Qusais office.",
+      "Documentation and consultancy support for company formation, government approvals, and visa applications in Business Bay, Dubai — from our Al Qusais office.",
     heroIntro:
       "Business Bay is a modern commercial district along the Dubai Water Canal, close to Downtown Dubai and DIFC, home to a large number of corporate towers and business centers. We support company formation, government approvals, legal documentation, and visa applications for businesses and professionals based in Business Bay, coordinated from our Al Qusais office — remotely or by appointment.",
     context: [
@@ -102,6 +118,14 @@ export const dubaiAreas: DubaiArea[] = [
         q: "Is Business Bay mainland or free zone?",
         a: "Business Bay is part of Dubai mainland, licensed through Dubai's DED — it isn't a free zone itself, though it's close to DIFC, which operates under its own framework.",
       },
+      {
+        q: "Is Business Bay close to DIFC?",
+        a: "Yes — Business Bay sits directly next to the Dubai International Financial Centre (DIFC), which is part of why many corporate and financial services firms choose the area.",
+      },
+      {
+        q: "Are flexi-desk or shared office options available in Business Bay?",
+        a: "Yes — Business Bay has a large number of business centers and flexi-desk providers, which can support the office requirement for certain trade licenses.",
+      },
     ],
   },
   {
@@ -109,9 +133,9 @@ export const dubaiAreas: DubaiArea[] = [
     name: "Bur Dubai",
     fullLabel: "Bur Dubai, Dubai",
     isOffice: false,
-    metaTitle: "Business Setup & Visa Documentation Support in Bur Dubai | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in Bur Dubai",
     metaDescription:
-      "Documentation and consultancy support for company formation, legal documentation, and visa applications for businesses and residents in Bur Dubai — coordinated from our Al Qusais office.",
+      "Documentation and consultancy support for company formation, legal documentation, and visa applications in Bur Dubai — from our Al Qusais office.",
     heroIntro:
       "Bur Dubai is a historic district on the western bank of Dubai Creek, home to Dubai Courts, a dense residential population, and a large number of small and medium businesses. We support company formation, legal documentation, and visa applications for businesses and residents in Bur Dubai, coordinated from our Al Qusais office — remotely or by appointment.",
     context: [
@@ -133,6 +157,14 @@ export const dubaiAreas: DubaiArea[] = [
         q: "Is Bur Dubai close to Dubai Courts and government offices?",
         a: "Yes — Bur Dubai is home to Dubai Courts and is within reach of several government service centers, which is part of why many long-established businesses and residents are based there.",
       },
+      {
+        q: "Is Bur Dubai mainly residential or commercial?",
+        a: "Both — Bur Dubai combines a dense, long-established residential community with a large number of small and medium trading and service businesses.",
+      },
+      {
+        q: "Why is Bur Dubai relevant for legal documentation needs?",
+        a: "Bur Dubai is home to Dubai Courts, which is why many legal and documentation-related matters for UAE residents are connected to this area.",
+      },
     ],
   },
   {
@@ -140,9 +172,9 @@ export const dubaiAreas: DubaiArea[] = [
     name: "JLT",
     fullLabel: "Jumeirah Lakes Towers (JLT), Dubai",
     isOffice: false,
-    metaTitle: "Business Setup & Visa Documentation Support in JLT, Dubai | Travelaxis",
+    metaTitle: "Business Setup & Visa Documentation in JLT, Dubai",
     metaDescription:
-      "Documentation and consultancy support for company formation, DMCC free zone setup, and visa applications for businesses in JLT, Dubai — coordinated from our Al Qusais office.",
+      "Documentation and consultancy support for company formation, DMCC free zone setup, and visa applications in JLT, Dubai — from our Al Qusais office.",
     heroIntro:
       "Jumeirah Lakes Towers (JLT) is a cluster of high-rise towers adjacent to the DMCC free zone, home to a large number of free zone companies and their employees. We support company formation, DMCC-related documentation, and visa applications for businesses and residents in JLT, coordinated from our Al Qusais office — remotely or by appointment.",
     context: [
@@ -163,6 +195,14 @@ export const dubaiAreas: DubaiArea[] = [
       {
         q: "Is there a typing center near JLT for visa transactions?",
         a: "Yes — several authorized typing centers operate near JLT and DMCC. See our dedicated guide on visa documentation and typing center support near JLT for more detail.",
+      },
+      {
+        q: "Do I need a DMCC license to be based in JLT?",
+        a: "No — while JLT is directly adjacent to and closely associated with DMCC, other free zones and mainland structures can also operate from the area.",
+      },
+      {
+        q: "Is JLT mainly residential or commercial?",
+        a: "Both — JLT is a mixed cluster of residential and commercial towers, with a large number of DMCC free zone companies and their employees based there.",
       },
     ],
   },

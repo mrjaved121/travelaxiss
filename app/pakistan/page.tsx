@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "UAE Services for Pakistani Nationals",
   description:
-    "Travelaxis supports Pakistani nationals with UAE document attestation, visa documentation, and business setup. Offices in Dubai and Lahore, WhatsApp support throughout.",
+    "Travelaxis supports Pakistani nationals with UAE document attestation, visa documentation, and business setup — offices in Dubai and Lahore.",
   alternates: {
     canonical: `${SITE_URL}/pakistan/`,
   },
