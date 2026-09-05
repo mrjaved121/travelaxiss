@@ -5,16 +5,16 @@ import { breadcrumbJsonLd, professionalServiceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Destinations",
+  title: "Explore Visa Destinations by Region",
   description:
-    "Explore visa and immigration pathways for the UAE, USA, Canada, UK, Australia, and Germany with Travelaxis.",
+    "Find visa application support by region and travel purpose — visit visa, study visa, and UAE residency destinations.",
   alternates: {
     canonical: `${SITE_URL}/destinations/`,
   },
   openGraph: {
-    title: "Destinations | Travelaxis",
+    title: "Explore Visa Destinations | Travelaxis",
     description:
-      "Explore visa and immigration pathways for the UAE, USA, Canada, UK, Australia, and Germany with Travelaxis.",
+      "Find visa application support by region and travel purpose.",
     url: `${SITE_URL}/destinations/`,
     images: [DEFAULT_OG_IMAGE],
   },

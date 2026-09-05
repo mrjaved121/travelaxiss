@@ -231,7 +231,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             href="/contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
           >
-            Contact Travelaxis
+            Discuss My Business Setup
             <ArrowRight className="w-5 h-5" aria-hidden />
           </Link>
         </motion.div>

@@ -31,7 +31,7 @@ import { studyVisaFaqs } from "@/components/data/studyVisaFaqs";
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const relatedServices = [
-  { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
+  { href: "/visit-visa", label: "Tourist & Visit Visas" },
   { href: "/services/visa-services", label: "UAE Residency Visas" },
   { href: "/services/company-formation", label: "Business & Investment" },
   { href: "/services/attestation", label: "Document Services" },
@@ -113,7 +113,7 @@ export default function StudyVisaPage() {
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
                 style={{ color: "#FFFFFF" }}
               >
-                <span>Get Started</span>
+                <span>Check Requirements</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </Link>
               <a
@@ -279,7 +279,7 @@ export default function StudyVisaPage() {
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
-              <span>Contact Travelaxis</span>
+              <span>Check Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
             <a

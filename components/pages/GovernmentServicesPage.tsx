@@ -217,7 +217,7 @@ export default function GovernmentServicesPage() {
                 className="btn inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                Start Your Process
+                Discuss My Business Setup
               </Link>
               <a
                 href={WHATSAPP_HREF}

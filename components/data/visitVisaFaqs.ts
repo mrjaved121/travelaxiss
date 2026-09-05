@@ -1,18 +1,30 @@
 export const visitVisaFaqs: { q: string; a: string }[] = [
   {
-    q: "What documents are required for a UAE visit visa?",
-    a: "You'll usually need a passport valid for 6+ months, a passport-style photo, proof you can support yourself financially, and a confirmed return ticket. The exact list depends on your sponsor — an airline, hotel, tour operator, or a UAE resident/citizen. We confirm the exact checklist for your situation before you apply.",
+    q: "How do I apply for a visit visa from Pakistan?",
+    a: "You choose your destination, confirm the documents that specific country requires, and submit your application through that country's official visa channel — an embassy, consulate, or authorized visa application centre. We help you prepare and organize the documents before you submit.",
   },
   {
-    q: "Do you provide multiple-entry visa assistance?",
-    a: "Yes. A UAE visit visa can be single-entry (one trip) or multiple-entry (several trips), depending on how long you're staying and your travel plans. We help you choose the right one and prepare the paperwork for it.",
+    q: "What documents are generally needed for a visit visa?",
+    a: "Most applications need a passport valid for at least 6 months, a recent photo, proof of funds, and a travel itinerary. Sponsored applications add documents specific to your sponsor. The exact list varies by destination — we confirm it for your specific case.",
   },
   {
-    q: "What is the process for a UK visit visa from Pakistan?",
-    a: "You submit a passport, financial evidence, and a travel itinerary through the UK's official visa application system, attend a biometric appointment at a visa application centre in Pakistan, and wait for a decision. We help prepare and check every document before you submit.",
+    q: "Do visit visa requirements differ by destination?",
+    a: "Yes, significantly. Duration options, sponsor routes, financial proof thresholds, and whether biometrics are required all vary by country. See the destination-specific page for your country, or ask us directly.",
   },
   {
-    q: "How do I apply for a Canada visit visa from Pakistan?",
-    a: "You submit an online application with a passport, financial evidence, and a travel purpose statement, then complete biometrics at a visa application centre in Pakistan. We help prepare and check every document beforehand.",
+    q: "Will I need an appointment or biometrics?",
+    a: "Many destinations require a biometric appointment at a visa application centre, though this varies by country and sometimes by nationality. We confirm what applies to your specific application.",
+  },
+  {
+    q: "Can Travelaxis help with online visa applications?",
+    a: "Yes — most visit visa applications today are submitted online. We help you complete the application accurately and prepare the supporting documents it requires.",
+  },
+  {
+    q: "Does Travelaxis guarantee visa approval?",
+    a: "No consultancy can guarantee approval for any country. We help ensure your application is complete and correctly documented, which is the biggest factor within your control — the decision itself rests with the relevant government authority.",
+  },
+  {
+    q: "Can I apply from Pakistan if I am travelling to Europe, the UK, USA, or Canada?",
+    a: "Yes. We support visit visa documentation for applicants in Pakistan across all of these destinations, each submitted through that country's own official process. See the dedicated page for your destination for country-specific requirements.",
   },
 ];

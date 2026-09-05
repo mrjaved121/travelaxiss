@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import ContactPage from "@/components/pages/ContactPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, professionalServiceJsonLd, pakistanOfficeJsonLd } from "@/lib/seo/schema";
@@ -38,7 +39,9 @@ export default function Page() {
           pakistanOfficeJsonLd,
         ]}
       />
-      <ContactPage />
+      <Suspense fallback={null}>
+        <ContactPage />
+      </Suspense>
     </>
   );
 }

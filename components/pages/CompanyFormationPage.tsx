@@ -29,7 +29,7 @@ const disclaimer =
 
 const relatedServices = [
   { href: "/services/study-visa", label: "Study Visas" },
-  { href: "/services/visit-visa", label: "Tourist & Visit Visas" },
+  { href: "/visit-visa", label: "Tourist & Visit Visas" },
   { href: "/services/visa-services", label: "UAE Residency Visas" },
   { href: "/services/attestation", label: "Document Services" },
 ];
@@ -251,7 +251,7 @@ export default function CompanyFormationPage() {
                 className="btn inline-flex items-center justify-center px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                Get a Free Quote
+                Discuss My Business Setup
               </Link>
               <a
                 href={WHATSAPP_HREF}
@@ -609,7 +609,7 @@ export default function CompanyFormationPage() {
                   className="block text-center px-6 py-3 rounded-2xl transition-all hover:opacity-90 font-semibold"
                   style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
                 >
-                  Get Started
+                  Discuss My Business Setup
                 </Link>
               </motion.div>
             ))}
@@ -738,7 +738,7 @@ export default function CompanyFormationPage() {
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
               style={{ backgroundColor: "#FFFFFF", color: "#155EEF" }}
             >
-              Get Started Now
+              Discuss My Business Setup
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
             <a

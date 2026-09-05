@@ -1,63 +1,28 @@
 import type { Metadata } from "next";
-import VisitVisaPage from "@/components/pages/VisitVisaPage";
-import { visitVisaFaqs } from "@/components/data/visitVisaFaqs";
-import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
-import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
+import Link from "next/link";
+import { SITE_URL } from "@/lib/seo/site";
+
+const TARGET_PATH = "/visit-visa/";
 
 export const metadata: Metadata = {
-  title: "Visit Visa Documentation | UAE, UK, USA, Canada & Australia",
-  description:
-    "Visit visa documentation support for the UAE, UK, USA, Canada, Australia, and other destinations — document preparation for tourism, family, and business visits.",
-  keywords: [
-    "visit visa documentation",
-    "uk visit visa from pakistan",
-    "canada visit visa from pakistan",
-    "australia visitor visa from pakistan",
-  ],
-  alternates: {
-    canonical: `${SITE_URL}/services/visit-visa/`,
-  },
-  openGraph: {
-    url: `${SITE_URL}/services/visit-visa/`,
-    title: "Visit Visa Documentation | Travelaxis",
-    description:
-      "Document preparation for visit visa applicants heading to the UAE, UK, USA, Canada, Australia, and other popular destinations.",
-    images: [DEFAULT_OG_IMAGE],
-  },
+  title: "Redirecting…",
+  robots: { index: false, follow: true },
+  alternates: { canonical: `${SITE_URL}${TARGET_PATH}` },
 };
 
 export default function Page() {
   return (
     <>
-      <JsonLd
-        data={[
-          breadcrumbJsonLd([
-            { name: "Services", path: "/services" },
-            { name: "Visit Visa", path: "/services/visit-visa" },
-          ]),
-          serviceJsonLd({
-            name: "Visit Visa Documentation",
-            description:
-              "Document preparation and application support for visit visa applicants heading to the UAE, UK, USA, Canada, Australia, and other popular destinations.",
-            path: "/services/visit-visa",
-            serviceType: "Visit visa documentation consultancy",
-          }),
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: visitVisaFaqs.map((faq) => ({
-              "@type": "Question",
-              name: faq.q,
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: faq.a,
-              },
-            })),
-          },
-        ]}
-      />
-      <VisitVisaPage />
+      <meta httpEquiv="refresh" content={`0; url=${TARGET_PATH}`} />
+      <section className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+        <p className="text-[#667085]">
+          This page has moved.{" "}
+          <Link href={TARGET_PATH} className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+            Continue to Visit Visa Services
+          </Link>
+          .
+        </p>
+      </section>
     </>
   );
 }
