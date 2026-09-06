@@ -8,6 +8,8 @@ import {
   Snowflake,
   Sun,
   Compass,
+  Globe2,
+  MapPin,
   CheckCircle,
   MessageCircle,
   Search,
@@ -71,6 +73,18 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
     icon: Compass,
     href: "/services/germany-visa-from-pakistan",
   },
+  {
+    title: "Other European Countries",
+    description: "Study visa documentation support for France, Italy, Netherlands, and other European destinations outside the UK.",
+    icon: Globe2,
+    href: "/services/international-visas#schengen-countries",
+  },
+  {
+    title: "China Visa Documentation",
+    description: "Documentation support for applicants heading to China, including study-related applications.",
+    icon: MapPin,
+    href: "/services/international-visas#other-countries",
+  },
 ];
 
 const howWeHelp = [
@@ -100,9 +114,9 @@ export default function StudyVisaPage() {
               Study Visa <span style={{ color: "#155EEF" }}>Documentation</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
-              Planning to study in the UK, USA, Canada, Australia, or Germany? We help you prepare
-              the right documents for your student visa application, so you can focus on your
-              admission while we handle the paperwork.
+              Planning to study in the UK, USA, Canada, Australia, Germany, elsewhere in Europe, or
+              China? We help you prepare the right documents for your student visa application, so
+              you can focus on your admission while we handle the paperwork.
             </p>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
