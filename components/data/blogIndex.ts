@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "schengen-visa-rejection-reasons-pakistani-applicants",
+      title: "Top Schengen Visa Rejection Reasons for Pakistani Applicants (2026)",
+      excerpt:
+        "All 11 official Schengen refusal codes explained for Pakistani applicants — why visas get refused, how much bank balance you need, and how to reapply after a rejection.",
+      date: "September 8, 2026",
+      readTime: "12 min read",
+      category: "Europe Visa Documentation",
+    },
+    {
       id: "uae-visa-ban-status-check-guide",
       title: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
       excerpt:

@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, Share2, Building2, Plane, FileText, BadgeCheck, CalendarDays } from "lucide-react";
+import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, FileText, BadgeCheck, CalendarDays } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
 import { blogIsoDayToDisplay } from "@/lib/seo/blog-dates";
@@ -59,6 +59,7 @@ function linkifyText(text: string) {
 const categoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
   "UAE Visa Documentation": Plane,
+  "Europe Visa Documentation": Globe2,
 };
 
 export default function BlogDetailPage({ slug }: { slug: string }) {
