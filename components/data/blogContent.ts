@@ -204,9 +204,11 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis helps you avoid a second refusal",
           content:
-            "At Travelaxis we prepare Schengen visit-visa files for Pakistani applicants from our offices in Dubai and Lahore, focusing on the exact areas that cause refusals: financial documentation, a consistent itinerary, a persuasive cover letter, and strong proof of ties to Pakistan. We review your previous refusal letter, pinpoint what went wrong, and rebuild the file so your reapplication stands on solid ground. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application gives you the strongest, cleanest case possible.",
+            "At Travelaxis we prepare [Schengen visit-visa files](/visit-visa/europe) for Pakistani applicants from our offices in Dubai and Lahore, focusing on the exact areas that cause refusals: financial documentation, a consistent itinerary, a persuasive cover letter, and strong proof of ties to Pakistan. We review your previous refusal letter, pinpoint what went wrong, and rebuild the file so your reapplication stands on solid ground. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application gives you the strongest, cleanest case possible.",
           relatedLinks: [
+            { label: "Europe & Schengen Visit Visa Services", href: "/visit-visa/europe" },
             { label: "Get a document review from Travelaxis", href: "/contact" },
+            { label: "Germany Visa from Pakistan", href: "/services/germany-visa-from-pakistan" },
           ],
         },
         {

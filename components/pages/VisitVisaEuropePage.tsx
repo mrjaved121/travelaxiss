@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, BookOpen } from "lucide-react";
 import { motion } from "motion/react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
@@ -95,7 +95,37 @@ export default function VisitVisaEuropePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Link
+            href="/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            className="flex items-start sm:items-center gap-4 rounded-3xl p-6 card-hover"
+            style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+          >
+            <div
+              className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
+              style={{ backgroundColor: "#155EEF" }}
+              aria-hidden
+            >
+              <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+            </div>
+            <div className="flex-1">
+              <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#155EEF" }}>
+                Guide
+              </p>
+              <h3 className="subsection-title mb-1">
+                Schengen Visa Rejection Reasons for Pakistani Applicants
+              </h3>
+              <p className="text-sm text-[#667085]">
+                All 11 official refusal codes, how much bank balance you need, and how to reapply after a rejection.
+              </p>
+            </div>
+            <ArrowRight className="w-5 h-5 flex-shrink-0 hidden sm:block" style={{ color: "#155EEF" }} aria-hidden />
+          </Link>
+        </div>
+      </section>
+
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="Europe" />
         </div>
