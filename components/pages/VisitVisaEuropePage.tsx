@@ -6,6 +6,19 @@ import { motion } from "motion/react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 
+const europeGuides: { title: string; description: string; href: string }[] = [
+  {
+    title: "Schengen Visa Rejection Reasons for Pakistani Applicants",
+    description: "All 11 official refusal codes, how much bank balance you need, and how to reapply after a rejection.",
+    href: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",
+  },
+  {
+    title: "Cover Letter for a Visit Visa: Free Sample & Template",
+    description: "A copy-paste cover letter sample and template, plus the mistakes that get letters rejected.",
+    href: "/blog/cover-letter-for-visit-visa-sample-pakistan",
+  },
+];
+
 const schengenCountries: { name: string; href?: string }[] = [
   { name: "France" },
   { name: "Italy" },
@@ -97,31 +110,29 @@ export default function VisitVisaEuropePage() {
 
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link
-            href="/blog/schengen-visa-rejection-reasons-pakistani-applicants"
-            className="flex items-start sm:items-center gap-4 rounded-3xl p-6 card-hover"
-            style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
-          >
-            <div
-              className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-              style={{ backgroundColor: "#155EEF" }}
-              aria-hidden
-            >
-              <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
-            </div>
-            <div className="flex-1">
-              <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#155EEF" }}>
-                Guide
-              </p>
-              <h3 className="subsection-title mb-1">
-                Schengen Visa Rejection Reasons for Pakistani Applicants
-              </h3>
-              <p className="text-sm text-[#667085]">
-                All 11 official refusal codes, how much bank balance you need, and how to reapply after a rejection.
-              </p>
-            </div>
-            <ArrowRight className="w-5 h-5 flex-shrink-0 hidden sm:block" style={{ color: "#155EEF" }} aria-hidden />
-          </Link>
+          <h2 className="section-title mb-6">Europe Visa Guides</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {europeGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="flex items-start gap-4 rounded-3xl p-6 card-hover"
+                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "#155EEF" }}
+                  aria-hidden
+                >
+                  <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="subsection-title mb-1">{guide.title}</h3>
+                  <p className="text-sm text-[#667085]">{guide.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
