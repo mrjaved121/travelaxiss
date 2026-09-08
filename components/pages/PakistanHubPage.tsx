@@ -17,6 +17,7 @@ import {
   GraduationCap,
   Flag,
   Compass,
+  Globe2,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -118,6 +119,14 @@ const guides: {
       "Student/Ausbildung and Family Reunification documentation, submitted through the German Mission's official process.",
     icon: Compass,
     link: "/services/germany-visa-from-pakistan",
+  },
+  {
+    title: "Schengen Visa Rejection Reasons",
+    category: "Schengen Visas",
+    description:
+      "All 11 official Schengen refusal codes, how much bank balance you need, and how to reapply after a rejection.",
+    icon: Globe2,
+    link: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",
   },
 ];
 
