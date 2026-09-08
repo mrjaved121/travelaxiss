@@ -18,6 +18,7 @@ import {
   Flag,
   Compass,
   Globe2,
+  FileText,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -127,6 +128,14 @@ const guides: {
       "All 11 official Schengen refusal codes, how much bank balance you need, and how to reapply after a rejection.",
     icon: Globe2,
     link: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",
+  },
+  {
+    title: "Free Visit Visa Cover Letter Sample",
+    category: "Document Templates",
+    description:
+      "A copy-paste cover letter template and full example — what to include, and the mistakes that get letters rejected.",
+    icon: FileText,
+    link: "/blog/cover-letter-for-visit-visa-sample-pakistan",
   },
 ];
 

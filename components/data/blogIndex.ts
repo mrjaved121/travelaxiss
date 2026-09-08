@@ -18,6 +18,15 @@ export const blogPostSummaries: BlogPostSummary[] = [
       category: "Europe Visa Documentation",
     },
     {
+      id: "cover-letter-for-visit-visa-sample-pakistan",
+      title: "Cover Letter for a Visit Visa: Free Sample & Template (Pakistan, 2026)",
+      excerpt:
+        "A free, copy-paste cover letter sample for Pakistani visit-visa applicants — what to include, a full example letter, how to adapt it, and the mistakes that get letters refused.",
+      date: "September 8, 2026",
+      readTime: "9 min read",
+      category: "Europe Visa Documentation",
+    },
+    {
       id: "uae-visa-ban-status-check-guide",
       title: "UAE Visa Ban & Status Check – Passport Number, Expiry, File Number",
       excerpt:
