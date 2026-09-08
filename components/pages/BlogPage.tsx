@@ -10,6 +10,7 @@ const categoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
   "UAE Visa Documentation": Plane,
   "International Visa Documentation": Globe2,
+  "Europe Visa Documentation": Globe2,
 };
 
 const CATEGORIES = ["All", ...Array.from(new Set(blogPostSummaries.map((b) => b.category)))];
