@@ -5,6 +5,7 @@ import BlogDetailPage from "@/components/pages/BlogDetailPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogData } from "@/components/data/blogContent";
 import { blogRedirects } from "@/components/data/blogRedirects";
+import { blogDisplayDateToIso } from "@/lib/seo/blog-dates";
 import { blogFaqJsonLd, blogHowToJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
@@ -40,11 +41,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const url = `${SITE_URL}/blog/${slug}/`;
+  const publishedIso = blog.date ? blogDisplayDateToIso(blog.date) : undefined;
+  const postKeywords: string[] | undefined = blog.keywords;
 
   return {
     title: blog.metaTitle,
     description: blog.metaDescription,
-    keywords: blogKeywords.split(", ").map((k) => k.trim()),
+    keywords: postKeywords ?? blogKeywords.split(", ").map((k) => k.trim()),
     alternates: {
       canonical: url,
     },
@@ -54,6 +57,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: blog.metaDescription,
       url,
       images: [blog.image ? { url: blog.image } : DEFAULT_OG_IMAGE],
+      publishedTime: publishedIso,
+      modifiedTime: blog.dateModifiedIso ?? publishedIso,
+      section: blog.category,
+      ...(postKeywords ? { tags: postKeywords } : {}),
     },
     twitter: {
       card: "summary_large_image",

@@ -137,6 +137,14 @@ const guides: {
     icon: FileText,
     link: "/blog/cover-letter-for-visit-visa-sample-pakistan",
   },
+  {
+    title: "UK Visit Visa Refusal Reasons",
+    category: "UK Visas",
+    description:
+      "The genuine visitor rule, the top reasons UK visit visas are refused for Pakistani applicants, why there is no appeal, and how to reapply.",
+    icon: Landmark,
+    link: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
+  },
 ];
 
 const whyUs: { icon: LucideIcon; title: string; description: string }[] = [
