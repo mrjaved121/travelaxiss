@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, BookOpen, MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
 import {
   Accordion,
@@ -19,6 +19,19 @@ const quickFacts = [
   { label: "Application", value: "Online, via UKVI" },
   { label: "Biometrics", value: "Required, at a visa application centre" },
   { label: "Decision made by", value: "UK Visas and Immigration (UKVI)" },
+];
+
+const ukGuides: { title: string; description: string; href: string }[] = [
+  {
+    title: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+    description: "The genuine visitor rule, the top refusal reasons, why there is no appeal, and how to reapply.",
+    href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
+  },
+  {
+    title: "Cover Letter for a Visit Visa: Free Sample & Template",
+    description: "A copy-paste cover letter sample and template, plus the mistakes that get letters rejected.",
+    href: "/blog/cover-letter-for-visit-visa-sample-pakistan",
+  },
 ];
 
 const documents = [
@@ -156,8 +169,37 @@ export default function VisitVisaUkPage() {
         </div>
       </section>
 
-      {/* Related */}
+      {/* Guides */}
       <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="section-title mb-6 text-center">UK Visa Guides</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {ukGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="flex items-start gap-4 rounded-3xl p-6 card-hover"
+                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "#155EEF" }}
+                  aria-hidden
+                >
+                  <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="subsection-title mb-1">{guide.title}</h3>
+                  <p className="text-sm text-[#667085]">{guide.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related */}
+      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

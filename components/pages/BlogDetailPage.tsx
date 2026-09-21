@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, FileText, BadgeCheck, CalendarDays } from "lucide-react";
+import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, Landmark, FileText, BadgeCheck, CalendarDays } from "lucide-react";
 import { motion } from "motion/react";
 import { blogData } from "../data/blogContent";
 import { blogIsoDayToDisplay } from "@/lib/seo/blog-dates";
@@ -60,6 +60,18 @@ const categoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
   "UAE Visa Documentation": Plane,
   "Europe Visa Documentation": Globe2,
+  "UK Visa Documentation": Landmark,
+};
+
+type BlogCta = { heading: string; text: string; label: string; href: string };
+
+/** Default closing CTA (UAE business setup) — a post can override it with its own `cta` field. */
+const defaultCta: BlogCta & { ariaLabel: string } = {
+  heading: "Ready to Start Your Business?",
+  text: "Get expert guidance for your company formation in UAE",
+  label: "Contact Us on WhatsApp",
+  href: "https://wa.me/971589867555",
+  ariaLabel: "Contact Travelaxis on WhatsApp about UAE business setup (opens in a new tab)",
 };
 
 export default function BlogDetailPage({ slug }: { slug: string }) {
@@ -931,20 +943,30 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>Ready to Start Your Business?</h2>
+          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>{(blog.cta ?? defaultCta).heading}</h2>
           <p className="lead mb-8" style={{ color: 'rgba(255,255,255,0.9)' }}>
-            Get expert guidance for your company formation in UAE
+            {(blog.cta ?? defaultCta).text}
           </p>
-          <a
-            href="https://wa.me/971589867555"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
-            aria-label="Contact Travelaxis on WhatsApp about UAE business setup (opens in a new tab)"
-          >
-            Contact Us on WhatsApp
-            <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
-          </a>
+          {blog.cta ? (
+            <Link
+              href={blog.cta.href}
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            >
+              {blog.cta.label}
+              <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
+            </Link>
+          ) : (
+            <a
+              href={defaultCta.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+              aria-label={defaultCta.ariaLabel}
+            >
+              {defaultCta.label}
+              <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
+            </a>
+          )}
         </motion.div>
       </section>
 

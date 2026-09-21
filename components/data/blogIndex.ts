@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uk-visit-visa-refusal-reasons-pakistani-applicants",
+      title: "UK Visit Visa Refusal Reasons for Pakistani Applicants (2027)",
+      excerpt:
+        "Why UK visit visas get refused for Pakistani applicants — the genuine visitor rule, the top refusal reasons, why there is no appeal, and the step-by-step way to reapply and get approved.",
+      date: "September 21, 2026",
+      readTime: "11 min read",
+      category: "UK Visa Documentation",
+    },
+    {
       id: "schengen-visa-rejection-reasons-pakistani-applicants",
       title: "Top Schengen Visa Rejection Reasons for Pakistani Applicants (2026)",
       excerpt:

@@ -174,6 +174,10 @@ type BlogEntry = {
   date?: string;
   /** Optional ISO yyyy-MM-dd when content was revised; defaults to published date */
   dateModifiedIso?: string;
+  /** Blog category, emitted as `articleSection`. */
+  category?: string;
+  /** Optional per-post target keywords, emitted as `keywords`. */
+  keywords?: string[];
 };
 
 export function blogListingJsonLd() {
@@ -277,6 +281,9 @@ export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
     headline: blog.title,
     description: blog.metaDescription,
     image: blog.image ?? DEFAULT_OG_IMAGE.url,
+    inLanguage: "en",
+    ...(blog.category ? { articleSection: blog.category } : {}),
+    ...(blog.keywords?.length ? { keywords: blog.keywords.join(", ") } : {}),
     datePublished,
     dateModified,
     author: {
