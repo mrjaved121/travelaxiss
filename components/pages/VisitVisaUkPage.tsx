@@ -28,6 +28,11 @@ const ukGuides: { title: string; description: string; href: string }[] = [
     href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
   },
   {
+    title: "How Much Bank Balance Do You Need for a UK Visit Visa?",
+    description: "How much to show for your trip, statement rules, the sponsor option, and money mistakes to avoid.",
+    href: "/blog/how-much-bank-balance-uk-visit-visa-pakistan",
+  },
+  {
     title: "Cover Letter for a Visit Visa: Free Sample & Template",
     description: "A copy-paste cover letter sample and template, plus the mistakes that get letters rejected.",
     href: "/blog/cover-letter-for-visit-visa-sample-pakistan",
@@ -171,9 +176,9 @@ export default function VisitVisaUkPage() {
 
       {/* Guides */}
       <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">UK Visa Guides</h2>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {ukGuides.map((guide) => (
               <Link
                 key={guide.href}

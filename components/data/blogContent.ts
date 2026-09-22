@@ -5,6 +5,202 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "how-much-bank-balance-uk-visit-visa-pakistan": {
+    title: "How Much Bank Balance Do You Need for a UK Visit Visa From Pakistan? (2027)",
+    metaTitle: "How Much Bank Balance for a UK Visit Visa From Pakistan 2027",
+    metaDescription:
+      "How much bank balance you need for a UK visit visa from Pakistan: how much to show, statement rules, the sponsor option, and mistakes that cause refusal.",
+    keywords: [
+      "bank balance for UK visit visa from Pakistan",
+      "UK visa bank statement requirements Pakistan",
+      "how much money for UK visit visa",
+      "UK visit visa sponsor bank statements",
+      "UK visa funds proof Pakistan",
+    ],
+    date: "September 22, 2026",
+    dateModifiedIso: "2026-09-22",
+    readTime: "10 min read",
+    category: "UK Visa Documentation",
+    cta: {
+      heading: "Need Help Preparing Your UK Visa Funds?",
+      text: "Get your bank statements and financial file reviewed before you apply.",
+      label: "Check Requirements",
+      href: "/visit-visa/uk#requirements-form",
+    },
+    content: {
+      intro:
+        "There is no official minimum bank balance for a UK Standard Visitor visa. The rule that actually matters is proportionality: show funds that comfortably cover your whole trip — a common guide is around twice your estimated trip cost — backed by roughly six months of steady, organic bank statements. For most Pakistani applicants that means a few thousand pounds clearly available, in a balance that has been sitting there, not a deposit made two weeks before applying.",
+      sections: [
+        {
+          heading: "Is there a minimum bank balance for a UK visit visa?",
+          content:
+            "No. The Home Office sets no fixed figure. Instead, the Entry Clearance Officer applies the genuine visitor test and asks a simpler question: can you clearly afford this trip without working or relying on public funds, and is the money genuinely yours? Insufficient or unexplained funds is one of the [most common UK visit visa refusal reasons for Pakistani applicants](/blog/uk-visit-visa-refusal-reasons-pakistani-applicants) — so getting this right is one of the biggest wins in your whole application.",
+        },
+        {
+          heading: "How much money should you actually show?",
+          content:
+            "Because there is no set minimum, use proportionality. Two simple rules cover most applicants — treat both as practical guides, not official figures.",
+          subsections: [
+            {
+              title: "The two rules that matter",
+              items: [
+                "Roughly twice your trip cost: if your trip will cost around £2,000, aim to show about £3,000–£4,000 available. This safety margin reassures the officer.",
+                "Around £100–£150 per person per day of your stay as accessible funds, on top of pre-paid flights and hotels.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Bank balance benchmarks by trip length",
+          content:
+            "These are practical guides, not official figures — treat them as a floor to aim above, and always match the amount to your real trip and income.",
+          subsections: [
+            {
+              title: "Rough amounts to aim for",
+              items: [
+                "1-week trip: around £500–£800.",
+                "2-week trip: around £800–£1,500.",
+                "1-month trip: around £1,500–£3,000.",
+                "Each additional month: roughly £1,000 more.",
+              ],
+            },
+          ],
+          note:
+            "There is no magic number. Funds that are proportional to your trip and consistent with your income beat a large balance that appears from nowhere.",
+        },
+        {
+          heading: "How your bank statement should look",
+          content:
+            "For a UK visit visa, how the money looks matters as much as the amount — often more.",
+          subsections: [
+            {
+              title: "Get these right",
+              items: [
+                "Provide around 6 months of statements showing regular salary or business income and normal spending.",
+                "Use official statements from the bank; if they are not in English, include a certified translation.",
+                "Keep the balance steady — money that has sat in your account for months is far more convincing than a recent top-up.",
+                "Avoid any large, unexplained deposit in the weeks before you apply.",
+                "Document the source of your funds with salary slips or an FBR tax return, and explain any big legitimate transfer.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Stability beats a big number",
+          content:
+            "A modest balance backed by a stable job, property, and family in Pakistan often succeeds where a large but unexplained balance fails. That is because funds and ties are judged together — the officer wants to see money you clearly earned and a life you will return to. Strengthening your ties to Pakistan (covered in our [UK refusal reasons guide](/blog/uk-visit-visa-refusal-reasons-pakistani-applicants)) does as much for your funds section as the balance itself.",
+        },
+        {
+          heading: "Can someone sponsor my UK trip?",
+          content:
+            "Yes. Unlike some visas, a UK visit visa does not require a UK-based sponsor, but a family member can cover your costs. If they do, include their six months of bank statements, proof of their stable income, a signed letter stating exactly which costs they will cover, and proof of your relationship. Their finances should show they can support your visit without strain. Even with a sponsor, show whatever funds you hold yourself — a shared cost is stronger than contributing nothing.",
+        },
+        {
+          heading: "What to show if you are salaried vs self-employed",
+          content:
+            "The documents that prove your funds depend on how you earn.",
+          columnCompare: {
+            left: {
+              title: "Salaried employee",
+              items: [
+                "6 months of salary-credited bank statements.",
+                "Recent salary slips.",
+                "Employer letter confirming your job, salary, and approved leave.",
+                "FBR tax record where applicable.",
+              ],
+            },
+            right: {
+              title: "Business owner / freelancer",
+              items: [
+                "6 months of personal and business bank statements.",
+                "Business registration or trade licence, or freelance income proof.",
+                "FBR tax returns to evidence declared income.",
+                "A short note explaining large but legitimate business inflows.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Money mistakes that cause a UK refusal",
+          subsections: [
+            {
+              title: "Red flags to avoid",
+              items: [
+                "Parked funds — borrowed money added temporarily to inflate the balance.",
+                "A large, unexplained deposit shortly before applying.",
+                "Income patterns that do not match your declared salary or business.",
+                "A balance that is too small for the trip you have booked.",
+                "Unexplained transactions the officer cannot make sense of.",
+              ],
+            },
+          ],
+          note:
+            "A big balance never guarantees approval on its own — it has to look consistent, well-sourced, and matched to your trip and income.",
+        },
+        {
+          heading: "How Travelaxis helps you prepare your funds correctly",
+          content:
+            "At Travelaxis we prepare UK Standard Visitor visa files for Pakistani applicants from our offices in Dubai and Lahore. We review your bank statements the way an Entry Clearance Officer will — checking the balance against your itinerary, flagging risky deposits, and making sure the source of funds is documented and your ties are clear. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your money strengthens your case instead of sinking it.",
+          relatedLinks: [
+            { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
+            {
+              label: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+              href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
+            },
+            { label: "UK Visit Visa Requirements & Application Support", href: "/visit-visa/uk" },
+            {
+              label: "Top Schengen Visa Rejection Reasons for Pakistani Applicants",
+              href: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",
+            },
+            {
+              label: "Cover Letter for a Visit Visa: Free Sample & Template",
+              href: "/blog/cover-letter-for-visit-visa-sample-pakistan",
+            },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "How much bank balance is needed for a UK visit visa from Pakistan?",
+              answer:
+                "There is no official minimum. Aim to show roughly twice your trip cost — for example around £3,000–£4,000 for a £2,000 trip — or about £100–£150 per person per day, backed by six months of steady, organic bank statements.",
+            },
+            {
+              question: "Is there a fixed minimum balance set by the Home Office?",
+              answer:
+                "No. The UK does not publish a fixed figure for visitor visas. The officer assesses whether your funds are proportional to your trip and clearly yours, so consistency and source of funds matter as much as the amount.",
+            },
+            {
+              question: "How many months of bank statements do I need for a UK visit visa?",
+              answer:
+                "Around six months of official statements showing regular income and normal spending. If they are not in English, include a certified translation, and make sure the balance is steady rather than recently topped up.",
+            },
+            {
+              question: "Will a sudden large deposit get my UK visa rejected?",
+              answer:
+                "It is a major red flag. A large, unexplained deposit shortly before applying looks like parked or borrowed money. A balance that has been stable for months is far more convincing to an Entry Clearance Officer.",
+            },
+            {
+              question: "Can a family member sponsor my UK visit visa?",
+              answer:
+                "Yes. A relative can cover your costs by providing six months of their bank statements, proof of stable income, a signed letter listing the costs they will cover, and proof of your relationship. It is still best to show your own funds as well.",
+            },
+            {
+              question: "Does a bigger bank balance guarantee UK visa approval?",
+              answer:
+                "No. A large balance helps only if it is consistent, clearly sourced, and matched to your trip and income. Funds are assessed alongside your ties to Pakistan and the genuine purpose of your visit.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated September 2026. UK visa rules and financial expectations change and are assessed case by case — always confirm current requirements on the official [GOV.UK visitor visa service](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa) or with a licensed adviser before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "uk-visit-visa-refusal-reasons-pakistani-applicants": {
     title: "UK Visit Visa Refusal Reasons for Pakistani Applicants (and How to Fix Them) — 2027",
     metaTitle: "UK Visit Visa Refusal Reasons for Pakistani Applicants 2027",
@@ -137,7 +333,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How much money should you show for a UK visit visa?",
           content:
-            "There is no official minimum balance for a UK Standard Visitor visa. Instead, show funds that comfortably cover your flights, accommodation, and daily costs, backed by several months of consistent, stamped bank statements and clear proof of income. If a family member is sponsoring you, include their bank statements, an invitation letter, and proof of your relationship — but still show whatever funds you hold yourself. Avoid sudden deposits, and make sure your stated income matches your statements.",
+            "There is no official minimum balance for a UK Standard Visitor visa. Instead, show funds that comfortably cover your flights, accommodation, and daily costs, backed by several months of consistent, stamped bank statements and clear proof of income. If a family member is sponsoring you, include their bank statements, an invitation letter, and proof of your relationship — but still show whatever funds you hold yourself. Avoid sudden deposits, and make sure your stated income matches your statements. For exact benchmarks by trip length and how to document your source of funds, see our [full guide to UK visit visa bank balance requirements](/blog/how-much-bank-balance-uk-visit-visa-pakistan).",
         },
         {
           heading: "The false documents trap — and the 10-year ban",
