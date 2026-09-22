@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "how-much-bank-balance-uk-visit-visa-pakistan",
+      title: "How Much Bank Balance Do You Need for a UK Visit Visa From Pakistan? (2027)",
+      excerpt:
+        "The bank balance to show for a UK visit visa from Pakistan in 2027 — how much per trip, statement rules, the sponsor option, and the money mistakes that get applications refused.",
+      date: "September 22, 2026",
+      readTime: "10 min read",
+      category: "UK Visa Documentation",
+    },
+    {
       id: "uk-visit-visa-refusal-reasons-pakistani-applicants",
       title: "UK Visit Visa Refusal Reasons for Pakistani Applicants (2027)",
       excerpt:

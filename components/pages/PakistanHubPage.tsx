@@ -145,6 +145,14 @@ const guides: {
     icon: Landmark,
     link: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
   },
+  {
+    title: "UK Visit Visa Bank Balance Guide",
+    category: "UK Visas",
+    description:
+      "How much to show for your trip, statement rules, the sponsor option, and the money mistakes that cause refusal.",
+    icon: Landmark,
+    link: "/blog/how-much-bank-balance-uk-visit-visa-pakistan",
+  },
 ];
 
 const whyUs: { icon: LucideIcon; title: string; description: string }[] = [
