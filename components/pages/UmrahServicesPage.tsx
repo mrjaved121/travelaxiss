@@ -187,7 +187,8 @@ export default function UmrahServicesPage() {
             <p className="lead text-[#667085] mb-6">
               Visa processing, bus or flight transport, hotel arrangements, and group travel
               coordination for Umrah pilgrims traveling from Dubai and across the UAE — organized
-              end-to-end so you can focus on your journey.
+              end-to-end so you can focus on your journey. This includes Pakistani residents in
+              the UAE and pilgrims connecting through Dubai.
             </p>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}

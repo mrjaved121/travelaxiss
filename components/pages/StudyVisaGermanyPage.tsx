@@ -16,36 +16,36 @@ import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const quickFacts = [
-  { label: "Visa type", value: "Study Permit" },
-  { label: "Application", value: "Online, via IRCC" },
-  { label: "Key requirement", value: "Letter of Acceptance from a DLI" },
-  { label: "Decision made by", value: "Immigration, Refugees and Citizenship Canada (IRCC)" },
+  { label: "Visa type", value: "Student / Ausbildung Visa" },
+  { label: "Application", value: "Through the German Mission" },
+  { label: "Key requirement", value: "University or Ausbildung admission letter" },
+  { label: "Decision made by", value: "German Mission" },
 ];
 
 const documents = [
-  "Letter of Acceptance from a Designated Learning Institution (DLI)",
-  "Proof of funds for tuition and living costs",
-  "Valid passport",
-  "Recent passport-size photograph",
-  "Medical exam and biometrics, where required",
+  "University admission letter or Ausbildung (vocational training) contract",
+  "Passport valid for the duration of your course",
+  "Financial evidence covering tuition and living costs",
+  "Academic transcripts, attested where the institution requires it",
+  "German language proof, where required by your institution or program",
 ];
 
 const faqs = [
   {
-    q: "What documents do I need for a Canada study permit from Pakistan?",
-    a: "A Letter of Acceptance from a Designated Learning Institution, proof of funds, a valid passport, and often a medical exam and biometrics. We confirm the exact list for your specific institution and program.",
+    q: "Do I need my degree attested for a Germany student visa from Pakistan?",
+    a: "German missions and universities often require verified or attested academic documents, and requirements can vary by university and visa category. We confirm exactly what your case needs and can run attestation in parallel if required.",
   },
   {
     q: "Who is this route for?",
-    a: "Applicants who already hold a Letter of Acceptance from a Designated Learning Institution (DLI) in Canada. We don't arrange admission — we prepare the visa documentation once you have an offer.",
+    a: "Applicants who already have a university admission letter or an accredited Ausbildung place. We don't arrange university or Ausbildung admission — we prepare the visa documentation once you have an offer.",
   },
   {
-    q: "Does Travelaxis guarantee my study permit will be approved?",
-    a: "No consultancy can guarantee approval — the decision rests entirely with IRCC. We help ensure your application is complete and correctly documented.",
+    q: "Does Travelaxis guarantee my Germany student visa will be approved?",
+    a: "No — the decision rests with the German Mission. We help you prepare a complete, well-organized application, which is the biggest factor within your control.",
   },
 ];
 
-export default function StudyVisaCanadaPage() {
+export default function StudyVisaGermanyPage() {
   return (
     <div>
       {/* Hero */}
@@ -55,19 +55,21 @@ export default function StudyVisaCanadaPage() {
             <Breadcrumbs
               trail={[
                 { name: "Study Visa", href: "/services/study-visa" },
-                { name: "Canada" },
+                { name: "Germany" },
               ]}
             />
             <p className="eyebrow mb-3">Study Visa Services</p>
             <h1 className="page-title mb-6">
-              Canada Study Permit <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              Germany Study Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-8 leading-relaxed">
-              Already have a Letter of Acceptance? We help you prepare the Canada Study Permit
-              documentation from Pakistan.
+              Already have a university admission letter or an Ausbildung place? We help you
+              prepare the Germany Student/Ausbildung visa documentation from Pakistan.
             </p>
             <p className="text-sm text-[#667085] mb-8 leading-relaxed">
-              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
+              We also prepare study visa documentation for{" "}
+              <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }, { label: "Canada", href: "/study-visa/canada" }, { label: "Australia", href: "/study-visa/australia" }]} />
+              , or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -84,7 +86,7 @@ export default function StudyVisaCanadaPage() {
                 rel="noopener noreferrer"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
                 style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
-                aria-label="Chat with Travelaxis on WhatsApp about Canada study permits (opens in a new tab)"
+                aria-label="Chat with Travelaxis on WhatsApp about Germany study visas (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
                 WhatsApp Us
@@ -120,11 +122,8 @@ export default function StudyVisaCanadaPage() {
             ))}
           </ul>
           <p className="text-sm text-[#667085] mt-6">
-            Requirements are set by{" "}
-            <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
-              IRCC
-            </a>{" "}
-            — we confirm the current list for your specific institution and program.
+            Requirements are set by the German Mission and reviewed periodically — we confirm the
+            current list against your specific university or Ausbildung program.
           </p>
         </div>
       </section>
@@ -132,7 +131,7 @@ export default function StudyVisaCanadaPage() {
       {/* Enquiry form */}
       <section id="requirements-form" className="py-20 bg-white scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <VisitVisaEnquiryForm defaultDestination="Canada" heading="Get Help With Your Canada Study Permit Application" subheading="Tell us about your program and travel plan. We'll help you understand the document requirements." />
+          <VisitVisaEnquiryForm defaultDestination="Germany" heading="Get Help With Your Germany Study Visa Application" subheading="Tell us about your offer and travel plan. We'll help you understand the document requirements." />
         </div>
       </section>
 
@@ -163,9 +162,9 @@ export default function StudyVisaCanadaPage() {
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { href: "/visit-visa/canada", label: "Canada Visitor Visa" },
-              { href: "/services/canada-visa-from-pakistan", label: "Canada Visa Overview" },
+              { href: "/services/germany-visa-from-pakistan", label: "Germany Visa Overview & Family Routes" },
               { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/services/study-visa", label: "Full Study Visa Guide" },
             ].map((link) => (
               <Link
                 key={link.href}

@@ -68,10 +68,10 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
     href: "/study-visa/australia",
   },
   {
-    title: "Germany Visa Documentation",
-    description: "Including Student/Ausbildung Visa documentation, with attestation coordination where required.",
+    title: "Germany Study Visa",
+    description: "Student/Ausbildung Visa documentation, with attestation coordination where required.",
     icon: Compass,
-    href: "/services/germany-visa-from-pakistan",
+    href: "/study-visa/germany",
   },
   {
     title: "Other European Countries",

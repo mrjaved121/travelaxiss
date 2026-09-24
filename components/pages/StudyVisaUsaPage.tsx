@@ -10,6 +10,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
@@ -31,8 +32,8 @@ const documents = [
 
 const faqs = [
   {
-    q: "Who is this route for?",
-    a: "Applicants who already hold a Form I-20 from a SEVP-certified US school. We don't arrange university admission — we prepare the visa documentation once you have an offer.",
+    q: "What documents do I need for a US F1 student visa from Pakistan?",
+    a: "A Form I-20 from a SEVP-certified US school, the SEVIS I-901 fee receipt, a DS-160 confirmation page, and financial evidence covering tuition and living costs. We don't arrange university admission — we prepare the visa documentation once you have an offer, and confirm the interview-ready checklist for your case.",
   },
   {
     q: "What's the SEVIS I-901 fee?",
@@ -64,6 +65,9 @@ export default function StudyVisaUsaPage() {
             <p className="lead text-[#667085] mb-8 leading-relaxed">
               Already have a Form I-20? We help you prepare the F1 student visa documentation
               and get ready for your Embassy interview.
+            </p>
+            <p className="text-sm text-[#667085] mb-8 leading-relaxed">
+              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "Canada", href: "/study-visa/canada" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

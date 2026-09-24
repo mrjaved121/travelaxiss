@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "motion/react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 
 const countries = ["Indonesia (Bali)", "China", "Japan", "Turkey", "Singapore"];
@@ -20,6 +22,9 @@ export default function VisitVisaAsiaPage() {
             <p className="lead text-[#667085] leading-relaxed">
               Documentation assistance for visit and business visa applications across Asian
               destination countries.
+            </p>
+            <p className="text-sm text-[#667085] mt-4 leading-relaxed">
+              We also prepare visit visa documentation for <InlineLinkList items={[{ label: "Europe", href: "/visit-visa/europe" }, { label: "North America", href: "/visit-visa/north-america" }, { label: "Middle East", href: "/visit-visa/middle-east" }, { label: "Oceania", href: "/visit-visa/oceania" }, { label: "Africa", href: "/visit-visa/africa" }]} />.
             </p>
           </motion.div>
         </div>

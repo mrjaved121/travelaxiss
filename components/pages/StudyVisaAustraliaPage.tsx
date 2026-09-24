@@ -10,6 +10,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
@@ -64,6 +65,9 @@ export default function StudyVisaAustraliaPage() {
             <p className="lead text-[#667085] mb-8 leading-relaxed">
               Already have a Confirmation of Enrolment? We help you prepare the Australia
               Student Visa (Subclass 500) documentation from Pakistan.
+            </p>
+            <p className="text-sm text-[#667085] mb-8 leading-relaxed">
+              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }, { label: "Canada", href: "/study-visa/canada" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

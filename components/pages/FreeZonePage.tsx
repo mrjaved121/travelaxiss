@@ -10,6 +10,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import type { FreeZone } from "@/components/data/freeZones";
+import Breadcrumbs from "@/components/Breadcrumbs";
+
+/** Where a free zone's home emirate is covered on this site — "Dubai" uses the Dubai hub, others their dedicated emirate page. */
+const emirateHrefs: Record<string, string> = {
+  Dubai: "/dubai",
+  Sharjah: "/emirates/sharjah",
+  "Ras Al Khaimah": "/emirates/ras-al-khaimah",
+};
 
 const relatedServices = [
   {
@@ -46,6 +54,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
+            <Breadcrumbs trail={[{ name: "Free Zones", href: "/free-zones" }, { name: zone.name }]} />
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               {`Free Zone Company Formation — ${zone.emirate}`}
             </p>
@@ -208,6 +217,15 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             </Link>
             .
           </p>
+          {emirateHrefs[zone.emirate] && (
+            <p className="text-[#667085] mt-3">
+              Setting up more broadly in {zone.emirate}?{' '}
+              <Link href={emirateHrefs[zone.emirate]} className="font-semibold underline-offset-2 hover:underline" style={{ color: '#155EEF' }}>
+                See our {zone.emirate} business setup guide
+              </Link>
+              .
+            </p>
+          )}
         </div>
       </section>
 

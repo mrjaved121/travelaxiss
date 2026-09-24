@@ -5,6 +5,7 @@ import { ArrowRight, Plane, Building2 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 
 const countries: { title: string; description: string; icon: LucideIcon; href: string }[] = [
@@ -36,6 +37,9 @@ export default function VisitVisaMiddleEastPage() {
             <p className="lead text-[#667085] leading-relaxed">
               Visit visa documentation for the UAE and Saudi Arabia, submitted through official
               channels.
+            </p>
+            <p className="text-sm text-[#667085] mt-4 leading-relaxed">
+              We also prepare visit visa documentation for <InlineLinkList items={[{ label: "Europe", href: "/visit-visa/europe" }, { label: "North America", href: "/visit-visa/north-america" }, { label: "Asia", href: "/visit-visa/asia" }, { label: "Oceania", href: "/visit-visa/oceania" }, { label: "Africa", href: "/visit-visa/africa" }]} />.
             </p>
           </motion.div>
         </div>

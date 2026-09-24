@@ -11,8 +11,7 @@ export const metadata: Metadata = {
     "Germany visa documentation for Pakistani applicants: Student/Ausbildung and Family Reunification categories. Document checklists & how to apply.",
   keywords: [
     "germany visa from pakistan",
-    "germany student visa from pakistan",
-    "ausbildung visa pakistan",
+    "germany family reunification visa pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/services/germany-visa-from-pakistan/`,

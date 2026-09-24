@@ -16,6 +16,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 import { germanyVisaFaqs } from "@/components/data/germanyVisaFaqs";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
@@ -23,17 +24,34 @@ const WHATSAPP_HREF = "https://wa.me/971589867555";
 const disclaimer =
   "We provide documentation assistance and consultancy support only. We are not the German Federal Foreign Office, and we do not guarantee visa approval. All applications are submitted through the German Mission's official channels, subject to their rules and approvals.";
 
-const categories: { title: string; description: string; icon: LucideIcon }[] = [
+const routeCards: {
+  title: string;
+  description: string;
+  icon: LucideIcon;
+  href: string;
+  cta: string;
+}[] = [
   {
-    title: "Student Visa",
+    title: "Student / Ausbildung Visa",
     description: "Documentation for applicants admitted to a German university or an accredited Ausbildung (vocational training) program.",
     icon: GraduationCap,
+    href: "/study-visa/germany",
+    cta: "See Germany Study Visa requirements",
   },
   {
     title: "Family Reunification",
     description: "Documentation for joining a spouse, partner, or family member already resident in Germany.",
     icon: Heart,
+    href: "#family-visa",
+    cta: "See Family Reunification details",
   },
+];
+
+const familyDocuments = [
+  "Attested marriage or birth certificate, as relevant",
+  "Proof of accommodation in Germany",
+  "Proof of the sponsor's income or means, per current German Mission requirements",
+  "Basic German language proof, where required for your family category",
 ];
 
 const howWeHelp = [
@@ -58,8 +76,8 @@ export default function GermanyVisaFromPakistanPage() {
               Whether you have a university or Ausbildung place, or a family
               member to join, a Germany application from Pakistan comes down to complete,
               correctly prepared documents submitted through the German Mission&apos;s
-              official process. We handle the paperwork so you don&apos;t have to figure it
-              out alone.
+              official process. Pick your route below — Student/Ausbildung or Family
+              Reunification — for a dedicated document checklist and application support.
             </p>
             <div className="rounded-2xl p-6 mb-8 card-hover" style={{ borderLeft: "4px solid #155EEF", backgroundColor: "#FFFFFF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
@@ -79,14 +97,14 @@ export default function GermanyVisaFromPakistanPage() {
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/consultation"
+              <a
+                href="#routes"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
                 style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
               >
-                <span>Check Requirements</span>
+                <span>Choose My Route</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
-              </Link>
+              </a>
               <a
                 href={WHATSAPP_HREF}
                 target="_blank"
@@ -103,8 +121,8 @@ export default function GermanyVisaFromPakistanPage() {
         </div>
       </section>
 
-      {/* Categories */}
-      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
+      {/* Route cards */}
+      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -113,18 +131,19 @@ export default function GermanyVisaFromPakistanPage() {
             className="text-center max-w-3xl mx-auto mb-14"
           >
             <h2 className="section-title" style={{ color: "#FFFFFF" }}>
-              Germany Pathways We Support
+              Which Germany Route Do You Need?
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {categories.map((item, index) => (
-              <motion.div
+            {routeCards.map((item, index) => (
+              <motion.a
                 key={item.title}
+                href={item.href}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.06 }}
-                className="rounded-3xl p-6 md:p-8 border border-white/10"
+                className="rounded-3xl p-6 md:p-8 border border-white/10 block transition-colors hover:bg-white/[0.08]"
                 style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
               >
                 <div
@@ -137,8 +156,12 @@ export default function GermanyVisaFromPakistanPage() {
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
-              </motion.div>
+                <p className="text-sm text-white/75 leading-relaxed mb-4">{item.description}</p>
+                <span className="inline-flex items-center gap-2 text-sm font-semibold" style={{ color: "#FFFFFF" }}>
+                  {item.cta}
+                  <ArrowRight className="w-4 h-4" aria-hidden />
+                </span>
+              </motion.a>
             ))}
           </div>
         </div>
@@ -201,6 +224,42 @@ export default function GermanyVisaFromPakistanPage() {
         </div>
       </section>
 
+      {/* Family Reunification detail */}
+      <section id="family-visa" className="py-20 scroll-mt-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <p className="eyebrow mb-3">Family Reunification</p>
+            <h2 className="section-title mb-4">
+              Germany Family Reunification <span style={{ color: "#155EEF" }}>from Pakistan</span>
+            </h2>
+            <p className="text-[#667085] leading-relaxed mb-8">
+              For joining or sponsoring a spouse, partner, or family member already resident in
+              Germany. This route is document-heavy, and relationship evidence matters as much as
+              financial evidence.
+            </p>
+            <h3 className="subsection-title mb-4">Documents You&apos;ll Need</h3>
+            <ul className="grid sm:grid-cols-2 gap-3 mb-6">
+              {familyDocuments.map((doc) => (
+                <li key={doc} className="flex items-start gap-2 text-[#667085] text-sm rounded-xl p-4" style={{ backgroundColor: "#F5F8FF" }}>
+                  <span>{doc}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-sm text-[#667085]">
+              Requirements are set by the German Mission and reviewed periodically — we confirm
+              the current financial and language thresholds for your specific case.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Enquiry form */}
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <VisitVisaEnquiryForm defaultDestination="Germany" heading="Get Help With Your Germany Family Reunification Visa" subheading="Tell us about your relationship and sponsor's situation. We'll help you understand the document requirements." />
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -245,11 +304,12 @@ export default function GermanyVisaFromPakistanPage() {
             <h2 className="section-title mb-6 text-center">
               Related <span style={{ color: "#155EEF" }}>Pages</span>
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
+                { href: "/study-visa/germany", label: "Germany Study Visa" },
                 { href: "/services/attestation", label: "UAE Document Attestation from Pakistan" },
                 { href: "/services/international-visas", label: "International Visa Documentation" },
-                { href: "/destinations", label: "Explore All Destinations" },
+                { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
               ].map((link) => (
                 <Link
                   key={link.href}

@@ -8,6 +8,18 @@ export const metadata: Metadata = {
   title: "UAE Services for Pakistani Nationals",
   description:
     "Travelaxis supports Pakistani nationals with UAE document attestation, visa documentation, and business setup — offices in Dubai and Lahore.",
+  keywords: [
+    "visa services for pakistanis",
+    "uae services for pakistani nationals",
+    "dubai visit visa from pakistan",
+    "uk visa from pakistan",
+    "canada visa from pakistan",
+    "australia visa from pakistan",
+    "usa visa from pakistan",
+    "germany visa from pakistan",
+    "document attestation from pakistan",
+    "umrah visa from pakistan",
+  ],
   alternates: {
     canonical: `${SITE_URL}/pakistan/`,
   },
