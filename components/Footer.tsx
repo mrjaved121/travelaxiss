@@ -92,6 +92,11 @@ export default function Footer() {
                   Government Services
                 </Link>
               </li>
+              <li>
+                <Link href="/emirates" className="footer-link transition-colors">
+                  UAE Emirates
+                </Link>
+              </li>
             </ul>
           </nav>
 
@@ -124,7 +129,7 @@ export default function Footer() {
             <ul className="space-y-3 list-none p-0 m-0">
               <li>
                 <Link href="/blog" className="footer-link transition-colors">
-                  Guides
+                  Blog
                 </Link>
               </li>
               <li>

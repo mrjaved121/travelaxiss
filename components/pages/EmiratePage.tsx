@@ -20,7 +20,15 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import type { Emirate } from "@/components/data/emirates";
+import { emirates, type Emirate } from "@/components/data/emirates";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
+
+/** Notable-zone names that have their own dedicated free zone guide — matched by substring so "RAKEZ (Ras Al Khaimah Economic Zone)" still hits "RAKEZ". */
+const zoneGuideLinks: { match: string; href: string }[] = [
+  { match: "RAKEZ", href: "/free-zones/rakez" },
+  { match: "SHAMS", href: "/free-zones/shams" },
+];
 
 const coreServices: { title: string; description: string; icon: LucideIcon; link: string }[] = [
   {
@@ -91,6 +99,7 @@ export default function EmiratePage({ emirate }: { emirate: Emirate }) {
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
+            <Breadcrumbs trail={[{ name: "Emirates", href: "/emirates" }, { name: emirate.name }]} />
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               Serving This Emirate
             </p>
@@ -155,15 +164,27 @@ export default function EmiratePage({ emirate }: { emirate: Emirate }) {
                   {`Notable Free Zones in ${emirate.name}`}
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                  {emirate.notableZones.map((zone) => (
-                    <span
-                      key={zone}
-                      className="px-4 py-2 rounded-full text-sm font-semibold"
-                      style={{ backgroundColor: '#F5F8FF', color: '#155EEF' }}
-                    >
-                      {zone}
-                    </span>
-                  ))}
+                  {emirate.notableZones.map((zone) => {
+                    const guide = zoneGuideLinks.find((z) => zone.includes(z.match));
+                    return guide ? (
+                      <Link
+                        key={zone}
+                        href={guide.href}
+                        className="px-4 py-2 rounded-full text-sm font-semibold underline-offset-2 hover:underline"
+                        style={{ backgroundColor: '#F5F8FF', color: '#155EEF' }}
+                      >
+                        {zone}
+                      </Link>
+                    ) : (
+                      <span
+                        key={zone}
+                        className="px-4 py-2 rounded-full text-sm font-semibold"
+                        style={{ backgroundColor: '#F5F8FF', color: '#155EEF' }}
+                      >
+                        {zone}
+                      </span>
+                    );
+                  })}
                 </div>
               </>
             )}
@@ -247,6 +268,24 @@ export default function EmiratePage({ emirate }: { emirate: Emirate }) {
               ))}
             </Accordion>
           </div>
+        </div>
+      </section>
+
+      {/* Other emirates */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-[#667085] leading-relaxed">
+            We support company formation and visa documentation across the UAE, including{" "}
+            <InlineLinkList
+              items={[
+                { label: "Dubai", href: "/dubai" },
+                ...emirates
+                  .filter((e) => e.slug !== emirate.slug)
+                  .map((e) => ({ label: e.name, href: `/emirates/${e.slug}` })),
+              ]}
+            />
+            .
+          </p>
         </div>
       </section>
 

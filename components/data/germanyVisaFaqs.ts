@@ -1,9 +1,5 @@
 export const germanyVisaFaqs: { q: string; a: string }[] = [
   {
-    q: "Do I need my degree attested for a Germany student visa from Pakistan?",
-    a: "German missions and universities often require verified or attested academic documents, and requirements can vary by university and visa category. We confirm exactly what your case needs and can run attestation in parallel if required.",
-  },
-  {
     q: "Where do Pakistani applicants submit a Germany visa application?",
     a: "Applications are submitted through the German Mission's official visa application process in Pakistan, generally via an authorized visa application centre. We help you prepare your documents and book your appointment — the decision itself is made by German authorities.",
   },

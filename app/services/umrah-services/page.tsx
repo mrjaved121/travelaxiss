@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     "Umrah group packages Dubai",
     "Umrah by bus from Dubai",
     "Umrah flight and hotel booking",
+    "Umrah visa from Pakistan",
+    "Umrah package from Pakistan via Dubai",
   ],
   alternates: {
     canonical: `${SITE_URL}/services/umrah-services/`,

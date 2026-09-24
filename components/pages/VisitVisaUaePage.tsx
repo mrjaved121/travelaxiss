@@ -1,47 +1,80 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import {
+  ArrowRight,
+  MessageCircle,
+  Hotel,
+  Building2,
+  Users,
+  CheckCircle,
+  ShieldCheck,
+  MapPin,
+  Clock,
+} from "lucide-react";
 import { motion } from "motion/react";
+import type { LucideIcon } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
+import { uaeVisitVisaFromPakistanFaqs } from "@/components/data/uaeVisitVisaFromPakistanFaqs";
 
-const WHATSAPP_HREF = "https://wa.me/971589867555";
+const WHATSAPP_PREFILL = "https://wa.me/971589867555?text=" + encodeURIComponent(
+  "Hi, I want a Dubai visit visa from Pakistan"
+);
+
+const disclaimer =
+  "We provide documentation assistance and consultancy support only. We are not GDRFA, ICP, an airline, or a hotel, and we do not guarantee visa approval. All visit visas are issued through official UAE government channels or authorized sponsors, subject to their rules and approvals.";
 
 const quickFacts = [
-  { label: "Visa type", value: "UAE Visit Visa (14/30/60/90-day)" },
+  { label: "Visa type", value: "UAE Visit Visa (30/60/90-day)" },
   { label: "Application", value: "Through your sponsor" },
-  { label: "Sponsor routes", value: "Airline, hotel, tour operator, or UAE resident" },
+  { label: "Sponsor routes", value: "Tour operator, hotel/airline, or UAE resident" },
   { label: "Decision made by", value: "GDRFA / ICP" },
 ];
 
-const documents = [
-  "Passport valid for at least 6 months",
-  "Recent passport-size photograph",
-  "Confirmed return or onward flight ticket",
-  "Proof of accommodation",
-  "Proof of sufficient funds",
+const durationRows = [
+  { type: "30-Day Visit Visa", entry: "Single or multiple entry", use: "Most common option for tourism and family visits" },
+  { type: "60-Day Visit Visa", entry: "Single or multiple entry", use: "Longer family visits or ongoing business dealings" },
+  { type: "90-Day Visit Visa", entry: "Sometimes available, extendable", use: "Extended stays, depending on profile and sponsor route" },
 ];
 
-const faqs = [
+const routes: { title: string; description: string; icon: LucideIcon }[] = [
   {
-    q: "How do I apply for a UAE visit visa from Pakistan?",
-    a: "You apply through a sponsor — a licensed tour operator, a hotel or airline booking, or a UAE resident. We help prepare and organize the documents for whichever route fits your trip.",
+    title: "Individual UAE Resident Sponsor",
+    description: "A friend or relative with UAE residency can sponsor you directly, often with more flexibility on duration — but the sponsor takes on responsibility for your compliance with the visa terms.",
+    icon: Users,
   },
   {
-    q: "What visit visa durations does the UAE offer?",
-    a: "Commonly 14, 30, 60, and 90-day durations, in single or multiple-entry formats, depending on your nationality and sponsor route. See our full UAE Visit Visa guide for detail.",
+    title: "Tour Operator or Travel Agency",
+    description: "The most common route for applicants without a UAE-based contact. Licensed operators process the visa with their own fee structure and timeline.",
+    icon: Building2,
   },
   {
-    q: "Does Travelaxis guarantee my UAE visa will be approved?",
-    a: "No consultancy can guarantee approval — the decision rests with GDRFA/ICP. We help ensure your application is complete and correctly documented.",
+    title: "Hotel or Airline-Linked Visa",
+    description: "Some UAE hotels and airlines bundle visa processing with a booking — simple for straightforward tourism trips, less flexible if your plans change.",
+    icon: Hotel,
   },
+];
+
+const howWeHelp = [
+  "A document checklist matched to your sponsor route before you apply",
+  "Bank statement and financial proof review — a common cause of delay for Pakistani applicants",
+  "Coordination with your sponsor's documentation where needed",
+  "One point of contact from Lahore through to your visa being issued",
 ];
 
 export default function VisitVisaUaePage() {
@@ -62,9 +95,15 @@ export default function VisitVisaUaePage() {
             <h1 className="page-title mb-6">
               UAE Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
-            <p className="lead text-[#667085] mb-8 leading-relaxed">
-              Understand UAE visit visa durations, sponsor routes, and document requirements —
-              and get help preparing your application from Pakistan.
+            <p className="lead text-[#667085] mb-6 leading-relaxed">
+              A Dubai visit visa is the standard route for Pakistani nationals traveling for
+              tourism, to see family, or to explore business opportunities. Pakistani applicants
+              tend to face closer scrutiny on solvency proof than some other nationalities, so
+              document quality is what separates a smooth approval from a delay. We handle
+              preparation from our Lahore office, with the UAE side coordinated through Dubai.
+            </p>
+            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
+              {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -76,12 +115,12 @@ export default function VisitVisaUaePage() {
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </a>
               <a
-                href={WHATSAPP_HREF}
+                href={WHATSAPP_PREFILL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
                 style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
-                aria-label="Chat with Travelaxis on WhatsApp about UAE visit visas (opens in a new tab)"
+                aria-label="Chat with Travelaxis on WhatsApp about a Dubai visit visa from Pakistan (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
                 WhatsApp Us
@@ -107,45 +146,261 @@ export default function VisitVisaUaePage() {
         </div>
       </section>
 
-      {/* Documents */}
+      {/* Duration options */}
       <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-title mb-6">Documents You&apos;ll Need</h2>
-          <ul className="grid sm:grid-cols-2 gap-3">
-            {documents.map((doc) => (
-              <li key={doc} className="flex items-start gap-2 text-[#667085] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
-                <span>{doc}</span>
-              </li>
-            ))}
-          </ul>
-          <p className="text-sm text-[#667085] mt-6">
-            Requirements are set by{" "}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-6"
+          >
+            <h2 className="section-title mb-4">
+              Visit Visa <span style={{ color: "#155EEF" }}>Durations for Pakistani Applicants</span>
+            </h2>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-3xl border border-[#E4E7EC] shadow-sm mb-4 overflow-hidden bg-white"
+          >
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead className="whitespace-normal">Visa Type</TableHead>
+                  <TableHead className="whitespace-normal">Entry Type</TableHead>
+                  <TableHead className="whitespace-normal">Common Use</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {durationRows.map((row) => (
+                  <TableRow key={row.type}>
+                    <TableCell className="whitespace-normal font-medium" style={{ color: "#1D2939" }}>
+                      {row.type}
+                    </TableCell>
+                    <TableCell className="whitespace-normal text-[#667085]">{row.entry}</TableCell>
+                    <TableCell className="whitespace-normal text-[#667085]">{row.use}</TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </motion.div>
+          <p className="text-sm text-[#667085]">
+            Which duration and entry type you&apos;re eligible for depends on your sponsor route and
+            travel history, and rules are reviewed periodically by{" "}
             <a href="https://gdrfad.gov.ae" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
               GDRFA
             </a>{" "}
             and{" "}
             <a href="https://icp.gov.ae/en/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
               ICP
-            </a>{" "}
-            and reviewed periodically — we confirm the current list for your specific case.
+            </a>
+            . We confirm what&apos;s currently available to you before you apply.
           </p>
         </div>
       </section>
 
+      {/* Routes */}
+      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center max-w-3xl mx-auto mb-14"
+          >
+            <h2 className="section-title mb-4" style={{ color: "#FFFFFF" }}>
+              Three Ways to Apply From Pakistan
+            </h2>
+            <p className="lead" style={{ color: "rgba(255,255,255,0.75)" }}>
+              Your route determines which documents you need and how much flexibility you have.
+            </p>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {routes.map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.06 }}
+                className="rounded-3xl p-6 md:p-8 border border-white/10"
+                style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#FFFFFF" }}
+                  aria-hidden
+                >
+                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
+                </div>
+                <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
+                  {item.title}
+                </h3>
+                <p className="text-sm text-white/75 leading-relaxed">{item.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Documents */}
+      <section className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="section-title mb-6">
+              Documents You&apos;ll <span style={{ color: "#155EEF" }}>Need</span>
+            </h2>
+            <p className="lead text-[#667085] leading-relaxed mb-6">
+              Most applications share a common core. Sponsored applications add a second layer of
+              documents specific to your sponsor.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F5F8FF" }}>
+                <h3 className="subsection-title mb-3">For every application</h3>
+                <ul className="space-y-2">
+                  {[
+                    "Passport with at least 6 months' validity and blank pages",
+                    "Recent passport-size photograph on a white background",
+                    "Confirmed return or onward flight itinerary",
+                    "Proof of accommodation",
+                    "3–6 months of bank statements, plus a salary certificate",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F5F8FF" }}>
+                <h3 className="subsection-title mb-3">If sponsored by a UAE resident</h3>
+                <ul className="space-y-2">
+                  {[
+                    "Sponsor's Emirates ID and UAE residence visa copy",
+                    "Relationship proof, attested where required",
+                    "No-objection or invitation letter, where applicable",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className="rounded-3xl p-6 mt-6 border-l-4" style={{ borderColor: "#155EEF", backgroundColor: "#F5F8FF" }}>
+              <p className="text-sm text-[#667085] leading-relaxed">
+                <strong style={{ color: "#1D2939" }}>Why bank statements matter more than most applicants expect:</strong>{" "}
+                reviewers look for steady balances and regular activity over several months — a
+                large deposit made shortly before applying reads very differently to a reviewer
+                than a consistent balance. We check this before you submit.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Cost */}
+      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="section-title mb-3">
+              What Determines Your Cost
+            </h2>
+            <p className="text-[#667085] leading-relaxed mb-4">
+              Pricing depends on duration, single vs. multiple entry, and your route — a
+              tour-operator or hotel/airline-linked visa usually bundles a service fee into the
+              published price, while individual sponsorship can involve separate government fees.
+              Government fees are reviewed periodically, so rather than quote a PKR figure that
+              may already be outdated, we confirm current pricing for your exact route on
+              WhatsApp or during a free consultation.
+            </p>
+            <a
+              href={WHATSAPP_PREFILL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
+              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+              aria-label="Ask Travelaxis about Dubai visit visa pricing from Pakistan on WhatsApp (opens in a new tab)"
+            >
+              <span>Ask About Current PKR Pricing</span>
+              <ArrowRight className="w-5 h-5" aria-hidden />
+            </a>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Why Pakistani clients work with us */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-3xl mx-auto text-center mb-12"
+          >
+            <h2 className="section-title mb-4">
+              Why Pakistani Clients <span style={{ color: "#155EEF" }}>Work With Us</span>
+            </h2>
+          </motion.div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {[
+              { icon: MapPin, title: "Lahore & Dubai Offices", description: "A staffed Lahore office for document review, with the UAE side coordinated directly through our Dubai team." },
+              { icon: Clock, title: "Realistic Timelines", description: "We tell you what to expect before you send us anything, and flag anything likely to slow your case down." },
+              { icon: ShieldCheck, title: "Document Review That Catches Issues Early", description: "We check bank statements and sponsor documents against what reviewers actually look for, before submission." },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="rounded-3xl p-6 text-center"
+                style={{ border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto"
+                  style={{ backgroundColor: "#F5F8FF" }}
+                  aria-hidden
+                >
+                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
+                </div>
+                <h3 className="subsection-title mb-2">{item.title}</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
+          <ul className="max-w-3xl mx-auto mt-10 space-y-3">
+            {howWeHelp.map((item) => (
+              <li key={item} className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                <span className="text-[#667085]">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* Enquiry form */}
-      <section id="requirements-form" className="py-20 bg-white scroll-mt-24">
+      <section id="requirements-form" className="py-20 bg-white scroll-mt-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="UAE" heading="Get Help With Your UAE Visit Visa Application" />
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
             <Accordion type="single" collapsible className="w-full">
-              {faqs.map((faq, i) => (
+              {uaeVisitVisaFromPakistanFaqs.map((faq, i) => (
                 <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
                   <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#1D2939" }}>
                     {faq.q}
@@ -157,18 +412,22 @@ export default function VisitVisaUaePage() {
               ))}
             </Accordion>
           </div>
+          <p className="text-xs text-[#667085] mt-6 text-center">
+            Guidance reviewed against GDRFA/ICP rules as of September 2026 — requirements change
+            periodically, so we confirm current specifics before you apply.
+          </p>
         </div>
       </section>
 
       {/* Related */}
-      <section className="py-16 bg-white">
+      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { href: "/visit-visa/middle-east", label: "Explore Middle East Visit Visas" },
-              { href: "/services/uae-visit-visa", label: "Full UAE Visit Visa Guide" },
-              { href: "/services/uae-visit-visa-from-pakistan", label: "UAE Visit Visa from Pakistan" },
+              { href: "/services/uae-visit-visa", label: "Full UAE Visit Visa Guide (All Nationalities)" },
+              { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}
@@ -181,6 +440,44 @@ export default function VisitVisaUaePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Dubai Visit Visa From Pakistan</h2>
+          <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
+            Message us your travel dates and city — Lahore, Karachi, Islamabad, or anywhere else —
+            and we&apos;ll confirm exactly what you need.
+          </p>
+          <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
+            {disclaimer}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            >
+              <span>Check Requirements</span>
+              <ArrowRight className="w-5 h-5" aria-hidden />
+            </Link>
+            <a
+              href={WHATSAPP_PREFILL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
+              style={{ color: "#155EEF" }}
+              aria-label="Chat with Travelaxis on WhatsApp about a Dubai visit visa from Pakistan (opens in a new tab)"
+            >
+              <span>WhatsApp Now</span>
+            </a>
+          </div>
+        </motion.div>
       </section>
     </div>
   );

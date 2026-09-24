@@ -96,7 +96,7 @@ export default function UaeVisitVisaPage() {
             </div>
             <p className="text-sm text-[#667085] mb-8">
               Applying from Pakistan?{" "}
-              <Link href="/services/uae-visit-visa-from-pakistan" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+              <Link href="/visit-visa/uae" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 See our Pakistan-specific Dubai visit visa guide
               </Link>{" "}
               — sponsor routes, documents, and what typically causes delays for Pakistani applicants.

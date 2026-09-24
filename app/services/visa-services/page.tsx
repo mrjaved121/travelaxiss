@@ -6,11 +6,12 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UAE Visa Documentation & Application Support | Dubai",
+  title: "UAE Residency Visa – Investor, Family & Retirement",
   description:
-    "UAE visa consultancy and documentation support: investor, family, visit, renewal, and cancellation assistance, through official UAE channels.",
+    "UAE residency visa documentation and consultancy: investor, family, retirement, visit, renewal, and cancellation assistance, through official UAE channels.",
   keywords: [
-    "UAE visa services",
+    "UAE residency visa",
+    "UAE residence visa documentation",
     "visa documentation UAE",
     "UAE visa consultancy",
     "visa application support UAE",
@@ -24,9 +25,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: `${SITE_URL}/services/visa-services/`,
-    title: "UAE Visa Documentation & Consultancy | Travelaxis",
+    title: "UAE Residency Visa Documentation | Travelaxis",
     description:
-      "Documentation assistance and application guidance for UAE visas—investor, family, visit, renewals, and more—through official channels.",
+      "Documentation assistance and application guidance for UAE residency visas—investor, family, retirement, visit, renewals, and more—through official channels.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -38,12 +39,12 @@ export default function Page() {
         data={[
           breadcrumbJsonLd([
             { name: "Services", path: "/services" },
-            { name: "UAE Visa Services", path: "/services/visa-services" },
+            { name: "UAE Residency Visa", path: "/services/visa-services" },
           ]),
           serviceJsonLd({
-            name: "UAE Visa Documentation & Consultancy",
+            name: "UAE Residency Visa Documentation & Consultancy",
             description:
-              "Documentation assistance and application guidance for investor, family, and visit visas, plus renewals and cancellations.",
+              "Documentation assistance and application guidance for investor, family, retirement, and visit residency visas, plus renewals and cancellations.",
             path: "/services/visa-services",
             serviceType: "Visa documentation consultancy",
           }),

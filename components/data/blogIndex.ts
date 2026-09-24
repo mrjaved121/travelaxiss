@@ -81,15 +81,6 @@ export const blogPostSummaries: BlogPostSummary[] = [
       category: "UAE Visa Documentation",
     },
     {
-      id: "job-seeker-visa-uae-documents-guide",
-      title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
-      excerpt:
-        "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, validity by qualification tier, and what happens once you find a role.",
-      date: "July 6, 2026",
-      readTime: "11 min read",
-      category: "UAE Visa Documentation",
-    },
-    {
       id: "business-exploration-visa-uae-guide",
       title: "UAE Visa Documentation for Exploring Business Opportunities",
       excerpt:
@@ -225,15 +216,6 @@ export const blogPostSummaries: BlogPostSummary[] = [
       category: "UAE Visa Documentation",
     },
     {
-      id: "job-seeker-visa-from-pakistan",
-      title: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents",
-      excerpt:
-        "How the UAE job-seeker visa works for Pakistani applicants: eligibility tiers, required documents, the Pakistan attestation chain, and converting to a work visa.",
-      date: "August 12, 2026",
-      readTime: "12 min read",
-      category: "UAE Visa Documentation",
-    },
-    {
       id: "start-business-in-dubai-from-pakistan",
       title: "How to Start a Business in Dubai from Pakistan – Cost & Steps",
       excerpt:
@@ -256,24 +238,6 @@ export const blogPostSummaries: BlogPostSummary[] = [
       title: "Dubai Visit Visa Price & Documents from Pakistan",
       excerpt:
         "Dubai visit visa options for Pakistani nationals: 30/60/90-day durations, required documents, sponsor vs. agency routes, cost factors, and processing time.",
-      date: "August 12, 2026",
-      readTime: "11 min read",
-      category: "UAE Visa Documentation",
-    },
-    {
-      id: "uae-work-visa-documents-checklist",
-      title: "UAE Work Visa Documents Required from Pakistan – Checklist",
-      excerpt:
-        "Complete checklist of documents for a UAE work visa from Pakistan: passport, attested certificates, GAMCA medical, BE&OE registration, and employer paperwork.",
-      date: "August 12, 2026",
-      readTime: "12 min read",
-      category: "UAE Visa Documentation",
-    },
-    {
-      id: "dubai-work-visa-price-from-pakistan",
-      title: "Dubai Work Visa Price from Pakistan – Full Cost Breakdown",
-      excerpt:
-        "What actually makes up a Dubai work visa cost from Pakistan: entry permit, medical, Emirates ID, insurance, and attestation — plus who legally pays and typical timelines.",
       date: "August 12, 2026",
       readTime: "11 min read",
       category: "UAE Visa Documentation",

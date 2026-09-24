@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, BookOpen } from "lucide-react";
 import { motion } from "motion/react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 
 const europeGuides: { title: string; description: string; href: string }[] = [
@@ -54,6 +55,9 @@ export default function VisitVisaEuropePage() {
             <p className="lead text-[#667085] leading-relaxed">
               Visit visa documentation for the UK and every Schengen member state, submitted
               through the relevant country&apos;s own official process.
+            </p>
+            <p className="text-sm text-[#667085] mt-4 leading-relaxed">
+              We also prepare visit visa documentation for <InlineLinkList items={[{ label: "North America", href: "/visit-visa/north-america" }, { label: "Middle East", href: "/visit-visa/middle-east" }, { label: "Asia", href: "/visit-visa/asia" }, { label: "Oceania", href: "/visit-visa/oceania" }, { label: "Africa", href: "/visit-visa/africa" }]} />.
             </p>
           </motion.div>
         </div>

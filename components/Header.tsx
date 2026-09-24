@@ -37,6 +37,7 @@ const navGroups: NavGroup[] = [
     items: [
       { name: "Company Formation", path: "/services/company-formation" },
       { name: "Free Zones", path: "/free-zones" },
+      { name: "UAE Emirates", path: "/emirates" },
       { name: "Business Support Services", path: "/services/business-support" },
       { name: "Government Services", path: "/services/government-services" },
     ],
@@ -44,7 +45,7 @@ const navGroups: NavGroup[] = [
   {
     name: "Resources",
     items: [
-      { name: "Guides", path: "/blog" },
+      { name: "Blog", path: "/blog" },
       { name: "FAQs", path: "/faq" },
       { name: "About", path: "/about" },
     ],

@@ -8,6 +8,7 @@ import {
   Users,
   Plane,
   FileStack,
+  Palmtree,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -51,6 +52,13 @@ const visaTypes: { title: string; description: string; icon: LucideIcon; link: s
     link: "/services/uae-visit-visa",
   },
   {
+    title: "Retirement Visas",
+    description:
+      "Documentation for the property, savings, or income routes that qualify residents 55 and older for a long-term UAE residency visa.",
+    icon: Palmtree,
+    link: "/services/uae-retirement-visa",
+  },
+  {
     title: "Visa Renewals & Cancellations",
     description:
       "Renewal documentation support and cancellation-related formalities coordinated through official channels.",
@@ -76,15 +84,15 @@ export default function VisaServicesPage() {
           >
             <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "UAE Residency Visas" }]} />
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
-              Visa Services
+              UAE Residency Support
             </p>
             <h1 className="page-title mb-6">
-              UAE Visa <span style={{ color: '#155EEF' }}>Documentation &amp; Consultancy</span>
+              UAE Residency <span style={{ color: '#155EEF' }}>Visa Documentation</span>
             </h1>
             <p className="lead mb-6">
-              End-to-end UAE visa documentation and consultancy support&mdash;from eligibility
-              review and paperwork to application guidance, renewals, and cancellation
-              assistance.
+              End-to-end UAE residency visa documentation and consultancy support&mdash;investor,
+              family, retirement, and visit routes, plus renewals and cancellation
+              assistance&mdash;from eligibility review and paperwork to application guidance.
             </p>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
@@ -100,7 +108,7 @@ export default function VisaServicesPage() {
             <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="UAE visa documentation: investor, family, and visit visa consultancy"
+              alt="UAE residency visa documentation: investor, family, retirement, and visit visa consultancy"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"

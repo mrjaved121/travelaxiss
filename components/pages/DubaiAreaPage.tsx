@@ -20,7 +20,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import type { DubaiArea } from "@/components/data/dubaiAreas";
+import { dubaiAreas, type DubaiArea } from "@/components/data/dubaiAreas";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import InlineLinkList from "@/components/InlineLinkList";
 
 const coreServices: { title: string; description: string; icon: LucideIcon; link: string }[] = [
   {
@@ -91,6 +93,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
+            <Breadcrumbs trail={[{ name: "Dubai", href: "/dubai" }, { name: area.name }]} />
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
               {area.isOffice ? "Our Office Location" : "Serving This Area"}
             </p>
@@ -228,6 +231,25 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
               ))}
             </Accordion>
           </div>
+        </div>
+      </section>
+
+      {/* Other areas */}
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-[#667085] leading-relaxed">
+            We also support businesses and residents across{" "}
+            <InlineLinkList
+              items={dubaiAreas
+                .filter((a) => a.slug !== area.slug)
+                .map((a) => ({ label: a.name, href: `/dubai/${a.slug}` }))}
+            />
+            {" "}in Dubai, and across{" "}
+            <Link href="/emirates" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+              other emirates
+            </Link>
+            {" "}throughout the UAE.
+          </p>
         </div>
       </section>
 

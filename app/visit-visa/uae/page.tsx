@@ -1,25 +1,31 @@
 import type { Metadata } from "next";
 import VisitVisaUaePage from "@/components/pages/VisitVisaUaePage";
+import { uaeVisitVisaFromPakistanFaqs } from "@/components/data/uaeVisitVisaFromPakistanFaqs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd, pakistanOfficeJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UAE Visit Visa from Pakistan – Requirements & Apply",
+  title: "Dubai Visit Visa from Pakistan – Cost, Documents & Apply",
   description:
-    "UAE visit visa durations, sponsor routes, and document requirements for applicants from Pakistan — plus how Travelaxis can help.",
+    "Apply for a Dubai/UAE visit visa from Pakistan. Clear requirements, sponsor routes, and what determines cost — from Travelaxis offices in Lahore & Dubai.",
   keywords: [
     "uae visit visa from pakistan",
     "dubai visit visa from pakistan",
-    "uae visa requirements pakistan",
+    "dubai visit visa price in pakistan",
+    "dubai visa fee for pakistani",
+    "uae visit visa requirements from pakistan",
+    "how to apply dubai visit visa from pakistan",
+    "visit visa consultants in lahore",
   ],
   alternates: {
     canonical: `${SITE_URL}/visit-visa/uae/`,
   },
   openGraph: {
     url: `${SITE_URL}/visit-visa/uae/`,
-    title: "UAE Visit Visa from Pakistan | Travelaxis",
-    description: "UAE visit visa durations, sponsor routes, and document requirements for applicants from Pakistan.",
+    title: "Dubai Visit Visa from Pakistan | Travelaxis",
+    description:
+      "Requirements, sponsor routes, and document preparation for Dubai/UAE visit visa applicants in Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -35,12 +41,25 @@ export default function Page() {
             { name: "UAE Visit Visa", path: "/visit-visa/uae" },
           ]),
           serviceJsonLd({
-            name: "UAE Visit Visa from Pakistan",
-            description: "Requirements guidance and application support for the UAE visit visa for applicants in Pakistan.",
+            name: "Dubai/UAE Visit Visa Documentation from Pakistan",
+            description:
+              "Document preparation and application support for Pakistani nationals applying for a Dubai/UAE visit visa, including sponsor-route guidance and financial-proof review.",
             path: "/visit-visa/uae",
-            serviceType: "Visit visa application assistance",
+            serviceType: "Visit visa documentation consultancy",
           }),
           pakistanOfficeJsonLd,
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: uaeVisitVisaFromPakistanFaqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.q,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.a,
+              },
+            })),
+          },
         ]}
       />
       <VisitVisaUaePage />
