@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Australia Student Visa from Pakistan – Requirements & Apply",
   description:
-    "Australia Subclass 500 Student Visa requirements and application support for applicants from Pakistan — CoE, GTE, documents, and how Travelaxis can help.",
+    "Australia Subclass 500 Student Visa requirements for applicants from Pakistan — CoE, the Genuine Student requirement, documents, and how Travelaxis can help.",
   keywords: [
     "australia student visa from pakistan",
     "subclass 500 visa requirements",

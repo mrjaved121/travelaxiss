@@ -11,10 +11,7 @@ export const metadata: Metadata = {
     "Find the right USA visa route from Pakistan: B1/B2 Visitor or F1 Student. DS-160, Embassy Islamabad interview prep, checklists & timelines.",
   keywords: [
     "usa visa from pakistan",
-    "us visit visa from pakistan",
-    "us student visa from pakistan",
-    "b1 b2 visa from pakistan",
-    "f1 visa from pakistan",
+    "us visa documentation pakistan",
     "ds-160 pakistan",
   ],
   alternates: {

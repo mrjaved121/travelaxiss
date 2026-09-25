@@ -5,6 +5,226 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "australia-student-visa-genuine-student-requirement-pakistan": {
+    title: "Australia Student Visa from Pakistan: The Genuine Student Requirement Explained (2026)",
+    metaTitle: "Australia Genuine Student Requirement for Pakistani Students",
+    metaDescription:
+      "How the Genuine Student requirement works for Pakistani applicants: the online-form questions, the 150-word limit, the evidence to attach, and how it replaced GTE.",
+    keywords: [
+      "Australia genuine student requirement Pakistan",
+      "Australia student visa GTE replaced genuine student",
+      "genuine student statement Australia",
+      "Australia student visa from Pakistan documents",
+      "Australia student visa 150 words genuine student",
+    ],
+    date: "September 25, 2026",
+    dateModifiedIso: "2026-09-25",
+    readTime: "8 min read",
+    category: "Australia Visa Documentation",
+    cta: {
+      heading: "Need Help Preparing Your Australia Student Visa File?",
+      text: "Get your supporting documents and evidence reviewed before you apply.",
+      label: "Check Requirements",
+      href: "/study-visa/australia#requirements-form",
+    },
+    content: {
+      intro:
+        "For an Australia student visa lodged on or after 23 March 2024, Home Affairs assesses the Genuine Student (GS) requirement, which replaced the old Genuine Temporary Entrant (GTE) requirement. You answer questions in the online application — up to 150 words each, in English — about your current circumstances, why you want this course with this education provider, and how the course will benefit you, then attach supporting documents to your ImmiAccount. Home Affairs states that it gives more weight to statements supported by evidence, so the evidence matters as much as the wording.",
+      sections: [
+        {
+          heading: "What changed: Genuine Student replaced Genuine Temporary Entrant",
+          content:
+            "Home Affairs' [Genuine Student requirement page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/genuine-student-requirement) says the GS requirement applies to student visa applications lodged on or after 23 March 2024, and that applications lodged before that date are assessed under the Genuine Temporary Entrant (GTE) requirement. Under GS, every applicant must be a genuine applicant for entry and stay as a student, and must be able to demonstrate an understanding that studying in Australia is the primary reason for applying. Home Affairs also says GS recognises that genuine students may develop skills Australia needs and may later choose to apply for permanent residence, and that future intentions of this kind do not count against an applicant under GS.",
+          note:
+            "If an older guide tells you to write and attach a GTE statement for a new application, it is describing the earlier requirement.",
+        },
+        {
+          heading: "The questions the online application asks",
+          content:
+            "The online student visa application form asks questions to address the GS criteria. Home Affairs says it prefers applicants to respond in the application form rather than attaching a separate GS statement. Each response has a limit of 150 words, and all responses must be in English.",
+          subsections: [
+            {
+              title: "What you are asked to address",
+              items: [
+                "Your current circumstances, including your ties to family, community, employment and economic circumstances.",
+                "Why you want to study this course in Australia with this particular education provider, including your understanding of the course requirements and of studying and living in Australia.",
+                "How completing the course will benefit you.",
+                "Any other relevant information you would like to include.",
+                "A further question applies to applicants who have held a student visa, or who are applying in Australia from a non-student visa.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "The evidence Home Affairs encourages you to attach",
+          content:
+            "Along with your responses in the form, you must attach supporting documents to your ImmiAccount. Home Affairs encourages applicants to give evidence or information about the following.",
+          subsections: [
+            {
+              title: "Previous study",
+              items: [
+                "Academic transcripts showing the qualifications you achieved.",
+                "The name of your education provider(s) and the length of study.",
+                "Certificates of attainment.",
+              ],
+            },
+            {
+              title: "Previous study in Australia, if any",
+              items: [
+                "A complete history of your study record(s) in Australia.",
+                "Your reasons for any change of course or education provider.",
+                "Information on your course progress.",
+                "Any study gaps of more than 2 months during an academic year.",
+              ],
+            },
+            {
+              title: "Current employment",
+              items: [
+                "Details of your current employer and the company address.",
+                "The period of employment and the position you hold.",
+                "The name and contact details of someone who can confirm your declared employment.",
+              ],
+            },
+            {
+              title: "Ties and circumstances in your home country",
+              items: [
+                "The nature of your personal ties — family, community and employment.",
+                "Your reasons for not studying in your home country if a similar course is available there.",
+              ],
+            },
+            {
+              title: "Economic circumstances in your home country",
+              items: [
+                "Documents showing employment or business activity for the 12 months before you lodge your application.",
+                "Potential employment offers after the course, including salary and other benefits.",
+                "An income tax return or bank statements.",
+              ],
+            },
+          ],
+          note:
+            "If political and civil unrest or military service commitments in your home country would be a significant incentive for you to leave, Home Affairs says you must give reasons and supporting evidence.",
+        },
+        {
+          heading: "How Home Affairs assesses Genuine Student",
+          content:
+            "Home Affairs says the GS criterion focuses on your intention to genuinely study in Australia, and considers your circumstances, immigration history, compliance with visa conditions and any other relevant matters. It points to [Ministerial Direction No. 106](https://immi.homeaffairs.gov.au/Visa-subsite/files/direction-no-106.pdf) for more detail.",
+          subsections: [
+            {
+              title: "The factors it lists",
+              items: [
+                "Your situation at home: your reasons for not studying in your home country or region if a similar course is available there, the nature of your ties, and your economic circumstances.",
+                "Your situation in Australia: your knowledge of the proposed course, the education provider and living in Australia, your previous study and qualifications, and the research you have done.",
+                "The value of the course to your future: whether it is consistent with your current level of education, and whether it will help you obtain employment or improve your employment prospects in your home country or another country, including expected salary and other benefits.",
+                "Your immigration history: visa and travel history for Australia and other countries, previous visa applications, and any visa refusals or cancellations.",
+                "For a minor applicant, the intentions of the parent, legal guardian or spouse.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Points in the official guidance that are easy to miss",
+          subsections: [
+            {
+              title: "Keep these in mind when you draft",
+              items: [
+                "Be specific to your course and provider — the form asks why this course with this particular education provider, and what you understand about studying and living in Australia.",
+                "Back your statements with documents — Home Affairs says it gives more weight to statements supported by evidence.",
+                "Watch the word limit — 150 words per response, so put the facts that matter first.",
+                "Answer in the form, in English — Home Affairs prefers this to a separate statement.",
+                "Keep everything consistent — Home Affairs considers your overall personal circumstances, so your answers and your documents should agree.",
+                "Disclose your immigration history accurately — visa refusals and cancellations are among the factors it lists.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Step by step: preparing your Genuine Student answers",
+          content:
+            "Work through these five steps before you lodge.",
+          subsections: [
+            {
+              title: "Step 1: Confirm which requirement applies",
+              content:
+                "Applications lodged on or after 23 March 2024 are assessed under Genuine Student. Set aside any guide that tells you to write a GTE statement for a new application.",
+            },
+            {
+              title: "Step 2: Research your course and provider",
+              content:
+                "Home Affairs considers your level of knowledge of the proposed course, the education provider and living in Australia, and the research you have done. Be ready to explain why this course and this provider.",
+            },
+            {
+              title: "Step 3: Draft each answer within 150 words",
+              content:
+                "Cover your current circumstances, why this course and provider, how the course will benefit you, and anything else relevant — in your own words and in English.",
+            },
+            {
+              title: "Step 4: Gather your evidence",
+              content:
+                "Transcripts, an employment letter with a contact who can confirm it, 12 months of employment or business records, and an income tax return or bank statements — plus your study record if you have studied in Australia before.",
+            },
+            {
+              title: "Step 5: Check consistency and attach your documents",
+              content:
+                "Make sure dates, job titles and income agree across your answers and documents, then attach the supporting documents to your ImmiAccount before you submit.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis helps with an Australia student visa file",
+          content:
+            "At Travelaxis we help Pakistani students organize and check the supporting documents for an [Australia student visa](/study-visa/australia) — transcripts, employment and income evidence and the rest of the file — so that it is complete and consistent, and we coordinate certificate attestation where your documents need it. Your answers to the Genuine Student questions have to be your own, so we do not write them for you. We are a documentation and consultancy service, not a MARA-registered migration agent: we do not provide regulated migration advice, arrange admission or issue visas, and we cannot guarantee any outcome — the decision rests with Home Affairs.",
+          relatedLinks: [
+            { label: "Get an Australia visa document review from Travelaxis", href: "/contact" },
+            { label: "Australia Student Visa from Pakistan — Requirements & Support", href: "/study-visa/australia" },
+            { label: "Australia Visa from Pakistan Overview", href: "/services/australia-visa-from-pakistan" },
+            { label: "Study Visa Documentation for Every Destination", href: "/services/study-visa" },
+            { label: "Germany Student Visa from Pakistan: Blocked Account & Documents", href: "/blog/germany-student-visa-blocked-account-pakistan" },
+            { label: "Visa & Business Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "What replaced the GTE statement for an Australia student visa?",
+              answer:
+                "The Genuine Student (GS) requirement replaced the Genuine Temporary Entrant (GTE) requirement for student visa applications lodged on or after 23 March 2024. Applications lodged before that date are assessed under GTE.",
+            },
+            {
+              question: "Do I need to upload a separate Genuine Student statement?",
+              answer:
+                "Home Affairs says it prefers applicants to respond to the questions in the application form rather than attaching a separate GS statement. Each response has a limit of 150 words and must be in English.",
+            },
+            {
+              question: "What evidence should a Pakistani applicant attach?",
+              answer:
+                "Home Affairs encourages evidence about your previous study (such as transcripts), your current employment with a contact who can confirm it, your ties to your home country, and your economic circumstances — including documents showing employment or business activity for the 12 months before you lodge, and an income tax return or bank statements.",
+            },
+            {
+              question: "Can I mention that I might apply for permanent residence later?",
+              answer:
+                "Home Affairs says the GS requirement recognises that genuine students may develop skills Australia needs and may later choose to apply for permanent residence, and that future intentions of this kind do not count against an applicant under GS. Your answers should still be truthful and centred on why you want to study this course.",
+            },
+            {
+              question: "Does a previous visa refusal affect the Genuine Student assessment?",
+              answer:
+                "Home Affairs lists immigration history among the factors it considers, including visa and travel history and any visa refusals or cancellations. Answer any question about previous visas accurately.",
+            },
+            {
+              question: "Can Travelaxis guarantee my Australia student visa will be approved?",
+              answer:
+                "No. The decision rests with Home Affairs. We help you prepare a complete, consistent, well-organized set of supporting documents, but your answers to the GS questions must be your own, and we are not a MARA-registered migration agent.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated September 2026, based on Home Affairs' [Genuine Student requirement page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/genuine-student-requirement), which showed a last-updated date of 24 September 2026. Requirements change and are assessed case by case — always confirm current requirements on the official page or with a MARA-registered migration agent before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "canada-visitor-visa-refusal-reasons-pakistani-applicants": {
     title: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants (2026)",
     metaTitle: "Canada Visitor Visa Refusal Reasons for Pakistanis 2026",
@@ -310,6 +530,7 @@ export const blogData: Record<string, any> = {
             { label: "Germany Study Visa from Pakistan — Requirements & Support", href: "/study-visa/germany" },
             { label: "Germany Visa from Pakistan Overview", href: "/services/germany-visa-from-pakistan" },
             { label: "Study Visa Documentation for Every Destination", href: "/services/study-visa" },
+            { label: "Australia Student Visa from Pakistan: The Genuine Student Requirement Explained", href: "/blog/australia-student-visa-genuine-student-requirement-pakistan" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },

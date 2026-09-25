@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, BookOpen, MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
 import {
   Accordion,
@@ -24,16 +24,28 @@ const quickFacts = [
 
 const documents = [
   "Confirmation of Enrolment (CoE) from a registered institution",
-  "Genuine Temporary Entrant (GTE) statement",
+  "Answers to the Genuine Student questions in the application form, with supporting evidence",
   "Evidence of sufficient funds",
   "Overseas Student Health Cover (OSHC)",
   "English language test results, where required",
 ];
 
+const australiaGuides: { title: string; description: string; href: string }[] = [
+  {
+    title: "Australia Student Visa from Pakistan: The Genuine Student Requirement Explained",
+    description: "The online-form questions, the 150-word limit, and the evidence Home Affairs encourages you to attach.",
+    href: "/blog/australia-student-visa-genuine-student-requirement-pakistan",
+  },
+];
+
 const faqs = [
   {
     q: "How do I apply for an Australia student visa from Pakistan?",
-    a: "You need a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of funds, Genuine Temporary Entrant evidence, and health insurance (OSHC). We help prepare each of these before you submit through ImmiAccount.",
+    a: "You need a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of funds, your answers to the Genuine Student questions in the online application (backed by supporting evidence), and health insurance (OSHC). We help prepare each of these before you submit through ImmiAccount.",
+  },
+  {
+    q: "Do I still need a Genuine Temporary Entrant (GTE) statement?",
+    a: "Not for applications lodged on or after 23 March 2024. Home Affairs replaced GTE with the Genuine Student (GS) requirement, which is answered through questions in the online application (up to 150 words per response, in English) and supporting documents. Applications lodged before that date were assessed under GTE.",
   },
   {
     q: "Who is this route for?",
@@ -157,8 +169,37 @@ export default function StudyVisaAustraliaPage() {
         </div>
       </section>
 
-      {/* Related */}
+      {/* Guides */}
       <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="section-title mb-6 text-center">Australia Visa Guides</h2>
+          <div className="grid gap-4">
+            {australiaGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="flex items-start gap-4 rounded-3xl p-6 card-hover"
+                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "#155EEF" }}
+                  aria-hidden
+                >
+                  <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="subsection-title mb-1">{guide.title}</h3>
+                  <p className="text-sm text-[#667085]">{guide.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related */}
+      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

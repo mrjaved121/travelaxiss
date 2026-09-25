@@ -2,7 +2,7 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, Landmark, FileText, BadgeCheck, CalendarDays, Snowflake, Compass } from "lucide-react";
+import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, Landmark, FileText, BadgeCheck, CalendarDays, Snowflake, Compass, Sun } from "lucide-react";
 import { motion } from "motion/react";
 import { blogIsoDayToDisplay } from "@/lib/seo/blog-dates";
 
@@ -62,6 +62,7 @@ const categoryIcons: Record<string, typeof FileText> = {
   "UK Visa Documentation": Landmark,
   "Canada Visa Documentation": Snowflake,
   "Germany Visa Documentation": Compass,
+  "Australia Visa Documentation": Sun,
 };
 
 type BlogCta = { heading: string; text: string; label: string; href: string };
