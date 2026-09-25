@@ -126,7 +126,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis helps you prepare a Canada visitor visa file",
           content:
-            "At Travelaxis we prepare Canada visitor visa files for Pakistani applicants from our offices in Dubai and Lahore. We review your ties, funds, and itinerary the way an officer will — flagging inconsistencies and missing evidence before you submit, and helping you address the reasons in a refusal letter if you reapply. We are a documentation and consultancy service: we do not issue visas, we are not a regulated immigration representative, and we cannot guarantee any outcome.",
+            "At Travelaxis we prepare [Canada visitor visa files](/visit-visa/canada) for Pakistani applicants from our offices in Dubai and Lahore. We review your ties, funds, and itinerary the way an officer will — flagging inconsistencies and missing evidence before you submit, and helping you address the reasons in a refusal letter if you reapply. We are a documentation and consultancy service: we do not issue visas, we are not a regulated immigration representative, and we cannot guarantee any outcome.",
           relatedLinks: [
             { label: "Get a Canada visa document review from Travelaxis", href: "/contact" },
             { label: "Canada Visitor Visa from Pakistan — Requirements & Support", href: "/visit-visa/canada" },
@@ -491,7 +491,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis helps you prepare your funds correctly",
           content:
-            "At Travelaxis we prepare UK Standard Visitor visa files for Pakistani applicants from our offices in Dubai and Lahore. We review your bank statements the way an Entry Clearance Officer will — checking the balance against your itinerary, flagging risky deposits, and making sure the source of funds is documented and your ties are clear. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your money strengthens your case instead of sinking it.",
+            "At Travelaxis we prepare [UK Standard Visitor visa files](/visit-visa/uk) for Pakistani applicants from our offices in Dubai and Lahore. We review your bank statements the way an Entry Clearance Officer will — checking the balance against your itinerary, flagging risky deposits, and making sure the source of funds is documented and your ties are clear. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your money strengthens your case instead of sinking it.",
           relatedLinks: [
             { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
@@ -1170,7 +1170,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Get an editable, ready-to-submit version",
           content:
-            "Want the letter as an editable document you can fill in and submit? Travelaxis prepares custom cover letters for Pakistani applicants from our offices in Dubai and Lahore — matched to your exact itinerary, funds, and destination consulate — as part of a full document review. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your letter and file tell one consistent, convincing story.",
+            "Want the letter as an editable document you can fill in and submit? Travelaxis prepares custom cover letters for Pakistani applicants from our offices in Dubai and Lahore — matched to your exact itinerary, funds, and destination consulate — as part of a full [visit visa document review](/visit-visa). We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your letter and file tell one consistent, convincing story.",
           relatedLinks: [
             { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get your editable cover letter from Travelaxis", href: "/contact" },
@@ -1323,7 +1323,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This",
           content:
-            "We help clients understand what a ban, expiry date, or file reference actually means for their specific situation, and where relevant, help organize the documentation needed to resolve a ban or complete a renewal. The status check itself is always performed directly through ICP's or GDRFA's official channels — we don't have a separate database or shortcut, and we'd be cautious of anyone who claims to.",
+            "We help clients understand what a ban, expiry date, or file reference actually means for their specific situation, and where relevant, help organize the documentation needed to resolve a ban or complete a renewal. The status check itself is always performed directly through ICP's or GDRFA's official channels — we don't have a separate database or shortcut, and we'd be cautious of anyone who claims to. Learn more about our [UAE visa status, renewal and extension support](/services/uae-visa-extension-renewal).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -1383,7 +1383,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation Services", href: "/" },
             { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
@@ -1538,7 +1537,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Consultancy", href: "/" },
+            { label: "Travelaxis Home", href: "/" },
             { label: "UAE Visa Ban & Status Check", href: "/blog/uae-visa-ban-status-check-guide" },
             { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
           ],
@@ -1603,7 +1602,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This",
           content:
-            "As part of preparing a complete application file, we help confirm the current photo specification for your specific visa category and submission channel, and flag anything in an existing photo that's likely to cause rejection before you submit. We don't take the photo itself — that's done at a studio or typing center — but catching a spec issue before submission is often faster than a resubmission cycle.",
+            "As part of preparing a complete application file, we help confirm the current photo specification for your specific visa category and submission channel, and flag anything in an existing photo that's likely to cause rejection before you submit. We don't take the photo itself — that's done at a studio or typing center — but catching a spec issue before submission is often faster than a resubmission cycle. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -1653,7 +1652,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Travel Visa UAE", href: "/" },
+            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
@@ -1784,7 +1783,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Business Setup & Visa Support", href: "/" },
+            { label: "Travelaxis Home", href: "/" },
             { label: "UAE Retirement Visa", href: "/services/uae-retirement-visa" },
             { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide" },
           ],
@@ -1964,7 +1963,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Process",
           content:
-            "We help Pakistani applicants organize a complete, consistent B1/B2 or F1 document file, prepare for what the interview typically covers, and review your DS-160 details against your supporting documents before submission. We are not a US immigration attorney or accredited representative — we don't file USCIS petitions, represent you before US authorities, or influence the consular officer's decision, which is made independently at the interview.",
+            "We help Pakistani applicants organize a complete, consistent B1/B2 or F1 document file, prepare for what the interview typically covers, and review your DS-160 details against your supporting documents before submission. We are not a US immigration attorney or accredited representative — we don't file USCIS petitions, represent you before US authorities, or influence the consular officer's decision, which is made independently at the interview. Learn more about our [USA visa documentation from Pakistan](/services/usa-visa-from-pakistan).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -2059,7 +2058,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Agents", href: "/" },
             { label: "USA Visa Documentation Services from Pakistan", href: "/services/usa-visa-from-pakistan" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
@@ -2264,7 +2262,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Process",
           content:
-            "We help prospective and current students coordinate attestation of secondary and degree certificates, prepare supporting documentation for university-sponsored or parent-sponsored visa applications, and plan the post-graduation transition to a work visa or Job Seeker permit. We are not a university, admissions consultancy, or education agent — admission decisions rest entirely with the university, and visa approval rests with UAE immigration authorities.",
+            "We help prospective and current students coordinate attestation of secondary and degree certificates, prepare supporting documentation for university-sponsored or parent-sponsored visa applications, and plan the post-graduation transition to a work visa or Job Seeker permit. We are not a university, admissions consultancy, or education agent — admission decisions rest entirely with the university, and visa approval rests with UAE immigration authorities. Learn more about our [UAE student visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -2379,7 +2377,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Services", href: "/" },
+            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
           ],
@@ -2566,7 +2564,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Process",
           content:
-            "We help Pakistani students and their families coordinate the full IBCC/HEC → MOFA Pakistan → UAE Embassy → UAE MOFAIC attestation chain for secondary certificates and degrees, prepare supporting documentation for the university's visa office, and plan the post-graduation transition to a work visa or Job Seeker permit. We are not a university, admissions consultancy, or education agent — admission decisions rest with the university, and visa approval rests with UAE immigration authorities.",
+            "We help Pakistani students and their families coordinate the full IBCC/HEC → MOFA Pakistan → UAE Embassy → UAE MOFAIC attestation chain for secondary certificates and degrees, prepare supporting documentation for the university's visa office, and plan the post-graduation transition to a work visa or Job Seeker permit. We are not a university, admissions consultancy, or education agent — admission decisions rest with the university, and visa approval rests with UAE immigration authorities. Learn more about our [UAE student visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -2671,7 +2669,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Business Setup Consultancy", href: "/" },
+            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Student Visa – Requirements, Documents & Process", href: "/blog/uae-student-visa-guide" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
@@ -2849,7 +2847,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Process",
           content:
-            "We help Pakistani founders choose between mainland and free zone structures based on their actual business model, prepare and coordinate attestation of personal and educational documents, draft and process power of attorney for remote signing, and organize the full incorporation file for submission — the license itself is issued by the relevant mainland authority or free zone, not by us. We also help coordinate the Emirates ID and residence visa steps that follow incorporation.",
+            "We help Pakistani founders choose between mainland and free zone structures based on their actual business model, prepare and coordinate attestation of personal and educational documents, draft and process power of attorney for remote signing, and organize the full incorporation file for submission — the license itself is issued by the relevant mainland authority or free zone, not by us. We also help coordinate the Emirates ID and residence visa steps that follow incorporation. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -2949,7 +2947,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation & Business Setup", href: "/" },
+            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
             { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
@@ -3107,7 +3105,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Process",
           content:
-            "We help Pakistani sponsors confirm eligibility against current income and category rules, coordinate the full attestation chain for marriage, birth, and family registration certificates, and prepare a complete sponsorship file for submission — final approval rests with ICP or GDRFA, not with us. We also help arrange dependent health insurance and review tenancy documentation before submission, coordinated remotely from our Al Qusais, Dubai office.",
+            "We help Pakistani sponsors confirm eligibility against current income and category rules, coordinate the full attestation chain for marriage, birth, and family registration certificates, and prepare a complete sponsorship file for submission — final approval rests with ICP or GDRFA, not with us. We also help arrange dependent health insurance and review tenancy documentation before submission, coordinated remotely from our Al Qusais, Dubai office. Learn more about our [UAE family visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -3227,7 +3225,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Visa Application Support UAE", href: "/" },
+            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
@@ -3648,7 +3646,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Fits Into an Exploration Trip",
           content:
-            "Beyond visa documentation, we can help prospective founders plan an efficient exploration itinerary, arrange introductions to relevant free zones or DED-related contacts, and provide a realistic comparison of options based on the specific activity being considered — turning a general market visit into a focused, decision-ready trip rather than an open-ended research exercise.",
+            "Beyond visa documentation, we can help prospective founders plan an efficient exploration itinerary, arrange introductions to relevant free zones or DED-related contacts, and provide a realistic comparison of options based on the specific activity being considered — turning a general market visit into a focused, decision-ready trip rather than an open-ended research exercise. Learn more about our [UAE visit visa documentation service](/services/uae-visit-visa).",
         },
         {
           heading: "Common Questions to Ask During Meetings",
@@ -3752,7 +3750,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Mainland Company Formation Dubai", href: "/" },
+            { label: "UAE Visit & Tourist Visa", href: "/services/uae-visit-visa" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -3914,7 +3912,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Family Sponsorship Applications",
           content:
-            "We help sponsors understand which income documentation best fits their employment situation (salaried or business owner), coordinate attestation of relationship documents including guiding the Pakistan-specific attestation chain where applicable, and prepare a complete application file before submission through GDRFA, ICP, or the relevant emirate authority. Final eligibility determination and approval rest entirely with the relevant government authority.",
+            "We help sponsors understand which income documentation best fits their employment situation (salaried or business owner), coordinate attestation of relationship documents including guiding the Pakistan-specific attestation chain where applicable, and prepare a complete application file before submission through GDRFA, ICP, or the relevant emirate authority. Final eligibility determination and approval rest entirely with the relevant government authority. Learn more about our [UAE family visa documentation service](/services/visa-services).",
         },
         {
           heading: "Common Documentation Mistakes",
@@ -3999,7 +3997,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Business Services", href: "/" },
+            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -4171,7 +4169,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Visit Visa Applications",
           content:
-            "We review the sponsor's and visitor's documents together, flag anything likely to cause a delay (an expiring tenancy contract, a relationship-proof gap, missing insurance), and coordinate submission through the correct official channel or an authorized typing center. As with our other guides, we don't issue visas ourselves and don't guarantee approval — our role is making sure the file that gets submitted is complete and correctly prepared the first time.",
+            "We review the sponsor's and visitor's documents together, flag anything likely to cause a delay (an expiring tenancy contract, a relationship-proof gap, missing insurance), and coordinate submission through the correct official channel or an authorized typing center. As with our other guides, we don't issue visas ourselves and don't guarantee approval — our role is making sure the file that gets submitted is complete and correctly prepared the first time. Learn more about our [UAE visit visa documentation service](/services/uae-visit-visa).",
         },
         {
           heading: "Sponsoring a Relative for a Special Occasion",
@@ -4352,7 +4350,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Visa Sponsorship Documentation UAE", href: "/" },
+            { label: "UAE Visit & Tourist Visa", href: "/services/uae-visit-visa" },
             { label: "UAE Family Visa from Pakistan", href: "/blog/uae-family-visa-from-pakistan" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Visa Documentation for Exploring Business Opportunities", href: "/blog/business-exploration-visa-uae-guide" },
@@ -4417,7 +4415,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps Before You Go",
           content:
-            "We review and organize your document set in advance — remotely or by appointment from our Al Qusais office — so your visit to a typing center near JLT or elsewhere in Dubai is a single, complete submission instead of repeat trips over missing paperwork. We are a documentation and consultancy service, not a government authority: we don't operate a government portal ourselves, and final submission is completed through official channels or an authorized typing center.",
+            "We review and organize your document set in advance — remotely or by appointment from our Al Qusais office — so your visit to a typing center near JLT or elsewhere in Dubai is a single, complete submission instead of repeat trips over missing paperwork. We are a documentation and consultancy service, not a government authority: we don't operate a government portal ourselves, and final submission is completed through official channels or an authorized typing center. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "Common Reasons a Typing Center Visit Gets Rejected or Delayed",
@@ -4671,7 +4669,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Online Documentation", href: "/" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
@@ -4746,7 +4743,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports a Faster Process",
           content:
-            "We review your documents before submission, flag anything incomplete or inconsistent, and coordinate with authorized typing centers or priority counters where they're genuinely available. We do not control government processing timelines and do not guarantee same-day or expedited approval — what we can reliably speed up is the preparation that determines whether your first submission goes through cleanly.",
+            "We review your documents before submission, flag anything incomplete or inconsistent, and coordinate with authorized typing centers or priority counters where they're genuinely available. We do not control government processing timelines and do not guarantee same-day or expedited approval — what we can reliably speed up is the preparation that determines whether your first submission goes through cleanly. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "How Long Standard Processing Actually Takes",
@@ -4938,7 +4935,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Residence Visa Support", href: "/" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
@@ -5105,7 +5101,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Time-Sensitive Cases",
           content:
-            "When a client comes to us with a genuinely tight deadline, our focus is on removing every avoidable source of delay from their side — confirming the exact document list for their specific case, expediting attestation coordination where possible, and submitting through the correct official channel with any legitimate priority option flagged. We're transparent that this doesn't override GDRFA's own review, and we won't promise a guaranteed approval date, since that promise isn't ours or any consultancy's to make.",
+            "When a client comes to us with a genuinely tight deadline, our focus is on removing every avoidable source of delay from their side — confirming the exact document list for their specific case, expediting attestation coordination where possible, and submitting through the correct official channel with any legitimate priority option flagged. We're transparent that this doesn't override GDRFA's own review, and we won't promise a guaranteed approval date, since that promise isn't ours or any consultancy's to make. Learn more about our [UAE residency visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -5176,7 +5172,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Visa Consultancy", href: "/" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
@@ -5231,7 +5226,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps Before Your Amer Center Visit",
           content:
-            "We review and organize your documents in advance so your Amer center appointment is a single, complete submission rather than a trip that ends in a request for missing paperwork. We are not an Amer center and don't operate a government portal ourselves — we prepare your file and coordinate submission through an authorized Amer center or typing center on your behalf where needed.",
+            "We review and organize your documents in advance so your Amer center appointment is a single, complete submission rather than a trip that ends in a request for missing paperwork. We are not an Amer center and don't operate a government portal ourselves — we prepare your file and coordinate submission through an authorized Amer center or typing center on your behalf where needed. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "Common Mistakes That Cause a Second Amer Center Visit",
@@ -5505,7 +5500,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Government Services Coordination", href: "/" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
@@ -5547,7 +5541,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps Software Engineers Apply",
           content:
-            "We review your employment or specialization evidence, help determine whether the salary or specialization route fits best, coordinate degree attestation, and prepare your complete file for submission through ICP. Final approval rests with ICP based on your specific evidence.",
+            "We review your employment or specialization evidence, help determine whether the salary or specialization route fits best, coordinate degree attestation, and prepare your complete file for submission through ICP. Final approval rests with ICP based on your specific evidence. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
         },
         {
           heading: "Who Qualifies as a Software Engineer for This Golden Visa",
@@ -5752,7 +5746,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Copy & Documentation Help", href: "/" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
@@ -5942,7 +5935,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports AI Specialist Applications",
           content:
-            "We help applicants determine which eligibility route (salary or recognition) best fits their profile, review and organize technical portfolio evidence into a clear, reviewer-friendly format, coordinate degree attestation, and prepare the complete document set for submission through ICP. Final eligibility determination and approval rest entirely with ICP based on the strength and clarity of the evidence submitted.",
+            "We help applicants determine which eligibility route (salary or recognition) best fits their profile, review and organize technical portfolio evidence into a clear, reviewer-friendly format, coordinate degree attestation, and prepare the complete document set for submission through ICP. Final eligibility determination and approval rest entirely with ICP based on the strength and clarity of the evidence submitted. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -6010,7 +6003,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Travelaxis UAE Visa Documentation", href: "/" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
@@ -6115,7 +6107,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Property Investor Applications",
           content:
-            "We help property investors confirm their qualifying value (including combining multiple properties where needed), coordinate valuation certificates and mortgage NOC requests with banks, and prepare the complete file for submission through DLD or the relevant emirate authority. Final visa approval decisions rest with the relevant land department and federal residency authority, based on their own current criteria and standard review process.",
+            "We help property investors confirm their qualifying value (including combining multiple properties where needed), coordinate valuation certificates and mortgage NOC requests with banks, and prepare the complete file for submission through DLD or the relevant emirate authority. Final visa approval decisions rest with the relevant land department and federal residency authority, based on their own current criteria and standard review process. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
         },
         {
           heading: "Step-by-Step Application Process",
@@ -6246,7 +6238,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Number & Status Support", href: "/" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
@@ -6374,7 +6365,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Application",
           content:
-            "We review bank statements against the maintained-balance requirement before submission, flag any dips or formatting issues that could trigger rejection, coordinate certified translation where needed, and prepare the full supporting document set for submission through GDRFA or an authorized channel. Final approval rests with GDRFA based on their current review criteria.",
+            "We review bank statements against the maintained-balance requirement before submission, flag any dips or formatting issues that could trigger rejection, coordinate certified translation where needed, and prepare the full supporting document set for submission through GDRFA or an authorized channel. Final approval rests with GDRFA based on their current review criteria. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "Who Should Consider This Visa vs Other Long-Term Options",
@@ -6478,7 +6469,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Renewal Documentation", href: "/" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
@@ -6589,7 +6579,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Humanitarian Pioneers Applications",
           content:
-            "We help applicants organize their humanitarian record into a clear, chronological file, identify which eligibility route their history most strongly supports, and coordinate the endorsement letter request and any necessary document attestation. We don't issue endorsements ourselves and don't determine eligibility — those decisions rest with the Ministry of Community Empowerment and ICP based on the strength of your documented record.",
+            "We help applicants organize their humanitarian record into a clear, chronological file, identify which eligibility route their history most strongly supports, and coordinate the endorsement letter request and any necessary document attestation. We don't issue endorsements ourselves and don't determine eligibility — those decisions rest with the Ministry of Community Empowerment and ICP based on the strength of your documented record. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
         },
         {
           heading: "Step-by-Step Application Process",
@@ -6717,7 +6707,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Business Setup Dubai", href: "/" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
@@ -6870,7 +6859,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports the Full Formation Journey",
           content:
-            "We work with founders from initial activity and structure selection through document preparation, formation submission, and coordination of the subsequent visa and banking steps — treating formation as the first stage of a longer relationship rather than a single transaction. For founders based in Pakistan or elsewhere abroad, we specifically help sequence the attestation chain and UAE visit timing so the whole process moves as efficiently as possible, minimizing the number of separate trips required.",
+            "We work with founders from initial activity and structure selection through document preparation, formation submission, and coordination of the subsequent visa and banking steps — treating formation as the first stage of a longer relationship rather than a single transaction. For founders based in Pakistan or elsewhere abroad, we specifically help sequence the attestation chain and UAE visit timing so the whole process moves as efficiently as possible, minimizing the number of separate trips required. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Common Mistakes First-Time Founders Make",
@@ -6930,7 +6919,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Company Registration Services", href: "/" },
+            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -7048,7 +7037,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Dubai Business Setup Specifically",
           content:
-            "Being based in Al Qusais, Dubai ourselves, we work directly with Dubai DED and the major Dubai free zones on a regular basis, which means practical, current familiarity with each option's actual processing patterns, common approval delays, and package specifics — not just published marketing information. We help founders compare Dubai-specific options against their actual activity and budget, and coordinate document preparation and submission through their chosen authority.",
+            "Being based in Al Qusais, Dubai ourselves, we work directly with Dubai DED and the major Dubai free zones on a regular basis, which means practical, current familiarity with each option's actual processing patterns, common approval delays, and package specifics — not just published marketing information. We help founders compare Dubai-specific options against their actual activity and budget, and coordinate document preparation and submission through their chosen authority. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Common Dubai-Specific Mistakes",
@@ -7113,7 +7102,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Company Formation Consultancy", href: "/" },
             { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
             { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
@@ -7255,7 +7243,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Foreign Founders",
           content:
-            "We regularly work with foreign founders, including a significant number based in or originally from Pakistan, guiding them through activity-specific ownership rules, coordinating document attestation across both the founder's home country and the UAE, and preparing the formation and subsequent visa documentation as a properly sequenced process rather than two disconnected steps.",
+            "We regularly work with foreign founders, including a significant number based in or originally from Pakistan, guiding them through activity-specific ownership rules, coordinating document attestation across both the founder's home country and the UAE, and preparing the formation and subsequent visa documentation as a properly sequenced process rather than two disconnected steps. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Common Mistakes Foreign Founders Make",
@@ -7335,7 +7323,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa & Business Consultancy", href: "/" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
@@ -7447,7 +7434,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps Founders Navigate This",
           content:
-            "We check your specific activity against current ownership rules before you commit to a structure, help you understand whether a local service agent applies to your case and what that arrangement genuinely involves, and support founders with older, local-partner-structured companies in understanding the restructuring process available to them. Final activity classification and ownership rules are determined by the relevant licensing authority, not by us.",
+            "We check your specific activity against current ownership rules before you commit to a structure, help you understand whether a local service agent applies to your case and what that arrangement genuinely involves, and support founders with older, local-partner-structured companies in understanding the restructuring process available to them. Final activity classification and ownership rules are determined by the relevant licensing authority, not by us. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "What This Means for Companies Formed Under the Old Rules",
@@ -7700,7 +7687,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps With Document Preparation",
           content:
-            "We review your document set against your specific activity and structure's requirements, flag anything needing attestation or translation before it becomes a delay, and organize corporate shareholder documents when applicable. We coordinate with your chosen DED or free zone authority — final approval and licensing decisions rest with them.",
+            "We review your document set against your specific activity and structure's requirements, flag anything needing attestation or translation before it becomes a delay, and organize corporate shareholder documents when applicable. We coordinate with your chosen DED or free zone authority — final approval and licensing decisions rest with them. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "What Happens If a Document Expires Mid-Process",
@@ -7771,7 +7758,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Investor Visa Documentation", href: "/" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
@@ -7895,7 +7881,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps You Decide",
           content:
-            "Because the right structure depends on where your customers actually are, your growth plans, and your specific activity's qualifying-income tax treatment, we walk through these factors with each client individually rather than defaulting to a single recommendation. We help compare realistic all-in costs across mainland and relevant freezone options for your specific activity and visa needs, and coordinate document preparation and submission with your chosen authority once you've decided. The structure decision itself, and its tax and regulatory implications, are worth confirming with a licensed tax agent alongside our documentation support.",
+            "Because the right structure depends on where your customers actually are, your growth plans, and your specific activity's qualifying-income tax treatment, we walk through these factors with each client individually rather than defaulting to a single recommendation. We help compare realistic all-in costs across mainland and relevant freezone options for your specific activity and visa needs, and coordinate document preparation and submission with your chosen authority once you've decided. The structure decision itself, and its tax and regulatory implications, are worth confirming with a licensed tax agent alongside our documentation support. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -7956,7 +7942,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Government Services", href: "/" },
             { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
@@ -8111,7 +8096,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps You Choose and Register",
           content:
-            "With dozens of free zones each offering different activity lists, package structures, and pricing, comparing options thoroughly on your own is time-consuming and easy to get wrong on a detail that only becomes apparent later. Travelaxis reviews your specific activity, budget, and visa needs against current free zone offerings, shortlists zones that are a genuine fit rather than the most heavily marketed ones, and handles document preparation and submission with your chosen authority. Final approval, activity licensing, and fee schedules remain with the free zone authority itself.",
+            "With dozens of free zones each offering different activity lists, package structures, and pricing, comparing options thoroughly on your own is time-consuming and easy to get wrong on a detail that only becomes apparent later. Travelaxis reviews your specific activity, budget, and visa needs against current free zone offerings, shortlists zones that are a genuine fit rather than the most heavily marketed ones, and handles document preparation and submission with your chosen authority. Final approval, activity licensing, and fee schedules remain with the free zone authority itself. Learn more about our [free zone company formation guides](/free-zones).",
         },
         {
           heading: "Common Mistakes Choosing a Freezone",
@@ -8195,7 +8180,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Legal Documentation Services", href: "/" },
+            { label: "Browse All UAE Free Zones", href: "/free-zones" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
@@ -8360,7 +8345,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps With Activity Selection",
           content:
-            "We help prospective founders map their business idea to the correct specific activity code, flag whether additional regulatory approval applies, and check activity approval against the free zones or mainland categories being considered — before formation begins, when correcting course is easy, rather than after a license has already been issued against the wrong activity.",
+            "We help prospective founders map their business idea to the correct specific activity code, flag whether additional regulatory approval applies, and check activity approval against the free zones or mainland categories being considered — before formation begins, when correcting course is easy, rather than after a license has already been issued against the wrong activity. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Common Mistakes Choosing an Activity",
@@ -8430,7 +8415,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Application Documentation", href: "/" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
             { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
@@ -8554,7 +8538,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps With Corporate Banking",
           content:
-            "We help business owners prepare a clear, complete banking application package — company documents, a well-written business profile, and expected transaction information — and can point clients toward banks that commonly work well with their specific free zone or activity type based on our experience across many client applications. Final account approval decisions rest entirely with the bank's own compliance process.",
+            "We help business owners prepare a clear, complete banking application package — company documents, a well-written business profile, and expected transaction information — and can point clients toward banks that commonly work well with their specific free zone or activity type based on our experience across many client applications. Final account approval decisions rest entirely with the bank's own compliance process. Learn more about our [business support services](/services/business-support).",
         },
         {
           heading: "Minimum Balance Requirements and Ongoing Fees",
@@ -8639,7 +8623,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Company Formation UAE", href: "/" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
@@ -8795,7 +8778,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports ISO Certification Projects",
           content:
-            "We help businesses identify which ISO standard best fits their tender requirements or client expectations, connect with accredited certification bodies appropriate to their industry, and coordinate the documentation and scheduling process from gap analysis through to the certification audit. The certification decision itself, and the technical audit process, rest with the accredited certification body — our role is coordination and preparation support, not the certification itself.",
+            "We help businesses identify which ISO standard best fits their tender requirements or client expectations, connect with accredited certification bodies appropriate to their industry, and coordinate the documentation and scheduling process from gap analysis through to the certification audit. The certification decision itself, and the technical audit process, rest with the accredited certification body — our role is coordination and preparation support, not the certification itself. Learn more about our [business support services](/services/business-support).",
         },
         {
           heading: "Planning Certification Timing Around Your Business Calendar",
@@ -8861,7 +8844,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Business Setup Consultancy", href: "/" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
@@ -9003,7 +8985,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Trademark Registration",
           content:
-            "We help business owners understand what trademark protection actually covers relative to their existing trade name registration, coordinate the search and application process with a licensed trademark agent, and track renewal deadlines alongside other compliance dates. The registration decision and any objection proceedings are handled by the Ministry of Economy and, where engaged, a licensed trademark agent.",
+            "We help business owners understand what trademark protection actually covers relative to their existing trade name registration, coordinate the search and application process with a licensed trademark agent, and track renewal deadlines alongside other compliance dates. The registration decision and any objection proceedings are handled by the Ministry of Economy and, where engaged, a licensed trademark agent. Learn more about our [business support services](/services/business-support).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -9074,7 +9056,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation Consultancy", href: "/" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
@@ -9236,7 +9217,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports License Renewal",
           content:
-            "We track your renewal timeline, help confirm your tenancy or facility agreement is current, and organize your renewal documents so submission goes through in one pass. We don't renew the license ourselves — that decision and issuance sit with your licensing authority.",
+            "We track your renewal timeline, help confirm your tenancy or facility agreement is current, and organize your renewal documents so submission goes through in one pass. We don't renew the license ourselves — that decision and issuance sit with your licensing authority. Learn more about our [UAE government services coordination](/services/government-services).",
         },
         {
           heading: "Renewal and Corporate Tax or VAT Obligations",
@@ -9337,7 +9318,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Travelaxis UAE Business Setup", href: "/" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
@@ -9462,7 +9442,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Ongoing Compliance",
           content:
-            "While Travelaxis is a documentation consultancy rather than a licensed accountant or law firm, we help business owners understand which compliance obligations apply to their specific activity and structure, coordinate document preparation for renewals and filings, and connect clients with licensed tax agents or legal advisors for matters requiring their specific expertise. For UAE company formation and ongoing government-facing paperwork, we can help make sure renewal deadlines aren't missed simply because no one was tracking them.",
+            "While Travelaxis is a documentation consultancy rather than a licensed accountant or law firm, we help business owners understand which compliance obligations apply to their specific activity and structure, coordinate document preparation for renewals and filings, and connect clients with licensed tax agents or legal advisors for matters requiring their specific expertise. For UAE company formation and ongoing government-facing paperwork, we can help make sure renewal deadlines aren't missed simply because no one was tracking them. Learn more about our [business support services](/services/business-support).",
         },
         {
           heading: "Setting Up Reminders That Actually Work",
@@ -9548,7 +9528,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Freezone & Mainland Setup", href: "/" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
@@ -9676,7 +9655,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Municipality Approval",
           content:
-            "We help you understand which approvals your specific activity needs, organize the documentation your fit-out contractor and the municipality will request, and coordinate timing so municipality approval and trade license activation align rather than creating a gap. We don't conduct the inspection or grant approval ourselves — that's the municipality's role.",
+            "We help you understand which approvals your specific activity needs, organize the documentation your fit-out contractor and the municipality will request, and coordinate timing so municipality approval and trade license activation align rather than creating a gap. We don't conduct the inspection or grant approval ourselves — that's the municipality's role. Learn more about our [UAE government services coordination](/services/government-services).",
         },
         {
           heading: "Health and Safety Certificates Beyond the Initial Approval",
@@ -9782,7 +9761,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Support Services", href: "/" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
@@ -9822,7 +9800,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Customs Registration",
           content:
-            "We help businesses complete customs registration alongside their other post-formation steps, coordinating documentation with the relevant emirate's customs authority so it's handled proactively rather than becoming a bottleneck at the first shipment.",
+            "We help businesses complete customs registration alongside their other post-formation steps, coordinating documentation with the relevant emirate's customs authority so it's handled proactively rather than becoming a bottleneck at the first shipment. Learn more about our [UAE government services coordination](/services/government-services).",
         },
         {
           heading: "Documents Typically Needed",
@@ -10038,7 +10016,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Business Consultancy", href: "/" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
@@ -10155,7 +10132,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps With Dubai Chamber Registration",
           content:
-            "We review your trade license, MOA, and supporting documents to confirm you're applying for the correct membership category, then help organize and submit a complete file so the registration goes through without repeat submissions over missing paperwork. We are a documentation and consultancy service — Dubai Chamber issues membership and certificates itself, not us.",
+            "We review your trade license, MOA, and supporting documents to confirm you're applying for the correct membership category, then help organize and submit a complete file so the registration goes through without repeat submissions over missing paperwork. We are a documentation and consultancy service — Dubai Chamber issues membership and certificates itself, not us. Learn more about our [UAE government services coordination](/services/government-services).",
         },
         {
           heading: "Common Mistakes When Registering",
@@ -10393,7 +10370,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation Experts", href: "/" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
@@ -10537,7 +10513,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Trade License Approval",
           content:
-            "We review your documents at each stage — trade name, initial approval, activity-specific requirements, and final submission — to catch inconsistencies before they cause a delay, and coordinate with your chosen DED or free zone authority. We don't issue the license ourselves; that decision and the license itself come from the licensing authority.",
+            "We review your documents at each stage — trade name, initial approval, activity-specific requirements, and final submission — to catch inconsistencies before they cause a delay, and coordinate with your chosen DED or free zone authority. We don't issue the license ourselves; that decision and the license itself come from the licensing authority. Learn more about our [UAE government services coordination](/services/government-services).",
         },
         {
           heading: "Choosing Your Business Activity Before You Start",
@@ -10663,7 +10639,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Business & Visa Services", href: "/" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
@@ -10812,7 +10787,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Golden Visa Applications",
           content:
-            "We help applicants identify which category best fits their actual circumstances, prepare and organize category-specific supporting documentation, and coordinate submission through ICP or the relevant emirate authority. For property investors, business investors, and specialized-talent applicants, we can walk through the specific evidence each category's reviewers commonly expect. Final eligibility determination and approval rest entirely with ICP.",
+            "We help applicants identify which category best fits their actual circumstances, prepare and organize category-specific supporting documentation, and coordinate submission through ICP or the relevant emirate authority. For property investors, business investors, and specialized-talent applicants, we can walk through the specific evidence each category's reviewers commonly expect. Final eligibility determination and approval rest entirely with ICP. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
         },
         {
           heading: "How Golden Visa Renewal Generally Works",
@@ -10893,7 +10868,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Trade License & Visa Support", href: "/" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
@@ -11040,7 +11014,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Business-Based Visa Applications",
           content:
-            "We help business owners identify which residence route best fits their shareholding, income, and long-term plans, prepare and organize the required documentation, and coordinate submission through the appropriate government channel. Final visa approval and issuance remain with ICP, GDRFA, or the relevant free zone immigration department — our role is documentation preparation and coordination support, not visa issuance itself.",
+            "We help business owners identify which residence route best fits their shareholding, income, and long-term plans, prepare and organize the required documentation, and coordinate submission through the appropriate government channel. Final visa approval and issuance remain with ICP, GDRFA, or the relevant free zone immigration department — our role is documentation preparation and coordination support, not visa issuance itself. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Choosing Between the Standard Route and the Golden Visa",
@@ -11119,7 +11093,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Dubai Visa Documentation Services", href: "/" },
+            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
@@ -11328,7 +11302,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Getting Started With Your Investor Visa Application",
           content:
-            "Whether you're applying for the first time after forming your company or preparing for a renewal, having your establishment card, share documents, and tenancy agreement organized before starting saves considerable back-and-forth. We're happy to review your specific situation and outline exactly what your file needs, whether this is your first investor visa or a renewal following a change in your company.",
+            "Whether you're applying for the first time after forming your company or preparing for a renewal, having your establishment card, share documents, and tenancy agreement organized before starting saves considerable back-and-forth. We're happy to review your specific situation and outline exactly what your file needs, whether this is your first investor visa or a renewal following a change in your company. Learn more about our [UAE investor visa documentation service](/services/visa-services).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -11384,7 +11358,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Corporate Services", href: "/" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
@@ -11526,7 +11499,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports the Visa Process",
           content:
-            "We help applicants understand which stage of the process applies to their situation, prepare and organize the required documentation for each step, and coordinate submission and follow-up through the appropriate government channel or approved typing center. Final approval and visa issuance rest with ICP, GDRFA, or the relevant emirate's residency authority — our role is documentation preparation and process coordination, not visa issuance itself.",
+            "We help applicants understand which stage of the process applies to their situation, prepare and organize the required documentation for each step, and coordinate submission and follow-up through the appropriate government channel or approved typing center. Final approval and visa issuance rest with ICP, GDRFA, or the relevant emirate's residency authority — our role is documentation preparation and process coordination, not visa issuance itself. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "How to Track Your Application Status",
@@ -11615,7 +11588,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Guidance", href: "/" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
@@ -11985,7 +11957,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Noon Sellers",
           content:
-            "We help prospective and existing Noon sellers set up the right trade license structure for their scale and growth plans, handle the documentation Noon's verification process requires, and advise on VAT registration timing as sales grow. Platform-specific approval, account tier decisions, and fee structures remain within Noon's own policies.",
+            "We help prospective and existing Noon sellers set up the right trade license structure for their scale and growth plans, handle the documentation Noon's verification process requires, and advise on VAT registration timing as sales grow. Platform-specific approval, account tier decisions, and fee structures remain within Noon's own policies. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Why Professional Consultancy Helps",
@@ -12046,7 +12018,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Business Setup & Government Services UAE", href: "/" },
             { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
             { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
@@ -12277,7 +12248,7 @@ export const blogData: Record<string, any> = {
         },
         {
           heading: "Getting Documentation Support for Your Dropshipping License",
-          content: "If you're unsure whether mainland or free zone fits your plans, or want your e-commerce license file reviewed before submission, a documentation consultancy can help organize your paperwork and flag anything likely to cause delay — the license and approval decisions themselves remain with the relevant DED or free zone authority."
+          content: "If you're unsure whether mainland or free zone fits your plans, or want your e-commerce license file reviewed before submission, a documentation consultancy can help organize your paperwork and flag anything likely to cause delay — the license and approval decisions themselves remain with the relevant DED or free zone authority. Learn more about our [UAE company formation service](/services/company-formation)."
         },
         {
           heading: "Why Professional Consultancy Helps",
@@ -12315,7 +12286,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation Hub", href: "/" },
             { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
@@ -12572,7 +12542,7 @@ export const blogData: Record<string, any> = {
         },
         {
           heading: "Why Professional Consultancy Helps",
-          content: "Professional consultancy provides setup guidance, handles documentation, and ensures faster approval."
+          content: "Professional consultancy provides setup guidance and helps organize your documentation, which reduces avoidable delays — though the license and approval decisions themselves remain with the relevant DED or free zone authority. Learn more about our [UAE company formation service](/services/company-formation)."
         },
         {
           heading: "Frequently Asked Questions",
@@ -12603,7 +12573,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Travelaxis Dubai", href: "/" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
             { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
@@ -12844,7 +12813,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa & Company Formation", href: "/" },
+            { label: "Travelaxis Home", href: "/" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
