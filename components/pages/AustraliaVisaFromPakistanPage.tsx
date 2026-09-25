@@ -28,6 +28,9 @@ import {
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 import { australiaVisaFaqs } from "@/components/data/australiaVisaFaqs";
 
+/** Next Link with motion props, so the route cards get trailing-slash hrefs and client-side navigation (a plain motion.a emits the raw path). */
+const MotionLink = motion.create(Link);
+
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const disclaimer =
@@ -142,7 +145,7 @@ export default function AustraliaVisaFromPakistanPage() {
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {routeCards.map((item, index) => (
-              <motion.a
+              <MotionLink
                 key={item.title}
                 href={item.href}
                 initial={{ opacity: 0, y: 20 }}
@@ -167,7 +170,7 @@ export default function AustraliaVisaFromPakistanPage() {
                   {item.cta}
                   <ArrowRight className="w-4 h-4" aria-hidden />
                 </span>
-              </motion.a>
+              </MotionLink>
             ))}
           </div>
         </div>
