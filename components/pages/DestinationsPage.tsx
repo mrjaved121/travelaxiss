@@ -39,7 +39,7 @@ export default function DestinationsPage() {
       {/* Hero */}
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Destinations</p>
             <h1 className="page-title mb-6">
               Explore Visa <span style={{ color: "#155EEF" }}>Destinations</span>

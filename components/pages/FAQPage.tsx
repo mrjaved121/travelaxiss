@@ -31,7 +31,7 @@ export default function FAQPage() {
       <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
@@ -67,7 +67,7 @@ export default function FAQPage() {
           </h2>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
@@ -95,7 +95,7 @@ export default function FAQPage() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="mb-12"
@@ -125,7 +125,7 @@ export default function FAQPage() {
 
           {filteredFAQs.length === 0 ? (
             <motion.div
-              initial={{ opacity: 0 }}
+              initial={false}
               animate={{ opacity: 1 }}
               className="text-center py-12"
               role="status"
@@ -143,7 +143,7 @@ export default function FAQPage() {
                 return (
                   <motion.li
                     key={`${stableIndex}-${faq.question}`}
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={false}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: Math.min(stableIndex * 0.02, 0.4) }}
                     className="rounded-2xl overflow-hidden shadow-sm border-2 transition-all"
@@ -201,7 +201,7 @@ export default function FAQPage() {
           )}
 
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
             className="mt-8 text-center"
@@ -217,7 +217,7 @@ export default function FAQPage() {
       <section className="py-16" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="section-title mb-8 text-center">
@@ -236,7 +236,7 @@ export default function FAQPage() {
               ].map((topic, index) => (
                 <motion.li
                   key={topic}
-                  initial={{ opacity: 0, scale: 0.9 }}
+                  initial={false}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: index * 0.05 }}
                   className="rounded-2xl p-4 text-center shadow-sm hover:shadow-md transition-shadow"
@@ -254,7 +254,7 @@ export default function FAQPage() {
 
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >

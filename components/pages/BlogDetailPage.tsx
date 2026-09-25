@@ -4,7 +4,6 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, Landmark, FileText, BadgeCheck, CalendarDays } from "lucide-react";
 import { motion } from "motion/react";
-import { blogData } from "../data/blogContent";
 import { blogIsoDayToDisplay } from "@/lib/seo/blog-dates";
 
 /**
@@ -74,9 +73,12 @@ const defaultCta: BlogCta & { ariaLabel: string } = {
   ariaLabel: "Contact Travelaxis on WhatsApp about UAE business setup (opens in a new tab)",
 };
 
-export default function BlogDetailPage({ slug }: { slug: string }) {
-  const blog = blogData[slug || ""];
-
+/**
+ * The post is passed in by the server route rather than looked up here: importing
+ * `blogData` into this client component bundled every post (~900 KB) into the
+ * JS of every blog page.
+ */
+export default function BlogDetailPage({ blog }: { blog: any }) {
   if (!blog) {
     return (
       <div className="min-h-screen flex items-center justify-center px-4" role="alert">
@@ -111,7 +113,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       <section className="py-12" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
             <div className="mb-4">
@@ -152,7 +154,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       <section className="py-8" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
             className="w-full h-64 md:h-96 rounded-3xl shadow-lg flex items-center justify-center"
@@ -170,7 +172,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       <section className="py-12" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
             className="prose prose-lg max-w-none"
@@ -939,7 +941,7 @@ export default function BlogDetailPage({ slug }: { slug: string }) {
       {/* CTA Section */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >

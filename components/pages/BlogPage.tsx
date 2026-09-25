@@ -37,7 +37,7 @@ export default function BlogPage() {
       <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
@@ -101,7 +101,7 @@ export default function BlogPage() {
             {blogs.map((blog, index) => (
               <motion.article
                 key={blog.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
                 className="relative rounded-2xl overflow-hidden card-hover transition-all duration-200 hover:-translate-y-1 group"
@@ -158,7 +158,7 @@ export default function BlogPage() {
       {/* CTA Section */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >

@@ -184,7 +184,7 @@ export default function GovernmentServicesPage() {
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
@@ -232,7 +232,7 @@ export default function GovernmentServicesPage() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
@@ -253,7 +253,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
@@ -305,7 +305,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12 max-w-3xl"
           >
@@ -324,7 +324,7 @@ export default function GovernmentServicesPage() {
             {whyChooseUs.map((item, index) => (
               <motion.div
                 key={item.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-2xl p-6 md:p-8 bg-white card-hover transition-all duration-200 hover:-translate-y-1"
@@ -351,7 +351,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-14"
           >
@@ -367,7 +367,7 @@ export default function GovernmentServicesPage() {
             {keyServices.map((svc, index) => (
               <motion.div
                 key={svc.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="rounded-3xl p-6 md:p-8 border border-white/10"
@@ -414,7 +414,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
@@ -432,7 +432,7 @@ export default function GovernmentServicesPage() {
             {processSteps.map((s, index) => (
               <motion.div
                 key={s.step}
-                initial={{ opacity: 0, x: -12 }}
+                initial={false}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm"
@@ -462,7 +462,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl"
           >
@@ -514,7 +514,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
@@ -529,7 +529,7 @@ export default function GovernmentServicesPage() {
             {packages.map((pkg, index) => (
               <motion.div
                 key={pkg.name}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className={`rounded-3xl p-8 shadow-sm ${
@@ -589,7 +589,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
@@ -605,7 +605,7 @@ export default function GovernmentServicesPage() {
             {professionalBenefits.map((b, index) => (
               <motion.div
                 key={b}
-                initial={{ opacity: 0, y: 12 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.04 }}
                 className="flex items-center gap-3 rounded-2xl px-4 py-4 border border-white/10"
@@ -623,7 +623,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-10"
           >
@@ -654,7 +654,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-8"
           >
@@ -672,7 +672,7 @@ export default function GovernmentServicesPage() {
             {mistakes.map((m, index) => (
               <motion.div
                 key={m}
-                initial={{ opacity: 0, y: 10 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex items-center space-x-3 p-4 rounded-2xl border-l-4"
@@ -693,7 +693,7 @@ export default function GovernmentServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
@@ -734,7 +734,7 @@ export default function GovernmentServicesPage() {
       {/* Final CTA */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
