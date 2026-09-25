@@ -1662,130 +1662,110 @@ export const blogData: Record<string, any> = {
     },
   },
   "uae-work-visa-age-limit": {
-    title: "UAE Work Visa Age Limit – What Actually Applies (2026)",
-    metaTitle: "UAE Work Visa Age Limit – What Actually Applies (2026)",
+    title: "UAE Work Visa Age Limit: Minimum Age & Over-60 Rules (2026)",
+    metaTitle: "UAE Work Visa Age Limit: Minimum Age & Over-60 Rules (2026)",
     metaDescription:
-      "Is there a maximum or minimum age for a UAE employment visa? How age limits work by category, and what changes after 60.",
+      "UAE work permit age limit: workers must be 18+, or 15 to 18 with a juvenile permit. The only official age-60 rule we found covers domestic workers.",
+    keywords: [
+      "UAE work visa age limit",
+      "minimum age UAE work permit",
+      "UAE juvenile work permit 15 to 18",
+      "UAE work visa age 60",
+      "UAE retirement visa age 55",
+    ],
     date: "August 20, 2026",
-    readTime: "8 min read",
+    dateModifiedIso: "2026-09-25",
+    readTime: "6 min read",
     category: "UAE Visa Documentation",
+    cta: {
+      heading: "Looking at a route that doesn't depend on an employer?",
+      text: "See how the UAE retirement visa works and what documents it needs.",
+      label: "Check Requirements",
+      href: "/services/uae-retirement-visa",
+    },
     content: {
       intro:
-        "There's no single, universal age cutoff that blocks a UAE employment visa outright — but age does affect the process in specific, real ways: a minimum working age applies, and additional requirements commonly apply to older applicants, particularly past 60, depending on role, free zone, and current medical-testing rules. This guide covers what actually changes with age rather than repeating a specific number as if it applies uniformly to every category, since it doesn't. Confirm current age-related requirements for your specific case with your employer, free zone, or a licensed consultant, since these are periodically revised.",
+        "A standard UAE work permit requires the worker to be at least 18. Between 15 and 18, a juvenile work permit is possible with a guardian's written consent and a medical fitness certificate, and employing anyone under 15 is prohibited. At the other end, the only official age-60 rule we found applies to domestic workers, and we could not find a published maximum age for a standard private-sector work permit — so confirm the current position with MOHRE or the employer before relying on any age cutoff you have heard about.",
       sections: [
         {
-          heading: "Is There a Minimum Age for a UAE Work Visa?",
+          heading: "Minimum age: 18 for a standard work permit, 15 with a special permit",
           content:
-            "Yes — UAE labor law sets a minimum working age (18 years for standard employment), consistent with international norms, so a standard employment visa isn't available to minors regardless of employer willingness. This applies uniformly across mainland and free zone employment.",
-        },
-        {
-          heading: "Is There a Maximum Age? It Depends on the Category",
-          content:
-            "There isn't a flat maximum age that blocks employment visas across the board, but additional conditions commonly apply once an applicant is past a certain age threshold — often cited around 60 — particularly for mainland employment, where extra approvals, higher medical or insurance requirements, or renewal-specific conditions can apply. Free zones and some specific roles handle this differently, with some having their own age-related policies distinct from mainland rules. Golden Visa and investor categories, by contrast, generally don't carry the same age-related employment restrictions since they aren't tied to a specific employer sponsorship in the same way.",
-        },
-        {
-          heading: "What Commonly Changes Past Age 60",
+            "The UAE Government's [work permits guidance](https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/work-permits) says the worker must be at least 18 years old, except in the case of a juvenile work permit or a student training and employment permit. Under Article 5 of the UAE Labour Law, employing anyone under 15 is prohibited, and MOHRE does not issue a work permit below that age. The rules for the 15-to-18 range are set out on the UAE Government's page on the [employment of minors](https://u.ae/en/information-and-services/jobs/Workplace-regulations/employment-and-training-of-minors).",
           subsections: [
             {
-              title: "What to Expect",
+              title: "The age bands",
               items: [
-                "Additional medical fitness testing requirements in some cases",
-                "Possible additional approval steps for mainland employment specifically",
-                "Some free zones apply their own age-related conditions on visa issuance or renewal",
-                "Health insurance premiums are commonly higher for older applicants, which affects overall visa cost even where eligibility itself isn't blocked",
+                "Under 15: employment is prohibited.",
+                "15 to 18: possible only with a juvenile work permit — the guardian's written consent and a medical fitness certificate for the work are required, and juveniles may not be employed at night or in industrial or dangerous work.",
+                "15 and over, still a student: a student training and employment permit, for a student already in the UAE, under a written contract.",
+                "18 and over: a standard work permit.",
               ],
             },
           ],
         },
         {
-          heading: "Golden Visa and Retirement Visa as Alternatives",
+          heading: "Is there a maximum age?",
           content:
-            "For applicants past standard working age who don't want to rely on employer-sponsored status, the UAE Retirement Visa and Golden Visa categories are generally more relevant than a standard employment visa — the Retirement Visa is specifically built around age and financial criteria rather than active employment, and Golden Visa categories (property investment, business investment) don't depend on age in the same way employment sponsorship does. If ongoing employer sponsorship at an older age looks complicated for your specific case, it's worth evaluating whether one of these alternative categories actually fits your situation better than pushing through a standard employment visa.",
+            "We could not find a published maximum age for a standard private-sector work permit: the UAE Government's work-permit page lists the conditions for issuing one and states a minimum age, but no maximum. The one official age-60 rule we found concerns domestic workers: in November 2019 MOHRE announced that [domestic workers over 60 could have their employment contracts renewed](https://mohre.gov.ae/en/media-center/news/23/11/2019/domestic-workers-over-60-years-to-get-employment-contracts-renewed) subject to conditions. That rule is specific to domestic workers and should not be read as applying to other categories.",
+          note:
+            "Age-related practicalities — such as health-insurance pricing, which insurers commonly set by age band, or a free zone's own procedures — depend on the insurer or authority involved and can change. Ask them directly rather than relying on a general figure.",
         },
         {
-          heading: "What Employers Should Confirm Before Sponsoring an Older Applicant",
-          subsections: [
-            {
-              title: "Employer-Side Checklist",
-              items: [
-                "Whether the specific role and jurisdiction (mainland vs free zone) has an age-related approval step",
-                "Current medical fitness testing requirements for the applicant's age bracket",
-                "Health insurance cost implications for the specific age group",
-                "Whether the employment contract type affects any age-related conditions",
-              ],
-            },
-          ],
-        },
-        {
-          heading: "Common Misunderstandings About Age and UAE Visas",
-          subsections: [
-            {
-              title: "What's Often Assumed Incorrectly",
-              items: [
-                "That there's a single hard cutoff age that blocks all employment visas — there isn't; it varies by category and jurisdiction",
-                "That free zones and mainland apply identical age-related rules — they often don't",
-                "That the Retirement Visa is the only option past a certain age — Golden Visa categories can also apply, depending on your situation",
-                "That age-related conditions never change — they're periodically revised, so a rule from a few years ago may no longer be current",
-              ],
-            },
-          ],
-        },
-        {
-          heading: "How Travelaxis Supports This",
+          heading: "If you are 55 or over: routes that don't depend on an employer",
           content:
-            "We help employers and applicants confirm current age-related requirements for a specific role, jurisdiction, and visa category, and evaluate whether an employment visa, Golden Visa, or Retirement Visa actually fits an applicant's situation best. Final eligibility and approval rest with MOHRE, the relevant free zone authority, and GDRFA/ICP, not with us.",
+            "If employer sponsorship at an older age looks complicated, the UAE offers a retirement visa for residents aged 55 or over, with the criteria set by the issuing authorities. We prepare documentation for the [UAE retirement visa](/services/uae-retirement-visa), including the property, savings and income routes. [Golden Visa categories](/blog/golden-visa-uae-guide) such as property investment are also not tied to an employer sponsor — see our [UAE Golden Visa documentation service](/services/visa-services) — and eligibility for each is decided by the relevant authority, not by us.",
         },
         {
-          heading: "Frequently Asked Questions",
+          heading: "What Travelaxis does — and doesn't — do",
+          content:
+            "Travelaxis does not provide work-visa services of any kind, so we cannot help with employment sponsorship or work permits, and this page is general information only. Our documentation support covers residency routes that don't depend on an employer, such as the retirement visa and Golden Visa categories above. We are a documentation and consultancy service: we do not issue visas and cannot guarantee any outcome.",
+        },
+        {
+          heading: "Frequently asked questions",
           faqs: [
             {
-              question: "What is the minimum age for a UAE work visa?",
+              question: "What is the minimum age for a UAE work permit?",
               answer:
-                "18 years, consistent with UAE labor law's minimum working age, applying across mainland and free zone employment.",
+                "For a standard work permit the worker must be at least 18. Between 15 and 18 a juvenile work permit is possible with the guardian's written consent and a medical fitness certificate, and employing anyone under 15 is prohibited under Article 5 of the UAE Labour Law.",
             },
             {
-              question: "Is there a maximum age for a UAE employment visa?",
+              question: "Can a 16-year-old work in the UAE?",
               answer:
-                "Not a single flat cutoff — but additional conditions commonly apply past around age 60, particularly for mainland employment, varying by role and jurisdiction. Confirm current rules for your specific case.",
+                "Only with a juvenile work permit, which requires the guardian's written consent and a medical fitness certificate. Juveniles may not be employed at night or in industrial or dangerous work.",
             },
             {
-              question: "Do free zones have the same age rules as mainland UAE?",
+              question: "Is there a maximum age for a UAE work visa?",
               answer:
-                "Not necessarily — some free zones apply their own age-related conditions on visa issuance or renewal, distinct from mainland requirements, so check the specific free zone's current policy.",
+                "We could not find a published maximum age for a standard private-sector work permit on the UAE Government's work-permit page. The one official age-60 rule we found applies to domestic workers. Confirm the current position with MOHRE or the employer.",
             },
             {
-              question: "What should someone over 60 consider instead of a standard work visa?",
+              question: "What can someone aged 55 or over consider instead of employer sponsorship?",
               answer:
-                "The UAE Retirement Visa (built around age and financial criteria) or Golden Visa categories (property or business investment) are often more relevant alternatives to relying on employer sponsorship at an older age.",
+                "The UAE retirement visa is for residents aged 55 or over, and Golden Visa categories such as property investment are not tied to an employer sponsor. Eligibility for each is decided by the relevant authority.",
             },
             {
-              question: "Does age affect UAE visa health insurance costs?",
+              question: "Do free zones follow the same rules as mainland UAE?",
               answer:
-                "Yes — premiums are commonly higher for older applicants, which affects overall visa cost even in cases where age doesn't block eligibility itself.",
+                "Free zone authorities have their own procedures for staff visas, so check the specific free zone's current policy rather than assuming the mainland process applies.",
             },
             {
-              question: "Are Golden Visa categories affected by age limits?",
+              question: "Does Travelaxis provide work visa services?",
               answer:
-                "Generally no in the same way employment sponsorship is, since Golden Visa categories like property or business investment aren't tied to a specific employer relationship.",
-            },
-            {
-              question: "Can an employer refuse to sponsor someone for being 'too old'?",
-              answer:
-                "Age-related visa conditions come from the relevant authority's rules, not employer discretion alone — if a sponsorship is genuinely blocked, it's worth confirming the actual regulatory reason rather than assuming it's arbitrary.",
-            },
-            {
-              question: "Do age-related visa rules change often?",
-              answer:
-                "They're periodically revised, so a rule you heard about a few years ago may not reflect the current requirement — always confirm current specifics before making decisions around it.",
+                "No. We do not provide work-visa services of any kind. We prepare documentation for routes such as the UAE retirement visa and Golden Visa categories, and we do not issue visas or guarantee approval.",
             },
           ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated September 2026. Based on the UAE Government's work-permit and employment-of-minors pages and a 2019 MOHRE announcement; age-related rules are revised from time to time, so confirm current requirements on the official pages linked above or with the relevant authority before making decisions. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
         },
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Travelaxis Home", href: "/" },
             { label: "UAE Retirement Visa", href: "/services/uae-retirement-visa" },
             { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide" },
+            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
           ],
         },
       ],
