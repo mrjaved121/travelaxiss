@@ -11,8 +11,7 @@ export const metadata: Metadata = {
     "Find the right Canada visa route from Pakistan: Visit Visa or Study Permit. Checklists, timelines & how Travelaxis can help.",
   keywords: [
     "canada visa from pakistan",
-    "canada visit visa from pakistan",
-    "canada study visa from pakistan",
+    "canada visa documentation pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/services/canada-visa-from-pakistan/`,

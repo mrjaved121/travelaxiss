@@ -169,6 +169,14 @@ const guides: {
     icon: Compass,
     link: "/blog/germany-student-visa-blocked-account-pakistan",
   },
+  {
+    title: "Australia Genuine Student Requirement",
+    category: "Australia Visas",
+    description:
+      "How the Genuine Student requirement replaced the GTE statement, the 150-word online questions, and the evidence Home Affairs encourages you to attach.",
+    icon: Sun,
+    link: "/blog/australia-student-visa-genuine-student-requirement-pakistan",
+  },
 ];
 
 const whyUs: { icon: LucideIcon; title: string; description: string }[] = [

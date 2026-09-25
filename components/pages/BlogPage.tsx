@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Clock, Building2, Plane, Globe2, Landmark, FileText, Search, Snowflake, Compass } from "lucide-react";
+import { ArrowRight, Clock, Building2, Plane, Globe2, Landmark, FileText, Search, Snowflake, Compass, Sun } from "lucide-react";
 import { motion } from "motion/react";
 import { blogPostSummaries } from "@/components/data/blogIndex";
 
@@ -14,6 +14,7 @@ const categoryIcons: Record<string, typeof FileText> = {
   "UK Visa Documentation": Landmark,
   "Canada Visa Documentation": Snowflake,
   "Germany Visa Documentation": Compass,
+  "Australia Visa Documentation": Sun,
 };
 
 const CATEGORIES = ["All", ...Array.from(new Set(blogPostSummaries.map((b) => b.category)))];

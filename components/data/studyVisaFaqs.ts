@@ -9,7 +9,7 @@ export const studyVisaFaqs: { q: string; a: string }[] = [
   },
   {
     q: "How do I apply for an Australia student visa from Pakistan?",
-    a: "You need a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of funds, Genuine Temporary Entrant evidence, and health insurance (OSHC). We help prepare each of these before you submit through ImmiAccount.",
+    a: "You need a Confirmation of Enrolment (CoE) from a registered Australian institution, proof of funds, your answers to the Genuine Student questions in the online application (backed by supporting evidence), and health insurance (OSHC). We help prepare each of these before you submit through ImmiAccount.",
   },
   {
     q: "Do I need my degree attested for a Germany student visa from Pakistan?",

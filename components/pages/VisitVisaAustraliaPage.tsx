@@ -25,7 +25,7 @@ const documents = [
   "Valid passport",
   "Recent passport-size photograph",
   "Evidence of sufficient funds",
-  "Genuine Temporary Entrant (GTE) statement",
+  "Statement of your purpose of visit and your ties to Pakistan",
   "Travel itinerary",
 ];
 
@@ -35,8 +35,8 @@ const faqs = [
     a: "You apply online through ImmiAccount with a passport, financial evidence, and supporting statements about your intended visit. We help prepare each document before you submit.",
   },
   {
-    q: "What is a Genuine Temporary Entrant (GTE) statement?",
-    a: "It's a statement explaining your circumstances and intention to visit temporarily and return home, used by the Department of Home Affairs to assess visitor visa applications. We help you prepare this clearly.",
+    q: "What does a genuine temporary stay mean for a visitor visa?",
+    a: "Home Affairs looks at whether you genuinely intend to stay temporarily in Australia for the purpose the visa is granted for, such as tourism or a business visit. If your circumstances raise doubts, officers may ask for more evidence, so a clear statement of your purpose and your ties to Pakistan (job, family, property) helps. We help you prepare this clearly.",
   },
   {
     q: "Does Travelaxis guarantee my Australia visa will be approved?",

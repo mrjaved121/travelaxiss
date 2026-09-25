@@ -11,8 +11,7 @@ export const metadata: Metadata = {
     "Find the right UK visa route from Pakistan: Visit, Study, or Family & Spouse. Document checklists, timelines & how Travelaxis can help.",
   keywords: [
     "uk visa from pakistan",
-    "uk visit visa from pakistan",
-    "uk study visa from pakistan",
+    "uk visa documentation pakistan",
     "uk spouse visa from pakistan",
   ],
   alternates: {

@@ -11,8 +11,7 @@ export const metadata: Metadata = {
     "Find the right Australia visa route from Pakistan: Visitor (600), Student (500), or Partner/Family. Checklists, timelines & how to apply.",
   keywords: [
     "australia visa from pakistan",
-    "australia visit visa from pakistan",
-    "australia student visa from pakistan",
+    "australia visa documentation pakistan",
     "australia partner visa from pakistan",
   ],
   alternates: {

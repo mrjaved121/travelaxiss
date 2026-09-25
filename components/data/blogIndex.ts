@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "australia-student-visa-genuine-student-requirement-pakistan",
+      title: "Australia Student Visa from Pakistan: The Genuine Student Requirement Explained (2026)",
+      excerpt:
+        "How the Genuine Student requirement works for Pakistani applicants — the questions in the online application, the 150-word limit, the evidence Home Affairs encourages you to attach, and how it replaced the old GTE statement.",
+      date: "September 25, 2026",
+      readTime: "8 min read",
+      category: "Australia Visa Documentation",
+    },
+    {
       id: "canada-visitor-visa-refusal-reasons-pakistani-applicants",
       title: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants (2026)",
       excerpt:
