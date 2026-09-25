@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "UAE Free Zone Company Formation – IFZA, DMCC & More",
   description:
-    "Documentation support for company formation across the UAE's major free zones — IFZA, DMCC, Meydan Free Zone, RAKEZ, SHAMS, and JAFZA.",
+    "Documentation support for company formation across UAE free zones — IFZA, DMCC, DIFC, Dubai South, JAFZA, Meydan, RAKEZ, and SHAMS.",
   alternates: {
     canonical: `${SITE_URL}/free-zones/`,
   },

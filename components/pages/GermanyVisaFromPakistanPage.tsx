@@ -334,7 +334,7 @@ export default function GermanyVisaFromPakistanPage() {
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
           <div className="w-16 h-[3px] mx-auto mb-8 bg-white/40" aria-hidden />
-          <h2 className="section-title mb-6">Start Your Germany Application</h2>
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Germany Application</h2>
           <p className="text-white/80 mb-4 max-w-2xl mx-auto">
             Tell us your pathway — Student, Ausbildung, or Family — and
             we&apos;ll map out exactly what you need.

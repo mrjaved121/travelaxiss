@@ -5,6 +5,357 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "canada-visitor-visa-refusal-reasons-pakistani-applicants": {
+    title: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants (2026)",
+    metaTitle: "Canada Visitor Visa Refusal Reasons for Pakistanis 2026",
+    metaDescription:
+      "Why Canada visitor visas get refused for Pakistani applicants: the ties and leave-on-time test, funds, what the refusal letter says, and when to reapply.",
+    keywords: [
+      "Canada visitor visa refusal Pakistan",
+      "Canada visit visa rejected Pakistan",
+      "Canada TRV refusal reasons Pakistani applicants",
+      "reapply Canada visitor visa after refusal",
+      "Canada visa refusal letter officer decision notes",
+      "Canada visitor visa bank balance Pakistan",
+    ],
+    date: "September 24, 2026",
+    dateModifiedIso: "2026-09-24",
+    readTime: "9 min read",
+    category: "Canada Visa Documentation",
+    cta: {
+      heading: "Need Help With Your Canada Visitor Visa?",
+      text: "Get your file reviewed before you apply — or before you reapply after a refusal.",
+      label: "Check Requirements",
+      href: "/visit-visa/canada#requirements-form",
+    },
+    content: {
+      intro:
+        "A Canada visitor visa is refused when the officer is not satisfied that you will leave Canada at the end of your visit. For Pakistani applicants that usually comes down to how convincingly the file shows your ties to Pakistan, your funds, and a clear purpose for the trip. IRCC publishes no fixed pass mark, but its own guidance names the test: ties — such as a job, home, financial assets, or family — that will take you back home. This guide explains the refusal reasons, how to read your refusal letter, and what to do next.",
+      sections: [
+        {
+          heading: "How Canada decides a visitor visa application",
+          content:
+            "IRCC's [eligibility guidance for a visitor visa](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eligibility.html) sets out what an applicant must show: a valid travel document such as a passport, good health, no criminal or immigration-related convictions, enough money for the stay, and convincing an immigration officer that you have ties that will take you back to your home country and that you will leave Canada at the end of your visit. There is no scoring system, so each file is judged as a whole.",
+        },
+        {
+          heading: "The two common refusal reasons IRCC names",
+          content:
+            "IRCC's help centre says a refusal letter lists the reason or reasons the officer refused the application, and it points to two common ones.",
+          subsections: [
+            {
+              title: "What these mean in practice",
+              items: [
+                "The officer was not satisfied you would leave Canada on time — your ties to Pakistan (job, home, financial assets, family) or your reason for travelling did not convince them.",
+                "You are inadmissible to Canada — a criminal, immigration, or medical issue that has to be resolved before a new application can succeed.",
+              ],
+            },
+          ],
+          note:
+            "Your own refusal letter is the only authoritative list of why your application was refused. What follows is about how files commonly fall short, not a substitute for it.",
+        },
+        {
+          heading: "File weaknesses that lead to a refusal",
+          content:
+            "Officers do not refuse on a single line item — they refuse when the file as a whole does not answer the leave-on-time question. These are the weaknesses that most commonly undermine a visitor application, and each one feeds into that decision.",
+          subsections: [
+            {
+              title: "Common weaknesses",
+              items: [
+                "Weak or undocumented ties to Pakistan: no employer letter, no proof of a business or property, no evidence of family responsibilities.",
+                "An unclear purpose of visit: a vague itinerary, no reason for the length of stay, or an invitation that does not match the rest of your story.",
+                "Funds that are too small for the trip, or that appear suddenly and cannot be explained by your income history.",
+                "Inconsistent information: dates, job titles, or income that differ between your application form, your letters, and your bank statements.",
+                "Missing or incomplete documents, or a host's invitation that does not show the host's own status and ability to support you.",
+                "A previous refusal that the new application does not address.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How much money do you need to show?",
+          content:
+            "IRCC does not publish a fixed amount. Its guidance says the money you need depends on how long you will stay and whether you will stay in a hotel or with friends or relatives. In practice, aim to show funds that clearly cover your whole trip — flights, accommodation, and daily costs — in accounts that show regular income and normal spending rather than a recent lump-sum deposit. If a relative in Canada is hosting you, their invitation should state what they will cover and show their own status and means; it supports your own funds rather than replacing them. Our [UK bank balance guide](/blog/how-much-bank-balance-uk-visit-visa-pakistan) explains the same statement principles in more depth, although UK and Canadian rules are different.",
+        },
+        {
+          heading: "Your refusal letter and officer decision notes",
+          content:
+            "When IRCC refuses an application it sends a refusal letter listing the reason or reasons. IRCC also includes the officer's [decision notes](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/officer-decision-notes.html) with refusal letters for most temporary resident applications — IRCC states this has applied since July 29, 2025, and the notes explain why the application was refused. Read both carefully before doing anything else: they show which part of your file the officer found unconvincing, and that is exactly what any new application has to fix.",
+        },
+        {
+          heading: "Should you reapply — and when?",
+          content:
+            "IRCC's guidance is direct: [applying again with the same information, even with an immigration representative such as a consultant or agent, will likely not change the decision](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1485&top=16). You can apply again if you have new information or documents that address the reasons in your refusal letter. IRCC's examples of changed circumstances include a changed purpose of visit, a changed employment or financial situation, approved criminal rehabilitation, or a resolved medical inadmissibility issue. Even then, IRCC notes that this does not guarantee approval. If you believe the process was unfair, IRCC says you may request a judicial review through the Federal Court of Canada — a legal step to discuss with a qualified Canadian lawyer, not something a documentation service can do for you.",
+        },
+        {
+          heading: "How to rebuild a stronger file after a refusal",
+          content:
+            "If your circumstances have genuinely changed, work through these six steps in order before you submit again.",
+          subsections: [
+            {
+              title: "Step 1: Read the refusal letter and officer decision notes",
+              content:
+                "Identify every reason cited. Your new application has to answer them directly, not repeat the old file.",
+            },
+            {
+              title: "Step 2: Decide whether anything has genuinely changed",
+              content:
+                "IRCC's own examples are a changed purpose of visit, a changed employment or financial situation, approved criminal rehabilitation, or a resolved medical issue. If nothing has changed, a new application is unlikely to be decided differently.",
+            },
+            {
+              title: "Step 3: Strengthen your ties evidence",
+              content:
+                "An updated employer letter with your role, salary, and approved leave; proof of business registration or property; evidence of family responsibilities; and FBR tax records where they support your income story.",
+            },
+            {
+              title: "Step 4: Rebuild your funds picture",
+              content:
+                "Recent statements showing regular income and normal spending, an explanation for any large transaction, and an amount that matches your trip length and where you will stay.",
+            },
+            {
+              title: "Step 5: Make the purpose and itinerary specific",
+              content:
+                "A clear reason for the visit, realistic dates, and where you will stay — plus a host's invitation, if you have one, showing their status in Canada and what they will cover. A well-written [visit visa cover letter](/blog/cover-letter-for-visit-visa-sample-pakistan) helps tie the pieces together.",
+            },
+            {
+              title: "Step 6: Submit a consistent, complete file",
+              content:
+                "Check that dates, job titles, and income agree across your form, letters, and statements, and answer the application's questions about previous refusals truthfully.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis helps you prepare a Canada visitor visa file",
+          content:
+            "At Travelaxis we prepare Canada visitor visa files for Pakistani applicants from our offices in Dubai and Lahore. We review your ties, funds, and itinerary the way an officer will — flagging inconsistencies and missing evidence before you submit, and helping you address the reasons in a refusal letter if you reapply. We are a documentation and consultancy service: we do not issue visas, we are not a regulated immigration representative, and we cannot guarantee any outcome.",
+          relatedLinks: [
+            { label: "Get a Canada visa document review from Travelaxis", href: "/contact" },
+            { label: "Canada Visitor Visa from Pakistan — Requirements & Support", href: "/visit-visa/canada" },
+            {
+              label: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+              href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
+            },
+            {
+              label: "Top Schengen Visa Rejection Reasons for Pakistani Applicants",
+              href: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",
+            },
+            {
+              label: "Cover Letter for a Visit Visa: Free Sample & Template",
+              href: "/blog/cover-letter-for-visit-visa-sample-pakistan",
+            },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Why was my Canada visitor visa refused?",
+              answer:
+                "Your refusal letter lists the reason or reasons. IRCC names two common reasons: the officer was not satisfied you would leave Canada at the end of your stay, or you are inadmissible to Canada. Officer decision notes, now included with most temporary resident refusals, explain the decision in more detail.",
+            },
+            {
+              question: "Can I appeal a Canada visitor visa refusal?",
+              answer:
+                "IRCC's guidance describes two routes: apply again with new information or documents that address the reasons in your refusal letter, or, if you believe the process was unfair, request a judicial review through the Federal Court of Canada. Judicial review is a legal step to discuss with a qualified Canadian lawyer.",
+            },
+            {
+              question: "Will applying again with the same documents work?",
+              answer:
+                "IRCC says applying again with the same information, even with an immigration representative such as a consultant or agent, will likely not change the decision. A new application should address the reasons in your refusal letter with new information or documents.",
+            },
+            {
+              question: "How much bank balance do I need for a Canada visitor visa from Pakistan?",
+              answer:
+                "IRCC publishes no fixed figure. It says the amount depends on how long you will stay and whether you will stay in a hotel or with friends or relatives. Show funds that clearly cover your whole trip, with statements that show regular income and normal spending.",
+            },
+            {
+              question: "Does a Canada visitor visa application need biometrics?",
+              answer:
+                "IRCC says you may need to give biometrics with your application. Follow the instructions in your own application to see whether they apply to you.",
+            },
+            {
+              question: "Can Travelaxis guarantee my Canada visa will be approved?",
+              answer:
+                "No. The decision rests entirely with IRCC. We help you prepare a complete, consistent, well-organized file, which is the biggest factor within your control.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated September 2026. Canadian immigration rules change and are applied case by case — always confirm current requirements on IRCC's official [visitor visa page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html) or with a licensed Canadian immigration professional before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
+  "germany-student-visa-blocked-account-pakistan": {
+    title: "Germany Student Visa from Pakistan: Blocked Account, Documents & How to Apply (2026)",
+    metaTitle: "Germany Student Visa from Pakistan: Blocked Account 2026",
+    metaDescription:
+      "How Pakistani students prove financing for a Germany student visa: the blocked account, deed of obligation, HEC scholarship, plus documents and how to apply.",
+    keywords: [
+      "Germany blocked account Pakistan",
+      "Germany student visa financing proof Pakistan",
+      "Verpflichtungserklärung Pakistani student",
+      "HEC scholarship Germany student visa",
+      "German Embassy Islamabad student visa documents",
+      "Sperrkonto Pakistan student",
+    ],
+    date: "September 24, 2026",
+    dateModifiedIso: "2026-09-24",
+    readTime: "9 min read",
+    category: "Germany Visa Documentation",
+    cta: {
+      heading: "Need Help With Your Germany Student Visa File?",
+      text: "Get your documents and financing proof reviewed before you apply.",
+      label: "Check Requirements",
+      href: "/study-visa/germany#requirements-form",
+    },
+    content: {
+      intro:
+        "For a Germany student visa, Pakistani applicants have to prove how they will finance their stay — and the German Mission in Pakistan lists three ways to do it: a blocked bank account, a deed of obligation (Verpflichtungserklärung) from a sponsor residing in Germany, or a German or foreign official scholarship. For scholarships from Pakistan, the Mission is specific: only one awarded by HEC counts. This guide explains each route, the documents the Mission lists, where to apply, and the paperwork points that cause delays.",
+      sections: [
+        {
+          heading: "The three ways to prove financing",
+          content:
+            "The German Mission in Pakistan's [financing guidance](https://pakistan.diplo.de/pk-en/service/1995528-1995528) lists three options under \"How to finance your stay\": blocked bank accounts, a deed of obligation, and a German or foreign official scholarship. Which one fits depends on your family situation and whether you hold a recognised scholarship. Whatever the route, you are showing the Mission that you can meet your living costs in Germany.",
+        },
+        {
+          heading: "Option 1: The blocked bank account",
+          content:
+            "A blocked account (Sperrkonto) is a German bank account where the money you pay in is held and released to you in monthly amounts. The Mission's page says that when applying for a visa you can provide evidence that you are able to meet your living costs by opening one. As of 1 January 2025 the Mission gave the presumed requirement as EUR 992 per month, or EUR 11,904 per year. That figure is set by German authorities and can change, so check the Mission's page for the current amount before you transfer any money.",
+          subsections: [
+            {
+              title: "Things to know before you open one",
+              items: [
+                "You enter into an agreement with the bank: the Mission notes that the German Federal Foreign Office has no influence on the bank's decisions or on your relationship with it.",
+                "Your signature on the documents to open a blocked account has to be attested by the Embassy in Islamabad, the Consulate General in Karachi, or the Honorary Consul in Lahore. The Mission lists an attestation fee, so check its page for the current amount.",
+                "Match the amount to the figure currently stated by the Mission — working from an out-of-date number risks a shortfall against what the Mission expects.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Option 2: The deed of obligation (Verpflichtungserklärung)",
+          content:
+            "The Mission explains that a deed of obligation, under §§ 66–68 of the German Residence Act, is entered into by a sponsor residing in Germany. By signing it the sponsor assumes responsibility for any costs that might accrue in Germany in relation to the person sponsored. The sponsor has to appear before a Migration Office in Germany to make the declaration and must prove sufficient financial means — for example through payslips and bank statements covering at least six months.",
+        },
+        {
+          heading: "Option 3: An official scholarship",
+          content:
+            "The Mission also accepts a German or foreign official scholarship, with a Pakistan-specific warning: a scholarship awarded by a Pakistani university is not sufficient — only a scholarship awarded by HEC can be accepted. If your funding comes from a university award rather than HEC, plan on one of the other two routes.",
+        },
+        {
+          heading: "Documents the Mission lists for a student visa",
+          content:
+            "On its [student visa page](https://pakistan.diplo.de/pk-en/service/2-study-visa-seite/1676104) the German Mission lists academic documents including past degree certificates (school, bachelor's, or earlier master's degrees), degree transcripts, and proof of payment of tuition fees where that applies to your course. These go alongside your university admission and your financing proof. The Mission publishes a full checklist, so download the current version rather than relying on a summary — and confirm on it whether any of your certificates need further verification. Our [Germany study visa page](/study-visa/germany) summarises the process, and we confirm the exact list for your case.",
+        },
+        {
+          heading: "Where and how to apply from Pakistan",
+          content:
+            "The Mission directs student-visa applicants to its Consular Services Portal to register online and upload their documents. The Embassy in Islamabad handles applicants from the Islamabad Capital Territory, Gilgit-Baltistan, Khyber Pakhtunkhwa, Azad Jammu & Kashmir, and Punjab, while the Consulate General in Karachi handles Sindh and Balochistan. At the time of writing the Mission's page notes a high processing volume and states that incomplete applications result in delayed processing — so completeness matters more than speed.",
+        },
+        {
+          heading: "Step by step: preparing your application",
+          content:
+            "Work through these five steps in order.",
+          subsections: [
+            {
+              title: "Step 1: Secure your university admission",
+              content:
+                "Everything else depends on it. Admission is a matter between you and the university — we do not arrange it.",
+            },
+            {
+              title: "Step 2: Choose your financing route",
+              content:
+                "A blocked account, a deed of obligation from a sponsor in Germany, or an eligible official scholarship. Check the Mission's financing page for the current requirements of the route you choose.",
+            },
+            {
+              title: "Step 3: Prepare your academic documents",
+              content:
+                "Degree certificates, transcripts, and proof of tuition payment where it applies. Confirm against the Mission's current checklist whether any documents need further verification.",
+            },
+            {
+              title: "Step 4: Register on the Consular Services Portal and upload your documents",
+              content:
+                "Use the portal the Mission specifies for student visas, complete every field, and upload every required document.",
+            },
+            {
+              title: "Step 5: Check completeness before you submit",
+              content:
+                "Make sure names, dates, and amounts agree across every document. The Mission states that incomplete applications are processed more slowly.",
+            },
+          ],
+        },
+        {
+          heading: "Financing paperwork pitfalls to check",
+          subsections: [
+            {
+              title: "Points the Mission's own guidance flags",
+              items: [
+                "Relying on a scholarship from a Pakistani university — the Mission says only one awarded by HEC can be accepted.",
+                "Skipping the attestation of your blocked-account documents at the Embassy, Consulate General, or Honorary Consul.",
+                "A sponsor whose payslips and bank statements cover less than the six months the Mission mentions.",
+                "Working from an outdated blocked-account figure instead of the amount currently stated by the Mission.",
+                "Submitting an incomplete application, which the Mission says delays processing.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis helps you prepare a Germany student visa file",
+          content:
+            "At Travelaxis we prepare Germany student visa documentation for applicants in Pakistan from our offices in Dubai and Lahore. We help you work out which financing route fits, check that your documents are complete and consistent against the Mission's current checklist, and coordinate certificate verification where your documents need it. We are a documentation and consultancy service: we do not arrange university admission, we do not issue visas, and we cannot guarantee any outcome — the decision rests with the German Mission.",
+          relatedLinks: [
+            { label: "Get a Germany visa document review from Travelaxis", href: "/contact" },
+            { label: "Germany Study Visa from Pakistan — Requirements & Support", href: "/study-visa/germany" },
+            { label: "Germany Visa from Pakistan Overview", href: "/services/germany-visa-from-pakistan" },
+            { label: "Study Visa Documentation for Every Destination", href: "/services/study-visa" },
+            { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "How can I prove financing for a Germany student visa from Pakistan?",
+              answer:
+                "The German Mission in Pakistan lists three options: a blocked bank account, a deed of obligation (Verpflichtungserklärung) from a sponsor residing in Germany, or a German or foreign official scholarship.",
+            },
+            {
+              question: "How much money must go into a German blocked account?",
+              answer:
+                "As of 1 January 2025 the Mission gave the presumed requirement as EUR 992 per month, or EUR 11,904 per year. German authorities update this figure, so confirm the current amount on the Mission's financing page before you deposit.",
+            },
+            {
+              question: "Does a scholarship from my Pakistani university count as proof of financing?",
+              answer:
+                "No. The Mission states that a scholarship awarded by a Pakistani university is not sufficient — only a scholarship awarded by HEC can be accepted.",
+            },
+            {
+              question: "Do I need to attest my blocked account documents?",
+              answer:
+                "Yes. The Mission states that your signature on the documents to open a blocked account has to be attested by the Embassy in Islamabad, the Consulate General in Karachi, or the Honorary Consul in Lahore.",
+            },
+            {
+              question: "Where do I apply for a Germany student visa in Pakistan?",
+              answer:
+                "Through the Consular Services Portal the Mission specifies for student visas. The Embassy in Islamabad handles the Islamabad Capital Territory, Gilgit-Baltistan, Khyber Pakhtunkhwa, Azad Jammu & Kashmir, and Punjab; the Consulate General in Karachi handles Sindh and Balochistan.",
+            },
+            {
+              question: "Can Travelaxis guarantee my Germany student visa will be approved?",
+              answer:
+                "No. The decision rests with the German Mission. We help you prepare a complete, consistent, well-organized application, which is the biggest factor within your control.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated September 2026. German visa requirements and financing thresholds change — always confirm current details on the German Mission in Pakistan's [student visa page](https://pakistan.diplo.de/pk-en/service/2-study-visa-seite/1676104) and [financing page](https://pakistan.diplo.de/pk-en/service/1995528-1995528) before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "how-much-bank-balance-uk-visit-visa-pakistan": {
     title: "How Much Bank Balance Do You Need for a UK Visit Visa From Pakistan? (2027)",
     metaTitle: "How Much Bank Balance for a UK Visit Visa From Pakistan 2027",
@@ -142,6 +493,7 @@ export const blogData: Record<string, any> = {
           content:
             "At Travelaxis we prepare UK Standard Visitor visa files for Pakistani applicants from our offices in Dubai and Lahore. We review your bank statements the way an Entry Clearance Officer will — checking the balance against your itinerary, flagging risky deposits, and making sure the source of funds is documented and your ties are clear. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your money strengthens your case instead of sinking it.",
           relatedLinks: [
+            { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
             {
               label: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
@@ -400,6 +752,7 @@ export const blogData: Record<string, any> = {
           content:
             "At Travelaxis we prepare [UK Standard Visitor visa files](/visit-visa/uk) for Pakistani applicants from our offices in Dubai and Lahore, focusing on exactly what the ECO scrutinises: strong ties to Pakistan, clean and well-sourced funds, a credible purpose, and a consistent set of documents. If you have already been refused, we review your refusal notice, fix each point, and rebuild the file for a stronger reapplication. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application answers every doubt an officer might raise.",
           relatedLinks: [
+            { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
             { label: "UK Visit Visa Requirements & Application Support", href: "/visit-visa/uk" },
             { label: "UK Visa from Pakistan: Visit, Study & Family Routes", href: "/services/uk-visa-from-pakistan" },
@@ -658,6 +1011,7 @@ export const blogData: Record<string, any> = {
           content:
             "At Travelaxis we prepare [Schengen visit-visa files](/visit-visa/europe) for Pakistani applicants from our offices in Dubai and Lahore, focusing on the exact areas that cause refusals: financial documentation, a consistent itinerary, a persuasive cover letter, and strong proof of ties to Pakistan. We review your previous refusal letter, pinpoint what went wrong, and rebuild the file so your reapplication stands on solid ground. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application gives you the strongest, cleanest case possible.",
           relatedLinks: [
+            { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Europe & Schengen Visit Visa Services", href: "/visit-visa/europe" },
             { label: "Get a document review from Travelaxis", href: "/contact" },
             { label: "Germany Visa from Pakistan", href: "/services/germany-visa-from-pakistan" },
@@ -818,6 +1172,7 @@ export const blogData: Record<string, any> = {
           content:
             "Want the letter as an editable document you can fill in and submit? Travelaxis prepares custom cover letters for Pakistani applicants from our offices in Dubai and Lahore — matched to your exact itinerary, funds, and destination consulate — as part of a full document review. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your letter and file tell one consistent, convincing story.",
           relatedLinks: [
+            { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get your editable cover letter from Travelaxis", href: "/contact" },
             {
               label: "Top Schengen Visa Rejection Reasons for Pakistani Applicants",

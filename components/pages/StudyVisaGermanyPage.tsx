@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, MessageCircle, BookOpen } from "lucide-react";
 import { motion } from "motion/react";
 import {
   Accordion,
@@ -28,6 +28,14 @@ const documents = [
   "Financial evidence covering tuition and living costs",
   "Academic transcripts, attested where the institution requires it",
   "German language proof, where required by your institution or program",
+];
+
+const germanyGuides: { title: string; description: string; href: string }[] = [
+  {
+    title: "Germany Student Visa from Pakistan: Blocked Account, Documents & How to Apply",
+    description: "The three ways to prove financing, the documents the German Mission lists, and where to apply.",
+    href: "/blog/germany-student-visa-blocked-account-pakistan",
+  },
 ];
 
 const faqs = [
@@ -156,8 +164,37 @@ export default function StudyVisaGermanyPage() {
         </div>
       </section>
 
-      {/* Related */}
+      {/* Guides */}
       <section className="py-16 bg-white">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="section-title mb-6 text-center">Germany Visa Guides</h2>
+          <div className="grid gap-4">
+            {germanyGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="flex items-start gap-4 rounded-3xl p-6 card-hover"
+                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+              >
+                <div
+                  className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: "#155EEF" }}
+                  aria-hidden
+                >
+                  <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="subsection-title mb-1">{guide.title}</h3>
+                  <p className="text-sm text-[#667085]">{guide.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related */}
+      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
