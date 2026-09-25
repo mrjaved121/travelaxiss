@@ -24,11 +24,11 @@ const navGroups: NavGroup[] = [
     name: "Destinations",
     items: [
       { name: "Visit Visas by Region", path: "/visit-visa" },
-      { name: "UK", path: "/visit-visa/uk" },
-      { name: "USA", path: "/visit-visa/usa" },
-      { name: "Canada", path: "/visit-visa/canada" },
-      { name: "Australia", path: "/visit-visa/australia" },
-      { name: "Schengen (Europe)", path: "/visit-visa/europe" },
+      { name: "UK Visit Visa", path: "/visit-visa/uk" },
+      { name: "USA Visit Visa", path: "/visit-visa/usa" },
+      { name: "Canada Visit Visa", path: "/visit-visa/canada" },
+      { name: "Australia Visit Visa", path: "/visit-visa/australia" },
+      { name: "Schengen Visit Visa", path: "/visit-visa/europe" },
       { name: "All Destinations", path: "/destinations" },
     ],
   },
@@ -95,31 +95,30 @@ function NavDropdown({
         {group.name}
         <ChevronDown className={`w-3.5 h-3.5 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden />
       </button>
-      {open ? (
+      {/* Always rendered (hidden until opened) so the links exist in the static HTML for crawlers. */}
+      <div
+        role="menu"
+        aria-labelledby={triggerId}
+        className={`absolute left-0 top-full pt-3 z-50 ${open ? "" : "hidden"}`}
+      >
         <div
-          role="menu"
-          aria-labelledby={triggerId}
-          className="absolute left-0 top-full pt-3 z-50"
+          className="min-w-[220px] rounded-2xl shadow-lg py-2 bg-white"
+          style={{ border: "1px solid var(--card-line)" }}
         >
-          <div
-            className="min-w-[220px] rounded-2xl shadow-lg py-2 bg-white"
-            style={{ border: "1px solid var(--card-line)" }}
-          >
-            {group.items.map((item) => (
-              <Link
-                key={item.path}
-                href={item.path}
-                role="menuitem"
-                onClick={() => setOpen(false)}
-                className="block px-4 py-2.5 text-sm font-medium transition-colors hover:bg-[#F5F8FF]"
-                style={{ color: isActive(item.path) ? "#155EEF" : "#1D2939" }}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
+          {group.items.map((item) => (
+            <Link
+              key={item.path}
+              href={item.path}
+              role="menuitem"
+              onClick={() => setOpen(false)}
+              className="block px-4 py-2.5 text-sm font-medium transition-colors hover:bg-[#F5F8FF]"
+              style={{ color: isActive(item.path) ? "#155EEF" : "#1D2939" }}
+            >
+              {item.name}
+            </Link>
+          ))}
         </div>
-      ) : null}
+      </div>
     </div>
   );
 }
