@@ -109,6 +109,102 @@ export const freeZones: FreeZone[] = [
     ],
   },
   {
+    slug: "difc",
+    name: "DIFC",
+    fullName: "Dubai International Financial Centre (DIFC)",
+    emirate: "Dubai",
+    metaTitle: "DIFC Company Formation – Documentation & Setup Guide",
+    metaDescription:
+      "Documentation support for DIFC (Dubai International Financial Centre) company formation — a common-law free zone for financial, professional, and tech firms.",
+    heroIntro:
+      "DIFC (Dubai International Financial Centre) is Dubai's purpose-built financial free zone, operating under its own English common law framework with an independent regulator and independent courts. It licenses financial firms as well as professional-services, innovation, technology, and retail and leisure businesses. We help you prepare the documentation for DIFC company formation — the license itself is issued by DIFC, and regulated financial activities are authorized by the DFSA, not by us.",
+    knownFor: [
+      "Its own English common law framework, with independent DIFC Courts and a dedicated regulator, the Dubai Financial Services Authority (DFSA)",
+      "A home for banking, capital markets, wealth and asset management, and insurance firms",
+      "Also licenses professional services such as law, accounting, and consulting, plus innovation and technology companies",
+      "Includes dining, retail, and gallery spaces alongside its offices, in districts such as Gate Village and Gate Avenue",
+    ],
+    bestFor: [
+      "Banking, asset management, insurance, and other regulated financial businesses",
+      "Law firms, accountants, and consultants wanting a common-law jurisdiction",
+      "Fintech, AI, and technology companies drawn to a financial-hub address",
+    ],
+    faqs: [
+      {
+        q: "Is Travelaxis affiliated with or part of DIFC?",
+        a: "No. DIFC is an independent free zone authority. We are a documentation and consultancy service that helps prepare and organize your application — the license is issued by DIFC directly, and regulated financial activities also require DFSA authorization.",
+      },
+      {
+        q: "Do I need DFSA approval to set up in DIFC?",
+        a: "Only for regulated financial services activities, which are authorized by the DFSA. Many other businesses — such as professional services and technology companies — are generally registered through DIFC's Registrar of Companies instead. We can help confirm which route applies to your specific activity.",
+      },
+      {
+        q: "Is DIFC only for financial companies?",
+        a: "No. Alongside banking, capital markets, wealth and asset management, and insurance, DIFC also licenses professional services, innovation and technology companies, and retail and leisure businesses — we can confirm whether your specific activity is supported.",
+      },
+      {
+        q: "How much does DIFC company formation cost?",
+        a: "Fees are set by DIFC and, for regulated activities, the DFSA, and they vary by activity and change periodically. DIFC is often positioned at a higher price point than budget-focused free zones, reflecting its financial-hub location and legal framework — we recommend confirming current pricing directly or through us before budgeting.",
+      },
+      {
+        q: "What law applies to a DIFC company?",
+        a: "DIFC operates under its own English common law framework, administered through independent DIFC Courts, rather than the general onshore UAE legal framework, for matters within DIFC's jurisdiction. We can help you understand what that means for your specific structure.",
+      },
+      {
+        q: "Can I get UAE residence visas through a DIFC company?",
+        a: "Visa eligibility and quotas depend on your license type and setup — we'll help confirm the right structure for your visa needs.",
+      },
+    ],
+  },
+  {
+    slug: "dubai-south",
+    name: "Dubai South",
+    fullName: "Dubai South Free Zone",
+    emirate: "Dubai",
+    metaTitle: "Dubai South Company Formation – Documentation Guide",
+    metaDescription:
+      "Documentation support for Dubai South free zone company formation — a logistics, aviation, and commercial hub near Al Maktoum International Airport.",
+    heroIntro:
+      "Dubai South (formerly Dubai World Central) is a large master-planned area in Dubai built around Al Maktoum International Airport, with a free zone geared toward logistics, aviation, and commercial businesses. We help you prepare the documentation for Dubai South free zone company formation — the license itself is issued by Dubai South, not by us.",
+    knownFor: [
+      "A master-planned area built around Al Maktoum International Airport",
+      "A free zone with a strong focus on logistics and aviation, including the MBR Aerospace Hub",
+      "Commercial, retail, and lifestyle components alongside its free zone",
+      "Located in the south of Dubai, near Expo City Dubai",
+    ],
+    bestFor: [
+      "Logistics, aviation, and supply-chain businesses wanting airport access",
+      "Trading and distribution businesses needing warehouse or logistics space",
+      "Businesses that don't need a central-Dubai address",
+    ],
+    faqs: [
+      {
+        q: "Is Travelaxis affiliated with or part of Dubai South?",
+        a: "No. Dubai South is an independent free zone authority. We help prepare and organize your application — the license is issued by Dubai South directly.",
+      },
+      {
+        q: "Where is Dubai South located?",
+        a: "Dubai South is a large master-planned area in the south of Dubai, built around Al Maktoum International Airport and close to Expo City Dubai.",
+      },
+      {
+        q: "Is Dubai South suitable for logistics and aviation businesses?",
+        a: "Yes — logistics and aviation are core focus areas for Dubai South given its airport-adjacent location, though it also licenses commercial businesses. We can confirm whether your specific activity is supported.",
+      },
+      {
+        q: "How much does Dubai South company formation cost?",
+        a: "Package pricing is set by Dubai South and changes periodically, so we recommend confirming current pricing directly or through us before budgeting — we can request an up-to-date quote for your specific activity.",
+      },
+      {
+        q: "Can I set up a Dubai South company while living elsewhere in Dubai?",
+        a: "Yes — your personal residence isn't restricted by where your license is issued. Whether a physical presence in Dubai South is needed depends on the license and facility option you choose, which we'll confirm for your case.",
+      },
+      {
+        q: "How does Dubai South compare to JAFZA for logistics businesses?",
+        a: "Both are established Dubai free zones used for logistics and trade. JAFZA is built around Jebel Ali Port, while Dubai South is built around Al Maktoum International Airport, so the right fit depends on whether your trade flows are port-based or air-based — we can help compare.",
+      },
+    ],
+  },
+  {
     slug: "meydan-free-zone",
     name: "Meydan Free Zone",
     fullName: "Meydan Free Zone",

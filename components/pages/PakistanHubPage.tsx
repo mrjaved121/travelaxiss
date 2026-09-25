@@ -153,6 +153,22 @@ const guides: {
     icon: Landmark,
     link: "/blog/how-much-bank-balance-uk-visit-visa-pakistan",
   },
+  {
+    title: "Canada Visitor Visa Refusal Reasons",
+    category: "Canada Visas",
+    description:
+      "IRCC's leave-on-time test, how to read your refusal letter and officer decision notes, and when reapplying makes sense.",
+    icon: Snowflake,
+    link: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants",
+  },
+  {
+    title: "Germany Student Visa: Blocked Account & Documents",
+    category: "Germany Visas",
+    description:
+      "The three ways to prove financing — blocked account, deed of obligation, or HEC scholarship — and where to apply from Pakistan.",
+    icon: Compass,
+    link: "/blog/germany-student-visa-blocked-account-pakistan",
+  },
 ];
 
 const whyUs: { icon: LucideIcon; title: string; description: string }[] = [

@@ -260,7 +260,7 @@ export default function DubaiAreaPage({ area }: { area: DubaiArea }) {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="section-title mb-4">
+          <h2 className="section-title mb-4" style={{ color: '#FFFFFF' }}>
             Get Started From {area.name}
           </h2>
           <p className="text-white/90 mb-8">

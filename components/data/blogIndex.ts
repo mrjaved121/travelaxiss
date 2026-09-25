@@ -9,6 +9,24 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "canada-visitor-visa-refusal-reasons-pakistani-applicants",
+      title: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants (2026)",
+      excerpt:
+        "Why Canada visitor visas get refused for Pakistani applicants — IRCC's leave-on-time test, ties and funds evidence, how to read your refusal letter and officer decision notes, and when reapplying makes sense.",
+      date: "September 24, 2026",
+      readTime: "9 min read",
+      category: "Canada Visa Documentation",
+    },
+    {
+      id: "germany-student-visa-blocked-account-pakistan",
+      title: "Germany Student Visa from Pakistan: Blocked Account, Documents & How to Apply (2026)",
+      excerpt:
+        "The three ways Pakistani students can prove financing for a Germany student visa — blocked account, deed of obligation, or HEC scholarship — plus the documents the German Mission lists and where to apply.",
+      date: "September 24, 2026",
+      readTime: "9 min read",
+      category: "Germany Visa Documentation",
+    },
+    {
       id: "how-much-bank-balance-uk-visit-visa-pakistan",
       title: "How Much Bank Balance Do You Need for a UK Visit Visa From Pakistan? (2027)",
       excerpt:

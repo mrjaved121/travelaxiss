@@ -6,7 +6,7 @@ import { SITE_URL } from "@/lib/seo/site";
 import { homepageFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
-  title: "Visa Services in Dubai & Pakistan",
+  title: "Visa Services in Dubai & Pakistan | Travelaxis",
   description:
     "Get clear visa documentation and application support for the UAE and international destinations from Travelaxis offices in Dubai and Lahore.",
   keywords: [
