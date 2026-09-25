@@ -174,7 +174,7 @@ export default function UmrahServicesPage() {
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
@@ -196,7 +196,7 @@ export default function UmrahServicesPage() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96 flex items-center justify-center"
@@ -218,7 +218,7 @@ export default function UmrahServicesPage() {
       <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
@@ -235,7 +235,7 @@ export default function UmrahServicesPage() {
             {categories.map((item, index) => (
               <motion.div
                 key={item.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className="rounded-3xl p-6 md:p-8 text-center border border-white/10"
@@ -262,7 +262,7 @@ export default function UmrahServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto mb-12"
           >
@@ -282,7 +282,7 @@ export default function UmrahServicesPage() {
             {packageTiers.map((pkg, index) => (
               <motion.div
                 key={pkg.name}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className="rounded-2xl p-6 md:p-8 card-hover transition-all duration-200 hover:-translate-y-1"
@@ -327,7 +327,7 @@ export default function UmrahServicesPage() {
       <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto mb-12"
           >
@@ -347,7 +347,7 @@ export default function UmrahServicesPage() {
             {travelOptions.map((option, index) => (
               <motion.div
                 key={option.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className="rounded-2xl p-8 text-center card-hover transition-all duration-200 hover:-translate-y-1"
@@ -388,7 +388,7 @@ export default function UmrahServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
@@ -400,7 +400,7 @@ export default function UmrahServicesPage() {
             {whyChooseUs.map((item, index) => (
               <motion.div
                 key={item.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-2xl p-6 md:p-8 text-center card-hover transition-all duration-200 hover:-translate-y-1"
@@ -427,7 +427,7 @@ export default function UmrahServicesPage() {
       <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-12 text-center"
           >
@@ -439,7 +439,7 @@ export default function UmrahServicesPage() {
             {processSteps.map((s, index) => (
               <motion.div
                 key={s.step}
-                initial={{ opacity: 0, x: -12 }}
+                initial={false}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 className="flex gap-4 md:gap-6 rounded-3xl p-6 shadow-sm bg-white border border-[#E4E7EC]"
@@ -466,7 +466,7 @@ export default function UmrahServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
@@ -500,7 +500,7 @@ export default function UmrahServicesPage() {
       {/* CTA banner */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >

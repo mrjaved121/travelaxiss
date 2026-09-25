@@ -114,7 +114,7 @@ export default async function Page({ params }: Props) {
           ...(howToSchema ? [howToSchema] : []),
         ]}
       />
-      <BlogDetailPage slug={slug} />
+      <BlogDetailPage blog={blog} />
     </>
   );
 }

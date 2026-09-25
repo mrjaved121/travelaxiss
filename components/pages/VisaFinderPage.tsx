@@ -105,7 +105,7 @@ export default function VisaFinderPage() {
     <div>
       <section className="relative overflow-hidden py-16 md:py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Visa Finder</p>
             <h1 className="page-title mb-4">
               Find Your Potential <span style={{ color: "#155EEF" }}>Visa Pathway</span>
@@ -172,7 +172,7 @@ export default function VisaFinderPage() {
               <AnimatePresence mode="wait">
                 <motion.div
                   key={step}
-                  initial={{ opacity: 0, x: 20 }}
+                  initial={false}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -20 }}
                   transition={{ duration: 0.25 }}
@@ -317,7 +317,7 @@ export default function VisaFinderPage() {
               </div>
             </>
           ) : (
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+            <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
               <h2 className="section-title mb-2">
                 Your Potential Pathways
               </h2>

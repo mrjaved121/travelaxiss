@@ -168,7 +168,7 @@ export default function InternationalVisaServicesPage() {
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
@@ -189,7 +189,7 @@ export default function InternationalVisaServicesPage() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
@@ -210,7 +210,7 @@ export default function InternationalVisaServicesPage() {
       <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
@@ -228,7 +228,7 @@ export default function InternationalVisaServicesPage() {
               <motion.div
                 key={item.title}
                 id={item.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.06 }}
                 className="rounded-3xl p-6 md:p-8 text-center border border-white/10 scroll-mt-32"
@@ -255,7 +255,7 @@ export default function InternationalVisaServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto mb-12"
           >
@@ -276,7 +276,7 @@ export default function InternationalVisaServicesPage() {
               <motion.div
                 key={group.title}
                 id={group.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: groupIndex * 0.08 }}
                 className="scroll-mt-32"
@@ -324,7 +324,7 @@ export default function InternationalVisaServicesPage() {
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
@@ -355,7 +355,7 @@ export default function InternationalVisaServicesPage() {
       {/* CTA banner */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >

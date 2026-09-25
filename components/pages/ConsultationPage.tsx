@@ -64,7 +64,7 @@ export default function ConsultationPage() {
       {/* Hero */}
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Book a Consultation</p>
             <h1 className="page-title mb-6">
               Let&apos;s Talk About <span style={{ color: "#155EEF" }}>Your Journey</span>
@@ -83,7 +83,7 @@ export default function ConsultationPage() {
             Consultation request form
           </h2>
           <motion.form
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             onSubmit={handleSubmit}
             className="rounded-2xl p-6 md:p-8 space-y-5 card-hover"

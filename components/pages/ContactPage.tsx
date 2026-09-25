@@ -72,7 +72,7 @@ export default function ContactPage() {
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
@@ -93,7 +93,7 @@ export default function ContactPage() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
@@ -116,7 +116,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <motion.div
-              initial={{ opacity: 0, x: -20 }}
+              initial={false}
               animate={{ opacity: 1, x: 0 }}
             >
               <h2 className="section-title mb-8">
@@ -184,7 +184,7 @@ export default function ContactPage() {
 
             {/* Enquiry form */}
             <motion.div
-              initial={{ opacity: 0, x: 20 }}
+              initial={false}
               animate={{ opacity: 1, x: 0 }}
             >
               {submitted ? (
@@ -386,7 +386,7 @@ export default function ContactPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-8 text-center md:text-left"
           >
@@ -398,7 +398,7 @@ export default function ContactPage() {
             </p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="rounded-3xl overflow-hidden shadow-lg border border-[#E4E7EC] bg-[#F5F8FF]"
           >

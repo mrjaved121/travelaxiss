@@ -50,7 +50,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
@@ -68,7 +68,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
@@ -89,7 +89,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
             style={{ backgroundColor: '#F5F8FF', border: "1px solid var(--card-line)" }}
@@ -107,7 +107,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             </ul>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.08 }}
             className="rounded-2xl p-8 card-hover transition-all duration-200 hover:-translate-y-1"
@@ -132,7 +132,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto mb-12"
           >
@@ -144,7 +144,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
             {relatedServices.map((service, index) => (
               <motion.div
                 key={service.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.08 }}
                 className="relative group rounded-3xl overflow-hidden border border-white/10 p-6"
@@ -172,7 +172,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="mb-10 text-center"
           >
@@ -232,7 +232,7 @@ export default function FreeZonePage({ zone }: { zone: FreeZone }) {
       {/* CTA banner */}
       <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >

@@ -36,7 +36,7 @@ export default function SuccessStoriesPage() {
       {/* Hero */}
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Success Stories</p>
             <h1 className="page-title mb-6">
               Real Journeys. <span style={{ color: "#155EEF" }}>Real Destinations.</span>
@@ -100,7 +100,7 @@ export default function SuccessStoriesPage() {
               {testimonials.map((testimonial, index) => (
                 <motion.div
                   key={`${testimonial.name}-${testimonial.date}`}
-                  initial={{ opacity: 0, y: 20 }}
+                  initial={false}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1 }}
                   className="rounded-2xl p-6 card-hover flex flex-col"

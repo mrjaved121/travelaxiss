@@ -12,7 +12,7 @@ export default function Testimonials() {
     <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
@@ -28,7 +28,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={`${testimonial.name}-${testimonial.date}`}
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
               className="bg-white rounded-2xl p-6 shadow-sm flex flex-col"

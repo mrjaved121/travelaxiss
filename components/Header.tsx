@@ -207,7 +207,7 @@ export default function Header() {
             aria-label="Travelaxis home"
           >
             <img
-              src="/travelaxis-logo.png"
+              src="/travelaxis-logo.webp"
               alt="Travelaxis"
               width={352}
               height={94}
