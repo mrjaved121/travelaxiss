@@ -91,11 +91,11 @@ export const blogPostSummaries: BlogPostSummary[] = [
     },
     {
       id: "uae-work-visa-age-limit",
-      title: "UAE Work Visa Age Limit – What Actually Applies",
+      title: "UAE Work Visa Age Limit: Minimum Age & Over-60 Rules (2026)",
       excerpt:
-        "Is there a maximum or minimum age for a UAE employment visa? How age limits actually work by category, and what changes after 60.",
+        "The minimum age for a UAE work permit, juvenile permits from 15, what the official sources say about age 60, and residency routes for people aged 55 and over.",
       date: "August 20, 2026",
-      readTime: "8 min read",
+      readTime: "6 min read",
       category: "UAE Visa Documentation",
     },
     {
