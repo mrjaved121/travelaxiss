@@ -315,15 +315,52 @@ export default function VisitVisaUaePage() {
             viewport={{ once: true }}
           >
             <h2 className="section-title mb-3">
-              What Determines Your Cost
+              What Does a Dubai Visit Visa Cost from Pakistan?
             </h2>
-            <p className="text-[#667085] leading-relaxed mb-4">
-              Pricing depends on duration, single vs. multiple entry, and your route — a
-              tour-operator or hotel/airline-linked visa usually bundles a service fee into the
-              published price, while individual sponsorship can involve separate government fees.
-              Government fees are reviewed periodically, so rather than quote a PKR figure that
-              may already be outdated, we confirm current pricing for your exact route on
-              WhatsApp or during a free consultation.
+            <p className="text-[#667085] leading-relaxed mb-6">
+              There isn&apos;t one flat price. The total depends on the visa duration, single vs.
+              multiple entry, and your route, and it is made up of separate parts:
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <div className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
+                <h3 className="subsection-title mb-2">Government fee</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">
+                  Set and charged in AED by the UAE authorities, and reviewed from time to time.
+                  The current amount is shown on the official channel when the application is made.
+                  See the{" "}
+                  <a
+                    href="https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold underline-offset-2 hover:underline"
+                    style={{ color: "#155EEF" }}
+                  >
+                    UAE government tourist visa guide
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
+                <h3 className="subsection-title mb-2">Route and sponsor</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">
+                  A tour-operator or hotel/airline-linked visa usually bundles its own service fee
+                  into the published price, while individual sponsorship can involve separate
+                  government fees.
+                </p>
+              </div>
+              <div className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
+                <h3 className="subsection-title mb-2">Travelaxis service fee</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">
+                  Our fee for reviewing your file, preparing the documents and supporting the
+                  submission. It is quoted once we have seen your case, and shown separately from
+                  the government fee.
+                </p>
+              </div>
+            </div>
+            <p className="text-sm text-[#667085] leading-relaxed mb-6">
+              Because government fees are charged in AED, any PKR figure is only an estimate and
+              moves with the exchange rate. We send you the AED amount together with the current
+              PKR equivalent for your exact route on WhatsApp or in a free consultation.
             </p>
             <a
               href={WHATSAPP_PREFILL}

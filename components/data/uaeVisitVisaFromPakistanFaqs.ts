@@ -1,7 +1,7 @@
 export const uaeVisitVisaFromPakistanFaqs: { q: string; a: string }[] = [
   {
     q: "How much does a Dubai visit visa cost from Pakistan?",
-    a: "Cost depends on duration, entry type (single vs multiple), and whether you go through a tour operator, hotel/airline, or an individual UAE sponsor — each route bundles fees differently. Government fees are also reviewed periodically. We confirm current pricing in PKR for your exact route during a free consultation rather than quote a figure that may already be outdated.",
+    a: "Cost depends on duration, entry type (single vs multiple), and whether you go through a tour operator, hotel/airline, or an individual UAE sponsor — each route bundles fees differently. The government fee is charged in AED and reviewed periodically, so any PKR figure is only an estimate that moves with the exchange rate. Our own service fee is quoted separately once we have seen your case. We send you the AED amount and the current PKR equivalent for your exact route on WhatsApp or in a free consultation.",
   },
   {
     q: "What visit visa durations are available to Pakistani nationals?",
