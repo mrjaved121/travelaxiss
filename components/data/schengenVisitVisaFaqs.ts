@@ -19,6 +19,10 @@ export const schengenVisitVisaFaqs: { q: string; a: string }[] = [
     a: "The German Mission in Pakistan says a short-term visa usually takes about 14 calendar days from the day you apply, and longer in peak season. Under the Schengen rules the normal period is 15 days, which can be extended to up to 45 days if more checks or documents are needed. You can apply up to six months before your trip and should apply at least 15 days before.",
   },
   {
+    q: "Can I visit other European countries on a Germany visa?",
+    a: "Yes. A Germany visit visa is a Schengen visa, which lets you move freely within the Schengen Area — 29 countries — for up to 90 days in any 180-day period. You still apply to the country where you will spend the most time, so if most of your trip is in another Schengen country, apply to that country instead of Germany.",
+  },
+  {
     q: "How much insurance do I need for a Schengen visa?",
     a: "Travel medical insurance covering emergency care, hospitalisation and repatriation. The German Mission in Pakistan requires a minimum cover of €30,000 valid for all Schengen countries, not only Germany, and publishes a list of Pakistani insurers that meet the Schengen standard.",
   },
