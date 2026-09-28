@@ -5,11 +5,13 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Canada Visitor Visa from Pakistan – Requirements & Apply",
+  title: "Canada Visit Visa from Pakistan – Fee & Requirements",
   description:
-    "Canada Visitor Visa (TRV) requirements and application support for applicants from Pakistan — documents, process, and how Travelaxis can help.",
+    "Canada visit visa from Pakistan: the official IRCC fee (CAD 100 + CAD 85 biometrics), tourist visa requirements, documents, and application support.",
   keywords: [
     "canada visit visa from pakistan",
+    "canada visit visa fee from pakistan",
+    "canada tourist visa requirements for pakistan",
     "canada visitor visa requirements",
     "canada trv pakistan",
   ],
@@ -18,8 +20,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: `${SITE_URL}/visit-visa/canada/`,
-    title: "Canada Visitor Visa from Pakistan | Travelaxis",
-    description: "Canada Visitor Visa requirements and application support for applicants from Pakistan.",
+    title: "Canada Visit Visa from Pakistan – Fee & Requirements | Travelaxis",
+    description: "The official IRCC visitor visa fee, requirements and application support for applicants from Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
 };

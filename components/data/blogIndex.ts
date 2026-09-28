@@ -262,9 +262,9 @@ export const blogPostSummaries: BlogPostSummary[] = [
     },
     {
       id: "dubai-visit-visa-from-pakistan",
-      title: "Dubai Visit Visa Price & Documents from Pakistan",
+      title: "Dubai Visit Visa from Pakistan: Documents Checklist & Process",
       excerpt:
-        "Dubai visit visa options for Pakistani nationals: 30/60/90-day durations, required documents, sponsor vs. agency routes, cost factors, and processing time.",
+        "Dubai visit visa documents checklist for Pakistani nationals: 30/60/90-day durations, sponsor vs. agency routes, solvency proof, process and refusal reasons.",
       date: "August 12, 2026",
       readTime: "11 min read",
       category: "UAE Visa Documentation",

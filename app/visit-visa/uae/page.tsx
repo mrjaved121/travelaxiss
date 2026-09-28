@@ -6,13 +6,15 @@ import { breadcrumbJsonLd, serviceJsonLd, pakistanOfficeJsonLd } from "@/lib/seo
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Dubai Visit Visa from Pakistan – Cost, Documents & Apply",
+  title: "Dubai Visit Visa from Pakistan – Price, Documents & Apply",
   description:
-    "Apply for a Dubai/UAE visit visa from Pakistan. Clear requirements, sponsor routes, and what determines cost — from Travelaxis offices in Lahore & Dubai.",
+    "Dubai visa for Pakistani applicants: what the visit visa price is made of, requirements, sponsor routes and how to apply — from our Lahore & Dubai offices.",
   keywords: [
     "uae visit visa from pakistan",
     "dubai visit visa from pakistan",
     "dubai visit visa price in pakistan",
+    "dubai visa for pakistani",
+    "dubai visa from pakistan",
     "dubai visa fee for pakistani",
     "uae visit visa requirements from pakistan",
     "how to apply dubai visit visa from pakistan",

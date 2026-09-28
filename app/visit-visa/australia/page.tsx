@@ -5,11 +5,12 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Australia Visitor Visa from Pakistan – Requirements",
+  title: "Australia Visit Visa from Pakistan – Requirements",
   description:
     "Australia Visitor Visa (Subclass 600) requirements and application support for applicants from Pakistan — documents, process, and how Travelaxis can help.",
   keywords: [
     "australia visit visa from pakistan",
+    "australia visit visa requirements for pakistan",
     "subclass 600 pakistan",
     "australia visitor visa requirements",
   ],

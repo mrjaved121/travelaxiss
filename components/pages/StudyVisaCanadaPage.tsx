@@ -12,6 +12,7 @@ import {
 import Breadcrumbs from "@/components/Breadcrumbs";
 import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
+import GovernmentFeesSection from "@/components/GovernmentFeesSection";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -30,7 +31,21 @@ const documents = [
   "Medical exam and biometrics, where required",
 ];
 
+const IRCC_FEES_HREF = "https://ircc.canada.ca/english/information/fees/fees.asp";
+const IRCC_STUDY_DOCS_HREF =
+  "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html";
+
+const fees = [
+  { item: "Study permit (including extensions) — per person", amount: "CAD 150" },
+  { item: "Biometrics — per person", amount: "CAD 85" },
+  { item: "Biometrics — family of 2 or more applying together (maximum)", amount: "CAD 170" },
+];
+
 const faqs = [
+  {
+    q: "What does a Canada study visa cost from Pakistan?",
+    a: "The IRCC government fees are CAD 150 for the study permit plus CAD 85 for biometrics, so CAD 235 for a single applicant. That is separate from your tuition deposit and the proof of funds IRCC expects you to show for tuition and living costs, which IRCC sets and updates on its own site. Our service fee is quoted separately.",
+  },
   {
     q: "What documents do I need for a Canada study permit from Pakistan?",
     a: "A Letter of Acceptance from a Designated Learning Institution, proof of funds, a valid passport, and often a medical exam and biometrics. We confirm the exact list for your specific institution and program.",
@@ -128,6 +143,25 @@ export default function StudyVisaCanadaPage() {
           </p>
         </div>
       </section>
+
+      <GovernmentFeesSection
+        heading="Canada Study Visa Price from Pakistan: Government Fees"
+        intro={
+          <>
+            The government part of the cost is small and fixed: these are the fees IRCC publishes for a
+            study permit, paid online in Canadian dollars. The larger costs are your tuition and the funds
+            you must show for living expenses, which IRCC sets on its{" "}
+            <a href={IRCC_STUDY_DOCS_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+              study permit documents page
+            </a>
+            .
+          </>
+        }
+        rows={fees}
+        note="A single applicant pays CAD 235 in government fees (permit plus biometrics). Our service fee is separate and quoted after we review your Letter of Acceptance and funds."
+        sourceLabel="IRCC fee list"
+        sourceHref={IRCC_FEES_HREF}
+      />
 
       {/* Enquiry form */}
       <section id="requirements-form" className="py-20 bg-white scroll-mt-24">

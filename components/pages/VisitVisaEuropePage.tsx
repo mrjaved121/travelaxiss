@@ -24,7 +24,7 @@ const schengenCountries: { name: string; href?: string }[] = [
   { name: "France" },
   { name: "Italy" },
   { name: "Spain" },
-  { name: "Germany", href: "/services/germany-visa-from-pakistan" },
+  { name: "Germany", href: "/visit-visa/schengen" },
   { name: "Switzerland" },
   { name: "Netherlands" },
   { name: "Portugal" },
@@ -53,7 +53,7 @@ export default function VisitVisaEuropePage() {
               Europe <span style={{ color: "#155EEF" }}>Visit Visas</span>
             </h1>
             <p className="lead text-[#667085] leading-relaxed">
-              Visit visa documentation for the UK and every Schengen member state, submitted
+              Visit visa documentation for the UK and 18 Schengen countries, submitted
               through the relevant country&apos;s own official process.
             </p>
             <p className="text-sm text-[#667085] mt-4 leading-relaxed">
@@ -85,7 +85,12 @@ export default function VisitVisaEuropePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-2">Schengen Area</h2>
           <p className="text-[#667085] mb-6">
-            Short-stay visit and business visa documentation across all 18 Schengen member states we support.
+            Short-stay visit and business visa documentation for the 18 Schengen countries we support (the Schengen Area has 29 members).
+            See the{" "}
+            <Link href="/visit-visa/schengen" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+              Schengen &amp; Germany visit visa guide
+            </Link>{" "}
+            for the fee, where to apply and the German Mission&apos;s document checklist.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {schengenCountries.map((country) =>

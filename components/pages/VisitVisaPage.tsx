@@ -197,7 +197,7 @@ const destinations: { title: string; description: string; icon: LucideIcon; href
 ];
 
 const regions: { title: string; description: string; icon: LucideIcon; href: string }[] = [
-  { title: "Europe", description: "UK and all 18 Schengen member states", icon: Landmark, href: "/visit-visa/europe" },
+  { title: "Europe", description: "UK and 18 Schengen countries", icon: Landmark, href: "/visit-visa/europe" },
   { title: "North America", description: "USA and Canada", icon: Snowflake, href: "/visit-visa/north-america" },
   { title: "Middle East", description: "UAE and Saudi Arabia", icon: Building2, href: "/visit-visa/middle-east" },
   { title: "Asia", description: "Indonesia, China, Japan, Turkey, Singapore", icon: MapPin, href: "/visit-visa/asia" },

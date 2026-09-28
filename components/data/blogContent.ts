@@ -1230,10 +1230,10 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis helps you avoid a second refusal",
           content:
-            "At Travelaxis we prepare [Schengen visit-visa files](/visit-visa/europe) for Pakistani applicants from our offices in Dubai and Lahore, focusing on the exact areas that cause refusals: financial documentation, a consistent itinerary, a persuasive cover letter, and strong proof of ties to Pakistan. We review your previous refusal letter, pinpoint what went wrong, and rebuild the file so your reapplication stands on solid ground. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application gives you the strongest, cleanest case possible.",
+            "At Travelaxis we prepare [Schengen visit-visa files](/visit-visa/schengen) for Pakistani applicants from our offices in Dubai and Lahore, focusing on the exact areas that cause refusals: financial documentation, a consistent itinerary, a persuasive cover letter, and strong proof of ties to Pakistan. We review your previous refusal letter, pinpoint what went wrong, and rebuild the file so your reapplication stands on solid ground. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application gives you the strongest, cleanest case possible.",
           relatedLinks: [
             { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
-            { label: "Europe & Schengen Visit Visa Services", href: "/visit-visa/europe" },
+            { label: "Schengen & Germany Visit Visa from Pakistan", href: "/visit-visa/schengen" },
             { label: "Get a document review from Travelaxis", href: "/contact" },
             { label: "Germany Visa from Pakistan", href: "/services/germany-visa-from-pakistan" },
             { label: "UK Visit Visa Refusal Reasons for Pakistani Applicants", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
@@ -3436,10 +3436,10 @@ export const blogData: Record<string, any> = {
     },
   },
   "dubai-visit-visa-from-pakistan": {
-    title: "Dubai Visit Visa Price & Documents from Pakistan",
-    metaTitle: "Dubai Visit Visa Price & Documents from Pakistan",
+    title: "Dubai Visit Visa from Pakistan: Documents Checklist & Process",
+    metaTitle: "Dubai Visit Visa Documents Checklist from Pakistan",
     metaDescription:
-      "Dubai visit visa options for Pakistani nationals: 30/60/90-day durations, required documents, sponsor vs. agency routes, cost factors, and processing time.",
+      "Dubai visit visa documents checklist for Pakistani nationals: 30/60/90-day durations, sponsor vs. agency routes, solvency proof, process and refusal reasons.",
     date: "August 12, 2026",
     readTime: "11 min read",
     category: "UAE Visa Documentation",
@@ -3545,7 +3545,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Typical Costs to Budget For",
           content:
-            "Visa fees vary by duration, entry type (single vs multiple), and which route you use — tour operator and hotel-linked visas typically bundle a service fee into the published price, while individual sponsorship may involve separate government fees paid directly. Beyond the visa fee itself, budget for the trip costs the visa officer will expect to see you can afford: accommodation, return travel, and daily expenses for the visa's full duration. Because fees and packages change and vary by provider, treat any specific figure as a starting point to confirm rather than a fixed cost.",
+            "For the current Dubai visit visa price from Pakistan, and how the government fee, route and service fee add up, see our [Dubai visit visa from Pakistan page](/visit-visa/uae). In short: visa fees vary by duration, entry type (single vs multiple), and which route you use — tour operator and hotel-linked visas typically bundle a service fee into the published price, while individual sponsorship may involve separate government fees paid directly. Beyond the visa fee itself, budget for the trip costs the visa officer will expect to see you can afford: accommodation, return travel, and daily expenses for the visa's full duration. Because fees and packages change and vary by provider, treat any specific figure as a starting point to confirm rather than a fixed cost.",
         },
         {
           heading: "Extensions and Overstay Considerations",

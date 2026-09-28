@@ -39,6 +39,7 @@ const staticPaths = [
   "/visit-visa/australia",
   "/visit-visa/uae",
   "/visit-visa/europe",
+  "/visit-visa/schengen",
   "/visit-visa/north-america",
   "/visit-visa/middle-east",
   "/visit-visa/asia",

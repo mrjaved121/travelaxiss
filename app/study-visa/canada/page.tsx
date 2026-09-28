@@ -5,11 +5,13 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Canada Study Permit from Pakistan – Requirements & Apply",
+  title: "Canada Study Visa from Pakistan – Fees & Requirements",
   description:
-    "Canada Study Permit requirements and application support for applicants from Pakistan — Letter of Acceptance, IRCC, documents, and how Travelaxis can help.",
+    "Canada study visa from Pakistan: IRCC fees (CAD 150 + CAD 85 biometrics), Letter of Acceptance, proof of funds, documents, and application support.",
   keywords: [
     "canada study visa from pakistan",
+    "canada study visa price in pakistan",
+    "canada study permit fee",
     "canada study permit requirements",
     "ircc study permit pakistan",
   ],
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: `${SITE_URL}/study-visa/canada/`,
-    title: "Canada Study Permit from Pakistan | Travelaxis",
+    title: "Canada Study Visa from Pakistan – Fees & Requirements | Travelaxis",
     description: "Canada Study Permit requirements and application support for applicants from Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },

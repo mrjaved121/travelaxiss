@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/accordion";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
+import GovernmentFeesSection from "@/components/GovernmentFeesSection";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -42,7 +43,20 @@ const canadaGuides: { title: string; description: string; href: string }[] = [
   },
 ];
 
+const IRCC_FEES_HREF = "https://ircc.canada.ca/english/information/fees/fees.asp";
+
+const fees = [
+  { item: "Visitor visa (single or multiple entry) — per person", amount: "CAD 100" },
+  { item: "Visitor visa — family of 5 or more applying together (maximum)", amount: "CAD 500" },
+  { item: "Biometrics — per person", amount: "CAD 85" },
+  { item: "Biometrics — family of 2 or more applying together (maximum)", amount: "CAD 170" },
+];
+
 const faqs = [
+  {
+    q: "What is the Canada visit visa fee from Pakistan?",
+    a: "IRCC charges CAD 100 per person for a visitor visa (the same fee for single or multiple entry) plus CAD 85 per person for biometrics, so most single applicants pay CAD 185 in government fees. Families applying together pay at most CAD 500 for the visas and CAD 170 for biometrics. Fees are paid online to IRCC in Canadian dollars; our own service fee is quoted separately.",
+  },
   {
     q: "How do I apply for a Canada visit visa from Pakistan?",
     a: "You submit an online application through IRCC with a passport, financial evidence, and a travel purpose statement, then complete biometrics at a visa application centre in Pakistan. We help prepare and check every document beforehand.",
@@ -73,11 +87,11 @@ export default function VisitVisaCanadaPage() {
             />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Canada Visitor Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              Canada Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-8 leading-relaxed">
-              Understand the Canada Visitor Visa process, common document requirements, and the
-              steps involved in preparing an application from Pakistan.
+              Understand the Canada visitor visa (TRV) process, the official IRCC fee, common document
+              requirements, and the steps involved in preparing an application from Pakistan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -140,6 +154,15 @@ export default function VisitVisaCanadaPage() {
           </p>
         </div>
       </section>
+
+      <GovernmentFeesSection
+        heading="Canada Visit Visa Fee from Pakistan"
+        intro="These are the government fees IRCC publishes for a visitor visa. They are paid online to IRCC in Canadian dollars when you submit the application, and are the same whichever entry type IRCC decides to issue."
+        rows={fees}
+        note="A single applicant usually pays CAD 185 in government fees (visa plus biometrics). The fee is not refunded if the visa is refused. Our service fee is separate and quoted after we review your case."
+        sourceLabel="IRCC fee list"
+        sourceHref={IRCC_FEES_HREF}
+      />
 
       {/* Enquiry form */}
       <section id="requirements-form" className="py-20 bg-white scroll-mt-24">

@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Germany Visa from Pakistan – Student & Family",
+  title: "Germany Visa from Pakistan – Study, Visit & Family",
   description:
-    "Germany visa documentation for Pakistani applicants: Student/Ausbildung and Family Reunification categories. Document checklists & how to apply.",
+    "Germany visa documentation for Pakistani applicants: Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification routes, checklists and how to apply.",
   keywords: [
     "germany visa from pakistan",
     "germany family reunification visa pakistan",

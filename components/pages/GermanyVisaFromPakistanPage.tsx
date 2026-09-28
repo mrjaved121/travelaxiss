@@ -5,6 +5,7 @@ import {
   ArrowRight,
   GraduationCap,
   Heart,
+  Plane,
   CheckCircle,
   MessageCircle,
 } from "lucide-react";
@@ -42,6 +43,13 @@ const routeCards: {
     cta: "See Germany Study Visa requirements",
   },
   {
+    title: "Visit / Tourist (Schengen)",
+    description: "Documentation for short visits of up to 90 days to see family or friends, for tourism, or for business meetings.",
+    icon: Plane,
+    href: "/visit-visa/schengen",
+    cta: "See Germany Visit Visa requirements",
+  },
+  {
     title: "Family Reunification",
     description: "Documentation for joining a spouse, partner, or family member already resident in Germany.",
     icon: Heart,
@@ -61,7 +69,7 @@ const howWeHelp = [
   "A document checklist reviewed with you before you submit anything",
   "Help preparing academic and financial supporting documents",
   "Coordination on attestation where your documents need it first",
-  "Appointment scheduling support at your local visa application centre",
+  "Guidance on registering for your appointment, which is free and done directly with the German Mission",
 ];
 
 export default function GermanyVisaFromPakistanPage() {
@@ -76,21 +84,22 @@ export default function GermanyVisaFromPakistanPage() {
               Germany Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead mb-6">
-              Whether you have a university or Ausbildung place, or a family
-              member to join, a Germany application from Pakistan comes down to complete,
+              Whether you have a university or Ausbildung place, a short visit planned, or a
+              family member to join, a Germany application from Pakistan comes down to complete,
               correctly prepared documents submitted through the German Mission&apos;s
-              official process. Pick your route below — Student/Ausbildung or Family
-              Reunification — for a dedicated document checklist and application support.
+              official process. Pick your route below — Student/Ausbildung, Visit/Tourist, or
+              Family Reunification — for a dedicated document checklist and application support.
             </p>
             <div className="rounded-2xl p-6 mb-8 card-hover" style={{ borderLeft: "4px solid #155EEF", backgroundColor: "#FFFFFF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
                 Quick answer
               </p>
               <p className="text-[#667085] leading-relaxed">
-                A Germany visa from Pakistan is applied for through the German Mission&apos;s
-                official visa process, typically via an authorized visa application centre in
-                Pakistan. Requirements depend on category — Student, Ausbildung, or Family
-                Reunification — but all need a valid passport, category-specific supporting
+                A Germany visa from Pakistan is applied for directly with the German Embassy in
+                Islamabad or the Consulate General in Karachi: visit visas through a free online
+                waiting-list registration, and study visas increasingly through the online Consular
+                Services Portal. Requirements depend on category — Student, Ausbildung, Visit, or
+                Family Reunification — but all need a valid passport, category-specific supporting
                 documents, and often attested academic or civil certificates. We don&apos;t
                 arrange university admission; we prepare the documentation for an application
                 you already have grounds to make.
@@ -137,7 +146,7 @@ export default function GermanyVisaFromPakistanPage() {
               Which Germany Route Do You Need?
             </h2>
           </motion.div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {routeCards.map((item, index) => (
               <MotionLink
                 key={item.title}

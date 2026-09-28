@@ -28,7 +28,7 @@ const navGroups: NavGroup[] = [
       { name: "USA Visit Visa", path: "/visit-visa/usa" },
       { name: "Canada Visit Visa", path: "/visit-visa/canada" },
       { name: "Australia Visit Visa", path: "/visit-visa/australia" },
-      { name: "Schengen Visit Visa", path: "/visit-visa/europe" },
+      { name: "Schengen Visit Visa", path: "/visit-visa/schengen" },
       { name: "All Destinations", path: "/destinations" },
     ],
   },

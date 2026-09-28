@@ -7,14 +7,14 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Europe Visit Visas – UK & Schengen Countries",
   description:
-    "Visit visa documentation for the UK and all 18 Schengen member states, submitted through each country's own official process.",
+    "Visit visa documentation for the UK and 18 Schengen countries, submitted through each country's own official process.",
   alternates: {
     canonical: `${SITE_URL}/visit-visa/europe/`,
   },
   openGraph: {
     url: `${SITE_URL}/visit-visa/europe/`,
     title: "Europe Visit Visas | Travelaxis",
-    description: "Visit visa documentation for the UK and all Schengen member states.",
+    description: "Visit visa documentation for the UK and 18 Schengen countries.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
