@@ -5,7 +5,7 @@ export const studyVisaFaqs: { q: string; a: string }[] = [
   },
   {
     q: "What documents do I need for a Canada study permit from Pakistan?",
-    a: "A Letter of Acceptance from a Designated Learning Institution, proof of funds, a valid passport, and often a medical exam and biometrics. We confirm the exact list for your specific institution and program.",
+    a: "A Letter of Acceptance from a Designated Learning Institution, in most cases a provincial or territorial attestation letter (PAL/TAL), proof of funds, a valid passport, and often a medical exam and biometrics. Travelaxis is not an authorized Canadian immigration representative, so for Canada we can only help with translation, travel bookings and using IRCC's online system — see our Canada study permit guide.",
   },
   {
     q: "How do I apply for an Australia student visa from Pakistan?",

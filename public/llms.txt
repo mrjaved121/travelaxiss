@@ -1,6 +1,6 @@
 # Travelaxis
 
-> Professional visa documentation consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Serves Pakistani nationals with UAE document attestation and visa documentation for the UK, Canada, Australia, and the USA, alongside UAE-focused services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
+> Professional visa documentation consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Serves Pakistani nationals with UAE document attestation and visa documentation for the UK, Australia, and the USA (plus an information-only Canada guide), alongside UAE-focused services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
 
 ## Main pages
 
@@ -16,7 +16,7 @@
 - [Umrah services](https://travelaxis.me/services/umrah-services/) — Umrah visa processing, flight booking, hotel accommodation, and group travel coordination
 - [UAE document attestation from Pakistan](https://travelaxis.me/services/attestation/) — degree, marriage, birth, and experience certificate attestation covering the HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain
 - [UK visa from Pakistan](https://travelaxis.me/services/uk-visa-from-pakistan/) — Student, Visit, and Family/Spouse visa documentation
-- [Canada visa from Pakistan](https://travelaxis.me/services/canada-visa-from-pakistan/) — study permit and visit visa documentation (not Express Entry/PNP filing, which requires a CICC-licensed consultant)
+- [Canada visa from Pakistan](https://travelaxis.me/services/canada-visa-from-pakistan/) — information guide to visit visas and study permits with official IRCC fees; Travelaxis is not an authorized Canadian immigration representative, so paid help for Canada is limited to translation, travel bookings and help using IRCC's online system
 - [Australia visa from Pakistan](https://travelaxis.me/services/australia-visa-from-pakistan/) — Visitor, Student, and Partner/Family visa documentation (not skilled-visa points assessment, which requires a MARA-registered agent)
 - [USA visa from Pakistan](https://travelaxis.me/services/usa-visa-from-pakistan/) — B1/B2 visitor and F1 student visa documentation, DS-160 review, and interview prep (not H-1B, family-based, or Diversity Visa petitions, which require a US immigration attorney)
 - [Germany visa from Pakistan](https://travelaxis.me/services/germany-visa-from-pakistan/) — Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification visa documentation
@@ -25,7 +25,7 @@
 - [UAE visit & tourist visa](https://travelaxis.me/services/uae-visit-visa/) — 14/30/60/90-day durations, airline/hotel/tour-operator/resident sponsor routes, documents
 - [UAE visa extension & renewal](https://travelaxis.me/services/uae-visa-extension-renewal/) — visit visa extension, residence visa renewal, status change, and visa status/number lookup, clearly distinguished
 - [UAE retirement visa](https://travelaxis.me/services/uae-retirement-visa/) — the three qualifying routes (property, savings, income) for residents 55+
-- [Services for clients in Pakistan](https://travelaxis.me/pakistan/) — hub linking attestation, UK/Canada/Australia/USA visas, Umrah, and Pakistan-specific sections of our UAE guides
+- [Services for clients in Pakistan](https://travelaxis.me/pakistan/) — hub linking attestation, UK/Australia/USA visas, a Canada information guide, Umrah, and Pakistan-specific sections of our UAE guides
 
 ## Pakistan-specific guides (deep-dive, 2,500+ words each)
 

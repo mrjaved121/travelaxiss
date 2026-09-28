@@ -7,14 +7,14 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "North America Visit Visas – USA & Canada",
   description:
-    "Visit visa documentation for the USA and Canada, submitted through each country's own official process.",
+    "Visit visa documentation for the USA, plus an information guide to Canada's visitor visa and official IRCC fees.",
   alternates: {
     canonical: `${SITE_URL}/visit-visa/north-america/`,
   },
   openGraph: {
     url: `${SITE_URL}/visit-visa/north-america/`,
     title: "North America Visit Visas | Travelaxis",
-    description: "Visit visa documentation for the USA and Canada.",
+    description: "Visit visa documentation for the USA, and a Canada visitor visa information guide.",
     images: [DEFAULT_OG_IMAGE],
   },
 };

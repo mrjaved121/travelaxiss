@@ -93,7 +93,7 @@ const guides: {
     title: "Canada Visa from Pakistan",
     category: "Canada Visas",
     description:
-      "Study permit and visit visa documentation, submitted through IRCC.",
+      "Official IRCC fees and requirements for Canada visit visas and study permits (information guide).",
     icon: Snowflake,
     link: "/services/canada-visa-from-pakistan",
   },
@@ -211,7 +211,7 @@ export default function PakistanHubPage() {
               Visa &amp; Business Services for Clients <span style={{ color: "#155EEF" }}>in Pakistan</span>
             </h1>
             <p className="lead text-[#667085] leading-relaxed">
-              Travelaxis supports Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK, Canada, and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
+              Travelaxis supports Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
             </p>
           </motion.div>
         </div>

@@ -35,8 +35,8 @@ export const destinations: Destination[] = [
   {
     slug: "canada",
     name: "Canada",
-    pathways: ["Study", "Immigration"],
-    description: "Documentation and consultancy support for Canadian visa applications from Pakistan.",
+    pathways: ["Study", "Visit"],
+    description: "Official IRCC fees and requirements for Canada visit visas and study permits (information guide).",
     href: "/services/canada-visa-from-pakistan",
     ready: true,
   },

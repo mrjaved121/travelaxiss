@@ -2,16 +2,15 @@ import type { Metadata } from "next";
 import CanadaVisaFromPakistanPage from "@/components/pages/CanadaVisaFromPakistanPage";
 import { canadaVisaFaqs } from "@/components/data/canadaVisaFaqs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "Canada Visa from Pakistan – Visit & Study Routes",
   description:
-    "Find the right Canada visa route from Pakistan: Visit Visa or Study Permit. Checklists, timelines & how Travelaxis can help.",
+    "Canada visa from Pakistan explained: visit visa vs study permit, official IRCC fees and documents, and who may charge for application help.",
   keywords: [
     "canada visa from pakistan",
-    "canada visa documentation pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/services/canada-visa-from-pakistan/`,
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/services/canada-visa-from-pakistan/`,
     title: "Canada Visa from Pakistan | Travelaxis",
     description:
-      "Document preparation for Canada study permit and visit visa applicants in Pakistan.",
+      "Canada visit visa and study permit routes from Pakistan, with official IRCC information.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -34,13 +33,6 @@ export default function Page() {
             { name: "Services", path: "/services" },
             { name: "Canada Visa from Pakistan", path: "/services/canada-visa-from-pakistan" },
           ]),
-          serviceJsonLd({
-            name: "Canada Visa Documentation from Pakistan",
-            description:
-              "Document preparation and application support for Canada study permit and visit visa applicants in Pakistan.",
-            path: "/services/canada-visa-from-pakistan",
-            serviceType: "Canada visa documentation consultancy",
-          }),
           {
             "@context": "https://schema.org",
             "@type": "FAQPage",

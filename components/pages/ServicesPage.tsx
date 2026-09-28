@@ -98,7 +98,7 @@ const services: {
     category: "Canada Visas",
     group: "International Visas",
     description:
-      "Study permit and visit visa documentation for Pakistani applicants, submitted through IRCC.",
+      "Official IRCC fees and requirements for Canada visit visas and study permits (information guide).",
     icon: Snowflake,
     link: "/services/canada-visa-from-pakistan",
   },

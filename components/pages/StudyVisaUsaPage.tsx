@@ -67,7 +67,7 @@ export default function StudyVisaUsaPage() {
               and get ready for your Embassy interview.
             </p>
             <p className="text-sm text-[#667085] mb-8 leading-relaxed">
-              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "Canada", href: "/study-visa/canada" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
+              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

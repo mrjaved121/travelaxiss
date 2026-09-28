@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Study Visa Documentation | UK, USA, Canada & More",
+  title: "Study Visa Documentation | UK, USA, Australia & More",
   description:
-    "Study visa documentation for the UK, USA, Canada, Australia, Germany, other European countries, and China — admission, financial, and attestation documents for applicants from Pakistan.",
+    "Study visa documentation for the UK, USA, Australia, Germany, other European countries, and China — admission, financial, and attestation documents for applicants from Pakistan.",
   keywords: [
     "study visa documentation",
     "student visa documents pakistan",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/services/study-visa/`,
     title: "Study Visa Documentation | Travelaxis",
     description:
-      "Document preparation for study visa applicants heading to the UK, USA, Canada, Australia, Germany, other European countries, and China.",
+      "Document preparation for study visa applicants heading to the UK, USA, Australia, Germany, other European countries, and China.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -43,7 +43,7 @@ export default function Page() {
           serviceJsonLd({
             name: "Study Visa Documentation",
             description:
-              "Document preparation and application support for study visa applicants heading to the UK, USA, Canada, Australia, Germany, other European countries, and China.",
+              "Document preparation and application support for study visa applicants heading to the UK, USA, Australia, Germany, other European countries, and China.",
             path: "/services/study-visa",
             serviceType: "Study visa documentation consultancy",
           }),

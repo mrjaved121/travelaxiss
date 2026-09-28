@@ -32,7 +32,9 @@ const MotionLink = motion.create(Link);
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const disclaimer =
-  "We provide documentation assistance and consultancy support only, for study permits and visit visas. We are not a CICC-licensed Canadian immigration consultant and do not file Express Entry, Provincial Nominee, or other regulated permanent-residence applications. All applications are submitted through IRCC's official channels, subject to their rules and approvals.";
+  "Travelaxis is not an authorized Canadian immigration representative. IRCC only allows CICC-licensed consultants, Canadian lawyers and paralegals, and Québec notaries to charge for advising on, completing or submitting a Canada application, so this page is general information only. Our paid help for Canada is limited to document translation, travel bookings, and help scanning, uploading and navigating IRCC's online system.";
+
+const IRCC_PROCESSING_TIMES_HREF = "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html";
 
 const routeCards: {
   title: string;
@@ -43,14 +45,14 @@ const routeCards: {
 }[] = [
   {
     title: "Visit Visa",
-    description: "Tourist, family-visit, and business-visit applications, with a clear document checklist.",
+    description: "Tourist, family-visit and business-visit visas: the official IRCC fee and document list.",
     icon: Plane,
     href: "/visit-visa/canada",
     cta: "See Canada Visit Visa requirements",
   },
   {
     title: "Study Permit",
-    description: "Documentation for students admitted to a Designated Learning Institution (DLI) in Canada.",
+    description: "Fees and requirements for students admitted to a Designated Learning Institution (DLI) in Canada.",
     icon: GraduationCap,
     href: "/study-visa/canada",
     cta: "See Canada Study Permit requirements",
@@ -58,15 +60,15 @@ const routeCards: {
 ];
 
 const timelineRows = [
-  { doc: "Visit Visa", authority: "IRCC", turnaround: "Often 3–6 weeks" },
-  { doc: "Study Permit", authority: "IRCC, via your DLI acceptance", turnaround: "4–12 weeks, varies by intake" },
+  { doc: "Visit Visa", authority: "IRCC", turnaround: "See IRCC's current processing times" },
+  { doc: "Study Permit", authority: "IRCC, after your DLI acceptance", turnaround: "See IRCC's current processing times" },
 ];
 
 const howWeHelp = [
-  "A document checklist reviewed with you before you submit anything",
-  "Help organizing proof of funds and acceptance letters",
-  "Coordination on attestation where your documents need it first",
-  "Biometric appointment scheduling support in Pakistan",
+  "Translating your documents into English or French",
+  "Booking flights and hotels for your trip",
+  "Scanning and uploading your documents, and showing you how to use IRCC's online system",
+  "Attesting Pakistani certificates (HEC/IBCC, MOFA) as a separate document service",
 ];
 
 
@@ -78,13 +80,13 @@ export default function CanadaVisaFromPakistanPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#155EEF" }}>
-              Canada Visa Documentation
+              Canada Visa Information
             </p>
             <h1 className="page-title mb-6">
               Canada Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
-              A Canada visa application from Pakistan starts with the right documents submitted correctly through IRCC. Pick your route below — Visit or Study — for a dedicated document checklist and application support.
+              A Canada visa application from Pakistan is made online with IRCC, and IRCC publishes every form and instruction free, so you can apply yourself. Pick your route below — Visit or Study — for the official IRCC fee and document list.
             </p>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
               {disclaimer}
@@ -178,7 +180,7 @@ export default function CanadaVisaFromPakistanPage() {
               <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
                 same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
               </Link>{" "}
-              applies as with UAE documents — we can run both processes for you in parallel.
+              applies as with UAE documents, and we can handle the attestation for you.
             </p>
             <Link
               href="/services/attestation"
@@ -234,7 +236,11 @@ export default function CanadaVisaFromPakistanPage() {
             </Table>
           </motion.div>
           <p className="text-sm text-[#667085] max-w-4xl mb-12">
-            *IRCC-published guide times; actual decisions vary by visa office volume and document completeness. We confirm a realistic timeline once we review your case.
+            *IRCC publishes current processing times, which change often with application volumes. Check them on{" "}
+            <a href={IRCC_PROCESSING_TIMES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+              IRCC&apos;s processing times page
+            </a>{" "}
+            before you plan your travel dates.
           </p>
 
           <motion.div
@@ -247,7 +253,7 @@ export default function CanadaVisaFromPakistanPage() {
               What determines your total cost
             </h3>
             <p className="text-[#667085] leading-relaxed mb-4">
-              IRCC government fees are fixed and set directly by Canadian authorities, varying by permit type. Our service fee is separate and depends on how much document preparation your case needs. We confirm both before you commit to anything.
+              IRCC government fees are fixed and set directly by Canadian authorities, varying by permit type. The visit visa and study permit pages list the current amounts. If you use our translation, travel booking or upload help, that is charged separately. We confirm both before you commit to anything.
             </p>
             <a
               href={WHATSAPP_HREF}
@@ -255,9 +261,9 @@ export default function CanadaVisaFromPakistanPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
               style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
-              aria-label="Ask Travelaxis about Canada visa costs on WhatsApp (opens in a new tab)"
+              aria-label="Ask Travelaxis about translation or travel bookings for Canada on WhatsApp (opens in a new tab)"
             >
-              <span>Ask About Your Case</span>
+              <span>Ask About Translation or Bookings</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
             </a>
           </motion.div>
@@ -274,7 +280,7 @@ export default function CanadaVisaFromPakistanPage() {
             className="max-w-3xl"
           >
             <h2 className="section-title mb-6">
-              How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
+              What Travelaxis <span style={{ color: "#155EEF" }}>Can Help With</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
@@ -361,19 +367,19 @@ export default function CanadaVisaFromPakistanPage() {
           viewport={{ once: true }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Start Your Canada Visa Application</h2>
+          <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Planning a Trip to Canada?</h2>
           <p className="lead mb-4 max-w-2xl mx-auto" style={{ color: "rgba(255,255,255,0.9)" }}>
-            Tell us your category — study or visit — and we&apos;ll map out exactly what you need.
+            Ask us about document translation, travel bookings, or help using IRCC&apos;s online system.
           </p>
           <p className="text-sm text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
             {disclaimer}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
-              href="/contact"
+              href="/visit-visa/canada"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
             >
-              <span>Check Requirements</span>
+              <span>See the Official Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
             <a

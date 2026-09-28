@@ -47,8 +47,8 @@ export default function AboutPage() {
               We help businesses establish and grow, and help individuals plan their next move
               abroad, through structured support, clear communication, and regulatory awareness.
               Our work spans UAE company formation and government coordination, alongside
-              documentation and consultancy support for visa pathways to the UAE, UK, Canada,
-              Australia, USA, and other destinations&mdash;always aligned with official
+              documentation and consultancy support for visa pathways to the UAE, UK, Australia,
+              USA, and other destinations&mdash;always aligned with official
               requirements and each client&apos;s goals.
             </p>
             <p className="text-sm text-[#667085] mt-4 max-w-lg leading-relaxed">

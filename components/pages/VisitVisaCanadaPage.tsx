@@ -12,6 +12,7 @@ import {
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 import GovernmentFeesSection from "@/components/GovernmentFeesSection";
+import CanadaHelpNotice, { CANADA_REP_FAQ } from "@/components/CanadaHelpNotice";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -55,20 +56,17 @@ const fees = [
 const faqs = [
   {
     q: "What is the Canada visit visa fee from Pakistan?",
-    a: "IRCC charges CAD 100 per person for a visitor visa (the same fee for single or multiple entry) plus CAD 85 per person for biometrics, so most single applicants pay CAD 185 in government fees. Families applying together pay at most CAD 500 for the visas and CAD 170 for biometrics. Fees are paid online to IRCC in Canadian dollars; our own service fee is quoted separately.",
+    a: "IRCC charges CAD 100 per person for a visitor visa (the same fee for single or multiple entry) plus CAD 85 per person for biometrics, so most single applicants pay CAD 185 in government fees. Families applying together pay at most CAD 500 for the visas and CAD 170 for biometrics. Fees are paid online to IRCC in Canadian dollars.",
   },
   {
     q: "How do I apply for a Canada visit visa from Pakistan?",
-    a: "You submit an online application through IRCC with a passport, financial evidence, and a travel purpose statement, then complete biometrics at a visa application centre in Pakistan. We help prepare and check every document beforehand.",
+    a: "You apply online through IRCC with a passport, financial evidence, and a travel purpose statement, then give biometrics at a visa application centre in Pakistan. IRCC publishes every form and instruction free, so you can apply yourself.",
   },
   {
     q: "How long does a Canada visit visa from Pakistan take?",
-    a: "IRCC-published guide times vary by visa office volume and document completeness. We give you a realistic estimate once we review your case.",
+    a: "IRCC publishes current processing times on its website, and they change often with application volumes. Apply well before your travel dates.",
   },
-  {
-    q: "Does Travelaxis guarantee my Canada visa will be approved?",
-    a: "No consultancy can guarantee approval — the decision rests entirely with IRCC. We help ensure your application is complete and correctly documented.",
-  },
+  CANADA_REP_FAQ,
 ];
 
 export default function VisitVisaCanadaPage() {
@@ -90,16 +88,17 @@ export default function VisitVisaCanadaPage() {
               Canada Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-8 leading-relaxed">
-              Understand the Canada visitor visa (TRV) process, the official IRCC fee, common document
-              requirements, and the steps involved in preparing an application from Pakistan.
+              The Canada visitor visa (TRV) explained: the official IRCC fee, the documents IRCC asks for,
+              and how to apply online from Pakistan. This page is general information — Travelaxis is not
+              an authorized Canadian immigration representative.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#requirements-form"
+                href="#canada-help"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
                 style={{ color: "#FFFFFF" }}
               >
-                <span>Check Canada Requirements</span>
+                <span>What We Can Help With</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </a>
               <a
@@ -150,7 +149,7 @@ export default function VisitVisaCanadaPage() {
             <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
               IRCC
             </a>{" "}
-            and reviewed periodically — we confirm the current list for your specific case.
+            and reviewed periodically — check the current list on IRCC&apos;s website before you apply.
           </p>
         </div>
       </section>
@@ -159,15 +158,17 @@ export default function VisitVisaCanadaPage() {
         heading="Canada Visit Visa Fee from Pakistan"
         intro="These are the government fees IRCC publishes for a visitor visa. They are paid online to IRCC in Canadian dollars when you submit the application, and are the same whichever entry type IRCC decides to issue."
         rows={fees}
-        note="A single applicant usually pays CAD 185 in government fees (visa plus biometrics). The fee is not refunded if the visa is refused. Our service fee is separate and quoted after we review your case."
+        note="A single applicant usually pays CAD 185 in government fees (visa plus biometrics). The fee is not refunded if the visa is refused."
         sourceLabel="IRCC fee list"
         sourceHref={IRCC_FEES_HREF}
       />
 
+      <CanadaHelpNotice />
+
       {/* Enquiry form */}
       <section id="requirements-form" className="py-20 bg-white scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <VisitVisaEnquiryForm defaultDestination="Canada" heading="Get Help With Your Canada Visitor Visa Application" />
+          <VisitVisaEnquiryForm defaultDestination="Canada" heading="Ask About Translation or Travel Bookings for Canada" subheading="We can translate documents, book flights and hotels, and help you scan, upload and navigate IRCC's online system. We don't advise on or complete your application." />
         </div>
       </section>
 
@@ -228,7 +229,7 @@ export default function VisitVisaCanadaPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { href: "/visit-visa/north-america", label: "Explore North America Visit Visas" },
-              { href: "/services/canada-visa-from-pakistan", label: "Canada Study Permit Documentation" },
+              { href: "/study-visa/canada", label: "Canada Study Permit Guide" },
               { href: "/services/attestation", label: "UAE Document Attestation" },
             ].map((link) => (
               <Link

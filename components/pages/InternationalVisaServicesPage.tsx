@@ -123,7 +123,6 @@ const countryGroups: {
       { name: "South Africa" },
       { name: "New Zealand" },
       { name: "Indonesia (Bali)" },
-      { name: "Canada", pakistanHref: "/services/canada-visa-from-pakistan" },
       { name: "Cyprus" },
       { name: "Russia" },
       { name: "China" },

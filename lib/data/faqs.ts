@@ -152,7 +152,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "Can you help with international visa documentation?",
     answer:
-      "Yes. Beyond the UAE, we help with visa paperwork for the UK, USA, Canada, Australia, Germany, and other destinations — for applicants in Pakistan as well as UAE residents traveling, working, or relocating abroad.",
+      "Yes. Beyond the UAE, we help with visa paperwork for the UK, USA, Australia, Germany, and other destinations (for Canada, only translation, travel bookings and help using IRCC's online system, as we are not an authorized Canadian immigration representative) — for applicants in Pakistan as well as UAE residents traveling, working, or relocating abroad.",
     category: "UAE Visa Documentation",
   },
   {
@@ -170,7 +170,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "Do you help with study visa documentation for applicants in Pakistan?",
     answer:
-      "Yes. We help prepare study visa documentation for the UK, USA (F1), Canada, Australia, and Germany, including university admission evidence, financial proof, and certificate attestation where it's required. Documents are submitted through each country's official visa channels.",
+      "Yes. We help prepare study visa documentation for the UK, USA (F1), Australia, and Germany, including university admission evidence, financial proof, and certificate attestation where it's required. Documents are submitted through each country's official visa channels.",
     category: "UAE Visa Documentation",
   },
   {

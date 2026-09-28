@@ -178,7 +178,7 @@ const destinations: { title: string; description: string; icon: LucideIcon; href
   },
   {
     title: "Canada Visitor Visa",
-    description: "Visit visa documentation for tourism or family visits to Canada.",
+    description: "Official IRCC fee and requirements for tourism or family visits to Canada (information guide).",
     icon: Snowflake,
     href: "/visit-visa/canada",
   },
