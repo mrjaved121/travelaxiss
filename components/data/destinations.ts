@@ -60,7 +60,7 @@ export const destinations: Destination[] = [
     slug: "germany",
     name: "Germany",
     pathways: ["Study", "Opportunity"],
-    description: "Documentation and consultancy support for Student/Ausbildung and Family Reunification applications from Pakistan.",
+    description: "Documentation and consultancy support for Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification applications from Pakistan.",
     href: "/services/germany-visa-from-pakistan",
     ready: true,
   },

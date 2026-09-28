@@ -125,7 +125,7 @@ const services: {
     category: "Germany Visas",
     group: "International Visas",
     description:
-      "Student/Ausbildung and Family Reunification visa documentation for Pakistani applicants.",
+      "Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification visa documentation for Pakistani applicants.",
     icon: Compass,
     link: "/services/germany-visa-from-pakistan",
   },

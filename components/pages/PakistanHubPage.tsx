@@ -117,7 +117,7 @@ const guides: {
     title: "Germany Visa from Pakistan",
     category: "Germany Visas",
     description:
-      "Student/Ausbildung and Family Reunification documentation, submitted through the German Mission's official process.",
+      "Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification documentation, submitted through the German Mission's official process.",
     icon: Compass,
     link: "/services/germany-visa-from-pakistan",
   },

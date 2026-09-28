@@ -81,8 +81,8 @@ export default function VisitVisaUkPage() {
               UK Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-8 leading-relaxed">
-              Understand the UK Standard Visitor visa process, common document requirements, and
-              the steps involved in preparing an application from Pakistan.
+              A UK tourist visa is the Standard Visitor visa. Understand the process, common document
+              requirements, and the steps involved in preparing an application from Pakistan.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

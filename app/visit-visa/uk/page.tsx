@@ -5,11 +5,12 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UK Visit Visa from Pakistan – Requirements & Apply",
+  title: "UK Visit & Tourist Visa from Pakistan – Requirements",
   description:
-    "UK Standard Visitor visa requirements and application support for applicants from Pakistan — documents, process, and how Travelaxis can help.",
+    "UK tourist and visit visa from Pakistan: Standard Visitor visa requirements, documents, process, and application support from Travelaxis.",
   keywords: [
     "uk visit visa from pakistan",
+    "uk tourist visa from pakistan",
     "uk standard visitor visa",
     "uk visa requirements pakistan",
   ],
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: `${SITE_URL}/visit-visa/uk/`,
-    title: "UK Visit Visa from Pakistan | Travelaxis",
+    title: "UK Visit & Tourist Visa from Pakistan | Travelaxis",
     description: "UK Standard Visitor visa requirements and application support for applicants from Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
