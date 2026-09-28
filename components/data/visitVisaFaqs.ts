@@ -25,6 +25,6 @@ export const visitVisaFaqs: { q: string; a: string }[] = [
   },
   {
     q: "Can I apply from Pakistan if I am travelling to Europe, the UK, USA, or Canada?",
-    a: "Yes. We support visit visa documentation for applicants in Pakistan across all of these destinations, each submitted through that country's own official process. See the dedicated page for your destination for country-specific requirements.",
+    a: "Yes. We support visit visa documentation for applicants in Pakistan for Europe, the UK and the USA, each submitted through that country's own official process. Canada is the exception: Travelaxis is not an authorized Canadian immigration representative, so for Canada we only help with translation, travel bookings and using IRCC's online system. See the dedicated page for your destination for country-specific requirements.",
   },
 ];

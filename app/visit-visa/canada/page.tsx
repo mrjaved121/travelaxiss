@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import VisitVisaCanadaPage from "@/components/pages/VisitVisaCanadaPage";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
+import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
   title: "Canada Visit Visa from Pakistan – Fee & Requirements",
   description:
-    "Canada visit visa from Pakistan: the official IRCC fee (CAD 100 + CAD 85 biometrics), tourist visa requirements, documents, and application support.",
+    "Canada visit visa from Pakistan: the official IRCC fee (CAD 100 + CAD 85 biometrics), tourist visa requirements, documents, and how to apply online.",
   keywords: [
     "canada visit visa from pakistan",
     "canada visit visa fee from pakistan",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: `${SITE_URL}/visit-visa/canada/`,
     title: "Canada Visit Visa from Pakistan – Fee & Requirements | Travelaxis",
-    description: "The official IRCC visitor visa fee, requirements and application support for applicants from Pakistan.",
+    description: "The official IRCC visitor visa fee, requirements and how to apply online from Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -36,12 +36,6 @@ export default function Page() {
             { name: "North America", path: "/visit-visa/north-america" },
             { name: "Canada Visitor Visa", path: "/visit-visa/canada" },
           ]),
-          serviceJsonLd({
-            name: "Canada Visitor Visa from Pakistan",
-            description: "Requirements guidance and application support for the Canada Visitor Visa for applicants in Pakistan.",
-            path: "/visit-visa/canada",
-            serviceType: "Visit visa application assistance",
-          }),
         ]}
       />
       <VisitVisaCanadaPage />

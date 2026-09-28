@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Business Setup, UAE Visa & Attestation Services | Travelaxis",
     description:
-      "Company formation, UAE visa documentation, document attestation from Pakistan, and UK/Canada/Australia visa documentation assistance.",
+      "Company formation, UAE visa documentation, document attestation from Pakistan, and UK/Australia visa documentation assistance.",
     url: `${SITE_URL}/services/`,
     images: [DEFAULT_OG_IMAGE],
   },

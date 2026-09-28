@@ -57,7 +57,7 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
   },
   {
     title: "Canada Study Visa",
-    description: "Study Permit documentation for a Letter of Acceptance from a Designated Learning Institution.",
+    description: "Official IRCC fees and requirements for a study permit once you hold a Letter of Acceptance (information guide).",
     icon: Snowflake,
     href: "/study-visa/canada",
   },
@@ -114,8 +114,8 @@ export default function StudyVisaPage() {
               Study Visa <span style={{ color: "#155EEF" }}>Documentation</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
-              Planning to study in the UK, USA, Canada, Australia, Germany, elsewhere in Europe, or
-              China? We help you prepare the right documents for your student visa application, so
+              Planning to study in the UK, USA, Australia, Germany, elsewhere in Europe, or China? We
+              help you prepare the right documents for your student visa application, so
               you can focus on your admission while we handle the paperwork.
             </p>
             <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>

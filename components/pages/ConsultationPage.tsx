@@ -7,7 +7,6 @@ import { motion } from "motion/react";
 const DESTINATION_OPTIONS = [
   "UAE",
   "USA",
-  "Canada",
   "United Kingdom",
   "Australia",
   "Germany",

@@ -243,10 +243,10 @@ export const blogData: Record<string, any> = {
     readTime: "9 min read",
     category: "Canada Visa Documentation",
     cta: {
-      heading: "Need Help With Your Canada Visitor Visa?",
-      text: "Get your file reviewed before you apply — or before you reapply after a refusal.",
-      label: "Check Requirements",
-      href: "/visit-visa/canada#requirements-form",
+      heading: "Planning a Canada Visit?",
+      text: "See the official IRCC fee and document list, and what Travelaxis can and can't help with for Canada.",
+      label: "See the Canada Visit Visa Guide",
+      href: "/visit-visa/canada",
     },
     content: {
       intro:
@@ -344,12 +344,11 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis helps you prepare a Canada visitor visa file",
+          heading: "Who can help you with a Canada visitor visa",
           content:
-            "At Travelaxis we prepare [Canada visitor visa files](/visit-visa/canada) for Pakistani applicants from our offices in Dubai and Lahore. We review your ties, funds, and itinerary the way an officer will — flagging inconsistencies and missing evidence before you submit, and helping you address the reasons in a refusal letter if you reapply. We are a documentation and consultancy service: we do not issue visas, we are not a regulated immigration representative, and we cannot guarantee any outcome.",
+            "IRCC publishes every form and instruction free, so you can apply yourself. If you want paid help with the application itself — advice, reviewing or completing your file, or dealing with IRCC — IRCC only allows [authorized representatives](https://www.canada.ca/en/immigration-refugees-citizenship/services/immigration-citizenship-representative/learn-about-representatives.html) to charge for it: CICC-licensed consultants, Canadian lawyers and paralegals, and Québec notaries. Travelaxis is not an authorized representative, so for Canada our paid help is limited to document translation, travel bookings, and help scanning, uploading and navigating IRCC's online system. Our [Canada visit visa guide](/visit-visa/canada) lists the official fee and documents.",
           relatedLinks: [
-            { label: "Get a Canada visa document review from Travelaxis", href: "/contact" },
-            { label: "Canada Visitor Visa from Pakistan — Requirements & Support", href: "/visit-visa/canada" },
+            { label: "Canada Visit Visa from Pakistan — Fee & Requirements", href: "/visit-visa/canada" },
             {
               label: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
               href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
@@ -393,16 +392,16 @@ export const blogData: Record<string, any> = {
                 "IRCC says you may need to give biometrics with your application. Follow the instructions in your own application to see whether they apply to you.",
             },
             {
-              question: "Can Travelaxis guarantee my Canada visa will be approved?",
+              question: "Can Travelaxis prepare or review my Canada visa application?",
               answer:
-                "No. The decision rests entirely with IRCC. We help you prepare a complete, consistent, well-organized file, which is the biggest factor within your control.",
+                "No. IRCC only allows authorized representatives to charge for advising on, reviewing or completing a Canada application, and Travelaxis is not one. For Canada we only help with document translation, travel bookings and using IRCC's online system.",
             },
           ],
         },
         {
           heading: "A note on accuracy",
           content:
-            "Last updated September 2026. Canadian immigration rules change and are applied case by case — always confirm current requirements on IRCC's official [visitor visa page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html) or with a licensed Canadian immigration professional before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+            "Last updated September 2026. Canadian immigration rules change and are applied case by case — always confirm current requirements on IRCC's official [visitor visa page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html) or with a licensed Canadian immigration professional before applying. Travelaxis is not an authorized Canadian immigration representative and does not issue visas or guarantee approvals.",
         },
       ],
     },

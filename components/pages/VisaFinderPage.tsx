@@ -353,18 +353,28 @@ export default function VisaFinderPage() {
                     criteria with an advisor before applying. No consultant can guarantee a
                     government immigration decision.
                   </p>
+                  {matchedDestination?.slug === "canada" && (
+                    <p className="text-sm text-[#667085] mt-3">
+                      For Canada, only authorized representatives (CICC-licensed consultants, Canadian
+                      lawyers and paralegals, Québec notaries) may charge for advice on an application.
+                      Travelaxis is not one, so we can&apos;t assess Canada cases — our Canada guide covers
+                      the official requirements.
+                    </p>
+                  )}
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/consultation"
-                  className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
-                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
-                >
-                  <span>Get Expert Assessment</span>
-                  <ArrowRight className="w-4 h-4" aria-hidden />
-                </Link>
+                {matchedDestination?.slug !== "canada" && (
+                  <Link
+                    href="/consultation"
+                    className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
+                    style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                  >
+                    <span>Get Expert Assessment</span>
+                    <ArrowRight className="w-4 h-4" aria-hidden />
+                  </Link>
+                )}
                 {matchedDestination && matchedDestination.ready && (
                   <Link
                     href={matchedDestination.href}

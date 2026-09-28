@@ -13,6 +13,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import InlineLinkList from "@/components/InlineLinkList";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 import GovernmentFeesSection from "@/components/GovernmentFeesSection";
+import CanadaHelpNotice, { CANADA_REP_FAQ } from "@/components/CanadaHelpNotice";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -25,6 +26,7 @@ const quickFacts = [
 
 const documents = [
   "Letter of Acceptance from a Designated Learning Institution (DLI)",
+  "Provincial or territorial attestation letter (PAL/TAL), in most cases",
   "Proof of funds for tuition and living costs",
   "Valid passport",
   "Recent passport-size photograph",
@@ -44,20 +46,17 @@ const fees = [
 const faqs = [
   {
     q: "What does a Canada study visa cost from Pakistan?",
-    a: "The IRCC government fees are CAD 150 for the study permit plus CAD 85 for biometrics, so CAD 235 for a single applicant. That is separate from your tuition deposit and the proof of funds IRCC expects you to show for tuition and living costs, which IRCC sets and updates on its own site. Our service fee is quoted separately.",
+    a: "The IRCC government fees are CAD 150 for the study permit plus CAD 85 for biometrics, so CAD 235 for a single applicant. That is separate from your tuition deposit and the proof of funds IRCC expects you to show for tuition and living costs, which IRCC sets and updates on its own site.",
   },
   {
     q: "What documents do I need for a Canada study permit from Pakistan?",
-    a: "A Letter of Acceptance from a Designated Learning Institution, proof of funds, a valid passport, and often a medical exam and biometrics. We confirm the exact list for your specific institution and program.",
+    a: "A Letter of Acceptance from a Designated Learning Institution, in most cases a provincial or territorial attestation letter (PAL/TAL), proof of funds, a valid passport, and often a medical exam and biometrics. IRCC's study permit documents page lists what applies to your situation.",
   },
   {
     q: "Who is this route for?",
-    a: "Applicants who already hold a Letter of Acceptance from a Designated Learning Institution (DLI) in Canada. We don't arrange admission — we prepare the visa documentation once you have an offer.",
+    a: "Applicants who already hold a Letter of Acceptance from a Designated Learning Institution (DLI) in Canada. Admission comes first, from the school; the study permit is applied for online with IRCC afterwards.",
   },
-  {
-    q: "Does Travelaxis guarantee my study permit will be approved?",
-    a: "No consultancy can guarantee approval — the decision rests entirely with IRCC. We help ensure your application is complete and correctly documented.",
-  },
+  CANADA_REP_FAQ,
 ];
 
 export default function StudyVisaCanadaPage() {
@@ -78,19 +77,20 @@ export default function StudyVisaCanadaPage() {
               Canada Study Permit <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-8 leading-relaxed">
-              Already have a Letter of Acceptance? We help you prepare the Canada Study Permit
-              documentation from Pakistan.
+              Already have a Letter of Acceptance? Here is what IRCC asks for, the official fees, and
+              how to apply for a Canada study permit online from Pakistan. This page is general
+              information — Travelaxis is not an authorized Canadian immigration representative.
             </p>
             <p className="text-sm text-[#667085] mb-8 leading-relaxed">
-              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
+              We prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#requirements-form"
+                href="#canada-help"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
                 style={{ color: "#FFFFFF" }}
               >
-                <span>Check Requirements</span>
+                <span>What We Can Help With</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </a>
               <a
@@ -139,7 +139,7 @@ export default function StudyVisaCanadaPage() {
             <a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
               IRCC
             </a>{" "}
-            — we confirm the current list for your specific institution and program.
+            — check the current list on IRCC&apos;s website before you apply.
           </p>
         </div>
       </section>
@@ -158,15 +158,17 @@ export default function StudyVisaCanadaPage() {
           </>
         }
         rows={fees}
-        note="A single applicant pays CAD 235 in government fees (permit plus biometrics). Our service fee is separate and quoted after we review your Letter of Acceptance and funds."
+        note="A single applicant pays CAD 235 in government fees (permit plus biometrics)."
         sourceLabel="IRCC fee list"
         sourceHref={IRCC_FEES_HREF}
       />
 
+      <CanadaHelpNotice />
+
       {/* Enquiry form */}
       <section id="requirements-form" className="py-20 bg-white scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <VisitVisaEnquiryForm defaultDestination="Canada" heading="Get Help With Your Canada Study Permit Application" subheading="Tell us about your program and travel plan. We'll help you understand the document requirements." />
+          <VisitVisaEnquiryForm defaultDestination="Canada" heading="Ask About Translation or Travel Bookings for Canada" subheading="We can translate documents, book your flight, and help you scan, upload and navigate IRCC's online system. We don't advise on or complete your application." />
         </div>
       </section>
 

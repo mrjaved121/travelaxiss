@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Visit Visa Services | UK, USA, Canada, Australia & UAE",
+  title: "Visit Visa Services | UK, USA, Schengen, Australia & UAE",
   description:
-    "Explore destination-specific visit visa requirements and get help preparing your application — for the UK, USA, Canada, Australia, UAE, and more.",
+    "Explore destination-specific visit visa requirements and get help preparing your application — for the UK, USA, Schengen, Australia, UAE, and more.",
   keywords: [
     "visit visa services",
     "visit visa requirements from pakistan",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/visit-visa/`,
     title: "Visit Visa Services | Travelaxis",
     description:
-      "Destination-specific visit visa requirements guidance and application support for the UK, USA, Canada, Australia, UAE, and more.",
+      "Destination-specific visit visa requirements guidance and application support for the UK, USA, Schengen, Australia, UAE, and more.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
@@ -37,7 +37,7 @@ export default function Page() {
           serviceJsonLd({
             name: "Visit Visa Services",
             description:
-              "Destination-specific visit visa requirements guidance and application support for the UK, USA, Canada, Australia, UAE, and other popular destinations.",
+              "Destination-specific visit visa requirements guidance and application support for the UK, USA, Schengen, Australia, UAE, and other popular destinations.",
             path: "/visit-visa",
             serviceType: "Visit visa application assistance",
           }),

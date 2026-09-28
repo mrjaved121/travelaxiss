@@ -54,7 +54,7 @@ const visaAssistanceServices: { title: string; description: string; icon: Lucide
   },
   {
     title: "Study Visa",
-    description: "Student visa document preparation for the UK, USA, Canada, Australia, and Germany.",
+    description: "Student visa document preparation for the UK, USA, Australia, and Germany.",
     icon: GraduationCap,
     href: "/services/study-visa",
   },

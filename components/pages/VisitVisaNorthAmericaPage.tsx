@@ -17,7 +17,7 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
   },
   {
     title: "Canada Visitor Visa",
-    description: "Visit visa documentation for tourism or family visits to Canada.",
+    description: "Official IRCC fee and requirements for tourism or family visits to Canada (information guide).",
     icon: Snowflake,
     href: "/visit-visa/canada",
   },
@@ -35,8 +35,8 @@ export default function VisitVisaNorthAmericaPage() {
               North America <span style={{ color: "#155EEF" }}>Visit Visas</span>
             </h1>
             <p className="lead text-[#667085] leading-relaxed">
-              Visit visa documentation for the USA and Canada, submitted through each country&apos;s
-              own official process.
+              Visit visa documentation for the USA, submitted through its own official process, and an
+              information guide to Canada&apos;s visitor visa.
             </p>
             <p className="text-sm text-[#667085] mt-4 leading-relaxed">
               We also prepare visit visa documentation for <InlineLinkList items={[{ label: "Europe", href: "/visit-visa/europe" }, { label: "Middle East", href: "/visit-visa/middle-east" }, { label: "Asia", href: "/visit-visa/asia" }, { label: "Oceania", href: "/visit-visa/oceania" }, { label: "Africa", href: "/visit-visa/africa" }]} />.
