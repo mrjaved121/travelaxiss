@@ -51,6 +51,25 @@ const germanyDocuments = [
   "Printout of your appointment email",
 ];
 
+const applySteps = [
+  {
+    title: "Free consultation",
+    text: "Message us on WhatsApp. We look at your trip, confirm which embassy you should apply to, and flag anything that could weaken your file.",
+  },
+  {
+    title: "Document preparation",
+    text: "We compile and review your complete file against the German Mission's checklist: insurance, bank statements, itinerary, bookings or invitation, and your employer or university letter.",
+  },
+  {
+    title: "Free appointment registration",
+    text: "We guide you through registering on the waiting list of the Embassy in Islamabad or the Consulate General in Karachi. Registration is free and done directly with the Mission. We never charge for or sell the appointment itself.",
+  },
+  {
+    title: "You submit in person",
+    text: "You attend your appointment to submit the file and give biometrics (unless you gave them at a Schengen mission in the last 59 months). The embassy makes the decision.",
+  },
+];
+
 const fees = [
   { item: "Schengen short-stay visa (type C) — adults", amount: "€90" },
   { item: "Schengen short-stay visa — children aged 6 to 12", amount: "€45" },
@@ -90,13 +109,17 @@ export default function VisitVisaSchengenPage() {
             />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Schengen &amp; Germany Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              Germany &amp; Schengen Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#667085] mb-6 leading-relaxed">
               A Germany visit visa is a Schengen short-stay visa: one visa that covers tourism, family
               visits and business trips of up to 90 days across the Schengen Area. This page covers the
               official fee, where to apply, how appointments work at the German Missions in Pakistan, and
               the documents they ask for.
+            </p>
+            <p className="text-sm text-[#667085] mb-6">
+              Last updated September 2026 · Checked against the European Commission and the German
+              Missions in Pakistan
             </p>
             <div className="rounded-2xl p-6 mb-8" style={{ borderLeft: "4px solid #155EEF", backgroundColor: "#FFFFFF" }}>
               <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
@@ -241,7 +264,24 @@ export default function VisitVisaSchengenPage() {
         </div>
       </section>
 
+      {/* How to apply */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="section-title mb-6">How to Apply with Travelaxis</h2>
+          <ol className="grid sm:grid-cols-2 gap-4">
+            {applySteps.map((step, i) => (
+              <li key={step.title} className="rounded-2xl p-5" style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#155EEF" }}>Step {i + 1}</p>
+                <h3 className="subsection-title mb-2">{step.title}</h3>
+                <p className="text-sm text-[#667085] leading-relaxed">{step.text}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
       <GovernmentFeesSection
+        className="bg-[#F5F8FF]"
         heading="Schengen Visa Fee from Pakistan"
         intro="The Schengen visa fee is the same for every member country. At the German Embassy and Consulate General in Pakistan it is charged in PKR at the current exchange rate and paid in cash at the counter."
         rows={fees}
@@ -251,7 +291,7 @@ export default function VisitVisaSchengenPage() {
       />
 
       {/* Other countries */}
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-2">Other Schengen Countries We Support</h2>
           <p className="text-[#667085] mb-6">
