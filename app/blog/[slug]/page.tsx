@@ -9,6 +9,11 @@ import { blogDisplayDateToIso } from "@/lib/seo/blog-dates";
 import { blogFaqJsonLd, blogHowToJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
+/** Redirect targets are blog slugs, or absolute site paths when they start with "/". */
+function redirectPath(target: string): string {
+  return target.startsWith("/") ? target : `/blog/${target}/`;
+}
+
 export function generateStaticParams() {
   const slugs = new Set([...Object.keys(blogData), ...Object.keys(blogRedirects)]);
   return [...slugs].map((slug) => ({ slug }));
@@ -17,14 +22,14 @@ export function generateStaticParams() {
 type Props = { params: Promise<{ slug: string }> };
 
 const blogKeywords =
-  "company formation UAE, business setup Dubai, freezone company, UAE visa documentation, visa application support UAE, UAE business";
+  "visit visa documentation, study visa documentation, visa application support, visa guides pakistan";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
 
   const target = blogRedirects[slug];
   if (target) {
-    const url = `${SITE_URL}/blog/${target}/`;
+    const url = `${SITE_URL}${redirectPath(target)}`;
     return {
       title: "Redirecting…",
       robots: { index: false, follow: true },
@@ -76,13 +81,13 @@ export default async function Page({ params }: Props) {
 
   const target = blogRedirects[slug];
   if (target) {
-    const targetPath = `/blog/${target}/`;
+    const targetPath = redirectPath(target);
     return (
       <>
         <meta httpEquiv="refresh" content={`0; url=${targetPath}`} />
         <section className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <p className="text-[#667085]">
-            This guide has moved.{" "}
+            {target.startsWith("/") ? "This guide has been retired." : "This guide has moved."}{" "}
             <Link href={targetPath} className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
               Continue to the current page
             </Link>

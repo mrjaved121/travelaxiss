@@ -1543,7 +1543,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This",
           content:
-            "We help clients understand what a ban, expiry date, or file reference actually means for their specific situation, and where relevant, help organize the documentation needed to resolve a ban or complete a renewal. The status check itself is always performed directly through ICP's or GDRFA's official channels — we don't have a separate database or shortcut, and we'd be cautious of anyone who claims to. Learn more about our [UAE visa status, renewal and extension support](/services/uae-visa-extension-renewal).",
+            "We help clients understand what a ban, expiry date, or file reference actually means for their specific situation, and where relevant, help organize the documentation needed to resolve a ban or complete a renewal. The status check itself is always performed directly through ICP's or GDRFA's official channels — we don't have a separate database or shortcut, and we'd be cautious of anyone who claims to.",
         },
         {
           heading: "Frequently Asked Questions",
@@ -1603,7 +1603,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
           ],
@@ -1621,7 +1620,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "Cancelling a UAE employment visa is normally initiated by the employer, not the employee directly, since the employer is the sponsor on record — but what happens next, and how much control the employee actually has over timing, is where most confusion comes from. This guide covers how cancellation works, the grace period that follows, and what to do if you want to switch employers or leave the country cleanly instead of running into fines or a ban. Travelaxis is a documentation consultancy — we help you understand the process and organize supporting paperwork; cancellation itself is processed by the employer through MOHRE and GDRFA/ICP, not by us.",
+        "Cancelling a UAE employment visa is normally initiated by the employer, not the employee directly, since the employer is the sponsor on record — but what happens next, and how much control the employee actually has over timing, is where most confusion comes from. This guide covers how cancellation works, the grace period that follows, and what to do if you want to switch employers or leave the country cleanly instead of running into fines or a ban. Cancellation itself is processed by the employer through MOHRE and GDRFA/ICP. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "Who Actually Cancels an Employment Visa",
@@ -1695,11 +1694,6 @@ export const blogData: Record<string, any> = {
             "An employer refusing or indefinitely delaying cancellation without valid grounds is a labor dispute, not something you have to simply wait out — MOHRE has a formal complaint process for exactly this situation, and raising it early is generally more effective than waiting and hoping it resolves. Document your resignation date, notice given, and any communication about the delay, since that record matters if the dispute needs to go through MOHRE's formal process.",
         },
         {
-          heading: "How Travelaxis Supports This",
-          content:
-            "We help departing or transitioning employees understand the cancellation timeline, organize supporting documents for a status change or new visa application, and clarify what the grace period does and doesn't allow. The cancellation itself — and resolving any employer-side delay — goes through MOHRE and GDRFA/ICP directly, not through us.",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
             {
@@ -1743,11 +1737,6 @@ export const blogData: Record<string, any> = {
                 "This is a labor dispute you can raise with MOHRE directly — document your resignation and any delay-related communication, since that record supports a formal complaint if needed.",
             },
             {
-              question: "Can Travelaxis cancel my visa for me?",
-              answer:
-                "No — cancellation is processed by your employer through MOHRE and GDRFA/ICP. We help you understand the process and prepare supporting documentation, but we don't initiate the cancellation itself.",
-            },
-            {
               question: "Should I confirm my visa was cancelled before leaving the UAE?",
               answer:
                 "Yes — leaving without confirming proper cancellation can cause complications on a future entry, so it's worth verifying the cancellation is complete rather than assuming it processed correctly.",
@@ -1759,7 +1748,6 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "Travelaxis Home", href: "/" },
             { label: "UAE Visa Ban & Status Check", href: "/blog/uae-visa-ban-status-check-guide" },
-            { label: "UAE Visa Extension & Renewal", href: "/services/uae-visa-extension-renewal" },
           ],
         },
       ],
@@ -1822,7 +1810,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This",
           content:
-            "As part of preparing a complete application file, we help confirm the current photo specification for your specific visa category and submission channel, and flag anything in an existing photo that's likely to cause rejection before you submit. We don't take the photo itself — that's done at a studio or typing center — but catching a spec issue before submission is often faster than a resubmission cycle. Learn more about our [UAE visa documentation service](/services/visa-services).",
+            "As part of preparing a complete application file, we help confirm the current photo specification for your specific visa category and submission channel, and flag anything in an existing photo that's likely to cause rejection before you submit. We don't take the photo itself — that's done at a studio or typing center — but catching a spec issue before submission is often faster than a resubmission cycle.",
         },
         {
           heading: "Frequently Asked Questions",
@@ -1872,10 +1860,8 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support", href: "/blog/visa-typing-center-jlt-dubai-guide" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
           ],
         },
       ],
@@ -1897,12 +1883,6 @@ export const blogData: Record<string, any> = {
     dateModifiedIso: "2026-09-25",
     readTime: "6 min read",
     category: "UAE Visa Documentation",
-    cta: {
-      heading: "Looking at a route that doesn't depend on an employer?",
-      text: "See how the UAE retirement visa works and what documents it needs.",
-      label: "Check Requirements",
-      href: "/services/uae-retirement-visa",
-    },
     content: {
       intro:
         "A standard UAE work permit requires the worker to be at least 18. Between 15 and 18, a juvenile work permit is possible with a guardian's written consent and a medical fitness certificate, and employing anyone under 15 is prohibited. At the other end, the only official age-60 rule we found applies to domestic workers, and we could not find a published maximum age for a standard private-sector work permit — so confirm the current position with MOHRE or the employer before relying on any age cutoff you have heard about.",
@@ -1933,12 +1913,12 @@ export const blogData: Record<string, any> = {
         {
           heading: "If you are 55 or over: routes that don't depend on an employer",
           content:
-            "If employer sponsorship at an older age looks complicated, the UAE offers a retirement visa for residents aged 55 or over, with the criteria set by the issuing authorities. We prepare documentation for the [UAE retirement visa](/services/uae-retirement-visa), including the property, savings and income routes. [Golden Visa categories](/blog/golden-visa-uae-guide) such as property investment are also not tied to an employer sponsor — see our [UAE Golden Visa documentation service](/services/visa-services) — and eligibility for each is decided by the relevant authority, not by us.",
+            "If employer sponsorship at an older age looks complicated, the UAE offers a retirement visa for residents aged 55 or over, with the criteria set by the issuing authorities. The retirement visa has property, savings and income routes. [Golden Visa categories](/blog/golden-visa-uae-guide) such as property investment are also not tied to an employer sponsor — see our UAE Golden Visa documentation service — and eligibility for each is decided by the relevant authority, not by us.",
         },
         {
           heading: "What Travelaxis does — and doesn't — do",
           content:
-            "Travelaxis does not provide work-visa services of any kind, so we cannot help with employment sponsorship or work permits, and this page is general information only. Our documentation support covers residency routes that don't depend on an employer, such as the retirement visa and Golden Visa categories above. We are a documentation and consultancy service: we do not issue visas and cannot guarantee any outcome.",
+            "Travelaxis does not provide employment-visa, work-permit or retirement-visa services, so we cannot help with employer sponsorship or work permits, and this page is general information only. For the current official rules, check the UAE government portal (u.ae) and MOHRE. If you are looking at a route that does not depend on an employer, see our [UAE Golden Visa documentation](/services/uae-golden-visa) or [job seeker visa documentation](/job-seeker-visa). We do not issue visas and cannot guarantee any outcome.",
         },
         {
           heading: "Frequently asked questions",
@@ -1968,11 +1948,6 @@ export const blogData: Record<string, any> = {
               answer:
                 "Free zone authorities have their own procedures for staff visas, so check the specific free zone's current policy rather than assuming the mainland process applies.",
             },
-            {
-              question: "Does Travelaxis provide work visa services?",
-              answer:
-                "No. We do not provide work-visa services of any kind. We prepare documentation for routes such as the UAE retirement visa and Golden Visa categories, and we do not issue visas or guarantee approval.",
-            },
           ],
         },
         {
@@ -1983,9 +1958,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Retirement Visa", href: "/services/uae-retirement-visa" },
             { label: "Golden Visa UAE – Requirements & Benefits", href: "/blog/golden-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
           ],
         },
       ],
@@ -2262,7 +2235,6 @@ export const blogData: Record<string, any> = {
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
             { label: "Australia Visa from Pakistan", href: "/services/australia-visa-from-pakistan" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -2279,7 +2251,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "The UAE hosts a large and growing number of international students across universities in Dubai, Sharjah, Abu Dhabi, and Ras Al Khaimah, and most of them enter on a student residence visa sponsored by their university rather than any other visa category. This guide covers how the student visa actually works, who sponsors it, what documents you need, and how it differs from simply being a dependent on a parent's visa. Travelaxis is a documentation and consultancy service, not a university or admissions office — we help prepare and organize the visa documentation once you have an offer of admission; the university and UAE immigration authorities (ICP/GDRFA) control admission and visa approval itself.",
+        "The UAE hosts a large and growing number of international students across universities in Dubai, Sharjah, Abu Dhabi, and Ras Al Khaimah, and most of them enter on a student residence visa sponsored by their university rather than any other visa category. This guide covers how the student visa actually works, who sponsors it, what documents you need, and how it differs from simply being a dependent on a parent's visa. The university and UAE immigration authorities (ICP/GDRFA) control admission and visa approval. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "How the UAE Student Visa Actually Works",
@@ -2460,11 +2432,6 @@ export const blogData: Record<string, any> = {
             "A delayed application is usually a documentation issue — a missing attestation stage, a health insurance policy that doesn't meet the minimum requirement, or a mismatch between your passport and certificate details — and is generally resolvable by identifying the specific gap and resubmitting rather than starting over entirely. A rejection is less common for genuine, correctly documented applications, but if it happens, ask your university's visa office for the specific reason rather than guessing, since the fix depends entirely on what actually triggered it. Building a few weeks of buffer into your timeline before the semester starts gives you room to resolve either scenario without missing your intake.",
         },
         {
-          heading: "How Travelaxis Supports This Process",
-          content:
-            "We help prospective and current students coordinate attestation of secondary and degree certificates, prepare supporting documentation for university-sponsored or parent-sponsored visa applications, and plan the post-graduation transition to a work visa or Job Seeker permit. We are not a university, admissions consultancy, or education agent — admission decisions rest entirely with the university, and visa approval rests with UAE immigration authorities. Learn more about our [UAE student visa documentation service](/services/visa-services).",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
             {
@@ -2538,11 +2505,6 @@ export const blogData: Record<string, any> = {
                 "This generally involves a new sponsorship process with the new university and isn't a simple transfer — confirm the specific process and any status-change requirements with both institutions.",
             },
             {
-              question: "Does Travelaxis help with university applications or admissions?",
-              answer:
-                "No — we're a documentation consultancy, not an education agent. We help with visa and attestation documentation once you have an admission offer; the admission decision itself rests entirely with the university.",
-            },
-            {
               question: "How far in advance should I start my visa paperwork before the semester begins?",
               answer:
                 "As soon as you accept your offer — attestation of academic certificates is typically the longest step, and starting it early is the single biggest lever you have over whether your visa is ready before classes start.",
@@ -2577,7 +2539,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
           ],
@@ -2595,7 +2556,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "Pakistani students admitted to UAE universities generally enter on a university-sponsored student visa, the same route available to any international student — but the academic certificates behind that application need to pass through Pakistan's specific attestation chain before a UAE university or immigration authority will accept them. This guide covers what changes for Pakistani applicants specifically: which certificates need IBCC versus HEC verification, the full attestation sequence, and the documents your university's visa office will ask for. Travelaxis is a documentation and consultancy service, not an education agent — we help prepare and organize your attestation and visa documentation once you have an offer of admission; the university controls admission, and UAE immigration authorities control visa approval.",
+        "Pakistani students admitted to UAE universities generally enter on a university-sponsored student visa, the same route available to any international student — but the academic certificates behind that application need to pass through Pakistan's specific attestation chain before a UAE university or immigration authority will accept them. This guide covers what changes for Pakistani applicants specifically: which certificates need IBCC versus HEC verification, the full attestation sequence, and the documents your university's visa office will ask for. The university controls admission, and UAE immigration authorities control visa approval. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "Why This Differs From a Generic Student Visa Guide",
@@ -2762,11 +2723,6 @@ export const blogData: Record<string, any> = {
             "Pakistani students can complete the IBCC/HEC through UAE MOFAIC chain independently, and many do, particularly when there's enough lead time before the intake. Where a consultancy adds value is mainly in sequencing and troubleshooting — knowing which stage a specific university actually requires before enrollment versus which they'll accept as pending, and catching a mismatched name or missing stamp before it costs you a submission cycle rather than after. Whether that's worth the service fee depends on how much lead time you have and how comfortable you are managing multiple government offices' processes directly.",
         },
         {
-          heading: "How Travelaxis Supports This Process",
-          content:
-            "We help Pakistani students and their families coordinate the full IBCC/HEC → MOFA Pakistan → UAE Embassy → UAE MOFAIC attestation chain for secondary certificates and degrees, prepare supporting documentation for the university's visa office, and plan the post-graduation transition to a work visa or Job Seeker permit. We are not a university, admissions consultancy, or education agent — admission decisions rest with the university, and visa approval rests with UAE immigration authorities. Learn more about our [UAE student visa documentation service](/services/visa-services).",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
             {
@@ -2830,11 +2786,6 @@ export const blogData: Record<string, any> = {
                 "Some universities conditionally admit students while final UAE-side attestation completes, others require it finished first — confirm your specific university's policy rather than assuming either applies.",
             },
             {
-              question: "Does Travelaxis help with UAE university admissions?",
-              answer:
-                "No — we're a documentation consultancy, not an education agent. We help with attestation and visa documentation once you have an admission offer; the admission decision itself rests with the university.",
-            },
-            {
               question: "Can my parent sponsor my visa instead of going through my university?",
               answer:
                 "Yes, if they already hold UAE residency and meet dependent sponsorship requirements — this follows standard family sponsorship rules rather than the university route.",
@@ -2855,11 +2806,6 @@ export const blogData: Record<string, any> = {
                 "It doesn't automatically extend — plan ahead by either securing an offer before expiry or preparing to apply for the Job Seeker entry permit, which has its own Pakistan-specific attestation chain to account for.",
             },
             {
-              question: "Can Travelaxis attest my IBCC or HEC documents directly?",
-              answer:
-                "We coordinate and manage the process across each stage — IBCC/HEC, MOFA Pakistan, the UAE Embassy, and UAE MOFAIC issue the actual verifications and attestations themselves.",
-            },
-            {
               question: "Do I need a police clearance certificate for a student visa?",
               answer:
                 "This varies by university and isn't universally required for student visas the way it sometimes is for work visas — confirm directly with your specific university's visa office.",
@@ -2869,13 +2815,11 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Student Visa – Requirements, Documents & Process", href: "/blog/uae-student-visa-guide" },
             { label: "UK Visa from Pakistan", href: "/services/uk-visa-from-pakistan" },
             { label: "Canada Visa from Pakistan", href: "/services/canada-visa-from-pakistan" },
             { label: "Australia Visa from Pakistan", href: "/services/australia-visa-from-pakistan" },
             { label: "USA Visa from Pakistan", href: "/services/usa-visa-from-pakistan" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -2892,7 +2836,7 @@ export const blogData: Record<string, any> = {
     category: "Business Setup",
     content: {
       intro:
-        "Setting up a company in Dubai from Pakistan is genuinely possible without relocating first, and many founders complete the entire process remotely using power of attorney and courier-attested documents before ever stepping into the UAE. But 'remote' doesn't mean 'simple' — Pakistani founders deal with a few extra layers that founders from some other countries don't: attesting personal and educational documents through Pakistan's specific chain, understanding State Bank of Pakistan rules on sending capital abroad, and choosing between mainland and free zone structures with a Pakistan-specific lens on cost and repatriation. This guide walks through the real process, the documents, and what it actually costs, coordinated remotely from our Al Qusais, Dubai office. We prepare and organize your documentation — the license itself is issued by the relevant UAE mainland authority or free zone, not by us.",
+        "Setting up a company in Dubai from Pakistan is genuinely possible without relocating first, and many founders complete the entire process remotely using power of attorney and courier-attested documents before ever stepping into the UAE. But 'remote' doesn't mean 'simple' — Pakistani founders deal with a few extra layers that founders from some other countries don't: attesting personal and educational documents through Pakistan's specific chain, understanding State Bank of Pakistan rules on sending capital abroad, and choosing between mainland and free zone structures with a Pakistan-specific lens on cost and repatriation. This guide walks through the real process, the documents, and what it actually costs. The license itself is issued by the relevant UAE mainland authority or free zone. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "A Realistic Setup Timeline From Pakistan",
@@ -3001,7 +2945,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "State Bank of Pakistan Considerations",
           content:
-            "Moving capital from Pakistan to fund a UAE company setup falls under State Bank of Pakistan (SBP) foreign exchange regulations, which govern how much can be remitted abroad and through which channels, and these rules are revised from time to time. Rather than assuming a fixed allowance or process, confirm current SBP remittance limits and documentation requirements with your bank or a financial advisor before committing to a specific funding plan — this is separate from, and in addition to, the UAE-side company documentation we help prepare.",
+            "Moving capital from Pakistan to fund a UAE company setup falls under State Bank of Pakistan (SBP) foreign exchange regulations, which govern how much can be remitted abroad and through which channels, and these rules are revised from time to time. Rather than assuming a fixed allowance or process, confirm current SBP remittance limits and documentation requirements with your bank or a financial advisor before committing to a specific funding plan — this is separate from, and in addition to, the UAE-side company documentation.",
         },
         {
           heading: "Typical Setup Costs to Budget For",
@@ -3043,11 +2987,6 @@ export const blogData: Record<string, any> = {
           heading: "Repatriating Profits Back to Pakistan",
           content:
             "Bringing profits or dividends from your UAE company back to Pakistan is generally more straightforward than sending capital out was, but it still needs to move through proper banking channels to be recognized correctly under State Bank of Pakistan reporting requirements, particularly if you plan to declare it as foreign income or reinvest it domestically. Using informal transfer channels instead of your bank may seem faster, but it creates a documentation gap that can complicate your Pakistani tax filings later — routing repatriated funds through your bank, with clear reference to their source, is the safer default even when it takes a little longer than an informal alternative.",
-        },
-        {
-          heading: "How Travelaxis Supports This Process",
-          content:
-            "We help Pakistani founders choose between mainland and free zone structures based on their actual business model, prepare and coordinate attestation of personal and educational documents, draft and process power of attorney for remote signing, and organize the full incorporation file for submission — the license itself is issued by the relevant mainland authority or free zone, not by us. We also help coordinate the Emirates ID and residence visa steps that follow incorporation. Learn more about our [UAE company formation service](/services/company-formation).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -3103,11 +3042,6 @@ export const blogData: Record<string, any> = {
                 "No — banks apply their own compliance review, and Pakistani-owned companies sometimes face additional documentation requests, so treat account opening as a separate step in your timeline rather than an automatic formality.",
             },
             {
-              question: "Can Travelaxis open my bank account for me?",
-              answer:
-                "We help prepare the documentation banks typically request and coordinate the process, but the account itself is opened and approved directly by the bank based on its own compliance review.",
-            },
-            {
               question: "How long does the full setup process typically take from Pakistan?",
               answer:
                 "It varies by structure and how quickly documents and any required attestation are completed, but founders who start attestation and document preparation early generally move through incorporation faster than those who begin only once ready to submit.",
@@ -3147,8 +3081,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Company Formation Services", href: "/services/company-formation" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
             { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
           ],
@@ -3166,7 +3098,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "Sponsoring your spouse, children, or in some cases parents to join you in the UAE runs through a well-established residency-sponsorship process, but for Pakistani sponsors the relationship documents at the center of it — marriage certificates, birth certificates, family registration certificates — carry their own attestation requirements before UAE authorities will accept them. This guide covers the income threshold, tenancy requirements, and dependent eligibility rules that apply broadly, with specific attention to the NADRA-to-UAE document chain Pakistani sponsors need to complete. It's a companion to our general family sponsorship income guide, focused specifically on what changes when the sponsor or dependents are Pakistani nationals. We prepare and organize sponsorship documentation — final approval rests with UAE immigration authorities (ICP/GDRFA), so always confirm current income thresholds and category rules directly before relying on a specific figure.",
+        "Sponsoring your spouse, children, or in some cases parents to join you in the UAE runs through a well-established residency-sponsorship process, but for Pakistani sponsors the relationship documents at the center of it — marriage certificates, birth certificates, family registration certificates — carry their own attestation requirements before UAE authorities will accept them. This guide covers the income threshold, tenancy requirements, and dependent eligibility rules that apply broadly, with specific attention to the NADRA-to-UAE document chain Pakistani sponsors need to complete. It's a companion to our general family sponsorship income guide, focused specifically on what changes when the sponsor or dependents are Pakistani nationals. Final approval rests with UAE immigration authorities (ICP/GDRFA), so always confirm current income thresholds and category rules directly before relying on a specific figure. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "If You're Self-Employed or a Business Owner Rather Than Salaried",
@@ -3303,11 +3235,6 @@ export const blogData: Record<string, any> = {
             "Sponsorship approval is the visa milestone, but a few practical steps typically follow close behind it for families settling in the UAE: school enrollment for children of school age, which in popular curricula and locations often has its own waitlists worth starting early rather than after arrival; registering with a UAE healthcare provider under your dependents' insurance; and updating tenancy or Ejari details if your accommodation changes after the sponsorship is approved, since visa records need to stay consistent with your actual living situation.",
         },
         {
-          heading: "How Travelaxis Supports This Process",
-          content:
-            "We help Pakistani sponsors confirm eligibility against current income and category rules, coordinate the full attestation chain for marriage, birth, and family registration certificates, and prepare a complete sponsorship file for submission — final approval rests with ICP or GDRFA, not with us. We also help arrange dependent health insurance and review tenancy documentation before submission, coordinated remotely from our Al Qusais, Dubai office. Learn more about our [UAE family visa documentation service](/services/visa-services).",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
             {
@@ -3371,11 +3298,6 @@ export const blogData: Record<string, any> = {
                 "Because the family file is typically reviewed as a whole, one incomplete or incorrectly attested document can hold up approval for the entire household, not just the individual it belongs to.",
             },
             {
-              question: "Can Travelaxis attest my Pakistani documents directly?",
-              answer:
-                "We coordinate and manage the attestation process across each stage — the Pakistani issuing authority, MOFA Pakistan, the UAE Embassy, and UAE MOFAIC issue the actual attestations.",
-            },
-            {
               question: "Is NADRA's Family Registration Certificate required for every sponsorship?",
               answer:
                 "It's commonly used to establish family relationships for sponsorship purposes, but exact document requirements vary by case — confirm what's needed for your specific dependents before starting attestation.",
@@ -3425,9 +3347,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -3759,7 +3679,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Business Exploration From Pakistan Specifically",
           content:
-            "Pakistani nationals visiting the UAE to explore business opportunities generally apply through the [same standard visit-visa categories](/services/visa-services) available to other nationalities, with the visa typically arranged in advance through an airline, authorized typing center, or online channel before travel, since visa-on-arrival is not available for Pakistani passport holders. Because the application requires supporting documents (proof of funds, an itinerary, sometimes an invitation letter), it's worth starting the visa application at least a couple of weeks ahead of an intended travel date rather than assuming same-week approval, particularly during busier travel periods.",
+            "Pakistani nationals visiting the UAE to explore business opportunities generally apply through the same standard visit-visa categories available to other nationalities, with the visa typically arranged in advance through an airline, authorized typing center, or online channel before travel, since visa-on-arrival is not available for Pakistani passport holders. Because the application requires supporting documents (proof of funds, an itinerary, sometimes an invitation letter), it's worth starting the visa application at least a couple of weeks ahead of an intended travel date rather than assuming same-week approval, particularly during busier travel periods.",
         },
         {
           heading: "Planning Your First UAE Business Trip: A Practical Checklist",
@@ -3844,11 +3764,6 @@ export const blogData: Record<string, any> = {
             "This depends on how many jurisdictions and options you're genuinely comparing, but a common pattern is a first trip of one to two weeks focused on the most promising two or three free zones or mainland options, followed by a shorter return trip once you've narrowed toward a specific structure and are ready to begin formation. Trying to compress a first-time UAE market visit into a few days often means leaving without enough concrete information to make a confident decision, while an unnecessarily long first trip can be avoided by doing preliminary research (free zone activity lists, indicative package pricing) before you even travel, so your in-person time is spent on questions that genuinely require being there.",
         },
         {
-          heading: "How Travelaxis Fits Into an Exploration Trip",
-          content:
-            "Beyond visa documentation, we can help prospective founders plan an efficient exploration itinerary, arrange introductions to relevant free zones or DED-related contacts, and provide a realistic comparison of options based on the specific activity being considered — turning a general market visit into a focused, decision-ready trip rather than an open-ended research exercise. Learn more about our [UAE visit visa documentation service](/services/uae-visit-visa).",
-        },
-        {
           heading: "Common Questions to Ask During Meetings",
           items: [
             "Is my specific activity approved under your standard license categories, or does it require special approval?",
@@ -3862,11 +3777,6 @@ export const blogData: Record<string, any> = {
           heading: "Turning Your Exploration Trip Into a Decision",
           content:
             "The most useful outcome of an exploration trip isn't just a general impression of the UAE market — it's a specific, comparable shortlist: two or three structures with clear activity approval, realistic all-in cost estimates, and a sense of which one's operational requirements (office type, visa needs, banking relationships) fit your business best. Founders who leave an exploration trip with only a general positive feeling, rather than concrete comparative notes, often find themselves re-researching much of the same ground again before formation, which defeats much of the purpose of visiting in person to begin with.",
-        },
-        {
-          heading: "How Travelaxis Supports Exploration Visits",
-          content:
-            "We help visiting founders prepare visit-visa documentation that clearly supports a business purpose, arrange meetings with relevant free zones or DED representatives during their trip, and prepare a comparative shortlist based on the founder's specific activity and goals so the trip is used efficiently rather than spent researching from scratch on the ground.",
         },
         {
           heading: "What Happens If You Overstay an Exploration Trip",
@@ -3904,11 +3814,6 @@ export const blogData: Record<string, any> = {
               question: "How many days can I stay on a business visit visa?",
               answer:
                 "Standard visit visas are commonly issued for 30 or 60 days, single or multiple entry, though exact durations depend on your nationality and the issuing channel.",
-            },
-            {
-              question: "Does Travelaxis arrange the invitation letter for me?",
-              answer:
-                "We help you organize and prepare your supporting documents for the visit visa application; any invitation letter would come from the UAE company or partner you're meeting.",
             },
             {
               question: "What if my exploration takes several separate trips?",
@@ -3950,8 +3855,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visit & Tourist Visa", href: "/services/uae-visit-visa" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -4067,7 +3970,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Sponsoring From Pakistan: What's Different",
           content:
-            "For sponsors bringing family members from Pakistan, marriage and birth certificates need to go through [Pakistan's own attestation chain](/services/attestation) before UAE attestation can be completed — typically starting with the relevant provincial authority (such as the Union Council or NADRA-issued certificate attestation), followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. This four-step chain is one of the more time-consuming parts of the entire family sponsorship process, and it's common for sponsors to underestimate how long it takes, since it runs entirely through institutions outside UAE control. Starting this attestation chain as soon as you know you intend to sponsor a family member — rather than waiting until your own income documents are ready — keeps it from becoming the bottleneck that delays the whole application.",
+            "For sponsors bringing family members from Pakistan, marriage and birth certificates need to go through Pakistan's own attestation chain before UAE attestation can be completed — typically starting with the relevant provincial authority (such as the Union Council or NADRA-issued certificate attestation), followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. This four-step chain is one of the more time-consuming parts of the entire family sponsorship process, and it's common for sponsors to underestimate how long it takes, since it runs entirely through institutions outside UAE control. Starting this attestation chain as soon as you know you intend to sponsor a family member — rather than waiting until your own income documents are ready — keeps it from becoming the bottleneck that delays the whole application.",
         },
         {
           heading: "Step-by-Step Process",
@@ -4108,11 +4011,6 @@ export const blogData: Record<string, any> = {
           heading: "Renewal: What to Expect the Second Time Around",
           content:
             "Family visa renewal generally follows a lighter process than the first application, but the same income and documentation standards still apply — a sponsor whose income has decreased since the original sponsorship, or whose tenancy contract has changed, needs to re-demonstrate that the threshold is still met, not simply renew based on the original approval. Keeping income and tenancy documentation current and readily available, rather than only gathering it reactively at renewal time, makes each renewal cycle considerably smoother than the first-time application process.",
-        },
-        {
-          heading: "How Travelaxis Supports Family Sponsorship Applications",
-          content:
-            "We help sponsors understand which income documentation best fits their employment situation (salaried or business owner), coordinate attestation of relationship documents including guiding the Pakistan-specific attestation chain where applicable, and prepare a complete application file before submission through GDRFA, ICP, or the relevant emirate authority. Final eligibility determination and approval rest entirely with the relevant government authority. Learn more about our [UAE family visa documentation service](/services/visa-services).",
         },
         {
           heading: "Common Documentation Mistakes",
@@ -4158,11 +4056,6 @@ export const blogData: Record<string, any> = {
                 "The visa itself isn't automatically cancelled, but it's worth understanding how this could affect renewal, since some renewal reviews revisit the same income criteria used at initial approval.",
             },
             {
-              question: "Does Travelaxis decide whether I qualify?",
-              answer:
-                "No — eligibility is determined by GDRFA/ICP based on their current rules. We help you organize and prepare a complete, accurate document set for submission; we don't issue approvals or guarantee outcomes.",
-            },
-            {
               question: "Can I sponsor family if I'm on a freelance permit rather than a standard employment visa?",
               answer:
                 "In many cases yes, though income documentation typically shifts toward bank statements and freelance permit income evidence rather than a standard employer salary certificate — confirm the exact requirements for freelance permit holders with your specific authority.",
@@ -4197,8 +4090,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -4369,7 +4260,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Visit Visa Applications",
           content:
-            "We review the sponsor's and visitor's documents together, flag anything likely to cause a delay (an expiring tenancy contract, a relationship-proof gap, missing insurance), and coordinate submission through the correct official channel or an authorized typing center. As with our other guides, we don't issue visas ourselves and don't guarantee approval — our role is making sure the file that gets submitted is complete and correctly prepared the first time. Learn more about our [UAE visit visa documentation service](/services/uae-visit-visa).",
+            "We review the sponsor's and visitor's documents together, flag anything likely to cause a delay (an expiring tenancy contract, a relationship-proof gap, missing insurance), and coordinate submission through the correct official channel or an authorized typing center. As with our other guides, we don't issue visas ourselves and don't guarantee approval — our role is making sure the file that gets submitted is complete and correctly prepared the first time.",
         },
         {
           heading: "Sponsoring a Relative for a Special Occasion",
@@ -4550,11 +4441,9 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UAE Visit & Tourist Visa", href: "/services/uae-visit-visa" },
             { label: "UAE Family Visa from Pakistan", href: "/blog/uae-family-visa-from-pakistan" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Visa Documentation for Exploring Business Opportunities", href: "/blog/business-exploration-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -4570,7 +4459,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "Jumeirah Lakes Towers (JLT) is one of Dubai's busiest residential and commercial clusters, and residents and DMCC-based businesses there regularly need visa and residency transactions handled through a typing center. This guide explains what a typing center actually does, what to bring, and how Travelaxis supports clients across Dubai — including JLT — by preparing a complete document set in advance, from our Al Qusais office, so the actual center visit is a single, straightforward submission.",
+        "Jumeirah Lakes Towers (JLT) is one of Dubai's busiest residential and commercial clusters, and residents and DMCC-based businesses there regularly need visa and residency transactions handled through a typing center. This guide explains what a typing center actually does, and what to bring, so the actual center visit is a single, straightforward submission. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "What Is a Typing Center, and Why JLT Residents Ask About One",
@@ -4611,11 +4500,6 @@ export const blogData: Record<string, any> = {
             "Employer or sponsor documents relevant to your transaction",
             "Any category-specific document (labor contract, tenancy contract, salary certificate, etc.) required for your visa type",
           ],
-        },
-        {
-          heading: "How Travelaxis Helps Before You Go",
-          content:
-            "We review and organize your document set in advance — remotely or by appointment from our Al Qusais office — so your visit to a typing center near JLT or elsewhere in Dubai is a single, complete submission instead of repeat trips over missing paperwork. We are a documentation and consultancy service, not a government authority: we don't operate a government portal ourselves, and final submission is completed through official channels or an authorized typing center. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "Common Reasons a Typing Center Visit Gets Rejected or Delayed",
@@ -4741,11 +4625,6 @@ export const blogData: Record<string, any> = {
             "Whether you're an individual resident, a freelancer, or a DMCC-registered business, the underlying pattern for a smooth typing center experience near JLT is the same: know exactly which transaction type you need, confirm the center is authorized for it, and arrive with a complete, correctly attested document set. Location convenience matters less than preparation — a well-prepared visit to a slightly farther center beats a rushed visit to the nearest one with missing paperwork.",
         },
         {
-          heading: "How Travelaxis Fits Into This Process",
-          content:
-            "Whether your transaction touches GDRFA, ICP, or MOHRE systems, our role stays the same: reviewing what you have, identifying what's missing or needs attestation, and organizing everything into a single, submission-ready file before you visit a typing center convenient to you — in JLT or anywhere else in Dubai. We coordinate the logistics; the government authority makes the actual decision.",
-        },
-        {
           heading: "Summary: Getting the Most Out of a Typing Center Visit Near JLT",
           content:
             "The core lesson across residency, labor, and company-linked transactions alike is the same: know your transaction type, confirm the center's authorization for it, and arrive prepared. JLT's proximity to DMCC makes typing center access a genuinely common need for residents and businesses there, and treating preparation seriously turns what could be a multi-visit hassle into a single, straightforward appointment.",
@@ -4777,16 +4656,6 @@ export const blogData: Record<string, any> = {
               question: "Do I need an appointment to visit a typing center?",
               answer:
                 "Many centers, including Amer centers, use an appointment or queue-ticket system, so it's worth checking and booking ahead where possible to avoid waiting.",
-            },
-            {
-              question: "Is there a Travelaxis office inside JLT?",
-              answer:
-                "Our office is in Al Qusais, Dubai. We support clients across Dubai, including JLT, remotely or by appointment, and coordinate submission through an authorized typing center convenient to you.",
-            },
-            {
-              question: "Can Travelaxis submit my application directly to GDRFA or ICP?",
-              answer:
-                "We prepare and organize your documents; final submission is completed through official government channels or an authorized typing center, not through us directly.",
             },
             {
               question: "What happens if a document is rejected at the center?",
@@ -4839,11 +4708,6 @@ export const blogData: Record<string, any> = {
                 "Yes — like other centers, demand rises around school holidays, visa-renewal-heavy periods, and after public holidays, so planning ahead of these windows where possible reduces wait times.",
             },
             {
-              question: "Can Travelaxis tell me which typing center is best for my transaction?",
-              answer:
-                "Yes — as part of preparing your file, we can point you to an authorized center that handles your specific transaction type near you, saving you from visiting the wrong one.",
-            },
-            {
               question: "Are typing centers open on weekends in Dubai?",
               answer:
                 "Operating hours vary by center, and some operate reduced hours on Saturdays with Sunday closures — checking the specific center's hours before planning your visit is worth doing.",
@@ -4872,7 +4736,6 @@ export const blogData: Record<string, any> = {
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -4939,11 +4802,6 @@ export const blogData: Record<string, any> = {
             "Certified translations for any document not in English or Arabic",
             "Valid, UAE-compliant health insurance",
           ],
-        },
-        {
-          heading: "How Travelaxis Supports a Faster Process",
-          content:
-            "We review your documents before submission, flag anything incomplete or inconsistent, and coordinate with authorized typing centers or priority counters where they're genuinely available. We do not control government processing timelines and do not guarantee same-day or expedited approval — what we can reliably speed up is the preparation that determines whether your first submission goes through cleanly. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "How Long Standard Processing Actually Takes",
@@ -5067,11 +4925,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Prepares Files for the Fastest Realistic Outcome",
-          content:
-            "Our review process checks name consistency across every document, confirms attestation is genuinely complete rather than in progress, and flags any category-specific document that's commonly missed before your file goes anywhere near a government counter. This preparation step is what actually moves the needle on speed — not a claim of special access to faster government processing, which doesn't exist for any provider.",
-        },
-        {
           heading: "Setting Expectations With Family and Employers",
           content:
             "If a visa document is being requested by an employer, a school, or a family member awaiting your arrival, it's worth setting realistic expectations with them about timeline rather than promising a specific date based on the fastest possible scenario. Being upfront that processing depends on government review, not just your own preparation speed, avoids pressure to seek out an unrealistic shortcut later.",
@@ -5110,11 +4963,6 @@ export const blogData: Record<string, any> = {
                 "In many cases yes, through an express service tier at the Ministry of Foreign Affairs or equivalent authority, which is worth checking given attestation is often the slowest part of a visa file.",
             },
             {
-              question: "Does Travelaxis offer its own 'fast-track' service?",
-              answer:
-                "We offer priority document processing as part of some packages, meaning faster review and preparation on our side, and coordination with genuine priority services where available — not a guarantee of expedited government approval.",
-            },
-            {
               question: "How long does standard visa document processing take without priority service?",
               answer:
                 "For a complete, straightforward file, standard processing is often measured in days rather than weeks — delays usually come from document issues, not the standard timeline itself.",
@@ -5138,7 +4986,6 @@ export const blogData: Record<string, any> = {
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -5299,18 +5146,8 @@ export const blogData: Record<string, any> = {
             "A hold notice from GDRFA isn't necessarily a rejection — it typically means a specific document or detail needs correction or clarification before review can continue. The fastest path forward is identifying exactly what triggered the hold (often available through the Amer center or portal where you submitted) and addressing that specific issue directly, rather than resubmitting the entire file from scratch or assuming a general resubmission will resolve an unspecified problem. Consultancies and typing centers with experience reading hold notices can often interpret what's actually being requested faster than a first-time applicant navigating the notice alone.",
         },
         {
-          heading: "How Travelaxis Supports Time-Sensitive Cases",
-          content:
-            "When a client comes to us with a genuinely tight deadline, our focus is on removing every avoidable source of delay from their side — confirming the exact document list for their specific case, expediting attestation coordination where possible, and submitting through the correct official channel with any legitimate priority option flagged. We're transparent that this doesn't override GDRFA's own review, and we won't promise a guaranteed approval date, since that promise isn't ours or any consultancy's to make. Learn more about our [UAE residency visa documentation service](/services/visa-services).",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
-            {
-              question: "Can Travelaxis get my GDRFA approval expedited?",
-              answer:
-                "We can't override GDRFA's review process or guarantee approval speed. We prepare a complete, correctly attested file and coordinate with authorized channels, including any genuine priority service available for your transaction.",
-            },
             {
               question: "What's the difference between GDRFA and Amer?",
               answer:
@@ -5357,11 +5194,6 @@ export const blogData: Record<string, any> = {
                 "Start attestation and document preparation as soon as you know a visa renewal or new application is coming, ideally 60 days ahead of any deadline, since attestation timing is the factor most likely to run longer than expected.",
             },
             {
-              question: "Does Travelaxis charge extra for genuinely urgent cases?",
-              answer:
-                "Our documentation preparation fees are the same regardless of urgency; any official priority or VIP service fee at Amer, where genuinely available, is a separate government-set charge, not something we add on top.",
-            },
-            {
               question: "Can I follow up on my file myself instead of through a consultancy?",
               answer:
                 "Yes — you can check status and follow up directly with GDRFA or your original submission channel at any time; using a consultancy is about document preparation and coordination, not a strict requirement for tracking your own case.",
@@ -5375,7 +5207,6 @@ export const blogData: Record<string, any> = {
             { label: "Amer Center Visa Application", href: "/blog/amer-center-visa-documentation-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -5391,7 +5222,7 @@ export const blogData: Record<string, any> = {
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "Amer centers are the network the public actually visits in Dubai for most visa and residency transactions. This guide explains what they handle, how to book an appointment, what to bring, and how Travelaxis helps you prepare a complete file before your visit — as a documentation and consultancy service, not as an Amer center or government authority ourselves.",
+        "Amer centers are the network the public actually visits in Dubai for most visa and residency transactions. This guide explains what they handle, how to book an appointment, and what to bring so your file is complete before your visit. Travelaxis does not offer this UAE service; this guide is general information only.",
       sections: [
         {
           heading: "What Is an Amer Center?",
@@ -5422,11 +5253,6 @@ export const blogData: Record<string, any> = {
             "Sponsor documents relevant to your specific transaction",
             "The category-specific documents required for your visa type (see our other guides for family sponsorship, visit visas, and employment-related documentation)",
           ],
-        },
-        {
-          heading: "How Travelaxis Helps Before Your Amer Center Visit",
-          content:
-            "We review and organize your documents in advance so your Amer center appointment is a single, complete submission rather than a trip that ends in a request for missing paperwork. We are not an Amer center and don't operate a government portal ourselves — we prepare your file and coordinate submission through an authorized Amer center or typing center on your behalf where needed. Learn more about our [UAE visa documentation service](/services/visa-services).",
         },
         {
           heading: "Common Mistakes That Cause a Second Amer Center Visit",
@@ -5600,11 +5426,6 @@ export const blogData: Record<string, any> = {
           heading: "Frequently Asked Questions",
           faqs: [
             {
-              question: "Is Travelaxis an Amer center?",
-              answer:
-                "No. Amer centers are private businesses authorized directly by Dubai's GDRFA to process visa and residency transactions. We are a documentation and consultancy service — we help you prepare a complete, correctly organized file in advance, then coordinate submission through an authorized Amer center or typing center on your behalf where needed.",
-            },
-            {
               question: "Do I need an appointment to visit an Amer center?",
               answer:
                 "Most Amer centers use an appointment or queue-ticket system, so it's best to book ahead or check current availability for your specific transaction.",
@@ -5703,7 +5524,6 @@ export const blogData: Record<string, any> = {
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -5741,7 +5561,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Helps Software Engineers Apply",
           content:
-            "We review your employment or specialization evidence, help determine whether the salary or specialization route fits best, coordinate degree attestation, and prepare your complete file for submission through ICP. Final approval rests with ICP based on your specific evidence. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
+            "We review your employment or specialization evidence, help determine whether the salary or specialization route fits best, coordinate degree attestation, and prepare your complete file for submission through ICP. Final approval rests with ICP based on your specific evidence. Learn more about our [UAE Golden Visa documentation service](/services/uae-golden-visa).",
         },
         {
           heading: "Who Qualifies as a Software Engineer for This Golden Visa",
@@ -5949,7 +5769,7 @@ export const blogData: Record<string, any> = {
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
+            { label: "UAE Golden Visa from Pakistan", href: "/services/uae-golden-visa" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -6135,7 +5955,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports AI Specialist Applications",
           content:
-            "We help applicants determine which eligibility route (salary or recognition) best fits their profile, review and organize technical portfolio evidence into a clear, reviewer-friendly format, coordinate degree attestation, and prepare the complete document set for submission through ICP. Final eligibility determination and approval rest entirely with ICP based on the strength and clarity of the evidence submitted. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
+            "We help applicants determine which eligibility route (salary or recognition) best fits their profile, review and organize technical portfolio evidence into a clear, reviewer-friendly format, coordinate degree attestation, and prepare the complete document set for submission through ICP. Final eligibility determination and approval rest entirely with ICP based on the strength and clarity of the evidence submitted. Learn more about our [UAE Golden Visa documentation service](/services/uae-golden-visa).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -6206,7 +6026,7 @@ export const blogData: Record<string, any> = {
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
+            { label: "UAE Golden Visa from Pakistan", href: "/services/uae-golden-visa" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -6307,7 +6127,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Property Investor Applications",
           content:
-            "We help property investors confirm their qualifying value (including combining multiple properties where needed), coordinate valuation certificates and mortgage NOC requests with banks, and prepare the complete file for submission through DLD or the relevant emirate authority. Final visa approval decisions rest with the relevant land department and federal residency authority, based on their own current criteria and standard review process. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
+            "We help property investors confirm their qualifying value (including combining multiple properties where needed), coordinate valuation certificates and mortgage NOC requests with banks, and prepare the complete file for submission through DLD or the relevant emirate authority. Final visa approval decisions rest with the relevant land department and federal residency authority, based on their own current criteria and standard review process. Learn more about our [UAE Golden Visa documentation service](/services/uae-golden-visa).",
         },
         {
           heading: "Step-by-Step Application Process",
@@ -6441,7 +6261,7 @@ export const blogData: Record<string, any> = {
             { label: "UAE Humanitarian Pioneers Visa", href: "/blog/humanitarian-pioneers-visa-uae-documents-guide" },
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
+            { label: "UAE Golden Visa from Pakistan", href: "/services/uae-golden-visa" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -6565,7 +6385,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports This Application",
           content:
-            "We review bank statements against the maintained-balance requirement before submission, flag any dips or formatting issues that could trigger rejection, coordinate certified translation where needed, and prepare the full supporting document set for submission through GDRFA or an authorized channel. Final approval rests with GDRFA based on their current review criteria. Learn more about our [UAE visa documentation service](/services/visa-services).",
+            "We review bank statements against the maintained-balance requirement before submission, flag any dips or formatting issues that could trigger rejection, coordinate certified translation where needed, and prepare the full supporting document set for submission through GDRFA or an authorized channel. Final approval rests with GDRFA based on their current review criteria.",
         },
         {
           heading: "Who Should Consider This Visa vs Other Long-Term Options",
@@ -6672,7 +6492,6 @@ export const blogData: Record<string, any> = {
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -6779,7 +6598,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Humanitarian Pioneers Applications",
           content:
-            "We help applicants organize their humanitarian record into a clear, chronological file, identify which eligibility route their history most strongly supports, and coordinate the endorsement letter request and any necessary document attestation. We don't issue endorsements ourselves and don't determine eligibility — those decisions rest with the Ministry of Community Empowerment and ICP based on the strength of your documented record. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
+            "We help applicants organize their humanitarian record into a clear, chronological file, identify which eligibility route their history most strongly supports, and coordinate the endorsement letter request and any necessary document attestation. We don't issue endorsements ourselves and don't determine eligibility — those decisions rest with the Ministry of Community Empowerment and ICP based on the strength of your documented record. Learn more about our [UAE Golden Visa documentation service](/services/uae-golden-visa).",
         },
         {
           heading: "Step-by-Step Application Process",
@@ -6910,7 +6729,7 @@ export const blogData: Record<string, any> = {
             { label: "Golden Visa UAE", href: "/blog/golden-visa-uae-guide" },
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
+            { label: "UAE Golden Visa from Pakistan", href: "/services/uae-golden-visa" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -7054,12 +6873,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Company Formation for Founders Based Outside the UAE",
           content:
-            "Founders forming a UAE company while based in Pakistan or elsewhere can generally complete much of the formation process remotely, though [document attestation](/services/attestation) for foreign-issued personal and corporate documents adds a country-specific chain of steps that needs to start early given how long it can take. Signatory requirements for banking, and the residence visa process itself if relocation is planned, typically require at least one in-person UAE visit — factoring this into your planning from the outset avoids assuming the entire process can be completed without ever traveling to the UAE.",
-        },
-        {
-          heading: "How Travelaxis Supports the Full Formation Journey",
-          content:
-            "We work with founders from initial activity and structure selection through document preparation, formation submission, and coordination of the subsequent visa and banking steps — treating formation as the first stage of a longer relationship rather than a single transaction. For founders based in Pakistan or elsewhere abroad, we specifically help sequence the attestation chain and UAE visit timing so the whole process moves as efficiently as possible, minimizing the number of separate trips required. Learn more about our [UAE company formation service](/services/company-formation).",
+            "Founders forming a UAE company while based in Pakistan or elsewhere can generally complete much of the formation process remotely, though document attestation for foreign-issued personal and corporate documents adds a country-specific chain of steps that needs to start early given how long it can take. Signatory requirements for banking, and the residence visa process itself if relocation is planned, typically require at least one in-person UAE visit — factoring this into your planning from the outset avoids assuming the entire process can be completed without ever traveling to the UAE.",
         },
         {
           heading: "Common Mistakes First-Time Founders Make",
@@ -7119,8 +6933,6 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Company Formation Services", href: "/services/company-formation" },
-            { label: "UAE Document Attestation from Pakistan", href: "/services/attestation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -7235,11 +7047,6 @@ export const blogData: Record<string, any> = {
             "Dubai hosts the head offices or major branches of most UAE banks, giving Dubai-based businesses generally the widest range of banking options relative to other emirates, though this doesn't mean account opening is automatically faster — banks apply the same compliance-driven review regardless of location. Dubai's established free zones, given their longer operating history and larger tenant base, tend to have smoother banking relationships in practice than newer or smaller free zones elsewhere in the UAE, which is worth factoring in if banking speed is a priority alongside license cost.",
         },
         {
-          heading: "How Travelaxis Supports Dubai Business Setup Specifically",
-          content:
-            "Being based in Al Qusais, Dubai ourselves, we work directly with Dubai DED and the major Dubai free zones on a regular basis, which means practical, current familiarity with each option's actual processing patterns, common approval delays, and package specifics — not just published marketing information. We help founders compare Dubai-specific options against their actual activity and budget, and coordinate document preparation and submission through their chosen authority. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "Common Dubai-Specific Mistakes",
           subsections: [
             {
@@ -7291,11 +7098,6 @@ export const blogData: Record<string, any> = {
               answer:
                 "Beyond license and office costs, budget for visa fees per employee, health insurance, any activity-specific approvals, and first-year banking setup — a realistic all-in budget is often meaningfully higher than the headline license price alone.",
             },
-            {
-              question: "Can Travelaxis help me compare specific Dubai free zones for my activity?",
-              answer:
-                "Yes — we regularly compare current packages, activity approvals, and visa allocations across Dubai's free zones for clients' specific business activities, based on direct, ongoing work with these authorities.",
-            },
           ],
         },
       
@@ -7305,7 +7107,6 @@ export const blogData: Record<string, any> = {
             { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
             { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -7441,11 +7242,6 @@ export const blogData: Record<string, any> = {
             "A common planning mistake among first-time foreign founders is treating company formation and residence visa issuance as a single combined timeline, when they're sequential, separate processes — formation typically needs to be substantially complete (trade license and establishment card issued) before the investor visa application can even begin. Founders planning a specific relocation date, or timing family arrangements around their own UAE arrival, should build in the full combined timeline (formation, then establishment card, then visa application, medical test, and stamping) rather than assuming the shorter formation timeline alone represents the full picture.",
         },
         {
-          heading: "How Travelaxis Supports Foreign Founders",
-          content:
-            "We regularly work with foreign founders, including a significant number based in or originally from Pakistan, guiding them through activity-specific ownership rules, coordinating document attestation across both the founder's home country and the UAE, and preparing the formation and subsequent visa documentation as a properly sequenced process rather than two disconnected steps. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "Common Mistakes Foreign Founders Make",
           subsections: [
             {
@@ -7526,7 +7322,6 @@ export const blogData: Record<string, any> = {
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -7632,11 +7427,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Helps Founders Navigate This",
-          content:
-            "We check your specific activity against current ownership rules before you commit to a structure, help you understand whether a local service agent applies to your case and what that arrangement genuinely involves, and support founders with older, local-partner-structured companies in understanding the restructuring process available to them. Final activity classification and ownership rules are determined by the relevant licensing authority, not by us. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "What This Means for Companies Formed Under the Old Rules",
           content:
             "Businesses formed years ago under the previous local-partner requirement sometimes assume the reform automatically updated their own company structure — it doesn't. Existing mainland companies with a UAE national partner still holding 51% under the old model remain structured that way until the shareholders actively amend the company's Memorandum of Association to reflect new ownership percentages, a legal process rather than an automatic update. This matters most for founders who've been operating for years with a local partner and are now hearing that '100% foreign ownership' is available — the opportunity exists, but claiming it for an existing company requires actively restructuring shareholding through your licensing authority, including amended legal documents and, in some cases, negotiating an exit or reduced role for the existing local partner. This is generally a more involved process than forming a new company from scratch with the current rules already in place, and is worth approaching with a consultant experienced in ownership restructuring specifically.",
@@ -7699,11 +7489,6 @@ export const blogData: Record<string, any> = {
                 "The general concept applies UAE-wide, but the specific list of restricted activities and the process for engaging a service agent can vary by emirate — confirm the current rules for your specific licensing authority.",
             },
             {
-              question: "Can Travelaxis help me find a local service agent if my activity requires one?",
-              answer:
-                "Yes — we can help explain the requirement for your specific activity and coordinate the service agreement process, though the agent relationship itself is a direct arrangement between you and the chosen agent.",
-            },
-            {
               question: "Are there activities that require a local partner in some emirates but not others?",
               answer:
                 "The federally restricted-activities list generally applies UAE-wide, though individual emirates or free zones may apply additional local conditions — confirm your specific activity against the rules of the exact jurisdiction you're licensing in.",
@@ -7722,7 +7507,6 @@ export const blogData: Record<string, any> = {
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
             { label: "Best Business Activities in UAE", href: "/blog/best-business-activities-uae" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -7855,7 +7639,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Pakistani Founders Typically Handle This Process",
           content:
-            "For founders based in Pakistan forming a UAE company, the attestation chain has a specific extra step: personal and educational documents issued in Pakistan generally need attestation from the relevant Pakistani provincial authority or HEC (for educational certificates), followed by the Ministry of Foreign Affairs Pakistan, before they can be attested at the UAE Embassy in Islamabad and finally at the UAE Ministry of Foreign Affairs once in the UAE. This four-step chain is one of the more time-consuming attestation paths, and starting it well before any other formation step is the single most effective way to keep the overall timeline on track. Travelaxis works with founders through this exact sequence regularly and can advise on realistic timing for each stage.",
+            "For founders based in Pakistan forming a UAE company, the attestation chain has a specific extra step: personal and educational documents issued in Pakistan generally need attestation from the relevant Pakistani provincial authority or HEC (for educational certificates), followed by the Ministry of Foreign Affairs Pakistan, before they can be attested at the UAE Embassy in Islamabad and finally at the UAE Ministry of Foreign Affairs once in the UAE. This four-step chain is one of the more time-consuming attestation paths, and starting it well before any other formation step is the single most effective way to keep the overall timeline on track.",
         },
         {
           heading: "Common Document Rejection Reasons",
@@ -7885,11 +7669,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Helps With Document Preparation",
-          content:
-            "We review your document set against your specific activity and structure's requirements, flag anything needing attestation or translation before it becomes a delay, and organize corporate shareholder documents when applicable. We coordinate with your chosen DED or free zone authority — final approval and licensing decisions rest with them. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "What Happens If a Document Expires Mid-Process",
           content:
             "Formation isn't always instant, and passports, NOCs, and even some attested certificates carry expiry dates that can lapse while an application is still moving through approvals. A passport nearing the end of its validity window is the most common issue — most authorities want at least six months of remaining validity at the point of submission, and if that window closes partway through processing, the application can stall until a renewed passport copy is submitted and other documents referencing the old passport number are corrected to match. The same applies to NOCs, which are often issued with their own internal validity window and can lapse if a formation drags on. Checking expiry dates across your entire document set before submission, not just at the start of the process, avoids having to restart parts of an otherwise complete application.",
@@ -7907,7 +7686,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Getting Started With Your Document Preparation",
           content:
-            "If you're early in the formation process, the most useful first step is a straightforward inventory: list every shareholder, note their nationality and current location, and identify which of their documents will need attestation based on where they were issued. From there, the attestation chain can start immediately while trade name reservation and activity selection happen in parallel. Travelaxis can review your specific situation, confirm exactly which documents your chosen activity and structure require, and help sequence your preparation so the slowest steps — attestation and translation — aren't the reason your formation timeline runs long.",
+            "If you're early in the formation process, the most useful first step is a straightforward inventory: list every shareholder, note their nationality and current location, and identify which of their documents will need attestation based on where they were issued. From there, the attestation chain can start immediately while trade name reservation and activity selection happen in parallel. Sequencing it this way stops the slowest steps — attestation and translation — from being the reason your formation timeline runs long.",
         },
         {
           heading: "Frequently Asked Questions",
@@ -7943,11 +7722,6 @@ export const blogData: Record<string, any> = {
                 "Most formation authorities accept clear copies for initial submission, but attested documents usually need to be original attested copies, not photocopies of an attestation — the authority may also ask to see originals for verification at some point in the process.",
             },
             {
-              question: "Can Travelaxis collect documents from shareholders located outside the UAE?",
-              answer:
-                "Yes — we regularly coordinate document collection from shareholders in Pakistan and other countries, including guiding them through their home-country attestation steps before the documents are couriered or submitted digitally for the UAE stage.",
-            },
-            {
               question: "Is a UAE bank account needed before I can submit formation documents?",
               answer:
                 "No — a bank account is opened after formation, using your new trade license and MOA. It's a separate process from document submission for the license itself.",
@@ -7961,7 +7735,6 @@ export const blogData: Record<string, any> = {
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
             { label: "How to Start a Business in Dubai from Pakistan", href: "/blog/start-business-in-dubai-from-pakistan" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -8079,11 +7852,6 @@ export const blogData: Record<string, any> = {
             "Corporate banking is one area where founders sometimes assume mainland companies have an automatic advantage, and while some banks do have deeper familiarity with mainland structures given their longer history in the market, many banks today work extensively with free zone companies as well, particularly well-established free zones with a long operating track record. What tends to matter more to a bank's risk assessment than mainland-versus-freezone status specifically is the clarity of your business activity, the transparency of your expected transaction profile, and whether your chosen structure and free zone (if applicable) are ones the bank has processed successfully before. A newer, smaller free zone with limited banking track record can sometimes present more friction during account opening than an established one, regardless of the mainland/freezone distinction itself.",
         },
         {
-          heading: "How Travelaxis Helps You Decide",
-          content:
-            "Because the right structure depends on where your customers actually are, your growth plans, and your specific activity's qualifying-income tax treatment, we walk through these factors with each client individually rather than defaulting to a single recommendation. We help compare realistic all-in costs across mainland and relevant freezone options for your specific activity and visa needs, and coordinate document preparation and submission with your chosen authority once you've decided. The structure decision itself, and its tax and regulatory implications, are worth confirming with a licensed tax agent alongside our documentation support. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
             {
@@ -8145,7 +7913,6 @@ export const blogData: Record<string, any> = {
             { label: "Best Freezones in UAE for Business Setup", href: "/blog/best-freezones-uae" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -8294,11 +8061,6 @@ export const blogData: Record<string, any> = {
             "Moving an existing company from one free zone to another, or from a free zone to mainland, is possible but is treated as a new formation in most cases rather than a simple transfer — it typically involves liquidating or deregistering the existing license and forming a fresh one in the new jurisdiction, along with reissuing any dependent visas and updating your bank account records. This makes the initial choice of free zone more consequential than it might first appear, since correcting a poor fit later carries real cost and administrative effort rather than being a quick switch.",
         },
         {
-          heading: "How Travelaxis Helps You Choose and Register",
-          content:
-            "With dozens of free zones each offering different activity lists, package structures, and pricing, comparing options thoroughly on your own is time-consuming and easy to get wrong on a detail that only becomes apparent later. Travelaxis reviews your specific activity, budget, and visa needs against current free zone offerings, shortlists zones that are a genuine fit rather than the most heavily marketed ones, and handles document preparation and submission with your chosen authority. Final approval, activity licensing, and fee schedules remain with the free zone authority itself. Learn more about our [free zone company formation guides](/free-zones).",
-        },
-        {
           heading: "Common Mistakes Choosing a Freezone",
           subsections: [
             {
@@ -8351,11 +8113,6 @@ export const blogData: Record<string, any> = {
                 "Several free zones offer packages without a mandatory physical office beyond a registered flexi-desk, which suits remote consultants and holding companies, though visa allocation is often tied to office tier regardless of whether the space is used daily.",
             },
             {
-              question: "How does Travelaxis decide which free zone to recommend?",
-              answer:
-                "We start from your registered activity, expected visa count, and target customer base, then compare current package pricing and terms across zones that approve your activity, before presenting a shortlist rather than a single default recommendation.",
-            },
-            {
               question: "Do free zone companies pay UAE corporate tax?",
               answer:
                 "Qualifying free zone entities can access a preferential corporate tax regime under current UAE rules, subject to meeting specific substance and income conditions — confirm your eligibility with a tax advisor, since this depends on your activity and structure specifically, and can change as rules are updated.",
@@ -8367,24 +8124,16 @@ export const blogData: Record<string, any> = {
           note:
             "For full package details, activity lists, and FAQs specific to one zone, see its dedicated guide below.",
           relatedLinks: [
-            { label: "IFZA Company Formation Guide", href: "/free-zones/ifza" },
-            { label: "DMCC Company Formation Guide", href: "/free-zones/dmcc" },
-            { label: "Meydan Free Zone Company Formation Guide", href: "/free-zones/meydan-free-zone" },
-            { label: "RAKEZ Company Formation Guide", href: "/free-zones/rakez" },
-            { label: "SHAMS Company Formation Guide", href: "/free-zones/shams" },
-            { label: "JAFZA Company Formation Guide", href: "/free-zones/jafza" },
-            { label: "Browse All UAE Free Zones", href: "/free-zones" },
+            { label: "Dubai Visit Visa from Pakistan", href: "/visit-visa/uae" },
           ],
         },
       
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Browse All UAE Free Zones", href: "/free-zones" },
             { label: "Documents Required for Company Formation in UAE", href: "/blog/documents-company-formation-uae" },
             { label: "How to Start a Business in UAE Without Local Sponsor", href: "/blog/start-business-uae-without-sponsor" },
             { label: "Business Setup in UAE for Foreigners", href: "/blog/business-setup-uae-foreigners-guide" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -8543,11 +8292,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Helps With Activity Selection",
-          content:
-            "We help prospective founders map their business idea to the correct specific activity code, flag whether additional regulatory approval applies, and check activity approval against the free zones or mainland categories being considered — before formation begins, when correcting course is easy, rather than after a license has already been issued against the wrong activity. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "Common Mistakes Choosing an Activity",
           subsections: [
             {
@@ -8595,11 +8339,6 @@ export const blogData: Record<string, any> = {
                 "Existing experience or industry knowledge generally matters more for long-term success than chasing a trending sector alone — a trending activity with genuine execution advantage beats a trending activity with none.",
             },
             {
-              question: "Can Travelaxis recommend a specific business activity for me?",
-              answer:
-                "We can help map your business idea to the correct activity code and flag regulatory requirements, but the choice of what business to actually pursue is yours — we support the licensing and documentation side of that decision.",
-            },
-            {
               question: "Does my chosen activity affect how much corporate tax I pay?",
               answer:
                 "Activity can affect qualifying-income treatment under certain free zone tax regimes and can determine whether sector-specific taxes or fees apply — confirm the tax implications of your specific activity with a licensed tax agent.",
@@ -8618,7 +8357,6 @@ export const blogData: Record<string, any> = {
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "How to Start a Business in Dubai", href: "/blog/start-business-dubai" },
             { label: "Mainland vs Freezone Company in UAE", href: "/blog/mainland-vs-freezone-uae" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -8736,11 +8474,6 @@ export const blogData: Record<string, any> = {
             "Mainland and free zone companies generally face similar core banking requirements, but some banks have stronger established relationships with specific free zones, which can smooth the review process. Companies with corporate shareholders (rather than individual shareholders) typically face additional scrutiny, since the bank needs to trace beneficial ownership through the corporate structure, which can mean requesting incorporation documents and ownership charts for the parent company as well. Businesses with shareholders or directors from certain nationalities or based in certain countries may also encounter additional compliance questions as part of standard international banking risk protocols, unrelated to the business itself.",
         },
         {
-          heading: "How Travelaxis Helps With Corporate Banking",
-          content:
-            "We help business owners prepare a clear, complete banking application package — company documents, a well-written business profile, and expected transaction information — and can point clients toward banks that commonly work well with their specific free zone or activity type based on our experience across many client applications. Final account approval decisions rest entirely with the bank's own compliance process. Learn more about our [business support services](/services/business-support).",
-        },
-        {
           heading: "Minimum Balance Requirements and Ongoing Fees",
           content:
             "Beyond the initial deposit, most corporate accounts carry a minimum average balance requirement, and falling below it typically results in a monthly fee rather than immediate account closure. These minimums vary significantly by bank, ranging from a relatively modest threshold at some digital-first providers to considerably higher requirements at some traditional banks' standard business accounts. It's worth factoring the ongoing minimum balance requirement into your cash flow planning before choosing a bank, not just the account-opening documentation requirements, since a mismatch between your typical operating balance and the bank's minimum can create an avoidable recurring cost.",
@@ -8826,7 +8559,6 @@ export const blogData: Record<string, any> = {
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
-            { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -8976,11 +8708,6 @@ export const blogData: Record<string, any> = {
             "Certification isn't a one-time achievement — most ISO standards require annual surveillance audits to confirm the management system is still being actively followed, not just that it was in place at the original audit. A full recertification audit, more thorough than the annual surveillance check, is typically required every three years. Businesses that treat certification as \"done\" after the initial audit often struggle at surveillance time, since documentation and practices can drift once the initial push toward certification passes. Assigning clear internal ownership of the management system on an ongoing basis, not just during the certification project itself, is what keeps surveillance audits routine rather than stressful.",
         },
         {
-          heading: "How Travelaxis Supports ISO Certification Projects",
-          content:
-            "We help businesses identify which ISO standard best fits their tender requirements or client expectations, connect with accredited certification bodies appropriate to their industry, and coordinate the documentation and scheduling process from gap analysis through to the certification audit. The certification decision itself, and the technical audit process, rest with the accredited certification body — our role is coordination and preparation support, not the certification itself. Learn more about our [business support services](/services/business-support).",
-        },
-        {
           heading: "Planning Certification Timing Around Your Business Calendar",
           content:
             "Because the certification process typically spans several months from gap analysis through the first audit, it's worth planning the timeline around known business milestones rather than starting reactively. Businesses anticipating a specific government tender cycle, a major client renewal that may require certification, or an expansion into export markets that commonly expect ISO-certified suppliers all benefit from starting the certification process well ahead of that deadline, since a rushed timeline tends to produce weaker documentation and a higher chance of a failed first audit.",
@@ -9047,7 +8774,6 @@ export const blogData: Record<string, any> = {
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
-            { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -9183,11 +8909,6 @@ export const blogData: Record<string, any> = {
             "If a trademark registration lapses without renewal, the mark generally loses its active protected status and becomes vulnerable to being registered by another party, including a competitor who may have been waiting for exactly this opportunity. Reinstating a lapsed trademark, where possible at all, is typically more complex and costly than simply renewing on time would have been, and in some cases a lapsed mark cannot be reclaimed if another party has already registered it in the interim. Building trademark renewal into the same compliance calendar used for trade license and visa renewals avoids it being the one recurring deadline that gets overlooked simply because it comes up only once every ten years.",
         },
         {
-          heading: "How Travelaxis Supports Trademark Registration",
-          content:
-            "We help business owners understand what trademark protection actually covers relative to their existing trade name registration, coordinate the search and application process with a licensed trademark agent, and track renewal deadlines alongside other compliance dates. The registration decision and any objection proceedings are handled by the Ministry of Economy and, where engaged, a licensed trademark agent. Learn more about our [business support services](/services/business-support).",
-        },
-        {
           heading: "Frequently Asked Questions",
           faqs: [
             {
@@ -9245,11 +8966,6 @@ export const blogData: Record<string, any> = {
               answer:
                 "As early as practical — registering before your brand gains market visibility reduces the risk of a competitor adopting a similar name first or filing a conflicting application ahead of you.",
             },
-            {
-              question: "Can Travelaxis handle the objection process if someone challenges my trademark?",
-              answer:
-                "We can coordinate with a licensed trademark agent to manage objection proceedings on your behalf, though the actual legal defense is typically handled directly by the agent or a specialized trademark lawyer given the technical nature of these disputes.",
-            },
           ],
         },
       
@@ -9259,7 +8975,6 @@ export const blogData: Record<string, any> = {
             { label: "How to Renew Trade License in UAE", href: "/blog/renew-trade-license-uae-guide" },
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
-            { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -9415,11 +9130,6 @@ export const blogData: Record<string, any> = {
           note: "Trying to combine a license amendment with routine renewal without flagging it in advance can slow down what would otherwise be a routine renewal.",
         },
         {
-          heading: "How Travelaxis Supports License Renewal",
-          content:
-            "We track your renewal timeline, help confirm your tenancy or facility agreement is current, and organize your renewal documents so submission goes through in one pass. We don't renew the license ourselves — that decision and issuance sit with your licensing authority. Learn more about our [UAE government services coordination](/services/government-services).",
-        },
-        {
           heading: "Renewal and Corporate Tax or VAT Obligations",
           content:
             "License renewal is a good annual checkpoint to also confirm your VAT and corporate tax filings are current, since these run on their own separate schedules but a business in good standing on all fronts generally has a smoother renewal experience overall. Some authorities may check for outstanding regulatory issues beyond the license itself before processing renewal.",
@@ -9503,11 +9213,6 @@ export const blogData: Record<string, any> = {
                 "Setting calendar reminders 60 and 30 days before expiry, or maintaining a simple, shared compliance calendar covering all your business's recurring renewal dates, is the most reliable way to avoid an accidental lapse each year.",
             },
             {
-              question: "Does Travelaxis handle trade license renewal directly?",
-              answer:
-                "We help prepare and organize your renewal documents and coordinate submission through the correct channel; the license itself is renewed by your licensing authority, not by us.",
-            },
-            {
               question: "Can license renewal be completed entirely online?",
               answer:
                 "Many free zones and DED portals now support fully digital renewal for straightforward cases, though some situations, like an updated tenancy contract, may still require additional in-person steps or manual document verification at a service center.",
@@ -9521,7 +9226,6 @@ export const blogData: Record<string, any> = {
             { label: "Business Compliance in UAE", href: "/blog/business-compliance-uae-guide" },
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
-            { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -9640,11 +9344,6 @@ export const blogData: Record<string, any> = {
             "In larger companies, compliance responsibilities are often split across finance, HR, and legal functions, but small businesses and solo founders frequently have no one explicitly assigned to track any of it, which is precisely how deadlines get missed. Even without a dedicated compliance hire, it's worth explicitly deciding who owns which recurring obligation — whether that's the founder personally, an outsourced accountant handling tax and VAT, a PRO service handling visa and license renewals, or a combination. The businesses that manage compliance most smoothly tend to be the ones that treat it as a assigned, recurring responsibility with calendar reminders, rather than something addressed reactively when a renewal notice or fine arrives. For very small teams, outsourcing tax and VAT compliance to a licensed accountant while keeping visa and license tracking in-house is a common, cost-effective split.",
         },
         {
-          heading: "How Travelaxis Supports Ongoing Compliance",
-          content:
-            "While Travelaxis is a documentation consultancy rather than a licensed accountant or law firm, we help business owners understand which compliance obligations apply to their specific activity and structure, coordinate document preparation for renewals and filings, and connect clients with licensed tax agents or legal advisors for matters requiring their specific expertise. For UAE company formation and ongoing government-facing paperwork, we can help make sure renewal deadlines aren't missed simply because no one was tracking them. Learn more about our [business support services](/services/business-support).",
-        },
-        {
           heading: "Setting Up Reminders That Actually Work",
           content:
             "A compliance calendar is only useful if someone actually checks it before a deadline passes, not after. Beyond noting dates in a shared calendar, many small businesses find it effective to set reminders 60 and 30 days ahead of each major renewal — trade license, VAT filing, employee visa expiry — rather than relying on the exact deadline date alone, since document preparation (particularly anything requiring attestation, translation, or third-party input) often needs lead time that a same-week reminder doesn't allow for. Businesses using an outsourced accountant or PRO service should still keep their own parallel tracking, since relying entirely on a third party to flag every deadline removes a layer of oversight that's cheap to maintain internally.",
@@ -9731,7 +9430,6 @@ export const blogData: Record<string, any> = {
             { label: "Municipality Approval in UAE", href: "/blog/municipality-approval-uae-guide" },
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
-            { label: "Business Support Services", href: "/services/business-support" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -9853,11 +9551,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Supports Municipality Approval",
-          content:
-            "We help you understand which approvals your specific activity needs, organize the documentation your fit-out contractor and the municipality will request, and coordinate timing so municipality approval and trade license activation align rather than creating a gap. We don't conduct the inspection or grant approval ourselves — that's the municipality's role. Learn more about our [UAE government services coordination](/services/government-services).",
-        },
-        {
           heading: "Health and Safety Certificates Beyond the Initial Approval",
           content:
             "For many activities, municipality approval isn't a one-time event — food businesses commonly need periodic health inspections and food handler certifications for staff, while other regulated activities may need annual or periodic re-certification alongside trade license renewal. Treating municipality compliance as ongoing rather than a single hurdle at launch avoids gaps that can affect your ability to keep operating.",
@@ -9964,7 +9657,6 @@ export const blogData: Record<string, any> = {
             { label: "Customs Registration in UAE", href: "/blog/customs-registration-uae-guide" },
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
-            { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -9996,11 +9688,6 @@ export const blogData: Record<string, any> = {
           heading: "How This Fits Into Your Overall Formation Timeline",
           content:
             "Customs registration doesn't need to wait until your first shipment is imminent — it can be completed any time after trade license issuance, and doing so proactively rather than reactively removes one more variable from your first import or export transaction. Businesses planning to trade internationally from day one should treat customs registration as part of their standard post-formation checklist, alongside bank account opening and visa applications, rather than an afterthought triggered only once a shipment is already en route and time-sensitive.",
-        },
-        {
-          heading: "How Travelaxis Supports Customs Registration",
-          content:
-            "We help businesses complete customs registration alongside their other post-formation steps, coordinating documentation with the relevant emirate's customs authority so it's handled proactively rather than becoming a bottleneck at the first shipment. Learn more about our [UAE government services coordination](/services/government-services).",
         },
         {
           heading: "Documents Typically Needed",
@@ -10139,11 +9826,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Supports Customs Registration",
-          content:
-            "We help confirm your trade license activity supports customs registration, organize the required company documents, and coordinate submission through the relevant emirate's customs department — the registration itself, and any duty assessment, is determined by the customs authority, not by us.",
-        },
-        {
           heading: "Planning Customs Registration Into Your Company Formation Timeline",
           content:
             "Businesses that know from the outset they'll be importing or exporting goods save time by confirming their trade activity supports customs registration and gathering Chamber of Commerce documents during company formation itself, rather than treating customs registration as a separate project to start after the company is already operating. This overlap in timing is one of the simpler ways to shorten the overall path from formation to your first cleared shipment.",
@@ -10219,7 +9901,6 @@ export const blogData: Record<string, any> = {
             { label: "Dubai Chamber of Commerce Registration Guide", href: "/blog/dubai-chamber-registration-guide" },
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
-            { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -10330,11 +10011,6 @@ export const blogData: Record<string, any> = {
           note: "Chamber membership complements your trade license rather than replacing it — most businesses need both for full trading and export capability.",
         },
         {
-          heading: "How Travelaxis Helps With Dubai Chamber Registration",
-          content:
-            "We review your trade license, MOA, and supporting documents to confirm you're applying for the correct membership category, then help organize and submit a complete file so the registration goes through without repeat submissions over missing paperwork. We are a documentation and consultancy service — Dubai Chamber issues membership and certificates itself, not us. Learn more about our [UAE government services coordination](/services/government-services).",
-        },
-        {
           heading: "Common Mistakes When Registering",
           items: [
             "Applying for a membership tier that doesn't match the company's actual size or capital",
@@ -10385,11 +10061,6 @@ export const blogData: Record<string, any> = {
             "Missing the authorized signatory's passport copy",
             "Applying under the wrong membership tier relative to actual share capital",
           ],
-        },
-        {
-          heading: "How Travelaxis Supports Dubai Chamber Registration",
-          content:
-            "Beyond confirming your correct membership category, we help make sure your trade license, MOA, and signatory documents are current and consistent before submission, which is the most common reason first applications get sent back for correction. For businesses that will need certificates of origin regularly, we also help set up your export documentation templates so each future request goes faster than the first.",
         },
         {
           heading: "Dubai Chamber's Role in Dispute Resolution and Arbitration",
@@ -10500,16 +10171,6 @@ export const blogData: Record<string, any> = {
                 "Generally no — active membership is typically required first, since certificates of origin are issued to registered Chamber members.",
             },
             {
-              question: "Does Travelaxis issue certificates of origin directly?",
-              answer:
-                "No — Dubai Chamber issues these certificates itself. We help prepare and organize your documentation so the request goes through cleanly.",
-            },
-            {
-              question: "Can Travelaxis help if my Chamber membership renewal has already lapsed?",
-              answer:
-                "Yes — we can help review what's needed to reinstate membership alongside your current trade license status, though any lapsed-period conditions are set by Dubai Chamber itself.",
-            },
-            {
               question: "Do I need a physical visit to Dubai Chamber to register?",
               answer:
                 "Many registration and renewal steps can be completed through Dubai Chamber's digital channels, though certain document verifications may still require an in-person step depending on your case.",
@@ -10542,17 +10203,12 @@ export const blogData: Record<string, any> = {
             {
               question: "Who should I contact if I have a question specific to my membership category?",
               answer:
-                "Dubai Chamber's own registration channels are the authoritative source for category-specific questions; we can help you prepare documents but final category decisions rest with the Chamber.",
+                "Dubai Chamber's own registration channels are the authoritative source for category-specific questions, and final category decisions rest with the Chamber.",
             },
             {
               question: "Does a startup with no export activity yet still benefit from joining early?",
               answer:
                 "Often yes — registering before your first export shipment means the certificate-of-origin process and Chamber's networking access are already in place the moment your first international opportunity arrives, rather than adding registration time on top of a time-sensitive deal.",
-            },
-            {
-              question: "Can Travelaxis help if I'm unsure whether my business needs Chamber membership at all?",
-              answer:
-                "Yes — we can review your activity and plans against typical membership triggers (export documentation, customs registration) to help you decide, though the final requirement determination rests with Dubai Chamber and your specific licensing authority.",
             },
             {
               question: "Does Dubai Chamber offer dispute resolution services?",
@@ -10573,7 +10229,6 @@ export const blogData: Record<string, any> = {
             { label: "How to Get Trade License Approval in UAE", href: "/blog/trade-license-approval-uae-guide" },
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
-            { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -10711,11 +10366,6 @@ export const blogData: Record<string, any> = {
           },
         },
         {
-          heading: "How Travelaxis Supports Trade License Approval",
-          content:
-            "We review your documents at each stage — trade name, initial approval, activity-specific requirements, and final submission — to catch inconsistencies before they cause a delay, and coordinate with your chosen DED or free zone authority. We don't issue the license ourselves; that decision and the license itself come from the licensing authority. Learn more about our [UAE government services coordination](/services/government-services).",
-        },
-        {
           heading: "Choosing Your Business Activity Before You Start",
           content:
             "Your business activity selection at the trade name and initial approval stage shapes every subsequent step — it determines whether sector-specific approval applies, what your MOA needs to state, and what your license will actually permit you to do once issued. Changing activity after initial approval means restarting parts of the sequence, so it's worth confirming your activity list is complete (including near-term plans, not just your very first offering) before beginning.",
@@ -10739,11 +10389,6 @@ export const blogData: Record<string, any> = {
           heading: "Final Thoughts on First-Time License Approval",
           content:
             "Getting a trade license approved smoothly comes down to sequencing and consistency — following the steps in order, keeping every document aligned with what was submitted at the previous stage, and confirming activity-specific requirements before they become a surprise at final review. Founders who treat the sequence as a checklist rather than a single event tend to move through it with the fewest delays.",
-        },
-        {
-          heading: "How Travelaxis Helps First-Time Applicants",
-          content:
-            "We guide founders through the exact approval sequence for their specific activity and jurisdiction, flag document requirements before they become a bottleneck at final review, and coordinate submission through the correct authority. Final approval decisions rest with the DED or free zone authority itself.",
         },
         {
           heading: "A Pre-Submission Checklist",
@@ -10842,7 +10487,6 @@ export const blogData: Record<string, any> = {
             { label: "How to Open Corporate Bank Account in UAE", href: "/blog/corporate-bank-account-uae-guide" },
             { label: "ISO Certification in UAE", href: "/blog/iso-certification-uae-guide" },
             { label: "Trademark Registration in UAE", href: "/blog/trademark-registration-uae-guide" },
-            { label: "Government Services & Approvals", href: "/services/government-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -10987,7 +10631,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis Supports Golden Visa Applications",
           content:
-            "We help applicants identify which category best fits their actual circumstances, prepare and organize category-specific supporting documentation, and coordinate submission through ICP or the relevant emirate authority. For property investors, business investors, and specialized-talent applicants, we can walk through the specific evidence each category's reviewers commonly expect. Final eligibility determination and approval rest entirely with ICP. Learn more about our [UAE Golden Visa documentation service](/services/visa-services).",
+            "We help applicants identify which category best fits their actual circumstances, prepare and organize category-specific supporting documentation, and coordinate submission through ICP or the relevant emirate authority. For property investors, business investors, and specialized-talent applicants, we can walk through the specific evidence each category's reviewers commonly expect. Final eligibility determination and approval rest entirely with ICP. Learn more about our [UAE Golden Visa documentation service](/services/uae-golden-visa).",
         },
         {
           heading: "How Golden Visa Renewal Generally Works",
@@ -11071,7 +10715,7 @@ export const blogData: Record<string, any> = {
             { label: "Investor Visa UAE", href: "/blog/investor-visa-uae-guide" },
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
+            { label: "UAE Golden Visa from Pakistan", href: "/services/uae-golden-visa" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -11212,11 +10856,6 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis Supports Business-Based Visa Applications",
-          content:
-            "We help business owners identify which residence route best fits their shareholding, income, and long-term plans, prepare and organize the required documentation, and coordinate submission through the appropriate government channel. Final visa approval and issuance remain with ICP, GDRFA, or the relevant free zone immigration department — our role is documentation preparation and coordination support, not visa issuance itself. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "Choosing Between the Standard Route and the Golden Visa",
           columnCompare: {
             left: {
@@ -11293,11 +10932,9 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -11502,7 +11139,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Getting Started With Your Investor Visa Application",
           content:
-            "Whether you're applying for the first time after forming your company or preparing for a renewal, having your establishment card, share documents, and tenancy agreement organized before starting saves considerable back-and-forth. We're happy to review your specific situation and outline exactly what your file needs, whether this is your first investor visa or a renewal following a change in your company. Learn more about our [UAE investor visa documentation service](/services/visa-services).",
+            "Whether you're applying for the first time after forming your company or preparing for a renewal, having your establishment card, share documents, and tenancy agreement organized before starting saves considerable back-and-forth. We're happy to review your specific situation and outline exactly what your file needs, whether this is your first investor visa or a renewal following a change in your company. Learn more about our [UAE Golden Visa documentation service](/services/uae-golden-visa).",
         },
         {
           heading: "Frequently Asked Questions",
@@ -11561,7 +11198,7 @@ export const blogData: Record<string, any> = {
             { label: "How to Get UAE Residence Visa Through Business", href: "/blog/uae-residence-visa-through-business" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
+            { label: "UAE Golden Visa from Pakistan", href: "/services/uae-golden-visa" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -11697,11 +11334,6 @@ export const blogData: Record<string, any> = {
             "Occasionally a step in the process doesn't proceed smoothly — a medical test result requiring a retest, a document flagged as needing clarification, or a status change request that turns out to require an exit and re-entry instead. In most cases, these situations are resolvable rather than fatal to the application, but they do add time, which is why building some buffer into any personal or business planning that depends on a visa being finalized by a specific date is generally wiser than assuming the fastest-case timeline will hold. Working with a consultant familiar with your specific visa category means issues like this are usually caught and addressed faster than if navigating the process independently for the first time.",
         },
         {
-          heading: "How Travelaxis Supports the Visa Process",
-          content:
-            "We help applicants understand which stage of the process applies to their situation, prepare and organize the required documentation for each step, and coordinate submission and follow-up through the appropriate government channel or approved typing center. Final approval and visa issuance rest with ICP, GDRFA, or the relevant emirate's residency authority — our role is documentation preparation and process coordination, not visa issuance itself. Learn more about our [UAE visa documentation service](/services/visa-services).",
-        },
-        {
           heading: "How to Track Your Application Status",
           content:
             "Most UAE visa processing today runs through digital channels — ICP's federal platform, or your specific emirate's residency authority app or portal — which typically let you track status at each stage: entry permit issuance, medical fitness test completion, Emirates ID processing, and final visa stamping. If you applied through a typing center, consultancy, or your employer's PRO, they generally have direct visibility into status updates and can flag issues faster than checking independently. It's worth keeping your own copies of every reference number generated at each stage (entry permit number, medical test appointment reference, Emirates ID application number), since these are typically what you'll need if you ever need to follow up directly with an authority rather than through an intermediary.",
@@ -11768,11 +11400,6 @@ export const blogData: Record<string, any> = {
               answer:
                 "Requirements can differ by age for the medical fitness test, with some younger age groups exempt or subject to a lighter screening — confirm current age-based requirements with the processing authority for your specific case.",
             },
-            {
-              question: "Can Travelaxis handle the entire visa process for me from Pakistan?",
-              answer:
-                "We can prepare and organize documentation and coordinate with the relevant UAE authority or your sponsor throughout the process, including guiding attestation steps that need to happen in Pakistan before submission in the UAE.",
-            },
           ],
         },
         {
@@ -11791,7 +11418,6 @@ export const blogData: Record<string, any> = {
             { label: "Visa Documentation & Typing Center Support Near JLT, Dubai", href: "/blog/visa-typing-center-jlt-dubai-guide" },
             { label: "Fast-Track Visa Document Verification in Dubai", href: "/blog/fast-track-visa-document-verification-dubai" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -12155,11 +11781,6 @@ export const blogData: Record<string, any> = {
             "Many successful Noon sellers start with a single validated product rather than a broad catalog, using that first product's sales data, customer feedback, and margin performance to inform which additional products to add next. This approach reduces upfront inventory risk (particularly relevant for sellers not using dropshipping) and lets you build genuine expertise in one product category's demand patterns and competition before spreading attention and capital across many unproven products simultaneously.",
         },
         {
-          heading: "How Travelaxis Supports Noon Sellers",
-          content:
-            "We help prospective and existing Noon sellers set up the right trade license structure for their scale and growth plans, handle the documentation Noon's verification process requires, and advise on VAT registration timing as sales grow. Platform-specific approval, account tier decisions, and fee structures remain within Noon's own policies. Learn more about our [UAE company formation service](/services/company-formation).",
-        },
-        {
           heading: "Why Professional Consultancy Helps",
           content:
             "Selling on Noon involves setup, strategy, and growth. A consultancy can help you avoid costly mistakes, grow faster, and save time on compliance and planning.",
@@ -12202,17 +11823,12 @@ export const blogData: Record<string, any> = {
               answer:
                 "This varies by document completeness and current review volume, but sellers submitting a complete, accurate document set from the start generally clear verification faster than those submitting partial applications.",
             },
-            {
-              question: "Can Travelaxis set up my trade license specifically for Noon selling?",
-              answer:
-                "Yes — we help set up e-commerce-appropriate mainland or freezone licenses and prepare the documentation Noon's seller verification process requires from new sellers getting started.",
-            },
           ],
         },
         {
           heading: "Final Thoughts",
           content:
-            "Selling on Noon UAE is one of the strongest opportunities in today’s digital economy. It is relatively easy to start, demand is high, and growth potential is significant. If you follow a clear strategy—research, listings, pricing, and service—you can build a serious e-commerce business. If you want help with your seller account, product selection, or scaling, contact us and we will guide you through the next steps.",
+            "Selling on Noon UAE is one of the strongest opportunities in today’s digital economy. It is relatively easy to start, demand is high, and growth potential is significant. If you follow a clear strategy—research, listings, pricing, and service—you can build a serious e-commerce business. Travelaxis does not offer UAE business setup services; this guide is general information only.",
         },
       
         {
@@ -12221,7 +11837,6 @@ export const blogData: Record<string, any> = {
             { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
             { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },],
@@ -12448,7 +12063,7 @@ export const blogData: Record<string, any> = {
         },
         {
           heading: "Getting Documentation Support for Your Dropshipping License",
-          content: "If you're unsure whether mainland or free zone fits your plans, or want your e-commerce license file reviewed before submission, a documentation consultancy can help organize your paperwork and flag anything likely to cause delay — the license and approval decisions themselves remain with the relevant DED or free zone authority. Learn more about our [UAE company formation service](/services/company-formation)."
+          content: "If you're unsure whether mainland or free zone fits your plans, or want your e-commerce license file reviewed before submission, a documentation consultancy can help organize your paperwork and flag anything likely to cause delay — the license and approval decisions themselves remain with the relevant DED or free zone authority."
         },
         {
           heading: "Why Professional Consultancy Helps",
@@ -12489,7 +12104,6 @@ export const blogData: Record<string, any> = {
             { label: "E-Commerce License UAE", href: "/blog/ecommerce-license-uae-guide" },
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },]
@@ -12742,7 +12356,7 @@ export const blogData: Record<string, any> = {
         },
         {
           heading: "Why Professional Consultancy Helps",
-          content: "Professional consultancy provides setup guidance and helps organize your documentation, which reduces avoidable delays — though the license and approval decisions themselves remain with the relevant DED or free zone authority. Learn more about our [UAE company formation service](/services/company-formation)."
+          content: "Professional consultancy provides setup guidance and helps organize your documentation, which reduces avoidable delays — though the license and approval decisions themselves remain with the relevant DED or free zone authority."
         },
         {
           heading: "Frequently Asked Questions",
@@ -12776,7 +12390,6 @@ export const blogData: Record<string, any> = {
             { label: "Complete Guide to Company Formation in UAE", href: "/blog/company-formation-uae" },
             { label: "Noon Seller Account UAE", href: "/blog/noon-seller-account-uae-guide" },
             { label: "Dropshipping Business in UAE", href: "/blog/dropshipping-business-uae-guide" },
-            { label: "Company Formation Services", href: "/services/company-formation" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },]
@@ -13015,12 +12628,524 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "Travelaxis Home", href: "/" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
-            { label: "UAE Visa Documentation & Consultancy", href: "/services/visa-services" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },]
     }
-  }
+  },
+  "job-seeker-visa-uae-documents-guide": {
+    title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
+    metaTitle: "UAE Job Seeker Visa – Full Eligibility & Document Checklist",
+    metaDescription:
+      "Who qualifies for the UAE jobseeker visit visa, the official document list, the 60, 90 or 120-day options, and what happens once you get a job offer.",
+    date: "July 6, 2026",
+    readTime: "11 min read",
+    category: "UAE Visa Documentation",
+    content: {
+      intro:
+        "The UAE jobseeker visit visa (called a visit visa \"to explore job opportunities\" by GDRFA Dubai) lets genuine candidates enter and stay in the UAE to search for work and attend interviews without needing an employer to sponsor them first. It's an official visit visa category issued through the Federal Authority for Identity, Citizenship, Customs & Port Security (ICP) and GDRFA Dubai, separate from a standard employment visa. Before going further: Travelaxis is a documentation and consultancy service, not a recruitment agency — we don't source jobs, contact employers on your behalf, or place candidates. This guide covers the paperwork only: who qualifies, what to prepare, and what happens once you actually have an offer. Always confirm current specifics on the [official UAE government page](https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Visit-visa/jobseeker-visit-visa) before applying, since conditions and fees are periodically updated.",
+      sections: [
+        {
+          heading: "What Is the UAE Jobseeker Visit Visa?",
+          content:
+            "It's a self-funded visit visa for one trip that lets you be physically present in the UAE to search for work and interview in person, without a host or sponsor in the country. You choose a validity of 60, 90 or 120 days. It does not authorize you to work — it authorizes you to look for work and be interviewed. Once you receive and accept an offer, your new employer sponsors a separate employment residence visa, which is a distinct process with its own paperwork.",
+        },
+        {
+          heading: "Why This Permit Exists",
+          content:
+            "The Job Seeker permit reflects a deliberate policy choice to make the UAE labor market more accessible to qualified international candidates, removing the traditional catch-22 where employers hesitate to sponsor entry for someone they haven't interviewed in person, while candidates couldn't previously enter without that sponsorship. It shifts the initial cost and risk of entry onto the candidate rather than the employer.",
+        },
+        {
+          heading: "Who Is Eligible",
+          subsections: [
+            {
+              title: "Official Eligibility Conditions",
+              items: [
+                "Either in the first, second or third skill level under the Ministry of Human Resources and Emiratisation (MOHRE) professional levels, or a graduate of one of the world's top 500 universities (per the Ministry of Education's approved ranking) who graduated within the last 2 years",
+                "A bachelor's degree or its equivalent",
+                "The financial guarantee set by the authorities",
+              ],
+            },
+            {
+              title: "Choosing the Validity",
+              content:
+                "The validity is not set by your degree level: the official page lets you apply for 60, 90 or 120 days, each as a single-entry visa. Choose the length that matches a realistic search plan.",
+            },
+          ],
+        },
+        {
+          heading: "Why Employers Sometimes Prefer Job Seeker Permit Candidates",
+          content:
+            "Some UAE employers specifically favor candidates already in-country on a Job Seeker permit over candidates applying from abroad, since it allows an in-person interview and faster onboarding once an offer is made, without the employer needing to sponsor entry first. Candidates who mention their Job Seeker permit status early in the interview process sometimes find this streamlines employer decision-making, since it removes an initial logistical hurdle from the employer's side entirely and speeds up hiring.",
+        },
+        {
+          heading: "Documents You Need to Prepare",
+          subsections: [
+            {
+              title: "Documents the Official Page Lists",
+              items: [
+                "A coloured photo",
+                "A copy of the applicant's passport",
+                "Qualification certificate (attested)",
+              ],
+            },
+            {
+              title: "Also Worth Preparing for the Search Itself",
+              items: [
+                "Updated CV in a UAE format",
+                "Experience letters and professional certifications for interviews",
+                "Evidence for the financial guarantee",
+                "Return ticket and accommodation for the first weeks",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Step-by-Step Application Process",
+          subsections: [
+            {
+              title: "Step 1: Check the Eligibility Conditions",
+              content:
+                "Confirm you hold a bachelor's degree or equivalent and fall in MOHRE skill level 1–3, or graduated from a top-500 university within the last 2 years, before collecting documents.",
+            },
+            {
+              title: "Step 2: Attest Your Educational Documents",
+              content:
+                "Degree certificates typically need attestation from the issuing country and the UAE Ministry of Foreign Affairs before ICP will accept them.",
+            },
+            {
+              title: "Step 3: Arrange the Financial Guarantee",
+              content:
+                "Meet the financial guarantee the authorities set for this visa, and make sure you can support yourself for the whole search period.",
+            },
+            {
+              title: "Step 4: Submit Through ICP's Official Channel",
+              content:
+                "Applications go through ICP's online services (60, 90 or 120 days, single entry) or GDRFA Dubai's \"visit visa to explore job opportunities\" service.",
+            },
+            {
+              title: "Step 5: Enter and Begin Your Job Search",
+              content:
+                "Once issued, the visa is valid for one trip, so plan your search to fit within the 60, 90 or 120 days you chose.",
+            },
+          ],
+        },
+        {
+          heading: "Job Seeker Entry Permit vs Standard Employment Visa",
+          columnCompare: {
+            left: {
+              title: "Job Seeker Entry Permit",
+              items: [
+                "No employer sponsor needed to enter the UAE",
+                "Self-funded stay while you search and interview",
+                "Time-limited: 60, 90 or 120 days, single entry",
+                "Must be converted to an employment visa once you accept an offer",
+              ],
+            },
+            right: {
+              title: "Standard Employment Visa",
+              items: [
+                "Requires a signed employer sponsor from the start",
+                "Employer typically initiates and pays for sponsorship",
+                "No built-in search period — tied to a specific confirmed role",
+                "Includes labor contract registration with MOHRE",
+              ],
+            },
+          },
+        },
+        {
+          heading: "What Happens Once You Find a Job",
+          content:
+            "The entry permit itself doesn't authorize work — once you accept an offer, your new employer sponsors a standard employment residence visa, which typically involves registering your labor contract with MOHRE, a medical fitness test, and Emirates ID issuance. This is a separate documentation process from the job seeker permit itself, and it's worth starting it well before your entry permit expires.",
+        },
+        {
+          heading: "Common Documentation Mistakes",
+          subsections: [
+            {
+              title: "Issues That Cause Delays or Rejection",
+              items: [
+                "Applying with an unattested or partially attested degree certificate",
+                "Bank statement that doesn't clearly show sufficient funds",
+                "Letting the entry permit lapse before securing or finalizing an offer",
+                "Inconsistent name spelling across passport, degree, and application documents",
+                "Assuming the entry permit itself allows you to start working before your employment visa is issued",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Costs to Budget For",
+          content:
+            "Beyond the government visa fee, budget for degree attestation in your home country plus UAE Ministry of Foreign Affairs attestation, the financial guarantee, and living costs for the search period itself. If your search extends toward the end of the visa's validity, factor in the cost of the employment-visa process that follows once you have an offer.",
+        },
+        {
+          heading: "Job Seeker Permit for Pakistani Applicants Specifically",
+          content:
+            "For Pakistani nationals applying for the jobseeker visit visa, degree attestation follows Pakistan's standard chain: attestation from the relevant provincial authority or the Higher Education Commission (HEC) for degree verification, followed by the Ministry of Foreign Affairs Pakistan, then the UAE Embassy in Islamabad, and finally the UAE Ministry of Foreign Affairs once the document reaches the UAE. Given that this attestation chain can take several weeks and an attested qualification certificate is one of the three official documents, starting it well before you plan to travel is essential — applicants who wait until they're ready to submit the full application often find attestation is the single factor delaying their entry permit the longest.",
+        },
+        {
+          heading: "What a Realistic Job Search Timeline Looks Like",
+          content:
+            "Even with the longest 120-day option, a genuinely effective job search in the UAE typically benefits from arriving with some groundwork already done — researching target companies and roles, having a UAE-formatted CV ready, and ideally having initiated some contact or applications before arrival, rather than starting entirely from zero once the permit is issued. Job seekers who treat the entry permit purely as a starting point for research, rather than a head start on an already-initiated search, often find their validity window tighter than expected once interview scheduling, follow-ups, and offer negotiation are factored in.",
+        },
+        {
+          heading: "Renewing or Extending the Job Seeker Permit",
+          content:
+            "If your job search extends beyond your permit's initial validity without a confirmed offer, options are generally limited — the Job Seeker entry permit is specifically designed as a time-bound search window rather than an indefinitely renewable status, and extension or renewal options, where they exist at all, are worth confirming directly with ICP well before your current permit expires rather than assuming an extension will be automatically available. Planning your search to conclude, one way or another, within your original validity window is the safer assumption.",
+        },
+        {
+          heading: "Choosing Between 60, 90 and 120 Days",
+          content:
+            "Because the visa is for one trip, the length you choose is your whole search window. A 60-day visa needs a compressed, focused plan with applications started before you travel; 90 or 120 days gives more room for interview rounds and offer negotiation, at a higher fee and higher living costs. Gathering your attested documentation before booking travel, rather than discovering gaps after arrival, allows for realistic planning around how many companies and roles to target.",
+        },
+        {
+          heading: "How Travelaxis Supports Job Seeker Permit Applications",
+          content:
+            "As a documentation consultancy, we help applicants from Pakistan and India check the eligibility conditions, organise their attested qualification certificate and supporting documents, and prepare a complete file for submission through ICP's or GDRFA's official channel. Learn more about our [job seeker visa documentation](/job-seeker-visa). We do not source jobs, contact employers, or place candidates — our role is limited to the visa documentation and paperwork side of the process.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Does Travelaxis find me a job in the UAE?",
+              answer:
+                "No. We are a documentation and consultancy service, not a recruitment agency or employer. We help prepare the paperwork for your entry permit and, later, your employment visa once you already have an offer — we don't source jobs, contact employers on your behalf, or guarantee employment.",
+            },
+            {
+              question: "How long is the UAE Job Seeker entry permit valid?",
+              answer:
+                "You choose 60, 90 or 120 days when you apply. It is a single-entry visa for one trip.",
+            },
+            {
+              question: "Can I work immediately on a Job Seeker entry permit?",
+              answer:
+                "No. The permit authorizes you to search for work and interview, not to work. You need a separate employment residence visa, sponsored by your employer, before you can legally start a job.",
+            },
+            {
+              question: "What happens if I don't find a job before the permit expires?",
+              answer:
+                "You would typically need to leave the UAE and, if eligible, reapply later. It's worth tracking your remaining validity closely and starting the employment-visa process as soon as you accept an offer.",
+            },
+            {
+              question: "Can the entry permit be extended?",
+              answer:
+                "Extension options depend on your specific case and current ICP rules; this is worth confirming directly rather than assuming an automatic extension is available.",
+            },
+            {
+              question: "Does the entry permit let my family join me?",
+              answer:
+                "The entry permit is issued to you as the job seeker; family sponsorship generally becomes available once you hold a standard employment residence visa that meets the income requirements for dependents.",
+            },
+            {
+              question: "Do I need a UAE address to apply?",
+              answer:
+                "Requirements vary by application channel; some processes ask for proof of accommodation (such as a hotel booking) for the initial period, which is worth confirming when you apply before you travel.",
+            },
+            {
+              question: "What do Pakistani applicants need to confirm before applying?",
+              answer:
+                "That you hold a bachelor's degree or equivalent, fall in MOHRE skill level 1–3 or graduated from a top-500 university within the last 2 years, can meet the financial guarantee, and have your degree certificate attested.",
+            },
+            {
+              question: "Can I switch from a visit visa to the Job Seeker entry permit while already in the UAE?",
+              answer:
+                "This depends on your current visa status and current ICP rules on status change eligibility — confirm your specific situation directly with ICP or a consultant rather than assuming it's automatically possible.",
+            },
+            {
+              question: "Can I apply for the Job Seeker permit while employed elsewhere?",
+              answer:
+                "Yes — the permit doesn't require you to be unemployed, but check your current employer's contract for any notice or conflict-of-interest terms before traveling to search for a new role.",
+            },
+            {
+              question: "Does the permit allow multiple entries during its validity?",
+              answer:
+                "No. The official page lists the 60, 90 and 120-day jobseeker visas as single entry, for one trip.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Job Seeker Visa Documentation", href: "/job-seeker-visa" },
+            { label: "UAE Job-Seeker Visa from Pakistan", href: "/blog/job-seeker-visa-from-pakistan" },
+            { label: "Dubai Visit Visa from Pakistan", href: "/visit-visa/uae" },
+            { label: "Visa Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
+      ],
+    },
+  },
+  "job-seeker-visa-from-pakistan": {
+    title: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents",
+    metaTitle: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents",
+    metaDescription:
+      "How the UAE jobseeker visit visa works for Pakistani applicants: official eligibility, the 60/90/120-day options, documents, and the Pakistan attestation chain.",
+    date: "August 12, 2026",
+    readTime: "12 min read",
+    category: "UAE Visa Documentation",
+    content: {
+      intro:
+        "The UAE's jobseeker visit visa, issued through the [Federal Authority for Identity, Citizenship, Customs & Port Security](https://icp.gov.ae/en/) (ICP) and GDRFA Dubai, lets you enter and remain in the UAE specifically to search for work and attend interviews, without an employer sponsoring your entry first. For Pakistani applicants the paperwork carries one extra layer that candidates from some other countries don't deal with: every educational credential you rely on has to pass through Pakistan's specific attestation chain before ICP, and later an employer, will accept it. This guide walks through the official eligibility conditions, the Pakistan-specific document chain, costs, and what happens once you land a role. Travelaxis is a documentation and consultancy service, not a recruitment agency — we don't source jobs, contact employers on your behalf, or place candidates. This guide focuses on what Pakistani applicants specifically need to prepare, and always confirm current fees and conditions on the [official UAE government page](https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/Visit-visa/jobseeker-visit-visa) before applying, since these are periodically revised.",
+      sections: [
+        {
+          heading: "Why This Process Looks Different From Pakistan",
+          content:
+            "Applicants from many countries can submit a degree certificate more or less as issued. Pakistani applicants generally can't — [HEC](https://www.hec.gov.pk) (the Higher Education Commission) or [IBCC](https://www.ibcc.edu.pk) (the Inter Board Committee of Chairmen, for pre-university qualifications) verification, followed by [Ministry of Foreign Affairs Pakistan](https://www.mofa.gov.pk) attestation and then UAE-side attestation, is the standard chain before a Pakistani degree is accepted for an entry permit application or a later employment visa. This isn't unique to the Job Seeker permit — it applies to nearly every UAE process that relies on a Pakistani educational document — but it matters most here because an attested qualification certificate is one of only three documents the official page lists, so a slow attestation chain delays the whole application.",
+        },
+        {
+          heading: "Eligibility and Validity",
+          subsections: [
+            {
+              title: "Validity: 60, 90 or 120 Days",
+              content:
+                "You choose a validity of 60, 90 or 120 days when you apply. Each is a single-entry visa for one trip, with no host or sponsor needed in the UAE.",
+            },
+            {
+              title: "Official Eligibility Conditions",
+              items: [
+                "Either in the first, second or third skill level under the Ministry of Human Resources and Emiratisation (MOHRE) professional levels, or a graduate of one of the world's top 500 universities (per the Ministry of Education's approved ranking) who graduated within the last 2 years",
+                "A bachelor's degree or its equivalent",
+                "The financial guarantee set by the authorities",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "The Pakistan-Specific Document Attestation Chain",
+          content:
+            "For a Pakistani degree to be accepted, it typically needs to move through four stages in order: first, verification from [HEC](https://www.hec.gov.pk) (for university degrees) or [IBCC](https://www.ibcc.edu.pk) (for intermediate and secondary certificates); second, attestation by the [Ministry of Foreign Affairs (MOFA) Pakistan](https://www.mofa.gov.pk); third, attestation by the UAE Embassy in Islamabad; and fourth, once the document reaches the UAE, final attestation by the UAE Ministry of Foreign Affairs and International Cooperation (MOFAIC). Each stage depends on the previous one being completed correctly — a document rejected at MOFA Pakistan because HEC verification wasn't finished properly means starting that leg over, which is the single most common cause of Job Seeker applications running later than planned. Because this chain routinely takes several weeks from a standing start, starting attestation the moment you decide to apply — rather than after you've already booked travel — is what keeps paperwork from pushing back your travel date.",
+        },
+        {
+          heading: "Full Document Checklist for Pakistani Applicants",
+          subsections: [
+            {
+              title: "Personal Documents",
+              items: [
+                "Valid passport copy (bio-data page)",
+                "Recent passport-sized photograph on a white background, meeting ICP specifications",
+                "Updated CV formatted for the UAE job market",
+                "Proof of current address in Pakistan",
+                "CNIC copy",
+              ],
+            },
+            {
+              title: "Educational & Attestation Documents",
+              items: [
+                "Original degree certificate and transcript",
+                "HEC verification certificate (for university degrees) or IBCC attestation (for intermediate/secondary certificates)",
+                "MOFA Pakistan attestation stamp on the degree",
+                "UAE Embassy Islamabad attestation stamp",
+                "UAE MOFAIC attestation, completed once the document is in the UAE or through an authorized channel",
+              ],
+            },
+            {
+              title: "Financial Documents",
+              items: [
+                "Evidence for the financial guarantee the authorities set for this visa",
+                "Proof you can support yourself for the whole search period",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Step-by-Step Process From Pakistan",
+          subsections: [
+            {
+              title: "Step 1: Check the Eligibility Conditions",
+              content:
+                "Confirm you hold a bachelor's degree or equivalent and fall in MOHRE skill level 1–3, or graduated from a top-500 university within the last 2 years, before you start attesting anything.",
+            },
+            {
+              title: "Step 2: Start HEC or IBCC Verification Immediately",
+              content:
+                "This is usually the slowest link in the chain and the one most applicants underestimate — begin it as soon as you decide to apply, not once other documents are ready.",
+            },
+            {
+              title: "Step 3: Complete MOFA Pakistan Attestation",
+              content:
+                "Once HEC or IBCC verification is issued, the degree moves to MOFA Pakistan for the next attestation stamp — this generally can't be skipped or done out of order.",
+            },
+            {
+              title: "Step 4: UAE Embassy Islamabad Attestation",
+              content:
+                "With MOFA Pakistan's stamp in place, the document goes to the UAE Embassy in Islamabad for its attestation before it can be recognized as UAE-ready.",
+            },
+            {
+              title: "Step 5: Finalize UAE MOFAIC Attestation and the Financial Guarantee",
+              content:
+                "The final attestation stage happens on the UAE side. In parallel, arrange the financial guarantee and make sure you can support yourself for the full stay.",
+            },
+            {
+              title: "Step 6: Submit Through ICP and Travel",
+              content:
+                "Submit your complete file through ICP's online services or GDRFA Dubai's \"visit visa to explore job opportunities\" service. Once issued, you can travel and search for work within the 60, 90 or 120 days you chose.",
+            },
+          ],
+        },
+        {
+          heading: "Typical Costs to Budget For",
+          content:
+            "Beyond ICP's own permit fee, Pakistani applicants should budget separately for each stage of the attestation chain: HEC or IBCC verification fees, MOFA Pakistan's attestation fee, the UAE Embassy Islamabad attestation fee, and UAE MOFAIC's fee once the document reaches the UAE. Add the financial guarantee and living costs for the search period itself — accommodation, transport, and interview-related expenses in a market where costs run considerably higher than in Pakistan. If your search extends toward the end of your permit's validity, factor in the separate cost of the employment-visa process that follows once you accept an offer, since that's a distinct fee structure from the entry permit itself. Exact fees at each stage change periodically, so confirm current pricing before budgeting rather than relying on figures from a previous year.",
+        },
+        {
+          heading: "Job Seeker Entry Permit vs Employer-Sponsored Work Visa",
+          columnCompare: {
+            left: {
+              title: "Job Seeker Entry Permit",
+              items: [
+                "No employer sponsor needed to enter the UAE",
+                "Self-funded stay while you search and interview in person",
+                "Time-limited: 60, 90 or 120 days, single entry",
+                "Must be converted to an employment visa once you accept an offer",
+              ],
+            },
+            right: {
+              title: "Employer-Sponsored Work Visa",
+              items: [
+                "Requires a signed employer sponsor from the start, arranged from Pakistan",
+                "Employer typically initiates and covers sponsorship costs",
+                "No built-in search period — tied to a specific confirmed role before you travel",
+                "Includes labor contract registration with MOHRE and Emirates ID issuance",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Common Mistakes Pakistani Applicants Make",
+          subsections: [
+            {
+              title: "Issues That Cause Delays or Rejection",
+              items: [
+                "Starting HEC or IBCC verification late, after other documents are already prepared",
+                "Submitting a degree that's missing one stage of the four-part attestation chain",
+                "Bank statement that doesn't clearly show consistent, sufficient funds across the required period",
+                "Letting the entry permit lapse before finalizing an offer, then having to restart the whole process",
+                "Inconsistent name spelling across CNIC, passport, and attested degree documents",
+                "Assuming the entry permit itself authorizes work before an employment visa is separately issued",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "A Realistic Timeline From Pakistan",
+          content:
+            "Counting from the day you decide to apply, a Pakistani applicant should generally expect several weeks for the full attestation chain to complete before an ICP submission is even possible, with HEC or IBCC verification typically the longest single link. Applicants who begin attestation immediately and submit a complete file tend to land with their permit's full validity window still ahead of them; applicants who start the process closer to a planned travel date often find a meaningful portion of their visa's validity already consumed by paperwork before they've had a single interview. Building in buffer time on the attestation side, rather than on the job-search side, is generally the more reliable way to protect your actual search window.",
+        },
+        {
+          heading: "Job Seeker Route vs Applying Directly for Jobs From Pakistan",
+          content:
+            "Some candidates skip the Job Seeker permit entirely and apply for UAE roles remotely from Pakistan through job portals, recruiters, and direct applications, interviewing over video call and only traveling once an offer is signed and the employer sponsors entry directly. This route avoids the cost and time pressure of a self-funded search, but it also means competing for attention without the advantage of being locally available for in-person interviews, which some UAE employers still weight heavily, particularly for client-facing or immediately-needed roles. The two approaches aren't mutually exclusive — many successful applicants spend several weeks applying and building initial contact from Pakistan before deciding whether the remaining gap is worth closing with an in-person entry permit, rather than treating the Job Seeker permit as the only path from day one.",
+        },
+        {
+          heading: "Preparing Before You Travel, Beyond the Paperwork",
+          content:
+            "Given how directly your permit's fixed validity window shapes your realistic search timeline, arriving with groundwork already done matters more than it might seem. A UAE-formatted CV differs meaningfully from a Pakistan-standard one in structure and emphasis, and having one ready before you land — rather than revising it after your first few rejections — saves time you don't have much of.",
+          subsections: [
+            {
+              title: "Practical Steps Before You Travel",
+              items: [
+                "Rebuild your CV in a UAE-standard format, tailored to your target sector",
+                "Update your LinkedIn profile with a UAE location signal and clear headline",
+                "Research salary benchmarks for your role in the specific emirate you're targeting",
+                "Identify and shortlist target companies before arrival, rather than starting research on the ground",
+                "Arrange interim accommodation for at least your first few weeks",
+                "Budget realistically for cost of living, which runs considerably higher than Pakistan across most categories",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Which UAE Job Markets Make Sense for Your Search",
+          content:
+            "Dubai carries the deepest and most diverse private-sector job market, particularly in trade, logistics, hospitality, technology, and financial services, and is where most Job Seeker permit holders concentrate their search by default. Abu Dhabi's market leans more heavily toward government-linked entities, energy, and public sector-adjacent roles, which can suit candidates with relevant backgrounds but generally means a narrower private-sector pool than Dubai. Sharjah and the northern emirates offer a lower cost of living during your search period and a genuine manufacturing and trading base, but a comparatively smaller pool of roles than Dubai — worth factoring in if your permit's validity window is on the shorter end and you need to move efficiently rather than cast the widest possible net.",
+        },
+        {
+          heading: "How Travelaxis Supports This Process",
+          content:
+            "As a documentation consultancy, we help Pakistani applicants check the eligibility conditions, organise their attested degree certificate and supporting documents, and prepare a complete file for submission through ICP's or GDRFA's official channel. Learn more about our [job seeker visa documentation](/job-seeker-visa). We do not source jobs, contact employers, or place candidates — our role is limited to the documentation and paperwork side of the process, coordinated remotely from our Al Qusais, Dubai office.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Is it better to apply for jobs from Pakistan first, or travel on a Job Seeker permit right away?",
+              answer:
+                "There's no universal answer — some candidates secure offers remotely and never need the permit, while others find in-person availability speeds up hiring meaningfully. Many apply remotely first and use the permit to close the gap if that search stalls.",
+            },
+            {
+              question: "Which emirate should I focus my search on?",
+              answer:
+                "Dubai has the broadest private-sector market for most professional roles; Abu Dhabi suits candidates targeting government-linked or energy-sector roles; Sharjah and the northern emirates offer lower living costs but a smaller role pool.",
+            },
+            {
+              question: "How much should I budget for cost of living during my search?",
+              answer:
+                "This varies significantly by emirate and accommodation choice, but UAE living costs generally run considerably higher than Pakistan — budgeting conservatively and confirming current accommodation and transport costs for your target area before travel is safer than underestimating.",
+            },
+            {
+              question: "Does having a UAE-formatted CV actually make a difference?",
+              answer:
+                "Recruiters and hiring managers in the UAE market are used to a specific CV structure and emphasis, and a CV that doesn't match that format can be overlooked even when the underlying experience is strong — it's a low-effort adjustment worth making before arrival.",
+            },
+            {
+              question: "Do you have an office I can visit while I'm searching for a job in the UAE?",
+              answer:
+                "Yes — our office is in Al Qusais, Dubai, and we're available for in-person consultations by appointment if you'd like to review your documentation or attestation status while you're in the country searching.",
+            },
+            {
+              question: "Do I need HEC verification even if my degree is already attested by MOFA Pakistan?",
+              answer:
+                "Generally, HEC (or IBCC for pre-university qualifications) verification needs to happen first, before MOFA Pakistan attestation — the chain is typically sequential, so confirm your document's current stage before assuming a step can be skipped.",
+            },
+            {
+              question: "How long does the full Pakistan attestation chain usually take?",
+              answer:
+                "It varies by stage and current processing volumes, but several weeks from a standing start is a reasonable planning assumption, with HEC or IBCC verification usually the slowest single link — start it as early as possible.",
+            },
+            {
+              question: "Does Travelaxis find me a job in the UAE?",
+              answer:
+                "No. We are a documentation and consultancy service, not a recruitment agency or employer. We help prepare the paperwork for your entry permit and, later, your employment visa once you already have an offer.",
+            },
+            {
+              question: "How long is the UAE jobseeker visit visa valid?",
+              answer:
+                "You choose 60, 90 or 120 days when you apply. It is a single-entry visa for one trip.",
+            },
+            {
+              question: "Can I work immediately on a Job Seeker entry permit?",
+              answer:
+                "No. The permit authorizes you to search for work and interview, not to work. You need a separate employer-sponsored employment residence visa before you can legally start a job.",
+            },
+            {
+              question: "What happens if my attestation isn't complete before I plan to travel?",
+              answer:
+                "Submitting an incomplete attestation chain typically means ICP won't accept the application yet — it's better to delay travel plans than submit with a missing stage, since a rejection can cost more time than waiting would have.",
+            },
+            {
+              question: "Can the entry permit be extended if I haven't found a job yet?",
+              answer:
+                "Extension options depend on your specific case and current ICP rules; this is worth confirming directly rather than assuming an automatic extension is available before your validity runs out.",
+            },
+            {
+              question: "What happens once I accept a job offer?",
+              answer:
+                "Your new employer sponsors a separate employment residence visa, which typically involves MOHRE labor contract registration, a medical fitness test, and Emirates ID issuance — a distinct process from the Job Seeker permit itself.",
+            },
+          ],
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Job Seeker Visa Documentation", href: "/job-seeker-visa" },
+            { label: "UAE Job Seeker Visa – Eligibility & Document Checklist", href: "/blog/job-seeker-visa-uae-documents-guide" },
+            { label: "Dubai Visit Visa from Pakistan", href: "/visit-visa/uae" },
+            { label: "Visa Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
+      ],
+    },
+  },
 };
 
 function stubBlogFromSummary(s: BlogPostSummary) {
@@ -13037,11 +13162,6 @@ function stubBlogFromSummary(s: BlogPostSummary) {
         {
           heading: "Overview",
           content: `${s.excerpt} Requirements can vary by emirate, free zone, and activity. Confirm the latest rules with the relevant authority or a licensed consultant.`,
-        },
-        {
-          heading: "How Travelaxis can help",
-          content:
-            "We support UAE company formation, visa documentation and application guidance, licensing, and ongoing compliance. We provide consultancy and documentation assistance only—not government visa issuance. Contact us for guidance tailored to your business.",
         },
       ],
     },

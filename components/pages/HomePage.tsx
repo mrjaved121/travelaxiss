@@ -7,16 +7,14 @@ import {
   ArrowUpRight,
   GraduationCap,
   Plane,
-  Building2,
-  IdCard,
-  Stamp,
   ShieldCheck,
   FileText,
   MapPin,
   Compass,
   MessageCircle,
   Globe2,
-  HeadphonesIcon,
+  Briefcase,
+  Award,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -42,13 +40,13 @@ const trustStrip: { label: string; icon: LucideIcon }[] = [
   { label: "Dubai & Lahore offices", icon: MapPin },
   { label: "Clear, transparent process", icon: ShieldCheck },
   { label: "Document preparation", icon: FileText },
-  { label: "Visa & business services", icon: Compass },
+  { label: "Visit & study visas", icon: Compass },
 ];
 
 const visaAssistanceServices: { title: string; description: string; icon: LucideIcon; href: string }[] = [
   {
     title: "Visit Visa",
-    description: "Visit and tourist visa document preparation for the UAE and other popular destinations.",
+    description: "Visit and tourist visa document preparation for the UK, USA, Schengen, Australia and more.",
     icon: Plane,
     href: "/visit-visa",
   },
@@ -59,43 +57,28 @@ const visaAssistanceServices: { title: string; description: string; icon: Lucide
     href: "/services/study-visa",
   },
   {
-    title: "UAE Residency Support",
-    description: "Documentation for investor, family, visit, and renewal visa categories in the UAE.",
-    icon: IdCard,
-    href: "/services/visa-services",
+    title: "Dubai Visit Visa",
+    description: "Dubai and UAE visit visa documents, routes and what the price is made of, for applicants from Pakistan.",
+    icon: MapPin,
+    href: "/visit-visa/uae",
   },
   {
-    title: "Document Attestation",
-    description: "Certificate attestation and legal document preparation for visa and job applications.",
-    icon: Stamp,
-    href: "/services/attestation",
-  },
-];
-
-const businessSetupServices: { title: string; description: string; icon: LucideIcon; href: string }[] = [
-  {
-    title: "Company Formation",
-    description: "Mainland, free zone, and offshore company setup and licensing support.",
-    icon: Building2,
-    href: "/services/company-formation",
-  },
-  {
-    title: "Free Zones",
-    description: "Compare and set up in the UAE's major free zones — IFZA, DMCC, Meydan, and more.",
+    title: "Schengen & Germany Visit Visa",
+    description: "The €90 Schengen fee, which embassy to apply to, and the German Mission's document checklist.",
     icon: Globe2,
-    href: "/free-zones",
+    href: "/visit-visa/schengen",
   },
   {
-    title: "Business Support Services",
-    description: "Trademark registration, ISO certification, and corporate bank account support.",
-    icon: HeadphonesIcon,
-    href: "/services/business-support",
+    title: "Job Seeker Visa",
+    description: "UAE, Germany, Austria and Sweden job seeker visa documents for applicants from Pakistan and India.",
+    icon: Briefcase,
+    href: "/job-seeker-visa",
   },
   {
-    title: "Government Services",
-    description: "Approvals, Dubai Chamber services, and multi-authority coordination.",
-    icon: FileText,
-    href: "/services/government-services",
+    title: "UAE Golden Visa",
+    description: "5 or 10-year UAE residence for investors, talent, students and humanitarian pioneers — from Pakistan.",
+    icon: Award,
+    href: "/services/uae-golden-visa",
   },
 ];
 
@@ -120,8 +103,8 @@ const whyValues: { title: string; description: string }[] = [
 const processSteps: { number: string; title: string; description: string }[] = [
   {
     number: "01",
-    title: "Choose your path",
-    description: "Visa assistance or UAE business setup — pick what matches your plans.",
+    title: "Choose your visa",
+    description: "Visit or study visa — tell us where you are going and why.",
   },
   {
     number: "02",
@@ -142,8 +125,8 @@ const processSteps: { number: string; title: string; description: string }[] = [
 ];
 
 const NEED_OPTIONS = [
-  { label: "Visa assistance", services: ["Visit Visa", "Study Visa", "UAE Residency Support", "Document Attestation"] },
-  { label: "UAE business setup", services: ["Company Formation", "Free Zones", "Business Support", "Not sure yet"] },
+  { label: "Visit visa", services: ["Dubai / UAE", "United Kingdom", "USA", "Schengen / Germany", "Australia", "Other"] },
+  { label: "Study visa", services: ["United Kingdom", "USA", "Australia", "Germany", "Other"] },
 ];
 
 const guideHighlights = blogPostSummaries.slice(0, 3);
@@ -161,7 +144,7 @@ function QualificationForm() {
     e.preventDefault();
     const lines = [
       `Hi, I'd like help with ${need.label.toLowerCase()}.`,
-      `Service: ${service}`,
+      `Destination: ${service}`,
       `Name: ${name}`,
       `WhatsApp: ${whatsapp}`,
     ];
@@ -199,7 +182,7 @@ function QualificationForm() {
       </div>
       <div>
         <label htmlFor={`${idPrefix}-service`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
-          Service
+          Destination
         </label>
         <select
           id={`${idPrefix}-service`}
@@ -275,17 +258,17 @@ export default function HomePage() {
               <span style={{ color: "#155EEF" }}>next application</span>
             </h1>
             <p className="lead mb-8 max-w-2xl mx-auto">
-              Explore visa application assistance, document preparation, and UAE business setup
-              support from Travelaxis.
+              Visit and study visa document preparation for applicants in Pakistan and the UAE — for
+              Dubai, the UK, USA, Schengen, Australia and more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a href="#visa-assistance" className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary" style={{ color: "#FFFFFF" }}>
                 Check Requirements
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </a>
-              <a href="#business-setup" className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white" style={{ borderColor: "#E4E7EC", color: "#1D2939" }}>
-                Discuss My Business Setup
-              </a>
+              <Link href="/visit-visa/uae" className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white" style={{ borderColor: "#E4E7EC", color: "#1D2939" }}>
+                Dubai Visit Visa
+              </Link>
             </div>
             <p className="text-sm text-[#667085] leading-relaxed max-w-2xl mx-auto border-l-4 pl-4 text-left" style={{ borderColor: "#155EEF" }}>
               {disclosure}
@@ -296,20 +279,20 @@ export default function HomePage() {
         {/* Two-path selector */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-14">
           <div className="grid sm:grid-cols-2 gap-6">
-            <a href="#visa-assistance" className="block rounded-3xl p-8 bg-white card-hover" style={{ border: "1px solid var(--card-line)" }}>
+            <Link href="/visit-visa" className="block rounded-3xl p-8 bg-white card-hover" style={{ border: "1px solid var(--card-line)" }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
                 <Plane className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
-              <h2 className="subsection-title mb-2">I need visa assistance</h2>
-              <p className="text-sm text-[#667085]">Visit visa, study visa, UAE residency, document attestation.</p>
-            </a>
-            <a href="#business-setup" className="block rounded-3xl p-8 bg-white card-hover" style={{ border: "1px solid var(--card-line)" }}>
+              <h2 className="subsection-title mb-2">I need a visit visa</h2>
+              <p className="text-sm text-[#667085]">Dubai, UK, USA, Schengen, Australia and other destinations.</p>
+            </Link>
+            <Link href="/services/study-visa" className="block rounded-3xl p-8 bg-white card-hover" style={{ border: "1px solid var(--card-line)" }}>
               <div className="w-12 h-12 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "var(--card-icon-bg)" }} aria-hidden>
-                <Building2 className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
+                <GraduationCap className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
               </div>
-              <h2 className="subsection-title mb-2">I want to set up a UAE business</h2>
-              <p className="text-sm text-[#667085]">Mainland, free zone, offshore, and licensing support.</p>
-            </a>
+              <h2 className="subsection-title mb-2">I need a study visa</h2>
+              <p className="text-sm text-[#667085]">UK, USA, Australia and Germany student visa documents.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -354,87 +337,17 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="max-w-2xl mb-12 md:mb-14"
           >
-            <p className="eyebrow mb-3">Path 1</p>
+            <p className="eyebrow mb-3">Our services</p>
             <h2 id="visa-assistance-heading" className="section-title mb-4">
               Visa Assistance
             </h2>
             <p className="lead">
-              Document preparation and application support for visit, study, UAE residency, and
-              attestation needs.
+              Document preparation and application support for visit, study and job seeker visas and the UAE Golden Visa.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {visaAssistanceServices.map((service, index) => (
-              <motion.div
-                key={service.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.06 }}
-                className="relative group h-full flex flex-col rounded-2xl bg-white p-6 transition-all duration-200 hover:-translate-y-1 card-hover"
-                style={{ border: "1px solid var(--card-line)" }}
-              >
-                <Link
-                  href={service.href}
-                  className="absolute inset-0 z-10 rounded-2xl"
-                  aria-label={`Explore ${service.title}`}
-                />
-                <div
-                  className="w-[46px] h-[46px] rounded-[11px] flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "var(--card-icon-bg)" }}
-                  aria-hidden
-                >
-                  <service.icon
-                    className="w-[22px] h-[22px]"
-                    style={{ color: "var(--card-icon-fg)" }}
-                  />
-                </div>
-                <h3 className="subsection-title leading-snug mb-2">
-                  {service.title}
-                </h3>
-                <p className="text-[0.9375rem] text-[#667085] leading-relaxed mb-5 flex-1">
-                  {service.description}
-                </p>
-                <span
-                  className="inline-flex items-center gap-1.5 text-sm font-semibold transition-all group-hover:gap-2.5"
-                  style={{ color: "#155EEF" }}
-                >
-                  Explore
-                  <ArrowUpRight className="w-4 h-4" aria-hidden />
-                </span>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Business Setup */}
-      <section
-        id="business-setup"
-        aria-labelledby="business-setup-heading"
-        className="py-20 md:py-28 border-t scroll-mt-24"
-        style={{ backgroundColor: "#F5F8FF", borderColor: "#E4E7EC" }}
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-2xl mb-12 md:mb-14"
-          >
-            <p className="eyebrow mb-3">Path 2</p>
-            <h2 id="business-setup-heading" className="section-title mb-4">
-              UAE Business Setup
-            </h2>
-            <p className="lead">
-              Company formation, free zone setup, and ongoing business support from our Dubai
-              office.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {businessSetupServices.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 20 }}
@@ -772,7 +685,7 @@ export default function HomePage() {
               Not sure where to begin?
             </h2>
             <p className="lead max-w-md mx-auto mb-9">
-              Choose your path above, or message us directly and we&apos;ll point you the right way.
+              Pick a service above, or message us directly and we&apos;ll point you the right way.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a href="#visa-assistance" className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary transition-all hover:bg-primary-hover shadow-sm hover:shadow-md" style={{ color: "#FFFFFF" }}>

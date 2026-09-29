@@ -5,24 +5,22 @@ import { blogListingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Blog | UAE Business Setup & Visa Documentation Guides",
+  title: "Blog | Visa Documentation & UAE Guides",
   description:
-    "Expert insights on company formation, compliance, and UAE visa rules and documentation—for general information; not legal advice.",
+    "Visa documentation guides for applicants from Pakistan, plus general information on UAE visas and business rules — not legal advice.",
   keywords: [
-    "UAE business blog",
-    "company formation guide",
-    "UAE visa documentation",
-    "visa application support UAE",
-    "Dubai business tips",
-    "freezone setup guide",
+    "visa guides pakistan",
+    "visit visa documentation",
+    "study visa documentation",
+    "dubai visit visa from pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/blog/`,
   },
   openGraph: {
-    title: "Blog | UAE Business & Visa Documentation",
+    title: "Blog | Visa & UAE Guides",
     description:
-      "Guides on company formation, compliance, and UAE visa documentation topics.",
+      "Visa documentation guides and general UAE information.",
     url: `${SITE_URL}/blog/`,
     images: [DEFAULT_OG_IMAGE],
   },

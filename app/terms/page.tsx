@@ -31,7 +31,7 @@ export default function TermsPage() {
           Services
         </h2>
         <p>
-          We provide professional consultancy relating to business setup, UAE visa documentation and
+          We provide professional consultancy relating to visit and study visa documentation and
           application guidance, and related processes. Government and third-party decisions
           (approvals, timelines, fees) are outside our control.
         </p>

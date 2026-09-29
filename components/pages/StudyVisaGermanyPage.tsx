@@ -200,7 +200,7 @@ export default function StudyVisaGermanyPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { href: "/services/germany-visa-from-pakistan", label: "Germany Visa Overview & Family Routes" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
               { href: "/services/study-visa", label: "Full Study Visa Guide" },
             ].map((link) => (
               <Link

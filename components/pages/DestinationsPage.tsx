@@ -2,16 +2,15 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Landmark, Snowflake, Building2, MapPin, Sun, Globe2, IdCard } from "lucide-react";
+import { ArrowRight, Landmark, Snowflake, Building2, MapPin, Sun, Globe2 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
 
-type FilterKey = "visit" | "study" | "residency";
+type FilterKey = "visit" | "study";
 
 const filters: { key: FilterKey; label: string }[] = [
   { key: "visit", label: "Visit Visa" },
   { key: "study", label: "Study Visa" },
-  { key: "residency", label: "UAE Residency" },
 ];
 
 const visitRegions: { title: string; description: string; icon: LucideIcon; href: string }[] = [
@@ -158,29 +157,6 @@ export default function DestinationsPage() {
         </section>
       )}
 
-      {/* UAE Residency */}
-      {active === "residency" && (
-        <section className="py-20 bg-white">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="section-title mb-3">UAE Residency Support</h2>
-            <p className="text-[#667085] mb-8">
-              UAE residency isn&apos;t organised by travel destination — it covers investor,
-              family, visit, and renewal categories within the UAE itself.
-            </p>
-            <Link
-              href="/services/visa-services"
-              className="inline-flex items-center justify-center gap-3 rounded-3xl p-6 bg-white card-hover max-w-sm mx-auto"
-              style={{ border: "1px solid var(--card-line)" }}
-            >
-              <IdCard className="w-6 h-6" style={{ color: "#155EEF" }} aria-hidden />
-              <span className="font-semibold" style={{ color: "#1D2939" }}>
-                See UAE Residency Support
-              </span>
-              <ArrowRight className="w-4 h-4" style={{ color: "#155EEF" }} aria-hidden />
-            </Link>
-          </div>
-        </section>
-      )}
 
       <section className="pb-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

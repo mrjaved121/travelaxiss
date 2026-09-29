@@ -165,7 +165,7 @@ export default function StudyVisaUsaPage() {
             {[
               { href: "/visit-visa/usa", label: "USA Visit Visa" },
               { href: "/services/usa-visa-from-pakistan", label: "USA Visa Overview" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}

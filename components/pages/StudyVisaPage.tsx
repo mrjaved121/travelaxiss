@@ -34,9 +34,8 @@ const WHATSAPP_HREF = "https://wa.me/971589867555";
 
 const relatedServices = [
   { href: "/visit-visa", label: "Tourist & Visit Visas" },
-  { href: "/services/visa-services", label: "UAE Residency Visas" },
-  { href: "/services/company-formation", label: "Business & Investment" },
-  { href: "/services/attestation", label: "Document Services" },
+  { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
+  { href: "/visit-visa/schengen", label: "Schengen & Germany Visit Visa" },
 ];
 
 const disclaimer =
@@ -69,7 +68,7 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
   },
   {
     title: "Germany Study Visa",
-    description: "Student/Ausbildung Visa documentation, with attestation coordination where required.",
+    description: "Student/Ausbildung Visa documentation for applicants from Pakistan.",
     icon: Compass,
     href: "/study-visa/germany",
   },
@@ -90,7 +89,6 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
 const howWeHelp = [
   "A document checklist reviewed against your specific university and course",
   "Help preparing financial evidence, admission letters, and supporting statements",
-  "Coordination on certificate attestation where your destination requires it",
   "One point of contact from your first message through to submission",
 ];
 

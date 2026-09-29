@@ -5,16 +5,16 @@ import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "About Travelaxis | Dubai Visa & Business Consultancy",
+  title: "About Travelaxis | Visa Documentation, Dubai & Lahore",
   description:
-    "Learn how Travelaxis supports Dubai and UAE clients with company formation, regulatory coordination, and visa documentation — structured, client-focused support.",
+    "Learn how Travelaxis supports applicants in Pakistan and the UAE with visit and study visa documentation — structured, client-focused support.",
   alternates: {
     canonical: `${SITE_URL}/about/`,
   },
   openGraph: {
-    title: "About Travelaxis | UAE Business Consultancy",
+    title: "About Travelaxis | Visa Documentation Consultancy",
     description:
-      "Trusted UAE consultancy for business formation and visa documentation support in Dubai and the UAE.",
+      "Visit and study visa documentation support from our Dubai and Lahore offices.",
     url: `${SITE_URL}/about/`,
     images: [DEFAULT_OG_IMAGE],
   },

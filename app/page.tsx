@@ -8,7 +8,7 @@ import { homepageFaqs } from "@/lib/data/faqs";
 export const metadata: Metadata = {
   title: "Visa Services in Dubai & Pakistan | Travelaxis",
   description:
-    "Get clear visa documentation and application support for the UAE and international destinations from Travelaxis offices in Dubai and Lahore.",
+    "Visit and study visa documentation for Dubai, the UK, USA, Schengen, Australia and more, from Travelaxis offices in Dubai and Lahore.",
   keywords: [
     "visa services Dubai",
     "UAE visa documentation",
@@ -17,10 +17,7 @@ export const metadata: Metadata = {
     "visa services for Pakistanis",
     "study visa support",
     "visit visa support",
-    "certificate attestation",
-    "UAE residency visa documentation",
-    "business setup Dubai",
-    "company formation UAE",
+    "dubai visit visa from pakistan",
     "Travelaxis",
   ],
   alternates: {
@@ -32,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Visa Services in Dubai & Pakistan | Travelaxis",
     description:
-      "Clear visa documentation and application support for the UAE and international destinations, from Travelaxis offices in Dubai and Lahore.",
+      "Visit and study visa documentation for Dubai, the UK, USA, Schengen, Australia and more, from Travelaxis offices in Dubai and Lahore.",
     url: `${SITE_URL}/`,
   },
 };

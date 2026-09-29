@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 };
 
 const quickLinks = [
-  { label: "UAE Visa Services", href: "/services/visa-services" },
-  { label: "UAE Document Attestation", href: "/services/attestation" },
+  { label: "Dubai Visit Visa", href: "/visit-visa/uae" },
+  { label: "Visit Visas by Region", href: "/visit-visa" },
   { label: "For Clients in Pakistan", href: "/pakistan" },
-  { label: "Company Formation", href: "/services/company-formation" },
+  { label: "Study Visas", href: "/services/study-visa" },
   { label: "Blog & Guides", href: "/blog" },
   { label: "FAQs", href: "/faq" },
 ];

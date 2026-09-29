@@ -15,9 +15,6 @@ const WHATSAPP_NUMBER = "971589867555";
 const SERVICE_OPTIONS: { label: string; isVisa: boolean }[] = [
   { label: "Visit Visa", isVisa: true },
   { label: "Study Visa", isVisa: true },
-  { label: "UAE Residency Support", isVisa: true },
-  { label: "Document Attestation", isVisa: true },
-  { label: "Company Formation", isVisa: false },
   { label: "Something else", isVisa: false },
 ];
 
@@ -83,8 +80,8 @@ export default function ContactPage() {
               Connect <span style={{ color: '#155EEF' }}>With Us</span>
             </h1>
             <p className="lead mb-6">
-              Tell us what you need and we&apos;ll route your enquiry to the right place — visa
-              documentation or UAE business setup.
+              Tell us where you&apos;re going and we&apos;ll route your enquiry to the right
+              person — visit or study visa documentation.
             </p>
             <p className="text-sm text-[#667085] max-w-lg leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
               Service scope: documentation assistance and consultancy support only. We do not
@@ -101,7 +98,7 @@ export default function ContactPage() {
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="Contact Travelaxis UAE visa documentation and business setup consultancy"
+              alt="Contact Travelaxis visit and study visa documentation consultancy"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"

@@ -463,7 +463,7 @@ export default function VisitVisaUaePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { href: "/visit-visa/middle-east", label: "Explore Middle East Visit Visas" },
-              { href: "/services/uae-visit-visa", label: "Full UAE Visit Visa Guide (All Nationalities)" },
+              { href: "/visit-visa", label: "Visit Visas by Region" },
               { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
             ].map((link) => (
               <Link

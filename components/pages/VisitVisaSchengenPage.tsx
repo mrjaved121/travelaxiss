@@ -376,7 +376,7 @@ export default function VisitVisaSchengenPage() {
             {[
               { href: "/services/germany-visa-from-pakistan", label: "Germany Visa from Pakistan" },
               { href: "/visit-visa/uk", label: "UK Visit Visa from Pakistan" },
-              { href: "/services/attestation", label: "Document Attestation" },
+              { href: "/visit-visa/europe", label: "Europe Visit Visas" },
             ].map((link) => (
               <Link
                 key={link.href}

@@ -36,7 +36,7 @@ export const professionalServiceJsonLd = {
   "@id": `${SITE_URL}/#organization`,
   name: "Travelaxis",
   description:
-    "UAE business setup, company formation, and visa documentation and consultancy services",
+    "Visit and study visa documentation and consultancy services for applicants in Pakistan and the UAE",
   url: SITE_URL,
   telephone: "+971589867555",
   email: "info@travelaxis.me",
@@ -102,7 +102,7 @@ export const pakistanOfficeJsonLd = {
   },
 };
 
-/** Reusable breadcrumb trail for any non-home page. `path` should include a leading slash, e.g. "/services/visa-services". */
+/** Reusable breadcrumb trail for any non-home page. `path` should include a leading slash, e.g. "/visit-visa/uae". */
 export function breadcrumbJsonLd(
   trail: { name: string; path: string }[],
 ) {
@@ -119,7 +119,7 @@ export function breadcrumbJsonLd(
   };
 }
 
-/** schema.org/Service for a specific service sub-page (e.g. company formation, visa documentation). */
+/** schema.org/Service for a specific service sub-page (e.g. a visit visa page). */
 export function serviceJsonLd({
   name,
   description,
@@ -186,7 +186,7 @@ export function blogListingJsonLd() {
     "@type": "ItemList",
     name: "Travelaxis Blog",
     description:
-      "Articles on UAE business setup, company formation, visa documentation topics, and compliance.",
+      "Guides on visit and study visa documentation, plus general information on UAE visas and business rules.",
     numberOfItems: blogPostSummaries.length,
     itemListElement: blogPostSummaries.map((post, index) => ({
       "@type": "ListItem",

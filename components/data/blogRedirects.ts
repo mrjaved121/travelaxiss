@@ -4,6 +4,7 @@
  * Do not add new posts here — this is for retired slugs only.
  */
 export const blogRedirects: Record<string, string> = {
+  "job-seeker-visa-uae-documents-guide-2026": "job-seeker-visa-uae-documents-guide",
   "business-exploration-visa-uae-guide-2026": "business-exploration-visa-uae-guide",
   "family-sponsorship-income-requirements-uae-2026": "family-sponsorship-income-requirements-uae",
   "visit-visa-relatives-uae-guide-2026": "visit-visa-relatives-uae-guide",

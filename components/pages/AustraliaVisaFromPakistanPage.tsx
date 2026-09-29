@@ -75,7 +75,6 @@ const timelineRows = [
 const howWeHelp = [
   "A document checklist reviewed with you before you submit anything",
   "Help organizing financial evidence, enrolment, and relationship documentation",
-  "Coordination on attestation where your documents need it first",
   "Guidance through ImmiAccount submission and follow-up",
 ];
 
@@ -173,38 +172,6 @@ export default function AustraliaVisaFromPakistanPage() {
               </MotionLink>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Attestation note */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="rounded-3xl p-8 border border-[#E4E7EC] shadow-sm"
-            style={{ backgroundColor: "#F5F8FF" }}
-          >
-            <h3 className="subsection-title mb-3">
-              Partner and Some Student Applications Need Attested Documents Too
-            </h3>
-            <p className="text-[#667085] leading-relaxed mb-4">
-              Partner visa applications almost always require an attested marriage certificate, and some student visa categories request verified academic records. Where they do, the{" "}
-              <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
-                same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
-              </Link>{" "}
-              applies as with UAE documents — we can run both processes for you in parallel.
-            </p>
-            <Link
-              href="/services/attestation"
-              className="inline-flex items-center gap-2 font-semibold"
-              style={{ color: "#155EEF" }}
-            >
-              <span>See how document attestation from Pakistan works</span>
-              <ArrowRight className="w-4 h-4" aria-hidden />
-            </Link>
-          </motion.div>
         </div>
       </section>
 
@@ -389,7 +356,7 @@ export default function AustraliaVisaFromPakistanPage() {
               {[
                 { href: "/visit-visa/australia", label: "Australia Visitor Visa" },
                 { href: "/study-visa/australia", label: "Australia Student Visa" },
-                { href: "/services/attestation", label: "UAE Document Attestation from Pakistan" },
+                { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
                 { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
               ].map((link) => (
                 <Link

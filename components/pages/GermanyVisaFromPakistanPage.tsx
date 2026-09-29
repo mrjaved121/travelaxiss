@@ -68,7 +68,6 @@ const familyDocuments = [
 const howWeHelp = [
   "A document checklist reviewed with you before you submit anything",
   "Help preparing academic and financial supporting documents",
-  "Coordination on attestation where your documents need it first",
   "Guidance on registering for your appointment, which is free and done directly with the German Mission",
 ];
 
@@ -179,39 +178,6 @@ export default function GermanyVisaFromPakistanPage() {
         </div>
       </section>
 
-      {/* Attestation note */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="rounded-2xl p-8 card-hover"
-            style={{ backgroundColor: "#F5F8FF" }}
-          >
-            <h2 className="section-title mb-3">
-              Germany Applications Often Need Attested Documents
-            </h2>
-            <p className="text-[#667085] leading-relaxed mb-4">
-              Student and Ausbildung applications commonly require attested academic or civil
-              certificates. Where they do, the{" "}
-              <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
-                same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
-              </Link>{" "}
-              applies as with UAE documents — we can run both processes for you in parallel.
-            </p>
-            <Link
-              href="/services/attestation"
-              className="inline-flex items-center gap-2 font-semibold"
-              style={{ color: "#155EEF" }}
-            >
-              <span>See how document attestation from Pakistan works</span>
-              <ArrowRight className="w-4 h-4" aria-hidden />
-            </Link>
-          </motion.div>
-        </div>
-      </section>
-
       {/* How we help */}
       <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -319,7 +285,7 @@ export default function GermanyVisaFromPakistanPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
                 { href: "/study-visa/germany", label: "Germany Study Visa" },
-                { href: "/services/attestation", label: "UAE Document Attestation from Pakistan" },
+                { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
                 { href: "/services/international-visas", label: "International Visa Documentation" },
                 { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
               ].map((link) => (

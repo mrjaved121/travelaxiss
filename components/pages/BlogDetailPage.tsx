@@ -67,13 +67,13 @@ const categoryIcons: Record<string, typeof FileText> = {
 
 type BlogCta = { heading: string; text: string; label: string; href: string };
 
-/** Default closing CTA (UAE business setup) — a post can override it with its own `cta` field. */
+/** Default closing CTA — a post can override it with its own `cta` field. */
 const defaultCta: BlogCta & { ariaLabel: string } = {
-  heading: "Ready to Start Your Business?",
-  text: "Get expert guidance for your company formation in UAE",
+  heading: "Need Help With Your Visa Documents?",
+  text: "Tell us where you are going and we'll confirm what your application needs.",
   label: "Contact Us on WhatsApp",
   href: "https://wa.me/971589867555",
-  ariaLabel: "Contact Travelaxis on WhatsApp about UAE business setup (opens in a new tab)",
+  ariaLabel: "Contact Travelaxis on WhatsApp about your visa documents (opens in a new tab)",
 };
 
 /**
