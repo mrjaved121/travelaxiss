@@ -165,7 +165,7 @@ export default function StudyVisaUkPage() {
             {[
               { href: "/visit-visa/uk", label: "UK Visit Visa" },
               { href: "/services/uk-visa-from-pakistan", label: "UK Visa Overview & Family Routes" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}

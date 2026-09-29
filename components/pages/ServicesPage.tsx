@@ -2,179 +2,147 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Building2, FileText, Scale, HeadphonesIcon, Plane, Globe2, Moon, Stamp, Landmark, Snowflake, Sun, Flag, Compass, RefreshCw, PiggyBank, Clock, Shield, Target } from "lucide-react";
+import { Plane, Globe2, MapPin, GraduationCap, Briefcase, Award, Landmark, Snowflake, Sun, Flag, Compass, Clock, Shield, Target } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
-type Group = "All" | "Business Setup" | "UAE Visas" | "International Visas" | "Documentation";
+type Group = "All" | "Visit Visas" | "Study & Work" | "Country Guides";
 
 const services: {
   title: string;
   category: string;
   group: Exclude<Group, "All">;
   description: string;
-  icon: typeof Building2;
+  icon: typeof Plane;
   link: string;
 }[] = [
   {
-    title: "Company Formation",
-    category: "Business Setup",
-    group: "Business Setup",
-    description: "Comprehensive formation services for mainland, freezone, and offshore business structures.",
-    icon: Building2,
-    link: "/services/company-formation",
-  },
-  {
-    title: "Government Services",
-    category: "Approvals",
-    group: "Business Setup",
-    description: "Streamlined government approvals and regulatory coordination through expert handling.",
-    icon: FileText,
-    link: "/services/government-services",
-  },
-  {
-    title: "Legal Documentation",
-    category: "Compliance",
-    group: "Documentation",
-    description: "Professional preparation and attestation of corporate and legal documents.",
-    icon: Scale,
-    link: "/services/legal-documentation",
-  },
-  {
-    title: "Business Support Services",
-    category: "Ongoing Support",
-    group: "Business Setup",
-    description: "Ongoing support services including trademark registration, ISO certification, and operational assistance.",
-    icon: HeadphonesIcon,
-    link: "/services/business-support",
-  },
-  {
-    title: "UAE Visa Documentation & Consultancy",
-    category: "Visa Services",
-    group: "UAE Visas",
+    title: "Dubai Visit Visa from Pakistan",
+    category: "UAE",
+    group: "Visit Visas",
     description:
-      "Investor and family categories, visit permits, renewals, and cancellations—documentation preparation, application guidance, and submission coordination through official channels.",
+      "Dubai and UAE visit visa documents, sponsor routes, and what the price is made of — from our Lahore and Dubai offices.",
+    icon: MapPin,
+    link: "/visit-visa/uae",
+  },
+  {
+    title: "Schengen & Germany Visit Visa",
+    category: "Europe",
+    group: "Visit Visas",
+    description:
+      "The €90 Schengen fee, which embassy to apply to, and the German Mission's document checklist for applicants from Pakistan.",
+    icon: Globe2,
+    link: "/visit-visa/schengen",
+  },
+  {
+    title: "Visit Visas by Region",
+    category: "All destinations",
+    group: "Visit Visas",
+    description:
+      "Visit visa documentation for the UK, USA, Australia, Europe, Asia, Africa and the Middle East.",
     icon: Plane,
-    link: "/services/visa-services",
+    link: "/visit-visa",
   },
   {
     title: "International Visa Documentation",
-    category: "Global Visas",
-    group: "International Visas",
+    category: "From the UAE",
+    group: "Visit Visas",
     description:
-      "Documentation support for Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations, for UAE residents traveling or relocating abroad.",
+      "Documentation support for Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations, for UAE residents traveling abroad.",
     icon: Globe2,
     link: "/services/international-visas",
   },
   {
-    title: "Umrah Services",
-    category: "Pilgrimage Travel",
-    group: "International Visas",
+    title: "Study Visa Documentation",
+    category: "Students",
+    group: "Study & Work",
     description:
-      "Umrah visa processing, flight booking, hotel accommodation, and group travel coordination for pilgrims traveling from the UAE.",
-    icon: Moon,
-    link: "/services/umrah-services",
+      "Student visa documentation for the UK, USA, Australia and Germany once you hold an offer or admission.",
+    icon: GraduationCap,
+    link: "/services/study-visa",
   },
   {
-    title: "UAE Document Attestation",
-    category: "Attestation",
-    group: "Documentation",
+    title: "Job Seeker Visa",
+    category: "Pakistan & India",
+    group: "Study & Work",
     description:
-      "Degree, marriage, birth, and experience certificate attestation from Pakistan — the full HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain.",
-    icon: Stamp,
-    link: "/services/attestation",
+      "Job seeker visa documentation for the UAE (60/90/120 days), Germany's Opportunity Card, Austria and Sweden.",
+    icon: Briefcase,
+    link: "/job-seeker-visa",
+  },
+  {
+    title: "UAE Golden Visa from Pakistan",
+    category: "UAE",
+    group: "Study & Work",
+    description:
+      "5 or 10-year UAE residence for investors, entrepreneurs, exceptional talent, outstanding students and humanitarian pioneers.",
+    icon: Award,
+    link: "/services/uae-golden-visa",
   },
   {
     title: "UK Visa from Pakistan",
     category: "UK Visas",
-    group: "International Visas",
+    group: "Country Guides",
     description:
       "Student, Visit, and Family/Spouse visa documentation for Pakistani applicants, submitted through UKVI's official channels.",
     icon: Landmark,
     link: "/services/uk-visa-from-pakistan",
   },
   {
-    title: "Canada Visa from Pakistan",
-    category: "Canada Visas",
-    group: "International Visas",
-    description:
-      "Official IRCC fees and requirements for Canada visit visas and study permits (information guide).",
-    icon: Snowflake,
-    link: "/services/canada-visa-from-pakistan",
-  },
-  {
-    title: "Australia Visa from Pakistan",
-    category: "Australia Visas",
-    group: "International Visas",
-    description:
-      "Visitor, Student, and Partner/Family visa documentation for Pakistani applicants, submitted through the Department of Home Affairs.",
-    icon: Sun,
-    link: "/services/australia-visa-from-pakistan",
-  },
-  {
     title: "USA Visa from Pakistan",
     category: "USA Visas",
-    group: "International Visas",
+    group: "Country Guides",
     description:
       "B1/B2 visitor and F1 student visa documentation for Pakistani applicants, including DS-160 review and Embassy Islamabad interview preparation.",
     icon: Flag,
     link: "/services/usa-visa-from-pakistan",
   },
   {
+    title: "Australia Visa from Pakistan",
+    category: "Australia Visas",
+    group: "Country Guides",
+    description:
+      "Visitor, Student, and Partner/Family visa documentation for Pakistani applicants, submitted through the Department of Home Affairs.",
+    icon: Sun,
+    link: "/services/australia-visa-from-pakistan",
+  },
+  {
     title: "Germany Visa from Pakistan",
     category: "Germany Visas",
-    group: "International Visas",
+    group: "Country Guides",
     description:
       "Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification visa documentation for Pakistani applicants.",
     icon: Compass,
     link: "/services/germany-visa-from-pakistan",
   },
   {
-    title: "UAE Visit & Tourist Visa",
-    category: "Visit Visas",
-    group: "UAE Visas",
+    title: "Canada Visa from Pakistan",
+    category: "Information guide",
+    group: "Country Guides",
     description:
-      "14/30/60/90-day visit and tourist visa documentation, covering airline, hotel, tour operator, and resident sponsor routes.",
-    icon: Plane,
-    link: "/services/uae-visit-visa",
-  },
-  {
-    title: "UAE Visa Extension & Renewal",
-    category: "Extension & Renewal",
-    group: "UAE Visas",
-    description:
-      "Visit visa extension, residence visa renewal, and status change — clearly explained, with documents and timelines.",
-    icon: RefreshCw,
-    link: "/services/uae-visa-extension-renewal",
-  },
-  {
-    title: "UAE Retirement Visa",
-    category: "Retirement",
-    group: "UAE Visas",
-    description:
-      "Documentation support for the property, savings, and income routes to UAE retirement residency.",
-    icon: PiggyBank,
-    link: "/services/uae-retirement-visa",
+      "Official IRCC fees and requirements for Canada visit visas and study permits (information guide).",
+    icon: Snowflake,
+    link: "/services/canada-visa-from-pakistan",
   },
 ];
 
-const GROUPS: Group[] = ["All", "Business Setup", "UAE Visas", "International Visas", "Documentation"];
+const GROUPS: Group[] = ["All", "Visit Visas", "Study & Work", "Country Guides"];
 
 const advantages = [
   {
     icon: Clock,
-    title: "Clear Timelines & Milestones",
-    description: "Planned delivery dates with proactive follow-up—subject to authority processing times.",
+    title: "Clear Requirements",
+    description: "We confirm the documents for your destination and situation — not a generic checklist.",
   },
   {
     icon: Target,
-    title: "Tailored and Scalable Services",
-    description: "Customized solutions that grow with your business needs.",
+    title: "Organised Applications",
+    description: "Help preparing documents, financial evidence and bookings, step by step.",
   },
   {
     icon: Shield,
-    title: "Expert Regulatory Support",
-    description: "Professional guidance through complex regulatory landscapes.",
+    title: "Official Channels Only",
+    description: "Applications go through each country's official process. We never promise approval.",
   },
 ];
 
@@ -200,9 +168,9 @@ export default function ServicesPage() {
               Our <span style={{ color: '#155EEF' }}>Services</span>
             </h1>
             <p className="lead text-[#667085]">
-              We provide a full range of services designed to support businesses from setup to
-              ongoing operations. Our services are structured to ensure compliance, efficiency,
-              and long-term growth.
+              Visit and study visa documentation for applicants in Pakistan and the UAE — Dubai,
+              the UK, USA, Schengen, Australia, Germany and more, submitted through each country&apos;s
+              official process.
             </p>
           </motion.div>
 
@@ -215,7 +183,7 @@ export default function ServicesPage() {
             <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="Travelaxis UAE business setup, visa documentation, and government services"
+              alt="Travelaxis visit and study visa documentation services"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"
@@ -317,7 +285,7 @@ export default function ServicesPage() {
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Ready to Get Started?</h2>
           <p className="text-white/90 mb-8">
-            Contact us today to learn more about how we can help your business succeed.
+            Tell us where you are going and we&apos;ll confirm what your application needs.
           </p>
           <Link
             href="/contact"

@@ -96,6 +96,10 @@ export default function VisaFinderPage() {
   };
 
   const matchedDestination = destinations.find((d) => d.slug === answers.destination);
+  /** Canada: not an authorized representative. UAE: only visit visas are offered. */
+  const isCanada = matchedDestination?.slug === "canada";
+  const isUaeNonVisit = matchedDestination?.slug === "uae" && answers.goal !== "visit" && answers.goal !== "immigration";
+  const offersAssessment = !isCanada && !isUaeNonVisit;
   const pathwayLabel =
     answers.destination && answers.goal
       ? PATHWAY_LABELS[answers.destination]?.[answers.goal]
@@ -353,7 +357,7 @@ export default function VisaFinderPage() {
                     criteria with an advisor before applying. No consultant can guarantee a
                     government immigration decision.
                   </p>
-                  {matchedDestination?.slug === "canada" && (
+                  {isCanada && (
                     <p className="text-sm text-[#667085] mt-3">
                       For Canada, only authorized representatives (CICC-licensed consultants, Canadian
                       lawyers and paralegals, Québec notaries) may charge for advice on an application.
@@ -361,11 +365,18 @@ export default function VisaFinderPage() {
                       the official requirements.
                     </p>
                   )}
+                  {isUaeNonVisit && (
+                    <p className="text-sm text-[#667085] mt-3">
+                      For the UAE, Travelaxis helps with visit visas, the jobseeker visit visa and the
+                      Golden Visa. We don&apos;t assess UAE family, student or business routes — check
+                      the official UAE government portal (u.ae) for those.
+                    </p>
+                  )}
                 </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                {matchedDestination?.slug !== "canada" && (
+                {offersAssessment && (
                   <Link
                     href="/consultation"
                     className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"

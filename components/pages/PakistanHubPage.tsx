@@ -3,21 +3,18 @@
 import Link from "next/link";
 import {
   ArrowUpRight,
-  Stamp,
   Plane,
-  Heart,
-  Building2,
-  Moon,
   Landmark,
   Snowflake,
   Sun,
   MessageCircle,
   Clock,
   Users,
-  GraduationCap,
   Flag,
   Compass,
   Globe2,
+  Briefcase,
+  Award,
   FileText,
 } from "lucide-react";
 import { motion } from "motion/react";
@@ -34,22 +31,6 @@ const guides: {
   link: string;
 }[] = [
   {
-    title: "UAE Document Attestation from Pakistan",
-    category: "Attestation",
-    description:
-      "Degree, marriage, birth, and experience certificate attestation — the full HEC/IBCC → MOFA → UAE Embassy → MOFAIC chain, timelines, and charges.",
-    icon: Stamp,
-    link: "/services/attestation",
-  },
-  {
-    title: "UAE Student Visa from Pakistan",
-    category: "Student Visa",
-    description:
-      "University sponsorship, IBCC/HEC attestation of your certificates, required documents, and what happens after graduation.",
-    icon: GraduationCap,
-    link: "/blog/uae-student-visa-from-pakistan",
-  },
-  {
     title: "Dubai Visit Visa from Pakistan",
     category: "Visit Visa",
     description:
@@ -58,28 +39,28 @@ const guides: {
     link: "/visit-visa/uae",
   },
   {
-    title: "UAE Family Visa from Pakistan",
-    category: "Family Visa",
+    title: "Schengen & Germany Visit Visa",
+    category: "Visit Visa",
     description:
-      "The minimum sponsor salary, required documents, and the Pakistan-specific attestation chain for marriage and birth certificates.",
-    icon: Heart,
-    link: "/blog/uae-family-visa-from-pakistan",
+      "The €90 Schengen fee, which embassy to apply to, the Islamabad and Karachi waiting lists, and the German Mission's document checklist.",
+    icon: Globe2,
+    link: "/visit-visa/schengen",
   },
   {
-    title: "Start a Business in Dubai from Pakistan",
-    category: "Business Setup",
+    title: "Job Seeker Visa from Pakistan",
+    category: "Job Seeker Visa",
     description:
-      "Mainland vs freezone, power of attorney signing, State Bank remittance rules, and real setup costs for Pakistani founders.",
-    icon: Building2,
-    link: "/blog/start-business-in-dubai-from-pakistan",
+      "UAE jobseeker visit visa (60/90/120 days), Germany Opportunity Card, Austria and Sweden — conditions and documents from official sources.",
+    icon: Briefcase,
+    link: "/job-seeker-visa",
   },
   {
-    title: "Umrah Visa & Packages",
-    category: "Pilgrimage Travel",
+    title: "UAE Golden Visa from Pakistan",
+    category: "Golden Visa",
     description:
-      "Visa processing, flight or bus transport, and hotel coordination near the Haram for pilgrims traveling from Pakistan via the UAE.",
-    icon: Moon,
-    link: "/services/umrah-services",
+      "The 5 and 10-year categories, the AED 2 million investor rule, and the documents Pakistani applicants need.",
+    icon: Award,
+    link: "/services/uae-golden-visa",
   },
   {
     title: "UK Visa from Pakistan",
@@ -188,12 +169,12 @@ const whyUs: { icon: LucideIcon; title: string; description: string }[] = [
   {
     icon: MessageCircle,
     title: "WhatsApp Support",
-    description: "One point of contact from Pakistan through to final approval in the UAE.",
+    description: "One point of contact from your first message through to submission.",
   },
   {
     icon: Users,
-    title: "Dubai-Based Team",
-    description: "We coordinate directly with UAE authorities on your behalf.",
+    title: "Lahore & Dubai Offices",
+    description: "Meet us in person in Lahore or Dubai, or work with us remotely.",
   },
 ];
 
@@ -208,10 +189,10 @@ export default function PakistanHubPage() {
               For Clients in Pakistan
             </p>
             <h1 className="page-title mb-6">
-              Visa &amp; Business Services for Clients <span style={{ color: "#155EEF" }}>in Pakistan</span>
+              Visa Services for Clients <span style={{ color: "#155EEF" }}>in Pakistan</span>
             </h1>
             <p className="lead text-[#667085] leading-relaxed">
-              Travelaxis supports Pakistani nationals with document attestation, UAE visa documentation, business setup, and visa documentation for the UK and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
+              Travelaxis supports Pakistani nationals with visit and study visa documentation for Dubai, the UK, USA, Schengen/Germany and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
             </p>
           </motion.div>
         </div>
@@ -238,7 +219,7 @@ export default function PakistanHubPage() {
           </div>
           <p className="text-center mt-12">
             <Link href="/services" className="font-semibold hover:underline" style={{ color: "#155EEF" }}>
-              Browse our full range of UAE services
+              Browse all our visa services
             </Link>
           </p>
         </div>

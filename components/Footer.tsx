@@ -25,7 +25,7 @@ export default function Footer() {
               <span style={{ color: "#155EEF" }}>axis</span>
             </p>
             <p className="text-[#667085] text-sm leading-relaxed">
-              Visa documentation and business setup support in the UAE, from our Dubai and Lahore offices.
+              Visit and study visa documentation for applicants in Pakistan and the UAE, from our Dubai and Lahore offices.
             </p>
             <p className="text-[#667085] text-xs mt-4 leading-relaxed">
               We provide documentation preparation and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not guarantee visa approval or employment outcomes. Applications are submitted through official government channels or by the applicant/employer.
@@ -49,13 +49,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/visa-services" className="footer-link transition-colors">
-                  UAE Residency Support
+                <Link href="/job-seeker-visa" className="footer-link transition-colors">
+                  Job Seeker Visa
                 </Link>
               </li>
               <li>
-                <Link href="/services/attestation" className="footer-link transition-colors">
-                  Document Attestation
+                <Link href="/services/uae-golden-visa" className="footer-link transition-colors">
+                  UAE Golden Visa
                 </Link>
               </li>
               <li className="pt-1">
@@ -66,35 +66,35 @@ export default function Footer() {
             </ul>
           </nav>
 
-          {/* Business Setup */}
-          <nav aria-label="Business setup">
+          {/* Popular visit visas */}
+          <nav aria-label="Popular visit visas">
             <h3 className="footer-heading mb-5">
-              Business Setup
+              Popular Visit Visas
             </h3>
             <ul className="space-y-3 list-none p-0 m-0">
               <li>
-                <Link href="/services/company-formation" className="footer-link transition-colors">
-                  Company Formation
+                <Link href="/visit-visa/uae" className="footer-link transition-colors">
+                  Dubai Visit Visa
                 </Link>
               </li>
               <li>
-                <Link href="/free-zones" className="footer-link transition-colors">
-                  Free Zones
+                <Link href="/visit-visa/uk" className="footer-link transition-colors">
+                  UK Visit Visa
                 </Link>
               </li>
               <li>
-                <Link href="/services/business-support" className="footer-link transition-colors">
-                  Business Support Services
+                <Link href="/visit-visa/usa" className="footer-link transition-colors">
+                  USA Visit Visa
                 </Link>
               </li>
               <li>
-                <Link href="/services/government-services" className="footer-link transition-colors">
-                  Government Services
+                <Link href="/visit-visa/schengen" className="footer-link transition-colors">
+                  Schengen Visit Visa
                 </Link>
               </li>
               <li>
-                <Link href="/emirates" className="footer-link transition-colors">
-                  UAE Emirates
+                <Link href="/visit-visa/australia" className="footer-link transition-colors">
+                  Australia Visit Visa
                 </Link>
               </li>
             </ul>
@@ -140,11 +140,6 @@ export default function Footer() {
               <li>
                 <Link href="/about" className="footer-link transition-colors">
                   About
-                </Link>
-              </li>
-              <li>
-                <Link href="/why-business" className="footer-link transition-colors">
-                  Why Travelaxis
                 </Link>
               </li>
               <li>

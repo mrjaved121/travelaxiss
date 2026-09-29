@@ -16,30 +16,21 @@ const navGroups: NavGroup[] = [
     items: [
       { name: "Visit Visa", path: "/visit-visa" },
       { name: "Study Visa", path: "/services/study-visa" },
-      { name: "UAE Residency Support", path: "/services/visa-services" },
-      { name: "Document Attestation", path: "/services/attestation" },
+      { name: "Job Seeker Visa", path: "/job-seeker-visa" },
+      { name: "UAE Golden Visa", path: "/services/uae-golden-visa" },
     ],
   },
   {
     name: "Destinations",
     items: [
       { name: "Visit Visas by Region", path: "/visit-visa" },
+      { name: "Dubai Visit Visa", path: "/visit-visa/uae" },
       { name: "UK Visit Visa", path: "/visit-visa/uk" },
       { name: "USA Visit Visa", path: "/visit-visa/usa" },
       { name: "Canada Visit Visa", path: "/visit-visa/canada" },
       { name: "Australia Visit Visa", path: "/visit-visa/australia" },
       { name: "Schengen Visit Visa", path: "/visit-visa/schengen" },
       { name: "All Destinations", path: "/destinations" },
-    ],
-  },
-  {
-    name: "Business Setup",
-    items: [
-      { name: "Company Formation", path: "/services/company-formation" },
-      { name: "Free Zones", path: "/free-zones" },
-      { name: "UAE Emirates", path: "/emirates" },
-      { name: "Business Support Services", path: "/services/business-support" },
-      { name: "Government Services", path: "/services/government-services" },
     ],
   },
   {

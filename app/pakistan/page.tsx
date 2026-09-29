@@ -5,29 +5,27 @@ import { breadcrumbJsonLd, pakistanOfficeJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UAE Services for Pakistani Nationals",
+  title: "Visa Services for Pakistani Nationals – Visit & Study",
   description:
-    "Travelaxis supports Pakistani nationals with UAE document attestation, visa documentation, and business setup — offices in Dubai and Lahore.",
+    "Visit and study visa documentation for Pakistani nationals: Dubai, UK, USA, Schengen/Germany and Australia — offices in Dubai and Lahore.",
   keywords: [
     "visa services for pakistanis",
-    "uae services for pakistani nationals",
     "dubai visit visa from pakistan",
     "uk visa from pakistan",
     "canada visa from pakistan",
     "australia visa from pakistan",
     "usa visa from pakistan",
     "germany visa from pakistan",
-    "document attestation from pakistan",
-    "umrah visa from pakistan",
+    "schengen visa from pakistan",
   ],
   alternates: {
     canonical: `${SITE_URL}/pakistan/`,
   },
   openGraph: {
     url: `${SITE_URL}/pakistan/`,
-    title: "UAE Services for Pakistani Nationals | Travelaxis",
+    title: "Visa Services for Pakistani Nationals | Travelaxis",
     description:
-      "Document attestation, UAE visa documentation, and business setup support for clients in Pakistan.",
+      "Visit and study visa documentation for clients in Pakistan.",
     images: [DEFAULT_OG_IMAGE],
   },
 };

@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { DEFAULT_TITLE, SITE_NAME } from "@/lib/seo/site";
 
 export const dynamic = "force-static";
-export const alt = `${SITE_NAME} — UAE Business Setup & Visa Documentation Support`;
+export const alt = `${SITE_NAME} — Visit & Study Visa Documentation`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -63,7 +63,7 @@ export default async function Image() {
             color: "#155EEF",
           }}
         >
-          Company Formation &nbsp;•&nbsp; Government Services &nbsp;•&nbsp; Legal Documentation
+          Visit Visas &nbsp;•&nbsp; Study Visas &nbsp;•&nbsp; Dubai &amp; Lahore
         </div>
       </div>
     ),

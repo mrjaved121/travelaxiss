@@ -75,7 +75,6 @@ const timelineRows = [
 const howWeHelp = [
   "A document checklist reviewed with you before you submit anything",
   "Help preparing financial evidence, relationship evidence, and supporting letters",
-  "Coordination on attestation where your documents need it first",
   "Appointment scheduling support at your local visa application centre",
 ];
 
@@ -174,38 +173,6 @@ export default function UkVisaFromPakistanPage() {
               </MotionLink>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Attestation note */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="rounded-3xl p-8 border border-[#E4E7EC] shadow-sm"
-            style={{ backgroundColor: "#F5F8FF" }}
-          >
-            <h2 className="section-title mb-3">
-              Some UK Applications Need Attested Documents Too
-            </h2>
-            <p className="text-[#667085] leading-relaxed mb-4">
-              Family and some student visa categories may require attested marriage, birth, or educational certificates. Where they do, the{" "}
-              <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
-                same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
-              </Link>{" "}
-              applies as with UAE documents — we can run both processes for you in parallel.
-            </p>
-            <Link
-              href="/services/attestation"
-              className="inline-flex items-center gap-2 font-semibold"
-              style={{ color: "#155EEF" }}
-            >
-              <span>See how document attestation from Pakistan works</span>
-              <ArrowRight className="w-4 h-4" aria-hidden />
-            </Link>
-          </motion.div>
         </div>
       </section>
 
@@ -390,7 +357,7 @@ export default function UkVisaFromPakistanPage() {
               {[
                 { href: "/visit-visa/uk", label: "UK Visit Visa" },
                 { href: "/study-visa/uk", label: "UK Study Visa" },
-                { href: "/services/attestation", label: "UAE Document Attestation from Pakistan" },
+                { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
                 { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
               ].map((link) => (
                 <Link

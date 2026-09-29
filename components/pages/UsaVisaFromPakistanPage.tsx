@@ -344,7 +344,7 @@ export default function UsaVisaFromPakistanPage() {
                 { href: "/visit-visa/usa", label: "USA Visitor Visa" },
                 { href: "/study-visa/usa", label: "USA Student Visa" },
                 { href: "/blog/usa-visa-from-pakistan", label: "Full USA Visa Guide (Deep Dive)" },
-                { href: "/services/attestation", label: "UAE Document Attestation" },
+                { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
               ].map((link) => (
                 <Link
                   key={link.href}

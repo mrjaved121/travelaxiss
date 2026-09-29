@@ -16,13 +16,13 @@ const journeyStages: { title: string; description: string; icon: LucideIcon }[] 
   {
     title: "Issues caught before submission",
     description:
-      "Bank statements, attestation chains, sponsor documents — we flag the details that commonly cause delays or refusals while there's still time to fix them.",
+      "Bank statements, sponsor documents, invitation letters — we flag the details that commonly cause delays or refusals while there's still time to fix them.",
     icon: FileCheck2,
   },
   {
     title: "Submission through the official channel",
     description:
-      "Your file goes to the relevant government authority or free zone — GDRFA, ICP, DED, a specific free zone, or an embassy/consulate — with us keeping you updated on status.",
+      "Your file goes through the destination's official channel — an embassy, consulate, visa application centre or the UAE authorities for a visit visa — with us keeping you updated on status.",
     icon: Send,
   },
 ];
@@ -61,7 +61,7 @@ export default function SuccessStoriesPage() {
             <h2 className="section-title mb-4">What a Journey With Us Looks Like</h2>
             <p className="text-[#667085] leading-relaxed">
               Every client's situation is different, but the underlying process stays the same
-              across visa documentation and business setup cases.
+              across visit and study visa cases.
             </p>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

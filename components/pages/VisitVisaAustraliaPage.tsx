@@ -164,7 +164,7 @@ export default function VisitVisaAustraliaPage() {
             {[
               { href: "/visit-visa/oceania", label: "Explore Oceania Visit Visas" },
               { href: "/services/australia-visa-from-pakistan", label: "Australia Student Visa Documentation" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}

@@ -230,7 +230,7 @@ export default function VisitVisaCanadaPage() {
             {[
               { href: "/visit-visa/north-america", label: "Explore North America Visit Visas" },
               { href: "/study-visa/canada", label: "Canada Study Permit Guide" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}

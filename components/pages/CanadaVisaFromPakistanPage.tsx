@@ -68,7 +68,6 @@ const howWeHelp = [
   "Translating your documents into English or French",
   "Booking flights and hotels for your trip",
   "Scanning and uploading your documents, and showing you how to use IRCC's online system",
-  "Attesting Pakistani certificates (HEC/IBCC, MOFA) as a separate document service",
 ];
 
 
@@ -159,38 +158,6 @@ export default function CanadaVisaFromPakistanPage() {
               </MotionLink>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Attestation note */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="rounded-3xl p-8 border border-[#E4E7EC] shadow-sm"
-            style={{ backgroundColor: "#F5F8FF" }}
-          >
-            <h3 className="subsection-title mb-3">
-              Some Canada Applications Need Attested Documents Too
-            </h3>
-            <p className="text-[#667085] leading-relaxed mb-4">
-              Some study permit applications may require attested educational certificates. Where they do, the{" "}
-              <Link href="/services/attestation" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
-                same HEC/IBCC &rarr; MOFA &rarr; Embassy attestation chain
-              </Link>{" "}
-              applies as with UAE documents, and we can handle the attestation for you.
-            </p>
-            <Link
-              href="/services/attestation"
-              className="inline-flex items-center gap-2 font-semibold"
-              style={{ color: "#155EEF" }}
-            >
-              <span>See how document attestation from Pakistan works</span>
-              <ArrowRight className="w-4 h-4" aria-hidden />
-            </Link>
-          </motion.div>
         </div>
       </section>
 
@@ -342,7 +309,7 @@ export default function CanadaVisaFromPakistanPage() {
               {[
                 { href: "/visit-visa/canada", label: "Canada Visit Visa" },
                 { href: "/study-visa/canada", label: "Canada Study Permit" },
-                { href: "/services/attestation", label: "UAE Document Attestation from Pakistan" },
+                { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
                 { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
               ].map((link) => (
                 <Link

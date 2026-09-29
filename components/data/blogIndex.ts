@@ -469,5 +469,23 @@ export const blogPostSummaries: BlogPostSummary[] = [
       date: "April 7, 2026",
       readTime: "7 min read",
       category: "Business Setup",
+    },
+    {
+      id: "job-seeker-visa-uae-documents-guide",
+      title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
+      excerpt:
+        "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, validity by qualification tier, and what happens once you find a role.",
+      date: "July 6, 2026",
+      readTime: "11 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
+      id: "job-seeker-visa-from-pakistan",
+      title: "UAE Job-Seeker Visa from Pakistan – Eligibility & Documents",
+      excerpt:
+        "How the UAE job-seeker visa works for Pakistani applicants: eligibility tiers, required documents, the Pakistan attestation chain, and converting to a work visa.",
+      date: "August 12, 2026",
+      readTime: "12 min read",
+      category: "UAE Visa Documentation",
     }
   ];

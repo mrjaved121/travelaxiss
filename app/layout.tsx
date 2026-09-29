@@ -37,10 +37,9 @@ export const metadata: Metadata = {
     "visa consultancy UAE",
     "UAE visa documentation",
     "visa application support UAE",
-    "business setup Dubai",
-    "company formation UAE",
-    "Dubai business services",
-    "freezone company setup",
+    "visit visa documentation",
+    "study visa documentation",
+    "dubai visit visa from pakistan",
     "Travelaxis",
   ],
   openGraph: {

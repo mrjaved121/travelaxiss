@@ -5,25 +5,22 @@ import { breadcrumbJsonLd, faqPageJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "FAQ | UAE Business Setup & Visa Documentation Support",
+  title: "FAQ | Visit & Study Visa Documentation Support",
   description:
-    "Frequently asked questions about company formation, business setup, and UAE visa documentation in Dubai.",
+    "Frequently asked questions about visit and study visa documentation for Dubai, the UK, USA, Schengen, Australia and Germany.",
   keywords: [
-    "Dubai business setup FAQ",
-    "company formation questions UAE",
-    "UAE visa documentation",
-    "visa application support UAE",
+    "visa documentation FAQ",
+    "dubai visit visa questions",
+    "study visa documentation pakistan",
     "visa consultancy FAQ",
-    "freezone setup questions",
-    "mainland company FAQ",
   ],
   alternates: {
     canonical: `${SITE_URL}/faq/`,
   },
   openGraph: {
-    title: "FAQ | UAE Business & Visa Documentation",
+    title: "FAQ | Visit & Study Visa Documentation",
     description:
-      "Answers to common questions about company formation and UAE visa documentation support.",
+      "Answers to common questions about visit and study visa documentation support.",
     url: `${SITE_URL}/faq/`,
     images: [DEFAULT_OG_IMAGE],
   },

@@ -1,20 +1,18 @@
 # Travelaxis
 
-> Professional visa documentation consultancy, UAE company formation, business setup in Dubai, trade licensing, and related government services. Serves Pakistani nationals with UAE document attestation and visa documentation for the UK, Australia, and the USA (plus an information-only Canada guide), alongside UAE-focused services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
+> Visit and study visa documentation consultancy for applicants in Pakistan and the UAE: Dubai/UAE visit visas, UK, USA, Schengen/Germany and Australia visit visas, and UK, USA, Australia and Germany study visas (plus an information-only Canada guide). Offices in Dubai and Lahore. Also job seeker visa documentation (UAE, Germany Opportunity Card, Austria, Sweden) for applicants from Pakistan and India, and UAE Golden Visa documentation for Pakistani applicants. Travelaxis does not offer UAE business setup, government services, other UAE residency visas, document attestation or Umrah services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
 
 ## Main pages
 
 - [Home](https://travelaxis.me/)
 - [About](https://travelaxis.me/about/)
 - [Services overview](https://travelaxis.me/services/)
-- [Company formation](https://travelaxis.me/services/company-formation/) — mainland, freezone, and offshore company setup
-- [Government services](https://travelaxis.me/services/government-services/) — approvals, Dubai Chamber, customs registration
-- [Legal documentation](https://travelaxis.me/services/legal-documentation/) — MOA/POA, attestation, legal translation
-- [Business support](https://travelaxis.me/services/business-support/) — trademark, ISO certification, banking, compliance
-- [UAE visa documentation & consultancy](https://travelaxis.me/services/visa-services/) — investor, family, visit visas, renewals and cancellations
+- [Dubai visit visa from Pakistan](https://travelaxis.me/visit-visa/uae/) — durations, sponsor routes, documents, and what the price is made of
+- [Visit visas by region](https://travelaxis.me/visit-visa/)
+- [Study visa documentation](https://travelaxis.me/services/study-visa/)
+- [Job seeker visa from Pakistan & India](https://travelaxis.me/job-seeker-visa/) — UAE jobseeker visit visa (60/90/120 days), Germany Opportunity Card, Austria (6 months, 70 points), Sweden (up to 9 months); Portugal closed since 23 Oct 2025
+- [UAE Golden Visa from Pakistan](https://travelaxis.me/services/uae-golden-visa/) — 5/10-year categories, AED 2 million investor rule, documents
 - [International visa documentation](https://travelaxis.me/services/international-visas/) — Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations, for UAE residents traveling or relocating abroad
-- [Umrah services](https://travelaxis.me/services/umrah-services/) — Umrah visa processing, flight booking, hotel accommodation, and group travel coordination
-- [UAE document attestation from Pakistan](https://travelaxis.me/services/attestation/) — degree, marriage, birth, and experience certificate attestation covering the HEC/IBCC, MOFA, UAE Embassy, and MOFAIC chain
 - [UK visa from Pakistan](https://travelaxis.me/services/uk-visa-from-pakistan/) — Student, Visit, and Family/Spouse visa documentation
 - [Canada visa from Pakistan](https://travelaxis.me/services/canada-visa-from-pakistan/) — information guide to visit visas and study permits with official IRCC fees; Travelaxis is not an authorized Canadian immigration representative, so paid help for Canada is limited to translation, travel bookings and help using IRCC's online system
 - [Australia visa from Pakistan](https://travelaxis.me/services/australia-visa-from-pakistan/) — Visitor, Student, and Partner/Family visa documentation (not skilled-visa points assessment, which requires a MARA-registered agent)
@@ -22,18 +20,15 @@
 - [Germany visa from Pakistan](https://travelaxis.me/services/germany-visa-from-pakistan/) — Student/Ausbildung, Visit/Tourist (Schengen) and Family Reunification visa documentation
 - [Germany study visa from Pakistan](https://travelaxis.me/study-visa/germany/) — Student/Ausbildung visa requirements and application support
 - [Schengen & Germany visit visa from Pakistan](https://travelaxis.me/visit-visa/schengen/) — €90 fee, which embassy to apply to, Islamabad/Karachi waiting lists, German Mission document checklist
-- [UAE visit & tourist visa](https://travelaxis.me/services/uae-visit-visa/) — 14/30/60/90-day durations, airline/hotel/tour-operator/resident sponsor routes, documents
-- [UAE visa extension & renewal](https://travelaxis.me/services/uae-visa-extension-renewal/) — visit visa extension, residence visa renewal, status change, and visa status/number lookup, clearly distinguished
-- [UAE retirement visa](https://travelaxis.me/services/uae-retirement-visa/) — the three qualifying routes (property, savings, income) for residents 55+
-- [Services for clients in Pakistan](https://travelaxis.me/pakistan/) — hub linking attestation, UK/Australia/USA visas, a Canada information guide, Umrah, and Pakistan-specific sections of our UAE guides
+- [Services for clients in Pakistan](https://travelaxis.me/pakistan/) — hub linking Dubai, UK, USA, Schengen/Germany and Australia visa pages, a Canada information guide, and Pakistan-specific guides
 
-## Pakistan-specific guides (deep-dive, 2,500+ words each)
+## Pakistan-specific guides
 
 - [Start a Business in Dubai from Pakistan](https://travelaxis.me/blog/start-business-in-dubai-from-pakistan/) — mainland vs freezone, power of attorney signing, State Bank remittance rules, setup costs
 - [UAE Family Visa from Pakistan](https://travelaxis.me/blog/uae-family-visa-from-pakistan/) — income requirements, tenancy rules, attested marriage/birth certificates
-- [Dubai Visit Visa from Pakistan](https://travelaxis.me/blog/dubai-visit-visa-from-pakistan/) — 30/60/90-day durations, sponsor routes, documents, solvency proof
 - [UAE Student Visa from Pakistan](https://travelaxis.me/blog/uae-student-visa-from-pakistan/) — university sponsorship, IBCC/HEC attestation, O/A-level equivalency
 - [UAE Student Visa (general)](https://travelaxis.me/blog/uae-student-visa-guide/) — university sponsorship vs parent-dependent route, eligibility, costs
+- [Dubai Visit Visa from Pakistan](https://travelaxis.me/blog/dubai-visit-visa-from-pakistan/) — 30/60/90-day durations, sponsor routes, documents, solvency proof
 - [USA Visa from Pakistan](https://travelaxis.me/blog/usa-visa-from-pakistan/) — DS-160, Embassy Islamabad interview, B1/B2 and F1 documents; explicitly scopes out H-1B petition filing and family-based immigrant visas as requiring a US immigration attorney
 
 ## Visit-visa refusal and application guides (for Pakistani applicants)
@@ -49,15 +44,11 @@
 - [Germany Student Visa from Pakistan: Blocked Account, Documents & How to Apply](https://travelaxis.me/blog/germany-student-visa-blocked-account-pakistan/) — blocked account, deed of obligation, HEC scholarship, documents the German Mission lists, where to apply
 - [Australia Student Visa from Pakistan: The Genuine Student Requirement Explained](https://travelaxis.me/blog/australia-student-visa-genuine-student-requirement-pakistan/) — how the Genuine Student requirement replaced the GTE statement, the 150-word online questions, and the evidence Home Affairs encourages you to attach
 
-## Areas, free zones and general pages
+## General pages
 
-- [Dubai area guides](https://travelaxis.me/dubai/) — business setup and visa guidance by Dubai neighborhood
-- [UAE emirates guides](https://travelaxis.me/emirates/) — Abu Dhabi, Sharjah, Ajman, RAK, Fujairah, Umm Al Quwain
-- [UAE free zone guides](https://travelaxis.me/free-zones/) — IFZA, DMCC, DIFC, Dubai South, JAFZA, Meydan, RAKEZ, and SHAMS
-- [Why Dubai / UAE business](https://travelaxis.me/why-business/)
 - [FAQ](https://travelaxis.me/faq/)
 - [Contact](https://travelaxis.me/contact/)
-- [Blog index](https://travelaxis.me/blog/) — guides on company formation, freezones, visas, and compliance topics; see the sitemap for the full list of individual articles
+- [Blog index](https://travelaxis.me/blog/) — visit and study visa guides, plus general-information articles on UAE visas and business rules (Travelaxis no longer offers those UAE services); see the sitemap for the full list of individual articles
 - [Privacy policy](https://travelaxis.me/privacy/)
 - [Terms & conditions](https://travelaxis.me/terms/)
 

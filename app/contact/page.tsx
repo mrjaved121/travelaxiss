@@ -6,16 +6,14 @@ import { breadcrumbJsonLd, professionalServiceJsonLd, pakistanOfficeJsonLd } fro
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Contact Travelaxis | Dubai Visa & Business Consultancy",
+  title: "Contact Travelaxis | Visa Documentation, Dubai & Lahore",
   description:
-    "Contact our Dubai team for company formation, government coordination, and UAE visa documentation and consultancy. WhatsApp, phone, and email—Mon–Fri 9AM–6PM.",
+    "Contact our Dubai and Lahore team about visit and study visa documentation. WhatsApp, phone, and email—Mon–Fri 9AM–6PM.",
   keywords: [
     "contact visa consultancy UAE",
     "UAE visa documentation",
     "visa application support UAE",
-    "Dubai business setup contact",
     "Travelaxis contact",
-    "business consultancy Dubai",
   ],
   alternates: {
     canonical: `${SITE_URL}/contact/`,
@@ -23,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Travelaxis | Dubai",
     description:
-      "Get in touch for UAE business setup and visa documentation and consultancy support.",
+      "Get in touch about visit and study visa documentation support.",
     url: `${SITE_URL}/contact/`,
     images: [DEFAULT_OG_IMAGE],
   },

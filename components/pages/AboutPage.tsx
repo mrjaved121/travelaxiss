@@ -9,7 +9,7 @@ const howWeWork: { icon: LucideIcon; title: string; description: string }[] = [
   {
     icon: MessageCircle,
     title: "Start on WhatsApp",
-    description: "Tell us what you need — company formation, a specific visa, or attestation — and we confirm the exact document checklist for your case.",
+    description: "Tell us where you're going and why, and we confirm the exact document checklist for your case.",
   },
   {
     icon: Clock,
@@ -18,8 +18,8 @@ const howWeWork: { icon: LucideIcon; title: string; description: string }[] = [
   },
   {
     icon: MapPin,
-    title: "Coordinated From Al Qusais, Dubai",
-    description: "Our office is in Al Qusais — we coordinate directly with UAE authorities and free zones on your behalf, in person or remotely.",
+    title: "Offices in Dubai and Lahore",
+    description: "Our Dubai office is in Al Qusais and our Pakistan office is in Lahore, so you can work with us in person or remotely.",
   },
   {
     icon: Users,
@@ -44,19 +44,18 @@ export default function AboutPage() {
               Helping People Move <span style={{ color: '#155EEF' }}>Toward What&apos;s Next.</span>
             </h1>
             <p className="lead text-[#667085]">
-              We help businesses establish and grow, and help individuals plan their next move
-              abroad, through structured support, clear communication, and regulatory awareness.
-              Our work spans UAE company formation and government coordination, alongside
-              documentation and consultancy support for visa pathways to the UAE, UK, Australia,
-              USA, and other destinations&mdash;always aligned with official
-              requirements and each client&apos;s goals.
+              We help individuals plan their next trip or course abroad through structured
+              support, clear communication, and regulatory awareness. Our work is visit and study
+              visa documentation and consultancy for Dubai, the UK, USA, Schengen, Australia,
+              Germany and other destinations&mdash;always aligned with official requirements and
+              each client&apos;s goals.
             </p>
             <p className="text-sm text-[#667085] mt-4 max-w-lg leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a
               government authority, employer, or recruitment agency, and we do not arrange jobs,
-              sponsor employment, or guarantee visa or license approval. All applications are
-              submitted through official UAE government channels, free zones, or authorized
-              entities, subject to their own rules and approvals.
+              sponsor employment, or guarantee visa approval. All applications are submitted
+              through each country&apos;s official channels or authorized entities, subject to
+              their own rules and approvals.
             </p>
           </motion.div>
 
@@ -69,7 +68,7 @@ export default function AboutPage() {
             <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="Travelaxis UAE business setup and visa documentation consultancy team"
+              alt="Travelaxis visit and study visa documentation consultancy team"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"
@@ -94,8 +93,8 @@ export default function AboutPage() {
               <h3 className="subsection-title mb-4">Our Mission</h3>
               <p className="text-[#667085]">
                 To deliver professional, structured services with accurate documentation,
-                realistic timelines, and transparent expectations&mdash;so businesses can operate
-                efficiently and grow with confidence.
+                realistic timelines, and transparent expectations&mdash;so every applicant knows
+                exactly what their application needs.
               </p>
             </motion.div>
 
@@ -110,8 +109,8 @@ export default function AboutPage() {
               </div>
               <h3 className="subsection-title mb-4">Our Vision</h3>
               <p className="text-[#667085]">
-                To be recognized as a trusted UAE consultancy partner for business formation and
-                documentation-led visa support.
+                To be recognized as a trusted, documentation-led visa consultancy for applicants in
+                Pakistan and the UAE.
               </p>
             </motion.div>
           </div>
@@ -164,7 +163,7 @@ export default function AboutPage() {
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Talk to Travelaxis</h2>
           <p className="lead mb-8" style={{ color: "rgba(255,255,255,0.9)" }}>
-            Let us help you build your business, or plan your next move abroad, with professional
+            Let us help you plan your next trip or course abroad, with professional
             guidance and support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

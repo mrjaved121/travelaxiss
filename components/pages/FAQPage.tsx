@@ -13,7 +13,7 @@ export default function FAQPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const categories = ["All", "Business Setup", "Freezone", "UAE Visa Documentation", "Documentation", "General", "Why Choose Us"];
+  const categories = ["All", "General", "Visit Visa", "Study Visa"];
 
   const filteredFAQs = faqs.filter(faq => {
     const matchesCategory = selectedCategory === "All" || faq.category === selectedCategory;
@@ -42,7 +42,7 @@ export default function FAQPage() {
               Frequently Asked <span style={{ color: '#155EEF' }}>Questions</span>
             </h1>
             <p className="lead">
-              Clear answers about our consultancy and documentation support—including how UAE visa-related assistance works.
+              Clear answers about our visit and study visa documentation support.
             </p>
           </motion.div>
         </div>
@@ -51,7 +51,7 @@ export default function FAQPage() {
       <section className="py-8" style={{ backgroundColor: "#FFFFFF" }} aria-label="Disclaimer">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm text-[#667085] text-center leading-relaxed border border-[#E4E7EC] rounded-2xl p-4 bg-[#F5F8FF]">
-            We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through official UAE government channels or authorized entities, subject to applicable rules and approvals.
+            We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through each country&apos;s official government channels or authorized entities, subject to applicable rules and approvals.
           </p>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function FAQPage() {
                 id={searchFieldId}
                 type="search"
                 name="faq-search"
-                placeholder="e.g. company formation, visa documentation"
+                placeholder="e.g. visit visa, bank statement"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-[#E4E7EC] focus:border-opacity-50 focus:outline-none transition-colors"
@@ -225,14 +225,14 @@ export default function FAQPage() {
             </h2>
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 list-none p-0 m-0">
               {[
-                "Business Setup in UAE",
-                "Company Formation Dubai",
-                "Freezone Business UAE",
-                "UAE visa documentation & consultancy",
-                "Mainland Company Setup",
-                "Business Consultancy UAE",
-                "Dubai Trade License",
-                "Corporate Services UAE"
+                "Dubai Visit Visa",
+                "UK Visit Visa",
+                "USA Visit Visa",
+                "Schengen Visa",
+                "Australia Visit Visa",
+                "UK Study Visa",
+                "USA Student Visa",
+                "Germany Study Visa"
               ].map((topic, index) => (
                 <motion.li
                   key={topic}

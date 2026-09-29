@@ -44,7 +44,7 @@ export default function NewsletterSignup() {
               className="text-sm mt-1.5 leading-relaxed"
               style={{ color: "rgba(255, 255, 255, 0.65)" }}
             >
-              Visa updates and useful business setup insights, sent occasionally.
+              Visa updates and useful application guides, sent occasionally.
             </p>
           </div>
 

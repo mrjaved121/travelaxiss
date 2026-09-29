@@ -201,7 +201,7 @@ export default function StudyVisaCanadaPage() {
             {[
               { href: "/visit-visa/canada", label: "Canada Visitor Visa" },
               { href: "/services/canada-visa-from-pakistan", label: "Canada Visa Overview" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}

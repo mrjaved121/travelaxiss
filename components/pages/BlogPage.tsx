@@ -49,7 +49,7 @@ export default function BlogPage() {
               Understand <span style={{ color: '#155EEF' }}>Before You Apply.</span>
             </h1>
             <p className="lead">
-              Expert guides on UAE visas, business setup, and international visa documentation.
+              Guides on visit and study visas for Dubai, the UK, USA, Schengen, Australia and Germany, plus general information on UAE visas and business rules.
             </p>
 
             <div className="max-w-xl mx-auto mt-8 relative">
@@ -165,16 +165,16 @@ export default function BlogPage() {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>Ready to Start Your Business?</h2>
+          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>Need Help With Your Visa Documents?</h2>
           <p className="lead mb-8" style={{ color: 'rgba(255,255,255,0.9)' }}>
-            Get expert guidance for your company formation in UAE
+            Tell us where you&apos;re going and we&apos;ll confirm what your application needs.
           </p>
           <a
             href="https://wa.me/971589867555"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
-            aria-label="Contact Travelaxis on WhatsApp about UAE company formation (opens in a new tab)"
+            aria-label="Contact Travelaxis on WhatsApp about your visa documents (opens in a new tab)"
           >
             Contact Us on WhatsApp
             <ArrowRight className="w-5 h-5" aria-hidden />

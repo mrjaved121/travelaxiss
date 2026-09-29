@@ -206,7 +206,7 @@ export default function StudyVisaAustraliaPage() {
             {[
               { href: "/visit-visa/australia", label: "Australia Visitor Visa" },
               { href: "/services/australia-visa-from-pakistan", label: "Australia Visa Overview & Family Routes" },
-              { href: "/services/attestation", label: "UAE Document Attestation" },
+              { href: "/visit-visa/uae", label: "Dubai Visit Visa from Pakistan" },
             ].map((link) => (
               <Link
                 key={link.href}

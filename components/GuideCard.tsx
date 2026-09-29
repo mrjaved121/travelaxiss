@@ -18,7 +18,7 @@ type GuideCardProps = {
   className?: string;
 };
 
-/** Shared icon + title + description + CTA card used across hub/listing pages (Pakistan, Services, Dubai, Emirates, Free Zones). */
+/** Shared icon + title + description + CTA card used across hub/listing pages (Pakistan, Services). */
 export default function GuideCard({
   icon: Icon,
   title,
