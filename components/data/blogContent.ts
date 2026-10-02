@@ -4100,13 +4100,21 @@ export const blogData: Record<string, any> = {
     title: "UAE Visit Visa for Relatives – Documentation Guide",
     metaTitle: "UAE Visit Visa for Relatives – Full Documentation Guide",
     metaDescription:
-      "How a UAE resident sponsors a visiting relative, the documents both sides need, and the mistakes that most often cause visit-visa delays.",
+      "How a UAE resident sponsors a visiting relative, the 2025 income-tier salary rule, documents needed, and mistakes that cause delays.",
+    keywords: [
+      "uae visit visa sponsor salary requirement 2026",
+      "uae visit visa income requirement",
+      "sponsor a visitor uae salary",
+      "who can sponsor a uae visit visa",
+      "uae visit visa for relatives",
+    ],
     date: "July 6, 2026",
-    readTime: "13 min read",
+    dateModifiedIso: "2026-10-02",
+    readTime: "14 min read",
     category: "UAE Visa Documentation",
     content: {
       intro:
-        "Bringing a relative to visit for a few weeks is a different process from sponsoring them as a long-term dependent. A UAE resident can sponsor a short visit visa for family, with its own document set on both the sponsor's and the visitor's side. This guide covers what each side needs to prepare and the mistakes that most commonly delay approval.",
+        "Bringing a relative to visit for a few weeks is a different process from sponsoring them as a long-term dependent. A UAE resident can sponsor a short visit visa for family, with its own document set on both the sponsor's and the visitor's side, and — since September 2025 — an income requirement tied to how closely they're related to the visitor. This guide covers what each side needs to prepare, how the income-tier rule works, and the mistakes that most commonly delay approval.",
       sections: [
         {
           heading: "Visiting vs Long-Term Family Residence",
@@ -4117,9 +4125,26 @@ export const blogData: Record<string, any> = {
           heading: "Who Can Sponsor a Relative's Visit",
           items: [
             "UAE residents holding a valid Emirates ID can generally sponsor a visit visa for family",
-            "Some channels apply minimum salary or status conditions to the sponsor",
+            "The required minimum salary depends on your relationship to the visitor — see the income-tier rule below",
             "Alternatively, hotels, tour operators, or airlines can sponsor tourist visit visas without needing a UAE-resident relative",
           ],
+        },
+        {
+          heading: "The September 2025 Income-Tier Rule for Sponsors",
+          content:
+            "Since September 2025, the ICP (Federal Authority for Identity, Citizenship, Customs & Port Security) has tied the sponsor's minimum monthly salary to how closely they're related to the visitor, replacing a looser, less consistent set of conditions. The closer the relationship, the lower the required income; the more distant — down to friends and other non-relatives — the higher it is. We don't publish the exact AED figures here, since thresholds like this are reviewed periodically — confirm the current amount with GDRFA, the ICP portal, or ask us.",
+          subsections: [
+            {
+              title: "The three relationship tiers",
+              items: [
+                "First-degree relatives: parents, spouse, and children — the lowest income threshold.",
+                "Second- and third-degree relatives: siblings, grandparents, grandchildren, aunts, uncles, and cousins — a higher threshold.",
+                "Friends and other non-relatives — the highest threshold.",
+              ],
+            },
+          ],
+          note:
+            "This tier structure is consistent across multiple UAE news outlets reporting the ICP's update, including [Khaleej Times](https://www.khaleejtimes.com/life-and-living/visa-and-immigration-in-uae/uae-visit-visa-minimum-salary-requirement). We could not verify the exact wording directly on ICP's own site, since its visit-visa service pages require an interactive session that automated review can't access — confirm your category with ICP, GDRFA, or your typing centre before applying.",
         },
         {
           heading: "Documents the Sponsor (UAE Resident) Needs",
@@ -4333,7 +4358,17 @@ export const blogData: Record<string, any> = {
             {
               question: "Can any UAE resident sponsor a relative's visit visa?",
               answer:
-                "Most Emirates ID holders can, though some channels apply minimum salary or status conditions to the sponsor, so it's worth confirming for your specific situation.",
+                "Most Emirates ID holders can, provided they meet the minimum salary for their relationship tier — a lower threshold for first-degree relatives, a higher one for second- and third-degree relatives, and the highest for friends — set by the ICP since September 2025.",
+            },
+            {
+              question: "How much salary do I need to sponsor a relative's UAE visit visa?",
+              answer:
+                "It depends on your relationship to the visitor: a lower minimum for first-degree relatives (parents, spouse, children), a higher one for second- and third-degree relatives, and the highest for friends. We don't publish exact figures here since they're reviewed periodically — check with GDRFA, ICP, or ask us for the current amount.",
+            },
+            {
+              question: "What counts as a second- or third-degree relative under the new rule?",
+              answer:
+                "Siblings, grandparents, grandchildren, aunts, uncles, and cousins fall into this middle tier, between first-degree relatives (parents, spouse, children) and friends or other non-relatives.",
             },
             {
               question: "How long does a visit visa for a relative last?",
