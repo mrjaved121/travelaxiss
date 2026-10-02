@@ -129,7 +129,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       id: "visit-visa-relatives-uae-guide",
       title: "UAE Visit Visa for Relatives – Documentation Guide",
       excerpt:
-        "How a UAE resident sponsors a visiting relative, the documents both sides need, and the mistakes that most often cause visit-visa delays.",
+        "How a UAE resident sponsors a visiting relative, the 2025 income-tier salary rule, documents needed, and mistakes that cause delays.",
       date: "July 6, 2026",
       readTime: "13 min read",
       category: "UAE Visa Documentation",
