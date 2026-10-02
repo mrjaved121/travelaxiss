@@ -29,6 +29,7 @@ const staticPaths = [
   "/visit-visa/schengen",
   "/job-seeker-visa",
   "/services/uae-golden-visa",
+  "/services/freelance-visa-dubai",
   "/visit-visa/north-america",
   "/visit-visa/middle-east",
   "/visit-visa/asia",

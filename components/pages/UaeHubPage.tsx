@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Plane, Briefcase, Award, MessageCircle, ArrowUpRight } from "lucide-react";
+import { Plane, Briefcase, Award, Laptop, MessageCircle, ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import {
   Accordion,
@@ -40,6 +40,14 @@ const routes = [
     href: "/services/uae-golden-visa",
     badge: "Long-term residence",
   },
+  {
+    title: "Freelance Visa",
+    description:
+      "Working for yourself in the UAE. A GoFreelance (Dubai) or twofour54 (Abu Dhabi) permit lets you sponsor your own residence visa — no employer needed.",
+    icon: Laptop,
+    href: "/services/freelance-visa-dubai",
+    badge: "Self-employed",
+  },
 ];
 
 export default function UaeHubPage() {
@@ -55,10 +63,11 @@ export default function UaeHubPage() {
               Which UAE Visa <span style={{ color: "#155EEF" }}>Is Right for You?</span>
             </h1>
             <p className="lead text-[#667085] leading-relaxed">
-              Travelaxis offers documentation support for three UAE routes from our Dubai and
-              Lahore offices: the visit visa, the job seeker visa, and the Golden Visa. We don&apos;t
-              offer UAE business setup, government/PRO services, document attestation, or Umrah
-              services — pick the route below that matches your situation.
+              Travelaxis offers documentation support for four UAE routes from our Dubai and
+              Lahore offices: the visit visa, the job seeker visa, the Golden Visa, and the
+              freelance visa. We don&apos;t offer UAE business setup, government/PRO services,
+              document attestation, or Umrah services — pick the route below that matches your
+              situation.
             </p>
           </motion.div>
         </div>
@@ -70,7 +79,7 @@ export default function UaeHubPage() {
           <h2 id="uae-routes-heading" className="sr-only">
             UAE visa routes
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
             {routes.map((route, index) => (
               <GuideCard
                 key={route.href}

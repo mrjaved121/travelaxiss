@@ -1,18 +1,19 @@
 # Travelaxis
 
-> Visit and study visa documentation consultancy for applicants in Pakistan and the UAE: Dubai/UAE visit visas, UK, USA, Schengen/Germany and Australia visit visas, and UK, USA, Australia and Germany study visas (plus an information-only Canada guide). Offices in Dubai and Lahore. Also job seeker visa documentation (UAE, Germany Opportunity Card, Austria, Sweden) for applicants from Pakistan and India, and UAE Golden Visa documentation for Pakistani applicants. Travelaxis does not offer UAE business setup, government services, other UAE residency visas, document attestation or Umrah services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
+> Visit and study visa documentation consultancy for applicants in Pakistan and the UAE: Dubai/UAE visit visas, UK, USA, Schengen/Germany and Australia visit visas, and UK, USA, Australia and Germany study visas (plus an information-only Canada guide). Offices in Dubai and Lahore. Also job seeker visa documentation (UAE, Germany Opportunity Card, Austria, Sweden) for applicants from Pakistan and India, UAE Golden Visa documentation, and UAE freelance visa documentation (Dubai GoFreelance/TECOM, Abu Dhabi twofour54/ADDED) for Pakistani applicants. Travelaxis does not offer UAE business setup, company formation, government services, other UAE residency visas, document attestation or Umrah services. Based in Al Qusais, Dubai, UAE. Content is general information, not legal advice. Travelaxis is a documentation and consultancy service — it does not issue visas or licenses, arrange sponsorship or jobs, guarantee approval, or provide regulated immigration/legal consulting (e.g. Canada Express Entry/PNP, Australia skilled-visa assessment, US H-1B petition filing or family-based immigrant visas); applications are submitted through the relevant country's official government channels.
 
 ## Main pages
 
 - [Home](https://travelaxis.me/)
 - [About](https://travelaxis.me/about/)
 - [Services overview](https://travelaxis.me/services/)
-- [UAE visa services](https://travelaxis.me/uae/) — hub comparing the 3 UAE routes (visit, job seeker, Golden Visa) to help applicants pick the right one
+- [UAE visa services](https://travelaxis.me/uae/) — hub comparing the 4 UAE routes (visit, job seeker, Golden Visa, freelance) to help applicants pick the right one
 - [Dubai visit visa from Pakistan](https://travelaxis.me/visit-visa/uae/) — durations, sponsor routes, documents, and what the price is made of
 - [Visit visas by region](https://travelaxis.me/visit-visa/)
 - [Study visa documentation](https://travelaxis.me/services/study-visa/)
 - [Job seeker visa from Pakistan & India](https://travelaxis.me/job-seeker-visa/) — UAE jobseeker visit visa (60/90/120 days), Germany Opportunity Card, Austria (6 months, 70 points), Sweden (up to 9 months); Portugal closed since 23 Oct 2025
 - [UAE Golden Visa from Pakistan](https://travelaxis.me/services/uae-golden-visa/) — 5/10-year categories, AED 2 million investor rule, documents
+- [Freelance Visa in Dubai & the UAE](https://travelaxis.me/services/freelance-visa-dubai/) — GoFreelance (TECOM) Dubai package from AED 7,500/year, twofour54/ADDED in Abu Dhabi, self-sponsored residence visa
 - [International visa documentation](https://travelaxis.me/services/international-visas/) — Saudi Arabia, Europe, USA, Schengen, and other African and Asian destinations, for UAE residents traveling or relocating abroad
 - [UK visa from Pakistan](https://travelaxis.me/services/uk-visa-from-pakistan/) — Student, Visit, and Family/Spouse visa documentation
 - [Canada visa from Pakistan](https://travelaxis.me/services/canada-visa-from-pakistan/) — information guide to visit visas and study permits with official IRCC fees; Travelaxis is not an authorized Canadian immigration representative, so paid help for Canada is limited to translation, travel bookings and help using IRCC's online system

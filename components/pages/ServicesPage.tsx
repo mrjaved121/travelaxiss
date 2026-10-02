@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Plane, Globe2, MapPin, GraduationCap, Briefcase, Award, Landmark, Snowflake, Sun, Flag, Compass, Clock, Shield, Target } from "lucide-react";
+import { Plane, Globe2, MapPin, GraduationCap, Briefcase, Award, Landmark, Snowflake, Sun, Flag, Compass, Clock, Shield, Target, Laptop } from "lucide-react";
 import { motion } from "motion/react";
 import GuideCard from "@/components/GuideCard";
 
@@ -78,6 +78,15 @@ const services: {
       "5 or 10-year UAE residence for investors, entrepreneurs, exceptional talent, outstanding students and humanitarian pioneers.",
     icon: Award,
     link: "/services/uae-golden-visa",
+  },
+  {
+    title: "Freelance Visa in Dubai & the UAE",
+    category: "UAE",
+    group: "Study & Work",
+    description:
+      "A self-sponsored residence visa through a Dubai (GoFreelance) or Abu Dhabi (twofour54) freelance permit — no employer needed.",
+    icon: Laptop,
+    link: "/services/freelance-visa-dubai",
   },
   {
     title: "UK Visa from Pakistan",

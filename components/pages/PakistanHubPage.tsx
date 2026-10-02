@@ -16,6 +16,7 @@ import {
   Briefcase,
   Award,
   FileText,
+  Laptop,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { LucideIcon } from "lucide-react";
@@ -61,6 +62,14 @@ const guides: {
       "The 5 and 10-year categories, the AED 2 million investor rule, and the documents Pakistani applicants need.",
     icon: Award,
     link: "/services/uae-golden-visa",
+  },
+  {
+    title: "Freelance Visa in Dubai & the UAE",
+    category: "Freelance Visa",
+    description:
+      "GoFreelance's AED 7,500 Dubai package, the Abu Dhabi twofour54 route, and the documents and process for a self-sponsored residence visa.",
+    icon: Laptop,
+    link: "/services/freelance-visa-dubai",
   },
   {
     title: "UK Visa from Pakistan",

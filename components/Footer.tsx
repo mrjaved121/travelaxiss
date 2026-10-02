@@ -63,6 +63,11 @@ export default function Footer() {
                   UAE Golden Visa
                 </Link>
               </li>
+              <li>
+                <Link href="/services/freelance-visa-dubai" className="footer-link transition-colors">
+                  Freelance Visa
+                </Link>
+              </li>
               <li className="pt-1">
                 <Link href="/services" className="footer-link font-semibold transition-colors" style={{ color: "#155EEF" }}>
                   View All Visa Services &rarr;

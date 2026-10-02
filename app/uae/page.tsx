@@ -6,14 +6,15 @@ import { breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "UAE Visa Services from Pakistan – Visit, Job Seeker & Golden",
+  title: "UAE Visa Services from Pakistan – Compare All Routes",
   description:
-    "Compare UAE visit visa, job seeker visa and Golden Visa routes for Pakistani applicants, and find the one that fits your situation.",
+    "Compare UAE visit, job seeker, Golden and freelance visa routes for Pakistani applicants, and find the one that fits your situation.",
   keywords: [
     "uae visa services",
     "uae visa services from pakistan",
     "which uae visa do i need",
     "uae visit visa vs job seeker visa",
+    "uae freelance visa vs golden visa",
   ],
   alternates: {
     canonical: `${SITE_URL}/uae/`,
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/uae/`,
     title: "UAE Visa Services from Pakistan | Travelaxis",
     description:
-      "Visit visa, job seeker visa and Golden Visa documentation support for the UAE, from our Dubai and Lahore offices.",
+      "Visit visa, job seeker visa, Golden Visa and freelance visa documentation support for the UAE, from our Dubai and Lahore offices.",
     images: [DEFAULT_OG_IMAGE],
   },
 };
