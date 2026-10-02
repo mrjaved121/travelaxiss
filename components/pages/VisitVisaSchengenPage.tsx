@@ -24,7 +24,7 @@ const linkClass = "font-semibold underline-offset-2 hover:underline";
 
 const quickFacts = [
   { label: "Length of stay", value: "Up to 90 days in any 180-day period" },
-  { label: "Visa fee", value: "€90 adults, €45 children aged 6–12" },
+  { label: "Visa fee", value: "Set by the Schengen visa code, reduced for children" },
   { label: "Processing", value: "Usually about 14–15 days" },
   { label: "Apply", value: "No earlier than 6 months, at least 15 days before travel" },
 ];
@@ -40,7 +40,7 @@ const germanyDocuments = [
   "Current passport, valid at least 3 months after the visa ends and signed by you, plus all previous passports and visas",
   "Videx online application form, printed and signed",
   "Two biometric passport photos, not older than 6 months",
-  "Travel medical insurance with at least €30,000 cover for all Schengen countries",
+  "Travel medical insurance meeting the German Mission's minimum cover requirement for all Schengen countries",
   "Hotel bookings and itinerary for the whole stay (tourists), or an invitation from your host (family and friend visits)",
   "Confirmed return flight reservation",
   "Employment or university letter and NOC for the trip",
@@ -71,8 +71,8 @@ const applySteps = [
 ];
 
 const fees = [
-  { item: "Schengen short-stay visa (type C) — adults", amount: "€90" },
-  { item: "Schengen short-stay visa — children aged 6 to 12", amount: "€45" },
+  "Schengen short-stay visa (type C) — adults",
+  "Schengen short-stay visa — children aged 6 to 12 (reduced)",
 ];
 
 const otherCountries = [
@@ -128,9 +128,9 @@ export default function VisitVisaSchengenPage() {
               <p className="text-[#667085] leading-relaxed">
                 Apply to the embassy of your main destination. For Germany, register (free) on the waiting
                 list of the Embassy in Islamabad or the Consulate General in Karachi, then attend your
-                appointment with the full document set. The fee is €90 for adults, charged in PKR at the
-                current exchange rate, and a decision usually takes about 14 days. The decision is made
-                only by the embassy; we help you prepare a complete, consistent file.
+                appointment with the full document set. The visa fee is charged in PKR at the current
+                exchange rate on the day you pay, and a decision usually takes about 14 days. The decision
+                is made only by the embassy; we help you prepare a complete, consistent file.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -284,7 +284,7 @@ export default function VisitVisaSchengenPage() {
         className="bg-[#F5F8FF]"
         heading="Schengen Visa Fee from Pakistan"
         intro="The Schengen visa fee is the same for every member country. At the German Embassy and Consulate General in Pakistan it is charged in PKR at the current exchange rate and paid in cash at the counter."
-        rows={fees}
+        items={fees}
         note="Countries that use an external visa service centre may add a service charge on top, and the fee can be waived for some categories of applicant. Our own service fee is separate and quoted after we review your case."
         sourceLabel="German Missions in Pakistan — visa fees"
         sourceHref={DE_FEES_HREF}

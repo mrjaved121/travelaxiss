@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Canada Study Visa from Pakistan – Fees & Requirements",
   description:
-    "Canada study visa from Pakistan: IRCC fees (CAD 150 + CAD 85 biometrics), Letter of Acceptance, proof of funds, documents, and how to apply online.",
+    "Canada study visa from Pakistan: IRCC fees, Letter of Acceptance, proof of funds, documents, and how to apply online.",
   keywords: [
     "canada study visa from pakistan",
     "canada study visa price in pakistan",

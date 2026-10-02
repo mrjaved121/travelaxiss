@@ -43,7 +43,7 @@ const guides: {
     title: "Schengen & Germany Visit Visa",
     category: "Visit Visa",
     description:
-      "The €90 Schengen fee, which embassy to apply to, the Islamabad and Karachi waiting lists, and the German Mission's document checklist.",
+      "The Schengen application fee, which embassy to apply to, the Islamabad and Karachi waiting lists, and the German Mission's document checklist.",
     icon: Globe2,
     link: "/visit-visa/schengen",
   },
@@ -59,7 +59,7 @@ const guides: {
     title: "UAE Golden Visa from Pakistan",
     category: "Golden Visa",
     description:
-      "The 5 and 10-year categories, the AED 2 million investor rule, and the documents Pakistani applicants need.",
+      "The 5 and 10-year categories, the investor, talent and student routes, and the documents Pakistani applicants need.",
     icon: Award,
     link: "/services/uae-golden-visa",
   },
@@ -67,7 +67,7 @@ const guides: {
     title: "Freelance Visa in Dubai & the UAE",
     category: "Freelance Visa",
     description:
-      "GoFreelance's AED 7,500 Dubai package, the Abu Dhabi twofour54 route, and the documents and process for a self-sponsored residence visa.",
+      "The Dubai GoFreelance package, the Abu Dhabi twofour54 route, and the documents and process for a self-sponsored residence visa.",
     icon: Laptop,
     link: "/services/freelance-visa-dubai",
   },
