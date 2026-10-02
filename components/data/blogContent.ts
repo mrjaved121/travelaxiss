@@ -441,7 +441,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Option 1: The blocked bank account",
           content:
-            "A blocked account (Sperrkonto) is a German bank account where the money you pay in is held and released to you in monthly amounts. The Mission's page says that when applying for a visa you can provide evidence that you are able to meet your living costs by opening one. As of 1 January 2025 the Mission gave the presumed requirement as EUR 992 per month, or EUR 11,904 per year. That figure is set by German authorities and can change, so check the Mission's page for the current amount before you transfer any money.",
+            "A blocked account (Sperrkonto) is a German bank account where the money you pay in is held and released to you in monthly amounts. The Mission's page says that when applying for a visa you can provide evidence that you are able to meet your living costs by opening one. The Mission sets a presumed monthly and annual requirement and updates it periodically, so we don't quote a figure here — check the Mission's financing page for the current amount before you transfer any money.",
           subsections: [
             {
               title: "Things to know before you open one",
@@ -544,7 +544,7 @@ export const blogData: Record<string, any> = {
             {
               question: "How much money must go into a German blocked account?",
               answer:
-                "As of 1 January 2025 the Mission gave the presumed requirement as EUR 992 per month, or EUR 11,904 per year. German authorities update this figure, so confirm the current amount on the Mission's financing page before you deposit.",
+                "German authorities set a presumed monthly and annual requirement and update it periodically, so we don't quote a figure here — confirm the current amount on the Mission's financing page before you deposit.",
             },
             {
               question: "Does a scholarship from my Pakistani university count as proof of financing?",
@@ -615,8 +615,8 @@ export const blogData: Record<string, any> = {
             {
               title: "The two rules that matter",
               items: [
-                "Roughly twice your trip cost: if your trip will cost around £2,000, aim to show about £3,000–£4,000 available. This safety margin reassures the officer.",
-                "Around £100–£150 per person per day of your stay as accessible funds, on top of pre-paid flights and hotels.",
+                "Roughly double your total trip cost available, as a safety margin that reassures the officer — not just enough to cover it exactly.",
+                "A reasonable per-person, per-day living-cost estimate as accessible funds, scaled to your itinerary, on top of pre-paid flights and hotels.",
               ],
             },
           ],
@@ -629,10 +629,10 @@ export const blogData: Record<string, any> = {
             {
               title: "Rough amounts to aim for",
               items: [
-                "1-week trip: around £500–£800.",
-                "2-week trip: around £800–£1,500.",
-                "1-month trip: around £1,500–£3,000.",
-                "Each additional month: roughly £1,000 more.",
+                "1-week trip: a modest baseline amount.",
+                "2-week trip: roughly 1.5–2x the 1-week baseline.",
+                "1-month trip: roughly 3x the 1-week baseline.",
+                "Each additional month: a further proportional increase.",
               ],
             },
           ],
@@ -736,7 +736,7 @@ export const blogData: Record<string, any> = {
             {
               question: "How much bank balance is needed for a UK visit visa from Pakistan?",
               answer:
-                "There is no official minimum. Aim to show roughly twice your trip cost — for example around £3,000–£4,000 for a £2,000 trip — or about £100–£150 per person per day, backed by six months of steady, organic bank statements.",
+                "There is no official minimum. Aim to show roughly double your total trip cost, or a reasonable per-person daily living-cost estimate scaled to your itinerary, backed by six months of steady, organic bank statements.",
             },
             {
               question: "Is there a fixed minimum balance set by the Home Office?",
@@ -954,13 +954,13 @@ export const blogData: Record<string, any> = {
         {
           heading: "UK visit visa fee and processing time (2027)",
           content:
-            "For reference, the current UK Standard Visitor visa costs and timelines are below, as published on the official [GOV.UK Standard Visitor visa page](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa). The fee is non-refundable if you are refused, so a correct first application matters.",
+            "For reference, current UK Standard Visitor visa fees and timelines are published on the official [GOV.UK Standard Visitor visa page](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa) — we don't quote amounts here since the Home Office reviews them. The fee is non-refundable if you are refused, so a correct first application matters.",
           subsections: [
             {
               title: "Costs and timelines",
               items: [
-                "Standard Visitor visa (up to 6 months): £135.",
-                "Priority service: about £500 extra, with a decision often in around 5 working days.",
+                "Standard Visitor visa (up to 6 months): see GOV.UK for the current fee.",
+                "Priority service: an additional fee, with a decision often in around 5 working days.",
                 "Standard processing: usually a decision within about 3 weeks.",
                 "TB test: required only for stays longer than 6 months — a standard 6-month visit visa does not need one.",
               ],
@@ -1046,7 +1046,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Why Schengen visas get rejected for Pakistani applicants",
           content:
-            "If your Schengen visa was refused, you are not alone — and in most cases the reason is fixable. In 2024, Pakistani nationals filed 78,362 Schengen visa applications, and applicants collectively spent over €2.8 million on fees for applications that were rejected — money lost largely to avoidable mistakes in the file, not to travellers being genuinely unqualified. This guide breaks down all 11 official refusal grounds exactly as they appear on the refusal letter (Article 32 of the EU Visa Code), explains why each one hits Pakistani applicants most often, and tells you how to fix it before you reapply.",
+            "If your Schengen visa was refused, you are not alone — and in most cases the reason is fixable. In 2024, Pakistani nationals filed 78,362 Schengen visa applications, and a meaningful share were rejected — visa fees that are not refunded on refusal, lost largely to avoidable mistakes in the file, not to travellers being genuinely unqualified. This guide breaks down all 11 official refusal grounds exactly as they appear on the refusal letter (Article 32 of the EU Visa Code), explains why each one hits Pakistani applicants most often, and tells you how to fix it before you reapply.",
         },
         {
           heading: "Key takeaways",
@@ -1056,7 +1056,7 @@ export const blogData: Record<string, any> = {
               items: [
                 "Every Schengen refusal cites one or more of 11 standard reasons printed on your refusal letter — find yours before doing anything else.",
                 "The most common reasons for Pakistani applicants are weak financial proof, an unconvincing purpose of travel, and doubt that you will return to Pakistan.",
-                "You typically need to show around €50–€70 per day of your trip in accessible savings, backed by 6 months of bank statements.",
+                "You typically need to show a reasonable daily living-cost estimate for your trip in accessible savings, backed by 6 months of bank statements.",
                 "After a refusal you can either appeal (challenge the decision) or reapply (submit a stronger fresh application) — appeal only when the decision was genuinely wrong.",
                 "A refusal is not a ban. A well-prepared second application can succeed even after a rejection.",
               ],
@@ -1077,7 +1077,7 @@ export const blogData: Record<string, any> = {
                 "4. 90/180-day rule exceeded — you have already used your allowed days in the Schengen area.",
                 "5. SIS alert — you are flagged in the Schengen Information System.",
                 "6. Threat to public policy or security — seen as a security, public-order or health risk.",
-                "7. No valid travel medical insurance — missing insurance with at least €30,000 coverage.",
+                "7. No valid travel medical insurance — missing insurance that meets the minimum coverage requirement.",
                 "8. Information not reliable — your documents or answers seemed inconsistent.",
                 "9. Intention to leave not established — the officer is not convinced you will return home.",
                 "10. Border or airport visa unjustified — no good reason you applied at the border.",
@@ -1116,7 +1116,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How much bank balance do you need for a Schengen visa from Pakistan?",
           content:
-            "There is no single official figure, but as a working rule you should show roughly €50–€70 per day of your planned stay (about PKR 16,000–23,000 at current rates) in accessible savings, on top of pre-paid flights and hotels. For a 15-day trip, that is roughly €750–€1,050 clearly available in your account. Just as important as the amount is how the money looks.",
+            "There is no single official figure, but as a working rule you should show a reasonable daily living-cost estimate for your planned stay in accessible savings, on top of pre-paid flights and hotels, scaled to the length of your trip. Just as important as the amount is how the money looks.",
           subsections: [
             {
               title: "What makes bank proof convincing",
@@ -1213,15 +1213,15 @@ export const blogData: Record<string, any> = {
         {
           heading: "Schengen visa fee from Pakistan in 2026",
           content:
-            "For reference, the current Schengen short-stay visa fees are below. The visa fee is non-refundable even if you are refused — which is exactly why getting the application right the first time matters so much. Processing normally takes 15 calendar days from the date your application is admissible, and can extend to 45 days in cases needing extra scrutiny.",
+            "The current Schengen short-stay visa fee is set by the EU Visa Code and reviewed periodically — check the official fee page for the current amount. The visa fee is non-refundable even if you are refused — which is exactly why getting the application right the first time matters so much. Processing normally takes 15 calendar days from the date your application is admissible, and can extend to 45 days in cases needing extra scrutiny.",
           subsections: [
             {
               title: "Schengen visa fees 2026",
               items: [
-                "Adults: €90",
-                "Children aged 6–11: €45",
+                "Adults: standard fee",
+                "Children aged 6–11: reduced fee",
                 "Children under 6: free",
-                "VFS Global or TLScontact service charge: around €17–€35 extra",
+                "VFS Global or TLScontact service charge: an additional fee on top of the visa fee",
               ],
             },
           ],
@@ -1254,7 +1254,7 @@ export const blogData: Record<string, any> = {
             {
               question: "How much bank balance is needed for a Schengen visa from Pakistan?",
               answer:
-                "There is no fixed official amount, but plan to show roughly €50–€70 per day of your trip in accessible funds — about €750–€1,050 for a two-week visit — backed by six months of steady bank statements and proof of income.",
+                "There is no fixed official amount, but plan to show a reasonable daily living-cost estimate for your trip in accessible funds, scaled to the length of your visit, backed by six months of steady bank statements and proof of income.",
             },
             {
               question: "Which is the most common reason for Schengen visa rejection for Pakistanis?",
@@ -1269,7 +1269,7 @@ export const blogData: Record<string, any> = {
             {
               question: "Is the Schengen visa fee refunded if I am rejected?",
               answer:
-                "No. The €90 visa fee is non-refundable regardless of the outcome, which is why a correctly prepared application is so important.",
+                "No. The visa fee is non-refundable regardless of the outcome, which is why a correctly prepared application is so important.",
             },
           ],
         },
@@ -3118,7 +3118,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Minimum Income Requirement",
           content:
-            "Sponsorship eligibility is commonly tied to a minimum monthly salary, often cited around AED 4,000, or a somewhat lower salary combined with proof of suitable accommodation — figures and structure are periodically revised by UAE authorities, so treat any specific number as a planning reference to confirm rather than a fixed rule. What UAE authorities typically want to see is a stable, verifiable salary from a UAE employer, evidenced through a salary certificate and often bank statements showing the salary being deposited consistently, not just a stated figure on an offer letter.",
+            "Sponsorship eligibility is commonly tied to a minimum monthly salary threshold, or a somewhat lower salary combined with proof of suitable accommodation — the figure and structure are periodically revised by UAE authorities, so confirm the current threshold directly rather than relying on an older number. What UAE authorities typically want to see is a stable, verifiable salary from a UAE employer, evidenced through a salary certificate and often bank statements showing the salary being deposited consistently, not just a stated figure on an offer letter.",
         },
         {
           heading: "Tenancy and Accommodation Requirements",
@@ -3265,7 +3265,7 @@ export const blogData: Record<string, any> = {
             {
               question: "What is the minimum salary to sponsor family from Pakistan?",
               answer:
-                "It's commonly cited around AED 4,000, or a lower figure combined with suitable accommodation proof, but this is periodically revised — confirm the current threshold before relying on a specific number.",
+                "There's a commonly cited minimum salary threshold, or a lower figure combined with suitable accommodation proof, but this is periodically revised — confirm the current threshold directly rather than relying on a number here.",
             },
             {
               question: "Does my Pakistani marriage certificate need attestation for UAE sponsorship?",
@@ -3876,7 +3876,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "What Is the Minimum Salary to Sponsor Family in the UAE?",
           content:
-            "A commonly cited baseline for sponsoring a spouse and children is a basic salary of around AED 4,000 per month, or AED 3,000 basic salary plus company-provided accommodation. Sponsoring parents typically carries a higher bar and additional conditions. These figures are widely referenced but should be verified against current GDRFA/ICP rules for your specific emirate and situation before you rely on them.",
+            "A commonly cited baseline for sponsoring a spouse and children is a minimum basic salary, or a lower basic salary plus company-provided accommodation. Sponsoring parents typically carries a higher bar and additional conditions. We don't quote a figure here — these thresholds should be verified against current GDRFA/ICP rules for your specific emirate and situation before you rely on them.",
         },
         {
           heading: "Why This Guide Focuses on Documentation, Not Eligibility Decisions",
@@ -4028,7 +4028,7 @@ export const blogData: Record<string, any> = {
             {
               question: "What is the minimum salary to sponsor my spouse and children in the UAE?",
               answer:
-                "A commonly cited baseline is a basic salary of around AED 4,000 per month, or AED 3,000 plus employer-provided accommodation, but this should be confirmed against current rules for your specific case.",
+                "A commonly cited baseline is a minimum basic salary, or a lower basic salary plus employer-provided accommodation, but this should be confirmed against current rules for your specific case.",
             },
             {
               question: "Do allowances count toward the income threshold?",
@@ -5569,7 +5569,7 @@ export const blogData: Record<string, any> = {
             {
               title: "The Salary-Based Route",
               content:
-                "The most common path is qualifying through your current employment: a confirmed job offer or existing role in the UAE with a basic monthly salary that meets the threshold set for the specialized talents category (commonly cited around AED 30,000, though this should be verified against current rules). Importantly, this must be your basic salary as stated in your contract — housing, transport, and other allowances are typically excluded from the calculation, so a contract that bundles allowances into a single figure can cause confusion during review.",
+                "The most common path is qualifying through your current employment: a confirmed job offer or existing role in the UAE with a basic monthly salary that meets the threshold set for the specialized talents category — we don't quote a figure here, so verify the current threshold against official rules. Importantly, this must be your basic salary as stated in your contract — housing, transport, and other allowances are typically excluded from the calculation, so a contract that bundles allowances into a single figure can cause confusion during review.",
             },
             {
               title: "The Specialization-Based Route",
@@ -5723,7 +5723,7 @@ export const blogData: Record<string, any> = {
             {
               question: "What is the minimum salary for a software engineer Golden Visa?",
               answer:
-                "The commonly cited basic salary threshold for the specialized talents category is around AED 30,000 per month, though this should always be confirmed against current official requirements, as thresholds can be updated.",
+                "There's a basic salary threshold set for the specialized talents category, which we don't quote here — it should always be confirmed against current official requirements, as thresholds can be updated.",
             },
             {
               question: "Do allowances count toward the salary threshold?",
@@ -5809,7 +5809,7 @@ export const blogData: Record<string, any> = {
             {
               title: "The Salary-Based Route",
               content:
-                "As with other specialized-talent categories, one path is a confirmed UAE role with a basic monthly salary meeting the threshold generally cited for this category (commonly around AED 30,000, subject to confirmation). This suits AI engineers and data scientists already employed at a UAE-based tech company, bank, or government entity.",
+                "As with other specialized-talent categories, one path is a confirmed UAE role with a basic monthly salary meeting the threshold set for this category — we don't quote a figure here, so confirm it against official rules. This suits AI engineers and data scientists already employed at a UAE-based tech company, bank, or government entity.",
             },
             {
               title: "The Recognition-Based Route",
@@ -6038,7 +6038,7 @@ export const blogData: Record<string, any> = {
     metaTitle:
       "Property Investor Golden Visa UAE – Document Guide",
     metaDescription:
-      "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the AED 2 million rule, and a submission checklist.",
+      "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the minimum investment rule, and a submission checklist.",
     date: "July 6, 2026",
     readTime: "13 min read",
     category: "UAE Visa Documentation",
@@ -6049,7 +6049,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "What Is the Property Investor Golden Visa?",
           content:
-            "The property investor route grants a long-term UAE residency visa — commonly 10 years, renewable — to individuals who own real estate valued at or above a set threshold, widely reported as AED 2 million. Unlike employment-based Golden Visa categories, this route is not tied to a job or salary: it's based entirely on the value and status of the property you own, which makes documentation of ownership and value the center of the entire file.",
+            "The property investor route grants a long-term UAE residency visa — commonly 10 years, renewable — to individuals who own real estate valued at or above a set threshold, which we don't quote here as it's periodically reviewed. Unlike employment-based Golden Visa categories, this route is not tied to a job or salary: it's based entirely on the value and status of the property you own, which makes documentation of ownership and value the center of the entire file.",
         },
         {
           heading: "Why Property Investors Often Underestimate the Document Burden",
@@ -6112,7 +6112,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Much of the Mortgage Needs to Be Paid Off?",
           content:
-            "A common point of confusion is whether the full property value or only the paid-off equity counts toward the AED 2 million threshold. Requirements have varied over time and can depend on the specific paid-versus-outstanding ratio at the point of application, which is exactly why the bank NOC needs to explicitly state the amount paid to date — reviewers use that figure, not the total property value alone, to assess whether a mortgaged property meets the threshold. Applicants close to the threshold on a mortgaged property should confirm the current calculation method with DLD or a consultant before assuming eligibility either way, since guessing wrong can mean a rejected application.",
+            "A common point of confusion is whether the full property value or only the paid-off equity counts toward the minimum investment threshold. Requirements have varied over time and can depend on the specific paid-versus-outstanding ratio at the point of application, which is exactly why the bank NOC needs to explicitly state the amount paid to date — reviewers use that figure, not the total property value alone, to assess whether a mortgaged property meets the threshold. Applicants close to the threshold on a mortgaged property should confirm the current calculation method with DLD or a consultant before assuming eligibility either way, since guessing wrong can mean a rejected application.",
         },
         {
           heading: "Property Investor Golden Visa vs Standard Investor Visa",
@@ -6181,7 +6181,7 @@ export const blogData: Record<string, any> = {
               title: "Property Investor Golden Visa",
               items: [
                 "Based on real estate value, not business ownership",
-                "AED 2 million+ threshold in property (single or combined)",
+                "Minimum property-value threshold (single or combined)",
                 "No company formation or trade license needed",
                 "10-year renewable residency, no minimum stay requirement",
               ],
@@ -6202,12 +6202,12 @@ export const blogData: Record<string, any> = {
         {
           heading: "Typical Costs Beyond the Property Purchase Itself",
           content:
-            "Investors preparing a Golden Visa file sometimes plan for the property purchase but underestimate the secondary costs of the visa file itself: government processing and issuance fees (which are periodically updated and best confirmed with DLD or your emirate's land department directly), a fresh valuation report if the title deed doesn't clearly establish current value, the bank NOC fee if the property is mortgaged, Emirates ID issuance, and the mandatory medical fitness test for in-country status changes. If a consultancy or property services firm is engaged to prepare and submit the file, their service fee sits on top of these government charges. None of these costs are large relative to the AED 2 million property threshold itself, but budgeting for the full file — not just the property — avoids delays caused by an unpaid fee holding up an otherwise complete application.",
+            "Investors preparing a Golden Visa file sometimes plan for the property purchase but underestimate the secondary costs of the visa file itself: government processing and issuance fees (which are periodically updated and best confirmed with DLD or your emirate's land department directly), a fresh valuation report if the title deed doesn't clearly establish current value, the bank NOC fee if the property is mortgaged, Emirates ID issuance, and the mandatory medical fitness test for in-country status changes. If a consultancy or property services firm is engaged to prepare and submit the file, their service fee sits on top of these government charges. None of these costs are large relative to the property investment threshold itself, but budgeting for the full file — not just the property — avoids delays caused by an unpaid fee holding up an otherwise complete application.",
         },
         {
           heading: "The Alternative: A Shorter-Term Property Visa Option",
           content:
-            "Not every property buyer meets or wants to commit capital toward the AED 2 million Golden Visa threshold, and it's worth knowing that a shorter-term, lower-threshold property visa option also exists for investors with a smaller property value (commonly cited around AED 750,000), typically issued for two years rather than ten. The trade-off is straightforward: the two-year option has a lower entry point but requires more frequent renewal and generally offers fewer of the long-term benefits — such as the extended absence allowance — that make the Golden Visa attractive to investors who plan to spend significant time outside the UAE. For buyers deciding between the two, the right choice usually comes down to how much capital is being deployed and whether the investment is a stepping stone or a long-term residency plan. A consultant reviewing your specific property value and goals can confirm which threshold your purchase actually clears before you commit to one application path over the other.",
+            "Not every property buyer meets or wants to commit capital toward the Golden Visa's property threshold, and it's worth knowing that a shorter-term, lower-threshold property visa option also exists for investors with a smaller property value, typically issued for two years rather than ten. The trade-off is straightforward: the two-year option has a lower entry point but requires more frequent renewal and generally offers fewer of the long-term benefits — such as the extended absence allowance — that make the Golden Visa attractive to investors who plan to spend significant time outside the UAE. For buyers deciding between the two, the right choice usually comes down to how much capital is being deployed and whether the investment is a stepping stone or a long-term residency plan. A consultant reviewing your specific property value and goals can confirm which threshold your purchase actually clears before you commit to one application path over the other.",
         },
         {
           heading: "Frequently Asked Questions",
@@ -6218,7 +6218,7 @@ export const blogData: Record<string, any> = {
                 "No — one of the defining features of the Golden Visa is that it doesn't carry a minimum-stay requirement, so residency remains valid even with extended time spent outside the UAE.",
             },
             {
-              question: "Can I combine two smaller properties to reach the AED 2 million threshold?",
+              question: "Can I combine two smaller properties to reach the required threshold?",
               answer:
                 "Generally yes, provided ownership of each property is properly documented and their combined value meets the required threshold.",
             },
@@ -6305,7 +6305,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "The Bank Statement Requirement Explained",
           content:
-            "The core financial requirement is a personal bank statement covering the six months immediately before the application, showing a balance that does not drop below a set minimum threshold at any point during that period — commonly cited as the equivalent of USD 4,000 (or the corresponding amount in other currencies) maintained continuously. This is a maintained-balance test, not a one-time snapshot: a statement showing a single high balance on the day of application, with lower balances in between, does not satisfy the requirement the same way a consistently maintained balance does.",
+            "The core financial requirement is a personal bank statement covering the six months immediately before the application, showing a balance that does not drop below a set minimum threshold at any point during that period — we don't quote a figure here, so confirm the current threshold with GDRFA or a consultant. This is a maintained-balance test, not a one-time snapshot: a statement showing a single high balance on the day of application, with lower balances in between, does not satisfy the requirement the same way a consistently maintained balance does.",
         },
         {
           heading: "Why the Six-Month Window Exists",
@@ -6390,7 +6390,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Who Should Consider This Visa vs Other Long-Term Options",
           content:
-            "The 5-year multiple entry visa is best suited to people who want repeated, flexible access to the UAE — frequent business visitors, remote workers based elsewhere, or those testing the waters before committing to a bigger move — without the cost or commitment of a Golden Visa category. If you're planning to relocate permanently, work for a UAE employer, invest in property worth AED 2 million or more, or build a UAE-based business, one of the residency categories (employment visa, property investor Golden Visa, or business investor visa) is generally a better long-term fit, since those come with continuous residency rather than capped-length visits. The two are not mutually exclusive as a sequence either: some applicants use the 5-year multiple entry visa for a period while they explore options, then transition to a residency-based category once their plans firm up.",
+            "The 5-year multiple entry visa is best suited to people who want repeated, flexible access to the UAE — frequent business visitors, remote workers based elsewhere, or those testing the waters before committing to a bigger move — without the cost or commitment of a Golden Visa category. If you're planning to relocate permanently, work for a UAE employer, invest in property that meets the Golden Visa threshold, or build a UAE-based business, one of the residency categories (employment visa, property investor Golden Visa, or business investor visa) is generally a better long-term fit, since those come with continuous residency rather than capped-length visits. The two are not mutually exclusive as a sequence either: some applicants use the 5-year multiple entry visa for a period while they explore options, then transition to a residency-based category once their plans firm up.",
         },
         {
           heading: "How to Apply and Where to Submit Your Documents",
@@ -6444,7 +6444,7 @@ export const blogData: Record<string, any> = {
               question:
                 "How much money needs to be in my bank account for the UAE 5-year multiple entry visa?",
               answer:
-                "The commonly cited requirement is a balance equivalent to USD 4,000 maintained continuously throughout the six months before your application, without dropping below that threshold at any point.",
+                "There's a set minimum balance requirement maintained continuously throughout the six months before your application, without dropping below that threshold at any point — confirm the current figure with GDRFA or a consultant.",
             },
             {
               question: "Can I use a joint bank account for this visa?",
@@ -6529,7 +6529,7 @@ export const blogData: Record<string, any> = {
                 "Five or more years working with an international or regional humanitarian organization",
                 "Five or more years as a member of a recognized public-benefit association or institution",
                 "Receipt of a recognized award or letter of appreciation for humanitarian work from a local, regional, or international institution",
-                "Financial support of humanitarian work valued at or above AED 2,000,000",
+                "Financial support of humanitarian work valued at or above the set minimum threshold",
                 "A relevant university degree combined with demonstrated humanitarian involvement",
               ],
             },
@@ -6671,7 +6671,7 @@ export const blogData: Record<string, any> = {
             {
               question: "What is the minimum financial contribution for this route?",
               answer:
-                "The commonly cited threshold for the financial-support route is a contribution valued at or above AED 2,000,000, though this should be confirmed against current requirements.",
+                "There's a set minimum threshold for the financial-support route, which we don't quote here — confirm it against current requirements.",
             },
             {
               question: "Who can issue my endorsement letter?",
@@ -10520,7 +10520,7 @@ export const blogData: Record<string, any> = {
             {
               title: "Property Investors",
               content:
-                "Individuals owning UAE real estate valued at or above a set threshold (commonly cited around AED 2 million), based on property value rather than business or employment.",
+                "Individuals owning UAE real estate valued at or above a set threshold, based on property value rather than business or employment.",
             },
             {
               title: "Business Investors",
@@ -11857,7 +11857,7 @@ export const blogData: Record<string, any> = {
           content: "Dropshipping is an online business model where you sell products without keeping stock.",
           dropshippingHowItWorks: ["Customer places order on your website", "You forward order to supplier", "Supplier ships product directly to customer"],
           note: "You don't handle inventory or shipping.",
-          dropshippingExample: { productPrice: "AED 100", supplierCost: "AED 60", profit: "AED 40" }
+          dropshippingExample: { productPrice: "Your selling price", supplierCost: "What the supplier charges you", profit: "The difference between the two" }
         },
         {
           heading: "Is Dropshipping Legal in UAE?",

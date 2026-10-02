@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Canada Visit Visa from Pakistan – Fee & Requirements",
   description:
-    "Canada visit visa from Pakistan: the official IRCC fee (CAD 100 + CAD 85 biometrics), tourist visa requirements, documents, and how to apply online.",
+    "Canada visit visa from Pakistan: the official IRCC fee, tourist visa requirements, documents, and how to apply online.",
   keywords: [
     "canada visit visa from pakistan",
     "canada visit visa fee from pakistan",

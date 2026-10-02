@@ -8,7 +8,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "Germany & Schengen Visit Visa from Pakistan – Fee & Documents",
   description:
-    "Germany and Schengen visit visa from Pakistan: €90 fee, which embassy to apply to, Islamabad/Karachi waiting lists, document checklist and processing time.",
+    "Germany and Schengen visit visa from Pakistan: the official fee, which embassy to apply to, Islamabad/Karachi waiting lists, document checklist and processing time.",
   keywords: [
     "schengen visa from pakistan",
     "germany visit visa from pakistan",

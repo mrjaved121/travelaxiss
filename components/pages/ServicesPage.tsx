@@ -30,7 +30,7 @@ const services: {
     category: "Europe",
     group: "Visit Visas",
     description:
-      "The €90 Schengen fee, which embassy to apply to, and the German Mission's document checklist for applicants from Pakistan.",
+      "The Schengen application fee, which embassy to apply to, and the German Mission's document checklist for applicants from Pakistan.",
     icon: Globe2,
     link: "/visit-visa/schengen",
   },

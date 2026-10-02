@@ -38,15 +38,15 @@ const IRCC_STUDY_DOCS_HREF =
   "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html";
 
 const fees = [
-  { item: "Study permit (including extensions) — per person", amount: "CAD 150" },
-  { item: "Biometrics — per person", amount: "CAD 85" },
-  { item: "Biometrics — family of 2 or more applying together (maximum)", amount: "CAD 170" },
+  "Study permit (including extensions) — per person",
+  "Biometrics — per person",
+  "Biometrics — family of 2 or more applying together (capped)",
 ];
 
 const faqs = [
   {
     q: "What does a Canada study visa cost from Pakistan?",
-    a: "The IRCC government fees are CAD 150 for the study permit plus CAD 85 for biometrics, so CAD 235 for a single applicant. That is separate from your tuition deposit and the proof of funds IRCC expects you to show for tuition and living costs, which IRCC sets and updates on its own site.",
+    a: "IRCC charges a government fee for the study permit plus a separate biometrics fee. We don't quote amounts here since IRCC reviews them — see the current fee list on IRCC's website. That's separate from your tuition deposit and the proof of funds IRCC expects you to show for tuition and living costs, which IRCC also sets and updates on its own site.",
   },
   {
     q: "What documents do I need for a Canada study permit from Pakistan?",
@@ -157,8 +157,8 @@ export default function StudyVisaCanadaPage() {
             .
           </>
         }
-        rows={fees}
-        note="A single applicant pays CAD 235 in government fees (permit plus biometrics)."
+        items={fees}
+        note="A single applicant pays the permit fee plus the biometrics fee as separate charges."
         sourceLabel="IRCC fee list"
         sourceHref={IRCC_FEES_HREF}
       />

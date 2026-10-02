@@ -17,18 +17,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
-  dubaiActivityGroups,
-  dubaiCostRows,
+  dubaiCostComponents,
   freelanceVisaFaqs,
   FREELANCE_SOURCE_GOFREELANCE,
   FREELANCE_SOURCE_TWOFOUR54,
@@ -42,7 +33,7 @@ const linkClass = "font-semibold underline-offset-2 hover:underline";
 const quickFacts = [
   { label: "Visa type", value: "Freelance permit + self-sponsored residence visa" },
   { label: "Where", value: "Dubai (GoFreelance/TECOM, IFZA, DMCC) or Abu Dhabi (twofour54, ADDED)" },
-  { label: "Dubai permit from", value: "AED 7,500/year (GoFreelance)" },
+  { label: "Application", value: "Through the issuing free zone or MOHRE" },
   { label: "Residence visa", value: "1 or 2 years, no employer needed" },
 ];
 
@@ -104,7 +95,7 @@ export default function FreelanceVisaPage() {
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:bg-primary-hover shadow-md hover:shadow-lg bg-primary"
                 style={{ color: "#FFFFFF" }}
               >
-                <span>See the Cost</span>
+                <span>What Determines the Cost</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
               </a>
               <a
@@ -194,50 +185,39 @@ export default function FreelanceVisaPage() {
       {/* Cost */}
       <section id="cost" className="py-16 scroll-mt-24" style={{ backgroundColor: "#F5F8FF" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-title mb-3">How Much Does a Freelance Visa Cost in Dubai?</h2>
+          <h2 className="section-title mb-3">What Does a Freelance Visa Cost?</h2>
           <p className="text-[#667085] leading-relaxed mb-6">
-            GoFreelance, the TECOM-backed Dubai freelance platform, publishes its own fees: the
-            freelance package starts from AED 7,500 a year, and the residence visa and
-            Establishment Card are priced separately.
+            There isn&apos;t one flat price. The total is made up of several separate items, and
+            each free zone or authority sets and updates its own fees, so we don&apos;t quote
+            amounts here — we confirm the current figure for your activity before you apply.
           </p>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="rounded-3xl border border-[#E4E7EC] shadow-sm mb-4 overflow-hidden bg-white"
-          >
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead className="whitespace-normal">Item</TableHead>
-                  <TableHead className="whitespace-normal">Cost</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {dubaiCostRows.map((row) => (
-                  <TableRow key={row.item}>
-                    <TableCell className="whitespace-normal font-medium" style={{ color: "#1D2939" }}>
-                      {row.item}
-                    </TableCell>
-                    <TableCell className="whitespace-normal text-[#667085]">{row.cost}</TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </motion.div>
+          <ul className="grid sm:grid-cols-2 gap-3 mb-6">
+            {dubaiCostComponents.map((item) => (
+              <li key={item} className="flex items-start gap-2 text-[#667085] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
+                <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
           <p className="text-sm text-[#667085] mb-2">
-            Source:{" "}
+            Dubai figures are published by{" "}
             <a href={FREELANCE_SOURCE_GOFREELANCE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#155EEF" }}>
               GoFreelance (TECOM)
             </a>
-            . Visa and Establishment Card fees are marked subject to change; health insurance and
-            the medical fitness test are required but priced separately.
+            {" "}directly and marked subject to change; Abu Dhabi (twofour54, ADDED) and other
+            Dubai free zones (IFZA, DMCC) don&apos;t currently publish a public fee schedule.
           </p>
-          <p className="text-sm text-[#667085]">
-            Abu Dhabi (twofour54, ADDED) and other Dubai free zones (IFZA, DMCC) don&apos;t
-            currently publish a public fee schedule — message us on WhatsApp and we&apos;ll
-            confirm the current cost for your activity and emirate.
-          </p>
+          <a
+            href={WHATSAPP_HREF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
+            style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+            aria-label="Ask Travelaxis about current UAE freelance visa pricing on WhatsApp (opens in a new tab)"
+          >
+            <span>Ask About Current Pricing</span>
+            <ArrowRight className="w-5 h-5" aria-hidden />
+          </a>
         </div>
       </section>
 

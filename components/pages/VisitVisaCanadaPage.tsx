@@ -47,16 +47,16 @@ const canadaGuides: { title: string; description: string; href: string }[] = [
 const IRCC_FEES_HREF = "https://ircc.canada.ca/english/information/fees/fees.asp";
 
 const fees = [
-  { item: "Visitor visa (single or multiple entry) — per person", amount: "CAD 100" },
-  { item: "Visitor visa — family of 5 or more applying together (maximum)", amount: "CAD 500" },
-  { item: "Biometrics — per person", amount: "CAD 85" },
-  { item: "Biometrics — family of 2 or more applying together (maximum)", amount: "CAD 170" },
+  "Visitor visa (single or multiple entry) — per person",
+  "Visitor visa — family of 5 or more applying together (capped)",
+  "Biometrics — per person",
+  "Biometrics — family of 2 or more applying together (capped)",
 ];
 
 const faqs = [
   {
     q: "What is the Canada visit visa fee from Pakistan?",
-    a: "IRCC charges CAD 100 per person for a visitor visa (the same fee for single or multiple entry) plus CAD 85 per person for biometrics, so most single applicants pay CAD 185 in government fees. Families applying together pay at most CAD 500 for the visas and CAD 170 for biometrics. Fees are paid online to IRCC in Canadian dollars.",
+    a: "IRCC charges a per-person visitor visa fee (the same for single or multiple entry) plus a per-person biometrics fee, with a capped maximum for families applying together. We don't quote amounts here since IRCC reviews them — see the current fee list on IRCC's website. Fees are paid online to IRCC in Canadian dollars.",
   },
   {
     q: "How do I apply for a Canada visit visa from Pakistan?",
@@ -156,9 +156,9 @@ export default function VisitVisaCanadaPage() {
 
       <GovernmentFeesSection
         heading="Canada Visit Visa Fee from Pakistan"
-        intro="These are the government fees IRCC publishes for a visitor visa. They are paid online to IRCC in Canadian dollars when you submit the application, and are the same whichever entry type IRCC decides to issue."
-        rows={fees}
-        note="A single applicant usually pays CAD 185 in government fees (visa plus biometrics). The fee is not refunded if the visa is refused."
+        intro="These are the fee components IRCC charges for a visitor visa. They are paid online to IRCC in Canadian dollars when you submit the application, and are the same whichever entry type IRCC decides to issue."
+        items={fees}
+        note="A single applicant pays the visa fee plus the biometrics fee as separate charges. The fee is not refunded if the visa is refused."
         sourceLabel="IRCC fee list"
         sourceHref={IRCC_FEES_HREF}
       />

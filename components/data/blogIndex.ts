@@ -192,7 +192,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       id: "property-investor-golden-visa-uae-guide",
       title: "Property Investor Golden Visa UAE – Document & File Preparation Guide",
       excerpt:
-        "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the AED 2 million rule, mortgage documentation, and a step-by-step submission checklist.",
+        "Preparing a property investor Golden Visa file in the UAE: which properties qualify, the minimum investment rule, mortgage documentation, and a step-by-step submission checklist.",
       date: "July 6, 2026",
       readTime: "13 min read",
       category: "UAE Visa Documentation",

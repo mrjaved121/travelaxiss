@@ -7,7 +7,7 @@ export const goldenVisaCategories: { category: string; duration: string; require
     category: "Investors (public investments or real estate)",
     duration: "10 years (public investments) · 5 years (real estate)",
     requirements:
-      "Minimum capital of AED 2 million; property ownership, or a contribution to an establishment paying at least AED 250,000 a year in taxes.",
+      "Meets the government's minimum capital threshold for public investments, property ownership, or a contribution to an establishment that meets the minimum annual tax-paid threshold — see the official page for current figures.",
   },
   {
     category: "Entrepreneurs",
@@ -45,7 +45,7 @@ export const goldenVisaFaqs: { q: string; a: string }[] = [
   },
   {
     q: "How much investment do I need for a Golden Visa?",
-    a: "For the investor category, the UAE government lists a minimum capital of AED 2 million, or a contribution to an establishment paying at least AED 250,000 a year in taxes. Public investments can qualify for 10 years and real estate for 5 years.",
+    a: "The investor category has a minimum capital or tax-contribution threshold set by the UAE government, which we don't quote here since it's reviewed periodically — check the official page or ask us for the current figure. Public investments can qualify for 10 years and real estate for 5 years.",
   },
   {
     q: "Where do I apply?",

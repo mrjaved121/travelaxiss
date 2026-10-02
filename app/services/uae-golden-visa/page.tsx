@@ -8,7 +8,7 @@ import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 export const metadata: Metadata = {
   title: "UAE Golden Visa from Pakistan – Categories & Requirements",
   description:
-    "UAE Golden Visa for Pakistani applicants: 5 or 10-year residence, the investor, talent, student and humanitarian categories, AED 2 million investor rule, and documents.",
+    "UAE Golden Visa for Pakistani applicants: 5 or 10-year residence, the investor, talent, student and humanitarian categories, and the documents needed.",
   keywords: [
     "uae golden visa from pakistan",
     "golden visa for pakistani",

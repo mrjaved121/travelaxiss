@@ -64,7 +64,7 @@ const visaAssistanceServices: { title: string; description: string; icon: Lucide
   },
   {
     title: "Schengen & Germany Visit Visa",
-    description: "The €90 Schengen fee, which embassy to apply to, and the German Mission's document checklist.",
+    description: "The Schengen application fee, which embassy to apply to, and the German Mission's document checklist.",
     icon: Globe2,
     href: "/visit-visa/schengen",
   },

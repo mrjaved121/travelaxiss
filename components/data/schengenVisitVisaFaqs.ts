@@ -4,7 +4,7 @@
 export const schengenVisitVisaFaqs: { q: string; a: string }[] = [
   {
     q: "How much is the Schengen visa fee from Pakistan?",
-    a: "The Schengen visa fee is €90 for adults and €45 for children aged 6 to 12. At the German Embassy in Islamabad and the Consulate General in Karachi the fee is charged in PKR at the current exchange rate and paid in cash at the counter. An extra service charge may apply at countries that use an external visa service centre. Our own service fee is quoted separately.",
+    a: "The Schengen visa fee is set by the EU and reduced for children aged 6 to 12. At the German Embassy in Islamabad and the Consulate General in Karachi it's charged in PKR at the current exchange rate and paid in cash at the counter. An extra service charge may apply at countries that use an external visa service centre. Our own service fee is quoted separately.",
   },
   {
     q: "Which country's embassy should I apply to for a Schengen visa?",
@@ -24,7 +24,7 @@ export const schengenVisitVisaFaqs: { q: string; a: string }[] = [
   },
   {
     q: "How much insurance do I need for a Schengen visa?",
-    a: "Travel medical insurance covering emergency care, hospitalisation and repatriation. The German Mission in Pakistan requires a minimum cover of €30,000 valid for all Schengen countries, not only Germany, and publishes a list of Pakistani insurers that meet the Schengen standard.",
+    a: "Travel medical insurance covering emergency care, hospitalisation and repatriation. The German Mission in Pakistan sets a minimum cover requirement valid for all Schengen countries, not only Germany, and publishes a list of Pakistani insurers that meet the Schengen standard.",
   },
   {
     q: "Can I appeal a German Schengen visa refusal?",
