@@ -18,6 +18,7 @@ const navGroups: NavGroup[] = [
       { name: "Study Visa", path: "/services/study-visa" },
       { name: "Job Seeker Visa", path: "/job-seeker-visa" },
       { name: "UAE Golden Visa", path: "/services/uae-golden-visa" },
+      { name: "Freelance Visa", path: "/services/freelance-visa-dubai" },
     ],
   },
   {
