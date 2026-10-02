@@ -41,6 +41,7 @@ const staticPaths = [
   "/study-visa/germany",
   "/destinations",
   "/pakistan",
+  "/uae",
   "/faq",
   "/contact",
   "/consultation",

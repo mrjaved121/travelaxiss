@@ -464,7 +464,7 @@ export default function VisitVisaUaePage() {
             {[
               { href: "/visit-visa/middle-east", label: "Explore Middle East Visit Visas" },
               { href: "/visit-visa", label: "Visit Visas by Region" },
-              { href: "/pakistan", label: "UAE Services for Clients in Pakistan" },
+              { href: "/uae", label: "All UAE Visa Services" },
             ].map((link) => (
               <Link
                 key={link.href}

@@ -233,6 +233,11 @@ export default function JobSeekerVisaPage() {
               </Link>
             ))}
           </div>
+          <p className="text-center mt-8">
+            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "#155EEF" }}>
+              See all UAE visa services
+            </Link>
+          </p>
         </div>
       </section>
     </div>
