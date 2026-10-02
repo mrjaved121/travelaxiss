@@ -39,6 +39,11 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 list-none p-0 m-0">
               <li>
+                <Link href="/uae" className="footer-link transition-colors">
+                  UAE Visa Services
+                </Link>
+              </li>
+              <li>
                 <Link href="/visit-visa" className="footer-link transition-colors">
                   Visit Visa
                 </Link>
