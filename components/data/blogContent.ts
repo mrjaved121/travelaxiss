@@ -4147,6 +4147,13 @@ export const blogData: Record<string, any> = {
             "This tier structure is consistent across multiple UAE news outlets reporting the ICP's update, including [Khaleej Times](https://www.khaleejtimes.com/life-and-living/visa-and-immigration-in-uae/uae-visit-visa-minimum-salary-requirement). We could not verify the exact wording directly on ICP's own site, since its visit-visa service pages require an interactive session that automated review can't access — confirm your category with ICP, GDRFA, or your typing centre before applying.",
         },
         {
+          heading: "Other UAE Visit Visa Categories Announced the Same Day",
+          content:
+            "The same 29 September 2025 announcement also introduced four new purpose-based visit visa categories: an AI Specialist visa, an Entertainment visa, an Events visa, and a Tourism visa for cruise and leisure-boat passengers and crew. These are unrelated to sponsoring a family member or friend — each one needs a sponsoring UAE-licensed entity (a technology facility, an event organiser, or a licensed tourism operator, depending on the category), not an individual resident, and self-sponsorship isn't an option. We don't arrange this kind of entity sponsorship, so if one of these applies to you, the sponsoring organisation handles that side of the application directly with ICP.",
+          note:
+            "Source: [Khaleej Times](https://www.khaleejtimes.com/uae/uae-announces-four-new-visit-visa-categories-amendments-to-entry-permit).",
+        },
+        {
           heading: "Documents the Sponsor (UAE Resident) Needs",
           items: [
             "Emirates ID copy",
