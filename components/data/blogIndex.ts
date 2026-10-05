@@ -474,7 +474,7 @@ export const blogPostSummaries: BlogPostSummary[] = [
       id: "job-seeker-visa-uae-documents-guide",
       title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
       excerpt:
-        "Who qualifies for the UAE Job Seeker (Skills Verification) entry permit, the full document checklist, validity by qualification tier, and what happens once you find a role.",
+        "Who qualifies for the UAE jobseeker visit visa, how it differs from a regular tourist visa, the full document checklist, and what happens once you find a role.",
       date: "July 6, 2026",
       readTime: "11 min read",
       category: "UAE Visa Documentation",

@@ -12679,9 +12679,10 @@ export const blogData: Record<string, any> = {
     title: "UAE Job Seeker Visa – Eligibility & Document Checklist",
     metaTitle: "UAE Job Seeker Visa – Full Eligibility & Document Checklist",
     metaDescription:
-      "Who qualifies for the UAE jobseeker visit visa, the official document list, the 60, 90 or 120-day options, and what happens once you get a job offer.",
+      "Who qualifies for the UAE jobseeker visit visa, how it differs from a regular tourist visa, the document list, and what happens once you get a job offer.",
     date: "July 6, 2026",
-    readTime: "11 min read",
+    dateModifiedIso: "2026-10-05",
+    readTime: "12 min read",
     category: "UAE Visa Documentation",
     content: {
       intro:
@@ -12691,6 +12692,13 @@ export const blogData: Record<string, any> = {
           heading: "What Is the UAE Jobseeker Visit Visa?",
           content:
             "It's a self-funded visit visa for one trip that lets you be physically present in the UAE to search for work and interview in person, without a host or sponsor in the country. You choose a validity of 60, 90 or 120 days. It does not authorize you to work — it authorizes you to look for work and be interviewed. Once you receive and accept an offer, your new employer sponsors a separate employment residence visa, which is a distinct process with its own paperwork.",
+        },
+        {
+          heading: "This Is Not the Same as Searching for Work on a Regular Tourist Visa",
+          content:
+            "A standard UAE tourist or visit visa does not permit any form of work-seeking activity — the UAE Ministry of Labour has been explicit that working, or being employed based on entry on a visit visa, is a clear violation of labour law, and has rejected employer applications and penalised companies that tried to hire someone who entered this way. This is exactly the gap the Job Seeker entry permit was created to close: it's a distinct, named visa category that legitimately lets you be in the UAE to interview, specifically so you don't have to rely on a tourist visa for that purpose. If you're already in the UAE on a regular visit visa and want to search for work, check with ICP or GDRFA about switching status rather than assuming your current visa covers it.",
+          note:
+            "See [Khaleej Times](https://www.khaleejtimes.com/uae/no-work-visa-for-visitors) on the Ministry of Labour's position on hiring via visit visas.",
         },
         {
           heading: "Why This Permit Exists",
@@ -12902,6 +12910,11 @@ export const blogData: Record<string, any> = {
               question: "Does the permit allow multiple entries during its validity?",
               answer:
                 "No. The official page lists the 60, 90 and 120-day jobseeker visas as single entry, for one trip.",
+            },
+            {
+              question: "Can I search for a job in the UAE on a regular tourist visa instead?",
+              answer:
+                "No. The Ministry of Labour treats working, or being hired based on entry on a visit visa, as a clear violation of labour law, and has penalised employers who tried it. The Job Seeker entry permit exists specifically so you don't have to rely on a regular tourist visa to interview for work.",
             },
           ],
         },
