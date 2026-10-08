@@ -54,15 +54,15 @@ export default function UaeHubPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "UAE Visa Services" }]} />
             <p className="eyebrow mb-3">UAE Visa Services</p>
             <h1 className="page-title mb-6">
-              Which UAE Visa <span style={{ color: "#155EEF" }}>Is Right for You?</span>
+              Which UAE Visa <span style={{ color: "#0A4D8C" }}>Is Right for You?</span>
             </h1>
-            <p className="lead text-[#667085] leading-relaxed">
+            <p className="lead text-[#52606D] leading-relaxed">
               Travelaxis offers documentation support for four UAE routes from our Dubai and
               Lahore offices: the visit visa, the job seeker visa, the Golden Visa, and the
               freelance visa. We don&apos;t offer UAE business setup, government/PRO services,
@@ -94,7 +94,7 @@ export default function UaeHubPage() {
             ))}
           </div>
           <p className="text-center mt-12">
-            <Link href="/pakistan" className="font-semibold hover:underline" style={{ color: "#155EEF" }}>
+            <Link href="/pakistan" className="font-semibold hover:underline" style={{ color: "#0A4D8C" }}>
               See our other visa guides for clients in Pakistan
             </Link>
           </p>
@@ -102,17 +102,17 @@ export default function UaeHubPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E6E1D8]">
             <Accordion type="single" collapsible className="w-full">
               {uaeHubFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
-                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#1D2939" }}>
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
+                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#0F2A43" }}>
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
+                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -123,7 +123,7 @@ export default function UaeHubPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#0A4D8C" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -141,7 +141,7 @@ export default function UaeHubPage() {
             href={WHATSAPP_HREF}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             aria-label="Chat with Travelaxis on WhatsApp about UAE visa services (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

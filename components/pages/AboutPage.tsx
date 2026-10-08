@@ -32,7 +32,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={false}
@@ -41,16 +41,16 @@ export default function AboutPage() {
           >
             <p className="eyebrow mb-3">About Travelaxis</p>
             <h1 className="page-title mb-6">
-              Helping People Move <span style={{ color: '#155EEF' }}>Toward What&apos;s Next.</span>
+              Helping People Move <span style={{ color: '#0A4D8C' }}>Toward What&apos;s Next.</span>
             </h1>
-            <p className="lead text-[#667085]">
+            <p className="lead text-[#52606D]">
               We help individuals plan their next trip or course abroad through structured
               support, clear communication, and regulatory awareness. Our work is visit and study
               visa documentation and consultancy for Dubai, the UK, USA, Schengen, Australia,
               Germany and other destinations&mdash;always aligned with official requirements and
               each client&apos;s goals.
             </p>
-            <p className="text-sm text-[#667085] mt-4 max-w-lg leading-relaxed">
+            <p className="text-sm text-[#52606D] mt-4 max-w-lg leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a
               government authority, employer, or recruitment agency, and we do not arrange jobs,
               sponsor employment, or guarantee visa approval. All applications are submitted
@@ -65,7 +65,7 @@ export default function AboutPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
+            <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(10, 77, 140,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="Travelaxis visit and study visa documentation consultancy team"
@@ -85,13 +85,13 @@ export default function AboutPage() {
               initial={false}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#F5F8FF' }}
+              style={{ backgroundColor: '#F7F3EC' }}
             >
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#0A4D8C' }} aria-hidden>
                 <Target className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
               <h3 className="subsection-title mb-4">Our Mission</h3>
-              <p className="text-[#667085]">
+              <p className="text-[#52606D]">
                 To deliver professional, structured services with accurate documentation,
                 realistic timelines, and transparent expectations&mdash;so every applicant knows
                 exactly what their application needs.
@@ -102,13 +102,13 @@ export default function AboutPage() {
               initial={false}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#F5F8FF' }}
+              style={{ backgroundColor: '#F7F3EC' }}
             >
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#155EEF' }} aria-hidden>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#0A4D8C' }} aria-hidden>
                 <Eye className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
               <h3 className="subsection-title mb-4">Our Vision</h3>
-              <p className="text-[#667085]">
+              <p className="text-[#52606D]">
                 To be recognized as a trusted, documentation-led visa consultancy for applicants in
                 Pakistan and the UAE.
               </p>
@@ -118,14 +118,14 @@ export default function AboutPage() {
       </section>
 
       {/* How We Work */}
-      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#0A4D8C' }}>
               Why Travelaxis
             </p>
             <h2 className="section-title">
@@ -147,7 +147,7 @@ export default function AboutPage() {
                   <item.icon className="w-6 h-6" style={{ color: "var(--card-icon-fg)" }} />
                 </div>
                 <h3 className="subsection-title mb-2">{item.title}</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">{item.description}</p>
+                <p className="text-sm text-[#52606D] leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>
@@ -155,7 +155,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0A4D8C' }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -170,14 +170,14 @@ export default function AboutPage() {
             <Link
               href="/consultation"
               className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#155EEF" }}
+              style={{ color: "#0A4D8C" }}
             >
               Book a Consultation
               <ArrowRight className="w-5 h-5" aria-hidden />
             </Link>
             <Link
               href="/contact"
-              className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+              className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               Contact Us
             </Link>

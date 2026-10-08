@@ -163,20 +163,20 @@ export default function ServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#0A4D8C' }}>
               What We Offer
             </p>
             <h1 className="page-title mb-6">
-              Our <span style={{ color: '#155EEF' }}>Services</span>
+              Our <span style={{ color: '#0A4D8C' }}>Services</span>
             </h1>
-            <p className="lead text-[#667085]">
+            <p className="lead text-[#52606D]">
               Visit and study visa documentation for applicants in Pakistan and the UAE — Dubai,
               the UK, USA, Schengen, Australia, Germany and more, submitted through each country&apos;s
               official process.
@@ -189,7 +189,7 @@ export default function ServicesPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
+            <div className="absolute -bottom-6 -right-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(10, 77, 140,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
               alt="Travelaxis visit and study visa documentation services"
@@ -217,8 +217,8 @@ export default function ServicesPage() {
                 className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all"
                 style={
                   activeGroup === group
-                    ? { backgroundColor: "#155EEF", color: "#FFFFFF", borderColor: "#155EEF" }
-                    : { backgroundColor: "#FFFFFF", color: "#1D2939", borderColor: "var(--card-line)" }
+                    ? { backgroundColor: "#0A4D8C", color: "#FFFFFF", borderColor: "#0A4D8C" }
+                    : { backgroundColor: "#FFFFFF", color: "#0F2A43", borderColor: "var(--card-line)" }
                 }
                 aria-pressed={activeGroup === group}
               >
@@ -250,7 +250,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Advantages */}
-      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
@@ -258,7 +258,7 @@ export default function ServicesPage() {
             className="text-center mb-12"
           >
             <h2 className="section-title">
-              Service <span style={{ color: '#155EEF' }}>Advantages</span>
+              Service <span style={{ color: '#0A4D8C' }}>Advantages</span>
             </h2>
           </motion.div>
 
@@ -278,7 +278,7 @@ export default function ServicesPage() {
                 <h3 className="subsection-title mb-4">
                   {advantage.title}
                 </h3>
-                <p className="text-[#667085]">{advantage.description}</p>
+                <p className="text-[#52606D]">{advantage.description}</p>
               </motion.div>
             ))}
           </div>
@@ -286,7 +286,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0A4D8C' }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -298,7 +298,7 @@ export default function ServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
           >
             Contact Travelaxis about our services
           </Link>

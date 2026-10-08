@@ -26,7 +26,7 @@ export default function MobileStickyCta() {
         <Link
           href="/visa-finder"
           className="btn w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-full transition-all hover:opacity-90"
-          style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+          style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
         >
           <span>Check Visa Requirements</span>
           <ArrowRight className="w-4 h-4" aria-hidden />

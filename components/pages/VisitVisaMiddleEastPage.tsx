@@ -26,19 +26,19 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
 export default function VisitVisaMiddleEastPage() {
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services", href: "/visit-visa" }, { name: "Middle East" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Middle East <span style={{ color: "#155EEF" }}>Visit Visas</span>
+              Middle East <span style={{ color: "#0A4D8C" }}>Visit Visas</span>
             </h1>
-            <p className="lead text-[#667085] leading-relaxed">
+            <p className="lead text-[#52606D] leading-relaxed">
               Visit visa documentation for the UAE and Saudi Arabia, submitted through official
               channels.
             </p>
-            <p className="text-sm text-[#667085] mt-4 leading-relaxed">
+            <p className="text-sm text-[#52606D] mt-4 leading-relaxed">
               We also prepare visit visa documentation for <InlineLinkList items={[{ label: "Europe", href: "/visit-visa/europe" }, { label: "North America", href: "/visit-visa/north-america" }, { label: "Asia", href: "/visit-visa/asia" }, { label: "Oceania", href: "/visit-visa/oceania" }, { label: "Africa", href: "/visit-visa/africa" }]} />.
             </p>
           </motion.div>
@@ -62,8 +62,8 @@ export default function VisitVisaMiddleEastPage() {
                   <item.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
                 <h3 className="subsection-title mb-1">{item.title}</h3>
-                <p className="text-sm text-[#667085] mb-3">{item.description}</p>
-                <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
+                <p className="text-sm text-[#52606D] mb-3">{item.description}</p>
+                <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
                   View requirements
                   <ArrowRight className="w-4 h-4" aria-hidden />
                 </span>
@@ -73,7 +73,7 @@ export default function VisitVisaMiddleEastPage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="Middle East" />
         </div>

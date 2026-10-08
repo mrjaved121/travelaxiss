@@ -87,7 +87,7 @@ export default function RootLayout({
         <main
           id="main-content"
           tabIndex={-1}
-          className="flex-1 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#155EEF]"
+          className="flex-1 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0A4D8C]"
         >
           {children}
         </main>

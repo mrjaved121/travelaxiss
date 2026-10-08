@@ -24,7 +24,7 @@ export default async function Image() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px 96px",
-          background: "linear-gradient(135deg, #FFFFFF 0%, #F5F8FF 100%)",
+          background: "linear-gradient(135deg, #FFFFFF 0%, #F7F3EC 100%)",
         }}
       >
         <div
@@ -35,7 +35,7 @@ export default async function Image() {
             width: 420,
             height: 420,
             borderRadius: "50%",
-            background: "rgba(21, 94, 239,0.12)",
+            background: "rgba(10, 77, 140,0.12)",
             display: "flex",
           }}
         />
@@ -48,7 +48,7 @@ export default async function Image() {
             fontSize: 54,
             fontWeight: 700,
             lineHeight: 1.15,
-            color: "#1D2939",
+            color: "#0F2A43",
             maxWidth: 900,
           }}
         >
@@ -60,7 +60,7 @@ export default async function Image() {
             marginTop: 28,
             fontSize: 30,
             fontWeight: 600,
-            color: "#155EEF",
+            color: "#0A4D8C",
           }}
         >
           Visit Visas &nbsp;•&nbsp; Study Visas &nbsp;•&nbsp; Dubai &amp; Lahore

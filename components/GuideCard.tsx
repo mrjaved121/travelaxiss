@@ -52,7 +52,7 @@ export default function GuideCard({
         {badge && (
           <span
             className="px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap"
-            style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
+            style={{ backgroundColor: "#F7F3EC", color: "#0A4D8C" }}
           >
             {badge}
           </span>
@@ -63,7 +63,7 @@ export default function GuideCard({
         {title}
       </h3>
 
-      <p className="text-[0.9rem] text-[#667085] leading-relaxed line-clamp-3 mb-4 flex-1">
+      <p className="text-[0.9rem] text-[#52606D] leading-relaxed line-clamp-3 mb-4 flex-1">
         {description}
       </p>
 

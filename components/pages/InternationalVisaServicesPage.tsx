@@ -164,25 +164,25 @@ export default function InternationalVisaServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#0A4D8C' }}>
               International Visa Documentation
             </p>
             <h1 className="page-title mb-6">
-              Visa Documentation <span style={{ color: '#155EEF' }}>Beyond the UAE</span>
+              Visa Documentation <span style={{ color: '#0A4D8C' }}>Beyond the UAE</span>
             </h1>
             <p className="lead mb-6">
               Documentation and consultancy support for Saudi Arabia, Europe, the USA, Schengen,
               and other regional destinations—for UAE residents traveling, working, or relocating
               abroad.
             </p>
-            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#155EEF" }}>
+            <p className="text-sm text-[#52606D] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#0A4D8C" }}>
               {disclaimer}
             </p>
           </motion.div>
@@ -193,20 +193,20 @@ export default function InternationalVisaServicesPage() {
             transition={{ delay: 0.15 }}
             className="relative h-72 md:h-96"
           >
-            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(21, 94, 239,0.12)' }} aria-hidden />
+            <div className="absolute -top-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(10, 77, 140,0.12)' }} aria-hidden />
             <div
               className="relative w-full h-full rounded-[2rem] shadow-xl flex items-center justify-center"
-              style={{ backgroundColor: '#F5F8FF' }}
+              style={{ backgroundColor: '#F7F3EC' }}
               aria-hidden
             >
-              <Globe2 className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#155EEF' }} />
+              <Globe2 className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#0A4D8C' }} />
             </div>
           </motion.div>
         </div>
       </section>
 
       {/* Visa categories */}
-      <section className="py-20" style={{ backgroundColor: '#155EEF' }}>
+      <section className="py-20" style={{ backgroundColor: '#0A4D8C' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
@@ -238,7 +238,7 @@ export default function InternationalVisaServicesPage() {
                   style={{ backgroundColor: '#FFFFFF' }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: '#155EEF' }} />
+                  <item.icon className="w-7 h-7" style={{ color: '#0A4D8C' }} />
                 </div>
                 <h3 className="subsection-title mb-3" style={{ color: '#FFFFFF' }}>
                   {item.title}
@@ -258,13 +258,13 @@ export default function InternationalVisaServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#155EEF' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#0A4D8C' }}>
               Countries We Cover
             </p>
             <h2 className="section-title mb-4">
               Documentation Support by Destination
             </h2>
-            <p className="text-[#667085]">
+            <p className="text-[#52606D]">
               A snapshot of the destinations we most commonly prepare documentation for. Don&apos;t
               see yours listed — contact us to check.
             </p>
@@ -283,7 +283,7 @@ export default function InternationalVisaServicesPage() {
                 <h3 className="subsection-title mb-2">
                   {group.title}
                 </h3>
-                <p className="text-sm text-[#667085] leading-relaxed mb-5 max-w-2xl">
+                <p className="text-sm text-[#52606D] leading-relaxed mb-5 max-w-2xl">
                   {group.groupDescription}
                 </p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -293,14 +293,14 @@ export default function InternationalVisaServicesPage() {
                       className="rounded-2xl px-4 py-3.5 bg-white card-hover"
                       style={{ border: "1px solid var(--card-line)" }}
                     >
-                      <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>
+                      <p className="text-sm font-semibold" style={{ color: "#0F2A43" }}>
                         {country.name}
                       </p>
                       {country.pakistanHref && (
                         <Link
                           href={country.pakistanHref}
                           className="inline-flex items-center gap-1 text-xs font-semibold mt-1.5"
-                          style={{ color: "#155EEF" }}
+                          style={{ color: "#0A4D8C" }}
                         >
                           Applying from Pakistan? See {country.name} Visa from Pakistan
                           <ArrowRight className="w-3 h-3 shrink-0" aria-hidden />
@@ -313,14 +313,14 @@ export default function InternationalVisaServicesPage() {
             ))}
           </div>
 
-          <p className="text-xs text-[#667085] mt-10 leading-relaxed">
+          <p className="text-xs text-[#52606D] mt-10 leading-relaxed">
             {disclaimer}
           </p>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
@@ -328,20 +328,20 @@ export default function InternationalVisaServicesPage() {
             className="mb-10 text-center"
           >
             <h2 className="section-title mb-4">
-              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
+              Frequently Asked <span style={{ color: "#0A4D8C" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E6E1D8]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#1D2939" }}
+                    style={{ color: "#0F2A43" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
+                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -352,7 +352,7 @@ export default function InternationalVisaServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0A4D8C' }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -367,7 +367,7 @@ export default function InternationalVisaServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
           >
             Book an International Visa Consultation
             <ArrowRight className="w-5 h-5" aria-hidden />

@@ -36,12 +36,12 @@ export default function DestinationsPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Destinations</p>
             <h1 className="page-title mb-6">
-              Explore Visa <span style={{ color: "#155EEF" }}>Destinations</span>
+              Explore Visa <span style={{ color: "#0A4D8C" }}>Destinations</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
               Find visa application support by region and travel purpose.
@@ -51,7 +51,7 @@ export default function DestinationsPage() {
       </section>
 
       {/* Filters */}
-      <section className="py-10 bg-white border-b" style={{ borderColor: "#E4E7EC" }}>
+      <section className="py-10 bg-white border-b" style={{ borderColor: "#E6E1D8" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-3" role="group" aria-label="Filter destinations by visa type">
             {filters.map((filter) => (
@@ -62,8 +62,8 @@ export default function DestinationsPage() {
                 className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all"
                 style={
                   active === filter.key
-                    ? { backgroundColor: "#155EEF", color: "#FFFFFF", borderColor: "#155EEF" }
-                    : { backgroundColor: "#FFFFFF", color: "#1D2939", borderColor: "var(--card-line)" }
+                    ? { backgroundColor: "#0A4D8C", color: "#FFFFFF", borderColor: "#0A4D8C" }
+                    : { backgroundColor: "#FFFFFF", color: "#0F2A43", borderColor: "var(--card-line)" }
                 }
                 aria-pressed={active === filter.key}
               >
@@ -80,7 +80,7 @@ export default function DestinationsPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl mb-10">
               <h2 className="section-title mb-3">Visit Visas by Region</h2>
-              <p className="text-[#667085]">
+              <p className="text-[#52606D]">
                 Each region opens onto the countries we support most, with a direct link to
                 requirements and an enquiry form.
               </p>
@@ -103,8 +103,8 @@ export default function DestinationsPage() {
                       <region.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                     </div>
                     <h3 className="subsection-title mb-1">{region.title}</h3>
-                    <p className="text-sm text-[#667085] mb-3">{region.description}</p>
-                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
+                    <p className="text-sm text-[#52606D] mb-3">{region.description}</p>
+                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
                       Explore {region.title} visit visas
                       <ArrowRight className="w-4 h-4" aria-hidden />
                     </span>
@@ -122,7 +122,7 @@ export default function DestinationsPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl mb-10">
               <h2 className="section-title mb-3">Study Visa Destinations</h2>
-              <p className="text-[#667085]">
+              <p className="text-[#52606D]">
                 Student visa document preparation for the destinations our clients ask about most.
               </p>
             </div>
@@ -144,8 +144,8 @@ export default function DestinationsPage() {
                       <country.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                     </div>
                     <h3 className="subsection-title mb-1">{country.title}</h3>
-                    <p className="text-sm text-[#667085] mb-3">{country.description}</p>
-                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
+                    <p className="text-sm text-[#52606D] mb-3">{country.description}</p>
+                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
                       View requirements
                       <ArrowRight className="w-4 h-4" aria-hidden />
                     </span>

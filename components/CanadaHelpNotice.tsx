@@ -32,40 +32,40 @@ export default function CanadaHelpNotice({ id = "canada-help", className = "bg-w
     <section id={id} className={`py-16 scroll-mt-24 ${className}`}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="section-title mb-3">What Travelaxis Can and Can&apos;t Do for Canada</h2>
-        <p className="text-[#667085] leading-relaxed mb-6">
+        <p className="text-[#52606D] leading-relaxed mb-6">
           IRCC only allows authorized representatives — CICC-licensed consultants, Canadian lawyers and
           paralegals, and Québec notaries — to charge for advice on a Canada application or for filling it
           out and submitting it. Travelaxis is not an authorized representative, so this page is general
           information. You can apply yourself: IRCC publishes every form and instruction free.
         </p>
         <div className="grid sm:grid-cols-2 gap-4">
-          <div className="rounded-3xl p-6" style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}>
+          <div className="rounded-3xl p-6" style={{ backgroundColor: "#F7F3EC", border: "1px solid var(--card-line)" }}>
             <h3 className="subsection-title mb-3">We can help with</h3>
             <ul className="space-y-2">
               {canHelp.map((item) => (
-                <li key={item} className="flex items-start gap-2 text-sm text-[#667085]">
-                  <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#155EEF" }} aria-hidden />
+                <li key={item} className="flex items-start gap-2 text-sm text-[#52606D]">
+                  <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="rounded-3xl p-6" style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}>
+          <div className="rounded-3xl p-6" style={{ backgroundColor: "#F7F3EC", border: "1px solid var(--card-line)" }}>
             <h3 className="subsection-title mb-3">We don&apos;t</h3>
             <ul className="space-y-2">
               {cannotHelp.map((item) => (
-                <li key={item} className="flex items-start gap-2 text-sm text-[#667085]">
-                  <XCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#667085" }} aria-hidden />
+                <li key={item} className="flex items-start gap-2 text-sm text-[#52606D]">
+                  <XCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#52606D" }} aria-hidden />
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
         </div>
-        <p className="text-sm text-[#667085] mt-6 leading-relaxed">
+        <p className="text-sm text-[#52606D] mt-6 leading-relaxed">
           If you want paid help with the application itself, use an authorized representative and check
           their status first. Source:{" "}
-          <a href={IRCC_REPRESENTATIVES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+          <a href={IRCC_REPRESENTATIVES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
             IRCC — Learn about representatives
           </a>
           .

@@ -32,7 +32,7 @@ function linkifyText(text: string) {
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold underline-offset-2 hover:underline"
-          style={{ color: '#155EEF' }}
+          style={{ color: '#0A4D8C' }}
         >
           {label}
         </a>
@@ -41,7 +41,7 @@ function linkifyText(text: string) {
           key={key++}
           href={url}
           className="font-semibold underline-offset-2 hover:underline"
-          style={{ color: '#155EEF' }}
+          style={{ color: '#0A4D8C' }}
         >
           {label}
         </Link>
@@ -87,8 +87,8 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
       <div className="min-h-screen flex items-center justify-center px-4" role="alert">
         <div className="text-center max-w-md">
           <h1 className="page-title mb-4">Blog Not Found</h1>
-          <p className="text-[#667085] mb-6">We could not find that article. It may have been moved or removed.</p>
-          <Link href="/blog" className="font-semibold" style={{ color: '#155EEF' }}>
+          <p className="text-[#52606D] mb-6">We could not find that article. It may have been moved or removed.</p>
+          <Link href="/blog" className="font-semibold" style={{ color: '#0A4D8C' }}>
             Return to the Travelaxis blog listing
           </Link>
         </div>
@@ -99,12 +99,12 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
   return (
     <article aria-labelledby="blog-article-title">
       {/* Back Button */}
-      <section className="py-6" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="py-6" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link 
             href="/blog"
             className="inline-flex items-center space-x-2 hover:underline"
-            style={{ color: '#155EEF' }}
+            style={{ color: '#0A4D8C' }}
           >
             <ArrowLeft className="w-4 h-4" aria-hidden />
             <span>Back to all Travelaxis blog articles</span>
@@ -113,14 +113,14 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
       </section>
 
       {/* Hero Section */}
-      <section className="py-12" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="py-12" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
             <div className="mb-4">
-              <span className="px-4 py-2 rounded-full text-sm font-semibold" style={{ backgroundColor: '#155EEF', color: '#FFFFFF' }}>
+              <span className="px-4 py-2 rounded-full text-sm font-semibold" style={{ backgroundColor: '#0A4D8C', color: '#FFFFFF' }}>
                 {blog.category}
               </span>
             </div>
@@ -129,9 +129,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
               {blog.title}
             </h1>
             
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[#667085] mb-6">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[#52606D] mb-6">
               <div className="flex items-center space-x-2">
-                <BadgeCheck className="w-5 h-5" style={{ color: '#155EEF' }} aria-hidden />
+                <BadgeCheck className="w-5 h-5" style={{ color: '#0A4D8C' }} aria-hidden />
                 <span>Reviewed by the Travelaxis Consultancy Team</span>
               </div>
               {blog.date && (
@@ -161,11 +161,11 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
             className="w-full h-64 md:h-96 rounded-3xl shadow-lg flex items-center justify-center"
-            style={{ backgroundColor: '#F5F8FF' }}
+            style={{ backgroundColor: '#F7F3EC' }}
           >
             {(() => {
               const CategoryIcon = categoryIcons[blog.category] ?? FileText;
-              return <CategoryIcon className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#155EEF' }} aria-hidden />;
+              return <CategoryIcon className="w-24 h-24 md:w-32 md:h-32" style={{ color: '#0A4D8C' }} aria-hidden />;
             })()}
           </motion.div>
         </div>
@@ -180,11 +180,11 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
             transition={{ delay: 0.3 }}
             className="prose prose-lg max-w-none"
           >
-            <div className="rounded-3xl p-6 mb-10 border-l-4 shadow-sm not-prose" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: '#155EEF' }}>
+            <div className="rounded-3xl p-6 mb-10 border-l-4 shadow-sm not-prose" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: '#0A4D8C' }}>
                 Quick Answer
               </p>
-              <p className="text-[#667085] leading-relaxed">
+              <p className="text-[#52606D] leading-relaxed">
                 {linkifyText(blog.content.intro)}
               </p>
             </div>
@@ -196,7 +196,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 </h2>
 
                 {section.content && (
-                  <p className="lead text-[#667085] leading-relaxed mb-6">
+                  <p className="lead text-[#52606D] leading-relaxed mb-6">
                     {linkifyText(section.content)}
                   </p>
                 )}
@@ -219,7 +219,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                             {sub.title}
                           </h3>
                           {sub.content && (
-                            <p className="text-[#667085] leading-relaxed mb-4">
+                            <p className="text-[#52606D] leading-relaxed mb-4">
                               {linkifyText(sub.content)}
                             </p>
                           )}
@@ -228,9 +228,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                               {sub.items.map((item: string, i: number) => (
                                 <li
                                   key={i}
-                                  className="flex items-start space-x-3 text-[#667085]"
+                                  className="flex items-start space-x-3 text-[#52606D]"
                                 >
-                                  <span className="text-[#155EEF]" aria-hidden>👉</span>
+                                  <span className="text-[#0A4D8C]" aria-hidden>👉</span>
                                   <span>{item}</span>
                                 </li>
                               ))}
@@ -246,11 +246,11 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div
                       className="rounded-2xl p-6"
-                      style={{ backgroundColor: "#F5F8FF" }}
+                      style={{ backgroundColor: "#F7F3EC" }}
                     >
                       <h3
                         className="subsection-title mb-4"
-                        style={{ color: "#155EEF" }}
+                        style={{ color: "#0A4D8C" }}
                       >
                         {section.columnCompare.left.title}
                       </h3>
@@ -263,9 +263,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                             >
                               <div
                                 className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
-                                style={{ backgroundColor: "#155EEF" }}
+                                style={{ backgroundColor: "#0A4D8C" }}
                               ></div>
-                              <span className="text-[#667085]">{item}</span>
+                              <span className="text-[#52606D]">{item}</span>
                             </li>
                           )
                         )}
@@ -273,11 +273,11 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                     </div>
                     <div
                       className="rounded-2xl p-6"
-                      style={{ backgroundColor: "#F5F8FF" }}
+                      style={{ backgroundColor: "#F7F3EC" }}
                     >
                       <h3
                         className="subsection-title mb-4"
-                        style={{ color: "#155EEF" }}
+                        style={{ color: "#0A4D8C" }}
                       >
                         {section.columnCompare.right.title}
                       </h3>
@@ -290,9 +290,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                             >
                               <div
                                 className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
-                                style={{ backgroundColor: "#155EEF" }}
+                                style={{ backgroundColor: "#0A4D8C" }}
                               ></div>
-                              <span className="text-[#667085]">{item}</span>
+                              <span className="text-[#52606D]">{item}</span>
                             </li>
                           )
                         )}
@@ -305,9 +305,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceWhatYouCanDo && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceWhatYouCanDo.map((item: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{item}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{item}</span>
                       </div>
                     ))}
                   </div>
@@ -317,9 +317,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceGrowthReasons && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceGrowthReasons.map((reason: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{reason}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{reason}</span>
                       </div>
                     ))}
                   </div>
@@ -329,9 +329,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceWhoCanStart && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceWhoCanStart.map((who: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{who}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{who}</span>
                       </div>
                     ))}
                   </div>
@@ -341,16 +341,16 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceLicenseTypes && (
                   <div className="space-y-6">
                     {section.ecommerceLicenseTypes.map((type: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                        <h3 className="subsection-title mb-3" style={{ color: '#155EEF' }}>
+                      <div key={idx} className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                        <h3 className="subsection-title mb-3" style={{ color: '#0A4D8C' }}>
                           🟩 {type.number}. {type.name}
                         </h3>
-                        <p className="text-[#667085] font-semibold mb-2">Benefits:</p>
+                        <p className="text-[#52606D] font-semibold mb-2">Benefits:</p>
                         <ul className="space-y-2">
                           {type.benefits.map((benefit: string, bidx: number) => (
                             <li key={bidx} className="flex items-start space-x-3">
-                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                              <span className="text-[#667085]">{benefit}</span>
+                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                              <span className="text-[#52606D]">{benefit}</span>
                             </li>
                           ))}
                         </ul>
@@ -363,16 +363,16 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceSteps && (
                   <div className="space-y-6">
                     {section.ecommerceSteps.map((stepItem: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6 shadow-md" style={{ backgroundColor: '#F5F8FF' }}>
+                      <div key={idx} className="rounded-2xl p-6 shadow-md" style={{ backgroundColor: '#F7F3EC' }}>
                         <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#155EEF' }}>
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0A4D8C' }}>
                             <span className="font-bold" style={{ color: '#FFFFFF' }}>{idx + 1}</span>
                           </div>
                           <div className="flex-1">
                             <h3 className="subsection-title mb-2">
                               {stepItem.step}
                             </h3>
-                            <p className="text-[#667085]">{stepItem.description}</p>
+                            <p className="text-[#52606D]">{stepItem.description}</p>
                           </div>
                         </div>
                       </div>
@@ -383,28 +383,28 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {/* E-Commerce Documents */}
                 {section.ecommerceDocuments && (
                   <div className="space-y-6">
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Personal Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.ecommerceDocuments.personalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{doc}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{doc}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Business Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.ecommerceDocuments.businessDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{doc}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{doc}</span>
                           </li>
                         ))}
                       </ul>
@@ -416,9 +416,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceBusinessIdeas && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceBusinessIdeas.map((idea: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{idea}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{idea}</span>
                       </div>
                     ))}
                   </div>
@@ -428,9 +428,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommercePaymentGateways && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommercePaymentGateways.map((gateway: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{gateway}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{gateway}</span>
                       </div>
                     ))}
                   </div>
@@ -440,9 +440,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceLogistics && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceLogistics.map((logistic: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{logistic}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{logistic}</span>
                       </div>
                     ))}
                   </div>
@@ -452,9 +452,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceMarketing && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceMarketing.map((strategy: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{strategy}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{strategy}</span>
                       </div>
                     ))}
                   </div>
@@ -464,9 +464,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceMistakes && (
                   <div className="space-y-3">
                     {section.ecommerceMistakes.map((mistake: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#1D2939' }}>
-                        <span style={{ color: '#1D2939' }}>❌</span>
-                        <span className="text-[#667085] font-semibold">{mistake}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#0F2A43' }}>
+                        <span style={{ color: '#0F2A43' }}>❌</span>
+                        <span className="text-[#52606D] font-semibold">{mistake}</span>
                       </div>
                     ))}
                   </div>
@@ -476,9 +476,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.ecommerceTips && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.ecommerceTips.map((tip: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>✅</span>
-                        <span className="text-[#667085] font-semibold">{tip}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>✅</span>
+                        <span className="text-[#52606D] font-semibold">{tip}</span>
                       </div>
                     ))}
                   </div>
@@ -488,9 +488,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.whyUAEBestForEcommerce && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.whyUAEBestForEcommerce.map((reason: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{reason}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{reason}</span>
                       </div>
                     ))}
                   </div>
@@ -500,9 +500,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.freelanceVisaWhatYouCanDo && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.freelanceVisaWhatYouCanDo.map((item: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{item}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{item}</span>
                       </div>
                     ))}
                   </div>
@@ -511,14 +511,14 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {/* Freelance Eligible Professionals */}
                 {section.freelanceEligibleProfessionals && (
                   <div>
-                    <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                       🟩 Eligible Professionals
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
                       {section.freelanceEligibleProfessionals.map((prof: string, idx: number) => (
-                        <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                          <span style={{ color: '#155EEF' }}>🟩</span>
-                          <span className="text-[#667085] font-semibold">{prof}</span>
+                        <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                          <span style={{ color: '#0A4D8C' }}>🟩</span>
+                          <span className="text-[#52606D] font-semibold">{prof}</span>
                         </div>
                       ))}
                     </div>
@@ -528,14 +528,14 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {/* Freelance Other Eligible */}
                 {section.freelanceOtherEligible && (
                   <div>
-                    <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                       🟩 Other Eligible Individuals
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
                       {section.freelanceOtherEligible.map((item: string, idx: number) => (
-                        <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                          <span style={{ color: '#155EEF' }}>🟩</span>
-                          <span className="text-[#667085] font-semibold">{item}</span>
+                        <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                          <span style={{ color: '#0A4D8C' }}>🟩</span>
+                          <span className="text-[#52606D] font-semibold">{item}</span>
                         </div>
                       ))}
                     </div>
@@ -546,11 +546,11 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.freelanceVisaBenefits && (
                   <div className="space-y-6">
                     {section.freelanceVisaBenefits.map((item: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6 border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <h3 className="subsection-title mb-2" style={{ color: '#155EEF' }}>
+                      <div key={idx} className="rounded-2xl p-6 border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <h3 className="subsection-title mb-2" style={{ color: '#0A4D8C' }}>
                           ✅ {item.number}. {item.title}
                         </h3>
-                        <p className="text-[#667085]">{item.description}</p>
+                        <p className="text-[#52606D]">{item.description}</p>
                       </div>
                     ))}
                   </div>
@@ -560,16 +560,16 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.freelanceLicenseTypes && (
                   <div className="space-y-6">
                     {section.freelanceLicenseTypes.map((type: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                        <h3 className="subsection-title mb-3" style={{ color: '#155EEF' }}>
+                      <div key={idx} className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                        <h3 className="subsection-title mb-3" style={{ color: '#0A4D8C' }}>
                           🟩 {type.name}
                         </h3>
-                        <p className="text-[#667085] font-semibold mb-2">For:</p>
+                        <p className="text-[#52606D] font-semibold mb-2">For:</p>
                         <ul className="space-y-2">
                           {type.forWhom.map((item: string, fidx: number) => (
                             <li key={fidx} className="flex items-start space-x-3">
-                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                              <span className="text-[#667085]">{item}</span>
+                              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                              <span className="text-[#52606D]">{item}</span>
                             </li>
                           ))}
                         </ul>
@@ -582,16 +582,16 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.freelanceVisaSteps && (
                   <div className="space-y-6">
                     {section.freelanceVisaSteps.map((stepItem: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6 shadow-md" style={{ backgroundColor: '#F5F8FF' }}>
+                      <div key={idx} className="rounded-2xl p-6 shadow-md" style={{ backgroundColor: '#F7F3EC' }}>
                         <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#155EEF' }}>
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0A4D8C' }}>
                             <span className="font-bold" style={{ color: '#FFFFFF' }}>{idx + 1}</span>
                           </div>
                           <div className="flex-1">
                             <h3 className="subsection-title mb-2">
                               {stepItem.step}
                             </h3>
-                            <p className="text-[#667085]">{stepItem.description}</p>
+                            <p className="text-[#52606D]">{stepItem.description}</p>
                           </div>
                         </div>
                       </div>
@@ -602,41 +602,41 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {/* Freelance Visa Documents */}
                 {section.freelanceVisaDocuments && (
                   <div className="space-y-6">
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Personal Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVisaDocuments.personalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{doc}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{doc}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Professional Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVisaDocuments.professionalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{doc}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{doc}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Additional Documents
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVisaDocuments.additionalDocuments.map((doc: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{doc}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{doc}</span>
                           </li>
                         ))}
                       </ul>
@@ -647,28 +647,28 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {/* Freelance vs Company */}
                 {section.freelanceVsCompany && (
                   <div className="grid md:grid-cols-2 gap-6">
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Freelance Visa
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVsCompany.freelanceVisa.map((item: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{item}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{item}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                      <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                      <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                         🟩 Company Setup
                       </h3>
                       <ul className="space-y-2">
                         {section.freelanceVsCompany.companySetup.map((item: string, idx: number) => (
                           <li key={idx} className="flex items-start space-x-3">
-                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#155EEF' }}></div>
-                            <span className="text-[#667085]">{item}</span>
+                            <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ backgroundColor: '#0A4D8C' }}></div>
+                            <span className="text-[#52606D]">{item}</span>
                           </li>
                         ))}
                       </ul>
@@ -680,9 +680,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.freelanceMistakes && (
                   <div className="space-y-3">
                     {section.freelanceMistakes.map((mistake: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#1D2939' }}>
-                        <span style={{ color: '#1D2939' }}>❌</span>
-                        <span className="text-[#667085] font-semibold">{mistake}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#0F2A43' }}>
+                        <span style={{ color: '#0F2A43' }}>❌</span>
+                        <span className="text-[#52606D] font-semibold">{mistake}</span>
                       </div>
                     ))}
                   </div>
@@ -692,9 +692,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.freelanceTips && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.freelanceTips.map((tip: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>✅</span>
-                        <span className="text-[#667085] font-semibold">{tip}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>✅</span>
+                        <span className="text-[#52606D] font-semibold">{tip}</span>
                       </div>
                     ))}
                   </div>
@@ -704,9 +704,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.bestFreelanceSkills && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.bestFreelanceSkills.map((skill: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{skill}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{skill}</span>
                       </div>
                     ))}
                   </div>
@@ -716,9 +716,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.whyUAEBestForFreelancers && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.whyUAEBestForFreelancers.map((reason: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{reason}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{reason}</span>
                       </div>
                     ))}
                   </div>
@@ -727,14 +727,14 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {/* Dropshipping How It Works */}
                 {section.dropshippingHowItWorks && (
                   <div>
-                    <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                    <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                       🟩 How It Works
                     </h3>
                     <div className="space-y-3">
                       {section.dropshippingHowItWorks.map((item: string, idx: number) => (
-                        <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                          <span style={{ color: '#155EEF' }}>🟩</span>
-                          <span className="text-[#667085] font-semibold">{item}</span>
+                        <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                          <span style={{ color: '#0A4D8C' }}>🟩</span>
+                          <span className="text-[#52606D] font-semibold">{item}</span>
                         </div>
                       ))}
                     </div>
@@ -743,14 +743,14 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
 
                 {/* Dropshipping Example */}
                 {section.dropshippingExample && (
-                  <div className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                    <h3 className="subsection-title mb-4" style={{ color: '#155EEF' }}>
+                  <div className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                    <h3 className="subsection-title mb-4" style={{ color: '#0A4D8C' }}>
                       🟩 Example
                     </h3>
                     <div className="space-y-2">
-                      <p className="text-[#667085]">You sell product for <strong>{section.dropshippingExample.productPrice}</strong></p>
-                      <p className="text-[#667085]">Supplier charges <strong>{section.dropshippingExample.supplierCost}</strong></p>
-                      <p className="text-[#667085] font-bold" style={{ color: '#155EEF' }}>👉 Your profit = {section.dropshippingExample.profit}</p>
+                      <p className="text-[#52606D]">You sell product for <strong>{section.dropshippingExample.productPrice}</strong></p>
+                      <p className="text-[#52606D]">Supplier charges <strong>{section.dropshippingExample.supplierCost}</strong></p>
+                      <p className="text-[#52606D] font-bold" style={{ color: '#0A4D8C' }}>👉 Your profit = {section.dropshippingExample.profit}</p>
                     </div>
                   </div>
                 )}
@@ -759,9 +759,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingPopularReasons && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingPopularReasons.map((reason: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{reason}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{reason}</span>
                       </div>
                     ))}
                   </div>
@@ -771,9 +771,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingWhoCanStart && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingWhoCanStart.map((who: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{who}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{who}</span>
                       </div>
                     ))}
                   </div>
@@ -783,18 +783,18 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingSteps && (
                   <div className="space-y-6">
                     {section.dropshippingSteps.map((stepItem: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6 shadow-md" style={{ backgroundColor: '#F5F8FF' }}>
+                      <div key={idx} className="rounded-2xl p-6 shadow-md" style={{ backgroundColor: '#F7F3EC' }}>
                         <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#155EEF' }}>
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#0A4D8C' }}>
                             <span className="font-bold" style={{ color: '#FFFFFF' }}>{idx + 1}</span>
                           </div>
                           <div className="flex-1">
                             <h3 className="subsection-title mb-2">
                               {stepItem.step}
                             </h3>
-                            <p className="text-[#667085]">{stepItem.description}</p>
+                            <p className="text-[#52606D]">{stepItem.description}</p>
                             {stepItem.note && (
-                              <p className="text-[#667085] italic mt-2">👉 {stepItem.note}</p>
+                              <p className="text-[#52606D] italic mt-2">👉 {stepItem.note}</p>
                             )}
                           </div>
                         </div>
@@ -807,9 +807,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingBestProducts && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingBestProducts.map((product: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{product}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{product}</span>
                       </div>
                     ))}
                   </div>
@@ -819,9 +819,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingPaymentMethods && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingPaymentMethods.map((method: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{method}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{method}</span>
                       </div>
                     ))}
                   </div>
@@ -831,9 +831,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingShipping && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingShipping.map((shipping: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{shipping}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{shipping}</span>
                       </div>
                     ))}
                   </div>
@@ -843,11 +843,11 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingMarketingStrategies && (
                   <div className="space-y-6">
                     {section.dropshippingMarketingStrategies.map((item: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6 border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <h3 className="subsection-title mb-2" style={{ color: '#155EEF' }}>
+                      <div key={idx} className="rounded-2xl p-6 border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <h3 className="subsection-title mb-2" style={{ color: '#0A4D8C' }}>
                           🟩 {item.strategy}
                         </h3>
-                        <p className="text-[#667085]">{item.description}</p>
+                        <p className="text-[#52606D]">{item.description}</p>
                       </div>
                     ))}
                   </div>
@@ -857,9 +857,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingMistakes && (
                   <div className="space-y-3">
                     {section.dropshippingMistakes.map((mistake: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#1D2939' }}>
-                        <span style={{ color: '#1D2939' }}>❌</span>
-                        <span className="text-[#667085] font-semibold">{mistake}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#0F2A43' }}>
+                        <span style={{ color: '#0F2A43' }}>❌</span>
+                        <span className="text-[#52606D] font-semibold">{mistake}</span>
                       </div>
                     ))}
                   </div>
@@ -869,9 +869,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingTips && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingTips.map((tip: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>✅</span>
-                        <span className="text-[#667085] font-semibold">{tip}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>✅</span>
+                        <span className="text-[#52606D] font-semibold">{tip}</span>
                       </div>
                     ))}
                   </div>
@@ -881,9 +881,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.dropshippingChallenges && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.dropshippingChallenges.map((challenge: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#1D2939' }}>
-                        <span style={{ color: '#1D2939' }}>⚠️</span>
-                        <span className="text-[#667085] font-semibold">{challenge}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#FFFFFF', borderColor: '#0F2A43' }}>
+                        <span style={{ color: '#0F2A43' }}>⚠️</span>
+                        <span className="text-[#52606D] font-semibold">{challenge}</span>
                       </div>
                     ))}
                   </div>
@@ -893,9 +893,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.whyUAEBestForDropshipping && (
                   <div className="grid md:grid-cols-2 gap-4">
                     {section.whyUAEBestForDropshipping.map((reason: string, idx: number) => (
-                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F5F8FF', borderColor: '#155EEF' }}>
-                        <span style={{ color: '#155EEF' }}>🟩</span>
-                        <span className="text-[#667085] font-semibold">{reason}</span>
+                      <div key={idx} className="flex items-center space-x-3 p-4 rounded-2xl border-l-4" style={{ backgroundColor: '#F7F3EC', borderColor: '#0A4D8C' }}>
+                        <span style={{ color: '#0A4D8C' }}>🟩</span>
+                        <span className="text-[#52606D] font-semibold">{reason}</span>
                       </div>
                     ))}
                   </div>
@@ -905,19 +905,19 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 {section.faqs && (
                   <div className="space-y-4">
                     {section.faqs.map((faq: any, idx: number) => (
-                      <div key={idx} className="rounded-2xl p-6" style={{ backgroundColor: '#F5F8FF' }}>
-                        <h3 className="subsection-title mb-2 flex items-start" style={{ color: '#155EEF' }}>
+                      <div key={idx} className="rounded-2xl p-6" style={{ backgroundColor: '#F7F3EC' }}>
+                        <h3 className="subsection-title mb-2 flex items-start" style={{ color: '#0A4D8C' }}>
                           <span className="mr-2" aria-hidden>❓</span>
                           {faq.question}
                         </h3>
-                        <p className="text-[#667085] pl-7">{linkifyText(faq.answer)}</p>
+                        <p className="text-[#52606D] pl-7">{linkifyText(faq.answer)}</p>
                       </div>
                     ))}
                   </div>
                 )}
 
                 {section.note && (
-                  <p className="text-[#667085] italic mt-4">👉 {section.note}</p>
+                  <p className="text-[#52606D] italic mt-4">👉 {section.note}</p>
                 )}
 
                 {section.relatedLinks && (
@@ -927,10 +927,10 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                         key={idx}
                         href={link.href}
                         className="flex items-center justify-between gap-2 rounded-2xl p-4 card-hover transition-all duration-200 hover:-translate-y-1"
-                        style={{ backgroundColor: '#F5F8FF', border: "1px solid var(--card-line)" }}
+                        style={{ backgroundColor: '#F7F3EC', border: "1px solid var(--card-line)" }}
                       >
-                        <span className="font-semibold" style={{ color: '#1D2939' }}>{link.label}</span>
-                        <ArrowLeft className="w-4 h-4 flex-shrink-0 rotate-180" style={{ color: '#155EEF' }} aria-hidden />
+                        <span className="font-semibold" style={{ color: '#0F2A43' }}>{link.label}</span>
+                        <ArrowLeft className="w-4 h-4 flex-shrink-0 rotate-180" style={{ color: '#0A4D8C' }} aria-hidden />
                       </Link>
                     ))}
                   </div>
@@ -942,7 +942,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0A4D8C' }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -955,7 +955,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
           {blog.cta ? (
             <Link
               href={blog.cta.href}
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               {blog.cta.label}
               <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
@@ -965,7 +965,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
               href={defaultCta.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
               aria-label={defaultCta.ariaLabel}
             >
               {defaultCta.label}
@@ -978,15 +978,15 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
       {/* Share Section */}
       <section className="py-8" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between border-t border-b py-6" style={{ borderColor: '#F5F8FF' }}>
+          <div className="flex items-center justify-between border-t border-b py-6" style={{ borderColor: '#F7F3EC' }}>
             <div className="flex items-center space-x-2">
-              <Share2 className="w-5 h-5" style={{ color: '#155EEF' }} aria-hidden />
-              <span className="font-semibold" style={{ color: '#1D2939' }}>Share this article</span>
+              <Share2 className="w-5 h-5" style={{ color: '#0A4D8C' }} aria-hidden />
+              <span className="font-semibold" style={{ color: '#0F2A43' }}>Share this article</span>
             </div>
             <Link 
               href="/blog"
               className="font-semibold hover:underline"
-              style={{ color: '#155EEF' }}
+              style={{ color: '#0A4D8C' }}
             >
               View all Travelaxis blog articles
             </Link>

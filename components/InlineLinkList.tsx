@@ -21,7 +21,7 @@ export default function InlineLinkList({ items }: { items: InlineLinkItem[] }) {
         key={item.href}
         href={item.href}
         className="font-semibold underline-offset-2 hover:underline"
-        style={{ color: "#155EEF" }}
+        style={{ color: "#0A4D8C" }}
       >
         {item.label}
       </Link>,

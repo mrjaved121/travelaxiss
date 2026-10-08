@@ -16,18 +16,18 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-[#1D2939]">
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-[#0F2A43]">
       <JsonLd data={breadcrumbJsonLd([{ name: "Terms & Conditions", path: "/terms" }])} />
       <h1 className="page-title mb-2">
-        Terms &amp; <span style={{ color: "#155EEF" }}>Conditions</span>
+        Terms &amp; <span style={{ color: "#0A4D8C" }}>Conditions</span>
       </h1>
-      <p className="text-[#667085] text-sm mb-10">Last updated: April 9, 2026</p>
-      <div className="space-y-6 text-[#667085]">
+      <p className="text-[#52606D] text-sm mb-10">Last updated: April 9, 2026</p>
+      <div className="space-y-6 text-[#52606D]">
         <p>
           By accessing this website or engaging Travelaxis for consultancy services, you agree to
           these terms. If you do not agree, please do not use our site or services.
         </p>
-        <h2 className="section-title pt-4 text-[#1D2939]">
+        <h2 className="section-title pt-4 text-[#0F2A43]">
           Services
         </h2>
         <p>
@@ -35,14 +35,14 @@ export default function TermsPage() {
           application guidance, and related processes. Government and third-party decisions
           (approvals, timelines, fees) are outside our control.
         </p>
-        <h2 className="section-title pt-4 text-[#1D2939]">
+        <h2 className="section-title pt-4 text-[#0F2A43]">
           No guarantee of outcomes
         </h2>
         <p>
           We do not guarantee visa grants, license approvals, or specific timelines. Final decisions
           rest with relevant authorities and institutions.
         </p>
-        <h2 className="section-title pt-4 text-[#1D2939]">
+        <h2 className="section-title pt-4 text-[#0F2A43]">
           Limitation of liability
         </h2>
         <p>
@@ -50,7 +50,7 @@ export default function TermsPage() {
           losses arising from use of this website or services. Our liability is limited to fees paid
           to us for the specific engagement, where applicable.
         </p>
-        <h2 className="section-title pt-4 text-[#1D2939]">
+        <h2 className="section-title pt-4 text-[#0F2A43]">
           Governing law
         </h2>
         <p>
@@ -58,7 +58,7 @@ export default function TermsPage() {
           subject to the courts of Dubai, UAE, unless otherwise agreed in writing.
         </p>
         <p className="pt-8">
-          <Link href="/" className="text-sm font-medium underline" style={{ color: "#155EEF" }}>
+          <Link href="/" className="text-sm font-medium underline" style={{ color: "#0A4D8C" }}>
             Return to Travelaxis home
           </Link>
         </p>

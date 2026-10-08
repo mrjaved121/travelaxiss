@@ -20,9 +20,9 @@ export default function RedirectStub({ targetPath, label }: { targetPath: string
     <>
       <meta httpEquiv="refresh" content={`0; url=${targetPath}`} />
       <section className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-        <p className="text-[#667085]">
+        <p className="text-[#52606D]">
           This page has moved.{" "}
-          <Link href={targetPath} className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+          <Link href={targetPath} className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
             Continue to {label}
           </Link>
           .

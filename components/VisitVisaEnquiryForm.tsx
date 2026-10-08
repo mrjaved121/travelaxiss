@@ -9,7 +9,7 @@ const APPLYING_FROM_OPTIONS = ["Pakistan", "UAE", "Other"];
 const PURPOSE_OPTIONS = ["Tourism", "Family visit", "Business visit", "Other"];
 
 const fieldClassName =
-  "w-full rounded-xl border border-[#E4E7EC] bg-white px-4 py-3 text-[#1D2939] placeholder:text-[#667085] focus:outline-none focus:ring-2 transition-shadow";
+  "w-full rounded-xl border border-[#E6E1D8] bg-white px-4 py-3 text-[#0F2A43] placeholder:text-[#52606D] focus:outline-none focus:ring-2 transition-shadow";
 
 /**
  * Compiles into a prefilled WhatsApp message on submit rather than posting anywhere —
@@ -51,13 +51,13 @@ export default function VisitVisaEnquiryForm({
   };
 
   return (
-    <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border" style={{ borderColor: "#E4E7EC" }}>
+    <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border" style={{ borderColor: "#E6E1D8" }}>
       <h2 className="section-title mb-2 text-center">{heading}</h2>
-      <p className="text-[#667085] text-center mb-8 max-w-xl mx-auto">{subheading}</p>
+      <p className="text-[#52606D] text-center mb-8 max-w-xl mx-auto">{subheading}</p>
       <form onSubmit={handleSubmit} className="space-y-5 max-w-xl mx-auto">
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
-            <label htmlFor={`${idPrefix}-applying-from`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            <label htmlFor={`${idPrefix}-applying-from`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
               Applying from
             </label>
             <select
@@ -72,7 +72,7 @@ export default function VisitVisaEnquiryForm({
             </select>
           </div>
           <div>
-            <label htmlFor={`${idPrefix}-nationality`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            <label htmlFor={`${idPrefix}-nationality`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
               Passport nationality
             </label>
             <input
@@ -88,7 +88,7 @@ export default function VisitVisaEnquiryForm({
 
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
-            <label htmlFor={`${idPrefix}-destination`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            <label htmlFor={`${idPrefix}-destination`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
               Destination
             </label>
             <input
@@ -102,7 +102,7 @@ export default function VisitVisaEnquiryForm({
             />
           </div>
           <div>
-            <label htmlFor={`${idPrefix}-travel-month`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            <label htmlFor={`${idPrefix}-travel-month`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
               Intended travel month
             </label>
             <input
@@ -117,7 +117,7 @@ export default function VisitVisaEnquiryForm({
         </div>
 
         <div>
-          <label htmlFor={`${idPrefix}-purpose`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+          <label htmlFor={`${idPrefix}-purpose`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
             Travel purpose
           </label>
           <select
@@ -134,7 +134,7 @@ export default function VisitVisaEnquiryForm({
 
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
-            <label htmlFor={`${idPrefix}-name`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            <label htmlFor={`${idPrefix}-name`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
               Name
             </label>
             <input
@@ -148,7 +148,7 @@ export default function VisitVisaEnquiryForm({
             />
           </div>
           <div>
-            <label htmlFor={`${idPrefix}-whatsapp`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+            <label htmlFor={`${idPrefix}-whatsapp`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
               WhatsApp number
             </label>
             <input
@@ -164,7 +164,7 @@ export default function VisitVisaEnquiryForm({
         </div>
 
         <div>
-          <label htmlFor={`${idPrefix}-message`} className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+          <label htmlFor={`${idPrefix}-message`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
             Message (optional)
           </label>
           <textarea
@@ -180,12 +180,12 @@ export default function VisitVisaEnquiryForm({
         <button
           type="submit"
           className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
-          style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+          style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
         >
           <Send className="w-5 h-5" aria-hidden />
           <span>Request Requirements</span>
         </button>
-        <p className="text-xs text-[#667085] text-center">
+        <p className="text-xs text-[#52606D] text-center">
           By submitting, you agree to be contacted about your enquiry via WhatsApp. Visa
           outcomes are decided by the relevant government authority.
         </p>

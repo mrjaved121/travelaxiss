@@ -58,8 +58,8 @@ function OptionCard({
       onClick={onClick}
       className={cardBase}
       style={{
-        border: selected ? "2px solid #155EEF" : "1px solid var(--card-line)",
-        backgroundColor: selected ? "#F5F8FF" : "#FFFFFF",
+        border: selected ? "2px solid #0A4D8C" : "1px solid var(--card-line)",
+        backgroundColor: selected ? "#F7F3EC" : "#FFFFFF",
       }}
     >
       {children}
@@ -107,12 +107,12 @@ export default function VisaFinderPage() {
 
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Visa Finder</p>
             <h1 className="page-title mb-4">
-              Find Your Potential <span style={{ color: "#155EEF" }}>Visa Pathway</span>
+              Find Your Potential <span style={{ color: "#0A4D8C" }}>Visa Pathway</span>
             </h1>
             <p className="lead max-w-xl mx-auto">
               Answer a few simple questions and discover which visa pathways may be worth
@@ -122,9 +122,9 @@ export default function VisaFinderPage() {
         </div>
       </section>
 
-      <section className="py-12 bg-white border-b" style={{ borderColor: "#E4E7EC" }}>
+      <section className="py-12 bg-white border-b" style={{ borderColor: "#E6E1D8" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid sm:grid-cols-2 gap-8 text-sm text-[#667085] leading-relaxed">
+          <div className="grid sm:grid-cols-2 gap-8 text-sm text-[#52606D] leading-relaxed">
             <div>
               <h2 className="subsection-title mb-2">What this tool covers</h2>
               <p className="mb-2">
@@ -158,15 +158,15 @@ export default function VisaFinderPage() {
               {/* Progress */}
               <div className="mb-8">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-semibold" style={{ color: "#155EEF" }}>
+                  <span className="text-sm font-semibold" style={{ color: "#0A4D8C" }}>
                     {String(step + 1).padStart(2, "0")} / {String(totalSteps).padStart(2, "0")}
                   </span>
-                  <span className="text-sm text-[#667085]">{STEP_LABELS[step]}</span>
+                  <span className="text-sm text-[#52606D]">{STEP_LABELS[step]}</span>
                 </div>
-                <div className="h-1.5 rounded-full bg-[#E4E7EC] overflow-hidden">
+                <div className="h-1.5 rounded-full bg-[#E6E1D8] overflow-hidden">
                   <motion.div
                     className="h-full rounded-full"
-                    style={{ backgroundColor: "#155EEF" }}
+                    style={{ backgroundColor: "#0A4D8C" }}
                     animate={{ width: `${((step + 1) / totalSteps) * 100}%` }}
                     transition={{ duration: 0.3 }}
                   />
@@ -189,8 +189,8 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                         {GOALS.map(({ key, label, icon: Icon }) => (
                           <OptionCard key={key} selected={answers.goal === key} onClick={() => select("goal", key)}>
-                            <Icon className="w-6 h-6 mb-3" style={{ color: "#155EEF" }} aria-hidden />
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <Icon className="w-6 h-6 mb-3" style={{ color: "#0A4D8C" }} aria-hidden />
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -211,7 +211,7 @@ export default function VisaFinderPage() {
                             selected={answers.destination === key}
                             onClick={() => select("destination", key)}
                           >
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -228,7 +228,7 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 gap-4">
                         {EDUCATION_LEVELS.map((label) => (
                           <OptionCard key={label} selected={answers.education === label} onClick={() => select("education", label)}>
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -245,7 +245,7 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 gap-4">
                         {EXPERIENCE_LEVELS.map((label) => (
                           <OptionCard key={label} selected={answers.experience === label} onClick={() => select("experience", label)}>
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -262,7 +262,7 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 gap-4">
                         {AGE_BANDS.map((label) => (
                           <OptionCard key={label} selected={answers.age === label} onClick={() => select("age", label)}>
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -279,7 +279,7 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 gap-4">
                         {LANGUAGE_LEVELS.map((label) => (
                           <OptionCard key={label} selected={answers.language === label} onClick={() => select("language", label)}>
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -296,7 +296,7 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 gap-4">
                         {BUDGET_BANDS.map((label) => (
                           <OptionCard key={label} selected={answers.budget === label} onClick={() => select("budget", label)}>
-                            <span className="font-semibold" style={{ color: "#1D2939" }}>
+                            <span className="font-semibold" style={{ color: "#0F2A43" }}>
                               {label}
                             </span>
                           </OptionCard>
@@ -313,7 +313,7 @@ export default function VisaFinderPage() {
                   onClick={goBack}
                   disabled={step === 0}
                   className="inline-flex items-center gap-1.5 text-sm font-semibold disabled:opacity-0"
-                  style={{ color: "#667085" }}
+                  style={{ color: "#52606D" }}
                 >
                   <ArrowLeft className="w-4 h-4" aria-hidden />
                   Back
@@ -325,14 +325,14 @@ export default function VisaFinderPage() {
               <h2 className="section-title mb-2">
                 Your Potential Pathways
               </h2>
-              <p className="text-[#667085] mb-8">
+              <p className="text-[#52606D] mb-8">
                 Based on your answers, here&apos;s a starting point for your research.
               </p>
 
               <div className="rounded-2xl p-6 md:p-8 card-hover mb-6" style={{ border: "1px solid var(--card-line)" }}>
                 <span
                   className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-4"
-                  style={{ backgroundColor: "#F5F8FF", color: "#155EEF" }}
+                  style={{ backgroundColor: "#F7F3EC", color: "#0A4D8C" }}
                 >
                   Potential match
                 </span>
@@ -340,25 +340,25 @@ export default function VisaFinderPage() {
                   {matchedDestination?.name ?? "Your destination"} —{" "}
                   {pathwayLabel ?? "Visa pathway"}
                 </h3>
-                <p className="text-[#667085] leading-relaxed mb-4">
+                <p className="text-[#52606D] leading-relaxed mb-4">
                   You told us your goal is <strong>{answers.goal}</strong>, with{" "}
                   <strong>{answers.education?.toLowerCase()}</strong> education and{" "}
                   <strong>{answers.experience}</strong> of work experience. This combination is
                   typically a starting point for exploring {pathwayLabel ?? "this pathway"} — the
                   category most people with a similar goal and destination begin researching.
                 </p>
-                <div className="rounded-xl p-4" style={{ backgroundColor: "#F5F8FF" }}>
-                  <p className="text-sm font-semibold mb-1" style={{ color: "#1D2939" }}>
+                <div className="rounded-xl p-4" style={{ backgroundColor: "#F7F3EC" }}>
+                  <p className="text-sm font-semibold mb-1" style={{ color: "#0F2A43" }}>
                     Important considerations
                   </p>
-                  <p className="text-sm text-[#667085]">
+                  <p className="text-sm text-[#52606D]">
                     This is a general starting point, not an eligibility determination. Specific
                     visa requirements vary by category and change periodically — confirm current
                     criteria with an advisor before applying. No consultant can guarantee a
                     government immigration decision.
                   </p>
                   {isCanada && (
-                    <p className="text-sm text-[#667085] mt-3">
+                    <p className="text-sm text-[#52606D] mt-3">
                       For Canada, only authorized representatives (CICC-licensed consultants, Canadian
                       lawyers and paralegals, Québec notaries) may charge for advice on an application.
                       Travelaxis is not one, so we can&apos;t assess Canada cases — our Canada guide covers
@@ -366,7 +366,7 @@ export default function VisaFinderPage() {
                     </p>
                   )}
                   {isUaeNonVisit && (
-                    <p className="text-sm text-[#667085] mt-3">
+                    <p className="text-sm text-[#52606D] mt-3">
                       For the UAE, Travelaxis helps with visit visas, the jobseeker visit visa and the
                       Golden Visa. We don&apos;t assess UAE family, student or business routes — check
                       the official UAE government portal (u.ae) for those.
@@ -380,7 +380,7 @@ export default function VisaFinderPage() {
                   <Link
                     href="/consultation"
                     className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
-                    style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                    style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
                   >
                     <span>Get Expert Assessment</span>
                     <ArrowRight className="w-4 h-4" aria-hidden />
@@ -390,7 +390,7 @@ export default function VisaFinderPage() {
                   <Link
                     href={matchedDestination.href}
                     className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90"
-                    style={{ borderColor: "#1D2939", color: "#1D2939" }}
+                    style={{ borderColor: "#0F2A43", color: "#0F2A43" }}
                   >
                     Learn more about {matchedDestination.name}
                   </Link>
@@ -399,7 +399,7 @@ export default function VisaFinderPage() {
                   type="button"
                   onClick={reset}
                   className="inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-semibold"
-                  style={{ color: "#667085" }}
+                  style={{ color: "#52606D" }}
                 >
                   <RotateCcw className="w-4 h-4" aria-hidden />
                   Start over

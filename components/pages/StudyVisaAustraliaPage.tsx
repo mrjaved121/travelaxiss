@@ -61,7 +61,7 @@ export default function StudyVisaAustraliaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs
@@ -72,14 +72,14 @@ export default function StudyVisaAustraliaPage() {
             />
             <p className="eyebrow mb-3">Study Visa Services</p>
             <h1 className="page-title mb-6">
-              Australia Student Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              Australia Student Visa <span style={{ color: "#0A4D8C" }}>from Pakistan</span>
             </h1>
-            <p className="lead text-[#667085] mb-8 leading-relaxed">
+            <p className="lead text-[#52606D] mb-8 leading-relaxed">
               Already have a Confirmation of Enrolment? We help you prepare the Australia
               Student Visa (Subclass 500) documentation from Pakistan.
             </p>
-            <p className="text-sm text-[#667085] mb-8 leading-relaxed">
-              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>full Study Visa guide</Link> for every destination.
+            <p className="text-sm text-[#52606D] mb-8 leading-relaxed">
+              We also prepare study visa documentation for <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -95,10 +95,10 @@ export default function StudyVisaAustraliaPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
-                style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
+                style={{ borderColor: "#E6E1D8", color: "#0F2A43" }}
                 aria-label="Chat with Travelaxis on WhatsApp about Australia study visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "#0A4D8C" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -111,9 +111,9 @@ export default function StudyVisaAustraliaPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F5F8FF" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#155EEF" }}>{fact.label}</p>
-                <p className="text-sm font-medium" style={{ color: "#1D2939" }}>{fact.value}</p>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F7F3EC" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#0A4D8C" }}>{fact.label}</p>
+                <p className="text-sm font-medium" style={{ color: "#0F2A43" }}>{fact.value}</p>
               </div>
             ))}
           </div>
@@ -121,19 +121,19 @@ export default function StudyVisaAustraliaPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6">Documents You&apos;ll Need</h2>
           <ul className="grid sm:grid-cols-2 gap-3">
             {documents.map((doc) => (
-              <li key={doc} className="flex items-start gap-2 text-[#667085] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
+              <li key={doc} className="flex items-start gap-2 text-[#52606D] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
                 <span>{doc}</span>
               </li>
             ))}
           </ul>
-          <p className="text-sm text-[#667085] mt-6">
+          <p className="text-sm text-[#52606D] mt-6">
             Requirements are set by the{" "}
-            <a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+            <a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
               Department of Home Affairs
             </a>{" "}
             — we confirm the current list for your specific case.
@@ -149,17 +149,17 @@ export default function StudyVisaAustraliaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E6E1D8]">
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
-                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#1D2939" }}>
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
+                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#0F2A43" }}>
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
+                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -179,18 +179,18 @@ export default function StudyVisaAustraliaPage() {
                 key={guide.href}
                 href={guide.href}
                 className="flex items-start gap-4 rounded-3xl p-6 card-hover"
-                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: "#F7F3EC", border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                  style={{ backgroundColor: "#155EEF" }}
+                  style={{ backgroundColor: "#0A4D8C" }}
                   aria-hidden
                 >
                   <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <div className="flex-1">
                   <h3 className="subsection-title mb-1">{guide.title}</h3>
-                  <p className="text-sm text-[#667085]">{guide.description}</p>
+                  <p className="text-sm text-[#52606D]">{guide.description}</p>
                 </div>
               </Link>
             ))}
@@ -199,7 +199,7 @@ export default function StudyVisaAustraliaPage() {
       </section>
 
       {/* Related */}
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -212,7 +212,7 @@ export default function StudyVisaAustraliaPage() {
                 key={link.href}
                 href={link.href}
                 className="rounded-2xl p-4 text-center card-hover bg-white font-semibold"
-                style={{ color: "#1D2939", border: "1px solid var(--card-line)" }}
+                style={{ color: "#0F2A43", border: "1px solid var(--card-line)" }}
               >
                 {link.label}
               </Link>

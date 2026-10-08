@@ -33,7 +33,7 @@ export default function NewsletterSignup() {
   };
 
   return (
-    <div style={{ backgroundColor: "#1D2939" }}>
+    <div style={{ backgroundColor: "#0F2A43" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-12">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
           <div className="lg:max-w-sm">
@@ -72,12 +72,12 @@ export default function NewsletterSignup() {
                 placeholder="Your email address"
                 aria-invalid={status === "error"}
                 aria-describedby={status === "idle" ? undefined : statusId}
-                className="h-12 sm:w-72 px-5 rounded-full bg-white text-[0.9375rem] text-[#1D2939] placeholder:text-[#667085]"
+                className="h-12 sm:w-72 px-5 rounded-full bg-white text-[0.9375rem] text-[#0F2A43] placeholder:text-[#52606D]"
               />
               <button
                 type="submit"
                 className="btn h-12 px-7 rounded-full bg-white shrink-0 w-full sm:w-auto transition-opacity hover:opacity-90"
-                style={{ color: "#155EEF" }}
+                style={{ color: "#0A4D8C" }}
               >
                 Subscribe
               </button>

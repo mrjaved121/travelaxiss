@@ -81,7 +81,7 @@ export default function VisitVisaUaePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs
@@ -93,16 +93,16 @@ export default function VisitVisaUaePage() {
             />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              UAE Visit Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              UAE Visit Visa <span style={{ color: "#0A4D8C" }}>from Pakistan</span>
             </h1>
-            <p className="lead text-[#667085] mb-6 leading-relaxed">
+            <p className="lead text-[#52606D] mb-6 leading-relaxed">
               A Dubai visit visa is the standard route for Pakistani nationals traveling for
               tourism, to see family, or to explore business opportunities. Pakistani applicants
               tend to face closer scrutiny on solvency proof than some other nationalities, so
               document quality is what separates a smooth approval from a delay. We handle
               preparation from our Lahore office, with the UAE side coordinated through Dubai.
             </p>
-            <p className="text-sm text-[#667085] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
+            <p className="text-sm text-[#52606D] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#0A4D8C" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -119,10 +119,10 @@ export default function VisitVisaUaePage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
-                style={{ borderColor: "#E4E7EC", color: "#1D2939" }}
+                style={{ borderColor: "#E6E1D8", color: "#0F2A43" }}
                 aria-label="Chat with Travelaxis on WhatsApp about a Dubai visit visa from Pakistan (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#155EEF" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "#0A4D8C" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -135,11 +135,11 @@ export default function VisitVisaUaePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F5F8FF" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#155EEF" }}>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F7F3EC" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#0A4D8C" }}>
                   {fact.label}
                 </p>
-                <p className="text-sm font-medium" style={{ color: "#1D2939" }}>{fact.value}</p>
+                <p className="text-sm font-medium" style={{ color: "#0F2A43" }}>{fact.value}</p>
               </div>
             ))}
           </div>
@@ -147,7 +147,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Duration options */}
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -156,14 +156,14 @@ export default function VisitVisaUaePage() {
             className="mb-6"
           >
             <h2 className="section-title mb-4">
-              Visit Visa <span style={{ color: "#155EEF" }}>Durations for Pakistani Applicants</span>
+              Visit Visa <span style={{ color: "#0A4D8C" }}>Durations for Pakistani Applicants</span>
             </h2>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="rounded-3xl border border-[#E4E7EC] shadow-sm mb-4 overflow-hidden bg-white"
+            className="rounded-3xl border border-[#E6E1D8] shadow-sm mb-4 overflow-hidden bg-white"
           >
             <Table>
               <TableHeader>
@@ -176,24 +176,24 @@ export default function VisitVisaUaePage() {
               <TableBody>
                 {durationRows.map((row) => (
                   <TableRow key={row.type}>
-                    <TableCell className="whitespace-normal font-medium" style={{ color: "#1D2939" }}>
+                    <TableCell className="whitespace-normal font-medium" style={{ color: "#0F2A43" }}>
                       {row.type}
                     </TableCell>
-                    <TableCell className="whitespace-normal text-[#667085]">{row.entry}</TableCell>
-                    <TableCell className="whitespace-normal text-[#667085]">{row.use}</TableCell>
+                    <TableCell className="whitespace-normal text-[#52606D]">{row.entry}</TableCell>
+                    <TableCell className="whitespace-normal text-[#52606D]">{row.use}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
             </Table>
           </motion.div>
-          <p className="text-sm text-[#667085]">
+          <p className="text-sm text-[#52606D]">
             Which duration and entry type you&apos;re eligible for depends on your sponsor route and
             travel history, and rules are reviewed periodically by{" "}
-            <a href="https://gdrfad.gov.ae" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+            <a href="https://gdrfad.gov.ae" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
               GDRFA
             </a>{" "}
             and{" "}
-            <a href="https://icp.gov.ae/en/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+            <a href="https://icp.gov.ae/en/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
               ICP
             </a>
             . We confirm what&apos;s currently available to you before you apply.
@@ -202,7 +202,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Routes */}
-      <section className="py-20" style={{ backgroundColor: "#155EEF" }}>
+      <section className="py-20" style={{ backgroundColor: "#0A4D8C" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -233,7 +233,7 @@ export default function VisitVisaUaePage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#0A4D8C" }} />
                 </div>
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -254,14 +254,14 @@ export default function VisitVisaUaePage() {
             viewport={{ once: true }}
           >
             <h2 className="section-title mb-6">
-              Documents You&apos;ll <span style={{ color: "#155EEF" }}>Need</span>
+              Documents You&apos;ll <span style={{ color: "#0A4D8C" }}>Need</span>
             </h2>
-            <p className="lead text-[#667085] leading-relaxed mb-6">
+            <p className="lead text-[#52606D] leading-relaxed mb-6">
               Most applications share a common core. Sponsored applications add a second layer of
               documents specific to your sponsor.
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F5F8FF" }}>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F7F3EC" }}>
                 <h3 className="subsection-title mb-3">For every application</h3>
                 <ul className="space-y-2">
                   {[
@@ -271,14 +271,14 @@ export default function VisitVisaUaePage() {
                     "Proof of accommodation",
                     "3–6 months of bank statements, plus a salary certificate",
                   ].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                    <li key={item} className="flex items-start gap-2 text-[#52606D] text-sm">
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#0A4D8C" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F5F8FF" }}>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F7F3EC" }}>
                 <h3 className="subsection-title mb-3">If sponsored by a UAE resident</h3>
                 <ul className="space-y-2">
                   {[
@@ -286,17 +286,17 @@ export default function VisitVisaUaePage() {
                     "Relationship proof, attested where required",
                     "No-objection or invitation letter, where applicable",
                   ].map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-[#667085] text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
+                    <li key={item} className="flex items-start gap-2 text-[#52606D] text-sm">
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#0A4D8C" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-            <div className="rounded-3xl p-6 mt-6 border-l-4" style={{ borderColor: "#155EEF", backgroundColor: "#F5F8FF" }}>
-              <p className="text-sm text-[#667085] leading-relaxed">
-                <strong style={{ color: "#1D2939" }}>Why bank statements matter more than most applicants expect:</strong>{" "}
+            <div className="rounded-3xl p-6 mt-6 border-l-4" style={{ borderColor: "#0A4D8C", backgroundColor: "#F7F3EC" }}>
+              <p className="text-sm text-[#52606D] leading-relaxed">
+                <strong style={{ color: "#0F2A43" }}>Why bank statements matter more than most applicants expect:</strong>{" "}
                 reviewers look for steady balances and regular activity over several months — a
                 large deposit made shortly before applying reads very differently to a reviewer
                 than a consistent balance. We check this before you submit.
@@ -307,7 +307,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Cost */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -317,14 +317,14 @@ export default function VisitVisaUaePage() {
             <h2 className="section-title mb-3">
               What Does a Dubai Visit Visa Cost from Pakistan?
             </h2>
-            <p className="text-[#667085] leading-relaxed mb-6">
+            <p className="text-[#52606D] leading-relaxed mb-6">
               There isn&apos;t one flat price. The total depends on the visa duration, single vs.
               multiple entry, and your route, and it is made up of separate parts:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               <div className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
                 <h3 className="subsection-title mb-2">Government fee</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">
+                <p className="text-sm text-[#52606D] leading-relaxed">
                   Set and charged in AED by the UAE authorities, and reviewed from time to time.
                   The current amount is shown on the official channel when the application is made.
                   See the{" "}
@@ -333,7 +333,7 @@ export default function VisitVisaUaePage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold underline-offset-2 hover:underline"
-                    style={{ color: "#155EEF" }}
+                    style={{ color: "#0A4D8C" }}
                   >
                     UAE government tourist visa guide
                   </a>
@@ -342,7 +342,7 @@ export default function VisitVisaUaePage() {
               </div>
               <div className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
                 <h3 className="subsection-title mb-2">Route and sponsor</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">
+                <p className="text-sm text-[#52606D] leading-relaxed">
                   A tour-operator or hotel/airline-linked visa usually bundles its own service fee
                   into the published price, while individual sponsorship can involve separate
                   government fees.
@@ -350,14 +350,14 @@ export default function VisitVisaUaePage() {
               </div>
               <div className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
                 <h3 className="subsection-title mb-2">Travelaxis service fee</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">
+                <p className="text-sm text-[#52606D] leading-relaxed">
                   Our fee for reviewing your file, preparing the documents and supporting the
                   submission. It is quoted once we have seen your case, and shown separately from
                   the government fee.
                 </p>
               </div>
             </div>
-            <p className="text-sm text-[#667085] leading-relaxed mb-6">
+            <p className="text-sm text-[#52606D] leading-relaxed mb-6">
               Because government fees are charged in AED, any PKR figure is only an estimate and
               moves with the exchange rate. We send you the AED amount together with the current
               PKR equivalent for your exact route on WhatsApp or in a free consultation.
@@ -367,7 +367,7 @@ export default function VisitVisaUaePage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
               aria-label="Ask Travelaxis about Dubai visit visa pricing from Pakistan on WhatsApp (opens in a new tab)"
             >
               <span>Ask About Current PKR Pricing</span>
@@ -387,7 +387,7 @@ export default function VisitVisaUaePage() {
             className="max-w-3xl mx-auto text-center mb-12"
           >
             <h2 className="section-title mb-4">
-              Why Pakistani Clients <span style={{ color: "#155EEF" }}>Work With Us</span>
+              Why Pakistani Clients <span style={{ color: "#0A4D8C" }}>Work With Us</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -403,21 +403,21 @@ export default function VisitVisaUaePage() {
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto"
-                  style={{ backgroundColor: "#F5F8FF" }}
+                  style={{ backgroundColor: "#F7F3EC" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#0A4D8C" }} />
                 </div>
                 <h3 className="subsection-title mb-2">{item.title}</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">{item.description}</p>
+                <p className="text-sm text-[#52606D] leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
           <ul className="max-w-3xl mx-auto mt-10 space-y-3">
             {howWeHelp.map((item) => (
               <li key={item} className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
-                <span className="text-[#667085]">{item}</span>
+                <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#0A4D8C" }} aria-hidden />
+                <span className="text-[#52606D]">{item}</span>
               </li>
             ))}
           </ul>
@@ -425,7 +425,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Enquiry form */}
-      <section id="requirements-form" className="py-20 bg-white scroll-mt-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section id="requirements-form" className="py-20 bg-white scroll-mt-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="UAE" heading="Get Help With Your UAE Visit Visa Application" />
         </div>
@@ -435,21 +435,21 @@ export default function VisitVisaUaePage() {
       <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E4E7EC]">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E6E1D8]">
             <Accordion type="single" collapsible className="w-full">
               {uaeVisitVisaFromPakistanFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
-                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#1D2939" }}>
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
+                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#0F2A43" }}>
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
+                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
               ))}
             </Accordion>
           </div>
-          <p className="text-xs text-[#667085] mt-6 text-center">
+          <p className="text-xs text-[#52606D] mt-6 text-center">
             Guidance reviewed against GDRFA/ICP rules as of September 2026 — requirements change
             periodically, so we confirm current specifics before you apply.
           </p>
@@ -457,7 +457,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Related */}
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -470,7 +470,7 @@ export default function VisitVisaUaePage() {
                 key={link.href}
                 href={link.href}
                 className="rounded-2xl p-4 text-center card-hover bg-white font-semibold"
-                style={{ color: "#1D2939", border: "1px solid var(--card-line)" }}
+                style={{ color: "#0F2A43", border: "1px solid var(--card-line)" }}
               >
                 {link.label}
               </Link>
@@ -480,7 +480,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#0A4D8C" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -498,7 +498,7 @@ export default function VisitVisaUaePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               <span>Check Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -508,7 +508,7 @@ export default function VisitVisaUaePage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#155EEF" }}
+              style={{ color: "#0A4D8C" }}
               aria-label="Chat with Travelaxis on WhatsApp about a Dubai visit visa from Pakistan (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

@@ -4,45 +4,45 @@
   /* ---- Premium palette: TravelAxis Blue / White / Soft Blue / Charcoal ----
      No navy, no gold, no decorative colors. See CLAUDE.md-linked spec. */
   --background: #ffffff;
-  --foreground: #1d2939;
+  --foreground: #0F2A43;
   --card: #ffffff;
-  --card-foreground: #1d2939;
+  --card-foreground: #0F2A43;
   --popover: #ffffff;
-  --popover-foreground: #1d2939;
+  --popover-foreground: #0F2A43;
 
-  --primary: #155eef;
-  --primary-hover: #0f4fd1;
+  --primary: #0A4D8C;
+  --primary-hover: #083B6B;
   --primary-foreground: #ffffff;
 
-  --secondary: #f5f8ff;
-  --secondary-foreground: #1d2939;
-  --muted: #f5f8ff;
-  --muted-foreground: #667085;
-  --accent: #155eef;
+  --secondary: #F7F3EC;
+  --secondary-foreground: #0F2A43;
+  --muted: #F7F3EC;
+  --muted-foreground: #52606D;
+  --accent: #0A4D8C;
   --accent-foreground: #ffffff;
 
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
 
-  --border: #e4e7ec;
+  --border: #E6E1D8;
   --input: transparent;
   --input-background: #ffffff;
   --switch-background: #cbced4;
-  --ring: #155eef;
+  --ring: #0A4D8C;
 
   --radius: 1rem;
 
   /* Accessible focus ring aligned with brand blue */
-  --focus-ring: #155eef;
+  --focus-ring: #0A4D8C;
   --focus-ring-offset: #ffffff;
 
   /* Card system: light bordered card with a tinted icon bubble, matching
      the brand blue (--primary/--secondary). */
-  --card-line: #e4e7ec;
-  --card-line-hover: #155eef;
-  --card-icon-bg: #f5f8ff;
-  --card-icon-fg: #155eef;
-  --card-shadow-hover: 0 12px 32px rgba(16, 24, 40, 0.08);
+  --card-line: #E6E1D8;
+  --card-line-hover: #0A4D8C;
+  --card-icon-bg: #E0F0FB;
+  --card-icon-fg: #0A4D8C;
+  --card-shadow-hover: 0 12px 32px rgba(15, 42, 67, 0.08);
 
   /* ---- Final type scale (rem @ 16px base) ----
      Single source of truth. Every heading/body/UI role sitewide is one of
@@ -271,7 +271,7 @@ body {
   border-radius: 0.375rem;
   font-weight: 600;
   text-decoration: none;
-  background-color: #1d2939;
+  background-color: #0F2A43;
   color: #ffffff;
   outline: none;
 }

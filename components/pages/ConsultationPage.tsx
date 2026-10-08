@@ -23,7 +23,7 @@ const GOAL_OPTIONS = [
 ];
 
 const fieldClassName =
-  "w-full rounded-xl border border-[#E4E7EC] bg-white px-4 py-3 text-[#1D2939] placeholder:text-[#667085] focus:outline-none focus:ring-2 transition-shadow";
+  "w-full rounded-xl border border-[#E6E1D8] bg-white px-4 py-3 text-[#0F2A43] placeholder:text-[#52606D] focus:outline-none focus:ring-2 transition-shadow";
 
 export default function ConsultationPage() {
   const headingId = useId();
@@ -61,12 +61,12 @@ export default function ConsultationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Book a Consultation</p>
             <h1 className="page-title mb-6">
-              Let&apos;s Talk About <span style={{ color: "#155EEF" }}>Your Journey</span>
+              Let&apos;s Talk About <span style={{ color: "#0A4D8C" }}>Your Journey</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
               Tell us about your plans and we&apos;ll help you understand the next steps.
@@ -90,7 +90,7 @@ export default function ConsultationPage() {
           >
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="c-name" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+                <label htmlFor="c-name" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                   Full name
                 </label>
                 <input
@@ -101,11 +101,11 @@ export default function ConsultationPage() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Your name"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                  style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
                 />
               </div>
               <div>
-                <label htmlFor="c-email" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+                <label htmlFor="c-email" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                   Email
                 </label>
                 <input
@@ -116,14 +116,14 @@ export default function ConsultationPage() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@example.com"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                  style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
                 />
               </div>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="c-contact" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+                <label htmlFor="c-contact" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                   Phone / WhatsApp
                 </label>
                 <input
@@ -134,11 +134,11 @@ export default function ConsultationPage() {
                   onChange={(e) => setContact(e.target.value)}
                   placeholder="How should we reach you?"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                  style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
                 />
               </div>
               <div>
-                <label htmlFor="c-residence" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+                <label htmlFor="c-residence" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                   Country of residence
                 </label>
                 <input
@@ -148,14 +148,14 @@ export default function ConsultationPage() {
                   onChange={(e) => setResidence(e.target.value)}
                   placeholder="e.g. Pakistan"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                  style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
                 />
               </div>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="c-destination" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+                <label htmlFor="c-destination" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                   Destination
                 </label>
                 <select
@@ -163,7 +163,7 @@ export default function ConsultationPage() {
                   value={destination}
                   onChange={(e) => setDestination(e.target.value)}
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                  style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
                 >
                   {DESTINATION_OPTIONS.map((option) => (
                     <option key={option} value={option}>
@@ -173,7 +173,7 @@ export default function ConsultationPage() {
                 </select>
               </div>
               <div>
-                <label htmlFor="c-goal" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+                <label htmlFor="c-goal" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                   Visa goal
                 </label>
                 <select
@@ -181,7 +181,7 @@ export default function ConsultationPage() {
                   value={goal}
                   onChange={(e) => setGoal(e.target.value)}
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                  style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
                 >
                   {GOAL_OPTIONS.map((option) => (
                     <option key={option} value={option}>
@@ -193,7 +193,7 @@ export default function ConsultationPage() {
             </div>
 
             <div>
-              <label htmlFor="c-date" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+              <label htmlFor="c-date" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                 Preferred consultation date
               </label>
               <input
@@ -202,12 +202,12 @@ export default function ConsultationPage() {
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
                 className={fieldClassName}
-                style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
               />
             </div>
 
             <div>
-              <label htmlFor="c-message" className="block text-sm font-semibold mb-2" style={{ color: "#1D2939" }}>
+              <label htmlFor="c-message" className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
                 Message
               </label>
               <textarea
@@ -217,14 +217,14 @@ export default function ConsultationPage() {
                 placeholder="Tell us a bit about your profile and plans"
                 rows={4}
                 className={fieldClassName}
-                style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
               />
             </div>
 
             <button
               type="submit"
               className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
-              style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
             >
               <Send className="w-5 h-5" aria-hidden />
               <span>Request Consultation</span>
@@ -235,7 +235,7 @@ export default function ConsultationPage() {
           </motion.form>
 
           <div className="mt-8 text-center">
-            <p className="text-[#667085] mb-3">Prefer to talk now?</p>
+            <p className="text-[#52606D] mb-3">Prefer to talk now?</p>
             <a
               href={whatsappLink}
               target="_blank"

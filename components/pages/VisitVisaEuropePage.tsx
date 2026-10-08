@@ -44,19 +44,19 @@ const schengenCountries: { name: string; href?: string }[] = [
 export default function VisitVisaEuropePage() {
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services", href: "/visit-visa" }, { name: "Europe" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Europe <span style={{ color: "#155EEF" }}>Visit Visas</span>
+              Europe <span style={{ color: "#0A4D8C" }}>Visit Visas</span>
             </h1>
-            <p className="lead text-[#667085] leading-relaxed">
+            <p className="lead text-[#52606D] leading-relaxed">
               Visit visa documentation for the UK and 18 Schengen countries, submitted
               through the relevant country&apos;s own official process.
             </p>
-            <p className="text-sm text-[#667085] mt-4 leading-relaxed">
+            <p className="text-sm text-[#52606D] mt-4 leading-relaxed">
               We also prepare visit visa documentation for <InlineLinkList items={[{ label: "North America", href: "/visit-visa/north-america" }, { label: "Middle East", href: "/visit-visa/middle-east" }, { label: "Asia", href: "/visit-visa/asia" }, { label: "Oceania", href: "/visit-visa/oceania" }, { label: "Africa", href: "/visit-visa/africa" }]} />.
             </p>
           </motion.div>
@@ -72,8 +72,8 @@ export default function VisitVisaEuropePage() {
             style={{ border: "1px solid var(--card-line)" }}
           >
             <h3 className="subsection-title mb-1">UK Visit Visa</h3>
-            <p className="text-sm text-[#667085] mb-3">Standard Visitor visa guidance for tourism, family visits, and permitted short stays.</p>
-            <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#155EEF" }}>
+            <p className="text-sm text-[#52606D] mb-3">Standard Visitor visa guidance for tourism, family visits, and permitted short stays.</p>
+            <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
               View requirements
               <ArrowRight className="w-4 h-4" aria-hidden />
             </span>
@@ -81,13 +81,13 @@ export default function VisitVisaEuropePage() {
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-2">Schengen Area</h2>
-          <p className="text-[#667085] mb-6">
+          <p className="text-[#52606D] mb-6">
             Short-stay visit and business visa documentation for the 18 Schengen countries we support (the Schengen Area has 29 members).
             See the{" "}
-            <Link href="/visit-visa/schengen" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#155EEF" }}>
+            <Link href="/visit-visa/schengen" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
               Schengen &amp; Germany visit visa guide
             </Link>{" "}
             for the fee, where to apply and the German Mission&apos;s document checklist.
@@ -101,7 +101,7 @@ export default function VisitVisaEuropePage() {
                   className="rounded-2xl px-4 py-3.5 text-center bg-white card-hover block"
                   style={{ border: "1px solid var(--card-line)" }}
                 >
-                  <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>{country.name}</p>
+                  <p className="text-sm font-semibold" style={{ color: "#0F2A43" }}>{country.name}</p>
                 </Link>
               ) : (
                 <div
@@ -109,7 +109,7 @@ export default function VisitVisaEuropePage() {
                   className="rounded-2xl px-4 py-3.5 text-center bg-white"
                   style={{ border: "1px solid var(--card-line)" }}
                 >
-                  <p className="text-sm font-semibold" style={{ color: "#1D2939" }}>{country.name}</p>
+                  <p className="text-sm font-semibold" style={{ color: "#0F2A43" }}>{country.name}</p>
                 </div>
               )
             )}
@@ -126,18 +126,18 @@ export default function VisitVisaEuropePage() {
                 key={guide.href}
                 href={guide.href}
                 className="flex items-start gap-4 rounded-3xl p-6 card-hover"
-                style={{ backgroundColor: "#F5F8FF", border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: "#F7F3EC", border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                  style={{ backgroundColor: "#155EEF" }}
+                  style={{ backgroundColor: "#0A4D8C" }}
                   aria-hidden
                 >
                   <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <div className="flex-1">
                   <h3 className="subsection-title mb-1">{guide.title}</h3>
-                  <p className="text-sm text-[#667085]">{guide.description}</p>
+                  <p className="text-sm text-[#52606D]">{guide.description}</p>
                 </div>
               </Link>
             ))}
@@ -145,7 +145,7 @@ export default function VisitVisaEuropePage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="Europe" />
         </div>

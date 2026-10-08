@@ -37,7 +37,7 @@ export default function BlogPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F5F8FF' }}>
+      <section className="py-20" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
@@ -46,14 +46,14 @@ export default function BlogPage() {
           >
             <p className="eyebrow mb-3">Resources</p>
             <h1 className="page-title mb-6">
-              Understand <span style={{ color: '#155EEF' }}>Before You Apply.</span>
+              Understand <span style={{ color: '#0A4D8C' }}>Before You Apply.</span>
             </h1>
             <p className="lead">
               Guides on visit and study visas for Dubai, the UK, USA, Schengen, Australia and Germany, plus general information on UAE visas and business rules.
             </p>
 
             <div className="max-w-xl mx-auto mt-8 relative">
-              <Search className="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-[#667085]" aria-hidden />
+              <Search className="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-[#52606D]" aria-hidden />
               <label htmlFor="resources-search" className="sr-only">
                 Search visa guides and resources
               </label>
@@ -63,8 +63,8 @@ export default function BlogPage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search visa guides and resources..."
-                className="w-full rounded-full border border-[#E4E7EC] bg-white pl-12 pr-5 py-3.5 text-[#1D2939] placeholder:text-[#667085] focus:outline-none focus:ring-2"
-                style={{ ["--tw-ring-color" as string]: "#155EEF" }}
+                className="w-full rounded-full border border-[#E6E1D8] bg-white pl-12 pr-5 py-3.5 text-[#0F2A43] placeholder:text-[#52606D] focus:outline-none focus:ring-2"
+                style={{ ["--tw-ring-color" as string]: "#0A4D8C" }}
               />
             </div>
 
@@ -77,8 +77,8 @@ export default function BlogPage() {
                   className="px-4 py-2 rounded-full text-sm font-semibold border transition-all"
                   style={
                     category === c
-                      ? { backgroundColor: "#155EEF", color: "#FFFFFF", borderColor: "#155EEF" }
-                      : { backgroundColor: "#FFFFFF", color: "#1D2939", borderColor: "var(--card-line)" }
+                      ? { backgroundColor: "#0A4D8C", color: "#FFFFFF", borderColor: "#0A4D8C" }
+                      : { backgroundColor: "#FFFFFF", color: "#0F2A43", borderColor: "var(--card-line)" }
                   }
                   aria-pressed={category === c}
                 >
@@ -87,7 +87,7 @@ export default function BlogPage() {
               ))}
             </div>
 
-            <p className="mt-6 font-semibold" style={{ color: '#155EEF' }}>
+            <p className="mt-6 font-semibold" style={{ color: '#0A4D8C' }}>
               Showing {blogs.length} of {blogPostSummaries.length} articles
             </p>
           </motion.div>
@@ -98,7 +98,7 @@ export default function BlogPage() {
       <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {blogs.length === 0 ? (
-            <p className="text-center text-[#667085]">No articles match your search yet — try a different term.</p>
+            <p className="text-center text-[#52606D]">No articles match your search yet — try a different term.</p>
           ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogs.map((blog, index) => (
@@ -123,11 +123,11 @@ export default function BlogPage() {
                         return <CategoryIcon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />;
                       })()}
                     </div>
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F5F8FF', color: '#155EEF' }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F7F3EC', color: '#0A4D8C' }}>
                       {blog.category}
                     </span>
                   </div>
-                  <div className="flex items-center space-x-4 text-sm text-[#667085] mb-3">
+                  <div className="flex items-center space-x-4 text-sm text-[#52606D] mb-3">
                     <div className="flex items-center space-x-1">
                       <Clock className="w-4 h-4" aria-hidden />
                       <span>{blog.readTime}</span>
@@ -138,14 +138,14 @@ export default function BlogPage() {
                     {blog.title}
                   </h3>
                   
-                  <p className="text-[#667085] mb-4 line-clamp-3">
+                  <p className="text-[#52606D] mb-4 line-clamp-3">
                     {blog.excerpt}
                   </p>
                   
                   <span
                     aria-hidden="true"
                     className="inline-flex items-center space-x-2 font-semibold group-hover:underline"
-                    style={{ color: '#155EEF' }}
+                    style={{ color: '#0A4D8C' }}
                   >
                     <span>Read full article</span>
                     <ArrowRight className="w-4 h-4" aria-hidden />
@@ -159,7 +159,7 @@ export default function BlogPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#155EEF' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0A4D8C' }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -173,7 +173,7 @@ export default function BlogPage() {
             href="https://wa.me/971589867555"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white transition-all hover:bg-white hover:text-[#155EEF]"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             aria-label="Contact Travelaxis on WhatsApp about your visa documents (opens in a new tab)"
           >
             Contact Us on WhatsApp

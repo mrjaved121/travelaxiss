@@ -34,12 +34,12 @@ export default function SuccessStoriesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Success Stories</p>
             <h1 className="page-title mb-6">
-              Real Journeys. <span style={{ color: "#155EEF" }}>Real Destinations.</span>
+              Real Journeys. <span style={{ color: "#0A4D8C" }}>Real Destinations.</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
               Genuine client stories only — we publish a story here once the client has
@@ -50,7 +50,7 @@ export default function SuccessStoriesPage() {
       </section>
 
       {/* What a journey with us looks like */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -59,7 +59,7 @@ export default function SuccessStoriesPage() {
             className="max-w-2xl mx-auto text-center mb-12"
           >
             <h2 className="section-title mb-4">What a Journey With Us Looks Like</h2>
-            <p className="text-[#667085] leading-relaxed">
+            <p className="text-[#52606D] leading-relaxed">
               Every client's situation is different, but the underlying process stays the same
               across visit and study visa cases.
             </p>
@@ -82,11 +82,11 @@ export default function SuccessStoriesPage() {
                   <stage.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
                 <h3 className="subsection-title mb-2">{stage.title}</h3>
-                <p className="text-sm text-[#667085] leading-relaxed">{stage.description}</p>
+                <p className="text-sm text-[#52606D] leading-relaxed">{stage.description}</p>
               </motion.div>
             ))}
           </div>
-          <p className="text-xs text-[#667085] text-center mt-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xs text-[#52606D] text-center mt-10 max-w-2xl mx-auto leading-relaxed">
             We provide documentation assistance and consultancy support only. We do not guarantee
             approval — final decisions rest with the relevant government authority or institution.
           </p>
@@ -112,17 +112,17 @@ export default function SuccessStoriesPage() {
                         key={i}
                         className="w-4 h-4"
                         style={{
-                          color: i < testimonial.rating ? "#155EEF" : "#E4E7EC",
-                          fill: i < testimonial.rating ? "#155EEF" : "none",
+                          color: i < testimonial.rating ? "#0A4D8C" : "#E6E1D8",
+                          fill: i < testimonial.rating ? "#0A4D8C" : "none",
                         }}
                         aria-hidden
                       />
                     ))}
                   </div>
-                  <p className="text-[#667085] leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
+                  <p className="text-[#52606D] leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
                   <div>
-                    <p className="font-semibold" style={{ color: "#1D2939" }}>{testimonial.name}</p>
-                    <p className="text-sm text-[#667085]">{testimonial.context}</p>
+                    <p className="font-semibold" style={{ color: "#0F2A43" }}>{testimonial.name}</p>
+                    <p className="text-sm text-[#52606D]">{testimonial.context}</p>
                   </div>
                 </motion.div>
               ))}
@@ -139,7 +139,7 @@ export default function SuccessStoriesPage() {
               <h2 className="section-title mb-4">
                 We&apos;re gathering our first published stories
               </h2>
-              <p className="text-[#667085] mb-8 leading-relaxed">
+              <p className="text-[#52606D] mb-8 leading-relaxed">
                 We only publish a success story once a client has given us permission to
                 share it, so this page is still empty. In the meantime, you&apos;re welcome
                 to speak with our team directly about what a journey with Travelaxis looks
@@ -149,7 +149,7 @@ export default function SuccessStoriesPage() {
                 <Link
                   href="/consultation"
                   className="btn inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90"
-                  style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                  style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
                 >
                   <span>Book a Consultation</span>
                   <ArrowRight className="w-4 h-4" aria-hidden />
@@ -159,7 +159,7 @@ export default function SuccessStoriesPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2 transition-all hover:opacity-90"
-                  style={{ borderColor: "#1D2939", color: "#1D2939" }}
+                  style={{ borderColor: "#0F2A43", color: "#0F2A43" }}
                   aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
                 >
                   <MessageCircle className="w-4 h-4" aria-hidden />

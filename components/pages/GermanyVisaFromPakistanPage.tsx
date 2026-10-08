@@ -75,12 +75,12 @@ export default function GermanyVisaFromPakistanPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Germany Visa Documentation</p>
             <h1 className="page-title mb-6">
-              Germany Visa <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              Germany Visa <span style={{ color: "#0A4D8C" }}>from Pakistan</span>
             </h1>
             <p className="lead mb-6">
               Whether you have a university or Ausbildung place, a short visit planned, or a
@@ -89,11 +89,11 @@ export default function GermanyVisaFromPakistanPage() {
               official process. Pick your route below — Student/Ausbildung, Visit/Tourist, or
               Family Reunification — for a dedicated document checklist and application support.
             </p>
-            <div className="rounded-2xl p-6 mb-8 card-hover" style={{ borderLeft: "4px solid #155EEF", backgroundColor: "#FFFFFF" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#155EEF" }}>
+            <div className="rounded-2xl p-6 mb-8 card-hover" style={{ borderLeft: "4px solid #0A4D8C", backgroundColor: "#FFFFFF" }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#0A4D8C" }}>
                 Quick answer
               </p>
-              <p className="text-[#667085] leading-relaxed">
+              <p className="text-[#52606D] leading-relaxed">
                 A Germany visa from Pakistan is applied for directly with the German Embassy in
                 Islamabad or the Consulate General in Karachi: visit visas through a free online
                 waiting-list registration, and study visas increasingly through the online Consular
@@ -104,14 +104,14 @@ export default function GermanyVisaFromPakistanPage() {
                 you already have grounds to make.
               </p>
             </div>
-            <p className="text-note border-l-4 pl-4 mb-8" style={{ borderColor: "#155EEF" }}>
+            <p className="text-note border-l-4 pl-4 mb-8" style={{ borderColor: "#0A4D8C" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#routes"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
-                style={{ backgroundColor: "#155EEF", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
               >
                 <span>Choose My Route</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -121,7 +121,7 @@ export default function GermanyVisaFromPakistanPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#155EEF", color: "#155EEF" }}
+                style={{ borderColor: "#0A4D8C", color: "#0A4D8C" }}
                 aria-label="Chat with Travelaxis on WhatsApp about Germany visas (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -133,7 +133,7 @@ export default function GermanyVisaFromPakistanPage() {
       </section>
 
       {/* Route cards */}
-      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#155EEF" }}>
+      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#0A4D8C" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -162,7 +162,7 @@ export default function GermanyVisaFromPakistanPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#155EEF" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "#0A4D8C" }} />
                 </div>
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -179,7 +179,7 @@ export default function GermanyVisaFromPakistanPage() {
       </section>
 
       {/* How we help */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -188,13 +188,13 @@ export default function GermanyVisaFromPakistanPage() {
             className="max-w-3xl"
           >
             <h2 className="section-title mb-6">
-              How Travelaxis <span style={{ color: "#155EEF" }}>Helps</span>
+              How Travelaxis <span style={{ color: "#0A4D8C" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#155EEF" }} aria-hidden />
-                  <span className="text-[#667085]">{item}</span>
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#0A4D8C" }} aria-hidden />
+                  <span className="text-[#52606D]">{item}</span>
                 </li>
               ))}
             </ul>
@@ -208,9 +208,9 @@ export default function GermanyVisaFromPakistanPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <p className="eyebrow mb-3">Family Reunification</p>
             <h2 className="section-title mb-4">
-              Germany Family Reunification <span style={{ color: "#155EEF" }}>from Pakistan</span>
+              Germany Family Reunification <span style={{ color: "#0A4D8C" }}>from Pakistan</span>
             </h2>
-            <p className="text-[#667085] leading-relaxed mb-8">
+            <p className="text-[#52606D] leading-relaxed mb-8">
               For joining or sponsoring a spouse, partner, or family member already resident in
               Germany. This route is document-heavy, and relationship evidence matters as much as
               financial evidence.
@@ -218,12 +218,12 @@ export default function GermanyVisaFromPakistanPage() {
             <h3 className="subsection-title mb-4">Documents You&apos;ll Need</h3>
             <ul className="grid sm:grid-cols-2 gap-3 mb-6">
               {familyDocuments.map((doc) => (
-                <li key={doc} className="flex items-start gap-2 text-[#667085] text-sm rounded-xl p-4" style={{ backgroundColor: "#F5F8FF" }}>
+                <li key={doc} className="flex items-start gap-2 text-[#52606D] text-sm rounded-xl p-4" style={{ backgroundColor: "#F7F3EC" }}>
                   <span>{doc}</span>
                 </li>
               ))}
             </ul>
-            <p className="text-sm text-[#667085]">
+            <p className="text-sm text-[#52606D]">
               Requirements are set by the German Mission and reviewed periodically — we confirm
               the current financial and language thresholds for your specific case.
             </p>
@@ -232,7 +232,7 @@ export default function GermanyVisaFromPakistanPage() {
       </section>
 
       {/* Enquiry form */}
-      <section className="py-20" style={{ backgroundColor: "#F5F8FF" }}>
+      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="Germany" heading="Get Help With Your Germany Family Reunification Visa" subheading="Tell us about your relationship and sponsor's situation. We'll help you understand the document requirements." />
         </div>
@@ -248,20 +248,20 @@ export default function GermanyVisaFromPakistanPage() {
             className="mb-10 text-center"
           >
             <h2 className="section-title mb-4">
-              Frequently Asked <span style={{ color: "#155EEF" }}>Questions</span>
+              Frequently Asked <span style={{ color: "#0A4D8C" }}>Questions</span>
             </h2>
           </motion.div>
-          <div className="rounded-2xl px-4 md:px-8 py-2 card-hover" style={{ backgroundColor: "#F5F8FF" }}>
+          <div className="rounded-2xl px-4 md:px-8 py-2 card-hover" style={{ backgroundColor: "#F7F3EC" }}>
             <Accordion type="single" collapsible className="w-full">
               {germanyVisaFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E4E7EC]">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#1D2939" }}
+                    style={{ color: "#0F2A43" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#667085] text-base leading-relaxed">
+                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -280,7 +280,7 @@ export default function GermanyVisaFromPakistanPage() {
             viewport={{ once: true }}
           >
             <h2 className="section-title mb-6 text-center">
-              Related <span style={{ color: "#155EEF" }}>Pages</span>
+              Related <span style={{ color: "#0A4D8C" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -293,7 +293,7 @@ export default function GermanyVisaFromPakistanPage() {
                   key={link.href}
                   href={link.href}
                   className="rounded-2xl p-4 text-center card-hover bg-white font-semibold"
-                  style={{ color: "#1D2939", border: "1px solid var(--card-line)" }}
+                  style={{ color: "#0F2A43", border: "1px solid var(--card-line)" }}
                 >
                   {link.label}
                 </Link>
@@ -304,7 +304,7 @@ export default function GermanyVisaFromPakistanPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#155EEF" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#0A4D8C" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -323,7 +323,7 @@ export default function GermanyVisaFromPakistanPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/consultation"
-              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold border-2 border-white text-white transition-all hover:bg-white hover:text-[#155EEF]"
+              className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               <span>Check Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -333,7 +333,7 @@ export default function GermanyVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#155EEF" }}
+              style={{ color: "#0A4D8C" }}
               aria-label="Chat with Travelaxis on WhatsApp about Germany visas (opens in a new tab)"
             >
               <span>WhatsApp Now</span>
