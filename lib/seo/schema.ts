@@ -38,6 +38,8 @@ export const professionalServiceJsonLd = {
   description:
     "Visit visa documentation and application support for applicants in Pakistan and the UAE, for destinations worldwide",
   url: SITE_URL,
+  logo: `${SITE_URL}/travelaxis-logo.png`,
+  image: `${SITE_URL}/travelaxis-logo.png`,
   telephone: "+971589867555",
   email: "info@travelaxis.me",
   address: {

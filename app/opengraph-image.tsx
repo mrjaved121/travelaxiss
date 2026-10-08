@@ -40,7 +40,7 @@ export default async function Image() {
           }}
         />
         {/* eslint-disable-next-line @next/next/no-img-element -- next/og rendering, not a browser DOM img */}
-        <img src={logoSrc} width={340} height={91} alt="" />
+        <img src={logoSrc} width={420} height={94} alt="" />
         <div
           style={{
             display: "flex",

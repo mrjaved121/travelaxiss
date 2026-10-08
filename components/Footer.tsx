@@ -20,10 +20,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Brand */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-1">
-            <p className="text-2xl font-bold mb-4">
-              <span style={{ color: "#0F2A43" }}>Travel</span>
-              <span style={{ color: "#0A4D8C" }}>axis</span>
-            </p>
+            <Link href="/" className="mb-4 inline-block" aria-label="Travelaxis home">
+              {/* eslint-disable-next-line @next/next/no-img-element -- static export, images unoptimized */}
+              <img src="/travelaxis-logo.webp" alt="Travelaxis" width={704} height={158} className="h-9 w-auto" loading="lazy" />
+            </Link>
             <p className="text-[#52606D] text-sm leading-relaxed">
               Visit visa documentation and application support for applicants in Pakistan and the UAE, from our Dubai and Lahore offices.
             </p>

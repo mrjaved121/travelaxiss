@@ -48,6 +48,15 @@ The single source of truth for how travelaxis.me looks. Use only the colours, ty
 | `#3B2600` | `#F5A524` gold | Gold buttons, step numbers |
 | `#0A4D8C` ocean | `#E0F0FB` sky tint | Tags, icon bubbles |
 
+
+## 1a. Logo
+
+- **Main logo:** "Travel" in ocean blue + "Axis" in gold with a plane and swoosh. Files: `public/travelaxis-logo.webp` (used in pages) and `public/travelaxis-logo.png` (social share image, structured data). 704×158, transparent background.
+- **Favicon / app icon:** gold plane on an ocean rounded square (`app/icon.png`, `app/apple-icon.png`).
+- **Where it appears:** header (`h-9 sm:h-10`), footer (`h-9`), Open Graph image, `logo` in the ProfessionalService schema.
+- Use it on **white or sand** backgrounds only. On ocean or navy the blue "Travel" loses contrast — use the white header area instead of placing the logo on the hero.
+- Keep clear space around it equal to the height of the plane; never stretch, recolour, add shadows or re-type the wordmark in a font.
+
 ---
 
 ## 2. Typography

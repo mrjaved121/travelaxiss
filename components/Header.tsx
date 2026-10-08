@@ -201,9 +201,9 @@ export default function Header() {
             <img
               src="/travelaxis-logo.webp"
               alt="Travelaxis"
-              width={352}
-              height={94}
-              className="h-11 w-auto"
+              width={704}
+              height={158}
+              className="h-9 w-auto sm:h-10"
             />
           </Link>
 
