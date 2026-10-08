@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "eu-entry-exit-system-ees-pakistan-travelers",
+      title: "The EU's New Border System (EES): What Pakistani Travelers to Europe Need to Know",
+      excerpt:
+        "The EU's new biometric border check (EES), fully live since 10 April 2026 — what data it collects, who it applies to, which countries have it, and what changes at the border for Pakistani Schengen travelers.",
+      date: "October 8, 2026",
+      readTime: "8 min read",
+      category: "Europe Visa Documentation",
+    },
+    {
       id: "australia-student-visa-genuine-student-requirement-pakistan",
       title: "Australia Student Visa from Pakistan: The Genuine Student Requirement Explained (2026)",
       excerpt:

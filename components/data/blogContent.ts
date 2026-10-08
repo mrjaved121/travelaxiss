@@ -5,6 +5,126 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "eu-entry-exit-system-ees-pakistan-travelers": {
+    title: "The EU's New Border System (EES): What Pakistani Travelers to Europe Need to Know",
+    metaTitle: "EU Entry/Exit System (EES): What Pakistani Travelers Need",
+    metaDescription:
+      "The EU's new biometric border system (EES), live since April 2026 — what it collects, who it affects, and how it changes travel to Germany and Schengen.",
+    keywords: [
+      "eu entry exit system pakistan",
+      "ees schengen visa pakistan",
+      "ees biometric border system",
+      "schengen entry exit system 2026",
+      "ees germany travel pakistan",
+    ],
+    date: "October 8, 2026",
+    dateModifiedIso: "2026-10-08",
+    readTime: "8 min read",
+    category: "Europe Visa Documentation",
+    cta: {
+      heading: "Already Planning Your Schengen Trip?",
+      text: "We prepare the visa file — tell us your travel dates and destination.",
+      label: "Check Schengen Requirements",
+      href: "/visit-visa/schengen#requirements-form",
+    },
+    content: {
+      intro:
+        "The EU's Entry/Exit System (EES) — a new biometric border check that replaces passport stamping — became fully operational across the Schengen Area on 10 April 2026, after a gradual rollout that began on 12 October 2025. It applies to short-stay travelers from outside the EU, including Pakistani nationals, whether you hold a Schengen visa or are visa-exempt. It does not change who needs a visa or how you apply for one — it changes what happens at passport control once you arrive. This guide covers what EES actually records, which countries it covers, and what to expect at the border.",
+      sections: [
+        {
+          heading: "What Is the EU's Entry/Exit System (EES)?",
+          content:
+            "A digital system that records every short-stay entry and exit at Schengen borders using your travel document details plus biometric data, replacing the ink stamp previously added to your passport. It's run jointly by Schengen member states and the EU's border agency (eu-LISA), with the stated purpose of speeding up genuine border checks and improving security by tracking how long non-EU visitors actually stay.",
+        },
+        {
+          heading: "What Biometric Data Does EES Collect?",
+          content:
+            "A facial photograph and fingerprints, taken the first time you cross a Schengen external border after the system's rollout on your route. Children under 12 are exempt from fingerprinting but still have a facial image recorded. Once registered, the system reuses this record on later entries rather than recapturing it each time, for as long as your registration stays valid.",
+          note:
+            "Source: [French Ministry for Europe and Foreign Affairs](https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/ees-le-nouveau-systeme-europeen-de-gestion-des-frontieres-entre-en-service-le-10-avril-2026).",
+        },
+        {
+          heading: "Does EES Change Whether I Need a Schengen Visa?",
+          content:
+            "No. EES is a border-entry system, not a visa system — it doesn't change who needs a Schengen visa, what documents you submit, or how the application is decided. Pakistani nationals still apply for a Schengen visa the same way as before, through the relevant embassy, consulate or visa centre, before travelling. EES only changes what happens once you physically arrive at the border with that visa already in your passport.",
+        },
+        {
+          heading: "Who Does EES Apply To?",
+          content:
+            "Non-EU nationals on a short stay — up to 90 days in any 180-day period — whether travelling on a Schengen visa, like most Pakistani travelers, or visa-exempt under a different nationality's rules. It does not apply to EU and Schengen-country nationals, to long-stay visa or residence permit holders (who are registered under separate national systems instead), or to nationals of Andorra, San Marino, Monaco and the Holy See.",
+        },
+        {
+          heading: "Which Countries Are Covered by EES?",
+          content:
+            "The 29 Schengen Area countries that have rolled out the system — including Germany, France, Italy, Spain and the Netherlands — though not every Schengen member has it live yet; Cyprus and Ireland are commonly reported as not yet participating. Confirm the current status for your specific route if you're transiting through a smaller or newer-to-Schengen country.",
+        },
+        {
+          heading: "What Happens at the Border Under EES?",
+          content:
+            "On your first crossing after rollout, expect a self-service kiosk or officer-assisted step that captures your facial image and fingerprints alongside your passport details, before the border officer makes the actual entry decision. Genuine travelers with no issues on their record should find the check itself quick — it's a different physical process from a stamp, not necessarily a longer one once you're registered.",
+        },
+        {
+          heading: "Does EES Change How Pakistani Applicants Should Prepare?",
+          content:
+            "Not your documents or application — EES doesn't add paperwork to the visa process itself. It's worth building a little extra time into your arrival schedule for the first crossing, and making sure your passport and visa are in good physical condition, since biometric capture depends on a clear, readable document just as visa processing does.",
+        },
+        {
+          heading: "How Travelaxis Helps",
+          content:
+            "We prepare the [Schengen visa documentation](/visit-visa/schengen) for Pakistani applicants from our Dubai and Lahore offices — the file, the appointment registration, and the document checklist the German Mission and other Schengen consulates ask for. EES itself is a border procedure run by EU authorities, not something we or any consultancy arranges; there's nothing to apply for separately, so treat any offer to \"register\" you for EES in advance as unnecessary.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What is the EU Entry/Exit System (EES)?",
+              answer:
+                "A biometric border system that records every short-stay entry and exit to the Schengen Area electronically, replacing passport stamps. It became fully operational on 10 April 2026 after a gradual rollout starting 12 October 2025.",
+            },
+            {
+              question: "Do I still need a Schengen visa if EES is in place?",
+              answer:
+                "Yes. EES is a border-entry system, not a replacement for the visa itself — Pakistani nationals still apply for and need a Schengen visa the normal way. EES only changes what happens at passport control once you arrive.",
+            },
+            {
+              question: "What biometric data does EES collect?",
+              answer:
+                "A facial photograph and fingerprints on your first crossing after rollout. Children under 12 are exempt from fingerprinting but still have a facial image taken. The record is then reused on later entries.",
+            },
+            {
+              question: "Does EES apply to every Schengen country?",
+              answer:
+                "It applies across the 29 Schengen countries that have implemented it, including Germany, but Cyprus and Ireland are commonly reported as not yet participating — confirm the current status for your specific route.",
+            },
+            {
+              question: "Will EES make my Schengen application take longer?",
+              answer:
+                "No. EES is a border procedure, not part of the visa application itself, so it doesn't add processing time or documents to your Schengen visa application.",
+            },
+            {
+              question: "Can Travelaxis register me for EES in advance?",
+              answer:
+                "There's nothing to register for in advance — EES is captured automatically at the border by EU authorities, not arranged by travelers or consultancies beforehand. We help with the Schengen visa documentation itself, not the border procedure.",
+            },
+          ],
+        },
+        {
+          heading: "A Note on Accuracy",
+          content:
+            "Last updated October 2026, based on the [EU Delegation to Pakistan's notice](https://www.eeas.europa.eu/delegations/pakistan/new-entryexit-system-ees-comes-force-12-october-travelling-europe_en) and the French Ministry for Europe and Foreign Affairs. EES is a new system and operational details can be refined as it beds in — always confirm current requirements with the embassy or consulate handling your Schengen application before travelling. Travelaxis provides documentation and application support and does not issue visas or control border procedures.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Schengen & Germany Visit Visa from Pakistan", href: "/visit-visa/schengen" },
+            { label: "Schengen Visa Rejection Reasons for Pakistani Applicants", href: "/blog/schengen-visa-rejection-reasons-pakistani-applicants" },
+            { label: "Germany Student Visa: Blocked Account & Documents", href: "/blog/germany-student-visa-blocked-account-pakistan" },
+            { label: "Visa Services for Clients in Pakistan", href: "/pakistan" },
+          ],
+        },
+      ],
+    },
+  },
   "australia-student-visa-genuine-student-requirement-pakistan": {
     title: "Australia Student Visa from Pakistan: The Genuine Student Requirement Explained (2026)",
     metaTitle: "Australia Genuine Student Requirement for Pakistani Students",
@@ -1236,6 +1356,7 @@ export const blogData: Record<string, any> = {
             { label: "Get a document review from Travelaxis", href: "/contact" },
             { label: "Germany Visa from Pakistan", href: "/services/germany-visa-from-pakistan" },
             { label: "UK Visit Visa Refusal Reasons for Pakistani Applicants", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
+            { label: "The EU's New Border System (EES) Explained", href: "/blog/eu-entry-exit-system-ees-pakistan-travelers" },
           ],
         },
         {

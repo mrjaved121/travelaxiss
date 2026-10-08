@@ -82,6 +82,11 @@ const otherCountries = [
 
 const guides: { title: string; description: string; href: string }[] = [
   {
+    title: "The EU's New Border System (EES): What Pakistani Travelers Need to Know",
+    description: "The new biometric border check, live since April 2026 — what it collects, who it affects, and what changes at the border.",
+    href: "/blog/eu-entry-exit-system-ees-pakistan-travelers",
+  },
+  {
     title: "Schengen Visa Rejection Reasons for Pakistani Applicants",
     description: "All 11 official refusal codes, how much bank balance you need, and how to reapply after a rejection.",
     href: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",

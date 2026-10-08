@@ -112,6 +112,14 @@ const guides: {
     link: "/services/germany-visa-from-pakistan",
   },
   {
+    title: "The EU's New Border System (EES)",
+    category: "Schengen Visas",
+    description:
+      "The new biometric border check, live since April 2026 — what it collects, who it affects, and what changes at the border.",
+    icon: Globe2,
+    link: "/blog/eu-entry-exit-system-ees-pakistan-travelers",
+  },
+  {
     title: "Schengen Visa Rejection Reasons",
     category: "Schengen Visas",
     description:
