@@ -44,11 +44,11 @@ export default function AboutPage() {
               Helping People Move <span style={{ color: '#0A4D8C' }}>Toward What&apos;s Next.</span>
             </h1>
             <p className="lead text-[#52606D]">
-              We help individuals plan their next trip or course abroad through structured
-              support, clear communication, and regulatory awareness. Our work is visit and study
-              visa documentation and consultancy for Dubai, the UK, USA, Schengen, Australia,
-              Germany and other destinations&mdash;always aligned with official requirements and
-              each client&apos;s goals.
+              We help people plan their next trip abroad through structured support, clear
+              communication, and regulatory awareness. Our work is visit visa documentation and
+              application support for Dubai, the UK, USA, Schengen, Canada, Australia and other
+              destinations&mdash;always aligned with official requirements and each client&apos;s
+              travel plans.
             </p>
             <p className="text-sm text-[#52606D] mt-4 max-w-lg leading-relaxed">
               We provide documentation assistance and consultancy support only. We are not a
@@ -68,7 +68,7 @@ export default function AboutPage() {
             <div className="absolute -bottom-6 -left-6 w-40 h-40 rounded-full" style={{ backgroundColor: 'rgba(10, 77, 140,0.12)' }} aria-hidden />
             <img
               src="/images/hero-image-travelaxis.webp"
-              alt="Travelaxis visit and study visa documentation consultancy team"
+              alt="Travelaxis visit visa documentation consultancy team"
               width={640}
               height={427}
               className="absolute inset-0 w-full h-full object-contain"
@@ -163,7 +163,7 @@ export default function AboutPage() {
         >
           <h2 className="section-title mb-6" style={{ color: "#FFFFFF" }}>Talk to Travelaxis</h2>
           <p className="lead mb-8" style={{ color: "rgba(255,255,255,0.9)" }}>
-            Let us help you plan your next trip or course abroad, with professional
+            Let us help you plan your next trip abroad, with professional
             guidance and support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

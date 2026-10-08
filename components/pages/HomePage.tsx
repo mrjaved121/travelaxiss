@@ -50,51 +50,60 @@ const disclosure =
 /* ---------- Content (visit visas only) ---------- */
 const heroTrust = ["Dubai & Lahore offices", "Visit visas for every region", "Clear, transparent process", "One point of contact"];
 
-const visitVisaDestinations: { code: string; title: string; description: string; href: string }[] = [
+/** `flag` = flagcdn.com country code (SVG flags render on every OS, unlike flag emojis); null = region. */
+const visitVisaDestinations: { code: string; flag: string | null; title: string; description: string; href: string }[] = [
   {
     code: "AE",
+    flag: "ae",
     title: "Dubai & UAE",
     description: "Dubai and UAE visit visa documents, routes and what the price is made of, for applicants from Pakistan.",
     href: "/visit-visa/uae",
   },
   {
     code: "GB",
+    flag: "gb",
     title: "United Kingdom",
     description: "UK Standard Visitor visa documents, financial evidence and appointment booking.",
     href: "/visit-visa/uk",
   },
   {
     code: "US",
+    flag: "us",
     title: "United States",
     description: "B1/B2 visitor visa paperwork, the DS-160 form and interview preparation.",
     href: "/visit-visa/usa",
   },
   {
     code: "EU",
+    flag: "eu",
     title: "Schengen & Germany",
     description: "Which embassy to apply to, the application fee and the document checklist for Schengen countries.",
     href: "/visit-visa/schengen",
   },
   {
     code: "CA",
+    flag: "ca",
     title: "Canada",
     description: "Translation, travel bookings and help using IRCC's online system for your visitor visa.",
     href: "/visit-visa/canada",
   },
   {
     code: "AU",
+    flag: "au",
     title: "Australia",
     description: "Visitor visa documents, financial evidence and the online application.",
     href: "/visit-visa/australia",
   },
   {
     code: "AS",
+    flag: null,
     title: "Asia",
     description: "Visit visa documents for popular Asian destinations, from Malaysia to Thailand and beyond.",
     href: "/visit-visa/asia",
   },
   {
     code: "ME",
+    flag: null,
     title: "Middle East",
     description: "Visit visa documents for Gulf and Middle East destinations outside the UAE.",
     href: "/visit-visa/middle-east",
@@ -182,7 +191,7 @@ function CtaButtons({ location, className = "" }: { location: string; className?
   return (
     <div className={`flex flex-col gap-3 sm:flex-row sm:flex-wrap ${className}`}>
       <a
-        href="#get-started"
+        href="#check-requirements"
         className="inline-flex h-12 items-center justify-center gap-2 rounded-xl px-5 text-base font-bold transition-colors hover:brightness-105"
         style={{ backgroundColor: GOLD, color: GOLD_TEXT }}
       >
@@ -204,12 +213,65 @@ function CtaButtons({ location, className = "" }: { location: string; className?
       <a
         href={PHONE_HREF}
         onClick={() => trackEvent("phone_click", { page: location })}
-        className="inline-flex h-12 items-center justify-center gap-2 rounded-xl border border-white/40 px-5 text-base font-semibold text-white transition-colors hover:bg-white/10"
+        className="hidden h-12 items-center justify-center gap-2 rounded-xl border border-white/40 px-5 text-base font-semibold text-white transition-colors hover:bg-white/10 sm:inline-flex"
       >
         <Phone className="size-5" aria-hidden />
         Call now
       </a>
     </div>
+  );
+}
+
+/** Hero "where are you travelling?" picker — the site's single requirements-check entry point (#check-requirements). */
+function HeroPicker() {
+  const idPrefix = useId();
+  const [destination, setDestination] = useState(DESTINATION_OPTIONS[0]);
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    trackEvent("whatsapp_click", { page: "homepage_hero_picker", destination });
+    const text = `Hello Travelaxis, I'm planning a trip to ${destination}. Please send me the visit visa document checklist.`;
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
+  };
+
+  return (
+    <form
+      id="check-requirements"
+      onSubmit={handleSubmit}
+      className="mt-8 max-w-xl scroll-mt-32 rounded-2xl bg-white p-2 shadow-xl"
+      aria-label="Check visit visa requirements"
+    >
+      <div className="flex flex-col gap-2 sm:flex-row">
+        <div className="relative flex-1">
+          <label htmlFor={`${idPrefix}-hero-destination`} className="sr-only">
+            Where are you travelling?
+          </label>
+          <MapPin className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2" style={{ color: OCEAN }} aria-hidden />
+          <select
+            id={`${idPrefix}-hero-destination`}
+            value={destination}
+            onChange={(e) => setDestination(e.target.value)}
+            className="h-14 w-full appearance-none rounded-xl border-0 bg-[#F7F3EC] pl-12 pr-10 text-base font-semibold text-[#0F2A43] focus:outline-none focus:ring-2 focus:ring-[#0A4D8C]/40"
+          >
+            {DESTINATION_OPTIONS.map((option) => (
+              <option key={option} value={option}>
+                {option === "Other" ? "Other destination" : option}
+              </option>
+            ))}
+          </select>
+          <ArrowRight className="pointer-events-none absolute right-4 top-1/2 size-4 -translate-y-1/2 rotate-90 text-[#52606D]" aria-hidden />
+        </div>
+        <button
+          type="submit"
+          className="inline-flex h-14 items-center justify-center gap-2 rounded-xl px-6 text-base font-bold transition-all hover:brightness-105"
+          style={{ backgroundColor: GOLD, color: GOLD_TEXT }}
+        >
+          Get my checklist
+          <ArrowRight className="size-5" aria-hidden />
+        </button>
+      </div>
+      <p className="px-2 pb-1 pt-2 text-xs text-[#52606D]">Free document checklist on WhatsApp — usually within working hours.</p>
+    </form>
   );
 }
 
@@ -325,7 +387,28 @@ export default function HomePage() {
               Visit visa document preparation for applicants in Pakistan and the UAE — for Dubai, the UK, USA, Schengen,
               Canada, Australia and more.
             </p>
-            <CtaButtons location="homepage_hero" className="mt-8" />
+            <HeroPicker />
+            <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-semibold text-white/90">
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackEvent("whatsapp_click", { page: "homepage_hero" })}
+                className="inline-flex items-center gap-2 underline-offset-4 hover:text-white hover:underline"
+                aria-label="WhatsApp Travelaxis (opens in a new tab)"
+              >
+                <MessageCircle className="size-4 text-[#25D366]" aria-hidden />
+                Or WhatsApp us directly
+              </a>
+              <a
+                href={PHONE_HREF}
+                onClick={() => trackEvent("phone_click", { page: "homepage_hero" })}
+                className="inline-flex items-center gap-2 underline-offset-4 hover:text-white hover:underline"
+              >
+                <Phone className="size-4" aria-hidden />
+                +971 58 986 7555
+              </a>
+            </div>
             <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/90">
               {heroTrust.map((item) => (
                 <li key={item} className="flex items-center gap-2">
@@ -364,13 +447,25 @@ export default function HomePage() {
                       style={{ backgroundColor: GOLD }}
                       aria-hidden
                     />
-                    <span
-                      className="mb-5 grid size-12 place-items-center rounded-xl text-sm font-extrabold tracking-wider text-white shadow-sm"
-                      style={{ backgroundColor: OCEAN }}
-                      aria-hidden
-                    >
-                      {item.code}
-                    </span>
+                    {item.flag ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={`https://flagcdn.com/${item.flag}.svg`}
+                        alt=""
+                        width={48}
+                        height={32}
+                        loading="lazy"
+                        className="mb-5 h-8 w-12 rounded-md object-cover shadow-sm ring-1 ring-black/10"
+                      />
+                    ) : (
+                      <span
+                        className="mb-5 grid h-8 w-12 place-items-center rounded-md text-white shadow-sm"
+                        style={{ backgroundColor: OCEAN }}
+                        aria-hidden
+                      >
+                        <Globe2 className="size-5" />
+                      </span>
+                    )}
                     <h3 className="text-xl font-bold" style={{ color: INK }}>
                       {item.title}
                     </h3>

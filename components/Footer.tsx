@@ -25,7 +25,7 @@ export default function Footer() {
               <span style={{ color: "#0A4D8C" }}>axis</span>
             </p>
             <p className="text-[#52606D] text-sm leading-relaxed">
-              Visit and study visa documentation for applicants in Pakistan and the UAE, from our Dubai and Lahore offices.
+              Visit visa documentation and application support for applicants in Pakistan and the UAE, from our Dubai and Lahore offices.
             </p>
             <p className="text-[#52606D] text-xs mt-4 leading-relaxed">
               We provide documentation preparation and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not guarantee visa approval or employment outcomes. Applications are submitted through official government channels or by the applicant/employer.
@@ -33,44 +33,44 @@ export default function Footer() {
           </div>
 
           {/* Visa Assistance */}
-          <nav aria-label="Visa assistance">
+          <nav aria-label="Visit visas by region">
             <h3 className="footer-heading mb-5">
-              Visa Assistance
+              Visit Visas by Region
             </h3>
             <ul className="space-y-3 list-none p-0 m-0">
               <li>
-                <Link href="/uae" className="footer-link transition-colors">
-                  UAE Visa Services
-                </Link>
-              </li>
-              <li>
                 <Link href="/visit-visa" className="footer-link transition-colors">
-                  Visit Visa
+                  All Visit Visas
                 </Link>
               </li>
               <li>
-                <Link href="/services/study-visa" className="footer-link transition-colors">
-                  Study Visa
+                <Link href="/visit-visa/europe" className="footer-link transition-colors">
+                  Europe &amp; Schengen
                 </Link>
               </li>
               <li>
-                <Link href="/job-seeker-visa" className="footer-link transition-colors">
-                  Job Seeker Visa
+                <Link href="/visit-visa/asia" className="footer-link transition-colors">
+                  Asia
                 </Link>
               </li>
               <li>
-                <Link href="/services/uae-golden-visa" className="footer-link transition-colors">
-                  UAE Golden Visa
+                <Link href="/visit-visa/middle-east" className="footer-link transition-colors">
+                  Middle East
                 </Link>
               </li>
               <li>
-                <Link href="/services/freelance-visa-dubai" className="footer-link transition-colors">
-                  Freelance Visa
+                <Link href="/visit-visa/africa" className="footer-link transition-colors">
+                  Africa
                 </Link>
               </li>
-              <li className="pt-1">
-                <Link href="/services" className="footer-link font-semibold transition-colors" style={{ color: "#0A4D8C" }}>
-                  View All Visa Services &rarr;
+              <li>
+                <Link href="/visit-visa/north-america" className="footer-link transition-colors">
+                  North America
+                </Link>
+              </li>
+              <li>
+                <Link href="/visit-visa/oceania" className="footer-link transition-colors">
+                  Oceania
                 </Link>
               </li>
             </ul>

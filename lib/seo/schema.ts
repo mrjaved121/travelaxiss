@@ -36,7 +36,7 @@ export const professionalServiceJsonLd = {
   "@id": `${SITE_URL}/#organization`,
   name: "Travelaxis",
   description:
-    "Visit and study visa documentation and consultancy services for applicants in Pakistan and the UAE",
+    "Visit visa documentation and application support for applicants in Pakistan and the UAE, for destinations worldwide",
   url: SITE_URL,
   telephone: "+971589867555",
   email: "info@travelaxis.me",

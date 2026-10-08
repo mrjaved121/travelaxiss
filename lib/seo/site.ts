@@ -9,9 +9,9 @@ export const SITE_URL = (
 export const SITE_NAME = "Travelaxis";
 /** Root layout default (home). */
 export const DEFAULT_TITLE =
-  "Visit & Study Visa Documentation | Travelaxis Dubai & Lahore";
+  "Visit Visa Documentation | Travelaxis Dubai & Lahore";
 export const DEFAULT_DESCRIPTION =
-  "Visit and study visa documentation for applicants in Pakistan and the UAE: Dubai, UK, USA, Schengen/Germany, Australia and more, from offices in Dubai and Lahore.";
+  "Visit visa documentation for applicants in Pakistan and the UAE: Dubai, UK, USA, Schengen, Canada, Australia and more, from offices in Dubai and Lahore.";
 
 export const titleTemplate = `%s | ${SITE_NAME}`;
 

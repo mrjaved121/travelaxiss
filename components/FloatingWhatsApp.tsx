@@ -28,7 +28,7 @@ export default function FloatingWhatsApp() {
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed z-50 flex items-center justify-center rounded-full shadow-lg hover:shadow-xl transition-shadow group bottom-[24px] max-md:bottom-[92px]"
+      className="fixed z-50 hidden md:flex items-center justify-center rounded-full shadow-lg hover:shadow-xl transition-shadow group bottom-[24px]"
       style={{
         right: "24px",
         width: "60px",

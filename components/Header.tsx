@@ -12,19 +12,20 @@ type NavGroup = { name: string; items: NavItem[] };
 
 const navGroups: NavGroup[] = [
   {
-    name: "Visa Assistance",
+    name: "Visit Visas",
     items: [
-      { name: "Visit Visa", path: "/visit-visa" },
-      { name: "Study Visa", path: "/services/study-visa" },
-      { name: "Job Seeker Visa", path: "/job-seeker-visa" },
-      { name: "UAE Golden Visa", path: "/services/uae-golden-visa" },
-      { name: "Freelance Visa", path: "/services/freelance-visa-dubai" },
+      { name: "All Visit Visas", path: "/visit-visa" },
+      { name: "Europe & Schengen", path: "/visit-visa/europe" },
+      { name: "Asia", path: "/visit-visa/asia" },
+      { name: "Middle East", path: "/visit-visa/middle-east" },
+      { name: "Africa", path: "/visit-visa/africa" },
+      { name: "North America", path: "/visit-visa/north-america" },
+      { name: "Oceania", path: "/visit-visa/oceania" },
     ],
   },
   {
     name: "Destinations",
     items: [
-      { name: "Visit Visas by Region", path: "/visit-visa" },
       { name: "Dubai Visit Visa", path: "/visit-visa/uae" },
       { name: "UK Visit Visa", path: "/visit-visa/uk" },
       { name: "USA Visit Visa", path: "/visit-visa/usa" },
@@ -224,7 +225,7 @@ export default function Header() {
               <MessageCircle className="w-5 h-5" aria-hidden />
             </a>
             <Link
-              href="/visa-finder"
+              href="/#check-requirements"
               className="btn flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-all shadow-sm hover:shadow-md"
               style={{ color: "#FFFFFF" }}
             >
@@ -283,7 +284,7 @@ export default function Header() {
               </li>
               <li className="pt-2">
                 <Link
-                  href="/visa-finder"
+                  href="/#check-requirements"
                   onClick={() => setMobileMenuOpen(false)}
                   className="btn mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
                   style={{ color: "#FFFFFF" }}

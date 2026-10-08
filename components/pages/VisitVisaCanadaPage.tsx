@@ -117,6 +117,9 @@ export default function VisitVisaCanadaPage() {
         </div>
       </section>
 
+      {/* What we can and cannot do for Canada — kept high on the page (see DESIGN.md §11) */}
+      <CanadaHelpNotice />
+
       {/* Quick facts */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -163,7 +166,6 @@ export default function VisitVisaCanadaPage() {
         sourceHref={IRCC_FEES_HREF}
       />
 
-      <CanadaHelpNotice />
 
       {/* Enquiry form */}
       <section id="requirements-form" className="py-20 bg-white scroll-mt-24">

@@ -8,7 +8,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "What does Travelaxis do?",
     answer:
-      "We prepare visa documentation for applicants in Pakistan, India, Bangladesh and the UAE — Dubai, UK, USA, Schengen/Germany and Australia visit visas; UK, USA, Australia and Germany study visas; job seeker visas for the UAE, Germany, Austria and Sweden; and the UAE Golden Visa. We don't offer UAE business setup or government services. Applications are submitted through each country's official channels, and Travelaxis does not issue visas or guarantee approvals.",
+      "We prepare visit visa documentation for applicants in Pakistan and the UAE — for Dubai and the UAE, the UK, USA, Schengen countries, Australia, Asia, the Middle East and other destinations (for Canada, our paid help is limited to translation, travel bookings and help using IRCC's online system). We focus on visit visas only: we don't offer study, job seeker, Golden Visa or freelance visa services, UAE business setup or government services. Applications are submitted through each country's official channels, and Travelaxis does not issue visas or guarantee approvals.",
     category: "General",
   },
   {
@@ -50,7 +50,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "Do you help with study visa documentation for applicants in Pakistan?",
     answer:
-      "Yes. We help prepare study visa documentation for the UK, USA (F1), Australia, and Germany, including university admission evidence and financial proof. Documents are submitted through each country's official visa channels. We don't arrange university admission.",
+      "No. Travelaxis now focuses on visit visas only, so we no longer prepare study visa applications. Our study visa guides remain online as general information, and each country's official student visa website has the current requirements.",
     category: "Study Visa",
   },
 ];
