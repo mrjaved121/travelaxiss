@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "dubai-visit-visa-for-parents-pakistan",
+      title: "Dubai Visit Visa for Parents from Pakistan: Documents, Sponsor Rules and Tips (2026)",
+      excerpt:
+        "Two ways to bring your parents to Dubai: sponsor them yourself as a UAE resident (AED 4,000 salary rule, up to 90 days) or a tourist visa through an agency, plus documents, fees and tips for elderly travellers.",
+      date: "October 9, 2026",
+      readTime: "10 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "dubai-visit-visa-rejected-pakistan",
       title: "Dubai Visit Visa Rejected for Pakistanis: Reasons and What to Do Next (2026)",
       excerpt:

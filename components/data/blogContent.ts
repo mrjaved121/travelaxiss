@@ -5,6 +5,211 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "dubai-visit-visa-for-parents-pakistan": {
+    title: "Dubai Visit Visa for Parents from Pakistan: Documents, Sponsor Rules and Tips (2026)",
+    metaTitle: "Dubai Visit Visa for Parents from Pakistan 2026",
+    metaDescription:
+      "Bring your parents to Dubai from Pakistan in 2026: sponsor them yourself (AED 4,000 salary rule) or use an agency. Documents, fees and elderly travel tips.",
+    keywords: [
+      "dubai visit visa for parents from pakistan",
+      "how to bring parents to dubai on visit visa",
+      "sponsor parents visit visa uae salary",
+      "parents visit visa dubai documents",
+      "walidain ko dubai kaise bulayen",
+      "uae visit visa for mother father pakistan",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "10 min read",
+    category: "UAE Visa Documentation",
+    cta: {
+      heading: "Bringing Your Parents to Dubai?",
+      text: "We prepare the visa file and can plan the whole family trip. Message us on WhatsApp.",
+      label: "Plan My Parents' Visit",
+      href: "/visit-visa/uae#requirements-form",
+    },
+    content: {
+      intro:
+        "Yes, you can bring your parents to Dubai from Pakistan on a visit visa, and in 2026 family applications have been approved far more readily than solo trips. There are two routes. If you live and work in the UAE, you can sponsor them yourself: parents count as first-degree relatives, so you need a monthly salary of at least AED 4,000, and you can apply for a 30-, 60- or 90-day visa through GDRFA or an Amer centre. If nobody in the family lives in the UAE, they can apply for a 30- or 60-day tourist visa through a registered travel agent. Either way they need passports valid for at least six months, photos, a return ticket, accommodation details and health insurance, and you'll need attested documents proving the relationship if you're sponsoring.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Parents' Dubai visit visa in 2026",
+              items: [
+                "Sponsor's minimum salary for parents: AED 4,000 a month (first-degree relatives), per GDRFA rules reported by Gulf News in July 2026.",
+                "Visa lengths when you sponsor: 30, 60 or 90 days, single or multiple entry.",
+                "Government fees (single entry, from): AED 200 for 30 days, AED 300 for 60 days, AED 400 for 90 days, plus VAT and service charges.",
+                "Refundable security deposit when you sponsor: AED 1,000.",
+                "Processing: typically about 48 hours once the file is complete; visitors must enter within 60 days of issue.",
+                "No UAE sponsor: a 30- or 60-day tourist visa through a registered travel agent (AED 200 or AED 300 government fee).",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Route 1: You live in the UAE and sponsor your parents",
+          content:
+            "This is usually the strongest route because the UAE assesses your residency and income rather than relying only on your parents' bank statements. Since 2025 the sponsor's minimum salary depends on the relationship: AED 4,000 a month for first-degree relatives (parents, spouse, children), AED 8,000 for second- and third-degree relatives, and AED 15,000 for friends ([Gulf News](https://gulfnews.com/living-in-uae/visa-immigration/dubai-family-visit-visa-minimum-salary-requirements-explained-1.500618324)). You apply through GDRFA Dubai's website or app, or at an authorised Amer centre. Full sponsor rules are in our [UAE visit visa for relatives guide](/blog/visit-visa-relatives-uae-guide).",
+          subsections: [
+            {
+              title: "What you (the sponsor) need",
+              items: [
+                "Valid UAE residence visa and Emirates ID.",
+                "Proof of income: salary certificate, attested labour contract, or company documents if you own a business.",
+                "Proof of accommodation, such as your tenancy contract (Ejari) or a hotel booking.",
+                "Your attested birth certificate showing your parents' names, to prove the relationship.",
+              ],
+            },
+            {
+              title: "What your parents need",
+              items: [
+                "Passports valid for at least six months from the application date.",
+                "Recent passport-size photos with a white background.",
+                "CNIC copies.",
+                "Return air tickets.",
+                "Health insurance covering the stay, where required.",
+              ],
+            },
+          ],
+          note:
+            "Pakistani documents used in the UAE usually need attestation in Pakistan (Ministry of Foreign Affairs) and then in the UAE. Start this early: it often takes longer than the visa itself. A NADRA Family Registration Certificate (FRC) is useful supporting proof of the relationship.",
+        },
+        {
+          heading: "Route 2: Nobody in the family lives in the UAE",
+          content:
+            "Your parents can apply for a tourist visa through a travel agency registered with the UAE system. GDRFA lists a passport valid for six months, a photo, a CNIC copy for Pakistani applicants, a ticket out of the UAE and medical insurance, with government fees of AED 200 for 30 days or AED 300 for 60 days plus VAT ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)). In practice, agencies also ask for bank statements, so read our [Dubai visit visa bank statement guide](/blog/dubai-visit-visa-bank-statement-pakistan). If you're paying for their trip from Pakistan or abroad, include your statement, a short letter saying you're covering the costs, and proof that you're their son or daughter.",
+        },
+        {
+          heading: "Which route is better for parents?",
+          columnCompare: {
+            left: {
+              title: "Sponsored by you (UAE resident)",
+              items: [
+                "Up to 90 days, single or multiple entry.",
+                "Assessed mainly on your residency and AED 4,000+ salary.",
+                "Needs attested relationship documents and an AED 1,000 refundable deposit.",
+                "Best if you live in the UAE and want them to stay longer.",
+              ],
+            },
+            right: {
+              title: "Tourist visa through an agency",
+              items: [
+                "30 or 60 days.",
+                "Assessed on your parents' own documents and funds.",
+                "No UAE sponsor or relationship attestation needed.",
+                "Best if the whole family is visiting Dubai together from Pakistan.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Why family applications are doing better in 2026",
+          content:
+            "Through late 2025 and much of 2026, travel agents reported far lower approval rates for single, first-time Pakistani applicants than for families ([Dawn](https://www.dawn.com/news/1957715)). In August 2026, the UAE was reported to be issuing visit visas again through registered agents, with families travelling together getting the quickest responses ([The Nation](https://www.nation.com.pk/04-Aug-2026/uae-resumes-visit-visas-pakistani-families)). Parents visiting their children, or travelling with them, fit that profile well. If an earlier application was refused, see [what to do after a Dubai visa rejection](/blog/dubai-visit-visa-rejected-pakistan).",
+        },
+        {
+          heading: "Tips for elderly parents travelling to Dubai",
+          subsections: [
+            {
+              title: "Before they fly",
+              items: [
+                "Buy health insurance that covers their age and any existing conditions; hospital care in the UAE is expensive without it.",
+                "Book wheelchair or special assistance with the airline when you buy the tickets. It's free on most airlines but must be requested in advance.",
+                "Carry prescriptions for all medicines, in the original packaging. Some medicines are controlled in the UAE, so check yours before travel.",
+                "Keep copies of passports, visas, insurance and your UAE address on their phone and on paper.",
+                "Choose direct flights from Lahore, Karachi, Islamabad or their nearest city to reduce transfers.",
+              ],
+            },
+            {
+              title: "During the visit",
+              items: [
+                "Plan for the heat: from May to September, keep outdoor trips to early morning or evening.",
+                "Track the visa expiry date; extensions are possible from inside the UAE but aren't automatic, and overstay fines build up daily.",
+                "If they enjoy the trip, a multiple-entry visa next time avoids reapplying for each visit.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Can parents live with you on a residence visa instead?",
+          content:
+            "Yes, but it's a separate, stricter process. The UAE government portal says the sponsor must meet a minimum salary (it cites AED 20,000 in Dubai for parents), take out yearly health insurance for each parent, pay a deposit per parent, show they are the parents' sole support, and sponsor both parents together; the visa is issued for one year at a time ([UAE government portal](https://beta.government.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-family-members)). Our [UAE family visa guide](/blog/family-sponsorship-income-requirements-uae) covers the documents. For most families, a visit visa is the simpler choice.",
+        },
+        {
+          heading: "Mukhtasar jawab (Roman Urdu)",
+          content:
+            "Haan, aap apne walidain ko Pakistan se Dubai visit visa par bula sakte hain. Agar aap UAE mein rehte hain to khud sponsor karein: walidain ke liye kam az kam AED 4,000 mahana tankhwah chahiye, aur 30, 60 ya 90 din ka visa GDRFA ya Amer centre se milta hai. Agar UAE mein koi nahi rehta to registered travel agent ke zariye 30 ya 60 din ka tourist visa lein. Passport kam az kam 6 mahine valid ho, return ticket, health insurance, aur sponsor ke liye attested birth certificate zaroori hai.",
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We prepare your parents' visa file through the right route, check the sponsor documents and attestations, and review bank statements before submission. We can also arrange a Dubai family visit package with sightseeing, so the whole trip is planned in one place. Message us on WhatsApp or see our [Dubai visit visa from Pakistan page](/visit-visa/uae). We are a documentation service: the visa decision is always made by UAE immigration.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UAE Visit Visa for Relatives – Sponsor Salary Rules", href: "/blog/visit-visa-relatives-uae-guide" },
+            { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
+            { label: "Dubai Visit Visa Rejected? Reasons and What to Do Next", href: "/blog/dubai-visit-visa-rejected-pakistan" },
+            { label: "Dubai Visit Visa from Pakistan: Documents Checklist & Process", href: "/blog/dubai-visit-visa-from-pakistan" },
+            { label: "Dubai Visit Visa from Pakistan: Price & Application Support", href: "/visit-visa/uae" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Can I sponsor my parents' Dubai visit visa?",
+              answer:
+                "Yes, if you hold a valid UAE residence visa and Emirates ID and earn at least AED 4,000 a month. Parents are first-degree relatives, the lowest salary tier.",
+            },
+            {
+              question: "How long can my parents stay in Dubai on a visit visa?",
+              answer:
+                "When you sponsor them, 30, 60 or 90 days, single or multiple entry. A tourist visa through an agency is 30 or 60 days. Extensions are possible from inside the UAE, subject to approval.",
+            },
+            {
+              question: "What documents prove I am their son or daughter?",
+              answer:
+                "Your birth certificate showing your parents' names, attested in Pakistan and then in the UAE. A NADRA Family Registration Certificate is useful supporting proof.",
+            },
+            {
+              question: "How much does a Dubai visit visa for parents cost?",
+              answer:
+                "Government fees start at AED 200 for 30 days, AED 300 for 60 days and AED 400 for 90 days (single entry), plus VAT, insurance and service charges. Sponsors also pay a refundable AED 1,000 deposit.",
+            },
+            {
+              question: "Can my parents get a Dubai visa without a UAE sponsor?",
+              answer:
+                "Yes, through a tourist visa filed by a registered travel agent, usually with their own or your bank statement as proof of funds.",
+            },
+            {
+              question: "Is there an age limit for a Dubai visit visa?",
+              answer:
+                "The visit visa rules reviewed for this guide don't set an upper age limit. Elderly travellers should have health insurance that covers their age and any existing conditions.",
+            },
+            {
+              question: "Can I bring my parents to live with me in the UAE?",
+              answer:
+                "Yes, on a separate parents' residence visa, which needs a much higher salary, yearly health insurance, a deposit and proof you are their sole support. A visit visa is simpler for most families.",
+            },
+            {
+              question: "Walidain ko Dubai visit visa par kaise bulayen?",
+              answer:
+                "Agar aap UAE mein rehte hain aur aapki tankhwah AED 4,000 ya zyada hai to GDRFA ya Amer centre se khud sponsor karein. Warna registered travel agent ke zariye tourist visa lein.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. Salary thresholds, fees and processing rules come from GDRFA rules as reported by Gulf News in July 2026 and from the official UAE government and GDRFA websites; they can change at any time. Confirm current requirements with [GDRFA Dubai](https://gdrfad.gov.ae/en), the [ICP](https://icp.gov.ae/en/) or an authorised Amer centre before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "dubai-visit-visa-rejected-pakistan": {
     title: "Dubai Visit Visa Rejected for Pakistanis: Reasons and What to Do Next (2026)",
     metaTitle: "Dubai Visit Visa Rejected: Pakistani Guide 2026",
@@ -152,6 +357,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
             { label: "UAE Visa Ban & Status Check by Passport Number", href: "/blog/uae-visa-ban-status-check-guide" },
             { label: "Dubai Visit Visa from Pakistan: Documents Checklist & Process", href: "/blog/dubai-visit-visa-from-pakistan" },
@@ -370,6 +576,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Dubai Visit Visa from Pakistan: Price & Application Support", href: "/visit-visa/uae" },
             { label: "Dubai Visit Visa from Pakistan: Documents Checklist & Process", href: "/blog/dubai-visit-visa-from-pakistan" },
             { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
@@ -4173,6 +4380,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Dubai Visit Visa from Pakistan — Apply Now", href: "/visit-visa/uae" },
             { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
             { label: "Dubai Visit Visa Rejected? Reasons and What to Do Next", href: "/blog/dubai-visit-visa-rejected-pakistan" },
@@ -4640,6 +4848,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
         },
@@ -4682,19 +4891,19 @@ export const blogData: Record<string, any> = {
         {
           heading: "The September 2025 Income-Tier Rule for Sponsors",
           content:
-            "Since September 2025, the ICP (Federal Authority for Identity, Citizenship, Customs & Port Security) has tied the sponsor's minimum monthly salary to how closely they're related to the visitor, replacing a looser, less consistent set of conditions. The closer the relationship, the lower the required income; the more distant — down to friends and other non-relatives — the higher it is. We don't publish the exact AED figures here, since thresholds like this are reviewed periodically — confirm the current amount with GDRFA, the ICP portal, or ask us.",
+            "Since September 2025, the ICP (Federal Authority for Identity, Citizenship, Customs & Port Security) has tied the sponsor's minimum monthly salary to how closely they're related to the visitor, replacing a looser, less consistent set of conditions. The closer the relationship, the lower the required income; the more distant — down to friends and other non-relatives — the higher it is. The minimums are AED 4,000 a month for first-degree relatives, AED 8,000 for second- and third-degree relatives, and AED 15,000 for friends; thresholds are reviewed periodically, so confirm the current amount with GDRFA, the ICP portal, or ask us.",
           subsections: [
             {
               title: "The three relationship tiers",
               items: [
-                "First-degree relatives: parents, spouse, and children — the lowest income threshold.",
-                "Second- and third-degree relatives: siblings, grandparents, grandchildren, aunts, uncles, and cousins — a higher threshold.",
-                "Friends and other non-relatives — the highest threshold.",
+                "First-degree relatives: parents, spouse, and children — minimum salary AED 4,000 a month.",
+                "Second- and third-degree relatives: siblings, grandparents, grandchildren, aunts, uncles, and cousins — minimum salary AED 8,000 a month.",
+                "Friends and other non-relatives — minimum salary AED 15,000 a month.",
               ],
             },
           ],
           note:
-            "This tier structure is consistent across multiple UAE news outlets reporting the ICP's update, including [Khaleej Times](https://www.khaleejtimes.com/life-and-living/visa-and-immigration-in-uae/uae-visit-visa-minimum-salary-requirement). We could not verify the exact wording directly on ICP's own site, since its visit-visa service pages require an interactive session that automated review can't access — confirm your category with ICP, GDRFA, or your typing centre before applying.",
+            "These figures were confirmed in GDRFA guidance reported by [Gulf News in July 2026](https://gulfnews.com/living-in-uae/visa-immigration/dubai-family-visit-visa-minimum-salary-requirements-explained-1.500618324), which also lists 30-, 60- and 90-day visas and an AED 1,000 refundable deposit; the tiers were first reported by [Khaleej Times](https://www.khaleejtimes.com/life-and-living/visa-and-immigration-in-uae/uae-visit-visa-minimum-salary-requirement). Confirm your category with ICP, GDRFA, or your typing centre before applying.",
         },
         {
           heading: "Other UAE Visit Visa Categories Announced the Same Day",
@@ -4920,7 +5129,7 @@ export const blogData: Record<string, any> = {
             {
               question: "How much salary do I need to sponsor a relative's UAE visit visa?",
               answer:
-                "It depends on your relationship to the visitor: a lower minimum for first-degree relatives (parents, spouse, children), a higher one for second- and third-degree relatives, and the highest for friends. We don't publish exact figures here since they're reviewed periodically — check with GDRFA, ICP, or ask us for the current amount.",
+                "It depends on your relationship to the visitor: AED 4,000 a month for first-degree relatives (parents, spouse, children), AED 8,000 for second- and third-degree relatives, and AED 15,000 for friends, per GDRFA rules reported in July 2026. Check with GDRFA or ICP before applying, as figures can change.",
             },
             {
               question: "What counts as a second- or third-degree relative under the new rule?",
@@ -5033,6 +5242,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "UAE Family Visa from Pakistan", href: "/blog/uae-family-visa-from-pakistan" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
             { label: "UAE Visa Documentation for Exploring Business Opportunities", href: "/blog/business-exploration-visa-uae-guide" },
