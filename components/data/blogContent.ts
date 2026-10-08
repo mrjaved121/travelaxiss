@@ -5,6 +5,224 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "dubai-visit-visa-bank-statement-pakistan": {
+    title: "Bank Statement for Dubai Visit Visa from Pakistan (2026): How Much Balance You Need",
+    metaTitle: "Dubai Visit Visa Bank Statement, Pakistan 2026",
+    metaDescription:
+      "How much bank balance a Dubai visit visa needs from Pakistan in 2026: the official rule vs the PKR 10 lakh agent figure, by visa type, plus statement tips.",
+    keywords: [
+      "bank statement for dubai visit visa from pakistan",
+      "minimum balance for uae visit visa pakistan",
+      "dubai visa bank statement 10 lakh",
+      "dubai visa ke liye kitna bank balance chahiye",
+      "dubai visa without bank statement",
+      "uae 5 year visa bank balance pakistan",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "9 min read",
+    category: "UAE Visa Documentation",
+    cta: {
+      heading: "Not Sure Your Statement Is Enough?",
+      text: "Send it to us on WhatsApp for a free check before you apply.",
+      label: "Get a Free Statement Check",
+      href: "/visit-visa/uae#requirements-form",
+    },
+    content: {
+      intro:
+        "Short answer: there is no official minimum bank balance for a standard 30- or 60-day Dubai tourist visa. The UAE's official requirements for that visa list a passport, photo, CNIC (for Pakistani applicants), a return ticket and medical insurance, not a bank statement. The only official balance figure is for the 5-year multiple-entry tourist visa: USD 4,000 or the equivalent, held over the last six months. The \"PKR 10 lakh\" and \"USD 5,000\" figures you hear in Pakistan come from travel agents and news reports, not from a published UAE rule. In practice, agencies and airlines can still ask for a statement, and a six-month history with steady income matters more than one large balance.",
+      sections: [
+        {
+          heading: "Is there an official minimum bank balance for a Dubai visit visa?",
+          content:
+            "For the ordinary single-entry tourist visa, no. Dubai's immigration authority (GDRFA) lists the requirements as a personal photo, a passport valid for at least six months, a national identity card for some nationalities including Pakistan, a ticket out of the UAE and valid medical insurance, with fees of AED 200 for 30 days or AED 300 for 60 days plus VAT. It does not list a bank statement or a minimum balance, and the visa is issued through accredited tourism offices rather than directly by you ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)).",
+          note:
+            "That is the legal position. In practice, the travel agency or airline that files your visa can ask for a bank statement before it agrees to sponsor you, and a weak or suspicious statement is one of the commonest reasons Pakistani applications are delayed or refused.",
+        },
+        {
+          heading: "Where does the \"PKR 10 lakh\" figure come from?",
+          content:
+            "It comes from travel agents, not from the UAE government. In January 2025, Pakistan Observer reported travel agents saying Pakistanis \"are now required to submit a bank statement showing minimum Rs1 million\" ([Pakistan Observer](https://pakobserver.net/minimum-bank-statement-requirement-for-pakistanis-to-get-uae-visit-visa/)). A February 2025 report put the figure at USD 5,000 over six months, again without citing an official document ([Pakistan Observer](https://pakobserver.net/new-visa-rules-for-pakistanis-as-uae-embassy-updates-bank-statement-visa-fee-in-2025/)). Neither figure appears on GDRFA or ICP's official service pages, so treat PKR 10 lakh as what some agents ask for in practice, not as the law. Different agencies ask for different amounts, which is why you see so many conflicting numbers online.",
+          note:
+            "Ask your agency in writing what balance and statement period they require for your visa type, and get the answer before you request your bank statement.",
+        },
+        {
+          heading: "How much balance to show, by visa type",
+          content:
+            "Use this as a guide. Only the 5-year visa has an official published balance; for the others, the aim is a statement that clearly covers your trip and looks like your normal financial life.",
+          subsections: [
+            {
+              title: "30-day tourist visa",
+              items: [
+                "Official requirement: no bank statement listed by GDRFA.",
+                "In practice: many agencies ask for 3–6 months of statements. Show enough to clearly cover flights, hotel and daily spending for your trip, with a comfortable margin.",
+                "Statement period: 3–6 months, depending on the agency.",
+              ],
+            },
+            {
+              title: "60-day tourist visa",
+              items: [
+                "Official requirement: no bank statement listed by GDRFA.",
+                "In practice: expect closer checks than a 30-day visa because the stay is longer. Your balance should match the longer trip.",
+                "Statement period: usually 6 months.",
+              ],
+            },
+            {
+              title: "Visit visa sponsored by a relative in the UAE",
+              items: [
+                "The UAE resident sponsor's income is what's assessed. Since September 2025 the sponsor's minimum salary depends on how closely they're related to you (see our [UAE visit visa for relatives guide](/blog/visit-visa-relatives-uae-guide)).",
+                "Your own bank statement may not be required by the authority, but keep one ready for the airline and for arrival checks.",
+              ],
+            },
+            {
+              title: "5-year multiple-entry tourist visa",
+              items: [
+                "Official requirement: a bank balance of USD 4,000 or the equivalent in foreign currency during the last six months, plus a 6-month bank statement, health insurance and a return ticket ([Dubai.ae](https://www.dubai.ae/web/dubai.ae/multiple-entry-5-year-tourist-visa)).",
+                "In PKR: roughly PKR 11–12 lakh, depending on the exchange rate on the day. Check the current rate and keep a margin above the minimum.",
+                "The balance should stay above the threshold for the whole six months, not just at the end. More detail is in our [5-year visa bank statement guide](/blog/bank-statement-5-year-multiple-entry-visa-uae-guide).",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "What makes a bank statement strong",
+          content:
+            "Two statements with the same closing balance can get very different results. Reviewers read the whole statement, not just the last line.",
+          subsections: [
+            {
+              title: "Do this",
+              items: [
+                "Use an account in your own name. If someone else is paying, add their statement and a short letter explaining the relationship.",
+                "Show regular income: salary credits on the same day each month, or steady business deposits.",
+                "Keep normal activity: bills, card spending and transfers look like a real account.",
+                "Get an official statement from the branch, stamped and signed by the bank, rather than only an app screenshot.",
+                "Ask for a bank maintenance or balance certificate if the agency requests one.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Bank statement mistakes that get Dubai visas rejected",
+          content:
+            "Most problems are about how the money looks, not how much there is.",
+          subsections: [
+            {
+              title: "Avoid these",
+              items: [
+                "A large deposit a few days or weeks before applying, with no explanation. It reads as borrowed money.",
+                "A balance that rises sharply and then falls straight after the statement date.",
+                "Using a relative's account without saying so or proving the relationship.",
+                "Statements that don't match your stated job or income.",
+                "Unstamped printouts, or statements older than the period the agency asked for.",
+                "Wrong or inconsistent names between your passport, CNIC and bank account.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Special cases",
+          columnCompare: {
+            left: {
+              title: "No regular salary",
+              items: [
+                "Student: a parent's statement, a letter from the parent, and your student ID or enrolment proof.",
+                "Unemployed or homemaker: the statement of the person paying, plus proof of relationship (for a wife, the nikah nama; for children, the B-Form).",
+                "Retired: pension credits and savings history work in place of salary.",
+              ],
+            },
+            right: {
+              title: "Business owners and freelancers",
+              items: [
+                "Business owner: personal and business account statements, plus business registration or NTN.",
+                "Freelancer: statements showing regular transfers from Payoneer, Wise or your platform, plus a profile or contract that matches the income.",
+                "Keep personal spending in your personal account so the statement reads clearly.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Can you get a Dubai visit visa without a bank statement?",
+          content:
+            "Sometimes, yes. The official GDRFA list for a tourist visa doesn't include one, and with a relative-sponsored visit visa it's mainly the UAE sponsor's income and documents that are checked. But many agencies won't file a tourist visa for a Pakistani applicant without one, and you may be asked about funds at the airport. Even when it isn't required for the visa, keep a recent statement in your phone or a printed copy.",
+        },
+        {
+          heading: "At the airport: return ticket, hotel and cash",
+          content:
+            "Separate from the visa itself, travellers have been asked at check-in or on arrival for a confirmed return ticket, proof of accommodation (a hotel booking or your host's address) and about AED 3,000 in cash or on a card. These were reported by travel agents in 2024, not published as an official rule ([Khaleej Times](https://www.khaleejtimes.com/uae/dubai-visit-visa-holders-told-to-carry-dh3000-in-cash-or-credit-return-tickets-proof-of-stay)). Carrying them costs nothing and can avoid a missed flight.",
+        },
+        {
+          heading: "Mukhtasar jawab (Roman Urdu)",
+          content:
+            "Dubai ke 30 ya 60 din ke tourist visa ke liye UAE ki taraf se koi official minimum bank balance nahi hai. \"10 lakh\" wali baat travel agents kehte hain, yeh sarkari rule nahi. Sirf 5 saal wale multiple-entry visa ke liye official shart hai: pichle 6 mahine mein 4,000 US dollar ya utne ke barabar balance. Statement apne naam ka ho, bank se stamp shuda ho, aur apply karne se pehle achanak bari raqam jama na karwayen.",
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We review your bank statement before it goes to the agency, flag anything that could cause a delay or refusal, and prepare the rest of your Dubai visit visa file through the correct channel. Send your statement on WhatsApp for a free check, or see our [Dubai visit visa from Pakistan page](/visit-visa/uae). We are a documentation service: the visa decision is always made by UAE immigration.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Dubai Visit Visa from Pakistan: Price & Application Support", href: "/visit-visa/uae" },
+            { label: "Dubai Visit Visa from Pakistan: Documents Checklist & Process", href: "/blog/dubai-visit-visa-from-pakistan" },
+            { label: "Bank Statement Requirements for the UAE 5-Year Multiple Entry Visa", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
+            { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
+            { label: "Cover Letter for a Visit Visa: Free Sample & Template", href: "/blog/cover-letter-for-visit-visa-sample-pakistan" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "How much bank balance is needed for a Dubai visit visa from Pakistan?",
+              answer:
+                "There is no official minimum for the standard 30- or 60-day tourist visa. Agencies often ask for a statement that clearly covers your trip, and some ask for around PKR 10 lakh. The only official figure is USD 4,000 over six months for the 5-year multiple-entry visa.",
+            },
+            {
+              question: "Is PKR 10 lakh compulsory for a Dubai visa?",
+              answer:
+                "No. It's a figure reported by travel agents in Pakistan, not a published UAE rule. Ask your agency in writing what they require for your visa type.",
+            },
+            {
+              question: "How many months of bank statement do I need for a Dubai visa?",
+              answer:
+                "Usually 3–6 months for a tourist visa, depending on the agency, and exactly six months for the 5-year multiple-entry visa.",
+            },
+            {
+              question: "Can my husband's or father's bank statement be used?",
+              answer:
+                "Yes, if they are paying for the trip. Add their statement, a short letter saying they will cover your costs, and proof of relationship such as the nikah nama or B-Form.",
+            },
+            {
+              question: "Does the bank statement need to be stamped?",
+              answer:
+                "Agencies usually ask for an official statement stamped and signed by the bank. Get it from your branch rather than relying only on an app download.",
+            },
+            {
+              question: "Dubai visa ke liye kitna bank balance chahiye?",
+              answer:
+                "30 ya 60 din ke tourist visa ke liye koi official minimum nahi hai. Agents aksar 10 lakh ke qareeb mangte hain. 5 saal ke visa ke liye official shart 4,000 US dollar pichle 6 mahine ki hai.",
+            },
+            {
+              question: "Can I deposit money just before applying?",
+              answer:
+                "It's risky. A sudden large deposit without an explanation is a common reason for refusal. Steady balances and regular income over several months look far stronger.",
+            },
+            {
+              question: "Do I need to show cash when I arrive in Dubai?",
+              answer:
+                "Travel agents have reported travellers being asked for about AED 3,000 in cash or on a card, plus a return ticket and accommodation proof. It isn't a published rule, but carrying them is a sensible precaution.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. UAE visa rules and agency practices change, and requirements can differ by emirate, visa type and sponsor. Always confirm current requirements with [GDRFA Dubai](https://gdrfad.gov.ae/en), the [ICP](https://icp.gov.ae/en/) or your filing agency before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "eu-entry-exit-system-ees-pakistan-travelers": {
     title: "The EU's New Border System (EES): What Pakistani Travelers to Europe Need to Know",
     metaTitle: "EU Entry/Exit System (EES): What Pakistani Travelers Need",
@@ -3748,6 +3966,7 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "Dubai Visit Visa from Pakistan — Apply Now", href: "/visit-visa/uae" },
             { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
+            { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
             { label: "Bank Statement Requirements for UAE Visas", href: "/blog/bank-statement-5-year-multiple-entry-visa-uae-guide" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -6652,6 +6871,8 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
+            { label: "Dubai Visit Visa from Pakistan: Documents Checklist", href: "/blog/dubai-visit-visa-from-pakistan" },
             { label: "Software Engineer Golden Visa UAE", href: "/blog/software-engineer-golden-visa-uae-guide" },
             { label: "AI Specialist Golden Visa UAE", href: "/blog/ai-specialist-golden-visa-uae-guide" },
             { label: "Property Investor Golden Visa UAE", href: "/blog/property-investor-golden-visa-uae-guide" },

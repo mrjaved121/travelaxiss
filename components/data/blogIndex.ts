@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "dubai-visit-visa-bank-statement-pakistan",
+      title: "Bank Statement for Dubai Visit Visa from Pakistan (2026): How Much Balance You Need",
+      excerpt:
+        "The official rule vs the PKR 10 lakh agent figure: how much balance a Dubai visit visa really needs, by visa type, what makes a statement strong, and the mistakes that get Pakistani applications refused.",
+      date: "October 9, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "eu-entry-exit-system-ees-pakistan-travelers",
       title: "The EU's New Border System (EES): What Pakistani Travelers to Europe Need to Know",
       excerpt:
