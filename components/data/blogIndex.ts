@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "dubai-visit-visa-rejected-pakistan",
+      title: "Dubai Visit Visa Rejected for Pakistanis: Reasons and What to Do Next (2026)",
+      excerpt:
+        "Is there a UAE ban on Pakistanis? Why Dubai visit visas get rejected, how to check your file for a ban, when to reapply, and what to change so your next application is stronger.",
+      date: "October 9, 2026",
+      readTime: "10 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "dubai-visit-visa-bank-statement-pakistan",
       title: "Bank Statement for Dubai Visit Visa from Pakistan (2026): How Much Balance You Need",
       excerpt:
