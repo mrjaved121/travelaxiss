@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "lahore-to-dubai-trip-cost-pkr",
+      title: "Lahore to Dubai Trip Cost for 4 Days in PKR (2026 Budget Breakdown)",
+      excerpt:
+        "What a 4-day Dubai trip from Lahore really costs in October 2026: flights, visa, hotel, Burj Khalifa, desert safari, metro and food in PKR, with budget and mid-range totals per person.",
+      date: "October 9, 2026",
+      readTime: "9 min read",
+      category: "UAE Travel Planning",
+    },
+    {
       id: "dubai-visit-visa-wife-kids-pakistan",
       title: "Dubai Visit Visa for Wife and Kids from Pakistan: Documents and Steps (2026)",
       excerpt:
