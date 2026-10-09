@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "dubai-visit-visa-wife-kids-pakistan",
+      title: "Dubai Visit Visa for Wife and Kids from Pakistan: Documents and Steps (2026)",
+      excerpt:
+        "Sponsor your wife and children from the UAE (AED 4,000 salary rule, 30/60/90 days) or bring the whole family on tourist visas: documents for each person, nikah nama and birth certificate attestation, and travel tips.",
+      date: "October 9, 2026",
+      readTime: "9 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "dubai-visit-visa-status-check-pakistan",
       title: "Dubai Visit Visa Status Kaise Check Karein? Passport Number Se (2026 Guide)",
       excerpt:

@@ -5,6 +5,206 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "dubai-visit-visa-wife-kids-pakistan": {
+    title: "Dubai Visit Visa for Wife and Kids from Pakistan: Documents and Steps (2026)",
+    metaTitle: "Dubai Visit Visa for Wife & Kids from Pakistan",
+    metaDescription:
+      "Bring your wife and children to Dubai from Pakistan (2026): sponsor rules (AED 4,000 salary), documents, nikah nama and birth certificate attestation.",
+    keywords: [
+      "dubai visit visa for wife and kids from pakistan",
+      "visit visa for wife in dubai documents",
+      "uae visit visa for children pakistan",
+      "sponsor wife visit visa dubai salary",
+      "nikah nama attestation for uae visa",
+      "biwi bachon ka dubai visit visa",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "9 min read",
+    category: "UAE Visa Documentation",
+    cta: {
+      heading: "Bringing Your Family to Dubai?",
+      text: "We prepare the visa files for your wife and children and check every attestation. Message us on WhatsApp.",
+      label: "Plan My Family's Visit",
+      href: "/visit-visa/uae#requirements-form",
+    },
+    content: {
+      intro:
+        "If you live and work in the UAE, you can sponsor a visit visa for your wife and children from Pakistan as long as you earn at least AED 4,000 a month, the minimum for first-degree relatives. You apply through GDRFA Dubai or an Amer centre for a 30-, 60- or 90-day visa, and each family member needs their own visa. The key documents are your attested nikah nama (marriage certificate) for your wife and attested birth certificates for your children, plus passports valid for six months, photos and return tickets. If you don't live in the UAE, the whole family can apply together for tourist visas through a registered travel agent. In 2026, family applications have been approved much more readily than solo trips.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Wife and children's Dubai visit visa (2026)",
+              items: [
+                "Sponsor's minimum salary: AED 4,000 a month (spouse and children are first-degree relatives), per GDRFA rules reported by Gulf News in July 2026.",
+                "Visa lengths when you sponsor: 30, 60 or 90 days, single or multiple entry.",
+                "Government fees (single entry, from): AED 200 / 300 / 400 for 30 / 60 / 90 days, per person, plus VAT and service charges.",
+                "Refundable security deposit when you sponsor: AED 1,000.",
+                "Each family member, including babies, needs a separate visa.",
+                "Relationship proof: attested nikah nama for your wife, attested birth certificates for children.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Route 1: You sponsor them from the UAE",
+          content:
+            "This is the usual route for husbands and fathers working in the UAE. The sponsor's minimum salary depends on the relationship: AED 4,000 a month for first-degree relatives such as a spouse and children, AED 8,000 for second- and third-degree relatives, and AED 15,000 for friends. Applications go through GDRFA Dubai's website or app, or an authorised Amer centre, and are typically processed within about 48 hours once complete; your family must then enter the UAE within 60 days ([Gulf News](https://gulfnews.com/business/tourism/gdrfa-clarifies-visit-visa-rules-for-relatives-and-friends-1.500610820)). Full sponsor rules are in our [UAE visit visa for relatives guide](/blog/visit-visa-relatives-uae-guide).",
+          subsections: [
+            {
+              title: "Your documents (sponsor)",
+              items: [
+                "Valid UAE residence visa and Emirates ID.",
+                "Salary certificate, attested labour contract, or company documents if you own a business.",
+                "Tenancy contract (Ejari) or other proof of where the family will stay.",
+              ],
+            },
+            {
+              title: "Your wife's documents",
+              items: [
+                "Passport valid for at least six months.",
+                "Recent passport-size photo with a white background.",
+                "CNIC copy.",
+                "Attested nikah nama / marriage certificate (NADRA computerised Marriage Registration Certificate).",
+                "Return ticket and health insurance where required.",
+              ],
+            },
+            {
+              title: "Each child's documents",
+              items: [
+                "Own passport valid for at least six months.",
+                "Recent photo.",
+                "Attested birth certificate showing both parents' names (NADRA computerised birth certificate); the B-Form is useful supporting proof.",
+                "Return ticket and health insurance where required.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How to attest the nikah nama and birth certificates",
+          content:
+            "UAE authorities usually ask for Pakistani relationship documents to be attested, because the UAE is not part of the apostille system. The usual order is: get the NADRA computerised certificate, attest it at Pakistan's Ministry of Foreign Affairs, then at the UAE Embassy in Pakistan, and finally at the UAE Ministry of Foreign Affairs. Gulf News puts the final UAE MOFA attestation at AED 150, typically taking five to six working days ([Gulf News](https://gulfnews.com/living-in-uae/ask-us/uae-expats-getting-married-abroad-heres-how-to-attest-your-marriage-certificate-1.1734024362586)). Names on the certificate must match the passports exactly.",
+          note:
+            "Start attestation first: it usually takes longer than the visa itself. Attested certificates are also needed later if you move your family onto a residence visa, so it's worth doing once, properly.",
+        },
+        {
+          heading: "Route 2: The whole family visits on tourist visas",
+          content:
+            "If no one in the family lives in the UAE, each person applies for a 30- or 60-day tourist visa through a registered travel agency. GDRFA lists a passport valid for six months, a photo, a CNIC copy for Pakistani applicants, a ticket out of the UAE and medical insurance ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)). Agencies usually also ask for the husband's or father's bank statement; see our [Dubai visit visa bank statement guide](/blog/dubai-visit-visa-bank-statement-pakistan). Applying as a family on the same file usually reads better than separate solo applications.",
+        },
+        {
+          heading: "Which route suits your family?",
+          columnCompare: {
+            left: {
+              title: "You sponsor from the UAE",
+              items: [
+                "You hold a UAE residence visa and earn AED 4,000+ a month.",
+                "Up to 90 days, single or multiple entry.",
+                "Needs attested nikah nama and birth certificates.",
+                "Good for longer stays and repeat visits.",
+              ],
+            },
+            right: {
+              title: "Tourist visas through an agency",
+              items: [
+                "Nobody in the family lives in the UAE.",
+                "30 or 60 days for each person.",
+                "Relationship attestation usually not needed.",
+                "Good for a family holiday together.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Wife travelling alone with the children",
+          content:
+            "If the mother is flying with the children without the father, carry a signed no-objection letter from the father consenting to the children's travel, with a copy of his CNIC or passport. Airlines and immigration officers may ask for it, especially for babies and young children, even when the visa doesn't require it. Keep the children's birth certificates or B-Forms with you as well.",
+        },
+        {
+          heading: "Why family applications are doing better in 2026",
+          content:
+            "Pakistani travel agents reported much lower approval for single, first-time applicants than for families through late 2025 and much of 2026 ([Dawn](https://www.dawn.com/news/1957715)). In August 2026, the UAE was reported to be issuing visit visas again through registered agents, with families travelling together getting the quickest responses ([The Nation](https://www.nation.com.pk/04-Aug-2026/uae-resumes-visit-visas-pakistani-families)). If a previous application was refused, read [what to do after a Dubai visa rejection](/blog/dubai-visit-visa-rejected-pakistan) before reapplying.",
+        },
+        {
+          heading: "Can your family stay on a residence visa instead?",
+          content:
+            "Yes. If you want your wife and children to live with you, they need a family residence visa, which has its own income and tenancy requirements and is a separate process from a visit visa. Our [UAE family visa guide](/blog/family-sponsorship-income-requirements-uae) covers it. A visit visa is the quicker option for holidays or a trial stay.",
+        },
+        {
+          heading: "Mukhtasar jawab (Roman Urdu)",
+          content:
+            "Agar aap UAE mein rehte hain aur aapki tankhwah kam az kam AED 4,000 mahana hai, to aap apni biwi aur bachon ka 30, 60 ya 90 din ka visit visa GDRFA ya Amer centre se sponsor kar sakte hain. Har fard ka alag visa lagta hai. Biwi ke liye attested nikah nama aur bachon ke liye attested birth certificate zaroori hain: pehle NADRA, phir Pakistan MOFA, phir UAE embassy, aur aakhir mein UAE MOFA. Agar maa akeli bachon ke sath safar kar rahi hai to walid ka NOC letter sath rakhein.",
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We prepare the visa file for each family member, check that your nikah nama and birth certificates are attested in the right order, and review bank statements before submission. We can also plan a Dubai family visit package with sightseeing. Message us on WhatsApp or see our [Dubai visit visa from Pakistan page](/visit-visa/uae). We are a documentation service: the visa decision is always made by UAE immigration.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
+            { label: "UAE Visit Visa for Relatives – Sponsor Salary Rules", href: "/blog/visit-visa-relatives-uae-guide" },
+            { label: "Bank Statement for Dubai Visit Visa from Pakistan", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
+            { label: "Dubai Visit Visa Status Kaise Check Karein", href: "/blog/dubai-visit-visa-status-check-pakistan" },
+            { label: "UAE Family Visa – Requirements & Documents", href: "/blog/family-sponsorship-income-requirements-uae" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Can I sponsor a visit visa for my wife and kids in Dubai?",
+              answer:
+                "Yes, if you hold a valid UAE residence visa and Emirates ID and earn at least AED 4,000 a month. Spouse and children are first-degree relatives, the lowest salary tier.",
+            },
+            {
+              question: "Does each child need a separate Dubai visit visa?",
+              answer:
+                "Yes. Every family member, including babies, needs their own visa and passport.",
+            },
+            {
+              question: "Is an attested nikah nama required for a wife's visit visa?",
+              answer:
+                "When you sponsor your wife, yes: GDRFA asks for attested relationship documents. The usual order is NADRA certificate, Pakistan MOFA, UAE Embassy in Pakistan, then UAE MOFA.",
+            },
+            {
+              question: "How much does a Dubai visit visa for my family cost?",
+              answer:
+                "Government fees start at AED 200 (30 days), AED 300 (60 days) or AED 400 (90 days) per person for single entry, plus VAT, insurance and service charges, and a refundable AED 1,000 deposit when you sponsor.",
+            },
+            {
+              question: "Can my wife travel alone with our children to Dubai?",
+              answer:
+                "Yes. Carry a signed no-objection letter from you consenting to the children's travel, with a copy of your CNIC or passport, as airlines or immigration may ask for it.",
+            },
+            {
+              question: "Can my family get Dubai visas if I don't live in the UAE?",
+              answer:
+                "Yes, as tourist visas through a registered travel agent, usually applied for together on one family file with the head of family's bank statement.",
+            },
+            {
+              question: "How long can my wife and children stay?",
+              answer:
+                "Up to 30, 60 or 90 days when you sponsor them, or 30 or 60 days on a tourist visa. Extensions from inside the UAE are possible but not automatic.",
+            },
+            {
+              question: "Biwi bachon ka Dubai visit visa kaise lagwayen?",
+              answer:
+                "UAE mein rehte hain aur tankhwah AED 4,000 ya zyada hai to GDRFA ya Amer centre se khud sponsor karein, attested nikah nama aur birth certificates ke sath. Warna registered agent se poori family ka tourist visa lagwayen.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. Salary tiers, fees and processing times come from GDRFA rules as reported by Gulf News in July 2026; attestation costs from Gulf News in December 2024. Rules change, so confirm current requirements with [GDRFA Dubai](https://gdrfad.gov.ae/en), the [ICP](https://icp.gov.ae/en/) or an authorised Amer centre before applying. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "dubai-visit-visa-status-check-pakistan": {
     title: "Dubai Visit Visa Status Kaise Check Karein? Passport Number Se (2026 Guide)",
     metaTitle: "Dubai Visa Status Kaise Check Karein (2026)",
@@ -338,6 +538,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
             { label: "UAE Visit Visa for Relatives – Sponsor Salary Rules", href: "/blog/visit-visa-relatives-uae-guide" },
             { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
@@ -766,6 +967,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Dubai Visit Visa from Pakistan: Price & Application Support", href: "/visit-visa/uae" },
             { label: "Dubai Visit Visa from Pakistan: Documents Checklist & Process", href: "/blog/dubai-visit-visa-from-pakistan" },
@@ -4571,6 +4773,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Dubai Visit Visa from Pakistan — Apply Now", href: "/visit-visa/uae" },
@@ -5040,6 +5243,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "UAE Services for Clients in Pakistan", href: "/pakistan" },
           ],
@@ -5434,6 +5638,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "UAE Family Visa from Pakistan", href: "/blog/uae-family-visa-from-pakistan" },
             { label: "UAE Family Visa Income Requirements", href: "/blog/family-sponsorship-income-requirements-uae" },
