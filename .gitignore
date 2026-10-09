@@ -43,3 +43,7 @@ next-env.d.ts
 
 # claude code local settings
 .claude/
+
+# temp files used when adding blog posts
+.new-post.tmp
+.post-*.tmp

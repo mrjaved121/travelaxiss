@@ -5,6 +5,649 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uk-care-worker-visa-pakistan-2026": {
+    title: "Is the UK Care Worker Visa Still Open for Pakistanis? (2026 Update)",
+    metaTitle: "UK Care Worker Visa for Pakistanis: 2026 Update",
+    metaDescription:
+      "The UK closed care worker visas to overseas applicants on 22 July 2025. What it means for Pakistanis in 2026, who can still apply, and how to spot scams.",
+    keywords: [
+      "uk care worker visa pakistan 2026",
+      "is uk care visa still open",
+      "uk care worker visa closed",
+      "care visa uk from pakistan",
+      "uk care visa scam pakistan",
+      "certificate of sponsorship care worker fake",
+      "uk care visa band ho gaya",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "9 min read",
+    category: "UK Visa Documentation",
+    cta: {
+      heading: "Planning a Genuine UK Trip?",
+      text: "We prepare UK visit visa files from Pakistan. We don't sell jobs or sponsorship.",
+      label: "UK Visit Visa Support",
+      href: "/visit-visa/uk",
+    },
+    content: {
+      intro:
+        "No. Since 22 July 2025, the UK no longer accepts care worker or senior care worker visa applications from people outside the UK, and that is still the position in 2026. The UK government closed overseas recruitment for these roles (occupation codes 6135 and 6136), citing \"significant concerns over abuse and exploitation of workers\". The only exception is a transition period until 22 July 2028 for people who are already in the UK on another visa, who can switch into care work after working for their sponsor for at least three months. So if an agent in Pakistan is selling you a \"UK care visa\" or a \"care home sponsorship\" today, treat it as a scam until proven otherwise. Registered nurses are a separate route and can still be sponsored from overseas.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "UK care worker visa in 2026",
+              items: [
+                "Overseas applications for care worker and senior care worker roles: closed since 22 July 2025.",
+                "Occupation codes affected: 6135 (care workers) and 6136 (senior care workers).",
+                "Who can still be sponsored: people already in the UK, switching in-country, until 22 July 2028.",
+                "Condition for switching: at least 3 months legally working for the sponsoring care provider.",
+                "Reason given by the UK government: abuse and exploitation of workers in the sector.",
+                "Still open from overseas: registered nurses and other eligible health roles, subject to their own requirements.",
+                "Paying for a Certificate of Sponsorship (CoS) or a \"care job\" is a major red flag.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "What changed in July 2025",
+          content:
+            "The UK's Statement of Changes to the Immigration Rules HC 997, published on 1 July 2025, took effect on 22 July 2025. Its explanatory memorandum states that the changes \"close entry clearance applications for Skilled Workers sponsored in these occupation codes\", meaning care workers and senior care workers can no longer get a visa from abroad. The same changes raised the general Skilled Worker skill level back to RQF level 6 (degree level), removing around 180 lower-skilled occupations from new sponsorship ([GOV.UK explanatory memorandum](https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-997-1-july-2025/explanatory-memorandum-to-the-statement-of-changes-to-the-immigration-rules-hc-997-1-july-2025-accessible)).",
+        },
+        {
+          heading: "Who can still get a UK care worker visa?",
+          content:
+            "Only people who are already in the UK, during the transition period.",
+          subsections: [
+            {
+              title: "The transition rule",
+              items: [
+                "You must already be in the UK on another visa and switch in-country; you can't apply from Pakistan.",
+                "The transition runs until 22 July 2028, and the government says it will keep it under review.",
+                "You must have been legally working for the care provider sponsoring you for at least three months before applying.",
+                "Care workers already on the Skilled Worker route are covered by transitional arrangements for their existing route.",
+              ],
+            },
+          ],
+          note:
+            "Even inside the UK, this is a narrow route with conditions. Anyone in this situation should get advice from a UK-regulated immigration adviser or solicitor.",
+        },
+        {
+          heading: "Why Pakistani agents are still selling it",
+          content:
+            "Before July 2025, the care visa was one of the most popular UK work routes for Pakistani applicants, and many agents built their business around it. Some still advertise \"UK care visa\", \"care home jobs with sponsorship\" or \"guaranteed CoS\" on Facebook, TikTok and WhatsApp. Because the route is now closed from abroad, these offers either can't lead to a visa or are outright fraud. UK media and law firms have also reported cases of people paying thousands of pounds for fake or worthless sponsorship ([Eastern Eye](https://www.easterneye.biz/fake-job-sponsorships-immigration-visa/)).",
+        },
+        {
+          heading: "How to spot a UK care visa scam",
+          subsections: [
+            {
+              title: "Red flags",
+              items: [
+                "They offer a care worker or senior care worker visa to someone in Pakistan. That route has been closed since July 2025.",
+                "They ask you to pay for a Certificate of Sponsorship or a job offer. A genuine sponsor doesn't sell jobs.",
+                "They promise a guaranteed visa or \"100% approval\".",
+                "The job offer comes from a Gmail or WhatsApp-only contact, with no interview and no verifiable company.",
+                "They ask you to send money to a personal account or through a middleman.",
+                "They push you to decide quickly or keep the offer secret.",
+              ],
+            },
+            {
+              title: "How to check any UK job offer",
+              items: [
+                "Look up the employer on the official GOV.UK Register of licensed sponsors: workers, which lists every organisation allowed to sponsor workers.",
+                "Check the company on Companies House and its own website, and contact it directly, not through the agent.",
+                "Make sure the job's occupation is actually eligible for sponsorship from overseas.",
+                "Never pay for sponsorship or a job; pay visa fees only on the official GOV.UK application service.",
+              ],
+            },
+          ],
+          note:
+            "Submitting fake documents or false information in a UK application can lead to refusal and a ban on future UK applications for up to 10 years. A scam doesn't just cost money; it can close the UK to you.",
+        },
+        {
+          heading: "What are the real options for Pakistanis in 2026?",
+          content:
+            "If your goal is to work in UK health or care, the routes that remain open from overseas need higher qualifications.",
+          columnCompare: {
+            left: {
+              title: "Still possible from Pakistan",
+              items: [
+                "Registered nurse: needs a nursing qualification, English test and Nursing and Midwifery Council (NMC) registration.",
+                "Doctors and other regulated health professionals with UK registration.",
+                "Skilled Worker roles at degree level (RQF 6) that meet the salary threshold, with a licensed sponsor.",
+                "Studying in the UK through a genuine Student visa (study first, not as a back door to work).",
+              ],
+            },
+            right: {
+              title: "Not possible from Pakistan",
+              items: [
+                "Care worker visa (6135) from overseas.",
+                "Senior care worker visa (6136) from overseas.",
+                "Buying a Certificate of Sponsorship or a job offer.",
+                "Any \"guaranteed\" UK work visa.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Already paid an agent? What to do",
+          subsections: [
+            {
+              title: "Next steps",
+              items: [
+                "Stop further payments and keep all receipts, chats and documents.",
+                "Ask the agent in writing for the sponsor's name and licence details, and check them on the GOV.UK register.",
+                "Report fraud in Pakistan to the FIA Cybercrime Wing, and report UK immigration fraud to the UK Home Office through GOV.UK.",
+                "Don't submit any application using documents you can't verify.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Mukhtasar jawab (Roman Urdu)",
+          content:
+            "Nahi. 22 July 2025 se UK ne care worker aur senior care worker visa bahar ke mulkon se band kar diya hai, aur 2026 mein bhi band hai. Sirf woh log jo pehle se UK mein kisi aur visa par hain, 22 July 2028 tak switch kar sakte hain, aur unhe apne sponsor ke paas kam az kam 3 mahine kaam karna zaroori hai. Agar Pakistan mein koi agent aapko \"UK care visa\" ya CoS bech raha hai to yeh fraud ho sakta hai. Kabhi sponsorship ke liye paisay na dein, aur company ko GOV.UK ke sponsor register par check karein.",
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We don't sell UK jobs, care visas or sponsorship. We prepare UK visit visa applications from Pakistan with genuine, verifiable documents. If you're planning a family visit or a trip to the UK, see our [UK visit visa page](/visit-visa/uk) or read our [UK visit visa refusal reasons guide](/blog/uk-visit-visa-refusal-reasons-pakistani-applicants). For UK work or immigration advice, speak to a UK-regulated immigration adviser.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "UK Visit Visa Refusal Reasons for Pakistani Applicants", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
+            { label: "How Much Bank Balance for a UK Visit Visa From Pakistan", href: "/blog/how-much-bank-balance-uk-visit-visa-pakistan" },
+            { label: "Cover Letter for a Visit Visa: Free Sample & Template", href: "/blog/cover-letter-for-visit-visa-sample-pakistan" },
+            { label: "UK Visit Visa Requirements & Application Support", href: "/visit-visa/uk" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Is the UK care worker visa still open for Pakistanis in 2026?",
+              answer:
+                "No, not from Pakistan. The UK closed care worker and senior care worker visas to overseas applicants on 22 July 2025, and that remains the position in 2026.",
+            },
+            {
+              question: "Who can still get a UK care worker visa?",
+              answer:
+                "Only people already in the UK on another visa, switching in-country during the transition period until 22 July 2028, after working for their sponsoring care provider for at least three months.",
+            },
+            {
+              question: "Why did the UK close the care worker visa?",
+              answer:
+                "The UK government's explanatory memorandum cites significant concerns over abuse and exploitation of workers, and employers who over-estimated demand and lost their sponsor licences.",
+            },
+            {
+              question: "Can I buy a Certificate of Sponsorship for a UK care job?",
+              answer:
+                "No. A genuine sponsor doesn't sell jobs or certificates, and care roles can't be sponsored from overseas anyway. Anyone selling a CoS is a major fraud risk.",
+            },
+            {
+              question: "How do I check if a UK employer is a real sponsor?",
+              answer:
+                "Search the official GOV.UK Register of licensed sponsors: workers, then check the company on Companies House and contact it directly rather than through an agent.",
+            },
+            {
+              question: "Can Pakistani nurses still get a UK work visa?",
+              answer:
+                "Yes. Registered nurses can still be sponsored from overseas, but need a recognised nursing qualification, an English test and NMC registration.",
+            },
+            {
+              question: "What happens if I use fake documents in a UK visa application?",
+              answer:
+                "The application can be refused and you can be banned from future UK applications for up to 10 years, in addition to losing the money paid.",
+            },
+            {
+              question: "Kya UK care visa band ho gaya hai?",
+              answer:
+                "Haan, Pakistan se apply karne walon ke liye 22 July 2025 se band hai. Sirf UK mein pehle se mojood log 22 July 2028 tak switch kar sakte hain.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. This guide is based on the UK government's [explanatory memorandum to the Statement of Changes HC 997](https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-997-1-july-2025/explanatory-memorandum-to-the-statement-of-changes-to-the-immigration-rules-hc-997-1-july-2025-accessible). UK immigration rules change often; check [GOV.UK](https://www.gov.uk/browse/visas-immigration/work-visas) before acting. This is general information, not immigration advice. Travelaxis does not provide UK work visa or sponsorship services.",
+        },
+      ],
+    },
+  },
+  "bringing-medicines-to-dubai-from-pakistan": {
+    title: "Bringing Medicines to Dubai from Pakistan: What's Allowed and What Needs a Permit (2026)",
+    metaTitle: "Bringing Medicines to Dubai from Pakistan 2026",
+    metaDescription:
+      "Carrying medicines to Dubai from Pakistan: what is allowed without a permit, which medicines need an EDE permit, documents and the 3-month limit (2026).",
+    keywords: [
+      "bringing medicines to dubai from pakistan",
+      "can i carry medicine to dubai",
+      "medicine permit uae for visitors",
+      "controlled medicines list uae",
+      "ede permit import medicines personal use",
+      "dubai medicine rules for travellers",
+      "dubai dawai le ja sakte hain",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "8 min read",
+    category: "UAE Travel Planning",
+    cta: {
+      heading: "Travelling With Medicines?",
+      text: "We include medicine checks in your Dubai trip preparation. Ask us on WhatsApp.",
+      label: "Ask on WhatsApp",
+      href: "/visit-visa/uae#requirements-form",
+    },
+    content: {
+      intro:
+        "Yes, you can bring your own medicines to Dubai from Pakistan. Ordinary prescribed medicines for personal use, such as those for blood pressure, diabetes or cholesterol, are allowed in a normal quantity without a permit. Controlled and semi-controlled medicines, including many strong painkillers, sleeping pills and anti-anxiety medicines, need prior approval: apply online for the free \"Issue of Permit to Import Medicines for Personal Use\", now provided by the Emirates Drug Establishment (EDE), and bring no more than a three-month supply. Always carry a doctor's prescription and medical report, keep medicines in their original packaging, and declare controlled medicines on arrival. The UAE has zero tolerance for narcotics, so check before you pack.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Medicines to Dubai from Pakistan (2026)",
+              items: [
+                "Ordinary personal prescription medicines: allowed in normal quantity, no permit needed.",
+                "Controlled (CDa) and semi-controlled (CDb) medicines: need an import permit before travel.",
+                "Permit service: \"Issue of Permit to Import Medicines for Personal Use\", now under the Emirates Drug Establishment (EDE).",
+                "Permit fee: free.",
+                "Maximum quantity: up to a three-month supply.",
+                "Documents: recent stamped prescription, medical report from the last 12 months, and passport.",
+                "No permit in hand: declare controlled medicines at the airport with your prescription and report.",
+                "Transit passengers who don't leave the airport don't need prior approval.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "What the UAE government says",
+          content:
+            "The official UAE government portal states that the country has a \"zero-tolerance policy for recreational use of drugs\" under Federal Law by Decree No. 30 of 2021, and that visitors \"may bring in other prescribed medicines for personal use in normal quantity.\" It adds that some medicines require an import permit, and that narcotic, psychotropic and other Class A or B controlled drugs are \"neither freely available in the UAE, nor can they be freely imported into the country\" ([u.ae](https://u.ae/en/information-and-services/health-and-fitness/Health-and-wellbeing/drugs-and-controlled-medicines)). The personal import permit service has since moved from the Ministry of Health and Prevention to the Emirates Drug Establishment (EDE) ([MOHAP](https://mohap.gov.ae/en/mte)).",
+        },
+        {
+          heading: "Medicines you can usually bring without a permit",
+          content:
+            "Most everyday medicines that Pakistani travellers carry are not controlled. These can come in your luggage for personal use, in a normal quantity for your trip:",
+          subsections: [
+            {
+              title: "Typically allowed for personal use",
+              items: [
+                "Blood pressure, heart and cholesterol medicines.",
+                "Diabetes tablets and insulin (carry insulin in hand luggage with the prescription).",
+                "Thyroid, asthma inhalers and common antibiotics prescribed for you.",
+                "Ordinary over-the-counter medicines such as paracetamol, antacids and allergy tablets.",
+              ],
+            },
+          ],
+          note:
+            "\"Typically allowed\" still means personal use only. Carry the prescription anyway, and check any combination medicine (for example a cough syrup or painkiller with several ingredients) against the official controlled list.",
+        },
+        {
+          heading: "Medicines that need a permit",
+          content:
+            "Controlled (CDa) and semi-controlled (CDb) medicines need approval before you travel. The official list contains more than 200 medicines ([Gulf News](https://gulfnews.com/living-in-uae/health/how-to-bring-prescription-or-controlled-medicines-into-the-uae-legally-1.500229602)). Categories that often include controlled medicines are:",
+          subsections: [
+            {
+              title: "Check these carefully",
+              items: [
+                "Strong painkillers, especially opioid-type medicines.",
+                "Sleeping tablets and anti-anxiety medicines.",
+                "Some medicines for epilepsy, nerve pain, ADHD and psychiatric conditions.",
+                "Cough and cold medicines that contain codeine or similar ingredients.",
+              ],
+            },
+          ],
+          note:
+            "Don't rely on a medicine's brand name in Pakistan. Check the active ingredient on the box against the UAE's controlled medicines list, or ask your doctor or pharmacist.",
+        },
+        {
+          heading: "How to get the permit, step by step",
+          subsections: [
+            {
+              title: "EDE \"Issue of Permit to Import Medicines for Personal Use\"",
+              items: [
+                "Check whether your medicine is on the UAE controlled medicines list.",
+                "Get a prescription from your doctor in Pakistan: stamped by the hospital or clinic, issued within the last three months, showing your name, the medicine, dose, duration, date and doctor.",
+                "Get a medical report from the last 12 months, stamped by the treating facility, with your diagnosis and treatment plan.",
+                "Create an account on the EDE portal (visitors register with their passport; UAE residents can use UAE Pass) and apply online.",
+                "Upload the prescription, medical report and passport copy. The permit is free.",
+                "Download and print the approval, and carry it with the medicines and documents.",
+              ],
+            },
+          ],
+          note:
+            "Gulf News reported in 2024 that the permit is valid for two months and can be used once, and that the prescription quantity can't exceed three months' treatment. Check the current conditions on the EDE portal when you apply.",
+        },
+        {
+          heading: "Packing and travel day checklist",
+          subsections: [
+            {
+              title: "Before you fly",
+              items: [
+                "Keep medicines in their original packaging with the pharmacy label.",
+                "Pack them in your hand luggage so they stay with you.",
+                "Ask your doctor for the prescription and report in English.",
+                "Carry the permit printout (if needed), prescription, report and passport together.",
+                "Bring only what you need for the trip, never more than three months' supply.",
+              ],
+            },
+            {
+              title: "At Dubai airport",
+              items: [
+                "If you have controlled medicines, use the declaration process and show your documents.",
+                "If you didn't get a permit in advance, declare the controlled medicines on arrival with the prescription and medical report.",
+                "Don't carry medicines for other people unless you have the right paperwork; someone carrying medicine for another person needs a notarised power of attorney, per Gulf News.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "What happens if you get it wrong?",
+          content:
+            "Undeclared narcotic or controlled medicines can be treated as a drug offence, and UAE drug penalties are severe. Gulf News quotes the Abu Dhabi Judicial Department as saying drug penalties can include \"a minimum of two years imprisonment and a fine of no less than Dh100,000\" ([Gulf News](https://gulfnews.com/living-in-uae/ask-us/do-i-need-to-declare-medication-when-i-travel-to-the-uae-1.1725373291636)). Ordinary personal medicines with a prescription are not a problem; the risk is controlled medicines carried without approval or declaration.",
+        },
+        {
+          heading: "Mukhtasar jawab (Roman Urdu)",
+          content:
+            "Haan, aap apni aam dawaiyan (BP, sugar, cholesterol waghera) apne istemal ke liye munasib miqdar mein Dubai le ja sakte hain, permit ki zaroorat nahi. Lekin taaqatwar dard ki dawaiyan, neend aur anxiety ki goliyan, aur codeine wale cough syrup jaisi controlled dawaiyon ke liye pehle EDE se muft permit lena zaroori hai, aur 3 mahine se zyada ki dawai na le jayen. Doctor ka stamp shuda prescription aur medical report sath rakhein, aur dawai asli packing mein rakhein.",
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "When we prepare your Dubai visit visa, we go through a pre-travel checklist that includes medicines, documents and airport requirements, so nothing surprises you on arrival. This matters most for parents and elderly family members travelling with regular medicines. Message us on WhatsApp or see our [Dubai visit visa from Pakistan page](/visit-visa/uae). We don't give medical advice: confirm your medicines with your doctor and the EDE.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
+            { label: "Lahore to Dubai 4-Day Trip Cost in PKR (2026)", href: "/blog/lahore-to-dubai-trip-cost-pkr" },
+            { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
+            { label: "Bank Statement for Dubai Visit Visa from Pakistan", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
+            { label: "Dubai Visit Visa from Pakistan: Price & Application Support", href: "/visit-visa/uae" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Can I bring medicines to Dubai from Pakistan?",
+              answer:
+                "Yes. Prescribed medicines for personal use are allowed in a normal quantity. Controlled and semi-controlled medicines need an import permit from the Emirates Drug Establishment (EDE) before travel.",
+            },
+            {
+              question: "Do I need a permit for blood pressure or diabetes medicine?",
+              answer:
+                "Usually not. Common medicines for blood pressure, diabetes and cholesterol are not controlled and can be brought for personal use with your prescription.",
+            },
+            {
+              question: "How much medicine can I bring to the UAE?",
+              answer:
+                "A normal quantity for personal use, and for controlled medicines no more than a three-month supply as stated on your prescription.",
+            },
+            {
+              question: "How do I get a UAE permit for controlled medicines?",
+              answer:
+                "Apply online for the free \"Issue of Permit to Import Medicines for Personal Use\" on the EDE portal, with a recent stamped prescription, a medical report from the last 12 months and your passport.",
+            },
+            {
+              question: "What if I didn't get a permit before travelling?",
+              answer:
+                "Declare your controlled medicines on arrival at the airport and show the prescription and medical report. Don't try to carry them through undeclared.",
+            },
+            {
+              question: "Do I need a permit if I'm only transiting through Dubai?",
+              answer:
+                "Transit passengers who stay inside the airport don't need prior approval, but should carry the medicines with their prescription.",
+            },
+            {
+              question: "Can I carry medicine for a relative in Dubai?",
+              answer:
+                "Only with the right paperwork. Gulf News reports that someone bringing medicine for another person needs a notarised power of attorney, plus that person's prescription and report.",
+            },
+            {
+              question: "Kya Dubai dawai le ja sakte hain?",
+              answer:
+                "Haan, apni aam dawaiyan prescription ke sath le ja sakte hain. Controlled dawaiyon ke liye EDE se muft permit pehle lein aur 3 mahine se zyada na le jayen.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. This guide is general travel information, not medical or legal advice. Rules are based on the official [UAE government portal](https://u.ae/en/information-and-services/health-and-fitness/Health-and-wellbeing/drugs-and-controlled-medicines) and [MOHAP](https://mohap.gov.ae/en/mte), with permit details as reported by Gulf News in 2024 and 2025. Lists of controlled medicines change, so always check the current list and permit conditions with the [Emirates Drug Establishment](https://www.ede.gov.ae) before you travel.",
+        },
+      ],
+    },
+  },
+  "paraguay-visa-for-pakistani": {
+    title: "Paraguay Visa for Pakistanis 2026: Online Application Process, Documents & Fees",
+    metaTitle: "Paraguay Visa for Pakistani: 2026 Online Guide",
+    metaDescription:
+      "Paraguay visa for Pakistani passport holders (2026): the real online application, documents, interview, USD 100 fee and the truth about 2-year residence.",
+    keywords: [
+      "paraguay visa for pakistani",
+      "paraguay online visa application",
+      "paraguay visa requirements",
+      "paraguay tourist visa from pakistan",
+      "paraguay visa fee",
+      "paraguay temporary residence",
+      "how to apply paraguay visa online",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "10 min read",
+    category: "Visit Visa Documentation",
+    cta: {
+      heading: "Applying for a Paraguay Visa?",
+      text: "We prepare your document checklist and review your file before you submit. Message us on WhatsApp.",
+      label: "Get My File Reviewed",
+      href: "/visit-visa#requirements-form",
+    },
+    content: {
+      intro:
+        "You've probably seen YouTube videos saying Paraguay gives Pakistanis a \"free e-visa\" and \"direct 2-year residence\". The reality is different. A Paraguay visa for Pakistani passport holders must be obtained before you travel, and it is not an instant e-visa. You apply online on the official Paraguay Ministry of Foreign Affairs website for a Non-Resident Visa (Tourist or Technical). A Paraguayan consulate reviews your file, may ask for more documents, and may invite you to an interview. Submitting the form is free; the visa fee of about USD 100 for a multiple-entry visa is paid only after approval. Temporary residence is a completely separate process done later in Paraguay. This guide explains the real, official process step by step.",
+      sections: [
+        {
+          heading: "Quick facts",
+          subsections: [
+            {
+              title: "Paraguay visa for Pakistanis (2026)",
+              items: [
+                "Visa type: Non-Resident Visa (Tourist or Technical).",
+                "Where to apply: online, on the Paraguay Ministry of Foreign Affairs website (mre.gov.py).",
+                "Form submission: free.",
+                "Visa fee: about USD 100 for a multiple-entry visa, paid only after approval (amount may differ by consulate).",
+                "Interview: possible; shortlisted applicants receive an interview date and time by email.",
+                "When to apply: at least 30 days before travel, counted from when your file is complete.",
+                "Validity: multiple entry.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Do Pakistanis need a visa for Paraguay?",
+          content:
+            "Yes. Pakistani passport holders must get a visa before travelling to Paraguay. There is no visa on arrival. The visa for tourism or short business trips is the Non-Resident Visa (Tourist or Technical), applied for online through the [official Paraguay Ministry of Foreign Affairs visa page](https://www.mre.gov.py/visasenlinea/requisitos/noresidente).",
+        },
+        {
+          heading: "Is Paraguay really an \"e-visa\"? Myth vs reality",
+          content:
+            "The application is online, which is why many videos call it an e-visa. But it works very differently from an instant e-visa.",
+          columnCompare: {
+            left: {
+              title: "What the videos say",
+              items: [
+                "\"Free e-visa\": apply online and get the visa for free.",
+                "\"Direct 2-year residence\": the visa gives you residence straight away.",
+                "\"No interview\": everything is done online.",
+              ],
+            },
+            right: {
+              title: "The real facts",
+              items: [
+                "The form is free, but the visa fee (about USD 100 for multiple entry) is paid after approval.",
+                "Temporary residence is a separate process with Paraguay's immigration office, done after you arrive.",
+                "A consulate reviews your file and may invite you to an interview, with the date and time sent by email.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Paraguay visa requirements for Pakistani applicants",
+          content:
+            "All documents are uploaded as PDF files of up to 1 MB each, except the photo, which is a JPG.",
+          subsections: [
+            {
+              title: "Documents and tips",
+              items: [
+                "Photo: recent 3x4 cm colour photo, JPG, white background, front-facing, no glasses or accessories. Tip: get it taken at a studio and ask for a digital copy at the right size.",
+                "Passport: colour scan, valid at least 6 months beyond your entry date, with at least 2 blank pages. Tip: scan the bio page clearly, with no glare or cut-off edges.",
+                "Previous visas: colour copies of visas issued by other countries, including e-visas. Tip: include UAE, Schengen, UK or other visas; they show your travel history.",
+                "Proof of financial means: personal bank statement for the last 3 months with the bank's stamp and signature, or an employment certificate. Tip: get an official stamped statement from your branch, not a screenshot.",
+                "Police character certificate: from your country of residence, legalized and/or apostilled. Tip: in Pakistan, get the certificate from the police, then have it apostilled by the Ministry of Foreign Affairs (MOFA); UAE residents need one from the UAE.",
+                "Accommodation: hotel reservation or proof of where you'll stay.",
+                "Travel plan: flight itinerary or land travel tickets, and/or a declaration of how you will enter Paraguay.",
+                "Invitation letter (optional): from a person or company in Paraguay; the inviter must also complete the online inviter registration.",
+              ],
+            },
+          ],
+          note:
+            "Keeping PDFs under 1 MB: scan at a lower resolution (around 150 dpi is usually enough for text), save in black and white where colour isn't required, and use a PDF compressor before uploading.",
+        },
+        {
+          heading: "How to apply for a Paraguay visa online: step by step",
+          subsections: [
+            {
+              title: "The official process",
+              items: [
+                "Step 1: Prepare all documents in the right format (PDF up to 1 MB each, JPG photo).",
+                "Step 2: Open the Non-Resident Visa page on mre.gov.py and complete the online form. Every detail must exactly match your passport.",
+                "Step 3: Upload your documents and submit. Submission is free.",
+                "Step 4: A Paraguayan consulate reviews your file and may email you asking for more documents.",
+                "Step 5: If you're shortlisted, you receive an interview date and time by email.",
+                "Step 6: After approval, the consulate sends payment instructions; pay the visa fee then.",
+                "Step 7: Your visa is issued.",
+              ],
+            },
+          ],
+          note:
+            "No Paraguay consulate in Pakistan has been confirmed. The online system routes your application to the consulate responsible for your country of residence. You can confirm which one by emailing visas@mre.gov.py.",
+        },
+        {
+          heading: "Paraguay visa fee and processing time",
+          content:
+            "Submitting the online form costs nothing. The visa fee is about USD 100 for a multiple-entry visa, as published by the Embassy of Paraguay in India for 2026, and it is paid only after approval, using the instructions the consulate sends you. The fee may differ by consulate, so confirm it with the consulate handling your file. There is no fixed published processing time; apply at least 30 days before your travel date, counted from when your file is complete.",
+        },
+        {
+          heading: "Common mistakes that get applications rejected",
+          subsections: [
+            {
+              title: "Avoid these",
+              items: [
+                "Typing or spelling errors: any difference from your passport can lead to rejection.",
+                "Files over 1 MB, or documents uploaded in the wrong format.",
+                "A photo with a coloured background, glasses or accessories.",
+                "A police certificate that isn't legalized or apostilled.",
+                "A weak bank statement: unstamped, older than 3 months, or not in your name.",
+                "Buying a non-refundable ticket before approval instead of using a flight itinerary.",
+                "Applying too close to your travel date.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Paraguay temporary residence (2 years): how it actually works",
+          content:
+            "Temporary residence is not part of the visa. It is a separate application made with Paraguay's Dirección Nacional de Migraciones, after you have entered the country on your visa. Temporary residence is valid for up to 2 years, renewable for the same period, and gives a Paraguayan ID card, the right to leave and re-enter, and the right to work and study.",
+          subsections: [
+            {
+              title: "Residence requirements include",
+              items: [
+                "Passport, consular visa and proof of entry into Paraguay.",
+                "Apostilled birth certificate, and civil status certificate if applicable.",
+                "Police clearance, plus INTERPOL and foreigners' criminal record certificates.",
+                "Two sworn declarations generated by the immigration system.",
+                "All foreign documents translated into Spanish and legalized or apostilled.",
+              ],
+            },
+          ],
+          note:
+            "Residence fees are not covered here; confirm them directly with Migraciones. Travelaxis helps with visit visa applications only and does not provide residence or immigration services.",
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We help Pakistani applicants with the visit visa stage: a personal document checklist, guidance on getting your police certificate apostilled, help filling the online form so it matches your passport exactly, and a full file review before you submit. That reduces the avoidable mistakes that cause rejections. Message us on WhatsApp or see our [visit visa services](/visit-visa). We don't guarantee approval: the decision is made by the Paraguayan consulate.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Schengen & Germany Visit Visa from Pakistan", href: "/visit-visa/schengen" },
+            { label: "Cover Letter for a Visit Visa: Free Sample & Template", href: "/blog/cover-letter-for-visit-visa-sample-pakistan" },
+            { label: "Visit Visas by Region", href: "/visit-visa" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Is the Paraguay visa free for Pakistanis?",
+              answer:
+                "No. Submitting the online application form is free, but the visa itself has a fee of about USD 100 for a multiple-entry visa. You pay it only after your application is approved, using the payment instructions the consulate sends. The fee may differ by consulate.",
+            },
+            {
+              question: "How much is the Paraguay visa fee?",
+              answer:
+                "About USD 100 for a multiple-entry Non-Resident Visa, as published by the Embassy of Paraguay in India for 2026. It is paid after approval, not when you submit the form. Because the amount can differ by consulate, confirm it with the consulate handling your application.",
+            },
+            {
+              question: "Is there an interview for the Paraguay visa?",
+              answer:
+                "There can be. After a consulate reviews your online file, shortlisted applicants receive an interview date and time by email. The consulate may also ask for extra documents before deciding. Plan for this when choosing your travel dates.",
+            },
+            {
+              question: "Can I get Paraguay residence directly with the visa?",
+              answer:
+                "No. Temporary residence is a separate application with Paraguay's Dirección Nacional de Migraciones, made after you enter the country. It needs apostilled, Spanish-translated documents, police and INTERPOL clearances, and sworn declarations. The visa only allows you to enter Paraguay.",
+            },
+            {
+              question: "Where do Pakistanis apply for a Paraguay visa?",
+              answer:
+                "Online, on the official Paraguay Ministry of Foreign Affairs website (mre.gov.py). No Paraguay consulate in Pakistan has been confirmed; the system routes your file to the consulate responsible for your country of residence. You can confirm by emailing visas@mre.gov.py.",
+            },
+            {
+              question: "How long does a Paraguay visa take?",
+              answer:
+                "There is no fixed published processing time. Apply at least 30 days before your travel date, counted from when your file is complete, because the consulate may request more documents or schedule an interview before approving the visa.",
+            },
+            {
+              question: "Do I need a yellow fever vaccine for Paraguay?",
+              answer:
+                "Only if you are arriving from Brazil, Bolivia, Colombia or Peru. Travellers coming from these countries need a yellow fever vaccination with an international certificate. If you fly directly from Pakistan or the UAE, check the current health requirements before travel.",
+            },
+            {
+              question: "What documents do I need for a Paraguay visa from Pakistan?",
+              answer:
+                "A 3x4 cm photo, passport scan, copies of previous visas, a 3-month stamped bank statement or employment certificate, an apostilled police certificate, a hotel booking, a flight itinerary, and optionally an invitation letter. All documents are PDFs of up to 1 MB each.",
+            },
+          ],
+        },
+        {
+          heading: "Conclusion",
+          content:
+            "A Paraguay visa for Pakistani travellers is possible, but it is not a free, instant e-visa, and it doesn't come with residence. Prepare a complete file, follow the official online process on mre.gov.py, expect a possible interview, and pay the fee only after approval. If you want your documents checked before you submit, message Travelaxis on WhatsApp for a file review.",
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. Visa rules and fees can change. Always confirm with the official [Paraguay Ministry of Foreign Affairs website](https://www.mre.gov.py/visasenlinea/requisitos/noresidente) before applying. Travelaxis is an independent consultancy and is not affiliated with the Government of Paraguay.",
+        },
+      ],
+    },
+  },
   "lahore-to-dubai-trip-cost-pkr": {
     title: "Lahore to Dubai Trip Cost for 4 Days in PKR (2026 Budget Breakdown)",
     metaTitle: "Lahore to Dubai 4-Day Trip Cost in PKR (2026)",
@@ -156,6 +799,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Bringing Medicines to Dubai from Pakistan", href: "/blog/bringing-medicines-to-dubai-from-pakistan" },
             { label: "Bank Statement for Dubai Visit Visa from Pakistan", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
             { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
@@ -356,6 +1000,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Bringing Medicines to Dubai from Pakistan", href: "/blog/bringing-medicines-to-dubai-from-pakistan" },
             { label: "Lahore to Dubai 4-Day Trip Cost in PKR (2026)", href: "/blog/lahore-to-dubai-trip-cost-pkr" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "UAE Visit Visa for Relatives – Sponsor Salary Rules", href: "/blog/visit-visa-relatives-uae-guide" },
@@ -750,6 +1395,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Bringing Medicines to Dubai from Pakistan", href: "/blog/bringing-medicines-to-dubai-from-pakistan" },
             { label: "Lahore to Dubai 4-Day Trip Cost in PKR (2026)", href: "/blog/lahore-to-dubai-trip-cost-pkr" },
             { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
@@ -2072,6 +2718,7 @@ export const blogData: Record<string, any> = {
           content:
             "At Travelaxis we prepare [UK Standard Visitor visa files](/visit-visa/uk) for Pakistani applicants from our offices in Dubai and Lahore. We review your bank statements the way an Entry Clearance Officer will — checking the balance against your itinerary, flagging risky deposits, and making sure the source of funds is documented and your ties are clear. We are a documentation and consultancy service; we do not issue visas or guarantee outcomes, but we make sure your money strengthens your case instead of sinking it.",
           relatedLinks: [
+            { label: "Is the UK Care Worker Visa Still Open for Pakistanis? (2026)", href: "/blog/uk-care-worker-visa-pakistan-2026" },
             { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
             {
@@ -2331,6 +2978,7 @@ export const blogData: Record<string, any> = {
           content:
             "At Travelaxis we prepare [UK Standard Visitor visa files](/visit-visa/uk) for Pakistani applicants from our offices in Dubai and Lahore, focusing on exactly what the ECO scrutinises: strong ties to Pakistan, clean and well-sourced funds, a credible purpose, and a consistent set of documents. If you have already been refused, we review your refusal notice, fix each point, and rebuild the file for a stronger reapplication. We are a documentation and consultancy service — we do not issue visas and cannot guarantee an outcome — but we make sure your application answers every doubt an officer might raise.",
           relatedLinks: [
+            { label: "Is the UK Care Worker Visa Still Open for Pakistanis? (2026)", href: "/blog/uk-care-worker-visa-pakistan-2026" },
             { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
             { label: "UK Visit Visa Requirements & Application Support", href: "/visit-visa/uk" },
@@ -4987,6 +5635,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Bringing Medicines to Dubai from Pakistan", href: "/blog/bringing-medicines-to-dubai-from-pakistan" },
             { label: "Lahore to Dubai 4-Day Trip Cost in PKR (2026)", href: "/blog/lahore-to-dubai-trip-cost-pkr" },
             { label: "Dubai Visit Visa for Wife & Kids from Pakistan", href: "/blog/dubai-visit-visa-wife-kids-pakistan" },
             { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },

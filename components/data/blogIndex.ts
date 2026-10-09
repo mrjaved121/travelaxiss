@@ -9,6 +9,33 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uk-care-worker-visa-pakistan-2026",
+      title: "Is the UK Care Worker Visa Still Open for Pakistanis? (2026 Update)",
+      excerpt:
+        "No: the UK closed care worker and senior care worker visas to overseas applicants on 22 July 2025. Who can still switch in the UK until 2028, why agents still sell it, how to spot care visa scams and what routes remain.",
+      date: "October 9, 2026",
+      readTime: "9 min read",
+      category: "UK Visa Documentation",
+    },
+    {
+      id: "bringing-medicines-to-dubai-from-pakistan",
+      title: "Bringing Medicines to Dubai from Pakistan: What's Allowed and What Needs a Permit (2026)",
+      excerpt:
+        "Ordinary prescribed medicines are allowed in normal quantity; controlled and semi-controlled medicines need a free EDE import permit and a maximum three-month supply. Documents, step-by-step permit process and airport checklist.",
+      date: "October 9, 2026",
+      readTime: "8 min read",
+      category: "UAE Travel Planning",
+    },
+    {
+      id: "paraguay-visa-for-pakistani",
+      title: "Paraguay Visa for Pakistanis 2026: Online Application Process, Documents & Fees",
+      excerpt:
+        "Not a free instant e-visa, and no direct residence: how Pakistanis apply online for Paraguay's Non-Resident Visa, the documents, the possible interview, the USD 100 fee paid after approval, and how temporary residence really works.",
+      date: "October 9, 2026",
+      readTime: "10 min read",
+      category: "Visit Visa Documentation",
+    },
+    {
       id: "lahore-to-dubai-trip-cost-pkr",
       title: "Lahore to Dubai Trip Cost for 4 Days in PKR (2026 Budget Breakdown)",
       excerpt:
