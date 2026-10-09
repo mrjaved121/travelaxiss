@@ -6,6 +6,8 @@ The single source of truth for how travelaxis.me looks. Use only the colours, ty
 
 **What we sell:** visit visa documentation for every destination (Dubai/UAE, UK, USA, Schengen, Canada, Australia, Asia, Middle East and more), from offices in Dubai and Lahore.
 
+**Technical note:** this project runs a customized/pinned Next.js build with some differences from the publicly documented API. Check `node_modules/next/dist/docs/` for the current reference before relying on general Next.js documentation, and watch for deprecation notices.
+
 ---
 
 ## 1. Colour palette
