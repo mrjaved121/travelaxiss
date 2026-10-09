@@ -497,7 +497,7 @@ export default function VisitVisaUaePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
-              href="/contact"
+              href="#requirements-form"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               <span>Check Requirements</span>

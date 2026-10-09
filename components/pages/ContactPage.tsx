@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useState, type FormEvent } from "react";
+import { Suspense, useEffect, useId, useState, type FormEvent } from "react";
 import { useSearchParams } from "next/navigation";
 import { Mail, Phone, MapPin, MessageCircle, Send, CheckCircle2 } from "lucide-react";
 import { motion } from "motion/react";
@@ -24,19 +24,33 @@ const PURPOSE_OPTIONS = ["Tourism", "Study", "Family visit", "Business visit", "
 const fieldClassName =
   "w-full rounded-xl border border-[#E6E1D8] bg-white px-4 py-3 text-[#0F2A43] placeholder:text-[#52606D] focus:outline-none focus:ring-2 transition-shadow";
 
+/**
+ * Isolates the one piece of this page that needs the URL's query string
+ * (?service=...), since useSearchParams() forces a Suspense boundary around
+ * whatever calls it during static export. Keeping that boundary this small
+ * means the rest of the page — H1, form, hours, map — renders in the static
+ * HTML instead of behind a client-only fallback.
+ */
+function ServicePrefill({ onPrefill }: { onPrefill: (service: string) => void }) {
+  const searchParams = useSearchParams();
+  useEffect(() => {
+    const prefillService = searchParams?.get("service");
+    const match = SERVICE_OPTIONS.find((s) => s.label === prefillService);
+    if (match) onPrefill(match.label);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+  return null;
+}
+
 export default function ContactPage() {
   const idPrefix = useId();
   const phoneNumber = "+971589867555";
   const whatsappLink = `https://wa.me/${phoneNumber.replace(/\+/g, "")}`;
-  const searchParams = useSearchParams();
-  const prefillService = searchParams?.get("service");
 
   const [name, setName] = useState("");
   const [whatsapp, setWhatsapp] = useState("");
   const [applyingFrom, setApplyingFrom] = useState(APPLYING_FROM_OPTIONS[0]);
-  const [service, setService] = useState(
-    SERVICE_OPTIONS.find((s) => s.label === prefillService)?.label ?? SERVICE_OPTIONS[0].label
-  );
+  const [service, setService] = useState(SERVICE_OPTIONS[0].label);
   const [destination, setDestination] = useState("");
   const [purpose, setPurpose] = useState(PURPOSE_OPTIONS[0]);
   const [month, setMonth] = useState("");
@@ -65,6 +79,9 @@ export default function ContactPage() {
 
   return (
     <div>
+      <Suspense fallback={null}>
+        <ServicePrefill onPrefill={setService} />
+      </Suspense>
       {/* Hero Section */}
       <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F7F3EC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">

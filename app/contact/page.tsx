@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import ContactPage from "@/components/pages/ContactPage";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, professionalServiceJsonLd, pakistanOfficeJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Contact Travelaxis | Visa Documentation, Dubai & Lahore",
+  title: "Contact Us – Visit Visa Help, Dubai & Lahore",
   description:
     "Contact our Dubai and Lahore team about visit and study visa documentation. WhatsApp, phone, and email—Mon–Fri 9AM–6PM.",
   keywords: [
@@ -37,9 +36,7 @@ export default function Page() {
           pakistanOfficeJsonLd,
         ]}
       />
-      <Suspense fallback={null}>
-        <ContactPage />
-      </Suspense>
+      <ContactPage />
     </>
   );
 }

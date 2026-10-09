@@ -50,10 +50,12 @@ export const metadata: Metadata = {
     description: DEFAULT_DESCRIPTION,
     url: SITE_URL,
   },
+  // No title/description here: Next.js falls back to each page's own
+  // openGraph (or title/description) per-segment, so hardcoding them on the
+  // root layout was overriding every child page's Twitter card with the
+  // homepage's values instead.
   twitter: {
     card: "summary_large_image",
-    title: DEFAULT_TITLE,
-    description: DEFAULT_DESCRIPTION,
   },
   robots: {
     index: true,
