@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "dubai-visit-visa-status-check-pakistan",
+      title: "Dubai Visit Visa Status Kaise Check Karein? Passport Number Se (2026 Guide)",
+      excerpt:
+        "Passport number se Dubai visit visa status check karne ka official, muft tareeqa: Dubai ke visa ke liye GDRFA/DubaiNow, baqi emirates ke liye ICP File Validity, status ka matlab, aur fake websites se bachao.",
+      date: "October 9, 2026",
+      readTime: "7 min read",
+      category: "UAE Visa Documentation",
+    },
+    {
       id: "dubai-visit-visa-for-parents-pakistan",
       title: "Dubai Visit Visa for Parents from Pakistan: Documents, Sponsor Rules and Tips (2026)",
       excerpt:

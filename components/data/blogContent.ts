@@ -5,6 +5,194 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "dubai-visit-visa-status-check-pakistan": {
+    title: "Dubai Visit Visa Status Kaise Check Karein? Passport Number Se (2026 Guide)",
+    metaTitle: "Dubai Visa Status Kaise Check Karein (2026)",
+    metaDescription:
+      "Dubai visit visa status kaise check karein: passport number se GDRFA aur ICP par step-by-step tareeqa, status ka matlab aur fake websites se bachao (2026).",
+    keywords: [
+      "dubai visit visa status kaise check karein",
+      "dubai visa status check by passport number",
+      "uae visa status check pakistan",
+      "dubai visa check online pakistan",
+      "visit visa status check dubai",
+      "gdrfa visa status check",
+      "icp file validity visa check",
+    ],
+    date: "October 9, 2026",
+    dateModifiedIso: "2026-10-09",
+    readTime: "7 min read",
+    category: "UAE Visa Documentation",
+    cta: {
+      heading: "Status Samajh Nahi Aa Raha?",
+      text: "Apna status ka screenshot WhatsApp par bhejein, hum bata dein ge iska matlab aur agla qadam.",
+      label: "WhatsApp Par Poochein",
+      href: "/visit-visa/uae#requirements-form",
+    },
+    content: {
+      intro:
+        "Dubai visit visa ka status aap muft mein, ghar baithe, sirf passport number se check kar sakte hain. Agar visa Dubai ne jari kiya hai to GDRFA Dubai ki website ya DubaiNow app istemal karein. Agar visa Abu Dhabi, Sharjah ya kisi aur emirate ka hai to ICP Smart Services par \"File Validity\" mein \"Visa\" select karein. Aapko passport number, nationality (Pakistan) aur date of birth chahiye. Agar abhi apply kiya hai aur visa issue nahi hua, to application number se check karein ya apne travel agent se poochein. In English: check a Dubai-issued visa on GDRFA Dubai or the DubaiNow app, and a visa from any other emirate on ICP Smart Services under File Validity, using your passport number, nationality and date of birth.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Dubai visa status check (2026)",
+              items: [
+                "Cost: free on the official websites and apps.",
+                "Dubai ka visa: GDRFA Dubai website (gdrfad.gov.ae) ya DubaiNow app.",
+                "Baqi emirates ka visa: ICP Smart Services (smartservices.icp.gov.ae) ya UAEICP app, \"File Validity\" service.",
+                "Zaroori maloomat: passport number, nationality, date of birth; kabhi file number ya application number.",
+                "\"No record found\" ka aksar matlab: ghalat portal (emirate) ya passport number mein farq.",
+                "Third-party \"visa check\" websites par passport details na dalein.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Pehle yeh dekhein: visa kis emirate ne jari kiya?",
+          content:
+            "UAE mein do official system hain. Dubai ke visas GDRFA Dubai (General Directorate of Residency and Foreigners Affairs) jari karta hai, aur Abu Dhabi, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah aur Fujairah ke visas ICP (Federal Authority for Identity, Citizenship, Customs and Port Security) ke system mein hote hain. Aapke visa ki copy par emirate ka naam likha hota hai. Agar ghalat portal par check karein ge to \"no record found\" aa sakta hai, chahe visa sahi ho ([Gulf News](https://gulfnews.com/living-in-uae/visa-immigration/how-to-check-uae-visa-validity-issuance-and-expiry-dates-1.1677511820536)).",
+        },
+        {
+          heading: "Tareeqa 1: Dubai visa status GDRFA par kaise check karein",
+          subsections: [
+            {
+              title: "Steps (website ya DubaiNow app)",
+              items: [
+                "GDRFA Dubai ki official website gdrfad.gov.ae kholein, ya apne phone par DubaiNow app install karein.",
+                "Visa ya status inquiry wali service khol ein (website par menu ka naam waqt ke sath badal sakta hai).",
+                "Search ka tareeqa chunein: issued visa ke liye file number ya passport details, aur abhi process mein visa ke liye application number.",
+                "Pehla naam, nationality (Pakistan) aur date of birth bilkul passport ke mutabiq likhein.",
+                "Captcha tick karein aur \"Search\" dabayein. Result mein status, issue date aur expiry date nazar aayein ge.",
+              ],
+            },
+          ],
+          note:
+            "Madad ke liye Amer call centre: UAE ke andar 800 5111, aur UAE se bahar +971 4 313 9999 (Gulf News ke mutabiq).",
+        },
+        {
+          heading: "Tareeqa 2: Abu Dhabi, Sharjah ya baqi emirates ka visa ICP par check karein",
+          subsections: [
+            {
+              title: "Steps (ICP Smart Services ya UAEICP app)",
+              items: [
+                "ICP Smart Services website smartservices.icp.gov.ae kholein, ya UAEICP app istemal karein.",
+                "Public services mein \"File Validity\" service chunein.",
+                "\"Passport information\" select karein, aur visa type mein \"Visa\" (visit visa ke liye) chunein.",
+                "Passport number, nationality aur baqi maloomat bilkul passport ki tarah likhein.",
+                "Captcha tick karke \"Search\" dabayein. Result mein file number, status, issue date aur expiry date aayein ge.",
+              ],
+            },
+          ],
+          note:
+            "ICP customer service: 600 522222 (Gulf News ke mutabiq).",
+        },
+        {
+          heading: "Abhi apply kiya hai? Process wala visa kaise check karein",
+          content:
+            "Agar visa abhi issue nahi hua to file number nahi hota. Is surat mein GDRFA par \"Application number\" wala option istemal karein, jo aapko apply karte waqt ya agent se milta hai. Zyada tar Pakistani applicants travel agent ke zariye apply karte hain, is liye agent se application number zaroor lein. Aam taur par complete file par faisla kuch dinon mein ho jata hai, lekin 2025–2026 mein Pakistani applications par der bhi hui hai.",
+        },
+        {
+          heading: "Status ka matlab kya hai?",
+          content:
+            "Portal par alfaz thore mukhtalif ho sakte hain, lekin aam taur par matlab yeh hota hai:",
+          subsections: [
+            {
+              title: "Aam status",
+              items: [
+                "Issued / Active / Valid: visa jari ho gaya hai. Expiry date se pehle UAE mein dakhil hon.",
+                "Under process / In progress: application abhi review mein hai.",
+                "Rejected: visa mana ho gaya. Wajah aam taur par nahi batayi jati. Agla qadam: [Dubai visa reject ho jaye to kya karein](/blog/dubai-visit-visa-rejected-pakistan).",
+                "Cancelled / Expired: visa ab istemal nahi ho sakta.",
+                "No record found: ghalat portal, ghalat passport number, ya visa abhi system mein nahi aaya.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Fake visa check websites se bachein",
+          content:
+            "Internet par bohat si websites \"instant UAE visa check\" ka dawa karti hain. Yeh official nahi hain, aur apna passport number aur date of birth wahan dalna khatarnak ho sakta hai. Sirf gdrfad.gov.ae, smartservices.icp.gov.ae, DubaiNow app aur UAEICP app istemal karein. Agar koi agent kahe ke visa \"approve\" ho gaya hai, to khud official portal par check karein ya visa ki PDF copy mangein.",
+        },
+        {
+          heading: "Ban ya purana overstay check karna hai?",
+          content:
+            "Agar pichli dafa overstay hua tha ya visa baar baar reject ho raha hai, to file par ban to nahi, yeh bhi official ICP ya GDRFA services se check hota hai. Tafseel hamari [UAE visa ban aur status check guide](/blog/uae-visa-ban-status-check-guide) mein hai.",
+        },
+        {
+          heading: "Summary in English",
+          content:
+            "To check a Dubai visit visa status from Pakistan, first find which emirate issued it. For Dubai, use GDRFA Dubai's website or the DubaiNow app with your file number or passport details (or the application number if it's still processing). For Abu Dhabi, Sharjah and the other emirates, use ICP Smart Services or the UAEICP app: choose File Validity, then passport information and \"Visa\". You'll need your passport number, nationality and date of birth. The check is free; avoid unofficial websites that ask for your passport details.",
+        },
+        {
+          heading: "Travelaxis aapki kaise madad kar sakta hai",
+          content:
+            "Hum aapki Dubai visit visa file tayyar karte hain, status track karne mein madad karte hain, aur agar visa reject ho to batate hain ke agli application mein kya badalna hai. Apna status ka screenshot WhatsApp par bhejein, ya hamara [Dubai visit visa from Pakistan page](/visit-visa/uae) dekhein. Hum documentation service hain: visa ka faisla hamesha UAE immigration karti hai.",
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            { label: "Dubai Visit Visa Rejected? Reasons and What to Do Next", href: "/blog/dubai-visit-visa-rejected-pakistan" },
+            { label: "UAE Visa Ban & Status Check by Passport Number", href: "/blog/uae-visa-ban-status-check-guide" },
+            { label: "Bank Statement for Dubai Visit Visa from Pakistan", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
+            { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
+            { label: "Dubai Visit Visa from Pakistan: Price & Application Support", href: "/visit-visa/uae" },
+          ],
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Dubai visit visa status kaise check karein?",
+              answer:
+                "Dubai ka visa GDRFA Dubai website ya DubaiNow app par check karein; baqi emirates ka visa ICP Smart Services par \"File Validity\" mein. Passport number, nationality aur date of birth chahiye.",
+            },
+            {
+              question: "How can I check my Dubai visa status by passport number?",
+              answer:
+                "Use GDRFA Dubai's website or the DubaiNow app for a Dubai-issued visa, or ICP Smart Services' File Validity service (passport information, then Visa) for other emirates. Enter your passport number, nationality and date of birth.",
+            },
+            {
+              question: "Kya visa status check karne ki fees hai?",
+              answer:
+                "Nahi. Official GDRFA aur ICP websites aur apps par status check muft hai.",
+            },
+            {
+              question: "\"No record found\" ka kya matlab hai?",
+              answer:
+                "Aksar aap ghalat portal par check kar rahe hain (Dubai ka visa ICP par ya baqi emirates ka GDRFA par), passport number mein farq hai, ya visa abhi system mein nahi aaya.",
+            },
+            {
+              question: "Visa abhi process mein hai, kaise check karun?",
+              answer:
+                "GDRFA par application number se check karein. Yeh number apply karte waqt ya apne travel agent se milta hai.",
+            },
+            {
+              question: "Can I check a UAE visa status from Pakistan?",
+              answer:
+                "Yes. The GDRFA and ICP websites and apps work from anywhere, including Pakistan, and the check is free.",
+            },
+            {
+              question: "Visa reject ho gaya to kya karun?",
+              answer:
+                "Pehle ban check karein, phir reject hone ki mumkina wajah (bank statement, documents, profile) theek karke dobara apply karein. Same file dobara na bhejein.",
+            },
+            {
+              question: "Kya third-party websites par visa check karna theek hai?",
+              answer:
+                "Behtar hai na karein. Sirf official GDRFA, ICP, DubaiNow aur UAEICP par check karein taake aapki passport maloomat mehfooz rahe.",
+            },
+          ],
+        },
+        {
+          heading: "A note on accuracy",
+          content:
+            "Last updated October 2026. Official portals sometimes rename menus or move services, so the exact labels may differ from this guide. Always use the official [GDRFA Dubai](https://gdrfad.gov.ae/en) and [ICP Smart Services](https://smartservices.icp.gov.ae) websites or their apps. Helpline numbers are as reported by Gulf News. Travelaxis provides documentation and application support and does not issue visas or guarantee approvals.",
+        },
+      ],
+    },
+  },
   "dubai-visit-visa-for-parents-pakistan": {
     title: "Dubai Visit Visa for Parents from Pakistan: Documents, Sponsor Rules and Tips (2026)",
     metaTitle: "Dubai Visit Visa for Parents from Pakistan 2026",
@@ -150,6 +338,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
             { label: "UAE Visit Visa for Relatives – Sponsor Salary Rules", href: "/blog/visit-visa-relatives-uae-guide" },
             { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
             { label: "Dubai Visit Visa Rejected? Reasons and What to Do Next", href: "/blog/dubai-visit-visa-rejected-pakistan" },
@@ -357,6 +546,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Bank Statement for Dubai Visit Visa from Pakistan: How Much Balance You Need", href: "/blog/dubai-visit-visa-bank-statement-pakistan" },
             { label: "UAE Visa Ban & Status Check by Passport Number", href: "/blog/uae-visa-ban-status-check-guide" },
@@ -2357,6 +2547,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
             { label: "Dubai Visit Visa Rejected? Reasons and What to Do Next", href: "/blog/dubai-visit-visa-rejected-pakistan" },
             { label: "Urgent GDRFA Document Approval", href: "/blog/urgent-gdrfa-document-approval-guide" },
             { label: "UAE Visa Process Explained", href: "/blog/uae-visa-process-guide" },
@@ -4380,6 +4571,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
+            { label: "Dubai Visit Visa Status Kaise Check Karein (Passport Number Se)", href: "/blog/dubai-visit-visa-status-check-pakistan" },
             { label: "Dubai Visit Visa for Parents from Pakistan", href: "/blog/dubai-visit-visa-for-parents-pakistan" },
             { label: "Dubai Visit Visa from Pakistan — Apply Now", href: "/visit-visa/uae" },
             { label: "UAE Visit Visa for Relatives – Documentation Guide", href: "/blog/visit-visa-relatives-uae-guide" },
