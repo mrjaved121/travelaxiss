@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import TourPackageLeadForm from "@/components/TourPackageLeadForm";
-import { tourPackageIncludes, attractionOptions, tourPackageFaqs } from "@/components/data/uaeTourPackage";
+import { tourPackageIncludes, attractionOptions, moreExperienceGroups, tourPackageFaqs } from "@/components/data/uaeTourPackage";
 
 const WHATSAPP_HREF =
   "https://wa.me/971589867555?text=" + encodeURIComponent("Hi, I'm interested in the UAE visit visa + tour package");
@@ -41,51 +41,62 @@ export default function UaeTourPackagePage() {
           style={{ backgroundColor: "rgba(245,165,36,0.15)" }}
           aria-hidden
         />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#E0F0FB" }}>
-            UAE Visit Visa + Holiday Package
-          </p>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
-            Explore the Best of the UAE — <span style={{ color: "#F5A524" }}>Visa, Hotel &amp; Tours Sorted</span>
-          </h1>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Burj Khalifa, Desert Safaris, Dubai Mall, Ferrari World, Atlantis and more — tell us what you want to
-            see, and we&apos;ll put together your visit visa documentation, hotel stay, airport transfers and
-            itinerary around it.
-          </p>
-          <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-10 text-white/95 text-sm font-medium">
-            {["Visit visa documentation", "Airport pick-up & drop-off", "4-star hotel, 7 days", "Fully customizable tours"].map((item) => (
-              <li key={item} className="flex items-center gap-2">
-                <span className="inline-block w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "#38BDF8" }} aria-hidden />
-                {item}
-              </li>
-            ))}
-          </ul>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#get-quote"
-              className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
-              style={{ backgroundColor: "#F5A524", color: "#3B2600" }}
-            >
-              <span>Get My Custom Quote</span>
-              <ArrowRight className="w-5 h-5" aria-hidden />
-            </a>
-            <a
-              href={WHATSAPP_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-semibold bg-white text-[#0F2A43] transition-all hover:opacity-90"
-              aria-label="Chat with Travelaxis on WhatsApp about the UAE tour package (opens in a new tab)"
-            >
-              <MessageCircle className="w-5 h-5" style={{ color: "#25D366" }} aria-hidden />
-              <span>Message Us on WhatsApp</span>
-            </a>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+          <div className="text-center lg:text-left">
+            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#E0F0FB" }}>
+              UAE Visit Visa + Holiday Package
+            </p>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
+              Explore the Best of the UAE — <span style={{ color: "#F5A524" }}>Visa, Hotel &amp; Tours Sorted</span>
+            </h1>
+            <p className="text-lg text-white/90 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+              Burj Khalifa, Desert Safaris, Dubai Mall, Ferrari World, Atlantis and more — tell us what you want to
+              see, and we&apos;ll put together your visit visa documentation, hotel stay, airport transfers and
+              itinerary around it.
+            </p>
+            <ul className="flex flex-wrap justify-center lg:justify-start gap-x-6 gap-y-2 mb-10 text-white/95 text-sm font-medium">
+              {["Visit visa documentation", "Airport pick-up & drop-off", "4-star hotel, 7 days", "Fully customizable tours"].map((item) => (
+                <li key={item} className="flex items-center gap-2">
+                  <span className="inline-block w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "#38BDF8" }} aria-hidden />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a
+                href="#get-quote"
+                className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
+                style={{ backgroundColor: "#F5A524", color: "#3B2600" }}
+              >
+                <span>Get My Custom Quote</span>
+                <ArrowRight className="w-5 h-5" aria-hidden />
+              </a>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-semibold bg-white text-[#0F2A43] transition-all hover:opacity-90"
+                aria-label="Chat with Travelaxis on WhatsApp about the UAE tour package (opens in a new tab)"
+              >
+                <MessageCircle className="w-5 h-5" style={{ color: "#25D366" }} aria-hidden />
+                <span>Message Us on WhatsApp</span>
+              </a>
+            </div>
+            <p className="text-xs text-white/65 mt-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+              Travelaxis is a documentation and consultancy service, not a government authority. We help arrange
+              your visa paperwork, accommodation and itinerary — we do not issue visas and cannot guarantee visa
+              approval. Pricing depends on your dates, group size and chosen attractions — message us for a quote.
+            </p>
           </div>
-          <p className="text-xs text-white/65 mt-8 max-w-xl mx-auto leading-relaxed">
-            Travelaxis is a documentation and consultancy service, not a government authority. We help arrange
-            your visa paperwork, accommodation and itinerary — we do not issue visas and cannot guarantee visa
-            approval. Pricing depends on your dates, group size and chosen attractions — message us for a quote.
-          </p>
+          <div className="hidden lg:block">
+            <img
+              src="/images/hero-uae-package.webp"
+              alt="Dubai skyline with Burj Khalifa at sunset"
+              width={1400}
+              height={875}
+              className="w-full h-auto rounded-3xl shadow-2xl"
+            />
+          </div>
         </div>
       </section>
 
@@ -114,6 +125,33 @@ export default function UaeTourPackagePage() {
         </div>
       </section>
 
+      {/* Hotel showcase */}
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <img
+              src="/images/hotel-room.webp"
+              alt="Example 4-star hotel room with a city view"
+              width={800}
+              height={600}
+              className="w-full h-auto rounded-2xl shadow-lg"
+              loading="lazy"
+            />
+            <p className="text-xs text-[#52606D] mt-2">Example of a 4-star hotel room — your exact hotel is confirmed when you book.</p>
+          </div>
+          <div className="text-center md:text-left">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43] mb-4">
+              A Comfortable 4-Star Stay
+            </h2>
+            <p className="text-lg text-[#52606D] leading-relaxed mb-4">
+              7 days / 6 nights in a 4-star hotel, chosen around your travel dates, group size and budget. Tell us
+              your preferences — location, room type, number of guests — and we&apos;ll confirm the right property
+              for your trip.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Attractions */}
       <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -130,17 +168,63 @@ export default function UaeTourPackagePage() {
             {attractionOptions.map((a) => (
               <div
                 key={a.name}
-                className="rounded-2xl border bg-white p-6"
+                className="rounded-2xl border bg-white overflow-hidden transition-all hover:-translate-y-1"
                 style={{ borderColor: "#E6E1D8", boxShadow: "0 2px 8px rgba(15,42,67,0.06)" }}
               >
-                <h3 className="text-lg font-bold text-[#0F2A43] mb-2">{a.name}</h3>
-                <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{a.description}</p>
+                <img
+                  src={a.image}
+                  alt={a.name}
+                  width={800}
+                  height={600}
+                  className="w-full h-44 object-cover"
+                  loading="lazy"
+                />
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-[#0F2A43] mb-2">{a.name}</h3>
+                  <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{a.description}</p>
+                </div>
               </div>
             ))}
           </div>
           <p className="text-center text-sm text-[#52606D] mt-8">
             Have something else in mind? Tell us in the form below — the itinerary is yours to shape.
           </p>
+        </div>
+      </section>
+
+      {/* More experiences — breadth, not a fixed itinerary */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
+              Even More to Experience in the UAE
+            </h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
+            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+              A sample of what&apos;s available across the UAE — not everything fits in 7 days, so this is here to
+              help you choose, not a fixed itinerary. Pick what interests you and we&apos;ll work it in.
+            </p>
+          </div>
+          <div className="space-y-8">
+            {moreExperienceGroups.map((group) => (
+              <div key={group.category}>
+                <h3 className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: "#0A4D8C" }}>
+                  {group.category}
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {group.items.map((item) => (
+                    <span
+                      key={item}
+                      className="rounded-full px-2.5 py-1 text-xs font-semibold"
+                      style={{ backgroundColor: "#E0F0FB", color: "#0A4D8C" }}
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
