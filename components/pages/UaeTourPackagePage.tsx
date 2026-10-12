@@ -18,7 +18,7 @@ const includeCards = [
   { icon: FileCheck, title: "Visit Visa Documentation", description: "We prepare your UAE visit visa application and supporting documents." },
   { icon: Plane, title: "Airport Pick-Up & Drop-Off", description: "Private transport to and from your hotel, both ways." },
   { icon: Hotel, title: "4-Star Hotel, 7 Days / 6 Nights", description: "A comfortable 4-star stay for the length of your trip." },
-  { icon: MapPinned, title: "Customizable Attractions", description: "Pick the tours and tickets that match what you want to see." },
+  { icon: MapPinned, title: "7-Day Tour Plan", description: "City tour, desert safari, Abu Dhabi, Burj Khalifa, dhow cruise and more." },
 ];
 
 const whyUs = [
@@ -140,8 +140,8 @@ export default function UaeTourPackagePage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">Choose Your Package</h2>
             <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
             <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
-              Two ways to visit the UAE. Both include a 4-star hotel and airport transfers. Gold adds the
-              top tours, ready-planned.
+              Both packages include a 4-star hotel, airport transfers and the full 7-day tour plan. Gold adds
+              Ferrari World, Atlantis Aquaventure and the Dubai Frame.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 items-start">
@@ -161,7 +161,7 @@ export default function UaeTourPackagePage() {
                       className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide text-white"
                       style={{ backgroundColor: "#0A4D8C" }}
                     >
-                      Tours Included
+                      Theme Parks Included
                     </span>
                   )}
                   <h3 className="text-2xl font-extrabold text-[#0F2A43]">{tier.name}</h3>
@@ -242,8 +242,8 @@ export default function UaeTourPackagePage() {
             </h2>
             <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
             <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
-              How a Gold Package trip typically runs, covering Dubai&apos;s top sights and a day in Abu Dhabi. On
-              the Standard Package, add any of these days to your quote. Every day can be swapped to suit you.
+              Included in both packages: Dubai&apos;s top sights and a day in Abu Dhabi. Gold Package extras fit
+              into the same days, and any day can be swapped to suit you.
             </p>
           </div>
           <ol className="space-y-4">
@@ -271,7 +271,7 @@ export default function UaeTourPackagePage() {
             ))}
           </ol>
           <p className="text-center text-sm text-[#52606D] mt-8">
-            Sample itinerary only. Your final plan, and what your quote covers, is confirmed with you before booking.
+            Days may be rearranged around your arrival date and tour availability. Your final plan is confirmed with you before booking.
           </p>
         </div>
       </section>
