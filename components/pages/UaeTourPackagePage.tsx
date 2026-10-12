@@ -1,6 +1,7 @@
 "use client";
 
-import { ArrowRight, MessageCircle, Plane, Hotel, FileCheck, MapPinned, Users, Clock, ShieldCheck } from "lucide-react";
+import { useState } from "react";
+import { ArrowRight, MessageCircle, Plane, Hotel, FileCheck, MapPinned, Users, Clock, ShieldCheck, Check, X } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -8,7 +9,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import TourPackageLeadForm from "@/components/TourPackageLeadForm";
-import { tourPackageIncludes, attractionOptions, sampleItinerary, moreExperienceGroups, tourPackageFaqs } from "@/components/data/uaeTourPackage";
+import { tourPackageIncludes, tourPackageTiers, attractionOptions, sampleItinerary, moreExperienceGroups, tourPackageFaqs } from "@/components/data/uaeTourPackage";
 
 const WHATSAPP_HREF =
   "https://wa.me/971589867555?text=" + encodeURIComponent("Hi, I'm interested in the UAE visit visa + tour package");
@@ -27,6 +28,8 @@ const whyUs = [
 ];
 
 export default function UaeTourPackagePage() {
+  const [selectedPackage, setSelectedPackage] = useState("Not sure yet");
+
   return (
     <div>
       {/* Hero */}
@@ -130,8 +133,81 @@ export default function UaeTourPackagePage() {
         </div>
       </section>
 
+      {/* Package tiers */}
+      <section id="packages" className="py-16 sm:py-20 scroll-mt-20" style={{ backgroundColor: "#F7F3EC" }}>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">Choose Your Package</h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
+            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+              Two ways to visit the UAE. Both include a 4-star hotel and airport transfers. Gold adds the
+              top tours, ready-planned.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 items-start">
+            {tourPackageTiers.map((tier, i) => {
+              const featured = i === tourPackageTiers.length - 1;
+              return (
+                <div
+                  key={tier.name}
+                  className="relative rounded-3xl bg-white p-6 sm:p-8 border-2"
+                  style={{
+                    borderColor: featured ? "#0A4D8C" : "#E6E1D8",
+                    boxShadow: featured ? "0 12px 32px rgba(10,77,140,0.15)" : "0 2px 8px rgba(15,42,67,0.06)",
+                  }}
+                >
+                  {featured && (
+                    <span
+                      className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide text-white"
+                      style={{ backgroundColor: "#0A4D8C" }}
+                    >
+                      Tours Included
+                    </span>
+                  )}
+                  <h3 className="text-2xl font-extrabold text-[#0F2A43]">{tier.name}</h3>
+                  <p className="text-sm font-semibold mt-1 mb-6" style={{ color: "#0A4D8C" }}>{tier.tagline}</p>
+                  <ul className="space-y-3 mb-6">
+                    {tier.includes.map((item) => (
+                      <li key={item} className="flex gap-3 text-[0.9375rem] text-[#0F2A43]">
+                        <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#0A4D8C" }} aria-hidden />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-xs font-bold uppercase tracking-wide text-[#52606D] mb-2">Not included</p>
+                  <ul className="space-y-2 mb-8">
+                    {tier.notIncluded.map((item) => (
+                      <li key={item} className="flex gap-3 text-sm text-[#52606D]">
+                        <X className="w-4 h-4 shrink-0 mt-0.5" aria-hidden />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <a
+                    href="#get-quote"
+                    onClick={() => setSelectedPackage(tier.name)}
+                    className="h-12 w-full inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
+                    style={
+                      featured
+                        ? { backgroundColor: "#F5A524", color: "#3B2600" }
+                        : { backgroundColor: "#FFFFFF", color: "#0A4D8C", border: "2px solid #0A4D8C" }
+                    }
+                  >
+                    <span>Get a {tier.name.replace(" Package", "")} Quote</span>
+                    <ArrowRight className="w-5 h-5" aria-hidden />
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+          <p className="text-center text-sm text-[#52606D] mt-8">
+            Price depends on your dates, group size and hotel — request a quote and we&apos;ll confirm it on WhatsApp.
+          </p>
+        </div>
+      </section>
+
       {/* Hotel showcase */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <img
@@ -158,7 +234,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Sample day-by-day itinerary */}
-      <section className="py-16 sm:py-20 bg-white">
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
@@ -166,8 +242,8 @@ export default function UaeTourPackagePage() {
             </h2>
             <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
             <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
-              A sample plan covering Dubai&apos;s top sights and a day in Abu Dhabi. Every day can be swapped or
-              changed to suit your dates and interests.
+              How a Gold Package trip typically runs, covering Dubai&apos;s top sights and a day in Abu Dhabi. On
+              the Standard Package, add any of these days to your quote. Every day can be swapped to suit you.
             </p>
           </div>
           <ol className="space-y-4">
@@ -201,7 +277,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Attractions */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
@@ -241,7 +317,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* More experiences — breadth, not a fixed itinerary */}
-      <section className="py-16 sm:py-20 bg-white">
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
@@ -279,7 +355,7 @@ export default function UaeTourPackagePage() {
       {/* Lead form #1 */}
       <section id="get-quote" className="py-16 sm:py-20 bg-white scroll-mt-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <TourPackageLeadForm />
+          <TourPackageLeadForm selectedPackage={selectedPackage} onPackageChange={setSelectedPackage} />
         </div>
       </section>
 

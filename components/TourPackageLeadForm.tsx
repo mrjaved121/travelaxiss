@@ -2,9 +2,11 @@
 
 import { useId, useState, type FormEvent } from "react";
 import { Send } from "lucide-react";
-import { formAttractionChoices } from "@/components/data/uaeTourPackage";
+import { formAttractionChoices, tourPackageTiers } from "@/components/data/uaeTourPackage";
 
 const WHATSAPP_NUMBER = "971589867555";
+
+const PACKAGE_OPTIONS = [...tourPackageTiers.map((t) => t.name), "Not sure yet"];
 
 const TRAVELER_OPTIONS = ["Just me", "Couple", "Family", "Private group"];
 
@@ -16,7 +18,15 @@ const fieldClassName =
  * anywhere — this is a static export with no backend to receive submissions,
  * same pattern as VisitVisaEnquiryForm and the contact page form.
  */
-export default function TourPackageLeadForm({ heading = "Get Your Custom Quote" }: { heading?: string }) {
+export default function TourPackageLeadForm({
+  heading = "Get Your Custom Quote",
+  selectedPackage = PACKAGE_OPTIONS[PACKAGE_OPTIONS.length - 1],
+  onPackageChange,
+}: {
+  heading?: string;
+  selectedPackage?: string;
+  onPackageChange?: (name: string) => void;
+}) {
   const idPrefix = useId();
   const [name, setName] = useState("");
   const [whatsapp, setWhatsapp] = useState("");
@@ -36,6 +46,7 @@ export default function TourPackageLeadForm({ heading = "Get Your Custom Quote" 
       "Hi, I'd like a quote for the UAE visit visa + tour package.",
       `Name: ${name}`,
       `WhatsApp: ${whatsapp}`,
+      `Package: ${selectedPackage}`,
       `Travelers: ${travelers}`,
       travelMonth && `Travel month: ${travelMonth}`,
       attractions.length > 0 && `Interested in: ${attractions.join(", ")}`,
@@ -97,6 +108,22 @@ export default function TourPackageLeadForm({ heading = "Get Your Custom Quote" 
               className={fieldClassName}
             />
           </div>
+        </div>
+
+        <div>
+          <label htmlFor={`${idPrefix}-package`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+            Package
+          </label>
+          <select
+            id={`${idPrefix}-package`}
+            value={selectedPackage}
+            onChange={(e) => onPackageChange?.(e.target.value)}
+            className={fieldClassName}
+          >
+            {PACKAGE_OPTIONS.map((option) => (
+              <option key={option} value={option}>{option}</option>
+            ))}
+          </select>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-5">

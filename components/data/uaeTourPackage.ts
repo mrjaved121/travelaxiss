@@ -13,6 +13,42 @@ export const attractionOptions: { name: string; description: string; image: stri
   { name: "Atlantis, The Palm", description: "Aquaventure Waterpark and The Lost Chambers Aquarium.", image: "/images/atlantis-palm.webp" },
 ];
 
+export type TourPackageTier = {
+  name: string;
+  tagline: string;
+  includes: string[];
+  notIncluded: string[];
+};
+
+/** The two package tiers. Flights are deliberately excluded from both. */
+export const tourPackageTiers: TourPackageTier[] = [
+  {
+    name: "Standard Package",
+    tagline: "Visa + Hotel + Transfers",
+    includes: [
+      "UAE visit visa documentation and application support",
+      "4-star hotel, 7 days / 6 nights",
+      "Airport pick-up and drop-off",
+      "Tours and attractions can be added to your quote",
+    ],
+    notIncluded: ["Flights", "Tours and attraction tickets", "Travel insurance", "Meals and personal expenses"],
+  },
+  {
+    name: "Gold Package",
+    tagline: "Visa + Hotel + Transfers + Tours",
+    includes: [
+      "Everything in the Standard Package",
+      "Dubai City Tour",
+      "Desert Safari with BBQ dinner",
+      "Abu Dhabi City Tour with Sheikh Zayed Grand Mosque",
+      "Dhow Cruise dinner",
+      "Burj Khalifa observation deck ticket",
+      "Hotel pick-up for each tour",
+    ],
+    notIncluded: ["Flights", "Travel insurance", "Meals other than tour dinners", "Personal expenses"],
+  },
+];
+
 /**
  * Sample 7-day plan shown on the page. It's a starting point the customer can
  * change, not a fixed list of what every quote includes.
@@ -100,7 +136,7 @@ export const moreExperienceGroups: { category: string; items: string[] }[] = [
 export const tourPackageFaqs: { q: string; a: string }[] = [
   {
     q: "What exactly is included in the UAE tour package?",
-    a: "Visit visa documentation support, airport pick-up and drop-off, a 4-star hotel stay for 7 days, and help arranging the attractions and day trips you want. The exact hotel, itinerary and attractions are customized to your dates and budget once you message us.",
+    a: "There are two options. The Standard Package covers visit visa documentation, a 4-star hotel for 7 days / 6 nights, and airport pick-up and drop-off. The Gold Package adds a Dubai City Tour, Desert Safari with BBQ dinner, an Abu Dhabi tour with Sheikh Zayed Grand Mosque, a Dhow Cruise dinner and a Burj Khalifa ticket. The exact hotel and itinerary are confirmed for your dates once you message us.",
   },
   {
     q: "Can I customize the itinerary and attractions?",
@@ -112,7 +148,7 @@ export const tourPackageFaqs: { q: string; a: string }[] = [
   },
   {
     q: "Are flights included in the package?",
-    a: "No. The package covers your visit visa documentation, airport pick-up and drop-off, a 4-star hotel stay and your tours. You book your own flights, so you're free to choose the airline, departure city and dates that suit you.",
+    a: "No, neither package includes flights. They cover your visit visa documentation, airport pick-up and drop-off, a 4-star hotel stay and, with Gold, your tours. You book your own flights, so you're free to choose the airline, departure city and dates that suit you.",
   },
   {
     q: "Do I need a visit visa to travel to the UAE?",
