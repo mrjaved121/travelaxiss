@@ -14,6 +14,61 @@ export const attractionOptions: { name: string; description: string; image: stri
 ];
 
 /**
+ * Sample 7-day plan shown on the page. It's a starting point the customer can
+ * change, not a fixed list of what every quote includes.
+ */
+export const sampleItinerary: { day: string; title: string; description: string }[] = [
+  {
+    day: "Day 1",
+    title: "Arrival & Hotel Check-In",
+    description: "Airport pick-up on arrival and transfer to your 4-star hotel. The rest of the day is yours to settle in.",
+  },
+  {
+    day: "Day 2",
+    title: "Dubai City Tour",
+    description: "Old and new Dubai in one day: the Al Fahidi Historical District, an abra ride across Dubai Creek, the Deira gold and spice souks, and photo stops along Jumeirah.",
+  },
+  {
+    day: "Day 3",
+    title: "Desert Safari with BBQ Dinner",
+    description: "Afternoon pick-up for dune bashing, camel riding and sandboarding, followed by a BBQ dinner and live shows at a desert camp.",
+  },
+  {
+    day: "Day 4",
+    title: "Abu Dhabi City Tour",
+    description: "A day trip to the capital: Sheikh Zayed Grand Mosque, Heritage Village and the Corniche. Ferrari World can be added as an upgrade.",
+  },
+  {
+    day: "Day 5",
+    title: "Burj Khalifa, Dubai Mall & Dhow Cruise",
+    description: "The Burj Khalifa observation deck and Dubai Mall by day, then a dinner cruise on a traditional dhow in the evening.",
+  },
+  {
+    day: "Day 6",
+    title: "Shopping & Global Village",
+    description: "A free day for shopping at Dragon Mart or the malls, then Global Village in the evening (open seasonally, typically October to May).",
+  },
+  {
+    day: "Day 7",
+    title: "Check-Out & Departure",
+    description: "Hotel check-out and transfer to the airport for your flight home.",
+  },
+];
+
+/** Options a customer can tick in the quote form. */
+export const formAttractionChoices: string[] = [
+  "Dubai City Tour",
+  "Burj Khalifa",
+  "Dubai Mall",
+  "Desert Safari",
+  "Dhow Cruise",
+  "Abu Dhabi & Grand Mosque",
+  "Global Village",
+  "Ferrari World",
+  "Atlantis, The Palm",
+];
+
+/**
  * A broader, non-exhaustive sample of real UAE attractions and experiences,
  * shown only as names (no photos, no prices) to demonstrate variety without
  * implying all of them fit in a 7-day trip. Customers pick what they want;
@@ -22,7 +77,7 @@ export const attractionOptions: { name: string; description: string; image: stri
 export const moreExperienceGroups: { category: string; items: string[] }[] = [
   {
     category: "Landmarks & Culture",
-    items: ["The Palm Monorail", "Dubai Frame", "Al Shindagha Museum", "Global Village", "Qasr Al Watan, Abu Dhabi", "Old Dubai Walking Tour"],
+    items: ["Sheikh Zayed Grand Mosque, Abu Dhabi", "Global Village", "Dubai Frame", "Al Fahidi Historical District", "Deira Gold & Spice Souks", "Dragon Mart", "The Palm Monorail", "Al Shindagha Museum", "Qasr Al Watan, Abu Dhabi"],
   },
   {
     category: "Theme Parks & Waterparks",
@@ -49,7 +104,7 @@ export const tourPackageFaqs: { q: string; a: string }[] = [
   },
   {
     q: "Can I customize the itinerary and attractions?",
-    a: "Yes. Tell us which attractions interest you — Burj Khalifa, Desert Safari, Dubai Mall, Ferrari World, Atlantis and others are all options — and we'll put together an itinerary around them, for individuals, couples, families or groups.",
+    a: "Yes. The day-by-day plan on this page is a starting point. Swap days, add Ferrari World or Atlantis, or drop anything you don't want, and we'll rebuild the itinerary around your choices, for individuals, couples, families or groups.",
   },
   {
     q: "How much does the package cost?",

@@ -2,7 +2,7 @@
 
 import { useId, useState, type FormEvent } from "react";
 import { Send } from "lucide-react";
-import { attractionOptions } from "@/components/data/uaeTourPackage";
+import { formAttractionChoices } from "@/components/data/uaeTourPackage";
 
 const WHATSAPP_NUMBER = "971589867555";
 
@@ -135,13 +135,13 @@ export default function TourPackageLeadForm({ heading = "Get Your Custom Quote" 
             Attractions you&apos;re interested in (optional)
           </span>
           <div className="flex flex-wrap gap-2">
-            {attractionOptions.map((a) => {
-              const active = attractions.includes(a.name);
+            {formAttractionChoices.map((name) => {
+              const active = attractions.includes(name);
               return (
                 <button
-                  key={a.name}
+                  key={name}
                   type="button"
-                  onClick={() => toggleAttraction(a.name)}
+                  onClick={() => toggleAttraction(name)}
                   aria-pressed={active}
                   className="px-3 py-1.5 rounded-full text-sm font-medium border transition-colors"
                   style={
@@ -150,7 +150,7 @@ export default function TourPackageLeadForm({ heading = "Get Your Custom Quote" 
                       : { backgroundColor: "#F7F3EC", color: "#0F2A43", borderColor: "#E6E1D8" }
                   }
                 >
-                  {a.name}
+                  {name}
                 </button>
               );
             })}

@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import TourPackageLeadForm from "@/components/TourPackageLeadForm";
-import { tourPackageIncludes, attractionOptions, moreExperienceGroups, tourPackageFaqs } from "@/components/data/uaeTourPackage";
+import { tourPackageIncludes, attractionOptions, sampleItinerary, moreExperienceGroups, tourPackageFaqs } from "@/components/data/uaeTourPackage";
 
 const WHATSAPP_HREF =
   "https://wa.me/971589867555?text=" + encodeURIComponent("Hi, I'm interested in the UAE visit visa + tour package");
@@ -50,7 +50,8 @@ export default function UaeTourPackagePage() {
               Explore the Best of the UAE — <span style={{ color: "#F5A524" }}>Visa, Hotel &amp; Tours Sorted</span>
             </h1>
             <p className="text-lg text-white/90 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Burj Khalifa, Desert Safaris, Dubai Mall, Ferrari World, Atlantis and more — tell us what you want to
+              Burj Khalifa, Desert Safari, a Dubai City Tour, Abu Dhabi&apos;s Grand Mosque, a Dhow Cruise and
+              more — tell us what you want to
               see, and we&apos;ll put together your visit visa documentation, hotel stay, airport transfers and
               itinerary around it.
             </p>
@@ -149,6 +150,49 @@ export default function UaeTourPackagePage() {
               for your trip.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Sample day-by-day itinerary */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
+              Your 7-Day UAE Itinerary
+            </h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
+            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+              A sample plan covering Dubai&apos;s top sights and a day in Abu Dhabi. Every day can be swapped or
+              changed to suit your dates and interests.
+            </p>
+          </div>
+          <ol className="space-y-4">
+            {sampleItinerary.map((item, i) => (
+              <li
+                key={item.day}
+                className="flex gap-5 rounded-2xl border bg-white p-5 sm:p-6"
+                style={{ borderColor: "#E6E1D8", boxShadow: "0 2px 8px rgba(15,42,67,0.06)" }}
+              >
+                <div
+                  className="grid size-12 shrink-0 place-items-center rounded-full text-lg font-bold text-white"
+                  style={{ backgroundColor: "#0A4D8C" }}
+                  aria-hidden
+                >
+                  {i + 1}
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wide" style={{ color: "#0A4D8C" }}>
+                    {item.day}
+                  </p>
+                  <h3 className="text-lg font-bold text-[#0F2A43] mb-1">{item.title}</h3>
+                  <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{item.description}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <p className="text-center text-sm text-[#52606D] mt-8">
+            Sample itinerary only. Your final plan, and what your quote covers, is confirmed with you before booking.
+          </p>
         </div>
       </section>
 
