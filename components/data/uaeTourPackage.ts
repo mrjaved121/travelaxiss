@@ -111,6 +111,10 @@ export const tourPackageFaqs: { q: string; a: string }[] = [
     a: "Cost depends on your travel dates, group size, hotel category and which attractions you include, so we don't quote a fixed price here. Message us on WhatsApp with your travel plan and we'll confirm a quote for your exact trip.",
   },
   {
+    q: "Are flights included in the package?",
+    a: "No. The package covers your visit visa documentation, airport pick-up and drop-off, a 4-star hotel stay and your tours. You book your own flights, so you're free to choose the airline, departure city and dates that suit you.",
+  },
+  {
     q: "Do I need a visit visa to travel to the UAE?",
     a: "Most nationalities need a UAE visit visa arranged before travel, through a sponsor such as a tour operator, hotel, airline or UAE resident. We handle the documentation side of this as part of the package.",
   },

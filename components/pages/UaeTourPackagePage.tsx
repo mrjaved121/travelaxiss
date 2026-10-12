@@ -86,7 +86,8 @@ export default function UaeTourPackagePage() {
             <p className="text-xs text-white/65 mt-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Travelaxis is a documentation and consultancy service, not a government authority. We help arrange
               your visa paperwork, accommodation and itinerary — we do not issue visas and cannot guarantee visa
-              approval. Pricing depends on your dates, group size and chosen attractions — message us for a quote.
+              approval. Flights are not included. Pricing depends on your dates, group size and chosen attractions —
+              message us for a quote.
             </p>
           </div>
           <div className="hidden lg:block">
@@ -123,6 +124,9 @@ export default function UaeTourPackagePage() {
               </div>
             ))}
           </div>
+          <p className="text-center text-sm text-[#52606D] mt-8">
+            Flights are not included — book your own, from any city and airline you prefer.
+          </p>
         </div>
       </section>
 
