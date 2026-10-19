@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "study-abroad-without-ielts-from-pakistan",
+      title: "Study Abroad Without IELTS from Pakistan: 2026 Guide",
+      excerpt:
+        "Yes, you can study abroad without IELTS, if you prove your English another way: MOI letter, PTE, TOEFL or English-medium education. Which countries accept it, where IELTS is still needed and how to apply.",
+      date: "October 19, 2026",
+      readTime: "8 min read",
+      category: "International Visa Documentation",
+    },
+    {
       id: "uk-care-worker-visa-pakistan-2026",
       title: "Is the UK Care Worker Visa Still Open for Pakistanis? (2026 Update)",
       excerpt:

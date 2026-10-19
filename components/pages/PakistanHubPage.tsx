@@ -175,6 +175,14 @@ const guides: {
     icon: Sun,
     link: "/blog/australia-student-visa-genuine-student-requirement-pakistan",
   },
+  {
+    title: "Study Abroad Without IELTS",
+    category: "Study Abroad",
+    description:
+      "The real IELTS alternatives (MOI letter, PTE, TOEFL, English-medium proof), which countries accept them, and where IELTS is still needed.",
+    icon: Compass,
+    link: "/blog/study-abroad-without-ielts-from-pakistan",
+  },
 ];
 
 const whyUs: { icon: LucideIcon; title: string; description: string }[] = [
