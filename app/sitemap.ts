@@ -47,6 +47,7 @@ const staticPaths = [
   "/faq",
   "/contact",
   "/consultation",
+  "/apply",
   "/visa-finder",
   "/success-stories",
   "/blog",

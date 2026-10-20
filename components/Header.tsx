@@ -211,6 +211,15 @@ export default function Header() {
             {navGroups.map((group) => (
               <NavDropdown key={group.name} group={group} isActive={isActive} />
             ))}
+            <Link
+              href="/apply"
+              className={`nav-link transition-colors rounded-sm ${
+                isActive("/apply") ? "is-active" : "hover:text-[#0A4D8C]"
+              }`}
+              aria-current={isActive("/apply") ? "page" : undefined}
+            >
+              Submit Documents
+            </Link>
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
@@ -270,6 +279,18 @@ export default function Header() {
                   onNavigate={() => setMobileMenuOpen(false)}
                 />
               ))}
+              <li>
+                <Link
+                  href="/apply"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
+                    isActive("/apply") ? "is-active" : "hover:text-[#0A4D8C]"
+                  }`}
+                  aria-current={isActive("/apply") ? "page" : undefined}
+                >
+                  Submit Documents
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/contact"
