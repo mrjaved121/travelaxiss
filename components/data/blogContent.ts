@@ -5,6 +5,167 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uae-part-time-work-permit": {
+    title: "UAE Part-Time Work Permit 2026: How to Work Part-Time or Take a Second Job Legally",
+    metaTitle: "UAE Part-Time Work Permit 2026: Rules & How to Apply",
+    metaDescription: "Work part-time or take a second job in the UAE legally with a MOHRE part-time work permit: who qualifies, hours allowed, fees and how to apply in 2026.",
+    keywords: [
+      "uae part-time work permit",
+      "part-time work permit uae",
+      "second job in uae",
+      "can i work two jobs in uae",
+      "mohre part-time work permit",
+      "part-time job on family visa uae",
+      "uae part-time contract skilled workers"
+    ],
+    date: "October 21, 2026",
+    dateModifiedIso: "2026-10-21",
+    readTime: "6 min read",
+    category: "UAE Visa Documentation",
+    cta: {
+      heading: "Planning to Work in the UAE?",
+      text: "We don't arrange work permits, but we help Pakistani and Indian applicants prepare UAE job seeker visa documents so they can look for work in the Emirates.",
+      label: "UAE Job Seeker Visa",
+      href: "/job-seeker-visa"
+    },
+    content: {
+      intro: "Yes, you can legally work part-time or take a second job in the UAE, but only with a part-time work permit from MOHRE (the Ministry of Human Resources & Emiratisation). The permit is valid for one year and lets you work for another employer for less than eight hours a day. People on a family visa also need an NOC from their sponsor, and skilled workers with a degree or a two-to-three-year diploma can hold several part-time jobs. Starting a second job without the permit exposes the hiring company to a heavy fine. Here is who qualifies, how many hours you can work and how to apply in 2026.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "UAE part-time work permit in 2026",
+              items: [
+                "Issued by: MOHRE (Ministry of Human Resources & Emiratisation).",
+                "Validity: one year, then renewable.",
+                "Hours: less than eight hours a day with the second employer.",
+                "Age: available to men and women aged 18 to 65 on a family visa.",
+                "Family-visa holders: need an NOC from their sponsor.",
+                "Skilled workers (degree or two-to-three-year diploma): can hold several part-time jobs.",
+                "Fees: an application fee and an approval fee set by MOHRE; check the current amounts before you apply.",
+                "No permit: the company that hires you without one faces a heavy fine."
+              ]
+            }
+          ],
+          note: "Source: UAE Government portal, [Working for two employers at one time](https://u.ae/en/information-and-services/jobs/Workplace-regulations/working-for-two-employers-at-one-time). Rules change, so confirm the current position with MOHRE before applying."
+        },
+        {
+          heading: "Can you legally work part-time in the UAE?",
+          content: "Yes. UAE labour law allows an employee to hold a part-time job alongside a full-time one, as long as they get a part-time work permit from MOHRE first. The UAE's work-permit system has [several permit categories](https://u.ae/en/information-and-services/jobs/Sector-of-employment/employment-in-the-private-sector/work-permits), and the part-time permit is the one that makes a second job or a part-time contract legal. Without it, a second job is not allowed."
+        },
+        {
+          heading: "Who can get a UAE part-time work permit?",
+          content: "Whether you qualify depends on the visa you hold:",
+          subsections: [
+            {
+              title: "On a work visa (expat, GCC national or Emirati)",
+              content: "You can take a second job once you have a MOHRE part-time work permit. The part-time role must be less than eight hours a day."
+            },
+            {
+              title: "On a family (dependent) visa",
+              content: "You can work part-time with a MOHRE part-time work permit and an NOC from your sponsor. These permits are issued to men and women aged 18 to 65."
+            },
+            {
+              title: "Skilled workers (degree or two-to-three-year diploma)",
+              content: "Under the part-time contract system, skilled workers can take several part-time jobs without approval from their original or other employers. They still need a MOHRE permit."
+            }
+          ]
+        },
+        {
+          heading: "How much does a UAE part-time work permit cost?",
+          content: "MOHRE charges two government fees for a part-time work permit: an application fee and an approval fee. The current amounts are listed on the [UAE Government portal](https://u.ae/en/information-and-services/jobs/Workplace-regulations/working-for-two-employers-at-one-time). Typing centres and service providers may add their own charges on top, so ask for the full cost before you pay."
+        },
+        {
+          heading: "How many hours can you work part-time in the UAE?",
+          content: "If you already have a full-time job, the part-time role with the second employer must be less than eight hours a day. Skilled workers on part-time contracts, introduced under Ministerial Decree No. 31 of 2018, can split their time across several part-time jobs, which gives professionals more than one source of income."
+        },
+        {
+          heading: "What happens if you work part-time without a permit?",
+          content: "It is a serious risk. According to the [UAE Government portal](https://u.ae/en/information-and-services/jobs/Workplace-regulations/working-for-two-employers-at-one-time), if an expatriate is caught working for another company without an official permit, the hiring company is fined heavily, with further penalties for repeat offences. Get the MOHRE permit first and never start a second job informally."
+        },
+        {
+          heading: "How to apply for a UAE part-time work permit",
+          subsections: [
+            {
+              title: "Step 1: Confirm your eligibility",
+              content: "Check your visa type and which part-time permit category applies to you."
+            },
+            {
+              title: "Step 2: Get an NOC if you need one",
+              content: "If you are on a family visa, ask your sponsor for a No Objection Certificate."
+            },
+            {
+              title: "Step 3: Prepare your documents",
+              content: "Usually your passport, Emirates ID, visa copy, photo and the offer or contract from the part-time employer. MOHRE or your typing centre will confirm the exact list."
+            },
+            {
+              title: "Step 4: Apply through MOHRE",
+              content: "Apply through MOHRE's channels, a typing centre or a licensed service provider."
+            },
+            {
+              title: "Step 5: Pay the fees and receive the permit",
+              content: "Once the permit is approved you can legally start the part-time role. It is valid for one year and can be renewed."
+            }
+          ]
+        },
+        {
+          heading: "Other ways to work in the UAE",
+          content: "If you are not yet in the UAE, a [UAE job seeker visa](/blog/job-seeker-visa-from-pakistan) lets you enter and look for work in the UAE. If you would rather work for yourself, a [freelance visa in Dubai](/services/freelance-visa-dubai) is a related self-employment route. For age rules on work permits, read our [UAE work visa age limit guide](/blog/uae-work-visa-age-limit), or see our [UAE page](/uae) for everything we offer in the Emirates."
+        },
+        {
+          heading: "Related Reading",
+          relatedLinks: [
+            {
+              label: "Job Seeker Visa from Pakistan",
+              href: "/blog/job-seeker-visa-from-pakistan"
+            },
+            {
+              label: "UAE Work Visa Age Limit: Minimum Age & Over-60 Rules",
+              href: "/blog/uae-work-visa-age-limit"
+            },
+            {
+              label: "Freelance Visa in Dubai",
+              href: "/services/freelance-visa-dubai"
+            },
+            {
+              label: "Job Seeker Visas",
+              href: "/job-seeker-visa"
+            }
+          ]
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Can I work two jobs in the UAE?",
+              answer: "Yes. UAE law allows a second job if you hold a MOHRE part-time work permit. Work-visa and family-visa holders qualify (family-visa holders need a sponsor NOC), and skilled degree or diploma holders can take several part-time jobs with the permit."
+            },
+            {
+              question: "How much is a part-time work permit in the UAE?",
+              answer: "MOHRE charges an application fee and an approval fee for the permit, and typing centres or service providers may add their own charges. Check the current fees on the UAE Government portal or with MOHRE before applying."
+            },
+            {
+              question: "Do I need my employer's permission to work part-time in the UAE?",
+              answer: "Family-visa holders need an NOC from their sponsor. Skilled workers (degree or diploma holders) on the part-time contract system can take extra part-time jobs without their main employer's approval, but everyone still needs the MOHRE permit."
+            },
+            {
+              question: "How long is a UAE part-time work permit valid?",
+              answer: "A part-time work permit from MOHRE is valid for one year and can be renewed. While it is active you can work for another employer for less than eight hours a day."
+            },
+            {
+              question: "Can my spouse on a family visa work part-time in the UAE?",
+              answer: "Yes. A spouse on a family visa, aged 18 to 65, can work part-time after getting a MOHRE part-time work permit with an NOC from their sponsor."
+            }
+          ]
+        },
+        {
+          heading: "Disclaimer",
+          content: "Labour and permit rules change. This guide was last updated in October 2026. Always confirm the latest requirements on the official UAE portals (u.ae and mohre.gov.ae) before applying."
+        }
+      ]
+    }
+  },
   "study-abroad-without-ielts-from-pakistan": {
     title: "Study Abroad Without IELTS from Pakistan: 2026 Guide",
     metaTitle: "Study Abroad Without IELTS from Pakistan (2026 Guide)",

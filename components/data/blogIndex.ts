@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uae-part-time-work-permit",
+      title: "UAE Part-Time Work Permit 2026: How to Work Part-Time or Take a Second Job Legally",
+      excerpt: "Yes, you can work part-time or take a second job in the UAE with a MOHRE part-time work permit. Who qualifies on a work or family visa, hours allowed, fees, the risk of working without one and how to apply.",
+      date: "October 21, 2026",
+      readTime: "6 min read",
+      category: "UAE Visa Documentation"
+    },
+    {
       id: "study-abroad-without-ielts-from-pakistan",
       title: "Study Abroad Without IELTS from Pakistan: 2026 Guide",
       excerpt:
