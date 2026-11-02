@@ -50,7 +50,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const postKeywords: string[] | undefined = blog.keywords;
 
   return {
-    title: blog.metaTitle,
+    // The layout adds " | Travelaxis"; skip it when the result would pass ~65 characters (Google cuts long titles).
+    title: blog.metaTitle.length > 52 ? { absolute: blog.metaTitle } : blog.metaTitle,
     description: blog.metaDescription,
     keywords: postKeywords ?? blogKeywords.split(", ").map((k) => k.trim()),
     alternates: {
