@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uk-graduate-visa-pakistani-students",
+      title: "UK Graduate Visa for Pakistani Students: 2026 Guide (2 Years vs 18 Months)",
+      excerpt:
+        "Yes, Pakistani students can stay and work in the UK after their degree on the Graduate visa. Apply by 31 December 2026 for 2 years; from 1 January 2027 it's 18 months. Eligibility, fees, documents and how to apply.",
+      date: "November 2, 2026",
+      readTime: "8 min read",
+      category: "UK Visa Documentation",
+    },
+    {
       id: "uae-part-time-work-permit",
       title: "UAE Part-Time Work Permit 2026: How to Work Part-Time or Take a Second Job Legally",
       excerpt: "Yes, you can work part-time or take a second job in the UAE with a MOHRE part-time work permit. Who qualifies on a work or family visa, hours allowed, fees, the risk of working without one and how to apply.",

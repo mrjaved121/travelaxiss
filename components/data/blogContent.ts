@@ -5,6 +5,210 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uk-graduate-visa-pakistani-students": {
+    title: "UK Graduate Visa for Pakistani Students: 2026 Guide (2 Years vs 18 Months)",
+    metaTitle: "UK Graduate Visa for Pakistani Students (2026 Guide)",
+    metaDescription:
+      "UK Graduate visa for Pakistani students: apply by 31 Dec 2026 for 2 years, 18 months from 1 Jan 2027. Eligibility, £937 fee, IHS, documents and steps.",
+    keywords: [
+      "uk graduate visa pakistani students",
+      "uk post study work visa pakistan",
+      "uk graduate visa 18 months 2027",
+      "uk graduate visa fee 2026",
+      "psw visa uk pakistani",
+      "graduate visa to skilled worker uk",
+    ],
+    date: "November 2, 2026",
+    dateModifiedIso: "2026-11-02",
+    readTime: "8 min read",
+    category: "UK Visa Documentation",
+    cta: {
+      heading: "Planning to Study in the UK?",
+      text: "We help Pakistani students prepare UK study and visa files. We don't sell jobs or sponsorship.",
+      label: "UK Visa Support",
+      href: "/services/uk-visa-from-pakistan",
+    },
+    content: {
+      intro:
+        "Yes, Pakistani students who finish a UK degree can stay and work in the UK on the Graduate visa, the UK's post-study work (PSW) route, without a job offer or sponsor. The big change is timing: if you finished a bachelor's or master's degree, you get 2 years if you apply on or before 31 December 2026, but only 18 months if you apply on or after 1 January 2027. PhD and doctoral graduates still get 3 years. You must apply from inside the UK while your Student visa is still valid, the application fee is £937, and you also pay the Immigration Health Surcharge (usually £1,035 per year). Last updated November 2026: always confirm current rules on GOV.UK before you apply.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "UK Graduate visa in 2026",
+              items: [
+                "Who it's for: students who completed an eligible UK course on a Student (or Tier 4) visa.",
+                "Bachelor's or master's: 2 years if you apply on or before 31 December 2026; 18 months if you apply on or after 1 January 2027.",
+                "PhD or other doctoral qualification: 3 years.",
+                "Application fee: £937.",
+                "Immigration Health Surcharge: usually £1,035 per year (£2,070 for 2 years, £1,552.50 for 18 months, £3,105 for 3 years).",
+                "Job offer or sponsor needed: no.",
+                "Where you apply: from inside the UK only, not from Pakistan.",
+                "Can it be extended: no, but you may be able to switch to another visa such as Skilled Worker.",
+              ],
+            },
+          ],
+          note:
+            "Fees and rules change. Check the official [GOV.UK Graduate visa page](https://www.gov.uk/graduate-visa) and [how much it costs](https://www.gov.uk/graduate-visa/how-much-it-costs) before applying.",
+        },
+        {
+          heading: "What is the UK Graduate visa?",
+          content:
+            "The Graduate visa lets international students stay in the UK after successfully completing their course and work, or look for work, at any skill level. Unlike the Skilled Worker visa, you don't need an employer to sponsor you, there is no salary threshold, and there is no financial (bank balance) requirement. For many Pakistani students it is the bridge between finishing a degree and finding a sponsored job. Full details are on the [GOV.UK Graduate visa overview](https://www.gov.uk/graduate-visa).",
+        },
+        {
+          heading: "Is the Graduate visa being cut to 18 months?",
+          content:
+            "Yes, for bachelor's and master's graduates. According to GOV.UK and the [Immigration Rules Appendix Graduate](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate), applications made on or before 31 December 2026 are granted 2 years, while applications made on or after 1 January 2027 are granted 18 months. Doctoral graduates keep 3 years. What counts is the date you apply, not the date you started or finished your course, so if you are eligible now, applying before the end of December 2026 can give you an extra 6 months.",
+          subsections: [
+            {
+              title: "2 years vs 18 months: comparison",
+              items: [
+                "Apply on or before 31 Dec 2026 (bachelor's/master's): 2 years, IHS £2,070.",
+                "Apply on or after 1 Jan 2027 (bachelor's/master's): 18 months, IHS £1,552.50.",
+                "PhD or doctorate (any date): 3 years, IHS £3,105.",
+                "Application fee in all cases: £937.",
+              ],
+            },
+          ],
+          note:
+            "You can only apply once your university has reported to the Home Office that you completed the course, so ask your university when it will send that report if you're aiming for the December 2026 deadline.",
+        },
+        {
+          heading: "Who is eligible for the Graduate visa?",
+          subsections: [
+            {
+              title: "Main eligibility rules",
+              items: [
+                "You are in the UK, and your current visa is a Student visa or Tier 4 (General) student visa.",
+                "You studied a UK bachelor's degree, master's degree, PhD/doctorate, or another eligible course listed by GOV.UK (for example certain law and teaching qualifications).",
+                "Your education provider has told the Home Office you successfully completed the course. You don't need to wait for graduation or your certificate.",
+                "You studied in the UK for at least 12 months if your course was longer than 12 months, or for the full length of the course if it was 12 months or shorter.",
+                "You studied the course on the Student route. If you studied the whole course on another visa (for example as a dependant), you don't qualify.",
+              ],
+            },
+          ],
+          note:
+            "Check the official [course you studied](https://www.gov.uk/graduate-visa/course-you-studied) page to confirm your course counts.",
+        },
+        {
+          heading: "Can I bring my family on the Graduate visa?",
+          content:
+            "Only family members who are already in the UK as your dependants on your Student visa can stay with you as Graduate visa dependants (plus children born in the UK during your stay). You generally can't bring new dependants from Pakistan on this route. Since January 2024, most taught master's students can't bring dependants on the Student visa at all, so many Pakistani students won't have eligible family on the Graduate route. See [GOV.UK: your partner and children](https://www.gov.uk/graduate-visa/your-partner-and-children).",
+        },
+        {
+          heading: "What can you do (and not do) on a Graduate visa?",
+          columnCompare: {
+            left: {
+              title: "You can",
+              items: [
+                "Work in most jobs, at any skill level and salary.",
+                "Look for work.",
+                "Be self-employed or run a business.",
+                "Do voluntary work.",
+              ],
+            },
+            right: {
+              title: "You can't",
+              items: [
+                "Claim most benefits (public funds) or the State Pension.",
+                "Work as a professional sportsperson.",
+                "Extend the Graduate visa itself.",
+                "Study on a course that would need a Student visa.",
+                "Travel outside the UK, Ireland, Channel Islands or Isle of Man while the application is pending.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "What documents do you need?",
+          subsections: [
+            {
+              title: "Documents checklist",
+              items: [
+                "A valid passport (your Pakistani passport).",
+                "Your CAS reference number from the course you completed on your Student visa. If you can't find it, ask your university.",
+                "Proof of your current Student visa status (eVisa, or your BRP where still accepted).",
+                "Documents for any dependants who are applying with you.",
+                "Payment for the £937 fee and the Immigration Health Surcharge.",
+              ],
+            },
+          ],
+          note:
+            "You don't need to show a bank balance for the Graduate visa. Never submit false documents: in UK applications this can lead to refusal and a ban on future applications.",
+        },
+        {
+          heading: "How do you apply for the UK Graduate visa?",
+          subsections: [
+            {
+              title: "Step by step",
+              items: [
+                "Check your university has reported your successful course completion to the Home Office.",
+                "Make sure your Student visa is still valid on the day you apply.",
+                "Apply online on GOV.UK from inside the UK (you can usually prove your identity with the UK Immigration: ID Check app).",
+                "Pay the £937 application fee and the Immigration Health Surcharge.",
+                "Stay in the UK, Ireland, Channel Islands or Isle of Man until you get a decision.",
+                "Your decision comes with an eVisa, the online record of your UK immigration permission.",
+              ],
+            },
+          ],
+          note:
+            "Processing times vary, so check the current estimate on GOV.UK when you apply.",
+        },
+        {
+          heading: "Can you switch from the Graduate visa to a Skilled Worker visa?",
+          content:
+            "Yes, you can't extend the Graduate visa, but you may be able to switch to another route, most commonly the [Skilled Worker visa](https://www.gov.uk/skilled-worker-visa), before your Graduate visa ends. For that you need a job offer from a licensed UK sponsor in an eligible occupation that meets the salary and skill rules. With the shorter 18-month period from 2027, it makes sense to start targeting sponsored employers early, ideally while you're still studying.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Can Pakistani students get the UK Graduate visa?",
+              answer:
+                "Yes. Nationality doesn't matter. Pakistani students qualify if they're in the UK on a Student visa, completed an eligible UK bachelor's, master's or doctoral course, studied in the UK for the required time, and their university has reported successful completion to the Home Office. You must apply from inside the UK.",
+            },
+            {
+              question: "How long is the UK Graduate visa in 2026 and 2027?",
+              answer:
+                "For bachelor's and master's graduates it's 2 years if you apply on or before 31 December 2026, and 18 months if you apply on or after 1 January 2027. PhD and other doctoral graduates get 3 years. The application date decides the length, not when you started your course.",
+            },
+            {
+              question: "How much does the UK Graduate visa cost?",
+              answer:
+                "The application fee is £937. You also pay the Immigration Health Surcharge, usually £1,035 per year: £2,070 for 2 years, £1,552.50 for 18 months or £3,105 for 3 years. Dependants pay their own fees. Always confirm current fees on GOV.UK before paying, as they can change.",
+            },
+            {
+              question: "Do I need a job offer or bank statement for the Graduate visa?",
+              answer:
+                "No. The Graduate visa doesn't need a job offer, an employer sponsor, a minimum salary or a bank balance. That's what makes it different from the Skilled Worker visa. You only need to meet the study, visa-status and course-completion requirements and pay the fee and health surcharge.",
+            },
+            {
+              question: "Can I apply for the Graduate visa from Pakistan?",
+              answer:
+                "No. You must be in the UK and hold a valid Student visa when you apply. If you return to Pakistan after your course and your Student visa expires, you can't apply for the Graduate visa from there. Plan your return date only after your Graduate visa decision.",
+            },
+            {
+              question: "Can I bring my wife or children on the Graduate visa?",
+              answer:
+                "Only if they are already in the UK as your dependants on your Student visa, or are children born in the UK during your stay. New dependants generally can't join you on the Graduate route. Since 2024 most taught master's students can't bring dependants, so check your own situation on GOV.UK.",
+            },
+            {
+              question: "Can I extend the Graduate visa?",
+              answer:
+                "No, the Graduate visa can't be extended. Before it ends you may be able to switch to another visa, most often the Skilled Worker visa, which needs a job offer from a licensed UK sponsor that meets the skill and salary rules. Start your job search early, especially with the shorter 18-month period.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We help Pakistani students prepare documentation for UK study plans and visa files. We don't sell jobs or sponsorship and we can't guarantee any visa. For questions about your own Graduate or Skilled Worker application inside the UK, speak to a UK-regulated immigration adviser. See our [UK visa from Pakistan](/services/uk-visa-from-pakistan) and [study visa](/services/study-visa) services, or read [study abroad without IELTS from Pakistan](/blog/study-abroad-without-ielts-from-pakistan).",
+        },
+      ],
+    },
+  },
   "uae-part-time-work-permit": {
     title: "UAE Part-Time Work Permit 2026: How to Work Part-Time or Take a Second Job Legally",
     metaTitle: "UAE Part-Time Work Permit 2026: Rules & How to Apply",
