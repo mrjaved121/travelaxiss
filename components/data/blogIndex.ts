@@ -9,6 +9,24 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uk-student-visa-cost-from-pakistan",
+      title: "UK Student Visa Cost from Pakistan 2026: Fee, IHS, Bank Funds and TB Test",
+      excerpt:
+        "A UK student visa from Pakistan costs £558 plus £776 a year IHS. You must also show tuition and living costs of £1,171 or £1,529 a month for 28 days, and get a TB test. Full 2026 breakdown.",
+      date: "November 2, 2026",
+      readTime: "8 min read",
+      category: "UK Visa Documentation",
+    },
+    {
+      id: "uk-visit-visa-fee-processing-time-pakistan",
+      title: "UK Visit Visa Fee and Processing Time from Pakistan (2026)",
+      excerpt:
+        "UK visit visa fees from 8 April 2026: £135 for 6 months, £506 for 2 years, £903 for 5 years, £1,128 for 10 years. Decision usually within 3 weeks. Which option to choose and what you need.",
+      date: "November 2, 2026",
+      readTime: "6 min read",
+      category: "UK Visa Documentation",
+    },
+    {
       id: "uk-graduate-visa-pakistani-students",
       title: "UK Graduate Visa for Pakistani Students: 2026 Guide (2 Years vs 18 Months)",
       excerpt:

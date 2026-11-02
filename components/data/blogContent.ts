@@ -5,6 +5,311 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uk-student-visa-cost-from-pakistan": {
+    title: "UK Student Visa Cost from Pakistan 2026: Fee, IHS, Bank Funds and TB Test",
+    metaTitle: "UK Student Visa Cost from Pakistan (2026 Breakdown)",
+    metaDescription:
+      "UK student visa cost from Pakistan in 2026: £558 visa fee, £776/year IHS, living funds of £1,171 or £1,529 a month, TB test and the 28-day bank rule.",
+    keywords: [
+      "uk student visa cost from pakistan",
+      "uk student visa fee 2026",
+      "uk student visa bank statement pakistan",
+      "uk study visa requirements pakistan 2026",
+      "immigration health surcharge student uk",
+      "uk student visa 28 day rule",
+      "tb test uk visa pakistan",
+    ],
+    date: "November 2, 2026",
+    dateModifiedIso: "2026-11-02",
+    readTime: "8 min read",
+    category: "UK Visa Documentation",
+    cta: {
+      heading: "Applying for a UK Student Visa?",
+      text: "We help Pakistani students prepare a complete, well-organised UK student visa file.",
+      label: "UK Study Visa Support",
+      href: "/study-visa/uk",
+    },
+    content: {
+      intro:
+        "A UK student visa from Pakistan in 2026 costs £558 for the visa application plus the Immigration Health Surcharge (IHS) of £776 for each year of your visa. On top of that, you must show you can pay your first year's unpaid tuition fees (shown on your CAS) and living costs of £1,171 a month outside London or £1,529 a month in London, for up to 9 months, held for 28 days in a row. Pakistani applicants also need a TB test from a Home Office-approved clinic. These are official GOV.UK figures, last checked November 2026. Always confirm current rules on GOV.UK before you apply, as fees change.",
+      sections: [
+        {
+          heading: "UK student visa costs at a glance",
+          subsections: [
+            {
+              title: "Official costs for a Pakistani applicant (2026)",
+              items: [
+                "Visa application fee (applying from outside the UK): £558, from 8 April 2026 (previously £524).",
+                "Immigration Health Surcharge: £776 per year of your visa, charged in 6-month blocks.",
+                "Living costs to show, outside London: £1,171 a month, for up to 9 months (maximum £10,539).",
+                "Living costs to show, in London: £1,529 a month, for up to 9 months (maximum £13,761).",
+                "Tuition: the unpaid part of your first year's fees, as shown on your CAS.",
+                "TB test: required for Pakistani applicants; the fee is set by the approved clinic.",
+              ],
+            },
+          ],
+          note:
+            "Sources: [Home Office fees from 8 April 2026](https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-april-2026), [Student visa: money you need](https://www.gov.uk/student-visa/money) and [healthcare surcharge](https://www.gov.uk/healthcare-immigration-application/how-much-pay).",
+        },
+        {
+          heading: "How much is the UK student visa fee in 2026?",
+          content:
+            "The UK student visa fee is £558 when you apply from outside the UK, for example from Pakistan. It went up from £524 on 8 April 2026, under the Home Office fee changes. The same £558 applies to each dependant applying from outside the UK. Pay only through the official GOV.UK application, never to an agent's personal account. See the [official 8 April 2026 fee table](https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-april-2026).",
+        },
+        {
+          heading: "How much is the Immigration Health Surcharge for students?",
+          content:
+            "Students pay an IHS of £776 per year. The total depends on the full length of your visa, not just your course, and it is charged in 6-month blocks: a part-year is rounded up to the next 6 months, and a remaining period of 6 months or less is charged at half the yearly rate (£388). The online application works out your exact amount from your course dates. Once paid, you can use the NHS in the UK on broadly the same basis as residents. See [GOV.UK: how much you have to pay](https://www.gov.uk/healthcare-immigration-application/how-much-pay).",
+        },
+        {
+          heading: "How much bank balance do you need for a UK student visa?",
+          content:
+            "You need enough to cover your unpaid first-year tuition fees plus living costs. Living costs are £1,529 a month in London (the City of London and the 32 London boroughs) or £1,171 a month elsewhere in the UK, for up to 9 months. For a course of 9 months or more outside London, that's £10,539 in living costs, plus any tuition you haven't paid yet.",
+          subsections: [
+            {
+              title: "Funds you must show (living costs only)",
+              items: [
+                "Outside London, 9+ month course: £1,171 × 9 = £10,539.",
+                "In London, 9+ month course: £1,529 × 9 = £13,761.",
+                "Each dependant, outside London: £680 a month, up to 9 months.",
+                "Each dependant, in London: £845 a month, up to 9 months.",
+                "Add the unpaid part of your first year's tuition, as stated on your CAS.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "What is the 28-day rule for UK student visa funds?",
+          content:
+            "You must have held the required money for at least 28 days in a row, and the end of that 28-day period must be within 31 days of the date you apply. If your balance drops below the required amount even for one day in those 28 days, your application can be refused. This is one of the most common reasons Pakistani student applications fail, so keep the funds untouched and check the [official financial evidence guidance](https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants) before getting your bank statement.",
+          note:
+            "Never use borrowed money that's deposited just before applying and then withdrawn, or bank documents you can't verify. False documents can lead to refusal and a ban on future UK applications.",
+        },
+        {
+          heading: "Do Pakistani students need a TB test for a UK visa?",
+          content:
+            "Yes. Pakistan is on the Home Office list of countries where you need a tuberculosis (TB) test if you're coming to the UK for more than 6 months. The test must be done at a Home Office-approved clinic. GOV.UK lists approved clinics in Pakistan, including in Islamabad, Lahore and Mirpur. The certificate is valid for 6 months from the date of your chest X-ray. Check the current list on [GOV.UK: TB test clinics in Pakistan](https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-pakistan) before booking.",
+        },
+        {
+          heading: "Total UK student visa cost: example",
+          subsections: [
+            {
+              title: "Example: 1-year master's outside London (single applicant)",
+              items: [
+                "Visa fee: £558.",
+                "IHS: worked out on your full visa length (for a 1-year course this usually covers a little more than 12 months, so expect more than £776; the online form shows the exact figure).",
+                "Living costs to show in your account: £10,539.",
+                "Unpaid tuition: as shown on your CAS.",
+                "TB test: clinic fee.",
+              ],
+            },
+          ],
+          note:
+            "The living costs and tuition are money you must show, not fees you pay to the Home Office. The visa fee and IHS are what you pay when you apply.",
+        },
+        {
+          heading: "What else do you need for a UK student visa from Pakistan?",
+          subsections: [
+            {
+              title: "Core requirements",
+              items: [
+                "An unconditional offer and a Confirmation of Acceptance for Studies (CAS) from a licensed student sponsor.",
+                "A valid passport.",
+                "Proof of funds that meets the 28-day rule.",
+                "A TB test certificate from an approved clinic.",
+                "English language ability at the level your course requires (see GOV.UK's Student visa knowledge of English rules).",
+                "An ATAS certificate, if your course and nationality need one.",
+              ],
+            },
+          ],
+          note:
+            "Full official requirements: [GOV.UK Student visa overview](https://www.gov.uk/student-visa). If you plan to stay and work after graduating, read our [UK Graduate visa guide](/blog/uk-graduate-visa-pakistani-students).",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "How much is the UK student visa fee from Pakistan in 2026?",
+              answer:
+                "The UK student visa application fee is £558 when you apply from outside the UK, including from Pakistan. It rose from £524 on 8 April 2026. You also pay the Immigration Health Surcharge of £776 per year of your visa. Always check the current fee on GOV.UK before paying.",
+            },
+            {
+              question: "How much bank balance do I need for a UK student visa?",
+              answer:
+                "You need your unpaid first-year tuition fees plus living costs of £1,171 a month outside London or £1,529 a month in London, for up to 9 months. For a 9-month or longer course outside London, living costs alone come to £10,539. The money must be held for 28 consecutive days.",
+            },
+            {
+              question: "What is the 28-day rule for a UK student visa?",
+              answer:
+                "The required money must stay in your account for at least 28 days in a row, and the last day of that period must be within 31 days of your visa application date. If the balance falls below the required amount at any point in those 28 days, the application can be refused.",
+            },
+            {
+              question: "Is the IHS refundable if my UK student visa is refused?",
+              answer:
+                "GOV.UK says the Immigration Health Surcharge is generally refunded if your visa application is refused, but the visa application fee itself is not usually refunded. Check the current refund rules on GOV.UK, as they set out exactly when you get the surcharge back and how the refund is paid.",
+            },
+            {
+              question: "Do Pakistani students need a TB test for a UK student visa?",
+              answer:
+                "Yes. Pakistan is on the list of countries where a TB test is needed for UK stays of more than 6 months. You must use a Home Office-approved clinic, such as those GOV.UK lists in Islamabad, Lahore and Mirpur. The certificate is valid for 6 months from your chest X-ray.",
+            },
+            {
+              question: "Can I bring my family on a UK student visa from Pakistan?",
+              answer:
+                "Usually only if you're doing a postgraduate research course, such as a PhD or research master's. Most taught course students can't bring dependants. Where dependants are allowed, each needs the £558 fee, IHS and extra funds of £680 a month outside London or £845 in London, for up to 9 months.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We help Pakistani students organise UK student visa documents, including funds evidence that meets the 28-day rule, so the file is clear and complete. We can't guarantee any visa: the decision is made by UK Visas and Immigration. Start with our [UK study visa page](/study-visa/uk) or our [UK visa from Pakistan service](/services/uk-visa-from-pakistan).",
+        },
+      ],
+    },
+  },
+  "uk-visit-visa-fee-processing-time-pakistan": {
+    title: "UK Visit Visa Fee and Processing Time from Pakistan (2026)",
+    metaTitle: "UK Visit Visa Fee & Processing Time from Pakistan 2026",
+    metaDescription:
+      "UK visit visa fee from Pakistan in 2026: £135 for 6 months, £506 for 2 years, £903 for 5 years, £1,128 for 10 years. Decision in about 3 weeks.",
+    keywords: [
+      "uk visit visa fee from pakistan",
+      "uk visit visa fee 2026",
+      "uk visit visa processing time pakistan",
+      "uk standard visitor visa fee",
+      "uk 2 year visit visa fee",
+      "uk 10 year visit visa pakistan",
+    ],
+    date: "November 2, 2026",
+    dateModifiedIso: "2026-11-02",
+    readTime: "6 min read",
+    category: "UK Visa Documentation",
+    cta: {
+      heading: "Applying for a UK Visit Visa?",
+      text: "We prepare UK visit visa files from Pakistan, from document checklists to cover letters.",
+      label: "UK Visit Visa Support",
+      href: "/visit-visa/uk",
+    },
+    content: {
+      intro:
+        "The UK visit visa (Standard Visitor visa) fee from Pakistan in 2026 is £135 for a visa of up to 6 months. Long-term visit visas cost £506 for 2 years, £903 for 5 years and £1,128 for 10 years, and each still lets you stay up to 6 months per visit. These fees took effect on 8 April 2026. After you apply online and give your biometrics and documents, UK Visas and Immigration usually decides within 3 weeks. These are official GOV.UK figures, last checked November 2026. Always confirm current fees on GOV.UK before paying.",
+      sections: [
+        {
+          heading: "UK visit visa fees in 2026",
+          subsections: [
+            {
+              title: "Standard Visitor visa fees (from 8 April 2026)",
+              items: [
+                "Up to 6 months: £135 (was £127).",
+                "Long-term, valid for 2 years: £506 (was £475).",
+                "Long-term, valid for 5 years: £903 (was £848).",
+                "Long-term, valid for 10 years: £1,128 (was £1,059).",
+                "On every option, each visit can last up to 6 months.",
+                "No Immigration Health Surcharge is charged for a visit visa.",
+              ],
+            },
+          ],
+          note:
+            "Source: [Home Office immigration and nationality fees, 8 April 2026](https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-april-2026) and [GOV.UK: apply for a Standard Visitor visa](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa).",
+        },
+        {
+          heading: "How long does a UK visit visa take from Pakistan?",
+          content:
+            "UK Visas and Immigration says you'll usually get a decision within 3 weeks after you've applied online, proved your identity and provided your documents. Some applications take longer, for example if your documents need checking or you're asked for an interview. Apply well before your travel date: you can apply up to 3 months before you travel. Check the latest service standards on [GOV.UK visa processing times](https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk).",
+          note:
+            "Don't book non-refundable flights before your visa is approved. UKVI does not require flight tickets with your application.",
+        },
+        {
+          heading: "Which UK visit visa should you choose: 6 months, 2, 5 or 10 years?",
+          content:
+            "A long-term visa doesn't let you stay longer per visit. It only saves you re-applying. It costs more, and if UKVI isn't satisfied you qualify for the longer period, it can be refused or you may be given a shorter visa. A good UK travel history usually makes a long-term visa more realistic.",
+          columnCompare: {
+            left: {
+              title: "6-month visa (£135) suits",
+              items: [
+                "First-time UK visitors.",
+                "A single trip such as tourism or visiting family.",
+                "Applicants with limited travel history.",
+              ],
+            },
+            right: {
+              title: "2, 5 or 10-year visa suits",
+              items: [
+                "Frequent visitors, for example parents of UK residents.",
+                "Business travellers with regular UK meetings.",
+                "Applicants with a strong, compliant UK or international travel history.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "What information and documents do you need?",
+          subsections: [
+            {
+              title: "What GOV.UK asks for",
+              items: [
+                "A valid passport.",
+                "Your planned travel dates and where you'll stay in the UK.",
+                "How much you think the trip will cost.",
+                "Your current home address and how long you've lived there.",
+                "Your employment details and income.",
+                "Details of any criminal, civil or immigration offences.",
+                "Evidence that you can pay for your trip, such as bank statements.",
+              ],
+            },
+          ],
+          note:
+            "UKVI must be satisfied you can fund your stay and will leave at the end of your visit. Read our guides on [how much bank balance you need](/blog/how-much-bank-balance-uk-visit-visa-pakistan), [common refusal reasons](/blog/uk-visit-visa-refusal-reasons-pakistani-applicants) and [writing a cover letter](/blog/cover-letter-for-visit-visa-sample-pakistan).",
+        },
+        {
+          heading: "Is the UK visit visa fee refundable if refused?",
+          content:
+            "Generally no. The UK visa fee pays for processing your application, so it isn't refunded just because the visa is refused. That's why it's worth getting your documents right before you apply. If you withdraw before your application is processed, check the [Home Office refund policy](https://www.gov.uk/government/publications/visa-regulations-revised-table) for the current rules.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What is the UK visit visa fee from Pakistan in 2026?",
+              answer:
+                "From 8 April 2026, the UK Standard Visitor visa costs £135 for up to 6 months. Long-term visit visas cost £506 for 2 years, £903 for 5 years and £1,128 for 10 years. Each lets you stay up to 6 months per visit. Pay only through the official GOV.UK application.",
+            },
+            {
+              question: "How long does a UK visit visa take from Pakistan?",
+              answer:
+                "UK Visas and Immigration usually decides a visit visa within 3 weeks after you've applied online, given your biometrics and submitted your documents. It can take longer if extra checks are needed. You can apply up to 3 months before travelling, so apply early and avoid booking non-refundable travel first.",
+            },
+            {
+              question: "Is there a health surcharge for a UK visit visa?",
+              answer:
+                "No. The Immigration Health Surcharge doesn't apply to visit visas, because visits are limited to 6 months and you apply from outside the UK. You should have travel insurance, as you'll usually be charged for NHS hospital treatment as a visitor. Students and workers on longer visas pay the surcharge instead.",
+            },
+            {
+              question: "Can I stay longer than 6 months with a 10-year UK visit visa?",
+              answer:
+                "No. A 2, 5 or 10-year visit visa lets you make multiple trips while the visa is valid, but each visit can usually last no more than 6 months. You also can't live in the UK through frequent or back-to-back visits. The longer visa just saves you from applying again each time.",
+            },
+            {
+              question: "Is the UK visit visa fee refunded if my visa is refused?",
+              answer:
+                "Generally no. The fee covers processing your application, so it isn't returned if the visa is refused. Refunds are usually only possible in limited cases, such as withdrawing before processing starts. Check the Home Office refund policy on GOV.UK, and prepare a complete, honest application to reduce refusal risk.",
+            },
+            {
+              question: "Do I need to show flight tickets for a UK visit visa?",
+              answer:
+                "No. UKVI does not require flight tickets with your application, and it's safer not to buy non-refundable tickets before approval. You do need to give your planned travel dates, where you'll stay and how much the trip will cost, and show you can pay for it with genuine financial documents.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We help Pakistani applicants prepare clear, complete UK visit visa files: document checklists, financial evidence and cover letters. We don't guarantee visas, as the decision is made by UK Visas and Immigration. See our [UK visit visa page](/visit-visa/uk) to get started.",
+        },
+      ],
+    },
+  },
   "uk-graduate-visa-pakistani-students": {
     title: "UK Graduate Visa for Pakistani Students: 2026 Guide (2 Years vs 18 Months)",
     metaTitle: "UK Graduate Visa for Pakistani Students (2026 Guide)",
