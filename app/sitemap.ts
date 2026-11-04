@@ -5,6 +5,7 @@ import {
   blogIsoDayToDate,
 } from "@/lib/seo/blog-dates";
 import { SITE_URL } from "@/lib/seo/site";
+import { newVisitVisaDestinations } from "@/lib/data/visit-visa-destinations";
 
 export const dynamic = "force-static";
 
@@ -90,5 +91,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   );
 
-  return [...staticEntries, ...blogEntries];
+  const countryEntries: MetadataRoute.Sitemap = newVisitVisaDestinations.map((destination) => ({
+    url: `${base}/visit-visa/${destination.slug}/`,
+    lastModified: siteFallbackModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticEntries, ...countryEntries, ...blogEntries];
 }
