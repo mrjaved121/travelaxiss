@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Phone, Mail, Menu, X, MessageCircle, ArrowRight, ChevronDown } from "lucide-react";
 import { useId, useRef, useState } from "react";
+import { MobileVisitVisaMenu, VisitVisaMegaMenu } from "@/components/VisitVisaMegaMenu";
 
 const MOBILE_NAV_PANEL_ID = "primary-navigation-mobile";
 
@@ -11,18 +12,6 @@ type NavItem = { name: string; path: string };
 type NavGroup = { name: string; items: NavItem[] };
 
 const navGroups: NavGroup[] = [
-  {
-    name: "Visit Visas",
-    items: [
-      { name: "All Visit Visas", path: "/visit-visa" },
-      { name: "Europe & Schengen", path: "/visit-visa/europe" },
-      { name: "Asia", path: "/visit-visa/asia" },
-      { name: "Middle East", path: "/visit-visa/middle-east" },
-      { name: "Africa", path: "/visit-visa/africa" },
-      { name: "North America", path: "/visit-visa/north-america" },
-      { name: "Oceania", path: "/visit-visa/oceania" },
-    ],
-  },
   {
     name: "Destinations",
     items: [
@@ -208,6 +197,7 @@ export default function Header() {
           </Link>
 
           <nav className="hidden lg:flex items-center space-x-8" aria-label="Primary">
+            <VisitVisaMegaMenu />
             {navGroups.map((group) => (
               <NavDropdown key={group.name} group={group} isActive={isActive} />
             ))}
@@ -271,6 +261,7 @@ export default function Header() {
               Mobile site menu
             </p>
             <ul className="flex flex-col space-y-1 list-none p-0 m-0">
+              <MobileVisitVisaMenu onNavigate={() => setMobileMenuOpen(false)} />
               {navGroups.map((group) => (
                 <MobileNavGroup
                   key={group.name}
