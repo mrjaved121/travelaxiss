@@ -211,6 +211,21 @@ const regions: { title: string; description: string; icon: LucideIcon; href: str
   { title: "Africa", description: "South Africa", icon: Globe2, href: "/visit-visa/africa" },
 ];
 
+
+const destinationDirectory = [
+  { name: "United Arab Emirates", href: "/visit-visa/uae", region: "Middle East", description: "Visit visa support for travel to the UAE." },
+  { name: "United Kingdom", href: "/visit-visa/uk", region: "Europe", description: "Visit visa support for travel to the United Kingdom." },
+  { name: "United States", href: "/visit-visa/usa", region: "North America", description: "Visit visa support for travel to the United States." },
+  { name: "Canada", href: "/visit-visa/canada", region: "North America", description: "Visitor visa information and application support for Canada." },
+  { name: "Australia", href: "/visit-visa/australia", region: "Oceania", description: "Visit visa support for travel to Australia." },
+  ...newVisitVisaDestinations.map((destination) => ({
+    name: destination.name,
+    href: `/visit-visa/${destination.slug}`,
+    region: destination.region,
+    description: destination.description,
+  })),
+].sort((a, b) => a.name.localeCompare(b.name));
+
 const howWeHelp: { title: string; description: string; icon: LucideIcon }[] = [
   {
     title: "Understand the requirements",
@@ -366,6 +381,38 @@ export default function VisitVisaPage() {
                   </span>
                 </Link>
               </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* All destinations */}
+      <section aria-labelledby="all-destinations-heading" className="bg-white py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mx-auto mb-12 max-w-2xl text-center"
+          >
+            <h2 id="all-destinations-heading" className="section-title mb-4">All visit visa destinations</h2>
+            <p className="text-[#52606D]">Browse the countries Travelaxis currently supports for visit-visa application preparation.</p>
+          </motion.div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {destinationDirectory.map((destination) => (
+              <Link
+                key={destination.href}
+                href={destination.href}
+                className="group rounded-2xl border bg-white p-5 transition-all hover:-translate-y-0.5 card-hover"
+                style={{ borderColor: "var(--card-line)" }}
+              >
+                <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em]" style={{ color: "#0A4D8C" }}>{destination.region}</p>
+                <h3 className="subsection-title mb-2">{destination.name} Visit Visa</h3>
+                <p className="text-sm leading-relaxed text-[#52606D]">{destination.description}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
+                  View support <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
+                </span>
+              </Link>
             ))}
           </div>
         </div>
