@@ -123,7 +123,7 @@ export function VisitVisaMegaMenu() {
                 All destinations
               </Link>
             </div>
-            <div className="space-y-7">
+            <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:col-span-3 lg:grid-cols-3">
               <DestinationLinks onNavigate={() => setOpen(false)} />
             </div>
           </div>
