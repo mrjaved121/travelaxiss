@@ -31,6 +31,7 @@ import GuideCard from "@/components/GuideCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 import { visitVisaFaqs } from "@/components/data/visitVisaFaqs";
+import { newVisitVisaDestinations } from "@/lib/data/visit-visa-destinations";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
 
@@ -76,6 +77,11 @@ const DESTINATION_MAP: Record<string, string> = {
   "south africa": "/visit-visa/africa",
   africa: "/visit-visa/africa",
 };
+
+newVisitVisaDestinations.forEach(({ slug, name }) => {
+  DESTINATION_MAP[slug] = `/visit-visa/${slug}`;
+  DESTINATION_MAP[name.toLowerCase()] = `/visit-visa/${slug}`;
+});
 
 function DestinationFinder() {
   const router = useRouter();
