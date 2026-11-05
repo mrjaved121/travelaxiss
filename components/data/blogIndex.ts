@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "canada-study-permit-requirements-pakistan",
+      title: "Canada Study Permit from Pakistan 2026: Funds, PAL, Fees and Documents",
+      excerpt:
+        "Canada study permit from Pakistan in 2026: CAD 23,448 living funds plus tuition, PAL/TAL rules and exemptions, CAD 150 fee and CAD 85 biometrics, medical exam, and why SDS no longer applies.",
+      date: "November 3, 2026",
+      readTime: "8 min read",
+      category: "Canada Visa Documentation",
+    },
+    {
       id: "uk-student-visa-cost-from-pakistan",
       title: "UK Student Visa Cost from Pakistan 2026: Fee, IHS, Bank Funds and TB Test",
       excerpt:

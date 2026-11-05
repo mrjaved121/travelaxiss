@@ -5,6 +5,207 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "canada-study-permit-requirements-pakistan": {
+    title: "Canada Study Permit from Pakistan 2026: Funds, PAL, Fees and Documents",
+    metaTitle: "Canada Study Permit from Pakistan: 2026 Requirements",
+    metaDescription:
+      "Canada study permit from Pakistan in 2026: CAD 23,448 living funds plus tuition, PAL/TAL, CAD 150 fee, CAD 85 biometrics, medical exam and documents.",
+    keywords: [
+      "canada study permit from pakistan",
+      "canada study visa requirements pakistan 2026",
+      "canada study permit proof of funds 2026",
+      "provincial attestation letter pakistan",
+      "canada student visa fee pakistan",
+      "sds canada pakistan closed",
+    ],
+    date: "November 3, 2026",
+    dateModifiedIso: "2026-11-03",
+    readTime: "8 min read",
+    category: "Canada Visa Documentation",
+    cta: {
+      heading: "Planning to Study in Canada?",
+      text: "We help Pakistani students prepare complete, well-organised Canada study permit files.",
+      label: "Canada Study Visa Support",
+      href: "/study-visa/canada",
+    },
+    content: {
+      intro:
+        "To get a Canada study permit from Pakistan in 2026, you need a letter of acceptance from a designated learning institution (DLI), usually a provincial or territorial attestation letter (PAL/TAL), and proof that you can pay your first-year tuition, travel and living costs. For a single student applying on or after September 1, 2026 (outside Quebec), IRCC's living-cost amount is CAD 23,448, on top of tuition and travel. The fees are CAD 150 for the study permit plus CAD 85 for biometrics, and Pakistani applicants generally need an immigration medical exam. The faster Student Direct Stream (SDS) ended on November 8, 2024, so all Pakistani students now apply through the regular stream. Last updated November 2026: always confirm current rules on canada.ca before applying.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Canada study permit for Pakistani students (2026)",
+              items: [
+                "Living funds (single student, outside Quebec, applying on or after Sept 1, 2026): CAD 23,448, plus tuition and travel.",
+                "Previous amount (applications Jan 1, 2025 to Aug 31, 2026): CAD 22,895.",
+                "Study permit fee: CAD 150. Biometrics: CAD 85 per person (CAD 170 maximum for a family applying together).",
+                "PAL/TAL: required for most applicants; master's and doctoral students at public DLIs are among those exempt in 2026.",
+                "Quebec: the Quebec Acceptance Certificate (CAQ) serves as the attestation letter.",
+                "Student Direct Stream: closed since November 8, 2024; Pakistanis use the regular stream.",
+                "Medical exam: generally needed, as Pakistan is on IRCC's medical-exam country list.",
+                "Fees are not refunded, whatever the decision.",
+              ],
+            },
+          ],
+          note:
+            "Official sources: [IRCC proof of financial support](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html), [how to apply](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html) and [PAL/TAL](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html).",
+        },
+        {
+          heading: "How much money do you need for a Canada study permit?",
+          content:
+            "You must show you can pay your first-year tuition, your travel to Canada and IRCC's cost-of-living amount. For one student (with no family members coming) applying on or after September 1, 2026, that living amount is CAD 23,448 outside Quebec. It was CAD 22,895 for applications made from January 1, 2025 to August 31, 2026. The amount is higher if family members come with you, and Quebec sets its own figures. For programs longer than a year, IRCC also asks how you plan to pay for the rest of your studies. See [IRCC: proof of financial support](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html).",
+          subsections: [
+            {
+              title: "Example: what a single student must show",
+              items: [
+                "First-year tuition, as stated on your letter of acceptance (or proof it's already paid).",
+                "Living costs: CAD 23,448 (applying on or after Sept 1, 2026, outside Quebec).",
+                "Travel costs to Canada.",
+                "Funds history: IRCC visa offices commonly ask for bank statements covering several months and an explanation of where large deposits came from.",
+              ],
+            },
+          ],
+          note:
+            "A sudden large deposit with no clear source is a common concern for officers. Keep records that show where your money came from, such as salary, business income, property sale or a sponsor's documented savings.",
+        },
+        {
+          heading: "Do Pakistani students need a provincial attestation letter (PAL)?",
+          content:
+            "Most do. A PAL or TAL is a letter from the province or territory where you'll study, confirming you have one of its spaces under Canada's international student cap. Your school usually helps you get it. If you need one and apply without it, IRCC says your application will in most cases be returned with your fees. A PAL/TAL issued in a previous cap year can't be used.",
+          subsections: [
+            {
+              title: "Who is exempt from the PAL/TAL in 2026",
+              items: [
+                "Master's and doctoral degree students at public DLIs.",
+                "Primary and secondary (K-12) students.",
+                "Certain Government of Canada priority groups and vulnerable cohorts.",
+                "Current study permit holders extending at the same DLI and the same level of study.",
+              ],
+            },
+          ],
+          note:
+            "Quebec is different: your Quebec Acceptance Certificate (CAQ) serves as the attestation letter. See the official [PAL/TAL page](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html).",
+        },
+        {
+          heading: "Is the Student Direct Stream (SDS) still open for Pakistan?",
+          content:
+            "No. IRCC ended the Student Direct Stream and the Nigeria Student Express at 2:00 p.m. ET on November 8, 2024. Applications submitted after that are processed in the regular study permit stream. Some older pages and agents still mention SDS for Pakistan, but it's no longer available. See the [IRCC notice on the end of SDS](https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/end-student-direct-stream-nigeria-student-express.html).",
+        },
+        {
+          heading: "Do Pakistani students need a medical exam for Canada?",
+          content:
+            "Usually, yes. IRCC says you may need a medical exam if you lived or travelled in certain countries or territories for 6 or more months in the year before coming to Canada, and Pakistan is on that list. You'll also need one if you plan to study or work in health, primary or secondary education, or child or elder care. The exam must be done by an IRCC panel physician. Check the [IRCC medical exam country list](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams/requirements-temporary-residents/country-requirements.html).",
+        },
+        {
+          heading: "How much are the Canada study permit fees?",
+          columnCompare: {
+            left: {
+              title: "Fees you pay to IRCC",
+              items: [
+                "Study permit: CAD 150.",
+                "Biometrics: CAD 85 per person.",
+                "Family applying together: biometrics capped at CAD 170.",
+                "Fees aren't refunded if you're refused.",
+              ],
+            },
+            right: {
+              title: "Other costs to plan for",
+              items: [
+                "Medical exam: charged by the panel physician.",
+                "Language test fee, if your school requires one.",
+                "Tuition deposit, as set by your school.",
+                "Funds you must show: CAD 23,448 living costs plus tuition and travel.",
+              ],
+            },
+          },
+          note:
+            "Pay biometrics when you submit; IRCC warns that paying later can delay your application. Biometrics are usually valid for 10 years.",
+        },
+        {
+          heading: "What documents do you need?",
+          subsections: [
+            {
+              title: "Core checklist",
+              items: [
+                "Valid passport.",
+                "Letter of acceptance from a designated learning institution (DLI).",
+                "Provincial or territorial attestation letter (PAL/TAL), unless you're exempt, or a CAQ for Quebec.",
+                "Proof of financial support: tuition, living costs and travel.",
+                "Medical exam confirmation, if required.",
+                "Any extra documents listed on your visa office's checklist.",
+              ],
+            },
+          ],
+          note:
+            "Never submit fake admission letters, PALs or bank documents. Misrepresentation can lead to refusal and a 5-year ban from applying to Canada.",
+        },
+        {
+          heading: "How do you apply from Pakistan?",
+          subsections: [
+            {
+              title: "Step by step",
+              items: [
+                "Get your letter of acceptance from a DLI.",
+                "Get your PAL/TAL through your school (unless exempt), or your CAQ for Quebec.",
+                "Gather proof of funds and your financial history.",
+                "Apply online through your IRCC account and pay CAD 150 plus CAD 85 biometrics.",
+                "Give your biometrics after you receive the biometric instruction letter.",
+                "Do your medical exam with an IRCC panel physician if required.",
+                "Track your application; check current processing times on canada.ca.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "How much bank balance is needed for a Canada study visa from Pakistan?",
+              answer:
+                "For a single student applying on or after September 1, 2026, outside Quebec, IRCC's living-cost amount is CAD 23,448. You must also show your first-year tuition and travel costs. The amount rises with each family member who comes with you, and Quebec sets its own requirements through the CAQ process.",
+            },
+            {
+              question: "What is the Canada study permit fee for Pakistani students?",
+              answer:
+                "The study permit fee is CAD 150, and biometrics cost CAD 85 per person, or a maximum of CAD 170 for a family applying together. These fees are paid online to IRCC and aren't refunded if the application is refused. Medical exam and language test costs are separate.",
+            },
+            {
+              question: "Is SDS still available for Pakistan in 2026?",
+              answer:
+                "No. The Student Direct Stream ended on November 8, 2024, at 2:00 p.m. ET. All Pakistani students now apply through the regular study permit stream, with the standard requirements for funds, documents and processing. Be cautious of agents still advertising SDS or fast-track Canada student visas from Pakistan.",
+            },
+            {
+              question: "Do I need a PAL for a master's degree in Canada?",
+              answer:
+                "Not if you're enrolled in a master's or doctoral degree at a public designated learning institution: these students are exempt from the PAL/TAL requirement in 2026. Most college and undergraduate students do need one. Quebec students use the CAQ instead. Confirm your situation on the official IRCC PAL/TAL page.",
+            },
+            {
+              question: "Do Pakistani students need a medical exam for a Canada study permit?",
+              answer:
+                "Generally yes. IRCC requires a medical exam if you lived or travelled in a listed country, which includes Pakistan, for 6 or more months in the year before coming to Canada. It's also needed for programs in health, education or care. Only IRCC panel physicians can perform the exam.",
+            },
+            {
+              question: "What happens if I apply without a PAL?",
+              answer:
+                "If you need a PAL or TAL and don't include one, IRCC says that in most cases your application will be returned with your fees, so it won't be processed. Get the letter through your school before applying, and make sure it's issued for the current cap year, not a previous one.",
+            },
+            {
+              question: "Are Canada study permit fees refunded if I'm refused?",
+              answer:
+                "No. IRCC states that fees won't be refunded regardless of the final decision. That's why it's important to submit a complete application with genuine documents, a clear study plan and well-explained proof of funds, and to check the latest checklist for your visa office before you apply.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We help Pakistani students organise Canada study permit documents, including proof-of-funds files and source-of-funds explanations, so the application is clear and complete. We can't guarantee any visa: the decision is made by IRCC. Start with our [Canada study visa page](/study-visa/canada) or read [Canada visitor visa refusal reasons for Pakistani applicants](/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants).",
+        },
+      ],
+    },
+  },
   "uk-student-visa-cost-from-pakistan": {
     title: "UK Student Visa Cost from Pakistan 2026: Fee, IHS, Bank Funds and TB Test",
     metaTitle: "UK Student Visa Cost from Pakistan (2026 Breakdown)",
