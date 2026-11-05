@@ -31,7 +31,7 @@ const countriesByRegion = regions.map((region) => ({
 function DestinationLinks({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <>
-      {regions.map((region) => (
+      {countriesByRegion.map((region) => (
         <div key={region.key}>
           <Link
             href={region.path}
