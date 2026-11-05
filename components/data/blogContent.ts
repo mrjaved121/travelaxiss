@@ -5,6 +5,186 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "germany-opportunity-card-pakistan": {
+    title: "Germany Opportunity Card from Pakistan 2026: Points, Funds and Documents",
+    metaTitle: "Germany Opportunity Card from Pakistan (2026 Guide)",
+    metaDescription:
+      "Germany Opportunity Card (Chancenkarte) from Pakistan: 6-point system, €1,091/month blocked account, €75 fee, 20-hour work rule and documents.",
+    keywords: [
+      "germany opportunity card pakistan",
+      "chancenkarte pakistan",
+      "germany job seeker visa pakistan 2026",
+      "opportunity card points calculator",
+      "germany opportunity card blocked account",
+      "chancenkarte islamabad karachi",
+    ],
+    date: "November 5, 2026",
+    dateModifiedIso: "2026-11-05",
+    readTime: "8 min read",
+    category: "Germany Visa Documentation",
+    cta: {
+      heading: "Applying for a Germany Opportunity Card?",
+      text: "We help Pakistani applicants organise Opportunity Card files: recognition papers, funds proof and checklists.",
+      label: "Germany Visa Support",
+      href: "/services/germany-visa-from-pakistan",
+    },
+    content: {
+      intro:
+        "The Germany Opportunity Card (Chancenkarte) lets Pakistani skilled workers move to Germany for up to one year to look for a job, without a job offer. You qualify either as a recognised skilled worker or through a points system that needs at least 6 points, plus a degree or at least two years of vocational training recognised in Pakistan and German at A1 or English at B2. You must show you can support yourself, usually with a blocked account of at least €1,091 per month (2026 figure, subject to change). The German Embassy in Pakistan lists a visa fee of €75, paid in cash in Pakistani rupees. While you look, you can work part-time up to 20 hours a week. Last updated November 2026: always confirm current rules with the German mission before applying.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Germany Opportunity Card for Pakistanis (2026)",
+              items: [
+                "What it is: a residence permit to look for work in Germany, for up to 1 year.",
+                "Job offer needed: no.",
+                "Two routes: recognised skilled worker (no points needed) or the points route (minimum 6 points).",
+                "Points route basics: degree or 2+ years of vocational training recognised in Pakistan, plus German A1 or English B2.",
+                "Funds: blocked account of at least €1,091 per month (2026 figure; €13,092 for 12 months).",
+                "Work allowed while searching: part-time up to 20 hours a week, plus trial work of up to 2 weeks per employer.",
+                "Visa fee (German missions in Pakistan): €75, paid in cash in PKR.",
+                "Health insurance: required for your stay.",
+              ],
+            },
+          ],
+          note:
+            "Official sources: [Federal Foreign Office Opportunity Card portal](https://digital.diplo.de/chancenkarte) and the [German Embassy Pakistan Opportunity Card checklist](https://pakistan.diplo.de/resource/blob/2660740/fbda69ed9a7f88712ee01d161e67cff9/opportunity-card-pdf-data.pdf).",
+        },
+        {
+          heading: "Who is eligible for the Germany Opportunity Card?",
+          content:
+            "There are two ways to qualify. If your foreign degree or vocational qualification is fully recognised in Germany, you count as a skilled worker and don't need points. Otherwise, you can use the points route. For that you need a university degree or at least two years of vocational training that's state-recognised in the country where you got it (Pakistan), German at A1 level or English at B2 level (CEFR), and at least 6 points. In both cases you must show you can cover your living costs for your stay.",
+        },
+        {
+          heading: "How does the Opportunity Card points system work?",
+          subsections: [
+            {
+              title: "Points criteria (you need at least 6)",
+              items: [
+                "Partial recognition of your foreign qualification in Germany: 4 points.",
+                "Qualification in a German shortage occupation: 1 point.",
+                "Professional experience: 2 points for 2 years in the last 5 years; 3 points for 5 years in the last 7 years.",
+                "German language: 1 point for A2, 2 points for B1, 3 points for B2 or higher.",
+                "English at C1 or higher (or native level): 1 extra point.",
+                "Age: 2 points if you're 35 or younger; 1 point if you're over 35 and up to 40.",
+                "Previous legal stay in Germany of at least 6 months in the last 5 years: 1 point (tourist and family visits don't count).",
+                "Spouse or registered partner applying together who also qualifies: 1 point for one of you.",
+              ],
+            },
+            {
+              title: "Example: a 30-year-old Pakistani engineer",
+              items: [
+                "Age 30: 2 points.",
+                "6 years of recent work experience (5 within the last 7 years): 3 points.",
+                "German at A2: 1 point.",
+                "Total: 6 points, enough to qualify if the basic degree and language rules are met.",
+              ],
+            },
+          ],
+          note:
+            "Points rules come from the Federal Foreign Office. Check the current list on the official [Opportunity Card portal](https://digital.diplo.de/chancenkarte) before you rely on your score.",
+        },
+        {
+          heading: "How much money do you need for the Opportunity Card?",
+          content:
+            "You must show you can support yourself while you're in Germany. German missions accept a blocked account (Sperrkonto) as standard proof. The Federal Foreign Office lists a 2026 minimum of €1,091 per month, which is €13,092 for a 12-month stay. The amount can change, so confirm the current figure with the mission before you open the account. If you have a blocked account from studying, note this is the same type of account; see our [Germany blocked account guide](/blog/germany-student-visa-blocked-account-pakistan).",
+          note:
+            "You'll also need health insurance covering your stay. Don't use borrowed money deposited just for the application and withdrawn later, or bank papers you can't verify.",
+        },
+        {
+          heading: "What can you do (and not do) on the Opportunity Card?",
+          columnCompare: {
+            left: {
+              title: "You can",
+              items: [
+                "Stay in Germany for up to 1 year to look for a job.",
+                "Work part-time, up to 20 hours a week in total.",
+                "Do trial work of up to 2 weeks per employer.",
+                "Switch to a work residence permit once you find a suitable job, subject to the usual rules.",
+              ],
+            },
+            right: {
+              title: "You can't",
+              items: [
+                "Work full-time while searching.",
+                "Do unlimited trial work with one employer.",
+                "Get the card without showing funds for your stay.",
+                "Count holidays or family visits towards the previous-stay point.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "What documents does the German Embassy in Pakistan ask for?",
+          subsections: [
+            {
+              title: "Checklist (German missions in Pakistan)",
+              items: [
+                "Completed and signed application form and declarations.",
+                "Passport copy (first three pages) and CNIC copy.",
+                "Appointment confirmation email.",
+                "CV.",
+                "Language certificates (German A1+ or English B2+, as relevant).",
+                "Proof of financial means, such as a blocked account confirmation.",
+                "Degree recognition: anabin printouts and, where needed, a Statement of Comparability from the ZAB (German central office for foreign education).",
+                "Proof of any previous visa refusals, if applicable.",
+                "Originals plus one set of copies; €75 fee in cash, in PKR.",
+              ],
+            },
+          ],
+          note:
+            "This checklist is from the [German Embassy Pakistan Opportunity Card PDF](https://pakistan.diplo.de/resource/blob/2660740/fbda69ed9a7f88712ee01d161e67cff9/opportunity-card-pdf-data.pdf). Missions update checklists, so always download the latest one before your appointment.",
+        },
+        {
+          heading: "Where do you apply in Pakistan: Islamabad or Karachi?",
+          content:
+            "It depends on where you live. According to the German missions in Pakistan, residents of Islamabad Capital Territory, Punjab, Khyber Pakhtunkhwa, Gilgit-Baltistan and Azad Jammu and Kashmir apply at the German Embassy in Islamabad. Residents of Sindh and Balochistan apply at the Consulate General in Karachi. Book your appointment only through the official Federal Foreign Office appointment system, never through agents selling slots. See [German missions in Pakistan: visa information](https://pakistan.diplo.de/pk-en/service/2208622-2208622).",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Can Pakistanis apply for the Germany Opportunity Card?",
+              answer:
+                "Yes. Pakistani citizens can apply if they're recognised skilled workers, or if they score at least 6 points and have a degree or two years of vocational training recognised in Pakistan, plus German A1 or English B2. You also need proof of funds and health insurance, and you apply at the German mission for your province.",
+            },
+            {
+              question: "How much bank balance is needed for the Germany Opportunity Card?",
+              answer:
+                "The Federal Foreign Office lists a 2026 minimum of €1,091 per month, usually shown through a blocked account. For a full 12-month stay that's €13,092. The amount can change each year, so check the current figure with the German Embassy in Islamabad or the Consulate in Karachi before opening your account.",
+            },
+            {
+              question: "How many points do I need for the Chancenkarte?",
+              answer:
+                "You need at least 6 points on the points route. Points come from partial recognition of your qualification, a shortage occupation, work experience, German and English language skills, age, a previous legal stay in Germany and applying with a qualifying partner. Recognised skilled workers don't need points at all.",
+            },
+            {
+              question: "Can I work in Germany on the Opportunity Card?",
+              answer:
+                "Yes, but only part-time while you look for a job: up to 20 hours a week in total. You can also do trial work of up to two weeks with each employer. Once you find a suitable job, you can apply to switch to a work-based residence permit, subject to the normal requirements.",
+            },
+            {
+              question: "What is the Opportunity Card visa fee in Pakistan?",
+              answer:
+                "The German Embassy in Pakistan's checklist lists a visa fee of €75, to be paid in cash in Pakistani rupees at the mission's exchange rate when you submit. Blocked account fees, health insurance, translations and recognition costs are separate. Always check the latest checklist before your appointment, as fees can change.",
+            },
+            {
+              question: "Do I need IELTS for the Germany Opportunity Card?",
+              answer:
+                "Not necessarily IELTS specifically. On the points route you must prove German at A1 or English at B2 level. English at C1 or higher earns an extra point. Use a recognised language certificate and check with the German mission which certificates it accepts as proof of your level.",
+            },
+          ],
+        },
+        {
+          heading: "How Travelaxis can help",
+          content:
+            "We help Pakistani applicants organise Germany Opportunity Card documents, including recognition paperwork, blocked account proof and the embassy checklist. We don't sell jobs and we can't guarantee any visa: the decision is made by the German mission. Start with our [Germany visa from Pakistan service](/services/germany-visa-from-pakistan).",
+        },
+      ],
+    },
+  },
   "canada-study-permit-requirements-pakistan": {
     title: "Canada Study Permit from Pakistan 2026: Funds, PAL, Fees and Documents",
     metaTitle: "Canada Study Permit from Pakistan: 2026 Requirements",

@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "germany-opportunity-card-pakistan",
+      title: "Germany Opportunity Card from Pakistan 2026: Points, Funds and Documents",
+      excerpt:
+        "Look for a job in Germany for up to a year without a job offer. Opportunity Card (Chancenkarte) points, €1,091/month funds, €75 fee in Pakistan, 20-hour work rule and the embassy checklist.",
+      date: "November 5, 2026",
+      readTime: "8 min read",
+      category: "Germany Visa Documentation",
+    },
+    {
       id: "canada-study-permit-requirements-pakistan",
       title: "Canada Study Permit from Pakistan 2026: Funds, PAL, Fees and Documents",
       excerpt:
