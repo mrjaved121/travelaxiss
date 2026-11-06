@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { trackEvent } from "@/lib/seo/analytics";
 
@@ -16,7 +17,22 @@ const WHATSAPP_HREF = `https://wa.me/971589867555?text=${encodeURIComponent(
  */
 export default function MobileStickyCta() {
   const pathname = usePathname();
-  if (HIDDEN_ON.some((path) => pathname === path || pathname.startsWith(`${path}/`))) {
+  const [pickerVisible, setPickerVisible] = useState(false);
+
+  // On the homepage, hide the bar while the hero picker is on screen: it repeats the
+  // picker's action and would otherwise cover the picker's button on short phones.
+  useEffect(() => {
+    const picker = document.getElementById("check-requirements");
+    if (!picker || typeof IntersectionObserver === "undefined") {
+      setPickerVisible(false);
+      return;
+    }
+    const observer = new IntersectionObserver(([entry]) => setPickerVisible(entry.isIntersecting));
+    observer.observe(picker);
+    return () => observer.disconnect();
+  }, [pathname]);
+
+  if (pickerVisible || HIDDEN_ON.some((path) => pathname === path || pathname.startsWith(`${path}/`))) {
     return null;
   }
 

@@ -56,9 +56,8 @@ export const faqItems: FaqItem[] = [
 ];
 
 const homepageFaqQuestions = [
-  "What documents are required for a UAE visit visa?",
-  "Do you provide multiple-entry visa assistance?",
   "How does Travelaxis visa documentation work?",
+  "What documents are required for a UAE visit visa?",
   "Can you help with international visa documentation?",
   "How long does visa processing take?",
   "Does Travelaxis guarantee visa approval?",
