@@ -17,20 +17,20 @@ const WHATSAPP_HREF = `https://wa.me/971589867555?text=${encodeURIComponent(
  */
 export default function MobileStickyCta() {
   const pathname = usePathname();
-  const [pickerVisible, setPickerVisible] = useState(false);
+  // Which page the picker was last seen on, and whether it is on screen.
+  const [picker, setPicker] = useState({ path: "", visible: false });
 
   // On the homepage, hide the bar while the hero picker is on screen: it repeats the
   // picker's action and would otherwise cover the picker's button on short phones.
   useEffect(() => {
-    const picker = document.getElementById("check-requirements");
-    if (!picker || typeof IntersectionObserver === "undefined") {
-      setPickerVisible(false);
-      return;
-    }
-    const observer = new IntersectionObserver(([entry]) => setPickerVisible(entry.isIntersecting));
-    observer.observe(picker);
+    const el = document.getElementById("check-requirements");
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const observer = new IntersectionObserver(([entry]) => setPicker({ path: pathname, visible: entry.isIntersecting }));
+    observer.observe(el);
     return () => observer.disconnect();
   }, [pathname]);
+
+  const pickerVisible = picker.path === pathname && picker.visible;
 
   if (pickerVisible || HIDDEN_ON.some((path) => pathname === path || pathname.startsWith(`${path}/`))) {
     return null;
