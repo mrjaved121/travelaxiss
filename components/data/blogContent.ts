@@ -23,10 +23,10 @@ export const blogData: Record<string, any> = {
     readTime: "8 min read",
     category: "Germany Visa Documentation",
     cta: {
-      heading: "Applying for a Germany Opportunity Card?",
-      text: "We help Pakistani applicants organise Opportunity Card files: recognition papers, funds proof and checklists.",
-      label: "Germany Visa Support",
-      href: "/services/germany-visa-from-pakistan",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/schengen/",
     },
     content: {
       intro:
@@ -178,9 +178,9 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis can help",
+          heading: "About this guide",
           content:
-            "We help Pakistani applicants organise Germany Opportunity Card documents, including recognition paperwork, blocked account proof and the embassy checklist. We don't sell jobs and we can't guarantee any visa: the decision is made by the German mission. Start with our [Germany visa from Pakistan service](/services/germany-visa-from-pakistan).",
+            "This is a free information guide. Travelaxis offers visit visa documentation only: we don't prepare Opportunity Card or work visa applications, sell jobs, or guarantee any visa. Use the German Embassy's official checklist for your application. If you're planning a short trip to Germany first, see our [Schengen visit visa support](/visit-visa/schengen/).",
         },
       ],
     },
@@ -203,10 +203,10 @@ export const blogData: Record<string, any> = {
     readTime: "8 min read",
     category: "Canada Visa Documentation",
     cta: {
-      heading: "Planning to Study in Canada?",
-      text: "We help Pakistani students prepare complete, well-organised Canada study permit files.",
-      label: "Canada Study Visa Support",
-      href: "/study-visa/canada",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/canada/",
     },
     content: {
       intro:
@@ -379,9 +379,9 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis can help",
+          heading: "About this guide",
           content:
-            "We help Pakistani students organise Canada study permit documents, including proof-of-funds files and source-of-funds explanations, so the application is clear and complete. We can't guarantee any visa: the decision is made by IRCC. Start with our [Canada study visa page](/study-visa/canada) or read [Canada visitor visa refusal reasons for Pakistani applicants](/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants).",
+            "This is a free information guide. Travelaxis offers visit visa documentation only: we don't prepare study permit applications and we can't guarantee any visa. Use IRCC's official checklist for your application. Also read [Canada visitor visa refusal reasons for Pakistani applicants](/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants).",
         },
       ],
     },
@@ -405,10 +405,10 @@ export const blogData: Record<string, any> = {
     readTime: "8 min read",
     category: "UK Visa Documentation",
     cta: {
-      heading: "Applying for a UK Student Visa?",
-      text: "We help Pakistani students prepare a complete, well-organised UK student visa file.",
-      label: "UK Study Visa Support",
-      href: "/study-visa/uk",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/uk/",
     },
     content: {
       intro:
@@ -542,9 +542,9 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis can help",
+          heading: "About this guide",
           content:
-            "We help Pakistani students organise UK student visa documents, including funds evidence that meets the 28-day rule, so the file is clear and complete. We can't guarantee any visa: the decision is made by UK Visas and Immigration. Start with our [UK study visa page](/study-visa/uk) or our [UK visa from Pakistan service](/services/uk-visa-from-pakistan).",
+            "This is a free information guide. Travelaxis offers visit visa documentation only: we don't prepare UK student visa applications and we can't guarantee any visa. Use the GOV.UK checklist for your application. If family members are visiting you in the UK, see our [UK visit visa support](/visit-visa/uk/).",
         },
       ],
     },
@@ -709,10 +709,10 @@ export const blogData: Record<string, any> = {
     readTime: "8 min read",
     category: "UK Visa Documentation",
     cta: {
-      heading: "Planning to Study in the UK?",
-      text: "We help Pakistani students prepare UK study and visa files. We don't sell jobs or sponsorship.",
-      label: "UK Visa Support",
-      href: "/services/uk-visa-from-pakistan",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/uk/",
     },
     content: {
       intro:
@@ -888,9 +888,9 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "How Travelaxis can help",
+          heading: "About this guide",
           content:
-            "We help Pakistani students prepare documentation for UK study plans and visa files. We don't sell jobs or sponsorship and we can't guarantee any visa. For questions about your own Graduate or Skilled Worker application inside the UK, speak to a UK-regulated immigration adviser. See our [UK visa from Pakistan](/services/uk-visa-from-pakistan) and [study visa](/services/study-visa) services, or read [study abroad without IELTS from Pakistan](/blog/study-abroad-without-ielts-from-pakistan).",
+            "This is a free information guide. Travelaxis offers visit visa documentation only: we don't prepare student, Graduate or Skilled Worker applications, sell jobs or sponsorship, or guarantee any visa. For advice on your own application inside the UK, speak to a UK-regulated immigration adviser. Also read [UK student visa cost from Pakistan](/blog/uk-student-visa-cost-from-pakistan) and [study abroad without IELTS from Pakistan](/blog/study-abroad-without-ielts-from-pakistan).",
         },
       ],
     },
@@ -1076,10 +1076,10 @@ export const blogData: Record<string, any> = {
     readTime: "8 min read",
     category: "International Visa Documentation",
     cta: {
-      heading: "Want to Study Abroad Without IELTS?",
-      text: "We help Pakistani students shortlist universities that accept their English proof and prepare the admission and student visa file.",
-      label: "Study Visa Support",
-      href: "/services/study-visa",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/",
     },
     content: {
       intro:
@@ -1218,9 +1218,9 @@ export const blogData: Record<string, any> = {
             "Haan, Pakistani students IELTS ke baghair bhi bahar parh sakte hain, lekin iska matlab hai ke university koi aur English proof qabool karti hai. Sab se aam tareeqa MOI letter hai, jo aapki university ka Registrar deta hai ke aapki degree poori English mein thi. PTE, TOEFL ya Duolingo bhi kai universities qabool karti hain. Germany, Italy, Hungary, Turkey, China, Malaysia aur France mein kai universities English-taught programmes ke liye MOI letter maanti hain. Har university ka rule alag hota hai, is liye apply karne se pehle official page zaroor check karein.",
         },
         {
-          heading: "How Travelaxis can help",
+          heading: "About this guide",
           content:
-            "We help Pakistani students find universities that accept their English proof, prepare the MOI letter wording and admission documents, and put together the student visa file. See our [study visa from Pakistan services](/services/study-visa), or visit our [Pakistan page](/pakistan) for all our services for Pakistani applicants.",
+            "This is a free information guide. Travelaxis offers visit visa documentation only: we don't shortlist universities or prepare student visa applications. Check each university's English requirements and the official student visa website for your destination. For short trips, see our [visit visa support](/visit-visa/).",
         },
         {
           heading: "Related Reading",
@@ -3301,10 +3301,10 @@ export const blogData: Record<string, any> = {
     readTime: "8 min read",
     category: "Australia Visa Documentation",
     cta: {
-      heading: "Need Help Preparing Your Australia Student Visa File?",
-      text: "Get your supporting documents and evidence reviewed before you apply.",
-      label: "Check Requirements",
-      href: "/study-visa/australia#requirements-form",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/australia/",
     },
     content: {
       intro:
@@ -3451,7 +3451,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "How Travelaxis helps with an Australia student visa file",
           content:
-            "At Travelaxis we help Pakistani students organize and check the supporting documents for an [Australia student visa](/study-visa/australia) — transcripts, employment and income evidence and the rest of the file — so that it is complete and consistent, and we coordinate certificate attestation where your documents need it. Your answers to the Genuine Student questions have to be your own, so we do not write them for you. We are a documentation and consultancy service, not a MARA-registered migration agent: we do not provide regulated migration advice, arrange admission or issue visas, and we cannot guarantee any outcome — the decision rests with Home Affairs.",
+            "This is a free information guide. Travelaxis offers visit visa documentation only: we don't prepare Australia student visa applications, and your answers to the Genuine Student questions must be your own. We are not a MARA-registered migration agent and cannot give regulated migration advice or guarantee any outcome; the decision rests with Home Affairs. For a short visit, see our [Australia visit visa support](/visit-visa/australia/).",
           relatedLinks: [
             { label: "Get an Australia visa document review from Travelaxis", href: "/contact" },
             { label: "Australia Student Visa from Pakistan — Requirements & Support", href: "/study-visa/australia" },
@@ -3703,10 +3703,10 @@ export const blogData: Record<string, any> = {
     readTime: "9 min read",
     category: "Germany Visa Documentation",
     cta: {
-      heading: "Need Help With Your Germany Student Visa File?",
-      text: "Get your documents and financing proof reviewed before you apply.",
-      label: "Check Requirements",
-      href: "/study-visa/germany#requirements-form",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/schengen/",
     },
     content: {
       intro:
@@ -3745,7 +3745,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Documents the Mission lists for a student visa",
           content:
-            "On its [student visa page](https://pakistan.diplo.de/pk-en/service/2-study-visa-seite/1676104) the German Mission lists academic documents including past degree certificates (school, bachelor's, or earlier master's degrees), degree transcripts, and proof of payment of tuition fees where that applies to your course. These go alongside your university admission and your financing proof. The Mission publishes a full checklist, so download the current version rather than relying on a summary — and confirm on it whether any of your certificates need further verification. Our [Germany study visa page](/study-visa/germany) summarises the process, and we confirm the exact list for your case.",
+            "On its [student visa page](https://pakistan.diplo.de/pk-en/service/2-study-visa-seite/1676104) the German Mission lists academic documents including past degree certificates (school, bachelor's, or earlier master's degrees), degree transcripts, and proof of payment of tuition fees where that applies to your course. These go alongside your university admission and your financing proof. The Mission publishes a full checklist, so download the current version rather than relying on a summary — and confirm on it whether any of your certificates need further verification.",
         },
         {
           heading: "Where and how to apply from Pakistan",
