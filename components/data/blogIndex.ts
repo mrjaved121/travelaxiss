@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "ireland-student-visa-from-pakistan",
+      title: "Ireland Student Visa from Pakistan 2026: Funds, Fees and Documents",
+      excerpt:
+        "Ireland long stay study visa from Pakistan: €10,000 living funds, €6,000 fee deposit rule, €60 or €100 visa fee, IELTS 5.0 minimum, 8-week decisions, €300 registration and 20-hour work rule.",
+      date: "November 8, 2026",
+      readTime: "8 min read",
+      category: "Europe Visa Documentation",
+    },
+    {
       id: "germany-opportunity-card-pakistan",
       title: "Germany Opportunity Card from Pakistan 2026: Points, Funds and Documents",
       excerpt:

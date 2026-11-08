@@ -5,6 +5,216 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "ireland-student-visa-from-pakistan": {
+    title: "Ireland Student Visa from Pakistan 2026: Funds, Fees and Documents",
+    metaTitle: "Ireland Student Visa from Pakistan (2026 Guide)",
+    metaDescription:
+      "Ireland study visa from Pakistan: €10,000 living funds, €6,000 fee deposit, €60 visa fee, IELTS 5.0 minimum, 20-hour work rule and the official checklist.",
+    keywords: [
+      "ireland student visa from pakistan",
+      "ireland study visa requirements pakistan",
+      "ireland student visa bank statement",
+      "ireland study visa fee pakistan",
+      "stamp 2 ireland work hours",
+      "ireland d visa study pakistan 2026",
+    ],
+    date: "November 8, 2026",
+    dateModifiedIso: "2026-11-08",
+    readTime: "8 min read",
+    category: "Europe Visa Documentation",
+    cta: {
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/europe/",
+    },
+    content: {
+      intro:
+        "Pakistani students need a long stay 'D' study visa to study in Ireland for more than 3 months. According to Irish Immigration Service Delivery, you must show immediate access to at least €10,000 for living costs for one academic year, pay at least €6,000 of your course fees before applying (or the full fee if it's under €6,000), and meet a minimum English level such as IELTS 5.0 for degree courses. The visa fee is €60 for single entry or €100 for multi entry, and most applicants can expect a decision in about 8 weeks. After arrival you register your permission and pay a €300 registration fee. Last updated November 2026: rules and fees change, so always confirm on irishimmigration.ie before applying.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Ireland study visa for Pakistanis (2026)",
+              items: [
+                "Visa type: long stay 'D' study visa for courses longer than 3 months.",
+                "When to apply: up to 3 months before you travel, from Pakistan or where you legally live.",
+                "Living funds: immediate access to at least €10,000 per academic year, plus €10,000 and fees for each later year.",
+                "Course fees: pay the full fee if under €6,000, or at least €6,000 if the fee is higher, before you apply.",
+                "Bank statements: last 6 months, on bank headed paper; credit cards are not accepted.",
+                "English for visa purposes (degree and other courses): for example IELTS Academic 5.0, PTE Academic 30, TOEFL iBT 61, Duolingo 75.",
+                "Visa fee: €60 single entry or €100 multi entry (non-refundable).",
+                "Decision time: about 8 weeks from when the visa office receives your application.",
+                "After arrival: register within 90 days; registration fee €300.",
+                "Work while studying (Stamp 2): 20 hours a week in term, 40 hours a week in holiday periods.",
+              ],
+            },
+          ],
+          note:
+            "Official sources: [How to apply for a long term study visa](https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/how-to-apply-for-long-term-study-visa/), [Information on student finances](https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/) and [Preclearance and entry visa fees](https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/).",
+        },
+        {
+          heading: "Which Ireland visa do Pakistani students need?",
+          content:
+            "It depends on how long you'll study. Irish Immigration Service Delivery says that if you're visa required and staying less than 90 days, you apply for a short stay 'C' visa. If you're staying more than 90 days, you apply for a long stay 'D' visa, and you must also register your permission after you arrive. Pakistani citizens need a visa for Ireland. Ireland isn't part of Schengen, so a Schengen visa doesn't let you enter Ireland. See [What are my study visa options?](https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/) and the [Embassy of Ireland, Pakistan visa page](https://www.ireland.ie/en/pakistan/islamabad/services/visas/visas-for-ireland/).",
+        },
+        {
+          heading: "How much bank balance do you need for an Ireland student visa?",
+          content:
+            "For courses starting after 1 July 2023, you must show immediate access to at least €10,000, which Irish Immigration Service Delivery treats as the cost of living for one academic year. You (or your sponsors) must also show ready access to €10,000 for each later year of study, on top of course fees for those years. If your course is shorter than 8 months, you need €833 per month of your stay or €6,665, whichever is less. You must submit an up-to-date bank statement covering the last 6 months on bank headed paper, showing your name, address, account number and account type. Large or unusual deposits, such as a property sale or loan, must be fully explained, and credit cards aren't accepted. If a parent or relative sponsors you, include proof of your relationship, their bank statement for 6 months, and proof of income such as an employer letter with 3 recent payslips, or business registration. Degree students (NFQ level 7 to 10) can use an education bond of at least €10,000 instead of bank statements under a pilot scheme. Source: [Information on student finances](https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/).",
+        },
+        {
+          heading: "What documents are needed for an Ireland study visa from Pakistan?",
+          subsections: [
+            {
+              title: "Core checklist (from the official long stay study visa page)",
+              items: [
+                "Signed and dated AVATS summary application form.",
+                "Current passport valid for at least 12 months after your planned arrival date, plus copies of all pages of previous passports.",
+                "Two colour passport photos, not older than 6 months, signed on the back with your AVATS transaction number written on them.",
+                "A signed application letter: why you want to come, why this course (especially if it doesn't follow from your past study or work), travel dates, family in Ireland or the EU, and a commitment to obey visa conditions, not rely on public services and leave before your permission expires.",
+                "Letter of acceptance from the college: full-time course with at least 15 hours of organised daytime tuition a week, course details, fees payable and fees paid.",
+                "Proof of fee payment: an electronic transfer to the college's Irish bank account, or a receipt from an approved student fee payment service.",
+                "Evidence of academic ability and an explanation, with documents, of any gaps in your education history.",
+                "English language test certificate issued within 2 years of your course start date.",
+                "Evidence of funds: 6-month bank statements for you and any sponsor.",
+                "Private medical insurance (your college may arrange it and must say so in your acceptance letter).",
+                "Original documents, with full certified translations for anything not in English or Irish.",
+              ],
+            },
+          ],
+          note:
+            "Letters from organisations must be originals on headed paper with a fixed-line phone number, an email address (Yahoo and Hotmail aren't accepted), a named contact and a handwritten signature. Source: [How to apply for a long term study visa](https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/how-to-apply-for-long-term-study-visa/).",
+        },
+        {
+          heading: "What English test score is accepted for an Ireland study visa?",
+          content:
+            "Irish Immigration Service Delivery sets minimum English standards for visa purposes only. For degree and other courses (not 2nd level or preparatory English), the listed minimums include IELTS Academic or UKVI IELTS 5.0, PTE Academic 30, TOEFL iBT 61, Duolingo English Test 75, Oxford Test of English 100 and LanguageCert Academic 60. Your certificate must be issued within 2 years of your course start date. Your college can set a higher score, and most universities do, so check the course page too. English language course applicants don't need a test certificate but may be asked for evidence of basic English. Source: [English language requirements for study visas](https://www.irishimmigration.ie/coming-to-study-in-ireland/english-language-requirements-for-study-visas/).",
+        },
+        {
+          heading: "How do you apply for an Ireland student visa from Pakistan?",
+          subsections: [
+            {
+              title: "Step 1: Get an offer and pay your fees",
+              content:
+                "Get a letter of acceptance for a full-time course. Pay the full fee if it's under €6,000, or at least €6,000 if it's more, through the college's Irish bank account or an approved payment service. Colleges can't accept fees in cash.",
+            },
+            {
+              title: "Step 2: Fill in AVATS",
+              content:
+                "Complete the online application on AVATS, the Irish visa application system, answering every question fully and honestly. Print, sign and date the summary form it creates. The form tells you where to submit your passport and documents and how to pay the fee.",
+            },
+            {
+              title: "Step 3: Pay the fee and submit documents",
+              content:
+                "Pay €60 (single entry) or €100 (multi entry). If you're directed to the Dublin Visa Office, you must send your documents within 30 days of creating the AVATS application, and the fee is paid online in AVATS for covered countries. Extra local charges may apply. Biometrics may be required: your application office will confirm.",
+            },
+            {
+              title: "Step 4: Wait for the decision",
+              content:
+                "Applications are processed in order received. Expect a decision in about 8 weeks, longer if documents are missing or need checking. Dublin Visa Office decisions are published every Tuesday. Don't buy tickets before you know the outcome.",
+            },
+            {
+              title: "Step 5: Travel and register",
+              content:
+                "Carry copies of your application documents for border control. Because you're staying more than 90 days, you must register your immigration permission and pay the €300 registration fee. Source: [Registering your immigration permission](https://www.irishimmigration.ie/registering-your-immigration-permission/).",
+            },
+          ],
+        },
+        {
+          heading: "What does an Ireland study visa cost from Pakistan?",
+          subsections: [
+            {
+              title: "Official costs compared",
+              items: [
+                "Visa application fee: €60 single entry or €100 multi entry, not refunded if refused or withdrawn.",
+                "Living funds to show: at least €10,000 per academic year (€833 per month or €6,665 for courses under 8 months).",
+                "Course fee paid before applying: full fee if under €6,000, otherwise at least €6,000.",
+                "Registration fee after arrival: €300.",
+                "Other costs: English test, private medical insurance, translations, courier and any local service charges (amounts vary).",
+              ],
+            },
+          ],
+          note:
+            "Fee figures from [Preclearance and entry visa fees](https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/) and the [registration required documents page](https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/required-documents/), which cites S.I. No. 421/2025 for the €300 fee. Check both pages before you pay.",
+        },
+        {
+          heading: "Can you work in Ireland on a student visa?",
+          content:
+            "Yes, with limits. Students on an English language course or higher education programme listed on the Interim List of Eligible Programmes (ILEP) are registered on Stamp 2 and can work 20 hours a week during term and 40 hours a week during holidays, without an employment permit. Holiday periods are June, July, August and September, and 15 December to 15 January. You must still show your funds upfront, because the visa can't rely on casual work. After a level 8 Irish degree, the Third Level Graduate Programme can give 12 months on Stamp 1G (24 months for level 9 or higher), within overall time limits. Source: [Frequently asked questions for students](https://www.irishimmigration.ie/coming-to-study-in-ireland/frequently-asked-questions-for-students/).",
+        },
+        {
+          heading: "Why are Ireland student visas refused?",
+          subsections: [
+            {
+              title: "Common weak points to check before you apply",
+              items: [
+                "Missing documents: the official page says an application may be refused if required documents aren't submitted.",
+                "Weak or unclear funds: less than €10,000 available, statements not covering 6 months, or large deposits with no explanation.",
+                "Unexplained study gaps or a course that doesn't follow from your past education or work, with no clear reasons.",
+                "Fees not paid to the required level before applying.",
+                "English certificate below the visa minimum or older than 2 years.",
+                "Letters that can't be verified: mobile numbers only, free email addresses or electronic signatures.",
+              ],
+            },
+          ],
+          note:
+            "If refused, you get a letter explaining why. You can appeal within 2 months of the date on the refusal letter, and there's no fee to appeal.",
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "How much bank balance is required for an Ireland student visa from Pakistan?",
+              answer:
+                "You must show immediate access to at least €10,000 for living costs for one academic year, plus ready access to €10,000 and course fees for each later year. Submit 6 months of bank statements on headed paper for yourself and any sponsor, and explain any large or unusual deposits clearly.",
+            },
+            {
+              question: "Is IELTS required for an Ireland study visa?",
+              answer:
+                "Not IELTS specifically. You need an accepted English test at the visa minimum, for example IELTS Academic 5.0, PTE Academic 30, TOEFL iBT 61 or Duolingo 75 for degree courses. The certificate must be issued within 2 years of your course start. Your college may ask for a higher score.",
+            },
+            {
+              question: "What is the Ireland study visa fee for Pakistanis?",
+              answer:
+                "Irish Immigration Service Delivery lists €60 for a single entry visa and €100 for a multi entry visa. The fee isn't refunded if you're refused or withdraw. Extra local charges may apply where you submit documents, and you'll pay a separate €300 registration fee after arriving in Ireland.",
+            },
+            {
+              question: "How long does an Ireland student visa take from Pakistan?",
+              answer:
+                "The official guidance says applicants can expect a decision within about 8 weeks from the date the visa office receives the application. It can take longer if documents are missing, need verifying, or during busy periods. You can apply up to 3 months before travel, so start early.",
+            },
+            {
+              question: "Do I have to pay my full tuition fee before applying?",
+              answer:
+                "Only if the fee is under €6,000. If your course fee is more than €6,000, you must pay at least €6,000 before applying, and your letter of acceptance should show this. Your college may still ask for the full amount, so check its own payment rules.",
+            },
+            {
+              question: "Can I work part-time in Ireland as a Pakistani student?",
+              answer:
+                "Yes, if you're on Stamp 2 and your course is on the ILEP list. You can work 20 hours a week during term and 40 hours a week in holiday periods, without an employment permit. You still need to show full funds when applying, because work income isn't counted for the visa.",
+            },
+            {
+              question: "Can my parents sponsor my Ireland study visa?",
+              answer:
+                "Yes. List each sponsor, show how you're related (for example a birth certificate), and give their 6-month bank statements and proof of income, such as an employer letter with 3 recent payslips or business registration. Their funds must cover your support and their own family's needs.",
+            },
+            {
+              question: "Can I appeal an Ireland student visa refusal?",
+              answer:
+                "Yes. Your refusal letter explains the reasons. You can appeal within 2 months of the date on that letter, and appeals are free. Address each refusal reason directly with clear documents. If your circumstances have changed a lot, consider whether a fresh application is the better option.",
+            },
+          ],
+        },
+        {
+          heading: "About this guide",
+          content:
+            "This is a free information guide, last updated November 2026. Travelaxis offers visit visa documentation only: we don't prepare Irish study visa applications or guarantee any visa. Always use the official checklist on [irishimmigration.ie](https://www.irishimmigration.ie/coming-to-study-in-ireland/) and the instructions on your AVATS summary form. If you're planning a short trip to Europe instead, see our [Europe visit visa support](/visit-visa/europe/).",
+        },
+      ],
+    },
+  },
   "germany-opportunity-card-pakistan": {
     title: "Germany Opportunity Card from Pakistan 2026: Points, Funds and Documents",
     metaTitle: "Germany Opportunity Card from Pakistan (2026 Guide)",
