@@ -13,13 +13,13 @@ import { PHONE_HREF, PHONE_LABEL, WHATSAPP_HREF } from "@/components/home/contac
 import { homepageFaqs } from "@/lib/data/faqs";
 
 /* Brand colours (navy + gold), as used across the site. */
-const OCEAN = "#0A4D8C"; // navy / primary
-const INK = "#0F2A43"; // headings and body text
-const GOLD = "#F5A524"; // main call to action
-const GOLD_TEXT = "#3B2600"; // text on gold
-const SAND = "#F7F3EC"; // alternate section background
-const LINE = "#E6E1D8"; // card borders
-const MUTED = "#3E4C5A"; // supporting text (≥ 7:1 on white and sand)
+const OCEAN = "#2864E8"; // navy / primary
+const INK = "#10254A"; // headings and body text
+const GOLD = "#0B7A6D"; // main call to action (teal button, white text)
+const GOLD_TEXT = "#FFFFFF"; // text on teal button
+const SAND = "#F4F8FC"; // alternate section background
+const LINE = "#E3EAF3"; // card borders
+const MUTED = "#4B5B70"; // supporting text (≥ 7:1 on white and sand)
 
 /* One spacing rhythm for every section: 48px on phones, 64px on tablets, 96px on desktop. */
 const SECTION = "py-12 sm:py-16 lg:py-24";
@@ -28,8 +28,8 @@ const CONTAINER = "mx-auto max-w-6xl px-4 sm:px-6 lg:px-8";
 /* One primary and one secondary button style. */
 const BTN_BASE =
   "btn inline-flex h-12 w-full items-center justify-center gap-2 rounded-xl px-6 text-base transition-[filter,background-color] focus-visible:outline-none focus-visible:ring-4 sm:w-auto";
-const BTN_PRIMARY = `${BTN_BASE} bg-[#F5A524] text-[#3B2600] hover:brightness-105 focus-visible:ring-[#F5A524]/40`;
-const BTN_SECONDARY = `${BTN_BASE} border border-[#E6E1D8] bg-white text-[#0F2A43] hover:bg-[#F7F3EC] focus-visible:ring-[#0A4D8C]/30`;
+const BTN_PRIMARY = `${BTN_BASE} bg-[#0B7A6D] text-white hover:brightness-105 focus-visible:ring-[#0B7A6D]/40`;
+const BTN_SECONDARY = `${BTN_BASE} border border-[#E3EAF3] bg-white text-[#10254A] hover:bg-[#F4F8FC] focus-visible:ring-[#2864E8]/30`;
 
 const disclosure =
   "We are a documentation service, not a government authority. We don't issue visas or guarantee outcomes; the relevant authority makes every decision.";
@@ -168,7 +168,7 @@ export default function HomePage() {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="card-hover flex h-full min-h-[4.5rem] items-center gap-3 rounded-xl bg-white p-4 transition-colors focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#0A4D8C]/30"
+                  className="card-hover flex h-full min-h-[4.5rem] items-center gap-3 rounded-xl bg-white p-4 transition-colors focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#2864E8]/30"
                   style={{ border: `1px solid ${LINE}` }}
                 >
                   {item.flag ? (

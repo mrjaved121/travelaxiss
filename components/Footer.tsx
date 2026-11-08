@@ -9,13 +9,13 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="pb-16 md:pb-0 border-t" style={{ backgroundColor: "#FFFFFF", color: "#0F2A43", borderColor: "#E6E1D8" }}>
+    <footer className="pb-16 md:pb-0 border-t" style={{ backgroundColor: "#FFFFFF", color: "#10254A", borderColor: "#E3EAF3" }}>
       {/* Newsletter strip */}
       <NewsletterSignup />
 
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 border-t"
-        style={{ borderColor: "#E6E1D8" }}
+        style={{ borderColor: "#E3EAF3" }}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Brand */}
@@ -24,10 +24,10 @@ export default function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element -- static export, images unoptimized */}
               <img src="/travelaxis-logo.webp" alt="Travelaxis" width={704} height={158} className="h-9 w-auto" loading="lazy" />
             </Link>
-            <p className="text-[#52606D] text-sm leading-relaxed">
+            <p className="text-[#4B5B70] text-sm leading-relaxed">
               Visit visa documentation and application support for applicants in Pakistan and the UAE, from our Dubai and Lahore offices.
             </p>
-            <p className="text-[#52606D] text-xs mt-4 leading-relaxed">
+            <p className="text-[#4B5B70] text-xs mt-4 leading-relaxed">
               We provide documentation preparation and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not guarantee visa approval or employment outcomes. Applications are submitted through official government channels or by the applicant/employer.
             </p>
           </div>
@@ -124,7 +124,7 @@ export default function Footer() {
                 </li>
               ))}
               <li className="pt-1">
-                <Link href="/destinations" className="footer-link font-semibold transition-colors" style={{ color: "#0A4D8C" }}>
+                <Link href="/destinations" className="footer-link font-semibold transition-colors" style={{ color: "#2864E8" }}>
                   Explore All Destinations &rarr;
                 </Link>
               </li>
@@ -172,15 +172,15 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3.5 list-none p-0 m-0">
               <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
-                <span className="text-[#52606D] text-sm">Al Qusais, Dubai, UAE</span>
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+                <span className="text-[#4B5B70] text-sm">Al Qusais, Dubai, UAE</span>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
-                <span className="text-[#52606D] text-sm">DHA Phase 8, Lahore, Pakistan</span>
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+                <span className="text-[#4B5B70] text-sm">DHA Phase 8, Lahore, Pakistan</span>
               </li>
               <li className="flex items-start space-x-2">
-                <MessageCircle className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
+                <MessageCircle className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
                 <a
                   href={WHATSAPP_HREF}
                   target="_blank"
@@ -192,13 +192,13 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
                 <a href="mailto:info@travelaxis.me" className="footer-link transition-colors">
                   info@travelaxis.me
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
                 <a href="tel:+971589867555" className="footer-link transition-colors">
                   +971 58 986 7555
                 </a>
@@ -208,8 +208,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-[#E6E1D8] mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-[#52606D] text-sm">
+        <div className="border-t border-[#E3EAF3] mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-[#4B5B70] text-sm">
             © {currentYear} Travelaxis. All rights reserved.
           </p>
           <nav aria-label="Legal" className="flex flex-wrap justify-center gap-x-6 gap-y-2">

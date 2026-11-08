@@ -33,24 +33,24 @@ export default function UaeTourPackagePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#0A4D8C" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#2864E8" }}>
         <div
           className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full"
-          style={{ backgroundColor: "rgba(56,189,248,0.18)" }}
+          style={{ backgroundColor: "rgba(25, 182, 163,0.18)" }}
           aria-hidden
         />
         <div
           className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full"
-          style={{ backgroundColor: "rgba(245,165,36,0.15)" }}
+          style={{ backgroundColor: "rgba(25, 182, 163,0.15)" }}
           aria-hidden
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#E0F0FB" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#E8EFFD" }}>
               UAE Visit Visa + Holiday Package
             </p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
-              Explore the Best of the UAE — <span style={{ color: "#F5A524" }}>Visa, Hotel &amp; Tours Sorted</span>
+              Explore the Best of the UAE — <span style={{ color: "#CFF0EA" }}>Visa, Hotel &amp; Tours Sorted</span>
             </h1>
             <p className="text-lg text-white/90 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
               Burj Khalifa, Desert Safari, a Dubai City Tour, Abu Dhabi&apos;s Grand Mosque, a Dhow Cruise and
@@ -61,7 +61,7 @@ export default function UaeTourPackagePage() {
             <ul className="flex flex-wrap justify-center lg:justify-start gap-x-6 gap-y-2 mb-10 text-white/95 text-sm font-medium">
               {["Visit visa documentation", "Airport pick-up & drop-off", "4-star hotel, 7 days", "Fully customizable tours"].map((item) => (
                 <li key={item} className="flex items-center gap-2">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "#38BDF8" }} aria-hidden />
+                  <span className="inline-block w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "#19B6A3" }} aria-hidden />
                   {item}
                 </li>
               ))}
@@ -70,7 +70,7 @@ export default function UaeTourPackagePage() {
               <a
                 href="#get-quote"
                 className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
-                style={{ backgroundColor: "#F5A524", color: "#3B2600" }}
+                style={{ backgroundColor: "#0B7A6D", color: "#FFFFFF" }}
               >
                 <span>Get My Custom Quote</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -79,7 +79,7 @@ export default function UaeTourPackagePage() {
                 href={WHATSAPP_HREF}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-semibold bg-white text-[#0F2A43] transition-all hover:opacity-90"
+                className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-semibold bg-white text-[#10254A] transition-all hover:opacity-90"
                 aria-label="Chat with Travelaxis on WhatsApp about the UAE tour package (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" style={{ color: "#25D366" }} aria-hidden />
@@ -109,37 +109,37 @@ export default function UaeTourPackagePage() {
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">What&apos;s Included</h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">What&apos;s Included</h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {includeCards.map((item) => (
               <div
                 key={item.title}
                 className="rounded-2xl border bg-white p-6 text-center transition-all hover:-translate-y-1"
-                style={{ borderColor: "#E6E1D8", boxShadow: "0 2px 8px rgba(15,42,67,0.06)" }}
+                style={{ borderColor: "#E3EAF3", boxShadow: "0 2px 8px rgba(16, 37, 74,0.06)" }}
               >
-                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "#0A4D8C" }} aria-hidden>
+                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "#2864E8" }} aria-hidden>
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-bold text-[#0F2A43] mb-2">{item.title}</h3>
-                <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{item.description}</p>
+                <h3 className="text-lg font-bold text-[#10254A] mb-2">{item.title}</h3>
+                <p className="text-[0.9375rem] text-[#4B5B70] leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
-          <p className="text-center text-sm text-[#52606D] mt-8">
+          <p className="text-center text-sm text-[#4B5B70] mt-8">
             Flights are not included — book your own, from any city and airline you prefer.
           </p>
         </div>
       </section>
 
       {/* Package tiers */}
-      <section id="packages" className="py-16 sm:py-20 scroll-mt-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section id="packages" className="py-16 sm:py-20 scroll-mt-20" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">Choose Your Package</h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
-            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">Choose Your Package</h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
+            <p className="mt-4 text-lg text-[#4B5B70] max-w-2xl mx-auto">
               Both packages include a 4-star hotel, airport transfers and the full 7-day tour plan. Gold adds
               Ferrari World, Atlantis Aquaventure and the Dubai Frame.
             </p>
@@ -152,32 +152,32 @@ export default function UaeTourPackagePage() {
                   key={tier.name}
                   className="relative rounded-3xl bg-white p-6 sm:p-8 border-2"
                   style={{
-                    borderColor: featured ? "#0A4D8C" : "#E6E1D8",
-                    boxShadow: featured ? "0 12px 32px rgba(10,77,140,0.15)" : "0 2px 8px rgba(15,42,67,0.06)",
+                    borderColor: featured ? "#2864E8" : "#E3EAF3",
+                    boxShadow: featured ? "0 12px 32px rgba(40, 100, 232,0.15)" : "0 2px 8px rgba(16, 37, 74,0.06)",
                   }}
                 >
                   {featured && (
                     <span
                       className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide text-white"
-                      style={{ backgroundColor: "#0A4D8C" }}
+                      style={{ backgroundColor: "#2864E8" }}
                     >
                       Theme Parks Included
                     </span>
                   )}
-                  <h3 className="text-2xl font-extrabold text-[#0F2A43]">{tier.name}</h3>
-                  <p className="text-sm font-semibold mt-1 mb-6" style={{ color: "#0A4D8C" }}>{tier.tagline}</p>
+                  <h3 className="text-2xl font-extrabold text-[#10254A]">{tier.name}</h3>
+                  <p className="text-sm font-semibold mt-1 mb-6" style={{ color: "#2864E8" }}>{tier.tagline}</p>
                   <ul className="space-y-3 mb-6">
                     {tier.includes.map((item) => (
-                      <li key={item} className="flex gap-3 text-[0.9375rem] text-[#0F2A43]">
-                        <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#0A4D8C" }} aria-hidden />
+                      <li key={item} className="flex gap-3 text-[0.9375rem] text-[#10254A]">
+                        <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
                         <span>{item}</span>
                       </li>
                     ))}
                   </ul>
-                  <p className="text-xs font-bold uppercase tracking-wide text-[#52606D] mb-2">Not included</p>
+                  <p className="text-xs font-bold uppercase tracking-wide text-[#4B5B70] mb-2">Not included</p>
                   <ul className="space-y-2 mb-8">
                     {tier.notIncluded.map((item) => (
-                      <li key={item} className="flex gap-3 text-sm text-[#52606D]">
+                      <li key={item} className="flex gap-3 text-sm text-[#4B5B70]">
                         <X className="w-4 h-4 shrink-0 mt-0.5" aria-hidden />
                         <span>{item}</span>
                       </li>
@@ -189,8 +189,8 @@ export default function UaeTourPackagePage() {
                     className="h-12 w-full inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
                     style={
                       featured
-                        ? { backgroundColor: "#F5A524", color: "#3B2600" }
-                        : { backgroundColor: "#FFFFFF", color: "#0A4D8C", border: "2px solid #0A4D8C" }
+                        ? { backgroundColor: "#0B7A6D", color: "#FFFFFF" }
+                        : { backgroundColor: "#FFFFFF", color: "#2864E8", border: "2px solid #2864E8" }
                     }
                   >
                     <span>Get a {tier.name.replace(" Package", "")} Quote</span>
@@ -200,7 +200,7 @@ export default function UaeTourPackagePage() {
               );
             })}
           </div>
-          <p className="text-center text-sm text-[#52606D] mt-8">
+          <p className="text-center text-sm text-[#4B5B70] mt-8">
             Price depends on your dates, group size and hotel — request a quote and we&apos;ll confirm it on WhatsApp.
           </p>
         </div>
@@ -218,13 +218,13 @@ export default function UaeTourPackagePage() {
               className="w-full h-auto rounded-2xl shadow-lg"
               loading="lazy"
             />
-            <p className="text-xs text-[#52606D] mt-2">Example of a 4-star hotel room — your exact hotel is confirmed when you book.</p>
+            <p className="text-xs text-[#4B5B70] mt-2">Example of a 4-star hotel room — your exact hotel is confirmed when you book.</p>
           </div>
           <div className="text-center md:text-left">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A] mb-4">
               A Comfortable 4-Star Stay
             </h2>
-            <p className="text-lg text-[#52606D] leading-relaxed mb-4">
+            <p className="text-lg text-[#4B5B70] leading-relaxed mb-4">
               7 days / 6 nights in a 4-star hotel, chosen around your travel dates, group size and budget. Tell us
               your preferences — location, room type, number of guests — and we&apos;ll confirm the right property
               for your trip.
@@ -234,14 +234,14 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Sample day-by-day itinerary */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">
               Your 7-Day UAE Itinerary
             </h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
-            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
+            <p className="mt-4 text-lg text-[#4B5B70] max-w-2xl mx-auto">
               Included in both packages: Dubai&apos;s top sights and a day in Abu Dhabi. Gold Package extras fit
               into the same days, and any day can be swapped to suit you.
             </p>
@@ -251,26 +251,26 @@ export default function UaeTourPackagePage() {
               <li
                 key={item.day}
                 className="flex gap-5 rounded-2xl border bg-white p-5 sm:p-6"
-                style={{ borderColor: "#E6E1D8", boxShadow: "0 2px 8px rgba(15,42,67,0.06)" }}
+                style={{ borderColor: "#E3EAF3", boxShadow: "0 2px 8px rgba(16, 37, 74,0.06)" }}
               >
                 <div
                   className="grid size-12 shrink-0 place-items-center rounded-full text-lg font-bold text-white"
-                  style={{ backgroundColor: "#0A4D8C" }}
+                  style={{ backgroundColor: "#2864E8" }}
                   aria-hidden
                 >
                   {i + 1}
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-wide" style={{ color: "#0A4D8C" }}>
+                  <p className="text-xs font-bold uppercase tracking-wide" style={{ color: "#2864E8" }}>
                     {item.day}
                   </p>
-                  <h3 className="text-lg font-bold text-[#0F2A43] mb-1">{item.title}</h3>
-                  <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{item.description}</p>
+                  <h3 className="text-lg font-bold text-[#10254A] mb-1">{item.title}</h3>
+                  <p className="text-[0.9375rem] text-[#4B5B70] leading-relaxed">{item.description}</p>
                 </div>
               </li>
             ))}
           </ol>
-          <p className="text-center text-sm text-[#52606D] mt-8">
+          <p className="text-center text-sm text-[#4B5B70] mt-8">
             Days may be rearranged around your arrival date and tour availability. Your final plan is confirmed with you before booking.
           </p>
         </div>
@@ -280,11 +280,11 @@ export default function UaeTourPackagePage() {
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">
               Build Your Own Itinerary
             </h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
-            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
+            <p className="mt-4 text-lg text-[#4B5B70] max-w-2xl mx-auto">
               Tell us which of these you&apos;d like included, and we&apos;ll work them into your package.
             </p>
           </div>
@@ -293,7 +293,7 @@ export default function UaeTourPackagePage() {
               <div
                 key={a.name}
                 className="rounded-2xl border bg-white overflow-hidden transition-all hover:-translate-y-1"
-                style={{ borderColor: "#E6E1D8", boxShadow: "0 2px 8px rgba(15,42,67,0.06)" }}
+                style={{ borderColor: "#E3EAF3", boxShadow: "0 2px 8px rgba(16, 37, 74,0.06)" }}
               >
                 <img
                   src={a.image}
@@ -304,27 +304,27 @@ export default function UaeTourPackagePage() {
                   loading="lazy"
                 />
                 <div className="p-6">
-                  <h3 className="text-lg font-bold text-[#0F2A43] mb-2">{a.name}</h3>
-                  <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{a.description}</p>
+                  <h3 className="text-lg font-bold text-[#10254A] mb-2">{a.name}</h3>
+                  <p className="text-[0.9375rem] text-[#4B5B70] leading-relaxed">{a.description}</p>
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-center text-sm text-[#52606D] mt-8">
+          <p className="text-center text-sm text-[#4B5B70] mt-8">
             Have something else in mind? Tell us in the form below — the itinerary is yours to shape.
           </p>
         </div>
       </section>
 
       {/* More experiences — breadth, not a fixed itinerary */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">
               Even More to Experience in the UAE
             </h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
-            <p className="mt-4 text-lg text-[#52606D] max-w-2xl mx-auto">
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
+            <p className="mt-4 text-lg text-[#4B5B70] max-w-2xl mx-auto">
               A sample of what&apos;s available across the UAE — not everything fits in 7 days, so this is here to
               help you choose, not a fixed itinerary. Pick what interests you and we&apos;ll work it in.
             </p>
@@ -332,7 +332,7 @@ export default function UaeTourPackagePage() {
           <div className="space-y-8">
             {moreExperienceGroups.map((group) => (
               <div key={group.category}>
-                <h3 className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: "#0A4D8C" }}>
+                <h3 className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: "#2864E8" }}>
                   {group.category}
                 </h3>
                 <div className="flex flex-wrap gap-2">
@@ -340,7 +340,7 @@ export default function UaeTourPackagePage() {
                     <span
                       key={item}
                       className="rounded-full px-2.5 py-1 text-xs font-semibold"
-                      style={{ backgroundColor: "#E0F0FB", color: "#0A4D8C" }}
+                      style={{ backgroundColor: "#E8EFFD", color: "#2864E8" }}
                     >
                       {item}
                     </span>
@@ -360,20 +360,20 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Why us */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">Why Book With Us</h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">Why Book With Us</h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
           </div>
           <div className="grid sm:grid-cols-3 gap-8">
             {whyUs.map((item) => (
               <div key={item.title} className="text-center">
-                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "#0A4D8C" }} aria-hidden>
+                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "#2864E8" }} aria-hidden>
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-lg font-bold text-[#0F2A43] mb-2">{item.title}</h3>
-                <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{item.description}</p>
+                <h3 className="text-lg font-bold text-[#10254A] mb-2">{item.title}</h3>
+                <p className="text-[0.9375rem] text-[#4B5B70] leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -384,17 +384,17 @@ export default function UaeTourPackagePage() {
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#0F2A43]">Frequently Asked Questions</h2>
-            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#F5A524" }} />
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">Frequently Asked Questions</h2>
+            <span className="mx-auto mt-4 block h-1 w-14 rounded-full" style={{ backgroundColor: "#19B6A3" }} />
           </div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border" style={{ borderColor: "#E6E1D8" }}>
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border" style={{ borderColor: "#E3EAF3" }}>
             <Accordion type="single" collapsible className="w-full">
               {tourPackageFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
-                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#0F2A43" }}>
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E3EAF3]">
+                  <AccordionTrigger className="text-left text-base font-bold py-5 hover:no-underline" style={{ color: "#10254A" }}>
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
+                  <AccordionContent className="text-[#4B5B70] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -405,7 +405,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Final CTA band */}
-      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: "#0A4D8C" }}>
+      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
         <div className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-4">
             Ready to Plan Your UAE Trip?
@@ -419,7 +419,7 @@ export default function UaeTourPackagePage() {
             target="_blank"
             rel="noopener noreferrer"
             className="h-12 inline-flex items-center justify-center gap-2 px-8 rounded-xl font-bold transition-all hover:brightness-105"
-            style={{ backgroundColor: "#F5A524", color: "#3B2600" }}
+            style={{ backgroundColor: "#0B7A6D", color: "#FFFFFF" }}
             aria-label="Chat with Travelaxis on WhatsApp about the UAE tour package (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

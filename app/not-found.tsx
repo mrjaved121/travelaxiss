@@ -18,9 +18,9 @@ const quickLinks = [
 
 export default function NotFound() {
   return (
-    <section className="py-20 md:py-28" style={{ backgroundColor: "#F7F3EC" }}>
+    <section className="py-20 md:py-28" style={{ backgroundColor: "#F4F8FC" }}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#0A4D8C" }}>
+        <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
           404
         </p>
         <h1 className="page-title mb-4">
@@ -36,10 +36,10 @@ export default function NotFound() {
               key={link.href}
               href={link.href}
               className="flex items-center justify-between gap-2 rounded-2xl p-4 bg-white shadow-sm hover:shadow-md transition-shadow font-semibold"
-              style={{ color: "#0F2A43" }}
+              style={{ color: "#10254A" }}
             >
               <span>{link.label}</span>
-              <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "#0A4D8C" }} aria-hidden />
+              <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
             </Link>
           ))}
         </div>
@@ -48,7 +48,7 @@ export default function NotFound() {
           <Link
             href="/"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
+            style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
           >
             <Search className="w-5 h-5" aria-hidden />
             <span>Back to Homepage</span>
@@ -58,7 +58,7 @@ export default function NotFound() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-            style={{ borderColor: "#0A4D8C", color: "#0A4D8C" }}
+            style={{ borderColor: "#2864E8", color: "#2864E8" }}
             aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

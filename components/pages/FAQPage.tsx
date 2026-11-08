@@ -28,18 +28,18 @@ export default function FAQPage() {
 
   return (
     <div>
-      <section className="py-20" style={{ backgroundColor: '#F7F3EC' }}>
+      <section className="py-20" style={{ backgroundColor: '#F4F8FC' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#0A4D8C' }} aria-hidden>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#2864E8' }} aria-hidden>
               <HelpCircle className="w-8 h-8" style={{ color: '#FFFFFF' }} />
             </div>
             <h1 className="page-title mb-6">
-              Frequently Asked <span style={{ color: '#0A4D8C' }}>Questions</span>
+              Frequently Asked <span style={{ color: '#2864E8' }}>Questions</span>
             </h1>
             <p className="lead">
               Clear answers about our visit and study visa documentation support.
@@ -50,7 +50,7 @@ export default function FAQPage() {
 
       <section className="py-8" style={{ backgroundColor: "#FFFFFF" }} aria-label="Disclaimer">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm text-[#52606D] text-center leading-relaxed border border-[#E6E1D8] rounded-2xl p-4 bg-[#F7F3EC]">
+          <p className="text-sm text-[#4B5B70] text-center leading-relaxed border border-[#E3EAF3] rounded-2xl p-4 bg-[#F4F8FC]">
             We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through each country&apos;s official government channels or authorized entities, subject to applicable rules and approvals.
           </p>
         </div>
@@ -71,11 +71,11 @@ export default function FAQPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
-            <label htmlFor={searchFieldId} className="block text-center text-sm font-semibold mb-3" style={{ color: '#0F2A43' }}>
+            <label htmlFor={searchFieldId} className="block text-center text-sm font-semibold mb-3" style={{ color: '#10254A' }}>
               Search frequently asked questions
             </label>
             <div className="relative max-w-2xl mx-auto">
-              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#52606D] w-5 h-5 pointer-events-none" aria-hidden />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#4B5B70] w-5 h-5 pointer-events-none" aria-hidden />
               <input
                 id={searchFieldId}
                 type="search"
@@ -83,8 +83,8 @@ export default function FAQPage() {
                 placeholder="e.g. visit visa, bank statement"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-[#E6E1D8] focus:border-opacity-50 focus:outline-none transition-colors"
-                style={{ borderColor: searchQuery ? '#0A4D8C' : undefined }}
+                className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-[#E3EAF3] focus:border-opacity-50 focus:outline-none transition-colors"
+                style={{ borderColor: searchQuery ? '#2864E8' : undefined }}
                 autoComplete="off"
                 aria-describedby={`${searchFieldId}-hint`}
               />
@@ -100,7 +100,7 @@ export default function FAQPage() {
             transition={{ delay: 0.1 }}
             className="mb-12"
           >
-            <p id={categoryGroupLabelId} className="text-center text-sm font-semibold mb-3" style={{ color: '#0F2A43' }}>
+            <p id={categoryGroupLabelId} className="text-center text-sm font-semibold mb-3" style={{ color: '#10254A' }}>
               Filter by topic
             </p>
             <div className="flex flex-wrap justify-center gap-3" role="group" aria-labelledby={categoryGroupLabelId}>
@@ -111,8 +111,8 @@ export default function FAQPage() {
                   onClick={() => setSelectedCategory(category)}
                   className="px-6 py-2 rounded-full font-semibold transition-all"
                   style={{
-                    backgroundColor: selectedCategory === category ? '#0A4D8C' : '#F7F3EC',
-                    color: selectedCategory === category ? '#FFFFFF' : '#52606D',
+                    backgroundColor: selectedCategory === category ? '#2864E8' : '#F4F8FC',
+                    color: selectedCategory === category ? '#FFFFFF' : '#4B5B70',
                   }}
                   aria-pressed={selectedCategory === category}
                 >
@@ -130,7 +130,7 @@ export default function FAQPage() {
               className="text-center py-12"
               role="status"
             >
-              <p className="text-[#52606D]">No questions found. Try a different search term or category.</p>
+              <p className="text-[#4B5B70]">No questions found. Try a different search term or category.</p>
             </motion.div>
           ) : (
             <ul className="space-y-4 list-none p-0 m-0">
@@ -149,12 +149,12 @@ export default function FAQPage() {
                     className="rounded-2xl overflow-hidden shadow-sm border-2 transition-all"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: isOpen ? '#0A4D8C' : '#F7F3EC'
+                      borderColor: isOpen ? '#2864E8' : '#F4F8FC'
                     }}
                   >
                     <div
                       className="flex items-stretch justify-between gap-2"
-                      style={{ backgroundColor: isOpen ? '#F7F3EC' : 'transparent' }}
+                      style={{ backgroundColor: isOpen ? '#F4F8FC' : 'transparent' }}
                     >
                       <h3 id={headId} className="subsection-title m-0 flex-1 min-w-0">
                         <button
@@ -168,7 +168,7 @@ export default function FAQPage() {
                           <span className="flex-1 pr-2">
                             <span className="block">{faq.question}</span>
                             {faq.category ? (
-                              <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F7F3EC', color: '#0A4D8C' }}>
+                              <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F4F8FC', color: '#2864E8' }}>
                                 {faq.category}
                               </span>
                             ) : null}
@@ -179,7 +179,7 @@ export default function FAQPage() {
                             className="flex-shrink-0"
                             aria-hidden
                           >
-                            <ChevronDown className="w-6 h-6" style={{ color: '#0A4D8C' }} />
+                            <ChevronDown className="w-6 h-6" style={{ color: '#2864E8' }} />
                           </motion.span>
                         </button>
                       </h3>
@@ -190,9 +190,9 @@ export default function FAQPage() {
                       role="region"
                       aria-labelledby={headId}
                       hidden={!isOpen}
-                      className="px-6 pb-6 pt-2 border-t border-[#E6E1D8]"
+                      className="px-6 pb-6 pt-2 border-t border-[#E3EAF3]"
                     >
-                      <p className="text-[#52606D] leading-relaxed">{faq.answer}</p>
+                      <p className="text-[#4B5B70] leading-relaxed">{faq.answer}</p>
                     </div>
                   </motion.li>
                 );
@@ -207,21 +207,21 @@ export default function FAQPage() {
             className="mt-8 text-center"
             aria-live="polite"
           >
-            <p className="text-[#52606D]">
-              Showing <span className="font-semibold" style={{ color: '#0A4D8C' }}>{filteredFAQs.length}</span> of <span className="font-semibold">{faqs.length}</span> questions
+            <p className="text-[#4B5B70]">
+              Showing <span className="font-semibold" style={{ color: '#2864E8' }}>{filteredFAQs.length}</span> of <span className="font-semibold">{faqs.length}</span> questions
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: '#F7F3EC' }}>
+      <section className="py-16" style={{ backgroundColor: '#F4F8FC' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="section-title mb-8 text-center">
-              Related <span style={{ color: '#0A4D8C' }}>Topics</span>
+              Related <span style={{ color: '#2864E8' }}>Topics</span>
             </h2>
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 list-none p-0 m-0">
               {[
@@ -242,7 +242,7 @@ export default function FAQPage() {
                   className="rounded-2xl p-4 text-center shadow-sm hover:shadow-md transition-shadow"
                   style={{ backgroundColor: '#FFFFFF' }}
                 >
-                  <p className="text-sm font-semibold" style={{ color: '#0F2A43' }}>
+                  <p className="text-sm font-semibold" style={{ color: '#10254A' }}>
                     {topic}
                   </p>
                 </motion.li>
@@ -252,7 +252,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#0A4D8C' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#2864E8' }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -264,7 +264,7 @@ export default function FAQPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
           >
             Contact Travelaxis for personalized answers
             <ArrowRight className="w-5 h-5" aria-hidden />

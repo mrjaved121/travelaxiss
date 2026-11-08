@@ -16,19 +16,19 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-[#0F2A43]">
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-[#10254A]">
       <JsonLd data={breadcrumbJsonLd([{ name: "Privacy Policy", path: "/privacy" }])} />
       <h1 className="page-title mb-2">
-        Privacy <span style={{ color: "#0A4D8C" }}>Policy</span>
+        Privacy <span style={{ color: "#2864E8" }}>Policy</span>
       </h1>
-      <p className="text-[#52606D] text-sm mb-10">Last updated: April 9, 2026</p>
-      <div className="prose prose-gray max-w-none space-y-6 text-[#52606D]">
+      <p className="text-[#4B5B70] text-sm mb-10">Last updated: April 9, 2026</p>
+      <div className="prose prose-gray max-w-none space-y-6 text-[#4B5B70]">
         <p>
           Travelaxis (&quot;we&quot;, &quot;us&quot;) respects your privacy. This policy describes
           how we collect, use, and protect information when you visit our website or contact us for
           consultancy services in the UAE.
         </p>
-        <h2 className="section-title pt-4 text-[#0F2A43]">
+        <h2 className="section-title pt-4 text-[#10254A]">
           Information we may collect
         </h2>
         <ul className="list-disc pl-6 space-y-2">
@@ -36,25 +36,25 @@ export default function PrivacyPolicyPage() {
           <li>Messages and documents you send for service enquiries</li>
           <li>Basic technical data such as browser type and approximate location (via analytics, if enabled)</li>
         </ul>
-        <h2 className="section-title pt-4 text-[#0F2A43]">
+        <h2 className="section-title pt-4 text-[#10254A]">
           How we use information
         </h2>
         <p>
           We use this information to respond to enquiries, provide consultancy coordination, and
           improve our services. We do not sell your personal data to third parties for marketing.
         </p>
-        <h2 className="section-title pt-4 text-[#0F2A43]">
+        <h2 className="section-title pt-4 text-[#10254A]">
           Contact
         </h2>
         <p>
           For privacy-related requests, contact us at{" "}
-          <a href="mailto:info@travelaxis.me" className="underline" style={{ color: "#0A4D8C" }}>
+          <a href="mailto:info@travelaxis.me" className="underline" style={{ color: "#2864E8" }}>
             info@travelaxis.me
           </a>
           .
         </p>
         <p className="pt-8">
-          <Link href="/" className="text-sm font-medium underline" style={{ color: "#0A4D8C" }}>
+          <Link href="/" className="text-sm font-medium underline" style={{ color: "#2864E8" }}>
             Return to Travelaxis home
           </Link>
         </p>

@@ -11,7 +11,7 @@ export default function VisitVisaCountryPage({ destination }: { destination: Vis
 
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs trail={[
             { name: "Visit Visa Services", href: "/visit-visa" },
@@ -20,9 +20,9 @@ export default function VisitVisaCountryPage({ destination }: { destination: Vis
           ]} />
           <p className="eyebrow mb-3">Visit Visa Services</p>
           <h1 className="page-title mb-6">
-            {destination.name} <span style={{ color: "#0A4D8C" }}>Visit Visa</span>
+            {destination.name} <span style={{ color: "#2864E8" }}>Visit Visa</span>
           </h1>
-          <p className="lead mb-8 text-[#52606D]">
+          <p className="lead mb-8 text-[#4B5B70]">
             Get clear, practical support to prepare a visit-visa application for travel to {destination.name}.
             Travelaxis helps applicants organise their information and supporting documents before they use the relevant official process.
           </p>
@@ -30,7 +30,7 @@ export default function VisitVisaCountryPage({ destination }: { destination: Vis
             <a href="#requirements-form" className="btn inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-white transition-all hover:bg-primary-hover">
               Check {destination.name} requirements <ArrowRight className="size-5" aria-hidden />
             </a>
-            <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" className="btn inline-flex items-center justify-center gap-2 rounded-full border-2 bg-white px-8 py-4" style={{ borderColor: "#E6E1D8", color: "#0F2A43" }}>
+            <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" className="btn inline-flex items-center justify-center gap-2 rounded-full border-2 bg-white px-8 py-4" style={{ borderColor: "#E3EAF3", color: "#10254A" }}>
               <MessageCircle className="size-5" style={{ color: "#25D366" }} aria-hidden /> WhatsApp us
             </a>
           </div>
@@ -46,27 +46,27 @@ export default function VisitVisaCountryPage({ destination }: { destination: Vis
               ["Organise supporting documents", "Prepare a clear, consistent set of documents for the official application process."],
               ["Stay prepared", "Get support with forms, appointment steps, and follow-up actions where applicable."],
             ].map(([title, text]) => (
-              <div key={title} className="rounded-2xl border bg-white p-5" style={{ borderColor: "#E6E1D8" }}>
-                <CheckCircle2 className="mb-3 size-5" style={{ color: "#0A4D8C" }} aria-hidden />
+              <div key={title} className="rounded-2xl border bg-white p-5" style={{ borderColor: "#E3EAF3" }}>
+                <CheckCircle2 className="mb-3 size-5" style={{ color: "#2864E8" }} aria-hidden />
                 <h3 className="subsection-title mb-2">{title}</h3>
-                <p className="text-sm leading-relaxed text-[#52606D]">{text}</p>
+                <p className="text-sm leading-relaxed text-[#4B5B70]">{text}</p>
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm leading-relaxed text-[#52606D]">
+          <p className="mt-6 text-sm leading-relaxed text-[#4B5B70]">
             Visa rules, fees, appointment availability, and required evidence can change. Always confirm your current requirements with {destination.officialLabel} before submitting an application.
           </p>
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6">A clear application process</h2>
           <ol className="grid gap-4 sm:grid-cols-4">
             {["Tell us your travel plans", "Review the current requirements", "Prepare your application file", "Proceed through the official process"].map((step, index) => (
-              <li key={step} className="rounded-2xl bg-white p-5" style={{ border: "1px solid #E6E1D8" }}>
-                <span className="mb-3 grid size-9 place-items-center rounded-full text-sm font-bold" style={{ backgroundColor: "#E0F0FB", color: "#0A4D8C" }}>{index + 1}</span>
-                <p className="text-sm font-semibold text-[#0F2A43]">{step}</p>
+              <li key={step} className="rounded-2xl bg-white p-5" style={{ border: "1px solid #E3EAF3" }}>
+                <span className="mb-3 grid size-9 place-items-center rounded-full text-sm font-bold" style={{ backgroundColor: "#E8EFFD", color: "#2864E8" }}>{index + 1}</span>
+                <p className="text-sm font-semibold text-[#10254A]">{step}</p>
               </li>
             ))}
           </ol>
@@ -79,13 +79,13 @@ export default function VisitVisaCountryPage({ destination }: { destination: Vis
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="rounded-2xl bg-white p-8 text-center" style={{ border: "1px solid #E6E1D8" }}>
-            <FileCheck2 className="mx-auto mb-4 size-7" style={{ color: "#0A4D8C" }} aria-hidden />
+          <div className="rounded-2xl bg-white p-8 text-center" style={{ border: "1px solid #E3EAF3" }}>
+            <FileCheck2 className="mx-auto mb-4 size-7" style={{ color: "#2864E8" }} aria-hidden />
             <h2 className="section-title mb-3">Need help planning your next step?</h2>
-            <p className="mx-auto max-w-2xl text-[#52606D]">Tell us your destination and travel purpose. The final visa decision is always made by the relevant government authority.</p>
-            <Link href="/visit-visa/" className="mt-6 inline-flex items-center gap-2 font-semibold" style={{ color: "#0A4D8C" }}>
+            <p className="mx-auto max-w-2xl text-[#4B5B70]">Tell us your destination and travel purpose. The final visa decision is always made by the relevant government authority.</p>
+            <Link href="/visit-visa/" className="mt-6 inline-flex items-center gap-2 font-semibold" style={{ color: "#2864E8" }}>
               Explore all visit visa destinations <ArrowRight className="size-4" aria-hidden />
             </Link>
           </div>

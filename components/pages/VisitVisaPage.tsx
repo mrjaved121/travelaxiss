@@ -108,7 +108,7 @@ function DestinationFinder() {
   return (
     <div className="mb-8 max-w-md">
       <form onSubmit={handleSubmit}>
-        <label htmlFor={inputId} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+        <label htmlFor={inputId} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
           Where do you want to travel?
         </label>
         <div className="flex gap-2">
@@ -122,7 +122,7 @@ function DestinationFinder() {
               setNotFound(false);
             }}
             placeholder="Search UK, USA, Canada, Schengen…"
-            className="flex-1 rounded-xl border border-[#E6E1D8] bg-white px-4 py-3 text-[#0F2A43] placeholder:text-[#52606D] focus:outline-none focus:ring-2 transition-shadow"
+            className="flex-1 rounded-xl border border-[#E3EAF3] bg-white px-4 py-3 text-[#10254A] placeholder:text-[#4B5B70] focus:outline-none focus:ring-2 transition-shadow"
           />
           <datalist id={listId}>
             {Object.keys(DESTINATION_MAP).map((name) => (
@@ -132,16 +132,16 @@ function DestinationFinder() {
           <button
             type="submit"
             className="px-5 py-3 rounded-xl font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#0A4D8C", color: "#FFFFFF" }}
+            style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
           >
             Go
           </button>
         </div>
       </form>
       {notFound && (
-        <p className="text-sm text-[#52606D] mt-2">
+        <p className="text-sm text-[#4B5B70] mt-2">
           We don&apos;t have a dedicated page for that yet —{" "}
-          <a href="#requirements-form" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#0A4D8C" }}>
+          <a href="#requirements-form" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
             tell us in the form below
           </a>{" "}
           and we&apos;ll check.
@@ -157,11 +157,11 @@ function DestinationFinder() {
                 go(name);
               }}
               className="font-semibold underline-offset-2 hover:underline"
-              style={{ color: "#0A4D8C" }}
+              style={{ color: "#2864E8" }}
             >
               {name}
             </button>
-            {i < POPULAR_SEARCHES.length - 1 && <span className="text-[#52606D]"> · </span>}
+            {i < POPULAR_SEARCHES.length - 1 && <span className="text-[#4B5B70]"> · </span>}
           </span>
         ))}
       </div>
@@ -260,15 +260,15 @@ export default function VisitVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Visit Visa <span style={{ color: "#0A4D8C" }}>Services</span>
+              Visit Visa <span style={{ color: "#2864E8" }}>Services</span>
             </h1>
-            <p className="lead text-[#52606D] mb-6 leading-relaxed">
+            <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               Planning to travel from Pakistan? Explore destination-specific visit visa
               requirements and get help preparing your application.
             </p>
@@ -278,7 +278,7 @@ export default function VisitVisaPage() {
                 <span
                   key={label}
                   className="px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ backgroundColor: "#FFFFFF", color: "#0A4D8C", border: "1px solid var(--card-line)" }}
+                  style={{ backgroundColor: "#FFFFFF", color: "#2864E8", border: "1px solid var(--card-line)" }}
                 >
                   {label}
                 </span>
@@ -298,14 +298,14 @@ export default function VisitVisaPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border-2 transition-all hover:opacity-90 bg-white"
-                style={{ borderColor: "#E6E1D8", color: "#0F2A43" }}
+                style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about visit visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#0A4D8C" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
-            <p className="text-sm text-[#52606D] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#0A4D8C" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#2864E8" }}>
               {shortDisclaimer}
             </p>
           </motion.div>
@@ -322,7 +322,7 @@ export default function VisitVisaPage() {
             className="text-center mb-14 max-w-2xl mx-auto"
           >
             <h2 className="section-title mb-4">Popular Destinations</h2>
-            <p className="text-[#52606D]">
+            <p className="text-[#4B5B70]">
               Visit visa documentation for the destinations our clients ask about most.
             </p>
           </motion.div>
@@ -343,7 +343,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* Explore by region */}
-      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -374,8 +374,8 @@ export default function VisitVisaPage() {
                     <region.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                   </div>
                   <h3 className="subsection-title mb-1">{region.title}</h3>
-                  <p className="text-sm text-[#52606D] mb-3">{region.description}</p>
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
+                  <p className="text-sm text-[#4B5B70] mb-3">{region.description}</p>
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
                     Explore {region.title} visit visas
                     <ArrowRight className="w-4 h-4" aria-hidden />
                   </span>
@@ -396,7 +396,7 @@ export default function VisitVisaPage() {
             className="mx-auto mb-12 max-w-2xl text-center"
           >
             <h2 id="all-destinations-heading" className="section-title mb-4">All visit visa destinations</h2>
-            <p className="text-[#52606D]">Browse the countries Travelaxis currently supports for visit-visa application preparation.</p>
+            <p className="text-[#4B5B70]">Browse the countries Travelaxis currently supports for visit-visa application preparation.</p>
           </motion.div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {destinationDirectory.map((destination) => (
@@ -406,10 +406,10 @@ export default function VisitVisaPage() {
                 className="group rounded-2xl border bg-white p-5 transition-all hover:-translate-y-0.5 card-hover"
                 style={{ borderColor: "var(--card-line)" }}
               >
-                <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em]" style={{ color: "#0A4D8C" }}>{destination.region}</p>
+                <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em]" style={{ color: "#2864E8" }}>{destination.region}</p>
                 <h3 className="subsection-title mb-2">{destination.name} Visit Visa</h3>
-                <p className="text-sm leading-relaxed text-[#52606D]">{destination.description}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#0A4D8C" }}>
+                <p className="text-sm leading-relaxed text-[#4B5B70]">{destination.description}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
                   View support <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
                 </span>
               </Link>
@@ -447,7 +447,7 @@ export default function VisitVisaPage() {
                   <item.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
                 <h3 className="subsection-title mb-2">{item.title}</h3>
-                <p className="text-sm text-[#52606D] leading-relaxed">{item.description}</p>
+                <p className="text-sm text-[#4B5B70] leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>
@@ -455,7 +455,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-20 md:py-28" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -482,11 +482,11 @@ export default function VisitVisaPage() {
                 >
                   <step.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#0A4D8C" }}>
+                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#2864E8" }}>
                   {step.number}
                 </p>
                 <h3 className="subsection-title mb-2">{step.title}</h3>
-                <p className="text-[0.9375rem] text-[#52606D] leading-relaxed">{step.description}</p>
+                <p className="text-[0.9375rem] text-[#4B5B70] leading-relaxed">{step.description}</p>
               </motion.div>
             ))}
           </div>
@@ -501,7 +501,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
+      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -511,17 +511,17 @@ export default function VisitVisaPage() {
           >
             <h2 className="section-title">Frequently Asked Questions</h2>
           </motion.div>
-          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E6E1D8]">
+          <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">
             <Accordion type="single" collapsible className="w-full">
               {visitVisaFaqs.map((faq, i) => (
-                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E6E1D8]">
+                <AccordionItem key={faq.q} value={`item-${i}`} className="border-[#E3EAF3]">
                   <AccordionTrigger
                     className="text-left text-base font-bold py-5 hover:no-underline"
-                    style={{ color: "#0F2A43" }}
+                    style={{ color: "#10254A" }}
                   >
                     {faq.q}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#52606D] text-base leading-relaxed">
+                  <AccordionContent className="text-[#4B5B70] text-base leading-relaxed">
                     {faq.a}
                   </AccordionContent>
                 </AccordionItem>
@@ -532,7 +532,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#0A4D8C" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -550,7 +550,7 @@ export default function VisitVisaPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#requirements-form"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#F5A524] text-[#3B2600] shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               <span>Check Requirements</span>
               <ArrowRight className="w-5 h-5" aria-hidden />
@@ -560,7 +560,7 @@ export default function VisitVisaPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#0A4D8C" }}
+              style={{ color: "#2864E8" }}
               aria-label="Chat with Travelaxis on WhatsApp about visit visas (opens in a new tab)"
             >
               <span>WhatsApp Us</span>

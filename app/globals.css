@@ -1,48 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  /* ---- Premium palette: TravelAxis Blue / White / Soft Blue / Charcoal ----
-     No navy, no gold, no decorative colors. See CLAUDE.md-linked spec. */
-  --background: #ffffff;
-  --foreground: #0F2A43;
-  --card: #ffffff;
-  --card-foreground: #0F2A43;
-  --popover: #ffffff;
-  --popover-foreground: #0F2A43;
+  /* ---- Aqua palette (see DESIGN.md §1) ----
+     Airy, premium, friendly: teal accent, midnight-navy text, electric-blue
+     links, soft aqua / lilac / peach washes. Raw brand tokens first, then the
+     semantic shadcn tokens mapped onto them. */
+  --teal: #19B6A3;          /* brand accent: icons, highlights, large text only (2.5:1 on white) */
+  --teal-700: #0B7A6D;      /* teal button fill — white text 5.2:1 */
+  --teal-800: #08665B;      /* teal button hover */
+  --teal-50: #E6F7F4;       /* teal tint */
+  --teal-100: #CFF0EA;      /* teal soft */
+  --navy: #10254A;          /* headings, body, footer background — 15.2:1 on white */
+  --blue: #2864E8;          /* links, secondary actions, focus ring — 5.2:1 on white */
+  --blue-700: #1F4FBF;      /* link/button hover — 7.2:1 on white */
+  --blue-50: #E8EFFD;       /* blue tint / icon bubbles */
+  --lilac: #7C5CE6;         /* icon accent — 4.6:1 on white */
+  --lilac-50: #EEE9FB;
+  --peach-50: #FFF0E6;
+  --slate: #4B5B70;         /* secondary text — 6.9:1 on white */
+  --line: #E3EAF3;          /* borders */
+  --surface-soft: #F4F8FC;  /* alternate section background */
+  --wash: linear-gradient(135deg, #E9FBF8 0%, #F1EDFD 55%, #FFF1E8 100%);
 
-  --primary: #0A4D8C;
-  --primary-hover: #083B6B;
+  --background: #ffffff;
+  --foreground: var(--navy);
+  --card: #ffffff;
+  --card-foreground: var(--navy);
+  --popover: #ffffff;
+  --popover-foreground: var(--navy);
+
+  --primary: var(--blue);
+  --primary-hover: var(--blue-700);
   --primary-foreground: #ffffff;
 
-  --secondary: #F7F3EC;
-  --secondary-foreground: #0F2A43;
-  --muted: #F7F3EC;
-  --muted-foreground: #52606D;
-  --accent: #0A4D8C;
+  --secondary: var(--surface-soft);
+  --secondary-foreground: var(--navy);
+  --muted: var(--surface-soft);
+  --muted-foreground: var(--slate);
+  --accent: var(--teal-700);
   --accent-foreground: #ffffff;
 
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
 
-  --border: #E6E1D8;
+  --border: var(--line);
   --input: transparent;
   --input-background: #ffffff;
   --switch-background: #cbced4;
-  --ring: #0A4D8C;
+  --ring: var(--blue);
 
   --radius: 1rem;
 
-  /* Accessible focus ring aligned with brand blue */
-  --focus-ring: #0A4D8C;
+  /* Accessible focus ring: electric blue */
+  --focus-ring: var(--blue);
   --focus-ring-offset: #ffffff;
 
-  /* Card system: light bordered card with a tinted icon bubble, matching
-     the brand blue (--primary/--secondary). */
-  --card-line: #E6E1D8;
-  --card-line-hover: #0A4D8C;
-  --card-icon-bg: #E0F0FB;
-  --card-icon-fg: #0A4D8C;
-  --card-shadow-hover: 0 12px 32px rgba(15, 42, 67, 0.08);
+  /* Card system: white rounded card, 1px light border, soft shadow, tinted
+     icon bubble. */
+  --card-line: var(--line);
+  --card-line-hover: #BFD0EE;
+  --card-icon-bg: var(--blue-50);
+  --card-icon-fg: var(--blue);
+  --card-shadow: 0 1px 2px rgba(16, 37, 74, 0.04), 0 4px 16px rgba(16, 37, 74, 0.05);
+  --card-shadow-hover: 0 14px 36px rgba(16, 37, 74, 0.10);
 
   /* ---- Final type scale (rem @ 16px base) ----
      Single source of truth. Every heading/body/UI role sitewide is one of
@@ -93,6 +113,22 @@
   --color-input-background: var(--input-background);
   --color-switch-background: var(--switch-background);
   --color-ring: var(--ring);
+  /* Brand palette utilities: bg-teal, bg-teal-700, text-navy, bg-blue-50 … */
+  --color-teal: var(--teal);
+  --color-teal-700: var(--teal-700);
+  --color-teal-800: var(--teal-800);
+  --color-teal-50: var(--teal-50);
+  --color-teal-100: var(--teal-100);
+  --color-navy: var(--navy);
+  --color-blue: var(--blue);
+  --color-blue-700: var(--blue-700);
+  --color-blue-50: var(--blue-50);
+  --color-lilac: var(--lilac);
+  --color-lilac-50: var(--lilac-50);
+  --color-peach-50: var(--peach-50);
+  --color-slate: var(--slate);
+  --color-line: var(--line);
+  --color-surface-soft: var(--surface-soft);
   --radius-sm: calc(var(--radius) - 6px);
   --radius-md: calc(var(--radius) - 4px);
   --radius-lg: var(--radius);
@@ -145,6 +181,11 @@ body {
 /* Bordered card hover state: lift is handled by the Tailwind
    hover:-translate-y-* utility on the element itself; this adds the
    shadow + border-color pair used across every card grid sitewide. */
+/* Soft aqua/lilac/peach gradient wash for heroes and feature bands */
+.bg-wash {
+  background: var(--wash);
+}
+
 .card-hover:hover {
   border-color: var(--card-line-hover) !important;
   box-shadow: var(--card-shadow-hover);
@@ -271,7 +312,7 @@ body {
   border-radius: 0.375rem;
   font-weight: 600;
   text-decoration: none;
-  background-color: #0F2A43;
+  background-color: var(--navy);
   color: #ffffff;
   outline: none;
 }

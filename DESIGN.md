@@ -1,8 +1,8 @@
-# Travelaxis Design Guide — "Ocean & Sand"
+# Travelaxis Design Guide — "Aqua"
 
 The single source of truth for how travelaxis.me looks. Use only the colours, type and components below. If something new is needed, add it here first.
 
-**Brand feel:** clean, calm, trustworthy, professional. Ocean blue says trust, sand adds warmth, gold is the one bright accent that tells people where to click.
+**Brand feel:** airy, premium, friendly. Soft aqua / lilac / peach washes, rounded white cards, generous spacing, flat friendly illustrations and deep navy type. Teal is the one action colour that tells people where to click.
 
 **What we sell:** visit visa documentation for every destination (Dubai/UAE, UK, USA, Schengen, Canada, Australia, Asia, Middle East and more), from offices in Dubai and Lahore.
 
@@ -10,46 +10,56 @@ The single source of truth for how travelaxis.me looks. Use only the colours, ty
 
 ---
 
-## 1. Colour palette
+## 1. Colour palette — "Aqua"
 
-| Name | Hex | Use it for | Tailwind |
-|---|---|---|---|
-| **Ocean blue** (primary) | `#0A4D8C` | Brand, primary buttons, links, icon fills, hero background | `bg-primary` / `text-primary` / `bg-[#0A4D8C]` |
-| **Ocean dark** | `#083B6B` | Hover state of ocean buttons | `bg-primary-hover` |
-| **Navy ink** | `#0F2A43` | Headings, body text, top contact bar, newsletter band | `text-foreground` / `bg-[#0F2A43]` |
-| **Gold** (accent) | `#F5A524` | Main call-to-action button, section underline, step numbers | `bg-[#F5A524]` |
-| **Gold text** | `#3B2600` | Text and icons **on** gold | `text-[#3B2600]` |
-| **Slate** | `#52606D` | Supporting text, descriptions, captions | `text-muted-foreground` |
-| **Sand** | `#F7F3EC` | Alternate section backgrounds, light cards, form panels | `bg-secondary` / `bg-muted` |
-| **Sand line** | `#E6E1D8` | Borders, dividers, card outlines | `border-border` |
-| **Sky tint** | `#E0F0FB` | Icon bubbles, small tags/pills | `bg-[#E0F0FB]` |
-| **Sky** | `#38BDF8` | Checkmarks and soft glow **on blue backgrounds only** | `text-[#38BDF8]` |
-| **White** | `#FFFFFF` | Page background, cards | `bg-white` |
+| Name | Hex | Token | Use it for | Tailwind |
+|---|---|---|---|---|
+| **Teal** (brand accent) | `#19B6A3` | `--teal` | Icons, highlights, gradient stops, decorative bars, **large** text only (2.5:1 on white — never small text, never under white text) | `text-teal` / `bg-teal` |
+| **Teal button** | `#0B7A6D` | `--teal-700` | Primary button fill with **white** text (5.2:1) | `bg-teal-700` |
+| **Teal button hover** | `#08665B` | `--teal-800` | Hover of the primary button | `hover:bg-teal-800` |
+| **Teal tint / soft** | `#E6F7F4` / `#CFF0EA` | `--teal-50` / `--teal-100` | Icon bubbles, pills, light text on blue/navy bands | `bg-teal-50` |
+| **Midnight navy** | `#10254A` | `--navy` | Headings, body text, footer background (15.2:1) | `text-foreground` / `bg-navy` |
+| **Electric blue** (primary) | `#2864E8` | `--blue` = `--primary` | Links, secondary buttons, focus ring, blue icon bubbles (5.2:1) | `text-primary` / `bg-primary` |
+| **Electric blue dark** | `#1F4FBF` | `--blue-700` = `--primary-hover` | Hover of links/blue buttons (7.2:1) | `hover:bg-primary-hover` |
+| **Blue tint** | `#E8EFFD` | `--blue-50` | Icon bubbles, tags | `bg-blue-50` |
+| **Lilac** / tint | `#7C5CE6` / `#EEE9FB` | `--lilac` / `--lilac-50` | Icon accents only | `text-lilac` / `bg-lilac-50` |
+| **Peach tint** | `#FFF0E6` | `--peach-50` | Icon bubbles, warm wash | `bg-peach-50` |
+| **Slate** | `#4B5B70` | `--slate` = `--muted-foreground` | Supporting text (6.9:1 on white, 6.5:1 on soft surface) | `text-muted-foreground` |
+| **Line** | `#E3EAF3` | `--line` = `--border` | Borders, dividers, card outlines | `border-border` |
+| **Soft surface** | `#F4F8FC` | `--surface-soft` = `--secondary`/`--muted` | Alternate section backgrounds, form panels | `bg-secondary` |
+| **Wash** | `#E9FBF8 → #F1EDFD → #FFF1E8` | `--wash` | Gradient wash behind heroes and feature bands | `.bg-wash` |
+| **White** | `#FFFFFF` | `--background` | Page background, cards | `bg-white` |
 
 **Functional colours (never decorative):**
 - WhatsApp green `#25D366` — only the WhatsApp icon/button.
 - Error red `#D4183D` — only form errors and destructive actions.
 
 **Where they live in code**
-- `app/globals.css` → `:root` tokens (`--primary`, `--foreground`, `--muted-foreground`, `--secondary`, `--border`, `--card-icon-bg` …).
-- `components/pages/HomePage.tsx` → same values as named constants (`OCEAN`, `INK`, `GOLD`, `SAND`, `LINE`, `MUTED`).
+- `app/globals.css` → `:root` raw tokens (`--teal`, `--navy`, `--blue` …) and the semantic shadcn tokens mapped onto them (`--primary`, `--foreground`, `--muted-foreground`, `--secondary`, `--border`, `--ring`, `--card-icon-bg`, `--card-shadow` …). Each raw token is also exposed as a Tailwind colour (`bg-teal-700`, `text-navy`, `bg-blue-50` …).
+- Older components still hard-code hex values; they were migrated 1:1 (`#0A4D8C→#2864E8`, `#083B6B→#1F4FBF`, `#0F2A43→#10254A`, gold `#F5A524`→teal button `#0B7A6D` with white text, `#F7F3EC→#F4F8FC`, `#E6E1D8→#E3EAF3`, `#E0F0FB→#E8EFFD`, `#38BDF8→#19B6A3`, `#52606D`/`#3E4C5A→#4B5B70`). New code should use the tokens.
+
+### Buttons
+- **Primary:** teal fill `#0B7A6D`, white text, `h-12`, `rounded-full` or `rounded-xl`; hover → `#08665B` + slight lift and shadow. One primary per view.
+- **Secondary:** white fill, 1px `--line` border, navy text; hover → lift + shadow.
+- **Text link:** electric blue `#2864E8`, hover `#1F4FBF`, underline on hover.
+- Tap targets ≥ 48px.
 
 ### Colour rules
-1. **One gold button per view.** Gold is the main action ("Check requirements", "Chat on WhatsApp" in CTA bands). Everything else is ocean, white or outline.
-2. **Text on ocean or navy is white** (`text-white`, or `text-white/85` for paragraphs).
-3. **Text on gold is `#3B2600`**, never white (white on gold fails contrast).
-4. **Never use** the old colours: `#155EEF` (bright blue), `#1D2939`, `#667085`, `#E4E7EC`, `#F1F6FB`, or any gold/black from `styles/theme.css` (unused legacy file).
-5. No other hues (purple, teal, red accents, rainbow icons). Status colours (emerald/amber) only inside small status badges.
+1. **Text on the teal button is white.** Bright teal `#19B6A3` is never a fill behind small text.
+2. **Text on electric blue or navy is white** (paragraphs `text-white/90` minimum on blue).
+3. Lilac and peach are for icon bubbles and washes, never for text blocks.
+4. **Never use** the retired "Ocean & Sand" colours (`#0A4D8C`, `#083B6B`, `#0F2A43`, gold `#F5A524`, `#3B2600`, sand `#F7F3EC`, `#E6E1D8`, `#E0F0FB`, `#38BDF8`, `#52606D`, `#3E4C5A`) or anything in `styles/theme.css` (unused legacy file).
+5. Status colours (emerald/amber) only inside small status badges.
 
 ### Approved pairings (all pass WCAG AA)
-| Foreground | Background | Use |
-|---|---|---|
-| `#0F2A43` navy | `#FFFFFF` / `#F7F3EC` | Headings, body |
-| `#52606D` slate | `#FFFFFF` / `#F7F3EC` | Descriptions |
-| `#FFFFFF` white | `#0A4D8C` / `#0F2A43` | Hero, bands, buttons |
-| `#3B2600` | `#F5A524` gold | Gold buttons, step numbers |
-| `#0A4D8C` ocean | `#E0F0FB` sky tint | Tags, icon bubbles |
-
+| Foreground | Background | Ratio | Use |
+|---|---|---|---|
+| `#10254A` navy | `#FFFFFF` / `#F4F8FC` | 15.2 / 14.3 | Headings, body |
+| `#4B5B70` slate | `#FFFFFF` / `#F4F8FC` | 6.9 / 6.5 | Descriptions |
+| `#FFFFFF` white | `#0B7A6D` teal button | 5.2 | Primary buttons |
+| `#FFFFFF` white | `#2864E8` / `#10254A` | 5.2 / 15.2 | Bands, footer, blue buttons |
+| `#2864E8` blue | `#FFFFFF` / `#F4F8FC` | 5.2 / 4.8 | Links |
+| `#7C5CE6` lilac | `#FFFFFF` | 4.6 | Icon accents |
 
 ## 1a. Logo
 
@@ -107,8 +117,8 @@ Centered navy H2, short gold bar under it, slate subtitle.
 ### Buttons
 | Type | When | Classes |
 |---|---|---|
-| **Gold (primary CTA)** | The one main action per view | `h-12 px-5 rounded-xl bg-[#F5A524] text-[#3B2600] font-bold hover:brightness-105` |
-| **Ocean** | Secondary actions on white/sand, form submit, header CTA | `h-12 px-5 rounded-xl bg-[#0A4D8C] text-white font-semibold hover:bg-[#083B6B]` |
+| **Teal (primary CTA)** | The one main action per view | `h-12 px-5 rounded-xl bg-teal-700 text-white font-bold hover:bg-teal-800` |
+| **Electric blue** | Secondary actions on white, form submit | `h-12 px-5 rounded-xl bg-primary text-white font-semibold hover:bg-primary-hover` |
 | **White** | On blue backgrounds (e.g. WhatsApp) | `bg-white text-[#0F2A43]` + green WhatsApp icon |
 | **Outline on blue** | Tertiary on blue (e.g. Call now) | `border border-white/40 text-white hover:bg-white/10` |
 | **Outline on light** | "View all…" links | `bg-white border border-[#C9DCEC] text-[#0A4D8C]` |
@@ -134,7 +144,7 @@ Use 2-letter country codes (AE, GB, US, EU, CA, AU) instead of flag emojis — f
 Centered, solid ocean icon circle (`size-14 rounded-full bg-[#0A4D8C] text-white`), bold navy title, slate text.
 
 ### Process step
-White card, **gold** number circle (`size-11 rounded-full bg-[#F5A524] text-[#3B2600] font-extrabold`), bold title, slate text.
+White card, **teal** number circle (`size-11 rounded-full bg-teal-700 text-white font-extrabold`), bold title, slate text.
 
 ### Tags / pills
 `rounded-full bg-[#E0F0FB] px-2.5 py-1 text-xs font-semibold text-[#0A4D8C]`

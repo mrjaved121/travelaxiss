@@ -28,7 +28,7 @@ export default function Breadcrumbs({ trail }: { trail: Crumb[] }) {
               {isLast || !item.href ? (
                 <span
                   className="font-medium"
-                  style={{ color: "#0F2A43" }}
+                  style={{ color: "#10254A" }}
                   aria-current={isLast ? "page" : undefined}
                 >
                   {item.name}
@@ -37,7 +37,7 @@ export default function Breadcrumbs({ trail }: { trail: Crumb[] }) {
                 <Link
                   href={item.href}
                   className="font-medium transition-colors hover:underline"
-                  style={{ color: "#52606D" }}
+                  style={{ color: "#4B5B70" }}
                 >
                   {item.name}
                 </Link>

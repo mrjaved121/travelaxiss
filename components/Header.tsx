@@ -71,7 +71,7 @@ function NavDropdown({
         aria-expanded={open}
         aria-haspopup="true"
         className={`nav-link inline-flex items-center gap-1 transition-colors rounded-sm focus-visible:outline-offset-4 ${
-          groupIsActive ? "is-active" : "hover:text-[#0A4D8C]"
+          groupIsActive ? "is-active" : "hover:text-[#2864E8]"
         }`}
       >
         {group.name}
@@ -93,8 +93,8 @@ function NavDropdown({
               href={item.path}
               role="menuitem"
               onClick={() => setOpen(false)}
-              className="block px-4 py-2.5 text-sm font-medium transition-colors hover:bg-[#F7F3EC]"
-              style={{ color: isActive(item.path) ? "#0A4D8C" : "#0F2A43" }}
+              className="block px-4 py-2.5 text-sm font-medium transition-colors hover:bg-[#F4F8FC]"
+              style={{ color: isActive(item.path) ? "#2864E8" : "#10254A" }}
             >
               {item.name}
             </Link>
@@ -124,7 +124,7 @@ function MobileNavGroup({
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-controls={panelId}
-        className="nav-link w-full flex items-center justify-between px-4 py-2 transition-colors rounded-sm hover:text-[#0A4D8C]"
+        className="nav-link w-full flex items-center justify-between px-4 py-2 transition-colors rounded-sm hover:text-[#2864E8]"
       >
         <span>{group.name}</span>
         <ChevronDown className={`w-4 h-4 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden />
@@ -137,7 +137,7 @@ function MobileNavGroup({
                 href={item.path}
                 onClick={onNavigate}
                 className={`nav-link block px-4 py-2 text-sm transition-colors rounded-sm ${
-                  isActive(item.path) ? "is-active" : "hover:text-[#0A4D8C]"
+                  isActive(item.path) ? "is-active" : "hover:text-[#2864E8]"
                 }`}
                 aria-current={isActive(item.path) ? "page" : undefined}
               >
@@ -164,7 +164,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50">
       {/* Top utility bar */}
-      <div className="hidden md:block text-white" style={{ backgroundColor: "#0F2A43" }}>
+      <div className="hidden md:block text-white" style={{ backgroundColor: "#10254A" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between text-sm">
           <div className="flex items-center gap-6">
             <a href={`tel:${phoneNumber}`} className="flex items-center gap-2 hover:opacity-80">
@@ -179,7 +179,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="bg-white border-b border-[#E6E1D8] shadow-sm">
+      <div className="bg-white border-b border-[#E3EAF3] shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link
@@ -204,7 +204,7 @@ export default function Header() {
             <Link
               href="/apply"
               className={`nav-link transition-colors rounded-sm ${
-                isActive("/apply") ? "is-active" : "hover:text-[#0A4D8C]"
+                isActive("/apply") ? "is-active" : "hover:text-[#2864E8]"
               }`}
               aria-current={isActive("/apply") ? "page" : undefined}
             >
@@ -218,7 +218,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="w-11 h-11 flex items-center justify-center rounded-full border-2 transition-all hover:opacity-80"
-              style={{ borderColor: "#E6E1D8", color: "#25D366" }}
+              style={{ borderColor: "#E3EAF3", color: "#25D366" }}
               aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
             >
               <MessageCircle className="w-5 h-5" aria-hidden />
@@ -237,7 +237,7 @@ export default function Header() {
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 rounded-sm"
-            style={{ color: "#0F2A43" }}
+            style={{ color: "#10254A" }}
             aria-expanded={mobileMenuOpen}
             aria-controls={MOBILE_NAV_PANEL_ID}
             aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
@@ -253,7 +253,7 @@ export default function Header() {
         {mobileMenuOpen ? (
           <div
             id={MOBILE_NAV_PANEL_ID}
-            className="lg:hidden py-4 border-t border-[#E6E1D8]"
+            className="lg:hidden py-4 border-t border-[#E3EAF3]"
             role="navigation"
             aria-labelledby={navLabelId}
           >
@@ -275,7 +275,7 @@ export default function Header() {
                   href="/apply"
                   onClick={() => setMobileMenuOpen(false)}
                   className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                    isActive("/apply") ? "is-active" : "hover:text-[#0A4D8C]"
+                    isActive("/apply") ? "is-active" : "hover:text-[#2864E8]"
                   }`}
                   aria-current={isActive("/apply") ? "page" : undefined}
                 >
@@ -287,7 +287,7 @@ export default function Header() {
                   href="/contact"
                   onClick={() => setMobileMenuOpen(false)}
                   className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                    isActive("/contact") ? "is-active" : "hover:text-[#0A4D8C]"
+                    isActive("/contact") ? "is-active" : "hover:text-[#2864E8]"
                   }`}
                   aria-current={isActive("/contact") ? "page" : undefined}
                 >

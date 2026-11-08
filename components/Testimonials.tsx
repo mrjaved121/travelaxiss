@@ -9,14 +9,14 @@ export default function Testimonials() {
   if (testimonials.length === 0) return null;
 
   return (
-    <section className="py-20" style={{ backgroundColor: "#F7F3EC" }}>
+    <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#0A4D8C" }}>
+          <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
             Client Feedback
           </p>
           <h2 className="section-title">
@@ -39,17 +39,17 @@ export default function Testimonials() {
                     key={i}
                     className="w-4 h-4"
                     style={{
-                      color: i < testimonial.rating ? "#0A4D8C" : "#E6E1D8",
-                      fill: i < testimonial.rating ? "#0A4D8C" : "none",
+                      color: i < testimonial.rating ? "#2864E8" : "#E3EAF3",
+                      fill: i < testimonial.rating ? "#2864E8" : "none",
                     }}
                     aria-hidden
                   />
                 ))}
               </div>
-              <p className="text-[#52606D] leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
+              <p className="text-[#4B5B70] leading-relaxed mb-6 flex-1">&ldquo;{testimonial.quote}&rdquo;</p>
               <div>
-                <p className="font-semibold" style={{ color: "#0F2A43" }}>{testimonial.name}</p>
-                <p className="text-sm text-[#52606D]">{testimonial.context}</p>
+                <p className="font-semibold" style={{ color: "#10254A" }}>{testimonial.name}</p>
+                <p className="text-sm text-[#4B5B70]">{testimonial.context}</p>
               </div>
             </motion.div>
           ))}

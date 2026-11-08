@@ -11,7 +11,7 @@ const PACKAGE_OPTIONS = [...tourPackageTiers.map((t) => t.name), "Not sure yet"]
 const TRAVELER_OPTIONS = ["Just me", "Couple", "Family", "Private group"];
 
 const fieldClassName =
-  "w-full rounded-xl border border-[#E6E1D8] bg-white px-4 py-3 text-[#0F2A43] placeholder:text-[#94A3B0] focus:outline-none focus:ring-2 focus:ring-[#0A4D8C]/40 transition-shadow";
+  "w-full rounded-xl border border-[#E3EAF3] bg-white px-4 py-3 text-[#10254A] placeholder:text-[#94A3B0] focus:outline-none focus:ring-2 focus:ring-[#2864E8]/40 transition-shadow";
 
 /**
  * Compiles into a prefilled WhatsApp message on submit rather than posting
@@ -59,13 +59,13 @@ export default function TourPackageLeadForm({
 
   if (submitted) {
     return (
-      <div className="bg-white rounded-3xl p-8 text-center shadow-sm border" style={{ borderColor: "#E6E1D8" }}>
+      <div className="bg-white rounded-3xl p-8 text-center shadow-sm border" style={{ borderColor: "#E3EAF3" }}>
         <h3 className="subsection-title mb-3">Thank you</h3>
-        <p className="text-[#52606D] max-w-sm mx-auto mb-6">
+        <p className="text-[#4B5B70] max-w-sm mx-auto mb-6">
           We&apos;ve opened WhatsApp with your details. Send the message and our team will follow up with your
           custom quote.
         </p>
-        <button type="button" onClick={() => setSubmitted(false)} className="text-sm font-semibold" style={{ color: "#0A4D8C" }}>
+        <button type="button" onClick={() => setSubmitted(false)} className="text-sm font-semibold" style={{ color: "#2864E8" }}>
           Request another quote
         </button>
       </div>
@@ -73,15 +73,15 @@ export default function TourPackageLeadForm({
   }
 
   return (
-    <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border" style={{ borderColor: "#E6E1D8" }}>
+    <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border" style={{ borderColor: "#E3EAF3" }}>
       <h2 className="section-title mb-2 text-center">{heading}</h2>
-      <p className="text-[#52606D] text-center mb-8 max-w-xl mx-auto">
+      <p className="text-[#4B5B70] text-center mb-8 max-w-xl mx-auto">
         Tell us a bit about your trip and we&apos;ll put together a package and price for you.
       </p>
       <form onSubmit={handleSubmit} className="space-y-5 max-w-xl mx-auto">
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
-            <label htmlFor={`${idPrefix}-name`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+            <label htmlFor={`${idPrefix}-name`} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
               Name
             </label>
             <input
@@ -95,7 +95,7 @@ export default function TourPackageLeadForm({
             />
           </div>
           <div>
-            <label htmlFor={`${idPrefix}-whatsapp`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+            <label htmlFor={`${idPrefix}-whatsapp`} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
               WhatsApp number
             </label>
             <input
@@ -111,7 +111,7 @@ export default function TourPackageLeadForm({
         </div>
 
         <div>
-          <label htmlFor={`${idPrefix}-package`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+          <label htmlFor={`${idPrefix}-package`} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
             Package
           </label>
           <select
@@ -128,7 +128,7 @@ export default function TourPackageLeadForm({
 
         <div className="grid sm:grid-cols-2 gap-5">
           <div>
-            <label htmlFor={`${idPrefix}-travelers`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+            <label htmlFor={`${idPrefix}-travelers`} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
               Who&apos;s travelling?
             </label>
             <select
@@ -143,7 +143,7 @@ export default function TourPackageLeadForm({
             </select>
           </div>
           <div>
-            <label htmlFor={`${idPrefix}-month`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+            <label htmlFor={`${idPrefix}-month`} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
               Travel month
             </label>
             <input
@@ -158,7 +158,7 @@ export default function TourPackageLeadForm({
         </div>
 
         <div>
-          <span className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+          <span className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
             Attractions you&apos;re interested in (optional)
           </span>
           <div className="flex flex-wrap gap-2">
@@ -173,8 +173,8 @@ export default function TourPackageLeadForm({
                   className="px-3 py-1.5 rounded-full text-sm font-medium border transition-colors"
                   style={
                     active
-                      ? { backgroundColor: "#0A4D8C", color: "#FFFFFF", borderColor: "#0A4D8C" }
-                      : { backgroundColor: "#F7F3EC", color: "#0F2A43", borderColor: "#E6E1D8" }
+                      ? { backgroundColor: "#2864E8", color: "#FFFFFF", borderColor: "#2864E8" }
+                      : { backgroundColor: "#F4F8FC", color: "#10254A", borderColor: "#E3EAF3" }
                   }
                 >
                   {name}
@@ -185,7 +185,7 @@ export default function TourPackageLeadForm({
         </div>
 
         <div>
-          <label htmlFor={`${idPrefix}-message`} className="block text-sm font-semibold mb-2" style={{ color: "#0F2A43" }}>
+          <label htmlFor={`${idPrefix}-message`} className="block text-sm font-semibold mb-2" style={{ color: "#10254A" }}>
             Anything else we should know? (optional)
           </label>
           <textarea
@@ -201,12 +201,12 @@ export default function TourPackageLeadForm({
         <button
           type="submit"
           className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold transition-all hover:brightness-105"
-          style={{ backgroundColor: "#F5A524", color: "#3B2600" }}
+          style={{ backgroundColor: "#0B7A6D", color: "#FFFFFF" }}
         >
           <Send className="w-5 h-5" aria-hidden />
           <span>Get My Custom Quote</span>
         </button>
-        <p className="text-xs text-[#52606D] text-center">
+        <p className="text-xs text-[#4B5B70] text-center">
           This opens WhatsApp with your details pre-filled so our team can follow up directly.
         </p>
       </form>
