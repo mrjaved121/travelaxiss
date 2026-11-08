@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Phone, Mail, Menu, X, MessageCircle, ArrowRight, ChevronDown } from "lucide-react";
+import { CalendarDays, Menu, X, MessageCircle, ChevronDown } from "lucide-react";
 import { useId, useRef, useState } from "react";
 import { MobileVisitVisaMenu, VisitVisaMegaMenu } from "@/components/VisitVisaMegaMenu";
 
@@ -163,25 +163,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Top utility bar */}
-      <div className="hidden md:block text-white" style={{ backgroundColor: "#10254A" }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between text-sm">
-          <div className="flex items-center gap-6">
-            <a href={`tel:${phoneNumber}`} className="flex items-center gap-2 hover:opacity-80">
-              <Phone className="w-3.5 h-3.5" aria-hidden />
-              +971 58 986 7555
-            </a>
-            <a href="mailto:info@travelaxis.me" className="flex items-center gap-2 hover:opacity-80">
-              <Mail className="w-3.5 h-3.5" aria-hidden />
-              info@travelaxis.me
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-white border-b border-[#E3EAF3] shadow-sm">
+      <div className="border-b border-[#E3EAF3]/80 bg-white/90 shadow-[0_1px_12px_rgba(16,37,74,0.05)] backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-[4.5rem]">
           <Link
             href="/"
             className="flex items-center rounded-sm"
@@ -196,7 +180,7 @@ export default function Header() {
             />
           </Link>
 
-          <nav className="hidden lg:flex items-center space-x-8" aria-label="Primary">
+          <nav className="hidden lg:flex items-center space-x-7" aria-label="Primary">
             <VisitVisaMegaMenu />
             {navGroups.map((group) => (
               <NavDropdown key={group.name} group={group} isActive={isActive} />
@@ -224,12 +208,11 @@ export default function Header() {
               <MessageCircle className="w-5 h-5" aria-hidden />
             </a>
             <Link
-              href="/#check-requirements"
-              className="btn flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-all shadow-sm hover:shadow-md"
-              style={{ color: "#FFFFFF" }}
+              href="/consultation/"
+              className="btn flex items-center gap-2 px-5 py-3 rounded-xl bg-teal-700 text-white hover:bg-teal-800 transition-all shadow-sm hover:-translate-y-0.5 hover:shadow-md"
             >
-              <span>Check Requirements</span>
-              <ArrowRight className="w-4 h-4" aria-hidden />
+              <CalendarDays className="w-4 h-4" aria-hidden />
+              <span>Book consultation</span>
             </Link>
           </div>
 
@@ -296,13 +279,12 @@ export default function Header() {
               </li>
               <li className="pt-2">
                 <Link
-                  href="/#check-requirements"
+                  href="/consultation/"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="btn mx-4 flex items-center justify-center space-x-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover transition-colors"
-                  style={{ color: "#FFFFFF" }}
+                  className="btn mx-4 flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-teal-700 text-white hover:bg-teal-800 transition-colors"
                 >
-                  <span>Check Requirements</span>
-                  <ArrowRight className="w-4 h-4" aria-hidden />
+                  <CalendarDays className="w-4 h-4" aria-hidden />
+                  <span>Book consultation</span>
                 </Link>
               </li>
               <li className="px-4 pt-2">
