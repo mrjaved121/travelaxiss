@@ -74,7 +74,7 @@ export default function PathwayCarousel({ items }: { items: Pathway[] }) {
               <article
                 className={`flex h-full flex-col rounded-2xl p-4 transition-all hover:-translate-y-1 ${
                   featured
-                    ? "bg-teal-700 text-white shadow-[0_18px_40px_rgba(11,122,109,0.28)]"
+                    ? "bg-teal-700 text-white shadow-[0_18px_40px_rgba(25,182,163,0.28)]"
                     : "card-hover border border-line bg-white shadow-[var(--card-shadow)]"
                 }`}
               >

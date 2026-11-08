@@ -141,7 +141,7 @@ export default function UaeHubPage() {
             href={WHATSAPP_HREF}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             aria-label="Chat with Travelaxis on WhatsApp about UAE visa services (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

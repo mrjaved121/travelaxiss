@@ -12,23 +12,18 @@ The single source of truth for how travelaxis.me looks. Use only the colours, ty
 
 ## 1. Colour palette — "Aqua"
 
-| Name | Hex | Token | Use it for | Tailwind |
-|---|---|---|---|---|
-| **Teal** (brand accent) | `#19B6A3` | `--teal` | Icons, highlights, gradient stops, decorative bars, **large** text only (2.5:1 on white — never small text, never under white text) | `text-teal` / `bg-teal` |
-| **Teal button** | `#0B7A6D` | `--teal-700` | Primary button fill with **white** text (5.2:1) | `bg-teal-700` |
-| **Teal button hover** | `#08665B` | `--teal-800` | Hover of the primary button | `hover:bg-teal-800` |
-| **Teal tint / soft** | `#E6F7F4` / `#CFF0EA` | `--teal-50` / `--teal-100` | Icon bubbles, pills, light text on blue/navy bands | `bg-teal-50` |
-| **Midnight navy** | `#10254A` | `--navy` | Headings, body text, footer background (15.2:1) | `text-foreground` / `bg-navy` |
-| **Electric blue** (primary) | `#2864E8` | `--blue` = `--primary` | Links, secondary buttons, focus ring, blue icon bubbles (5.2:1) | `text-primary` / `bg-primary` |
-| **Electric blue dark** | `#1F4FBF` | `--blue-700` = `--primary-hover` | Hover of links/blue buttons (7.2:1) | `hover:bg-primary-hover` |
-| **Blue tint** | `#E8EFFD` | `--blue-50` | Icon bubbles, tags | `bg-blue-50` |
-| **Lilac** / tint | `#7C5CE6` / `#EEE9FB` | `--lilac` / `--lilac-50` | Icon accents only | `text-lilac` / `bg-lilac-50` |
-| **Peach tint** | `#FFF0E6` | `--peach-50` | Icon bubbles, warm wash | `bg-peach-50` |
-| **Slate** | `#4B5B70` | `--slate` = `--muted-foreground` | Supporting text (6.9:1 on white, 6.5:1 on soft surface) | `text-muted-foreground` |
-| **Line** | `#E3EAF3` | `--line` = `--border` | Borders, dividers, card outlines | `border-border` |
-| **Soft surface** | `#F4F8FC` | `--surface-soft` = `--secondary`/`--muted` | Alternate section backgrounds, form panels | `bg-secondary` |
-| **Wash** | `#E9FBF8 → #F1EDFD → #FFF1E8` | `--wash` | Gradient wash behind heroes and feature bands | `.bg-wash` |
-| **White** | `#FFFFFF` | `--background` | Page background, cards | `bg-white` |
+| Name | Hex | Token | Use |
+|---|---|---|---|
+| **Teal** | `#19B6A3` | `--teal` / `--teal-700` (`bg-teal-700`) | Primary buttons (white, bold text) and highlighted cards |
+| **Teal hover** | `#149C8C` | `--teal-800` | Hover of primary buttons |
+| **Midnight navy** | `#10254A` | `--navy` | Headings, body text, footer (white text) |
+| **Soft aqua** | `#DDF7F4` | `--teal-50` / `--teal-100` | Background washes and the eligibility panel |
+| **Pale lavender** | `#EEE7FC` | `--lilac-50` | Gradient accents and supporting cards |
+| **Warm peach** | `#FFE8D8` | `--peach-50` | Gradient accents and small highlights |
+| **White** | `#FFFFFF` | `--background` | Main card surfaces |
+| **Wash** | `#DDF7F4 → #EEE7FC → #FFE8D8` | `--wash` (`.bg-wash`) | Gradient bands behind heroes and feature sections |
+
+Supporting tokens (unchanged): electric blue `#2864E8` links (`--primary`), slate `#4B5B70` secondary text, line `#E3EAF3` borders, soft surface `#F4F8FC`.
 
 **Functional colours (never decorative):**
 - WhatsApp green `#25D366` — only the WhatsApp icon/button.

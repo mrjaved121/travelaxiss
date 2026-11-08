@@ -6,21 +6,21 @@
      links, soft aqua / lilac / peach washes. Raw brand tokens first, then the
      semantic shadcn tokens mapped onto them. */
   --teal: #19B6A3;          /* brand accent: icons, highlights, large text only (2.5:1 on white) */
-  --teal-700: #0B7A6D;      /* teal button fill — white text 5.2:1 */
-  --teal-800: #08665B;      /* teal button hover */
-  --teal-50: #E6F7F4;       /* teal tint */
-  --teal-100: #CFF0EA;      /* teal soft */
+  --teal-700: #19B6A3;      /* teal button fill, white bold text */
+  --teal-800: #149C8C;      /* teal button hover */
+  --teal-50: #DDF7F4;       /* teal tint */
+  --teal-100: #DDF7F4;      /* teal soft */
   --navy: #10254A;          /* headings, body, footer background — 15.2:1 on white */
   --blue: #2864E8;          /* links, secondary actions, focus ring — 5.2:1 on white */
   --blue-700: #1F4FBF;      /* link/button hover — 7.2:1 on white */
   --blue-50: #E8EFFD;       /* blue tint / icon bubbles */
   --lilac: #7C5CE6;         /* icon accent — 4.6:1 on white */
-  --lilac-50: #EEE9FB;
-  --peach-50: #FFF0E6;
+  --lilac-50: #EEE7FC;
+  --peach-50: #FFE8D8;
   --slate: #4B5B70;         /* secondary text — 6.9:1 on white */
   --line: #E3EAF3;          /* borders */
   --surface-soft: #F4F8FC;  /* alternate section background */
-  --wash: linear-gradient(135deg, #E9FBF8 0%, #F1EDFD 55%, #FFF1E8 100%);
+  --wash: linear-gradient(135deg, #DDF7F4 0%, #EEE7FC 55%, #FFE8D8 100%);
 
   --background: #ffffff;
   --foreground: var(--navy);

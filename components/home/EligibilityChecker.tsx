@@ -89,7 +89,7 @@ export default function EligibilityChecker() {
       id="check-requirements"
       onSubmit={handleSubmit}
       aria-labelledby={`${idPrefix}-title`}
-      className="scroll-mt-28 rounded-3xl border border-teal-100 bg-gradient-to-r from-teal-50 via-[#EAF8F6] to-teal-50 p-5 shadow-[var(--card-shadow)] sm:p-7"
+      className="scroll-mt-28 rounded-3xl border border-teal-100 bg-teal-50 p-5 shadow-[var(--card-shadow)] sm:p-7"
     >
       <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:gap-8">
         <h2
@@ -126,7 +126,7 @@ export default function EligibilityChecker() {
             />
             <button
               type="submit"
-              className="btn inline-flex h-12 shrink-0 items-center justify-center gap-2 rounded-xl bg-teal-700 px-6 text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-teal-800 hover:shadow-md"
+              className="btn inline-flex h-12 shrink-0 items-center justify-center gap-2 rounded-xl bg-teal-700 px-6 font-bold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-teal-800 hover:shadow-md"
             >
               Check eligibility
               <ArrowRight className="size-4" aria-hidden />

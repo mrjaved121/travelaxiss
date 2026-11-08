@@ -50,7 +50,7 @@ export default function UaeTourPackagePage() {
               UAE Visit Visa + Holiday Package
             </p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
-              Explore the Best of the UAE — <span style={{ color: "#CFF0EA" }}>Visa, Hotel &amp; Tours Sorted</span>
+              Explore the Best of the UAE — <span style={{ color: "#DDF7F4" }}>Visa, Hotel &amp; Tours Sorted</span>
             </h1>
             <p className="text-lg text-white/90 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
               Burj Khalifa, Desert Safari, a Dubai City Tour, Abu Dhabi&apos;s Grand Mosque, a Dhow Cruise and
@@ -70,7 +70,7 @@ export default function UaeTourPackagePage() {
               <a
                 href="#get-quote"
                 className="h-12 inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
-                style={{ backgroundColor: "#0B7A6D", color: "#FFFFFF" }}
+                style={{ backgroundColor: "#19B6A3", color: "#FFFFFF" }}
               >
                 <span>Get My Custom Quote</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -189,7 +189,7 @@ export default function UaeTourPackagePage() {
                     className="h-12 w-full inline-flex items-center justify-center gap-2 px-6 rounded-xl font-bold transition-all hover:brightness-105"
                     style={
                       featured
-                        ? { backgroundColor: "#0B7A6D", color: "#FFFFFF" }
+                        ? { backgroundColor: "#19B6A3", color: "#FFFFFF" }
                         : { backgroundColor: "#FFFFFF", color: "#2864E8", border: "2px solid #2864E8" }
                     }
                   >
@@ -419,7 +419,7 @@ export default function UaeTourPackagePage() {
             target="_blank"
             rel="noopener noreferrer"
             className="h-12 inline-flex items-center justify-center gap-2 px-8 rounded-xl font-bold transition-all hover:brightness-105"
-            style={{ backgroundColor: "#0B7A6D", color: "#FFFFFF" }}
+            style={{ backgroundColor: "#19B6A3", color: "#FFFFFF" }}
             aria-label="Chat with Travelaxis on WhatsApp about the UAE tour package (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

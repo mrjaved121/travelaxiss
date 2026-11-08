@@ -209,7 +209,7 @@ export default function Header() {
             </a>
             <Link
               href="/consultation/"
-              className="btn flex items-center gap-2 px-5 py-3 rounded-xl bg-teal-700 text-white hover:bg-teal-800 transition-all shadow-sm hover:-translate-y-0.5 hover:shadow-md"
+              className="btn flex items-center gap-2 px-5 py-3 rounded-xl bg-teal-700 font-bold text-white hover:bg-teal-800 transition-all shadow-sm hover:-translate-y-0.5 hover:shadow-md"
             >
               <CalendarDays className="w-4 h-4" aria-hidden />
               <span>Book consultation</span>
@@ -281,7 +281,7 @@ export default function Header() {
                 <Link
                   href="/consultation/"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="btn mx-4 flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-teal-700 text-white hover:bg-teal-800 transition-colors"
+                  className="btn mx-4 flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-teal-700 font-bold text-white hover:bg-teal-800 transition-colors"
                 >
                   <CalendarDays className="w-4 h-4" aria-hidden />
                   <span>Book consultation</span>

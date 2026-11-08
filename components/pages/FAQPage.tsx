@@ -264,7 +264,7 @@ export default function FAQPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
           >
             Contact Travelaxis for personalized answers
             <ArrowRight className="w-5 h-5" aria-hidden />

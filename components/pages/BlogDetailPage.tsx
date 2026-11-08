@@ -955,7 +955,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
           {blog.cta ? (
             <Link
               href={blog.cta.href}
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             >
               {blog.cta.label}
               <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
@@ -965,7 +965,7 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
               href={defaultCta.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
               aria-label={defaultCta.ariaLabel}
             >
               {defaultCta.label}

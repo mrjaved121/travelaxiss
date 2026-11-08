@@ -201,7 +201,7 @@ export default function TourPackageLeadForm({
         <button
           type="submit"
           className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold transition-all hover:brightness-105"
-          style={{ backgroundColor: "#0B7A6D", color: "#FFFFFF" }}
+          style={{ backgroundColor: "#19B6A3", color: "#FFFFFF" }}
         >
           <Send className="w-5 h-5" aria-hidden />
           <span>Get My Custom Quote</span>

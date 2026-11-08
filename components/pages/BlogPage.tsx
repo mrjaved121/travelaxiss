@@ -173,7 +173,7 @@ export default function BlogPage() {
             href="https://wa.me/971589867555"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#0B7A6D] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
             aria-label="Contact Travelaxis on WhatsApp about your visa documents (opens in a new tab)"
           >
             Contact Us on WhatsApp

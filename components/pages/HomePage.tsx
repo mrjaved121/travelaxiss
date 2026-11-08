@@ -35,7 +35,7 @@ const SECTION = "py-10 sm:py-14";
 
 const BTN_BASE =
   "btn inline-flex h-12 items-center justify-center gap-2 rounded-xl px-6 transition-all hover:-translate-y-0.5 hover:shadow-md";
-const BTN_PRIMARY = `${BTN_BASE} bg-teal-700 text-white hover:bg-teal-800`;
+const BTN_PRIMARY = `${BTN_BASE} bg-teal-700 font-bold text-white hover:bg-teal-800`;
 const BTN_SECONDARY = `${BTN_BASE} border border-line bg-white text-navy`;
 
 type Tone = "teal" | "lilac" | "peach";
@@ -205,13 +205,13 @@ function SignpostIllustration() {
     <svg viewBox="0 0 480 220" className="h-full w-full" aria-hidden>
       <defs>
         <linearGradient id="sky" x1="0" x2="1">
-          <stop offset="0" stopColor="#E9FBF8" stopOpacity="0" />
-          <stop offset="1" stopColor="#F1EDFD" />
+          <stop offset="0" stopColor="#DDF7F4" stopOpacity="0" />
+          <stop offset="1" stopColor="#EEE7FC" />
         </linearGradient>
       </defs>
       <rect width="480" height="220" fill="url(#sky)" />
       {/* distant skyline */}
-      <g fill="#CFF0EA">
+      <g fill="#DDF7F4">
         <rect x="70" y="120" width="14" height="40" />
         <rect x="88" y="104" width="10" height="56" />
         <path d="M104 160V98l6-14 6 14v62z" />
@@ -230,7 +230,7 @@ function SignpostIllustration() {
       <path d="M256 122h70v22h-70l-12-11z" fill="#7C5CE6" />
       {/* map pin */}
       <g transform="translate(420 132)">
-        <path d="M0 0c-11 0-19 8-19 18 0 14 19 32 19 32s19-18 19-32C19 8 11 0 0 0z" fill="#0B7A6D" />
+        <path d="M0 0c-11 0-19 8-19 18 0 14 19 32 19 32s19-18 19-32C19 8 11 0 0 0z" fill="#19B6A3" />
         <circle cx="0" cy="18" r="7" fill="#fff" />
       </g>
       {/* little clouds */}
@@ -427,7 +427,7 @@ export default function HomePage() {
       {/* 6. Family visits band */}
       <section aria-labelledby="family-heading" className="pb-6">
         <div className={CONTAINER}>
-          <div className="grid overflow-hidden rounded-3xl bg-gradient-to-r from-[#F6F2FE] to-lilac-50 shadow-[var(--card-shadow)] md:grid-cols-2">
+          <div className="grid overflow-hidden rounded-3xl bg-gradient-to-r from-[#EEE7FC] to-lilac-50 shadow-[var(--card-shadow)] md:grid-cols-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/home/family.webp"
