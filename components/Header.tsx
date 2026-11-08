@@ -174,8 +174,8 @@ export default function Header() {
             <img
               src="/travelaxis-logo.webp"
               alt="Travelaxis"
-              width={704}
-              height={158}
+              width={300}
+              height={100}
               className="h-9 w-auto sm:h-10"
             />
           </Link>

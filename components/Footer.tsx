@@ -77,8 +77,8 @@ export default function Footer() {
               <img
                 src="/travelaxis-logo.webp"
                 alt="Travelaxis"
-                width={704}
-                height={158}
+                width={300}
+                height={100}
                 className="h-8 w-auto brightness-0 invert"
                 loading="lazy"
               />
