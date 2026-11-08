@@ -96,6 +96,17 @@ export default function RootLayout({
         <Footer />
         <FloatingWhatsApp />
         <MobileStickyCta />
+        <Script
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-PK45Z389"
+          strategy="afterInteractive"
+        />
+        <Script id="gtm-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          `}
+        </Script>
         {GA_MEASUREMENT_ID && (
           <>
             <Script
