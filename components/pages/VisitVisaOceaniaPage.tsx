@@ -10,13 +10,13 @@ import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 export default function VisitVisaOceaniaPage() {
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services", href: "/visit-visa" }, { name: "Oceania" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Oceania <span style={{ color: "#2864E8" }}>Visit Visas</span>
+              Oceania <span style={{ color: "var(--teal-800)" }}>Visit Visas</span>
             </h1>
             <p className="lead text-[#4B5B70] leading-relaxed">
               Visit visa documentation for Australia, submitted through the Department of Home
@@ -44,7 +44,7 @@ export default function VisitVisaOceaniaPage() {
             </div>
             <h3 className="subsection-title mb-1">Australia Visitor Visa</h3>
             <p className="text-sm text-[#4B5B70] mb-3">Visitor Visa (Subclass 600) documentation for Australia.</p>
-            <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
+            <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
               View requirements
               <ArrowRight className="w-4 h-4" aria-hidden />
             </span>
@@ -56,7 +56,7 @@ export default function VisitVisaOceaniaPage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="Oceania" />
         </div>

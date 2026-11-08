@@ -24,7 +24,7 @@ export default async function Image() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px 96px",
-          background: "linear-gradient(135deg, #FFFFFF 0%, #F4F8FC 100%)",
+          background: "linear-gradient(135deg, #FFFFFF 0%, var(--surface-soft) 100%)",
         }}
       >
         <div
@@ -60,7 +60,7 @@ export default async function Image() {
             marginTop: 28,
             fontSize: 30,
             fontWeight: 600,
-            color: "#2864E8",
+            color: "var(--teal-800)",
           }}
         >
           Visit Visas &nbsp;•&nbsp; Study Visas &nbsp;•&nbsp; Dubai &amp; Lahore

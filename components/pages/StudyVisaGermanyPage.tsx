@@ -57,7 +57,7 @@ export default function StudyVisaGermanyPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs
@@ -68,7 +68,7 @@ export default function StudyVisaGermanyPage() {
             />
             <p className="eyebrow mb-3">Study Visa Services</p>
             <h1 className="page-title mb-6">
-              Germany Study Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              Germany Study Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-8 leading-relaxed">
               Already have a university admission letter or an Ausbildung place? We help you
@@ -77,7 +77,7 @@ export default function StudyVisaGermanyPage() {
             <p className="text-sm text-[#4B5B70] mb-8 leading-relaxed">
               We also prepare study visa documentation for{" "}
               <InlineLinkList items={[{ label: "UK", href: "/study-visa/uk" }, { label: "USA", href: "/study-visa/usa" }, { label: "Canada", href: "/study-visa/canada" }, { label: "Australia", href: "/study-visa/australia" }]} />
-              , or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>full Study Visa guide</Link> for every destination.
+              , or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -96,7 +96,7 @@ export default function StudyVisaGermanyPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about Germany study visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -109,8 +109,8 @@ export default function StudyVisaGermanyPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F4F8FC" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>{fact.label}</p>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "var(--surface-soft)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>{fact.label}</p>
                 <p className="text-sm font-medium" style={{ color: "#10254A" }}>{fact.value}</p>
               </div>
             ))}
@@ -119,7 +119,7 @@ export default function StudyVisaGermanyPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6">Documents You&apos;ll Need</h2>
           <ul className="grid sm:grid-cols-2 gap-3">
@@ -144,7 +144,7 @@ export default function StudyVisaGermanyPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">
@@ -174,11 +174,11 @@ export default function StudyVisaGermanyPage() {
                 key={guide.href}
                 href={guide.href}
                 className="flex items-start gap-4 rounded-3xl p-6 card-hover"
-                style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                  style={{ backgroundColor: "#2864E8" }}
+                  style={{ backgroundColor: "var(--teal)" }}
                   aria-hidden
                 >
                   <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
@@ -194,7 +194,7 @@ export default function StudyVisaGermanyPage() {
       </section>
 
       {/* Related */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

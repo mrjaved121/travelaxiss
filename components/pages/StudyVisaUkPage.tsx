@@ -49,7 +49,7 @@ export default function StudyVisaUkPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs
@@ -60,14 +60,14 @@ export default function StudyVisaUkPage() {
             />
             <p className="eyebrow mb-3">Study Visa Services</p>
             <h1 className="page-title mb-6">
-              UK Study Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              UK Study Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-8 leading-relaxed">
               Already have a Confirmation of Acceptance for Studies (CAS)? We help you prepare
               the UK Student Visa documentation from Pakistan.
             </p>
             <p className="text-sm text-[#4B5B70] mb-8 leading-relaxed">
-              We also prepare study visa documentation for <InlineLinkList items={[{ label: "USA", href: "/study-visa/usa" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>full Study Visa guide</Link> for every destination.
+              We also prepare study visa documentation for <InlineLinkList items={[{ label: "USA", href: "/study-visa/usa" }, { label: "Australia", href: "/study-visa/australia" }]} />, or see our <Link href="/services/study-visa" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>full Study Visa guide</Link> for every destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -86,7 +86,7 @@ export default function StudyVisaUkPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about UK study visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -99,8 +99,8 @@ export default function StudyVisaUkPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F4F8FC" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>{fact.label}</p>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "var(--surface-soft)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>{fact.label}</p>
                 <p className="text-sm font-medium" style={{ color: "#10254A" }}>{fact.value}</p>
               </div>
             ))}
@@ -109,7 +109,7 @@ export default function StudyVisaUkPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6">Documents You&apos;ll Need</h2>
           <ul className="grid sm:grid-cols-2 gap-3">
@@ -121,7 +121,7 @@ export default function StudyVisaUkPage() {
           </ul>
           <p className="text-sm text-[#4B5B70] mt-6">
             Requirements are set by{" "}
-            <a href="https://www.gov.uk/browse/visas-immigration" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+            <a href="https://www.gov.uk/browse/visas-immigration" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
               UKVI
             </a>{" "}
             — we confirm the current list against your specific institution and course.
@@ -137,7 +137,7 @@ export default function StudyVisaUkPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">

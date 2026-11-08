@@ -207,14 +207,14 @@ export default function PakistanHubPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
               For Clients in Pakistan
             </p>
             <h1 className="page-title mb-6">
-              Visa Services for Clients <span style={{ color: "#2864E8" }}>in Pakistan</span>
+              Visa Services for Clients <span style={{ color: "var(--teal-800)" }}>in Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] leading-relaxed">
               Travelaxis supports Pakistani nationals with visit and study visa documentation for Dubai, the UK, USA, Schengen/Germany and Australia — with offices in Dubai and Lahore. Start with the guide below that matches your situation, or message us directly for anything not covered yet.
@@ -243,7 +243,7 @@ export default function PakistanHubPage() {
             ))}
           </div>
           <p className="text-center mt-12">
-            <Link href="/services" className="font-semibold hover:underline" style={{ color: "#2864E8" }}>
+            <Link href="/services" className="font-semibold hover:underline" style={{ color: "var(--teal-800)" }}>
               Browse all our visa services
             </Link>
           </p>
@@ -251,7 +251,7 @@ export default function PakistanHubPage() {
       </section>
 
       {/* Why us */}
-      <section className="py-20" style={{ backgroundColor: "#2864E8" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--teal)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -279,7 +279,7 @@ export default function PakistanHubPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-7 h-7" style={{ color: "#2864E8" }} />
+                  <item.icon className="w-7 h-7" style={{ color: "var(--teal-800)" }} />
                 </div>
                 <h3 className="subsection-title mb-3" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -292,7 +292,7 @@ export default function PakistanHubPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="section-title mb-4">
@@ -306,7 +306,7 @@ export default function PakistanHubPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-              style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+              style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
               aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
             >
               <span>Chat on WhatsApp</span>

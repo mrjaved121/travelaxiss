@@ -36,7 +36,7 @@ function DestinationLinks({ onNavigate }: { onNavigate?: () => void }) {
           <Link
             href={region.path}
             onClick={onNavigate}
-            className="mb-2.5 block text-sm font-bold text-[#10254A] hover:text-[#2864E8]"
+            className="mb-2.5 block text-sm font-bold text-[#10254A] hover:text-teal-800"
           >
             {region.name}
           </Link>
@@ -46,7 +46,7 @@ function DestinationLinks({ onNavigate }: { onNavigate?: () => void }) {
                 <Link
                   href={`/visit-visa/${country.slug}`}
                   onClick={onNavigate}
-                  className="block text-sm text-[#4B5B70] hover:text-[#2864E8]"
+                  className="block text-sm text-[#4B5B70] hover:text-teal-800"
                 >
                   {country.name}
                 </Link>
@@ -57,7 +57,7 @@ function DestinationLinks({ onNavigate }: { onNavigate?: () => void }) {
                 <Link
                   href="/visit-visa/"
                   onClick={onNavigate}
-                  className="block text-sm font-semibold text-[#2864E8] hover:underline"
+                  className="block text-sm font-semibold text-teal-800 hover:underline"
                 >
                   View all {region.name} →
                 </Link>
@@ -91,7 +91,7 @@ export function VisitVisaMegaMenu() {
         onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
         aria-haspopup="menu"
-        className="nav-link inline-flex items-center gap-1 rounded-sm transition-colors hover:text-[#2864E8]"
+        className="nav-link inline-flex items-center gap-1 rounded-sm transition-colors hover:text-teal-800"
       >
         Visit Visas
         <ChevronDown className={`size-3.5 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden />
@@ -104,11 +104,11 @@ export function VisitVisaMegaMenu() {
         <div className="w-[min(94vw,960px)] rounded-2xl border border-[#E3EAF3] bg-white p-6 shadow-xl">
           <div className="grid gap-7 lg:grid-cols-[0.8fr_1fr_1fr_1fr]">
             <div className="border-b border-[#E3EAF3] pb-5 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-6">
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-[#2864E8]">Popular destinations</p>
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.12em] text-teal-800">Popular destinations</p>
               <ul className="space-y-2.5">
                 {popularDestinations.map((item) => (
                   <li key={item.path}>
-                    <Link href={item.path} onClick={() => setOpen(false)} className="block text-sm font-semibold text-[#10254A] hover:text-[#2864E8]">
+                    <Link href={item.path} onClick={() => setOpen(false)} className="block text-sm font-semibold text-[#10254A] hover:text-teal-800">
                       {item.name} Visit Visa
                     </Link>
                   </li>
@@ -117,7 +117,7 @@ export function VisitVisaMegaMenu() {
               <Link
                 href="/visit-visa/"
                 onClick={() => setOpen(false)}
-                className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-[#2864E8] hover:underline"
+                className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-teal-800 hover:underline"
               >
                 <Globe2 className="size-4" aria-hidden />
                 All destinations
@@ -144,7 +144,7 @@ export function MobileVisitVisaMenu({ onNavigate }: { onNavigate: () => void }) 
         onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
         aria-controls={panelId}
-        className="nav-link flex w-full items-center justify-between rounded-sm px-4 py-2 transition-colors hover:text-[#2864E8]"
+        className="nav-link flex w-full items-center justify-between rounded-sm px-4 py-2 transition-colors hover:text-teal-800"
       >
         Visit Visas
         <ChevronDown className={`size-4 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden />
@@ -152,10 +152,10 @@ export function MobileVisitVisaMenu({ onNavigate }: { onNavigate: () => void }) 
       {open ? (
         <div id={panelId} className="space-y-5 px-8 pb-3 pt-2">
           <div>
-            <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em] text-[#2864E8]">Popular destinations</p>
+            <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em] text-teal-800">Popular destinations</p>
             <div className="grid grid-cols-2 gap-x-4 gap-y-2">
               {popularDestinations.map((item) => (
-                <Link key={item.path} href={item.path} onClick={onNavigate} className="text-sm text-[#4B5B70] hover:text-[#2864E8]">
+                <Link key={item.path} href={item.path} onClick={onNavigate} className="text-sm text-[#4B5B70] hover:text-teal-800">
                   {item.name}
                 </Link>
               ))}
@@ -167,7 +167,7 @@ export function MobileVisitVisaMenu({ onNavigate }: { onNavigate: () => void }) 
                 <summary className="cursor-pointer text-sm font-semibold text-[#10254A]">{region.name}</summary>
                 <div className="grid grid-cols-2 gap-x-4 gap-y-2 pb-2 pt-3">
                   {region.countries.map((country) => (
-                    <Link key={country.slug} href={`/visit-visa/${country.slug}`} onClick={onNavigate} className="text-sm text-[#4B5B70] hover:text-[#2864E8]">
+                    <Link key={country.slug} href={`/visit-visa/${country.slug}`} onClick={onNavigate} className="text-sm text-[#4B5B70] hover:text-teal-800">
                       {country.name}
                     </Link>
                   ))}
@@ -175,7 +175,7 @@ export function MobileVisitVisaMenu({ onNavigate }: { onNavigate: () => void }) 
               </details>
             ))}
           </div>
-          <Link href="/visit-visa/" onClick={onNavigate} className="inline-flex text-sm font-bold text-[#2864E8] hover:underline">
+          <Link href="/visit-visa/" onClick={onNavigate} className="inline-flex text-sm font-bold text-teal-800 hover:underline">
             View all destinations →
           </Link>
         </div>

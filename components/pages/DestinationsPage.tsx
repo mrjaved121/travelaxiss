@@ -36,12 +36,12 @@ export default function DestinationsPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Destinations</p>
             <h1 className="page-title mb-6">
-              Explore Visa <span style={{ color: "#2864E8" }}>Destinations</span>
+              Explore Visa <span style={{ color: "var(--teal-800)" }}>Destinations</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
               Find visa application support by region and travel purpose.
@@ -62,7 +62,7 @@ export default function DestinationsPage() {
                 className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all"
                 style={
                   active === filter.key
-                    ? { backgroundColor: "#2864E8", color: "#FFFFFF", borderColor: "#2864E8" }
+                    ? { backgroundColor: "var(--teal)", color: "#FFFFFF", borderColor: "var(--teal)" }
                     : { backgroundColor: "#FFFFFF", color: "#10254A", borderColor: "var(--card-line)" }
                 }
                 aria-pressed={active === filter.key}
@@ -104,7 +104,7 @@ export default function DestinationsPage() {
                     </div>
                     <h3 className="subsection-title mb-1">{region.title}</h3>
                     <p className="text-sm text-[#4B5B70] mb-3">{region.description}</p>
-                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
+                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
                       Explore {region.title} visit visas
                       <ArrowRight className="w-4 h-4" aria-hidden />
                     </span>
@@ -145,7 +145,7 @@ export default function DestinationsPage() {
                     </div>
                     <h3 className="subsection-title mb-1">{country.title}</h3>
                     <p className="text-sm text-[#4B5B70] mb-3">{country.description}</p>
-                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
+                    <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
                       View requirements
                       <ArrowRight className="w-4 h-4" aria-hidden />
                     </span>

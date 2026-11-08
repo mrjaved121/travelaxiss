@@ -132,7 +132,7 @@ function DestinationFinder() {
           <button
             type="submit"
             className="px-5 py-3 rounded-xl font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+            style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
           >
             Go
           </button>
@@ -141,7 +141,7 @@ function DestinationFinder() {
       {notFound && (
         <p className="text-sm text-[#4B5B70] mt-2">
           We don&apos;t have a dedicated page for that yet —{" "}
-          <a href="#requirements-form" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+          <a href="#requirements-form" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
             tell us in the form below
           </a>{" "}
           and we&apos;ll check.
@@ -157,7 +157,7 @@ function DestinationFinder() {
                 go(name);
               }}
               className="font-semibold underline-offset-2 hover:underline"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
             >
               {name}
             </button>
@@ -260,13 +260,13 @@ export default function VisitVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Visit Visa <span style={{ color: "#2864E8" }}>Services</span>
+              Visit Visa <span style={{ color: "var(--teal-800)" }}>Services</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               Planning to travel from Pakistan? Explore destination-specific visit visa
@@ -278,7 +278,7 @@ export default function VisitVisaPage() {
                 <span
                   key={label}
                   className="px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ backgroundColor: "#FFFFFF", color: "#2864E8", border: "1px solid var(--card-line)" }}
+                  style={{ backgroundColor: "#FFFFFF", color: "var(--teal-800)", border: "1px solid var(--card-line)" }}
                 >
                   {label}
                 </span>
@@ -301,11 +301,11 @@ export default function VisitVisaPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about visit visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4" style={{ borderColor: "var(--teal)" }}>
               {shortDisclaimer}
             </p>
           </motion.div>
@@ -343,7 +343,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* Explore by region */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -375,7 +375,7 @@ export default function VisitVisaPage() {
                   </div>
                   <h3 className="subsection-title mb-1">{region.title}</h3>
                   <p className="text-sm text-[#4B5B70] mb-3">{region.description}</p>
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
                     Explore {region.title} visit visas
                     <ArrowRight className="w-4 h-4" aria-hidden />
                   </span>
@@ -406,10 +406,10 @@ export default function VisitVisaPage() {
                 className="group rounded-2xl border bg-white p-5 transition-all hover:-translate-y-0.5 card-hover"
                 style={{ borderColor: "var(--card-line)" }}
               >
-                <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em]" style={{ color: "#2864E8" }}>{destination.region}</p>
+                <p className="mb-2 text-xs font-bold uppercase tracking-[0.1em]" style={{ color: "var(--teal-800)" }}>{destination.region}</p>
                 <h3 className="subsection-title mb-2">{destination.name} Visit Visa</h3>
                 <p className="text-sm leading-relaxed text-[#4B5B70]">{destination.description}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
                   View support <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
                 </span>
               </Link>
@@ -455,7 +455,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* Process */}
-      <section className="py-20 md:py-28" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20 md:py-28" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -482,7 +482,7 @@ export default function VisitVisaPage() {
                 >
                   <step.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#2864E8" }}>
+                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "var(--teal-800)" }}>
                   {step.number}
                 </p>
                 <h3 className="subsection-title mb-2">{step.title}</h3>
@@ -501,7 +501,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -532,7 +532,7 @@ export default function VisitVisaPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -560,7 +560,7 @@ export default function VisitVisaPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
               aria-label="Chat with Travelaxis on WhatsApp about visit visas (opens in a new tab)"
             >
               <span>WhatsApp Us</span>

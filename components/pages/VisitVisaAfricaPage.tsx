@@ -9,13 +9,13 @@ import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
 export default function VisitVisaAfricaPage() {
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services", href: "/visit-visa" }, { name: "Africa" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Africa <span style={{ color: "#2864E8" }}>Visit Visas</span>
+              Africa <span style={{ color: "var(--teal-800)" }}>Visit Visas</span>
             </h1>
             <p className="lead text-[#4B5B70] leading-relaxed">
               Visit visa documentation support for African destination countries, most commonly
@@ -43,7 +43,7 @@ export default function VisitVisaAfricaPage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="Africa" />
         </div>

@@ -9,7 +9,7 @@ export default function ApplyPage() {
 
   return (
     <div>
-      <section className="py-12 md:py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-12 md:py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="page-title mb-4">Submit Your Visa Documents</h1>
           <p className="lead max-w-2xl mx-auto">
@@ -20,7 +20,7 @@ export default function ApplyPage() {
           </p>
           <p
             className="mt-4 inline-flex items-center gap-2 text-sm font-semibold"
-            style={{ color: "#2864E8" }}
+            style={{ color: "var(--teal-800)" }}
           >
             <ShieldCheck className="w-4 h-4" aria-hidden />
             Secure upload · Never shared outside your visa application
@@ -50,7 +50,7 @@ export default function ApplyPage() {
                 href={`https://tally.so/r/${TALLY_FORM_ID}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline hover:text-[#2864E8]"
+                className="underline hover:text-teal-800"
               >
                 Open it in a new tab
               </a>

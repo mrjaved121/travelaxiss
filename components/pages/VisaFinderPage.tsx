@@ -58,8 +58,8 @@ function OptionCard({
       onClick={onClick}
       className={cardBase}
       style={{
-        border: selected ? "2px solid #2864E8" : "1px solid var(--card-line)",
-        backgroundColor: selected ? "#F4F8FC" : "#FFFFFF",
+        border: selected ? "2px solid var(--teal)" : "1px solid var(--card-line)",
+        backgroundColor: selected ? "var(--surface-soft)" : "#FFFFFF",
       }}
     >
       {children}
@@ -107,12 +107,12 @@ export default function VisaFinderPage() {
 
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Visa Finder</p>
             <h1 className="page-title mb-4">
-              Find Your Potential <span style={{ color: "#2864E8" }}>Visa Pathway</span>
+              Find Your Potential <span style={{ color: "var(--teal-800)" }}>Visa Pathway</span>
             </h1>
             <p className="lead max-w-xl mx-auto">
               Answer a few simple questions and discover which visa pathways may be worth
@@ -158,7 +158,7 @@ export default function VisaFinderPage() {
               {/* Progress */}
               <div className="mb-8">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-semibold" style={{ color: "#2864E8" }}>
+                  <span className="text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
                     {String(step + 1).padStart(2, "0")} / {String(totalSteps).padStart(2, "0")}
                   </span>
                   <span className="text-sm text-[#4B5B70]">{STEP_LABELS[step]}</span>
@@ -166,7 +166,7 @@ export default function VisaFinderPage() {
                 <div className="h-1.5 rounded-full bg-[#E3EAF3] overflow-hidden">
                   <motion.div
                     className="h-full rounded-full"
-                    style={{ backgroundColor: "#2864E8" }}
+                    style={{ backgroundColor: "var(--teal)" }}
                     animate={{ width: `${((step + 1) / totalSteps) * 100}%` }}
                     transition={{ duration: 0.3 }}
                   />
@@ -189,7 +189,7 @@ export default function VisaFinderPage() {
                       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                         {GOALS.map(({ key, label, icon: Icon }) => (
                           <OptionCard key={key} selected={answers.goal === key} onClick={() => select("goal", key)}>
-                            <Icon className="w-6 h-6 mb-3" style={{ color: "#2864E8" }} aria-hidden />
+                            <Icon className="w-6 h-6 mb-3" style={{ color: "var(--teal-800)" }} aria-hidden />
                             <span className="font-semibold" style={{ color: "#10254A" }}>
                               {label}
                             </span>
@@ -332,7 +332,7 @@ export default function VisaFinderPage() {
               <div className="rounded-2xl p-6 md:p-8 card-hover mb-6" style={{ border: "1px solid var(--card-line)" }}>
                 <span
                   className="inline-block px-3 py-1 rounded-full text-xs font-semibold mb-4"
-                  style={{ backgroundColor: "#F4F8FC", color: "#2864E8" }}
+                  style={{ backgroundColor: "var(--surface-soft)", color: "var(--teal-800)" }}
                 >
                   Potential match
                 </span>
@@ -347,7 +347,7 @@ export default function VisaFinderPage() {
                   typically a starting point for exploring {pathwayLabel ?? "this pathway"} — the
                   category most people with a similar goal and destination begin researching.
                 </p>
-                <div className="rounded-xl p-4" style={{ backgroundColor: "#F4F8FC" }}>
+                <div className="rounded-xl p-4" style={{ backgroundColor: "var(--surface-soft)" }}>
                   <p className="text-sm font-semibold mb-1" style={{ color: "#10254A" }}>
                     Important considerations
                   </p>
@@ -380,7 +380,7 @@ export default function VisaFinderPage() {
                   <Link
                     href="/consultation"
                     className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full transition-all hover:opacity-90"
-                    style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+                    style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
                   >
                     <span>Get Expert Assessment</span>
                     <ArrowRight className="w-4 h-4" aria-hidden />

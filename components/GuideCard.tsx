@@ -52,7 +52,7 @@ export default function GuideCard({
         {badge && (
           <span
             className="px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap"
-            style={{ backgroundColor: "#F4F8FC", color: "#2864E8" }}
+            style={{ backgroundColor: "var(--surface-soft)", color: "var(--teal-800)" }}
           >
             {badge}
           </span>

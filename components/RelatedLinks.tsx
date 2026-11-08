@@ -18,7 +18,7 @@ export default function RelatedLinks({
     <section
       aria-labelledby="related-links-heading"
       className="py-16"
-      style={{ backgroundColor: "#F4F8FC" }}
+      style={{ backgroundColor: "var(--surface-soft)" }}
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 id="related-links-heading" className="subsection-title mb-6">
@@ -37,7 +37,7 @@ export default function RelatedLinks({
               </span>
               <ArrowUpRight
                 className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                style={{ color: "#2864E8" }}
+                style={{ color: "var(--teal-800)" }}
                 aria-hidden
               />
             </Link>

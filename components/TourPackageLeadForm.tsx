@@ -11,7 +11,7 @@ const PACKAGE_OPTIONS = [...tourPackageTiers.map((t) => t.name), "Not sure yet"]
 const TRAVELER_OPTIONS = ["Just me", "Couple", "Family", "Private group"];
 
 const fieldClassName =
-  "w-full rounded-xl border border-[#E3EAF3] bg-white px-4 py-3 text-[#10254A] placeholder:text-[#94A3B0] focus:outline-none focus:ring-2 focus:ring-[#2864E8]/40 transition-shadow";
+  "w-full rounded-xl border border-[#E3EAF3] bg-white px-4 py-3 text-[#10254A] placeholder:text-[#94A3B0] focus:outline-none focus:ring-2 focus:ring-teal/40 transition-shadow";
 
 /**
  * Compiles into a prefilled WhatsApp message on submit rather than posting
@@ -65,7 +65,7 @@ export default function TourPackageLeadForm({
           We&apos;ve opened WhatsApp with your details. Send the message and our team will follow up with your
           custom quote.
         </p>
-        <button type="button" onClick={() => setSubmitted(false)} className="text-sm font-semibold" style={{ color: "#2864E8" }}>
+        <button type="button" onClick={() => setSubmitted(false)} className="text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
           Request another quote
         </button>
       </div>
@@ -173,8 +173,8 @@ export default function TourPackageLeadForm({
                   className="px-3 py-1.5 rounded-full text-sm font-medium border transition-colors"
                   style={
                     active
-                      ? { backgroundColor: "#2864E8", color: "#FFFFFF", borderColor: "#2864E8" }
-                      : { backgroundColor: "#F4F8FC", color: "#10254A", borderColor: "#E3EAF3" }
+                      ? { backgroundColor: "var(--teal)", color: "#FFFFFF", borderColor: "var(--teal)" }
+                      : { backgroundColor: "var(--surface-soft)", color: "#10254A", borderColor: "#E3EAF3" }
                   }
                 >
                   {name}

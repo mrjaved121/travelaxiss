@@ -39,18 +39,18 @@ export default function CanadaHelpNotice({ id = "canada-help", className = "bg-w
           information. You can apply yourself: IRCC publishes every form and instruction free.
         </p>
         <div className="grid sm:grid-cols-2 gap-4">
-          <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
+          <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
             <h3 className="subsection-title mb-3">We can help with</h3>
             <ul className="space-y-2">
               {canHelp.map((item) => (
                 <li key={item} className="flex items-start gap-2 text-sm text-[#4B5B70]">
-                  <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+                  <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "var(--teal-800)" }} aria-hidden />
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
+          <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
             <h3 className="subsection-title mb-3">We don&apos;t</h3>
             <ul className="space-y-2">
               {cannotHelp.map((item) => (
@@ -65,7 +65,7 @@ export default function CanadaHelpNotice({ id = "canada-help", className = "bg-w
         <p className="text-sm text-[#4B5B70] mt-6 leading-relaxed">
           If you want paid help with the application itself, use an authorized representative and check
           their status first. Source:{" "}
-          <a href={IRCC_REPRESENTATIVES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+          <a href={IRCC_REPRESENTATIVES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
             IRCC — Learn about representatives
           </a>
           .

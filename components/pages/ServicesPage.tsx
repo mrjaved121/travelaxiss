@@ -163,18 +163,18 @@ export default function ServicesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#2864E8' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
               What We Offer
             </p>
             <h1 className="page-title mb-6">
-              Our <span style={{ color: '#2864E8' }}>Services</span>
+              Our <span style={{ color: "var(--teal-800)" }}>Services</span>
             </h1>
             <p className="lead text-[#4B5B70]">
               Visit and study visa documentation for applicants in Pakistan and the UAE — Dubai,
@@ -217,7 +217,7 @@ export default function ServicesPage() {
                 className="px-5 py-2.5 rounded-full text-sm font-semibold border transition-all"
                 style={
                   activeGroup === group
-                    ? { backgroundColor: "#2864E8", color: "#FFFFFF", borderColor: "#2864E8" }
+                    ? { backgroundColor: "var(--teal)", color: "#FFFFFF", borderColor: "var(--teal)" }
                     : { backgroundColor: "#FFFFFF", color: "#10254A", borderColor: "var(--card-line)" }
                 }
                 aria-pressed={activeGroup === group}
@@ -250,7 +250,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Advantages */}
-      <section className="py-20" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
@@ -258,7 +258,7 @@ export default function ServicesPage() {
             className="text-center mb-12"
           >
             <h2 className="section-title">
-              Service <span style={{ color: '#2864E8' }}>Advantages</span>
+              Service <span style={{ color: "var(--teal-800)" }}>Advantages</span>
             </h2>
           </motion.div>
 
@@ -286,7 +286,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#2864E8' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}

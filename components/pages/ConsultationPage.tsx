@@ -61,12 +61,12 @@ export default function ConsultationPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Book a Consultation</p>
             <h1 className="page-title mb-6">
-              Let&apos;s Talk About <span style={{ color: "#2864E8" }}>Your Journey</span>
+              Let&apos;s Talk About <span style={{ color: "var(--teal-800)" }}>Your Journey</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
               Tell us about your plans and we&apos;ll help you understand the next steps.
@@ -101,7 +101,7 @@ export default function ConsultationPage() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Your name"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                  style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
                 />
               </div>
               <div>
@@ -116,7 +116,7 @@ export default function ConsultationPage() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@example.com"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                  style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
                 />
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function ConsultationPage() {
                   onChange={(e) => setContact(e.target.value)}
                   placeholder="How should we reach you?"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                  style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
                 />
               </div>
               <div>
@@ -148,7 +148,7 @@ export default function ConsultationPage() {
                   onChange={(e) => setResidence(e.target.value)}
                   placeholder="e.g. Pakistan"
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                  style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
                 />
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function ConsultationPage() {
                   value={destination}
                   onChange={(e) => setDestination(e.target.value)}
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                  style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
                 >
                   {DESTINATION_OPTIONS.map((option) => (
                     <option key={option} value={option}>
@@ -181,7 +181,7 @@ export default function ConsultationPage() {
                   value={goal}
                   onChange={(e) => setGoal(e.target.value)}
                   className={fieldClassName}
-                  style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                  style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
                 >
                   {GOAL_OPTIONS.map((option) => (
                     <option key={option} value={option}>
@@ -202,7 +202,7 @@ export default function ConsultationPage() {
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
                 className={fieldClassName}
-                style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
               />
             </div>
 
@@ -217,14 +217,14 @@ export default function ConsultationPage() {
                 placeholder="Tell us a bit about your profile and plans"
                 rows={4}
                 className={fieldClassName}
-                style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
               />
             </div>
 
             <button
               type="submit"
               className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
-              style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+              style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
             >
               <Send className="w-5 h-5" aria-hidden />
               <span>Request Consultation</span>

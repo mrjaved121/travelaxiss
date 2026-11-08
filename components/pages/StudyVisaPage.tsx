@@ -103,20 +103,20 @@ export default function StudyVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "Study Visas" }]} />
             <p className="eyebrow mb-3">Study Visa Documentation</p>
             <h1 className="page-title mb-6">
-              Study Visa <span style={{ color: "#2864E8" }}>Documentation</span>
+              Study Visa <span style={{ color: "var(--teal-800)" }}>Documentation</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               Planning to study in the UK, USA, Australia, Germany, elsewhere in Europe, or China? We
               help you prepare the right documents for your student visa application, so
               you can focus on your admission while we handle the paperwork.
             </p>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "var(--teal)" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -136,7 +136,7 @@ export default function StudyVisaPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about study visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -175,7 +175,7 @@ export default function StudyVisaPage() {
       </section>
 
       {/* How we help */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -189,7 +189,7 @@ export default function StudyVisaPage() {
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                   <span className="text-[#4B5B70]">{item}</span>
                 </li>
               ))}
@@ -226,7 +226,7 @@ export default function StudyVisaPage() {
                 >
                   <step.icon className="w-5 h-5" style={{ color: "var(--card-icon-fg)" }} aria-hidden />
                 </div>
-                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "#2864E8" }}>
+                <p className="text-4xl font-bold mb-3 tracking-tight" style={{ color: "var(--teal-800)" }}>
                   {step.number}
                 </p>
                 <h3 className="subsection-title mb-2">{step.title}</h3>
@@ -238,7 +238,7 @@ export default function StudyVisaPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -272,7 +272,7 @@ export default function StudyVisaPage() {
       <RelatedLinks links={relatedServices} />
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -299,7 +299,7 @@ export default function StudyVisaPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
               aria-label="Chat with Travelaxis on WhatsApp about study visas (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

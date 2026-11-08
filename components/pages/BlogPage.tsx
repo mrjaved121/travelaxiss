@@ -37,7 +37,7 @@ export default function BlogPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
@@ -46,7 +46,7 @@ export default function BlogPage() {
           >
             <p className="eyebrow mb-3">Resources</p>
             <h1 className="page-title mb-6">
-              Understand <span style={{ color: '#2864E8' }}>Before You Apply.</span>
+              Understand <span style={{ color: "var(--teal-800)" }}>Before You Apply.</span>
             </h1>
             <p className="lead">
               Guides on visit and study visas for Dubai, the UK, USA, Schengen, Australia and Germany, plus general information on UAE visas and business rules.
@@ -64,7 +64,7 @@ export default function BlogPage() {
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search visa guides and resources..."
                 className="w-full rounded-full border border-[#E3EAF3] bg-white pl-12 pr-5 py-3.5 text-[#10254A] placeholder:text-[#4B5B70] focus:outline-none focus:ring-2"
-                style={{ ["--tw-ring-color" as string]: "#2864E8" }}
+                style={{ ["--tw-ring-color" as string]: "var(--teal)" }}
               />
             </div>
 
@@ -77,7 +77,7 @@ export default function BlogPage() {
                   className="px-4 py-2 rounded-full text-sm font-semibold border transition-all"
                   style={
                     category === c
-                      ? { backgroundColor: "#2864E8", color: "#FFFFFF", borderColor: "#2864E8" }
+                      ? { backgroundColor: "var(--teal)", color: "#FFFFFF", borderColor: "var(--teal)" }
                       : { backgroundColor: "#FFFFFF", color: "#10254A", borderColor: "var(--card-line)" }
                   }
                   aria-pressed={category === c}
@@ -87,7 +87,7 @@ export default function BlogPage() {
               ))}
             </div>
 
-            <p className="mt-6 font-semibold" style={{ color: '#2864E8' }}>
+            <p className="mt-6 font-semibold" style={{ color: "var(--teal-800)" }}>
               Showing {blogs.length} of {blogPostSummaries.length} articles
             </p>
           </motion.div>
@@ -123,7 +123,7 @@ export default function BlogPage() {
                         return <CategoryIcon className="w-7 h-7" style={{ color: "var(--card-icon-fg)" }} />;
                       })()}
                     </div>
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F4F8FC', color: '#2864E8' }}>
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: "var(--surface-soft)", color: "var(--teal-800)" }}>
                       {blog.category}
                     </span>
                   </div>
@@ -145,7 +145,7 @@ export default function BlogPage() {
                   <span
                     aria-hidden="true"
                     className="inline-flex items-center space-x-2 font-semibold group-hover:underline"
-                    style={{ color: '#2864E8' }}
+                    style={{ color: "var(--teal-800)" }}
                   >
                     <span>Read full article</span>
                     <ArrowRight className="w-4 h-4" aria-hidden />
@@ -159,7 +159,7 @@ export default function BlogPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#2864E8' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}

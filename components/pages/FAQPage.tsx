@@ -28,18 +28,18 @@ export default function FAQPage() {
 
   return (
     <div>
-      <section className="py-20" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
               <HelpCircle className="w-8 h-8" style={{ color: '#FFFFFF' }} />
             </div>
             <h1 className="page-title mb-6">
-              Frequently Asked <span style={{ color: '#2864E8' }}>Questions</span>
+              Frequently Asked <span style={{ color: "var(--teal-800)" }}>Questions</span>
             </h1>
             <p className="lead">
               Clear answers about our visit and study visa documentation support.
@@ -50,7 +50,7 @@ export default function FAQPage() {
 
       <section className="py-8" style={{ backgroundColor: "#FFFFFF" }} aria-label="Disclaimer">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-sm text-[#4B5B70] text-center leading-relaxed border border-[#E3EAF3] rounded-2xl p-4 bg-[#F4F8FC]">
+          <p className="text-sm text-[#4B5B70] text-center leading-relaxed border border-[#E3EAF3] rounded-2xl p-4 bg-surface-soft">
             We provide documentation assistance and consultancy support only. We are not a government authority, employer, or recruitment agency, and we do not arrange jobs, sponsor employment, or guarantee visa approval. All visa applications are submitted through each country&apos;s official government channels or authorized entities, subject to applicable rules and approvals.
           </p>
         </div>
@@ -84,7 +84,7 @@ export default function FAQPage() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-4 rounded-2xl border-2 border-[#E3EAF3] focus:border-opacity-50 focus:outline-none transition-colors"
-                style={{ borderColor: searchQuery ? '#2864E8' : undefined }}
+                style={{ borderColor: searchQuery ? "var(--teal)" : undefined }}
                 autoComplete="off"
                 aria-describedby={`${searchFieldId}-hint`}
               />
@@ -111,7 +111,7 @@ export default function FAQPage() {
                   onClick={() => setSelectedCategory(category)}
                   className="px-6 py-2 rounded-full font-semibold transition-all"
                   style={{
-                    backgroundColor: selectedCategory === category ? '#2864E8' : '#F4F8FC',
+                    backgroundColor: selectedCategory === category ? "var(--teal)" : "var(--surface-soft)",
                     color: selectedCategory === category ? '#FFFFFF' : '#4B5B70',
                   }}
                   aria-pressed={selectedCategory === category}
@@ -149,12 +149,12 @@ export default function FAQPage() {
                     className="rounded-2xl overflow-hidden shadow-sm border-2 transition-all"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: isOpen ? '#2864E8' : '#F4F8FC'
+                      borderColor: isOpen ? "var(--teal)" : "var(--surface-soft)"
                     }}
                   >
                     <div
                       className="flex items-stretch justify-between gap-2"
-                      style={{ backgroundColor: isOpen ? '#F4F8FC' : 'transparent' }}
+                      style={{ backgroundColor: isOpen ? "var(--surface-soft)" : 'transparent' }}
                     >
                       <h3 id={headId} className="subsection-title m-0 flex-1 min-w-0">
                         <button
@@ -168,7 +168,7 @@ export default function FAQPage() {
                           <span className="flex-1 pr-2">
                             <span className="block">{faq.question}</span>
                             {faq.category ? (
-                              <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: '#F4F8FC', color: '#2864E8' }}>
+                              <span className="inline-block mt-2 px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: "var(--surface-soft)", color: "var(--teal-800)" }}>
                                 {faq.category}
                               </span>
                             ) : null}
@@ -179,7 +179,7 @@ export default function FAQPage() {
                             className="flex-shrink-0"
                             aria-hidden
                           >
-                            <ChevronDown className="w-6 h-6" style={{ color: '#2864E8' }} />
+                            <ChevronDown className="w-6 h-6" style={{ color: "var(--teal-800)" }} />
                           </motion.span>
                         </button>
                       </h3>
@@ -208,20 +208,20 @@ export default function FAQPage() {
             aria-live="polite"
           >
             <p className="text-[#4B5B70]">
-              Showing <span className="font-semibold" style={{ color: '#2864E8' }}>{filteredFAQs.length}</span> of <span className="font-semibold">{faqs.length}</span> questions
+              Showing <span className="font-semibold" style={{ color: "var(--teal-800)" }}>{filteredFAQs.length}</span> of <span className="font-semibold">{faqs.length}</span> questions
             </p>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-16" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
             <h2 className="section-title mb-8 text-center">
-              Related <span style={{ color: '#2864E8' }}>Topics</span>
+              Related <span style={{ color: "var(--teal-800)" }}>Topics</span>
             </h2>
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-4 list-none p-0 m-0">
               {[
@@ -252,7 +252,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#2864E8' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}

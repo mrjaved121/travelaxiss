@@ -18,9 +18,9 @@ const quickLinks = [
 
 export default function NotFound() {
   return (
-    <section className="py-20 md:py-28" style={{ backgroundColor: "#F4F8FC" }}>
+    <section className="py-20 md:py-28" style={{ backgroundColor: "var(--surface-soft)" }}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
+        <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
           404
         </p>
         <h1 className="page-title mb-4">
@@ -39,7 +39,7 @@ export default function NotFound() {
               style={{ color: "#10254A" }}
             >
               <span>{link.label}</span>
-              <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+              <ArrowRight className="w-4 h-4 flex-shrink-0" style={{ color: "var(--teal-800)" }} aria-hidden />
             </Link>
           ))}
         </div>
@@ -48,7 +48,7 @@ export default function NotFound() {
           <Link
             href="/"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-            style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+            style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
           >
             <Search className="w-5 h-5" aria-hidden />
             <span>Back to Homepage</span>
@@ -58,7 +58,7 @@ export default function NotFound() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-            style={{ borderColor: "#2864E8", color: "#2864E8" }}
+            style={{ borderColor: "var(--teal)", color: "var(--teal-800)" }}
             aria-label="Chat with Travelaxis on WhatsApp (opens in a new tab)"
           >
             <MessageCircle className="w-5 h-5" aria-hidden />

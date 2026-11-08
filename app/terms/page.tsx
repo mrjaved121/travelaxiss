@@ -19,7 +19,7 @@ export default function TermsPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white text-[#10254A]">
       <JsonLd data={breadcrumbJsonLd([{ name: "Terms & Conditions", path: "/terms" }])} />
       <h1 className="page-title mb-2">
-        Terms &amp; <span style={{ color: "#2864E8" }}>Conditions</span>
+        Terms &amp; <span style={{ color: "var(--teal-800)" }}>Conditions</span>
       </h1>
       <p className="text-[#4B5B70] text-sm mb-10">Last updated: April 9, 2026</p>
       <div className="space-y-6 text-[#4B5B70]">
@@ -58,7 +58,7 @@ export default function TermsPage() {
           subject to the courts of Dubai, UAE, unless otherwise agreed in writing.
         </p>
         <p className="pt-8">
-          <Link href="/" className="text-sm font-medium underline" style={{ color: "#2864E8" }}>
+          <Link href="/" className="text-sm font-medium underline" style={{ color: "var(--teal-800)" }}>
             Return to Travelaxis home
           </Link>
         </p>

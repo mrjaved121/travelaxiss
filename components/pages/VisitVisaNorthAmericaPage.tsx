@@ -26,13 +26,13 @@ const countries: { title: string; description: string; icon: LucideIcon; href: s
 export default function VisitVisaNorthAmericaPage() {
   return (
     <div>
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Visit Visa Services", href: "/visit-visa" }, { name: "North America" }]} />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              North America <span style={{ color: "#2864E8" }}>Visit Visas</span>
+              North America <span style={{ color: "var(--teal-800)" }}>Visit Visas</span>
             </h1>
             <p className="lead text-[#4B5B70] leading-relaxed">
               Visit visa documentation for the USA, submitted through its own official process, and an
@@ -63,7 +63,7 @@ export default function VisitVisaNorthAmericaPage() {
                 </div>
                 <h3 className="subsection-title mb-1">{item.title}</h3>
                 <p className="text-sm text-[#4B5B70] mb-3">{item.description}</p>
-                <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "#2864E8" }}>
+                <span className="inline-flex items-center gap-1.5 text-sm font-semibold" style={{ color: "var(--teal-800)" }}>
                   View requirements
                   <ArrowRight className="w-4 h-4" aria-hidden />
                 </span>
@@ -73,7 +73,7 @@ export default function VisitVisaNorthAmericaPage() {
         </div>
       </section>
 
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="North America" />
         </div>

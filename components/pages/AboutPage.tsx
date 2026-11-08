@@ -32,7 +32,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={false}
@@ -41,7 +41,7 @@ export default function AboutPage() {
           >
             <p className="eyebrow mb-3">About Travelaxis</p>
             <h1 className="page-title mb-6">
-              Helping People Move <span style={{ color: '#2864E8' }}>Toward What&apos;s Next.</span>
+              Helping People Move <span style={{ color: "var(--teal-800)" }}>Toward What&apos;s Next.</span>
             </h1>
             <p className="lead text-[#4B5B70]">
               We help people plan their next trip abroad through structured support, clear
@@ -85,9 +85,9 @@ export default function AboutPage() {
               initial={false}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#F4F8FC' }}
+              style={{ backgroundColor: "var(--surface-soft)" }}
             >
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                 <Target className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
               <h3 className="subsection-title mb-4">Our Mission</h3>
@@ -102,9 +102,9 @@ export default function AboutPage() {
               initial={false}
               animate={{ opacity: 1, x: 0 }}
               className="p-8 rounded-3xl"
-              style={{ backgroundColor: '#F4F8FC' }}
+              style={{ backgroundColor: "var(--surface-soft)" }}
             >
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                 <Eye className="w-7 h-7" style={{ color: '#FFFFFF' }} />
               </div>
               <h3 className="subsection-title mb-4">Our Vision</h3>
@@ -118,14 +118,14 @@ export default function AboutPage() {
       </section>
 
       {/* How We Work */}
-      <section className="py-20" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#2864E8' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
               Why Travelaxis
             </p>
             <h2 className="section-title">
@@ -155,7 +155,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA banner */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: '#2864E8' }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
@@ -170,7 +170,7 @@ export default function AboutPage() {
             <Link
               href="/consultation"
               className="btn inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
             >
               Book a Consultation
               <ArrowRight className="w-5 h-5" aria-hidden />

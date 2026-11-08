@@ -34,12 +34,12 @@ export default function SuccessStoriesPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <p className="eyebrow mb-3">Success Stories</p>
             <h1 className="page-title mb-6">
-              Real Journeys. <span style={{ color: "#2864E8" }}>Real Destinations.</span>
+              Real Journeys. <span style={{ color: "var(--teal-800)" }}>Real Destinations.</span>
             </h1>
             <p className="lead max-w-2xl mx-auto">
               Genuine client stories only — we publish a story here once the client has
@@ -50,7 +50,7 @@ export default function SuccessStoriesPage() {
       </section>
 
       {/* What a journey with us looks like */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -112,8 +112,8 @@ export default function SuccessStoriesPage() {
                         key={i}
                         className="w-4 h-4"
                         style={{
-                          color: i < testimonial.rating ? "#2864E8" : "#E3EAF3",
-                          fill: i < testimonial.rating ? "#2864E8" : "none",
+                          color: i < testimonial.rating ? "var(--teal)" : "#E3EAF3",
+                          fill: i < testimonial.rating ? "var(--teal)" : "none",
                         }}
                         aria-hidden
                       />
@@ -149,7 +149,7 @@ export default function SuccessStoriesPage() {
                 <Link
                   href="/consultation"
                   className="btn inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90"
-                  style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+                  style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
                 >
                   <span>Book a Consultation</span>
                   <ArrowRight className="w-4 h-4" aria-hidden />

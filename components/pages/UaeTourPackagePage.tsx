@@ -33,7 +33,7 @@ export default function UaeTourPackagePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--teal)" }}>
         <div
           className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full"
           style={{ backgroundColor: "rgba(25, 182, 163,0.18)" }}
@@ -46,7 +46,7 @@ export default function UaeTourPackagePage() {
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "#E8EFFD" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-4" style={{ color: "var(--teal-50)" }}>
               UAE Visit Visa + Holiday Package
             </p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">
@@ -119,7 +119,7 @@ export default function UaeTourPackagePage() {
                 className="rounded-2xl border bg-white p-6 text-center transition-all hover:-translate-y-1"
                 style={{ borderColor: "#E3EAF3", boxShadow: "0 2px 8px rgba(16, 37, 74,0.06)" }}
               >
-                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "#2864E8" }} aria-hidden>
+                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-[#10254A] mb-2">{item.title}</h3>
@@ -134,7 +134,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Package tiers */}
-      <section id="packages" className="py-16 sm:py-20 scroll-mt-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="packages" className="py-16 sm:py-20 scroll-mt-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">Choose Your Package</h2>
@@ -152,24 +152,24 @@ export default function UaeTourPackagePage() {
                   key={tier.name}
                   className="relative rounded-3xl bg-white p-6 sm:p-8 border-2"
                   style={{
-                    borderColor: featured ? "#2864E8" : "#E3EAF3",
+                    borderColor: featured ? "var(--teal)" : "#E3EAF3",
                     boxShadow: featured ? "0 12px 32px rgba(40, 100, 232,0.15)" : "0 2px 8px rgba(16, 37, 74,0.06)",
                   }}
                 >
                   {featured && (
                     <span
                       className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wide text-white"
-                      style={{ backgroundColor: "#2864E8" }}
+                      style={{ backgroundColor: "var(--teal)" }}
                     >
                       Theme Parks Included
                     </span>
                   )}
                   <h3 className="text-2xl font-extrabold text-[#10254A]">{tier.name}</h3>
-                  <p className="text-sm font-semibold mt-1 mb-6" style={{ color: "#2864E8" }}>{tier.tagline}</p>
+                  <p className="text-sm font-semibold mt-1 mb-6" style={{ color: "var(--teal-800)" }}>{tier.tagline}</p>
                   <ul className="space-y-3 mb-6">
                     {tier.includes.map((item) => (
                       <li key={item} className="flex gap-3 text-[0.9375rem] text-[#10254A]">
-                        <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                        <Check className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -190,7 +190,7 @@ export default function UaeTourPackagePage() {
                     style={
                       featured
                         ? { backgroundColor: "#19B6A3", color: "#FFFFFF" }
-                        : { backgroundColor: "#FFFFFF", color: "#2864E8", border: "2px solid #2864E8" }
+                        : { backgroundColor: "#FFFFFF", color: "var(--teal-800)", border: "2px solid var(--teal)" }
                     }
                   >
                     <span>Get a {tier.name.replace(" Package", "")} Quote</span>
@@ -234,7 +234,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Sample day-by-day itinerary */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">
@@ -255,13 +255,13 @@ export default function UaeTourPackagePage() {
               >
                 <div
                   className="grid size-12 shrink-0 place-items-center rounded-full text-lg font-bold text-white"
-                  style={{ backgroundColor: "#2864E8" }}
+                  style={{ backgroundColor: "var(--teal)" }}
                   aria-hidden
                 >
                   {i + 1}
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-wide" style={{ color: "#2864E8" }}>
+                  <p className="text-xs font-bold uppercase tracking-wide" style={{ color: "var(--teal-800)" }}>
                     {item.day}
                   </p>
                   <h3 className="text-lg font-bold text-[#10254A] mb-1">{item.title}</h3>
@@ -317,7 +317,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* More experiences — breadth, not a fixed itinerary */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">
@@ -332,7 +332,7 @@ export default function UaeTourPackagePage() {
           <div className="space-y-8">
             {moreExperienceGroups.map((group) => (
               <div key={group.category}>
-                <h3 className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: "#2864E8" }}>
+                <h3 className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: "var(--teal-800)" }}>
                   {group.category}
                 </h3>
                 <div className="flex flex-wrap gap-2">
@@ -340,7 +340,7 @@ export default function UaeTourPackagePage() {
                     <span
                       key={item}
                       className="rounded-full px-2.5 py-1 text-xs font-semibold"
-                      style={{ backgroundColor: "#E8EFFD", color: "#2864E8" }}
+                      style={{ backgroundColor: "var(--teal-50)", color: "var(--teal-800)" }}
                     >
                       {item}
                     </span>
@@ -360,7 +360,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Why us */}
-      <section className="py-16 sm:py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16 sm:py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#10254A]">Why Book With Us</h2>
@@ -369,7 +369,7 @@ export default function UaeTourPackagePage() {
           <div className="grid sm:grid-cols-3 gap-8">
             {whyUs.map((item) => (
               <div key={item.title} className="text-center">
-                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "#2864E8" }} aria-hidden>
+                <div className="mx-auto mb-5 grid size-14 place-items-center rounded-full" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-[#10254A] mb-2">{item.title}</h3>
@@ -405,7 +405,7 @@ export default function UaeTourPackagePage() {
       </section>
 
       {/* Final CTA band */}
-      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <div className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-4">
             Ready to Plan Your UAE Trip?

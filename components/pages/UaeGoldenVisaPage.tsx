@@ -36,13 +36,13 @@ export default function UaeGoldenVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "UAE Golden Visa" }]} />
             <p className="eyebrow mb-3">UAE Golden Visa Documentation</p>
             <h1 className="page-title mb-6">
-              UAE Golden Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              UAE Golden Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               The Golden Visa is the UAE&apos;s long-term residence visa for investors, entrepreneurs, people
@@ -69,7 +69,7 @@ export default function UaeGoldenVisaPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about the UAE Golden Visa (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -83,8 +83,8 @@ export default function UaeGoldenVisaPage() {
           <h2 className="section-title mb-6">What the Golden Visa Gives You</h2>
           <ul className="grid sm:grid-cols-2 gap-4">
             {benefits.map((b) => (
-              <li key={b} className="flex items-start gap-3 rounded-2xl p-5" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-                <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+              <li key={b} className="flex items-start gap-3 rounded-2xl p-5" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+                <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span className="text-sm text-[#4B5B70]">{b}</span>
               </li>
             ))}
@@ -93,7 +93,7 @@ export default function UaeGoldenVisaPage() {
       </section>
 
       {/* Categories */}
-      <section id="categories" className="py-16 scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="categories" className="py-16 scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-3">UAE Golden Visa Categories and Requirements</h2>
           <p className="text-[#4B5B70] leading-relaxed mb-6">
@@ -105,7 +105,7 @@ export default function UaeGoldenVisaPage() {
               <div key={c.category} className="rounded-3xl p-6 bg-white" style={{ border: "1px solid var(--card-line)" }}>
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-2">
                   <h3 className="subsection-title">{c.category}</h3>
-                  <p className="text-sm font-semibold" style={{ color: "#2864E8" }}>{c.duration}</p>
+                  <p className="text-sm font-semibold" style={{ color: "var(--teal-800)" }}>{c.duration}</p>
                 </div>
                 <p className="text-sm text-[#4B5B70] leading-relaxed">{c.requirements}</p>
               </div>
@@ -113,7 +113,7 @@ export default function UaeGoldenVisaPage() {
           </div>
           <p className="text-sm text-[#4B5B70] mt-6">
             Source:{" "}
-            <a href={GOLDEN_VISA_SOURCE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+            <a href={GOLDEN_VISA_SOURCE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
               UAE government — Golden visa
             </a>{" "}
             (information from ICP).
@@ -147,7 +147,7 @@ export default function UaeGoldenVisaPage() {
               "Guidance on submitting through ICP or GDRFA",
             ].map((item) => (
               <li key={item} className="flex items-start gap-2 text-sm text-[#4B5B70]">
-                <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+                <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span>{item}</span>
               </li>
             ))}
@@ -156,7 +156,7 @@ export default function UaeGoldenVisaPage() {
       </section>
 
       {/* Enquiry form */}
-      <section id="requirements-form" className="py-20 scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="requirements-form" className="py-20 scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm
             defaultDestination="UAE Golden Visa"
@@ -188,7 +188,7 @@ export default function UaeGoldenVisaPage() {
       </section>
 
       {/* Guides */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Golden Visa Guides</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -199,13 +199,13 @@ export default function UaeGoldenVisaPage() {
                 className="flex items-center gap-3 rounded-2xl p-5 card-hover bg-white"
                 style={{ border: "1px solid var(--card-line)" }}
               >
-                <BookOpen className="w-5 h-5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+                <BookOpen className="w-5 h-5 flex-shrink-0" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span className="text-sm font-semibold" style={{ color: "#10254A" }}>{guide.title}</span>
               </Link>
             ))}
           </div>
           <p className="text-center mt-8">
-            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "#2864E8" }}>
+            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "var(--teal-800)" }}>
               See all UAE visa services
             </Link>
           </p>

@@ -66,13 +66,13 @@ export default function FreelanceVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Services", href: "/services" }, { name: "Freelance Visa" }]} />
             <p className="eyebrow mb-3">Freelance Visa Documentation</p>
             <h1 className="page-title mb-6">
-              Freelance Visa in Dubai <span style={{ color: "#2864E8" }}>&amp; the UAE</span>
+              Freelance Visa in Dubai <span style={{ color: "var(--teal-800)" }}>&amp; the UAE</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               A freelance permit lets you work for yourself in the UAE and sponsor your own
@@ -84,7 +84,7 @@ export default function FreelanceVisaPage() {
             <p className="text-sm text-[#4B5B70] mb-6">
               Last updated October 2026 · Checked against gofreelance.ae and twofour54.com
             </p>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "var(--teal)" }}>
               We provide documentation assistance and consultancy support only. We are not
               GoFreelance, twofour54, ADDED, or MOHRE, and we do not guarantee approval. Permits
               and visas are issued through the relevant free zone or government authority.
@@ -106,7 +106,7 @@ export default function FreelanceVisaPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about a UAE freelance visa (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -119,8 +119,8 @@ export default function FreelanceVisaPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F4F8FC" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "var(--surface-soft)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>
                   {fact.label}
                 </p>
                 <p className="text-sm font-medium" style={{ color: "#10254A" }}>{fact.value}</p>
@@ -131,7 +131,7 @@ export default function FreelanceVisaPage() {
       </section>
 
       {/* What is it */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-4">What Is a UAE Freelance Visa?</h2>
           <p className="text-[#4B5B70] leading-relaxed">
@@ -153,8 +153,8 @@ export default function FreelanceVisaPage() {
             there&apos;s no single UAE-wide freelance visa.
           </p>
           <div className="grid sm:grid-cols-3 gap-6">
-            <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-              <Laptop className="w-6 h-6 mb-3" style={{ color: "#2864E8" }} aria-hidden />
+            <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+              <Laptop className="w-6 h-6 mb-3" style={{ color: "var(--teal-800)" }} aria-hidden />
               <h3 className="subsection-title mb-2">Dubai</h3>
               <p className="text-sm text-[#4B5B70] leading-relaxed">
                 GoFreelance (TECOM — Dubai Media City, Internet City, Design District and
@@ -162,16 +162,16 @@ export default function FreelanceVisaPage() {
                 DMCC, also offer their own freelance packages.
               </p>
             </div>
-            <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-              <Building2 className="w-6 h-6 mb-3" style={{ color: "#2864E8" }} aria-hidden />
+            <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+              <Building2 className="w-6 h-6 mb-3" style={{ color: "var(--teal-800)" }} aria-hidden />
               <h3 className="subsection-title mb-2">Abu Dhabi</h3>
               <p className="text-sm text-[#4B5B70] leading-relaxed">
                 twofour54 issues a Sole Proprietor freelance permit for media, creative and tech
                 fields, and ADDED offers a mainland freelance licence for other activities.
               </p>
             </div>
-            <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-              <Globe2 className="w-6 h-6 mb-3" style={{ color: "#2864E8" }} aria-hidden />
+            <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+              <Globe2 className="w-6 h-6 mb-3" style={{ color: "var(--teal-800)" }} aria-hidden />
               <h3 className="subsection-title mb-2">UAE-wide</h3>
               <p className="text-sm text-[#4B5B70] leading-relaxed">
                 MOHRE also runs a federal freelance/self-employment permit route alongside the
@@ -183,7 +183,7 @@ export default function FreelanceVisaPage() {
       </section>
 
       {/* Cost */}
-      <section id="cost" className="py-16 scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="cost" className="py-16 scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-3">What Does a Freelance Visa Cost?</h2>
           <p className="text-[#4B5B70] leading-relaxed mb-6">
@@ -194,14 +194,14 @@ export default function FreelanceVisaPage() {
           <ul className="grid sm:grid-cols-2 gap-3 mb-6">
             {dubaiCostComponents.map((item) => (
               <li key={item} className="flex items-start gap-2 text-[#4B5B70] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
-                <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span>{item}</span>
               </li>
             ))}
           </ul>
           <p className="text-sm text-[#4B5B70] mb-2">
             Dubai figures are published by{" "}
-            <a href={FREELANCE_SOURCE_GOFREELANCE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+            <a href={FREELANCE_SOURCE_GOFREELANCE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
               GoFreelance (TECOM)
             </a>
             {" "}directly and marked subject to change; Abu Dhabi (twofour54, ADDED) and other
@@ -212,7 +212,7 @@ export default function FreelanceVisaPage() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-            style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+            style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
             aria-label="Ask Travelaxis about current UAE freelance visa pricing on WhatsApp (opens in a new tab)"
           >
             <span>Ask About Current Pricing</span>
@@ -227,8 +227,8 @@ export default function FreelanceVisaPage() {
           <h2 className="section-title mb-6">What&apos;s Included When You Apply With Travelaxis</h2>
           <ul className="grid sm:grid-cols-2 gap-3 mb-8">
             {whatsIncluded.map((item) => (
-              <li key={item} className="flex items-start gap-2 text-[#4B5B70] text-sm rounded-xl p-4" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-                <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+              <li key={item} className="flex items-start gap-2 text-[#4B5B70] text-sm rounded-xl p-4" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+                <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span>{item}</span>
               </li>
             ))}
@@ -238,7 +238,7 @@ export default function FreelanceVisaPage() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-            style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+            style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
             aria-label="Get a fixed quote for a UAE freelance visa on WhatsApp (opens in a new tab)"
           >
             <span>Get a Fixed Quote on WhatsApp</span>
@@ -248,7 +248,7 @@ export default function FreelanceVisaPage() {
       </section>
 
       {/* Eligibility */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-4">Who Is Eligible for a UAE Freelance Visa?</h2>
           <p className="text-[#4B5B70] leading-relaxed mb-4">
@@ -272,8 +272,8 @@ export default function FreelanceVisaPage() {
           <h2 className="section-title mb-8">How to Get a Freelance Visa With Travelaxis</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {steps.map((step, i) => (
-              <div key={step.title} className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-2" style={{ color: "#2864E8" }}>
+              <div key={step.title} className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-2" style={{ color: "var(--teal-800)" }}>
                   Step {i + 1}
                 </p>
                 <h3 className="subsection-title mb-2">{step.title}</h3>
@@ -285,7 +285,7 @@ export default function FreelanceVisaPage() {
       </section>
 
       {/* Abu Dhabi */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-4">Does Abu Dhabi Offer a Freelance Visa?</h2>
           <p className="text-[#4B5B70] leading-relaxed mb-4">
@@ -297,11 +297,11 @@ export default function FreelanceVisaPage() {
           </p>
           <p className="text-sm text-[#4B5B70]">
             Source:{" "}
-            <a href={FREELANCE_SOURCE_TWOFOUR54} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+            <a href={FREELANCE_SOURCE_TWOFOUR54} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
               twofour54 — freelance work permit
             </a>
             {" "}· Federal route:{" "}
-            <a href={FREELANCE_SOURCE_MOHRE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+            <a href={FREELANCE_SOURCE_MOHRE} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
               MOHRE
             </a>
           </p>
@@ -330,7 +330,7 @@ export default function FreelanceVisaPage() {
       </section>
 
       {/* Guides */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Freelance Visa Guides</h2>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -341,7 +341,7 @@ export default function FreelanceVisaPage() {
                 className="flex items-start gap-4 rounded-3xl p-6 card-hover bg-white"
                 style={{ border: "1px solid var(--card-line)" }}
               >
-                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "#2864E8" }} aria-hidden>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                   <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <div className="flex-1">
@@ -352,7 +352,7 @@ export default function FreelanceVisaPage() {
             ))}
           </div>
           <p className="text-center mt-8">
-            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "#2864E8" }}>
+            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "var(--teal-800)" }}>
               See all UAE visa services
             </Link>
           </p>

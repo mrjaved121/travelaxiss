@@ -22,7 +22,7 @@ export default function RedirectStub({ targetPath, label }: { targetPath: string
       <section className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
         <p className="text-[#4B5B70]">
           This page has moved.{" "}
-          <Link href={targetPath} className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+          <Link href={targetPath} className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
             Continue to {label}
           </Link>
           .

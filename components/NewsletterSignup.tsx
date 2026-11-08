@@ -77,7 +77,7 @@ export default function NewsletterSignup() {
               <button
                 type="submit"
                 className="btn h-12 px-7 rounded-full bg-white shrink-0 w-full sm:w-auto transition-opacity hover:opacity-90"
-                style={{ color: "#2864E8" }}
+                style={{ color: "var(--teal-800)" }}
               >
                 Subscribe
               </button>

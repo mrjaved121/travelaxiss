@@ -54,13 +54,13 @@ export default function UaeHubPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "UAE Visa Services" }]} />
             <p className="eyebrow mb-3">UAE Visa Services</p>
             <h1 className="page-title mb-6">
-              Which UAE Visa <span style={{ color: "#2864E8" }}>Is Right for You?</span>
+              Which UAE Visa <span style={{ color: "var(--teal-800)" }}>Is Right for You?</span>
             </h1>
             <p className="lead text-[#4B5B70] leading-relaxed">
               Travelaxis offers documentation support for four UAE routes from our Dubai and
@@ -94,7 +94,7 @@ export default function UaeHubPage() {
             ))}
           </div>
           <p className="text-center mt-12">
-            <Link href="/pakistan" className="font-semibold hover:underline" style={{ color: "#2864E8" }}>
+            <Link href="/pakistan" className="font-semibold hover:underline" style={{ color: "var(--teal-800)" }}>
               See our other visa guides for clients in Pakistan
             </Link>
           </p>
@@ -102,7 +102,7 @@ export default function UaeHubPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">
@@ -123,7 +123,7 @@ export default function UaeHubPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

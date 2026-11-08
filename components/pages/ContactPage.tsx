@@ -83,24 +83,24 @@ export default function ContactPage() {
         <ServicePrefill onPrefill={setService} />
       </Suspense>
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: '#F4F8FC' }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="min-w-0"
           >
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: '#2864E8' }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
               Get In Touch
             </p>
             <h1 className="page-title mb-6">
-              Connect <span style={{ color: '#2864E8' }}>With Us</span>
+              Connect <span style={{ color: "var(--teal-800)" }}>With Us</span>
             </h1>
             <p className="lead mb-6">
               Tell us where you&apos;re going and we&apos;ll route your enquiry to the right
               person — visit or study visa documentation.
             </p>
-            <p className="text-sm text-[#4B5B70] max-w-lg leading-relaxed border-l-4 pl-4" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] max-w-lg leading-relaxed border-l-4 pl-4" style={{ borderColor: "var(--teal)" }}>
               Service scope: documentation assistance and consultancy support only. We do not
               guarantee visa approval or business outcomes.
             </p>
@@ -134,17 +134,17 @@ export default function ContactPage() {
               animate={{ opacity: 1, x: 0 }}
             >
               <h2 className="section-title mb-8">
-                Get in <span style={{ color: '#2864E8' }}>Touch</span>
+                Get in <span style={{ color: "var(--teal-800)" }}>Touch</span>
               </h2>
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                     <Phone className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
                     <h3 className="subsection-title mb-1">Phone</h3>
-                    <a href="tel:+971589867555" className="text-[#4B5B70] hover:text-[#2864E8] transition-colors block">
+                    <a href="tel:+971589867555" className="text-[#4B5B70] hover:text-teal-800 transition-colors block">
                       +971 58 986 7555
                     </a>
                     <p className="text-[#4B5B70]">Available Mon-Fri, 9AM-6PM</p>
@@ -152,19 +152,19 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                     <Mail className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
                     <h3 className="subsection-title mb-1">Email</h3>
-                    <a href="mailto:info@travelaxis.me" className="text-[#4B5B70] hover:text-[#2864E8] transition-colors block">
+                    <a href="mailto:info@travelaxis.me" className="text-[#4B5B70] hover:text-teal-800 transition-colors block">
                       info@travelaxis.me
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                     <MapPin className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
@@ -175,7 +175,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                     <MapPin className="w-6 h-6" style={{ color: '#FFFFFF' }} />
                   </div>
                   <div>
@@ -186,7 +186,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-12 p-6 rounded-2xl" style={{ backgroundColor: '#F4F8FC' }}>
+              <div className="mt-12 p-6 rounded-2xl" style={{ backgroundColor: "var(--surface-soft)" }}>
                 <h3 className="subsection-title mb-2">Business Hours</h3>
                 <div className="space-y-1 text-[#4B5B70]">
                   <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
@@ -202,8 +202,8 @@ export default function ContactPage() {
               animate={{ opacity: 1, x: 0 }}
             >
               {submitted ? (
-                <div className="rounded-3xl p-8 text-center shadow-sm h-full flex flex-col items-center justify-center" style={{ backgroundColor: '#F4F8FC' }}>
-                  <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: '#2864E8' }} aria-hidden>
+                <div className="rounded-3xl p-8 text-center shadow-sm h-full flex flex-col items-center justify-center" style={{ backgroundColor: "var(--surface-soft)" }}>
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                     <CheckCircle2 className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="subsection-title mb-3">Thank you</h3>
@@ -215,7 +215,7 @@ export default function ContactPage() {
                     type="button"
                     onClick={() => setSubmitted(false)}
                     className="text-sm font-semibold"
-                    style={{ color: '#2864E8' }}
+                    style={{ color: "var(--teal-800)" }}
                   >
                     Send another enquiry
                   </button>
@@ -357,7 +357,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
-                    style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+                    style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
                   >
                     <Send className="w-5 h-5" aria-hidden />
                     <span>Send Enquiry</span>
@@ -373,7 +373,7 @@ export default function ContactPage() {
       </section>
 
       {/* WhatsApp direct option */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#25D366' }} aria-hidden>
             <MessageCircle className="w-8 h-8 text-white" />
@@ -405,7 +405,7 @@ export default function ContactPage() {
             className="mb-8 text-center md:text-left"
           >
             <h2 className="section-title mb-2">
-              Find us in <span style={{ color: "#2864E8" }}>Al Qusais</span>
+              Find us in <span style={{ color: "var(--teal-800)" }}>Al Qusais</span>
             </h2>
             <p className="text-[#4B5B70]">
               Dubai, United Arab Emirates — visit by appointment
@@ -414,7 +414,7 @@ export default function ContactPage() {
           <motion.div
             initial={false}
             animate={{ opacity: 1, y: 0 }}
-            className="rounded-3xl overflow-hidden shadow-lg border border-[#E3EAF3] bg-[#F4F8FC]"
+            className="rounded-3xl overflow-hidden shadow-lg border border-[#E3EAF3] bg-surface-soft"
           >
             <div className="relative w-full aspect-[16/10] min-h-[280px] md:min-h-[420px]">
               <iframe
@@ -433,7 +433,7 @@ export default function ContactPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium underline-offset-2 hover:underline"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
             >
               Open Al Qusais, Dubai in Google Maps (opens in a new tab)
             </a>

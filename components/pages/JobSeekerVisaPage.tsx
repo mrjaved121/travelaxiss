@@ -34,13 +34,13 @@ export default function JobSeekerVisaPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs trail={[{ name: "Job Seeker Visa" }]} />
             <p className="eyebrow mb-3">Job Seeker Visa Documentation</p>
             <h1 className="page-title mb-6">
-              Job Seeker Visa <span style={{ color: "#2864E8" }}>from Pakistan &amp; India</span>
+              Job Seeker Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan &amp; India</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               A job seeker visa lets you travel to look for work before you have an offer. We prepare the
@@ -50,7 +50,7 @@ export default function JobSeekerVisaPage() {
             <p className="text-sm text-[#4B5B70] mb-6">
               Last updated September 2026 · Checked against official government sources
             </p>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "var(--teal)" }}>
               We are a documentation and consultancy service, not a recruitment agency or employer. We
               don&apos;t find jobs, and the visa decision is made only by the country you apply to.
             </p>
@@ -71,7 +71,7 @@ export default function JobSeekerVisaPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about job seeker visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -89,9 +89,9 @@ export default function JobSeekerVisaPage() {
                 key={c.slug}
                 href={`#${c.slug}`}
                 className="rounded-2xl p-5 card-hover block"
-                style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}
               >
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>{c.country}</p>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>{c.country}</p>
                 <p className="text-sm font-semibold mb-2" style={{ color: "#10254A" }}>{c.name}</p>
                 <p className="text-sm text-[#4B5B70]">{c.facts[0].value}</p>
               </a>
@@ -101,7 +101,7 @@ export default function JobSeekerVisaPage() {
       </section>
 
       {/* Countries */}
-      <section id="countries" className="py-16 scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="countries" className="py-16 scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           {jobSeekerCountries.map((c) => (
             <article
@@ -110,15 +110,15 @@ export default function JobSeekerVisaPage() {
               className="rounded-3xl p-6 md:p-8 bg-white scroll-mt-24"
               style={{ border: "1px solid var(--card-line)" }}
             >
-              <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: c.status === "open" ? "#2864E8" : "#4B5B70" }}>
+              <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: c.status === "open" ? "var(--teal)" : "#4B5B70" }}>
                 {c.country}
               </p>
               <h2 className="subsection-title mb-3">{c.name}</h2>
               <p className="text-[#4B5B70] leading-relaxed mb-5">{c.summary}</p>
               <dl className="grid sm:grid-cols-2 gap-3 mb-5">
                 {c.facts.map((f) => (
-                  <div key={f.label} className="rounded-xl p-4" style={{ backgroundColor: "#F4F8FC" }}>
-                    <dt className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>{f.label}</dt>
+                  <div key={f.label} className="rounded-xl p-4" style={{ backgroundColor: "var(--surface-soft)" }}>
+                    <dt className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>{f.label}</dt>
                     <dd className="text-sm" style={{ color: "#10254A" }}>{f.value}</dd>
                   </div>
                 ))}
@@ -129,7 +129,7 @@ export default function JobSeekerVisaPage() {
                   <ul className="space-y-2 mb-5">
                     {c.documents.map((d) => (
                       <li key={d} className="flex items-start gap-2 text-sm text-[#4B5B70]">
-                        <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "#2864E8" }} aria-hidden />
+                        <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: "var(--teal-800)" }} aria-hidden />
                         <span>{d}</span>
                       </li>
                     ))}
@@ -142,7 +142,7 @@ export default function JobSeekerVisaPage() {
               {c.slug === "germany" && (
                 <p className="text-sm text-[#4B5B70] leading-relaxed mb-3">
                   Official self-check:{" "}
-                  <a href="https://www.make-it-in-germany.com/en/visa-residence/opportunity-card/self-check" target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+                  <a href="https://www.make-it-in-germany.com/en/visa-residence/opportunity-card/self-check" target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
                     Make it in Germany — Opportunity Card
                   </a>
                   .
@@ -150,7 +150,7 @@ export default function JobSeekerVisaPage() {
               )}
               <p className="text-sm text-[#4B5B70]">
                 Source:{" "}
-                <a href={c.source.href} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+                <a href={c.source.href} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
                   {c.source.label}
                 </a>
               </p>
@@ -170,8 +170,8 @@ export default function JobSeekerVisaPage() {
               "Organising your degree, experience and financial documents so they are consistent",
               "Guidance on where and how to submit — online, at an embassy or through the official portal",
             ].map((item) => (
-              <li key={item} className="flex items-start gap-3 rounded-2xl p-5" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-                <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+              <li key={item} className="flex items-start gap-3 rounded-2xl p-5" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+                <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span className="text-sm text-[#4B5B70]">{item}</span>
               </li>
             ))}
@@ -180,7 +180,7 @@ export default function JobSeekerVisaPage() {
       </section>
 
       {/* Enquiry form */}
-      <section id="requirements-form" className="py-20 scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="requirements-form" className="py-20 scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm
             defaultDestination="Job seeker visa"
@@ -212,7 +212,7 @@ export default function JobSeekerVisaPage() {
       </section>
 
       {/* Guides */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Job Seeker Visa Guides</h2>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -223,7 +223,7 @@ export default function JobSeekerVisaPage() {
                 className="flex items-start gap-4 rounded-3xl p-6 card-hover bg-white"
                 style={{ border: "1px solid var(--card-line)" }}
               >
-                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "#2864E8" }} aria-hidden>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "var(--teal)" }} aria-hidden>
                   <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
                 </div>
                 <div className="flex-1">
@@ -234,7 +234,7 @@ export default function JobSeekerVisaPage() {
             ))}
           </div>
           <p className="text-center mt-8">
-            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "#2864E8" }}>
+            <Link href="/uae" className="font-semibold hover:underline" style={{ color: "var(--teal-800)" }}>
               See all UAE visa services
             </Link>
           </p>

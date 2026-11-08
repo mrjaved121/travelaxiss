@@ -71,7 +71,7 @@ function NavDropdown({
         aria-expanded={open}
         aria-haspopup="true"
         className={`nav-link inline-flex items-center gap-1 transition-colors rounded-sm focus-visible:outline-offset-4 ${
-          groupIsActive ? "is-active" : "hover:text-[#2864E8]"
+          groupIsActive ? "is-active" : "hover:text-teal-800"
         }`}
       >
         {group.name}
@@ -93,8 +93,8 @@ function NavDropdown({
               href={item.path}
               role="menuitem"
               onClick={() => setOpen(false)}
-              className="block px-4 py-2.5 text-sm font-medium transition-colors hover:bg-[#F4F8FC]"
-              style={{ color: isActive(item.path) ? "#2864E8" : "#10254A" }}
+              className="block px-4 py-2.5 text-sm font-medium transition-colors hover:bg-surface-soft"
+              style={{ color: isActive(item.path) ? "var(--teal)" : "#10254A" }}
             >
               {item.name}
             </Link>
@@ -124,7 +124,7 @@ function MobileNavGroup({
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-controls={panelId}
-        className="nav-link w-full flex items-center justify-between px-4 py-2 transition-colors rounded-sm hover:text-[#2864E8]"
+        className="nav-link w-full flex items-center justify-between px-4 py-2 transition-colors rounded-sm hover:text-teal-800"
       >
         <span>{group.name}</span>
         <ChevronDown className={`w-4 h-4 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden />
@@ -137,7 +137,7 @@ function MobileNavGroup({
                 href={item.path}
                 onClick={onNavigate}
                 className={`nav-link block px-4 py-2 text-sm transition-colors rounded-sm ${
-                  isActive(item.path) ? "is-active" : "hover:text-[#2864E8]"
+                  isActive(item.path) ? "is-active" : "hover:text-teal-800"
                 }`}
                 aria-current={isActive(item.path) ? "page" : undefined}
               >
@@ -188,7 +188,7 @@ export default function Header() {
             <Link
               href="/apply"
               className={`nav-link transition-colors rounded-sm ${
-                isActive("/apply") ? "is-active" : "hover:text-[#2864E8]"
+                isActive("/apply") ? "is-active" : "hover:text-teal-800"
               }`}
               aria-current={isActive("/apply") ? "page" : undefined}
             >
@@ -258,7 +258,7 @@ export default function Header() {
                   href="/apply"
                   onClick={() => setMobileMenuOpen(false)}
                   className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                    isActive("/apply") ? "is-active" : "hover:text-[#2864E8]"
+                    isActive("/apply") ? "is-active" : "hover:text-teal-800"
                   }`}
                   aria-current={isActive("/apply") ? "page" : undefined}
                 >
@@ -270,7 +270,7 @@ export default function Header() {
                   href="/contact"
                   onClick={() => setMobileMenuOpen(false)}
                   className={`nav-link block px-4 py-2 transition-colors rounded-sm ${
-                    isActive("/contact") ? "is-active" : "hover:text-[#2864E8]"
+                    isActive("/contact") ? "is-active" : "hover:text-teal-800"
                   }`}
                   aria-current={isActive("/contact") ? "page" : undefined}
                 >

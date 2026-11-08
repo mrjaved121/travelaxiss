@@ -90,26 +90,26 @@ export default function UkVisaFromPakistanPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
               UK Visa Documentation
             </p>
             <h1 className="page-title mb-6">
-              UK Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              UK Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               A UK visa application from Pakistan comes down to the same thing regardless of category: complete, correctly prepared documents submitted through UKVI&apos;s official process. Pick your route below — Visit, Study, or Family & Spouse — for a dedicated document checklist and application support.
             </p>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "var(--teal)" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#routes"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+                style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
               >
                 <span>Choose My Route</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -119,7 +119,7 @@ export default function UkVisaFromPakistanPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#2864E8", color: "#2864E8" }}
+                style={{ borderColor: "var(--teal)", color: "var(--teal-800)" }}
                 aria-label="Chat with Travelaxis on WhatsApp about UK visas (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -131,7 +131,7 @@ export default function UkVisaFromPakistanPage() {
       </section>
 
       {/* Route cards */}
-      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#2864E8" }}>
+      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "var(--teal)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -160,7 +160,7 @@ export default function UkVisaFromPakistanPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#2864E8" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "var(--teal-800)" }} />
                 </div>
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -177,7 +177,7 @@ export default function UkVisaFromPakistanPage() {
       </section>
 
       {/* Timelines + pricing */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -186,7 +186,7 @@ export default function UkVisaFromPakistanPage() {
             className="mb-10 max-w-3xl"
           >
             <h2 className="section-title mb-4">
-              Compare <span style={{ color: "#2864E8" }}>Timelines by Route</span>
+              Compare <span style={{ color: "var(--teal-800)" }}>Timelines by Route</span>
             </h2>
           </motion.div>
 
@@ -238,7 +238,7 @@ export default function UkVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-              style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+              style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
               aria-label="Ask Travelaxis about UK visa costs on WhatsApp (opens in a new tab)"
             >
               <span>Ask About Your Case</span>
@@ -258,12 +258,12 @@ export default function UkVisaFromPakistanPage() {
             className="max-w-3xl"
           >
             <h2 className="section-title mb-6">
-              How Travelaxis <span style={{ color: "#2864E8" }}>Helps</span>
+              How Travelaxis <span style={{ color: "var(--teal-800)" }}>Helps</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                   <span className="text-[#4B5B70]">{item}</span>
                 </li>
               ))}
@@ -273,12 +273,12 @@ export default function UkVisaFromPakistanPage() {
       </section>
 
       {/* Family & Spouse Visa detail */}
-      <section id="family-visa" className="py-20 scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="family-visa" className="py-20 scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <p className="eyebrow mb-3">Family & Spouse Visa</p>
             <h2 className="section-title mb-4">
-              UK Family & Spouse Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              UK Family & Spouse Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h2>
             <p className="text-[#4B5B70] leading-relaxed mb-8">
               For joining or sponsoring a spouse, partner, or family member already settled in the UK. This route is document-heavy and relationship evidence matters as much as financial evidence.
@@ -293,7 +293,7 @@ export default function UkVisaFromPakistanPage() {
             </ul>
             <p className="text-sm text-[#4B5B70]">
               Requirements are set by{" "}
-              <a href="https://www.gov.uk/browse/visas-immigration" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+              <a href="https://www.gov.uk/browse/visas-immigration" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
                 UKVI
               </a>{" "}
               — we confirm the current financial threshold and document list for your specific case.
@@ -310,7 +310,7 @@ export default function UkVisaFromPakistanPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -319,7 +319,7 @@ export default function UkVisaFromPakistanPage() {
             className="mb-10 text-center"
           >
             <h2 className="section-title mb-4">
-              Frequently Asked <span style={{ color: "#2864E8" }}>Questions</span>
+              Frequently Asked <span style={{ color: "var(--teal-800)" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">
@@ -351,7 +351,7 @@ export default function UkVisaFromPakistanPage() {
             viewport={{ once: true }}
           >
             <h2 className="section-title mb-6 text-center">
-              Related <span style={{ color: "#2864E8" }}>Pages</span>
+              Related <span style={{ color: "var(--teal-800)" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -375,7 +375,7 @@ export default function UkVisaFromPakistanPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -402,7 +402,7 @@ export default function UkVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
               aria-label="Chat with Travelaxis on WhatsApp about UK visas (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

@@ -9,14 +9,14 @@ export default function Testimonials() {
   if (testimonials.length === 0) return null;
 
   return (
-    <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+    <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={false}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-12"
         >
-          <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
+          <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
             Client Feedback
           </p>
           <h2 className="section-title">
@@ -39,8 +39,8 @@ export default function Testimonials() {
                     key={i}
                     className="w-4 h-4"
                     style={{
-                      color: i < testimonial.rating ? "#2864E8" : "#E3EAF3",
-                      fill: i < testimonial.rating ? "#2864E8" : "none",
+                      color: i < testimonial.rating ? "var(--teal)" : "#E3EAF3",
+                      fill: i < testimonial.rating ? "var(--teal)" : "none",
                     }}
                     aria-hidden
                   />

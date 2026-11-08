@@ -11,15 +11,15 @@
   --teal-50: #DDF7F4;       /* teal tint */
   --teal-100: #DDF7F4;      /* teal soft */
   --navy: #10254A;          /* headings, body, footer background — 15.2:1 on white */
-  --blue: #2864E8;          /* links, secondary actions, focus ring — 5.2:1 on white */
-  --blue-700: #1F4FBF;      /* link/button hover — 7.2:1 on white */
-  --blue-50: #E8EFFD;       /* blue tint / icon bubbles */
+  --blue: #149C8C;          /* links, secondary actions, focus ring (teal dark) */
+  --blue-700: #10254A;      /* link hover (navy) */
+  --blue-50: #DDF7F4;       /* soft aqua tint / icon bubbles */
   --lilac: #7C5CE6;         /* icon accent — 4.6:1 on white */
   --lilac-50: #EEE7FC;
   --peach-50: #FFE8D8;
   --slate: #4B5B70;         /* secondary text — 6.9:1 on white */
   --line: #E3EAF3;          /* borders */
-  --surface-soft: #F4F8FC;  /* alternate section background */
+  --surface-soft: #DDF7F4;  /* soft aqua alternate section background */
   --wash: linear-gradient(135deg, #DDF7F4 0%, #EEE7FC 55%, #FFE8D8 100%);
 
   --background: #ffffff;
@@ -29,8 +29,8 @@
   --popover: #ffffff;
   --popover-foreground: var(--navy);
 
-  --primary: var(--blue);
-  --primary-hover: var(--blue-700);
+  --primary: var(--teal);
+  --primary-hover: var(--teal-800);
   --primary-foreground: #ffffff;
 
   --secondary: var(--surface-soft);

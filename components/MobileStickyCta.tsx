@@ -49,7 +49,7 @@ export default function MobileStickyCta() {
         <Link
           href="/#check-requirements"
           className="btn flex h-12 flex-1 items-center justify-center gap-2 rounded-full px-4 text-[0.9375rem] font-semibold transition-all hover:opacity-90"
-          style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+          style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
         >
           <span className="whitespace-nowrap">Get my checklist</span>
           <ArrowRight className="w-4 h-4" aria-hidden />

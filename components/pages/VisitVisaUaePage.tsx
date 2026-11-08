@@ -81,7 +81,7 @@ export default function VisitVisaUaePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs
@@ -93,7 +93,7 @@ export default function VisitVisaUaePage() {
             />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              UAE Visit Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              UAE Visit Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               A Dubai visit visa is the standard route for Pakistani nationals traveling for
@@ -102,7 +102,7 @@ export default function VisitVisaUaePage() {
               document quality is what separates a smooth approval from a delay. We handle
               preparation from our Lahore office, with the UAE side coordinated through Dubai.
             </p>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "var(--teal)" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -122,7 +122,7 @@ export default function VisitVisaUaePage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about a Dubai visit visa from Pakistan (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -135,8 +135,8 @@ export default function VisitVisaUaePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F4F8FC" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "var(--surface-soft)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>
                   {fact.label}
                 </p>
                 <p className="text-sm font-medium" style={{ color: "#10254A" }}>{fact.value}</p>
@@ -147,7 +147,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Duration options */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -156,7 +156,7 @@ export default function VisitVisaUaePage() {
             className="mb-6"
           >
             <h2 className="section-title mb-4">
-              Visit Visa <span style={{ color: "#2864E8" }}>Durations for Pakistani Applicants</span>
+              Visit Visa <span style={{ color: "var(--teal-800)" }}>Durations for Pakistani Applicants</span>
             </h2>
           </motion.div>
           <motion.div
@@ -189,11 +189,11 @@ export default function VisitVisaUaePage() {
           <p className="text-sm text-[#4B5B70]">
             Which duration and entry type you&apos;re eligible for depends on your sponsor route and
             travel history, and rules are reviewed periodically by{" "}
-            <a href="https://gdrfad.gov.ae" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+            <a href="https://gdrfad.gov.ae" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
               GDRFA
             </a>{" "}
             and{" "}
-            <a href="https://icp.gov.ae/en/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+            <a href="https://icp.gov.ae/en/" target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
               ICP
             </a>
             . We confirm what&apos;s currently available to you before you apply.
@@ -202,7 +202,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Routes */}
-      <section className="py-20" style={{ backgroundColor: "#2864E8" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--teal)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -233,7 +233,7 @@ export default function VisitVisaUaePage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#2864E8" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "var(--teal-800)" }} />
                 </div>
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -254,14 +254,14 @@ export default function VisitVisaUaePage() {
             viewport={{ once: true }}
           >
             <h2 className="section-title mb-6">
-              Documents You&apos;ll <span style={{ color: "#2864E8" }}>Need</span>
+              Documents You&apos;ll <span style={{ color: "var(--teal-800)" }}>Need</span>
             </h2>
             <p className="lead text-[#4B5B70] leading-relaxed mb-6">
               Most applications share a common core. Sponsored applications add a second layer of
               documents specific to your sponsor.
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC" }}>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)" }}>
                 <h3 className="subsection-title mb-3">For every application</h3>
                 <ul className="space-y-2">
                   {[
@@ -272,13 +272,13 @@ export default function VisitVisaUaePage() {
                     "3–6 months of bank statements, plus a salary certificate",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-[#4B5B70] text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="rounded-3xl p-6" style={{ backgroundColor: "#F4F8FC" }}>
+              <div className="rounded-3xl p-6" style={{ backgroundColor: "var(--surface-soft)" }}>
                 <h3 className="subsection-title mb-3">If sponsored by a UAE resident</h3>
                 <ul className="space-y-2">
                   {[
@@ -287,14 +287,14 @@ export default function VisitVisaUaePage() {
                     "No-objection or invitation letter, where applicable",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-[#4B5B70] text-sm">
-                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                      <CheckCircle className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-            <div className="rounded-3xl p-6 mt-6 border-l-4" style={{ borderColor: "#2864E8", backgroundColor: "#F4F8FC" }}>
+            <div className="rounded-3xl p-6 mt-6 border-l-4" style={{ borderColor: "var(--teal)", backgroundColor: "var(--surface-soft)" }}>
               <p className="text-sm text-[#4B5B70] leading-relaxed">
                 <strong style={{ color: "#10254A" }}>Why bank statements matter more than most applicants expect:</strong>{" "}
                 reviewers look for steady balances and regular activity over several months — a
@@ -307,7 +307,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Cost */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -333,7 +333,7 @@ export default function VisitVisaUaePage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold underline-offset-2 hover:underline"
-                    style={{ color: "#2864E8" }}
+                    style={{ color: "var(--teal-800)" }}
                   >
                     UAE government tourist visa guide
                   </a>
@@ -367,7 +367,7 @@ export default function VisitVisaUaePage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-              style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+              style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
               aria-label="Ask Travelaxis about Dubai visit visa pricing from Pakistan on WhatsApp (opens in a new tab)"
             >
               <span>Ask About Current PKR Pricing</span>
@@ -387,7 +387,7 @@ export default function VisitVisaUaePage() {
             className="max-w-3xl mx-auto text-center mb-12"
           >
             <h2 className="section-title mb-4">
-              Why Pakistani Clients <span style={{ color: "#2864E8" }}>Work With Us</span>
+              Why Pakistani Clients <span style={{ color: "var(--teal-800)" }}>Work With Us</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -403,10 +403,10 @@ export default function VisitVisaUaePage() {
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto"
-                  style={{ backgroundColor: "#F4F8FC" }}
+                  style={{ backgroundColor: "var(--surface-soft)" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#2864E8" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "var(--teal-800)" }} />
                 </div>
                 <h3 className="subsection-title mb-2">{item.title}</h3>
                 <p className="text-sm text-[#4B5B70] leading-relaxed">{item.description}</p>
@@ -416,7 +416,7 @@ export default function VisitVisaUaePage() {
           <ul className="max-w-3xl mx-auto mt-10 space-y-3">
             {howWeHelp.map((item) => (
               <li key={item} className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 <span className="text-[#4B5B70]">{item}</span>
               </li>
             ))}
@@ -425,7 +425,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Enquiry form */}
-      <section id="requirements-form" className="py-20 bg-white scroll-mt-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section id="requirements-form" className="py-20 bg-white scroll-mt-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <VisitVisaEnquiryForm defaultDestination="UAE" heading="Get Help With Your UAE Visit Visa Application" />
         </div>
@@ -457,7 +457,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Related */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -481,7 +481,7 @@ export default function VisitVisaUaePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -509,7 +509,7 @@ export default function VisitVisaUaePage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
               aria-label="Chat with Travelaxis on WhatsApp about a Dubai visit visa from Pakistan (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

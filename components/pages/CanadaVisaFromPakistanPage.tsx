@@ -75,26 +75,26 @@ export default function CanadaVisaFromPakistanPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
-            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "#2864E8" }}>
+            <p className="uppercase tracking-widest text-sm font-semibold mb-3" style={{ color: "var(--teal-800)" }}>
               Canada Visa Information
             </p>
             <h1 className="page-title mb-6">
-              Canada Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              Canada Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               A Canada visa application from Pakistan is made online with IRCC, and IRCC publishes every form and instruction free, so you can apply yourself. Pick your route below — Visit or Study — for the official IRCC fee and document list.
             </p>
-            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "#2864E8" }}>
+            <p className="text-sm text-[#4B5B70] leading-relaxed border-l-4 pl-4 mb-8" style={{ borderColor: "var(--teal)" }}>
               {disclaimer}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#routes"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold transition-all hover:opacity-90"
-                style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+                style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
               >
                 <span>Choose My Route</span>
                 <ArrowRight className="w-5 h-5" aria-hidden />
@@ -104,7 +104,7 @@ export default function CanadaVisaFromPakistanPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-semibold border-2 transition-all hover:opacity-90"
-                style={{ borderColor: "#2864E8", color: "#2864E8" }}
+                style={{ borderColor: "var(--teal)", color: "var(--teal-800)" }}
                 aria-label="Chat with Travelaxis on WhatsApp about Canada visas (opens in a new tab)"
               >
                 <MessageCircle className="w-5 h-5" aria-hidden />
@@ -116,7 +116,7 @@ export default function CanadaVisaFromPakistanPage() {
       </section>
 
       {/* Route cards */}
-      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "#2864E8" }}>
+      <section id="routes" className="py-20 scroll-mt-24" style={{ backgroundColor: "var(--teal)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -145,7 +145,7 @@ export default function CanadaVisaFromPakistanPage() {
                   style={{ backgroundColor: "#FFFFFF" }}
                   aria-hidden
                 >
-                  <item.icon className="w-6 h-6" style={{ color: "#2864E8" }} />
+                  <item.icon className="w-6 h-6" style={{ color: "var(--teal-800)" }} />
                 </div>
                 <h3 className="subsection-title mb-2" style={{ color: "#FFFFFF" }}>
                   {item.title}
@@ -162,7 +162,7 @@ export default function CanadaVisaFromPakistanPage() {
       </section>
 
       {/* Timelines + pricing */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -171,7 +171,7 @@ export default function CanadaVisaFromPakistanPage() {
             className="mb-10 max-w-3xl"
           >
             <h2 className="section-title mb-4">
-              Compare <span style={{ color: "#2864E8" }}>Timelines by Route</span>
+              Compare <span style={{ color: "var(--teal-800)" }}>Timelines by Route</span>
             </h2>
           </motion.div>
 
@@ -204,7 +204,7 @@ export default function CanadaVisaFromPakistanPage() {
           </motion.div>
           <p className="text-sm text-[#4B5B70] max-w-4xl mb-12">
             *IRCC publishes current processing times, which change often with application volumes. Check them on{" "}
-            <a href={IRCC_PROCESSING_TIMES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+            <a href={IRCC_PROCESSING_TIMES_HREF} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
               IRCC&apos;s processing times page
             </a>{" "}
             before you plan your travel dates.
@@ -227,7 +227,7 @@ export default function CanadaVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition-all hover:opacity-90 font-semibold"
-              style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+              style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
               aria-label="Ask Travelaxis about translation or travel bookings for Canada on WhatsApp (opens in a new tab)"
             >
               <span>Ask About Translation or Bookings</span>
@@ -247,12 +247,12 @@ export default function CanadaVisaFromPakistanPage() {
             className="max-w-3xl"
           >
             <h2 className="section-title mb-6">
-              What Travelaxis <span style={{ color: "#2864E8" }}>Can Help With</span>
+              What Travelaxis <span style={{ color: "var(--teal-800)" }}>Can Help With</span>
             </h2>
             <ul className="space-y-3">
               {howWeHelp.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "#2864E8" }} aria-hidden />
+                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" style={{ color: "var(--teal-800)" }} aria-hidden />
                   <span className="text-[#4B5B70]">{item}</span>
                 </li>
               ))}
@@ -262,7 +262,7 @@ export default function CanadaVisaFromPakistanPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -271,7 +271,7 @@ export default function CanadaVisaFromPakistanPage() {
             className="mb-10 text-center"
           >
             <h2 className="section-title mb-4">
-              Frequently Asked <span style={{ color: "#2864E8" }}>Questions</span>
+              Frequently Asked <span style={{ color: "var(--teal-800)" }}>Questions</span>
             </h2>
           </motion.div>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">
@@ -303,7 +303,7 @@ export default function CanadaVisaFromPakistanPage() {
             viewport={{ once: true }}
           >
             <h2 className="section-title mb-6 text-center">
-              Related <span style={{ color: "#2864E8" }}>Pages</span>
+              Related <span style={{ color: "var(--teal-800)" }}>Pages</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -327,7 +327,7 @@ export default function CanadaVisaFromPakistanPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "#2864E8" }}>
+      <section className="relative py-24 overflow-hidden" style={{ backgroundColor: "var(--teal)" }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -354,7 +354,7 @@ export default function CanadaVisaFromPakistanPage() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white transition-all hover:opacity-90"
-              style={{ color: "#2864E8" }}
+              style={{ color: "var(--teal-800)" }}
               aria-label="Chat with Travelaxis on WhatsApp about Canada visas (opens in a new tab)"
             >
               <span>WhatsApp Now</span>

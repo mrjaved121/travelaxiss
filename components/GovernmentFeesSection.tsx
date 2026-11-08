@@ -24,14 +24,14 @@ export default function GovernmentFeesSection({ heading, intro, items, note, sou
         <p className="text-[#4B5B70] leading-relaxed mb-6">{intro}</p>
         <ul className="grid sm:grid-cols-2 gap-3 mb-4">
           {items.map((item) => (
-            <li key={item} className="text-[#4B5B70] text-sm rounded-xl p-4" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
+            <li key={item} className="text-[#4B5B70] text-sm rounded-xl p-4" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
               {item}
             </li>
           ))}
         </ul>
         <p className="text-sm text-[#4B5B70] leading-relaxed">
           {note} We don&apos;t quote an amount here since it&apos;s reviewed periodically — check the current fee on{" "}
-          <a href={sourceHref} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "#2864E8" }}>
+          <a href={sourceHref} target="_blank" rel="noopener noreferrer" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
             {sourceLabel}
           </a>
           .

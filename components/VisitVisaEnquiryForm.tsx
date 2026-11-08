@@ -180,7 +180,7 @@ export default function VisitVisaEnquiryForm({
         <button
           type="submit"
           className="btn w-full flex items-center justify-center gap-2 px-8 py-4 rounded-2xl transition-all hover:opacity-90"
-          style={{ backgroundColor: "#2864E8", color: "#FFFFFF" }}
+          style={{ backgroundColor: "var(--teal)", color: "#FFFFFF" }}
         >
           <Send className="w-5 h-5" aria-hidden />
           <span>Request Requirements</span>

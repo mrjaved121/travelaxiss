@@ -14,7 +14,7 @@ export function ImageWithFallback(props: React.ImgHTMLAttributes<HTMLImageElemen
 
   return didError ? (
     <div
-      className={`inline-block bg-[#F4F8FC] text-center align-middle ${className ?? ''}`}
+      className={`inline-block bg-surface-soft text-center align-middle ${className ?? ''}`}
       style={style}
     >
       <div className="flex items-center justify-center w-full h-full">

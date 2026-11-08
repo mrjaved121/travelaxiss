@@ -102,7 +102,7 @@ export default function VisitVisaSchengenPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="relative overflow-hidden py-16 md:py-24" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={false} animate={{ opacity: 1, y: 0 }}>
             <Breadcrumbs
@@ -114,7 +114,7 @@ export default function VisitVisaSchengenPage() {
             />
             <p className="eyebrow mb-3">Visit Visa Services</p>
             <h1 className="page-title mb-6">
-              Germany &amp; Schengen Visit Visa <span style={{ color: "#2864E8" }}>from Pakistan</span>
+              Germany &amp; Schengen Visit Visa <span style={{ color: "var(--teal-800)" }}>from Pakistan</span>
             </h1>
             <p className="lead text-[#4B5B70] mb-6 leading-relaxed">
               A Germany visit visa is a Schengen short-stay visa: one visa that covers tourism, family
@@ -126,8 +126,8 @@ export default function VisitVisaSchengenPage() {
               Last updated September 2026 · Checked against the European Commission and the German
               Missions in Pakistan
             </p>
-            <div className="rounded-2xl p-6 mb-8" style={{ borderLeft: "4px solid #2864E8", backgroundColor: "#FFFFFF" }}>
-              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "#2864E8" }}>
+            <div className="rounded-2xl p-6 mb-8" style={{ borderLeft: "4px solid var(--teal)", backgroundColor: "#FFFFFF" }}>
+              <p className="text-sm font-semibold uppercase tracking-wide mb-2" style={{ color: "var(--teal-800)" }}>
                 Quick answer
               </p>
               <p className="text-[#4B5B70] leading-relaxed">
@@ -155,7 +155,7 @@ export default function VisitVisaSchengenPage() {
                 style={{ borderColor: "#E3EAF3", color: "#10254A" }}
                 aria-label="Chat with Travelaxis on WhatsApp about Schengen visit visas (opens in a new tab)"
               >
-                <MessageCircle className="w-5 h-5" style={{ color: "#2864E8" }} aria-hidden />
+                <MessageCircle className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
                 WhatsApp Us
               </a>
             </div>
@@ -168,8 +168,8 @@ export default function VisitVisaSchengenPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {quickFacts.map((fact) => (
-              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "#F4F8FC" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>
+              <div key={fact.label} className="rounded-2xl p-4 text-center" style={{ backgroundColor: "var(--surface-soft)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>
                   {fact.label}
                 </p>
                 <p className="text-sm font-medium" style={{ color: "#10254A" }}>{fact.value}</p>
@@ -180,7 +180,7 @@ export default function VisitVisaSchengenPage() {
       </section>
 
       {/* Where to apply */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-3">Schengen Visa from Pakistan: Which Embassy to Apply To</h2>
           <p className="text-[#4B5B70] leading-relaxed mb-6">
@@ -196,7 +196,7 @@ export default function VisitVisaSchengenPage() {
           </ul>
           <p className="text-sm text-[#4B5B70] mt-6">
             Source:{" "}
-            <a href={EU_APPLY_HREF} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+            <a href={EU_APPLY_HREF} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
               European Commission — Applying for a Schengen visa
             </a>
             .
@@ -236,7 +236,7 @@ export default function VisitVisaSchengenPage() {
           </div>
           <p className="text-sm text-[#4B5B70] mt-6">
             Source:{" "}
-            <a href={DE_SHORT_STAY_HREF} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "#2864E8" }}>
+            <a href={DE_SHORT_STAY_HREF} target="_blank" rel="noopener noreferrer" className={linkClass} style={{ color: "var(--teal-800)" }}>
               German Missions in Pakistan — Short-term / Schengen visa
             </a>
             .
@@ -245,7 +245,7 @@ export default function VisitVisaSchengenPage() {
       </section>
 
       {/* Documents */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-3">Germany Visit Visa Requirements for Pakistani Applicants</h2>
           <p className="text-[#4B5B70] leading-relaxed mb-6">
@@ -255,7 +255,7 @@ export default function VisitVisaSchengenPage() {
           <ol className="grid sm:grid-cols-2 gap-3">
             {germanyDocuments.map((doc, i) => (
               <li key={doc} className="flex items-start gap-3 text-[#4B5B70] text-sm bg-white rounded-xl p-4" style={{ border: "1px solid var(--card-line)" }}>
-                <span className="font-semibold flex-shrink-0" style={{ color: "#2864E8" }}>{i + 1}.</span>
+                <span className="font-semibold flex-shrink-0" style={{ color: "var(--teal-800)" }}>{i + 1}.</span>
                 <span>{doc}</span>
               </li>
             ))}
@@ -275,8 +275,8 @@ export default function VisitVisaSchengenPage() {
           <h2 className="section-title mb-6">How to Apply with Travelaxis</h2>
           <ol className="grid sm:grid-cols-2 gap-4">
             {applySteps.map((step, i) => (
-              <li key={step.title} className="rounded-2xl p-5" style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}>
-                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "#2864E8" }}>Step {i + 1}</p>
+              <li key={step.title} className="rounded-2xl p-5" style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}>
+                <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--teal-800)" }}>Step {i + 1}</p>
                 <h3 className="subsection-title mb-2">{step.title}</h3>
                 <p className="text-sm text-[#4B5B70] leading-relaxed">{step.text}</p>
               </li>
@@ -286,7 +286,7 @@ export default function VisitVisaSchengenPage() {
       </section>
 
       <GovernmentFeesSection
-        className="bg-[#F4F8FC]"
+        className="bg-surface-soft"
         heading="Schengen Visa Fee from Pakistan"
         intro="The Schengen visa fee is the same for every member country. At the German Embassy and Consulate General in Pakistan it is charged in PKR at the current exchange rate and paid in cash at the counter."
         items={fees}
@@ -301,7 +301,7 @@ export default function VisitVisaSchengenPage() {
           <h2 className="section-title mb-2">Other Schengen Countries We Support</h2>
           <p className="text-[#4B5B70] mb-6">
             Alongside Germany, we prepare visit visa documentation for these Schengen countries. See{" "}
-            <Link href="/visit-visa/europe" className={linkClass} style={{ color: "#2864E8" }}>
+            <Link href="/visit-visa/europe" className={linkClass} style={{ color: "var(--teal-800)" }}>
               all Europe visit visas
             </Link>
             , including the UK.
@@ -324,7 +324,7 @@ export default function VisitVisaSchengenPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-20" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-10 text-center">Frequently Asked Questions</h2>
           <div className="bg-white rounded-3xl px-4 md:px-8 py-2 shadow-sm border border-[#E3EAF3]">
@@ -354,11 +354,11 @@ export default function VisitVisaSchengenPage() {
                 key={guide.href}
                 href={guide.href}
                 className="flex items-start gap-4 rounded-3xl p-6 card-hover"
-                style={{ backgroundColor: "#F4F8FC", border: "1px solid var(--card-line)" }}
+                style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}
               >
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                  style={{ backgroundColor: "#2864E8" }}
+                  style={{ backgroundColor: "var(--teal)" }}
                   aria-hidden
                 >
                   <BookOpen className="w-6 h-6" style={{ color: "#FFFFFF" }} />
@@ -374,7 +374,7 @@ export default function VisitVisaSchengenPage() {
       </section>
 
       {/* Related */}
-      <section className="py-16" style={{ backgroundColor: "#F4F8FC" }}>
+      <section className="py-16" style={{ backgroundColor: "var(--surface-soft)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title mb-6 text-center">Related Pages</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
