@@ -5,6 +5,254 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "australia-skills-in-demand-visa-482-pakistan": {
+    title: "Australia Skills in Demand Visa (482) from Pakistan 2026: Salary, Fees and Documents",
+    metaTitle: "Australia 482 Skills in Demand Visa from Pakistan (2026)",
+    metaDescription:
+      "Australia Skills in Demand (482) visa from Pakistan: AUD 79,423 salary floor, AUD 4,015 fee, IELTS 5.0 per band, 1 year experience and documents.",
+    keywords: [
+      "australia work visa from pakistan",
+      "skills in demand visa 482 pakistan",
+      "australia 482 visa requirements 2026",
+      "core skills income threshold 2026",
+      "australia employer sponsored visa pakistan",
+      "csol occupation list australia",
+    ],
+    date: "November 9, 2026",
+    dateModifiedIso: "2026-11-09",
+    readTime: "9 min read",
+    category: "Australia Visa Documentation",
+    cta: {
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/australia/",
+    },
+    content: {
+      intro:
+        "To work in Australia from Pakistan on the Skills in Demand visa (subclass 482), you need an approved Australian employer to nominate you for a job on the Core Skills Occupation List, at a salary of at least AUD 79,423 a year (the Core Skills Income Threshold for nominations lodged from 1 July 2026 to 30 June 2027). You also need at least 1 year of relevant work experience, a skills assessment if your occupation requires one, and English of at least IELTS 5.0 in each band unless you're exempt. The visa charge is AUD 4,015 for the main applicant, and the visa can last up to 4 years. You can't apply on your own without a sponsor. Last updated November 2026: always confirm the current rules on the Department of Home Affairs website before you apply.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Skills in Demand visa (Core Skills stream) for Pakistanis, 2026",
+              items: [
+                "What it is: a temporary employer-sponsored work visa for Australia.",
+                "Sponsor needed: yes. An approved Australian employer must nominate you.",
+                "Occupation: must be on the Core Skills Occupation List (CSOL).",
+                "Minimum salary: AUD 79,423 a year for nominations lodged 1 July 2026 to 30 June 2027, and no less than the market rate for the job.",
+                "Work experience: at least 1 year in the nominated occupation or a related field, within the last 5 years.",
+                "English: IELTS (Academic or General Training) 5.0 in each of listening, reading, writing and speaking, or an equivalent accepted test, unless exempt.",
+                "Visa charge: AUD 4,015 for the main applicant and each family member 18 or over; AUD 1,005 for each child under 18.",
+                "Length of stay: up to 4 years, as nominated by your employer.",
+                "Family: partner and dependent children can be included, and they can live, study and work in Australia.",
+              ],
+            },
+          ],
+          note:
+            "Official sources: [Skills in Demand visa (subclass 482): Core Skills stream](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream) and [salary requirements](https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/nominating-a-position/salary-requirements) on the Department of Home Affairs website. Figures checked November 2026.",
+        },
+        {
+          heading: "What is the Skills in Demand visa (subclass 482)?",
+          content:
+            "The Skills in Demand (SID) visa is Australia's main temporary employer-sponsored work visa. It lets an Australian business bring in an overseas worker when it can't find a suitable Australian citizen or permanent resident for the role. It has three streams: Core Skills (the one most Pakistani applicants will use), Specialist Skills (for very high earners) and Labour Agreement. With the visa you can work for your sponsor for up to 4 years, travel in and out of Australia as often as you like while it's valid, and, if eligible, later apply for permanent residence, for example through the Employer Nomination Scheme (subclass 186).",
+        },
+        {
+          heading: "Who is eligible for the 482 visa from Pakistan?",
+          subsections: [
+            {
+              title: "Core Skills stream: what Home Affairs says you must have",
+              items: [
+                "A nomination from an approved (or applying) Australian sponsor for an occupation on the Core Skills Occupation List.",
+                "Pay at the Annual Market Salary Rate for the job and not less than the Core Skills Income Threshold (AUD 79,423 for 2026–27 nominations).",
+                "At least 1 year of relevant work experience in the nominated occupation or a related field, gained in the last 5 years (part-time or casual work must add up to 12 months full-time).",
+                "A skills assessment if it's mandatory for your occupation and circumstances.",
+                "English at the minimum standard, unless you're exempt.",
+                "Health and character requirements met by you and family members applying with you.",
+                "Adequate health insurance for your whole stay.",
+              ],
+            },
+          ],
+          note:
+            "There's no age limit for this visa. Check whether your occupation is on the [Core Skills Occupation List](https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list) before you spend money on tests or assessments.",
+        },
+        {
+          heading: "What salary does the job need to pay?",
+          content:
+            "For the Core Skills stream, your employer must pay you at least the Core Skills Income Threshold (CSIT) and at least what an Australian would earn in the same job (the Annual Market Salary Rate). According to Home Affairs, the CSIT is AUD 79,423 for nominations lodged between 1 July 2026 and 30 June 2027 (it was AUD 76,515 for 2025–26). The Specialist Skills stream has a much higher threshold of AUD 146,576 for 2026–27 nominations. Thresholds are indexed every 1 July, so the figure that applies depends on when your employer lodges the nomination. See the official [salary requirements page](https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/nominating-a-position/salary-requirements).",
+        },
+        {
+          heading: "How much does the Australia 482 visa cost?",
+          subsections: [
+            {
+              title: "What you pay (applicant side)",
+              items: [
+                "Visa application charge, main applicant: AUD 4,015.",
+                "Each family member aged 18 or over: AUD 4,015.",
+                "Each child under 18: AUD 1,005.",
+                "Separate costs: English test, health examinations, police certificates, biometrics, skills assessment (if needed), translations and health insurance.",
+              ],
+            },
+            {
+              title: "What the employer pays (and can't pass on to you)",
+              items: [
+                "Sponsorship approval for the SID program: AUD 420.",
+                "Nomination fee: AUD 330.",
+                "Skilling Australians Fund (SAF) levy: AUD 1,200 per year for a business with turnover under AUD 10 million, or AUD 1,800 per year for larger businesses.",
+                "Employers must not pass the SAF levy on to the worker.",
+              ],
+            },
+          ],
+          note:
+            "Visa charges are from the official [Visa Pricing Estimator](https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator) and the 482 page; employer costs are from [Cost of sponsoring](https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/learn-about-sponsoring/cost-of-sponsoring). Prices change, usually on 1 July, and Home Affairs doesn't refund the visa charge if your application is refused.",
+        },
+        {
+          heading: "What English test score do you need?",
+          content:
+            "If you're not exempt, the main applicant must take an approved English test within 3 years before applying. For tests taken on or after 13 September 2025, Home Affairs lists IELTS Academic or IELTS General Training with at least 5.0 in each of listening, reading, writing and speaking. PTE Academic is also accepted, with minimum component scores of listening 33, reading 36, writing 29 and speaking 24. Tests taken entirely online (such as IELTS Online) are not accepted. One exemption that may help some Pakistanis: at least 5 years of full-time secondary or higher study where most classes were taught in English, backed by official transcripts. Check the full table on the official [482 English language page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/sufficient-english).",
+        },
+        {
+          heading: "Do you need a skills assessment?",
+          content:
+            "Some 482 applicants must get a mandatory skills assessment, depending on their occupation and circumstances, as set out in the legislative instrument IMMI 18/039. Where it applies, the assessment (by an authority such as Trades Recognition Australia or VETASSESS) must have been started before you lodge your visa application, or the application isn't valid, and it must have been started or done within the 3 years before you apply. Even when it isn't mandatory, Home Affairs can ask for one, and you still need to prove your skills with qualifications, references and a CV covering at least the last 5 years.",
+        },
+        {
+          heading: "What documents do Pakistani applicants need?",
+          subsections: [
+            {
+              title: "Checklist based on the Home Affairs 482 page",
+              items: [
+                "Passport pages showing your photo, personal details and issue and expiry dates.",
+                "Nomination Transaction Reference Number (TRN) from your employer.",
+                "Skills assessment reference number, if one is mandatory for you.",
+                "Degree and professional certificates, plus any registration or licence needed for your job in Australia.",
+                "CV with full work and education history for at least the last 5 years.",
+                "Employment references on company letterhead with the referee's name, title, contact details, your position and dates of service.",
+                "English test results, or evidence of an exemption.",
+                "Overseas police certificates, including from Pakistan, for every country where you spent 12 months or more in the last 10 years since turning 16.",
+                "Evidence of adequate health insurance; health examinations when requested.",
+                "Relationship documents (such as Nikah Nama and children's birth certificates) if family members are included.",
+                "Certified English translations of any documents not in English.",
+              ],
+            },
+          ],
+          note:
+            "Upload clear colour scans and keep multi-page documents in one file, as Home Affairs asks. Always follow the latest checklist on the [official 482 page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream).",
+        },
+        {
+          heading: "How do you apply, step by step?",
+          subsections: [
+            {
+              title: "The process in order",
+              items: [
+                "1. Find an Australian employer willing to sponsor you for a CSOL occupation at the required salary.",
+                "2. Your employer becomes (or applies to become) an approved sponsor and lodges a nomination for you, including labour market testing evidence unless exempt.",
+                "3. Prepare your English test, skills assessment (if needed), police certificates and health checks.",
+                "4. Lodge your visa application online in ImmiAccount using the nomination TRN, and pay the visa charge.",
+                "5. Give biometrics or more information if asked. The nomination must be approved before the visa can be granted.",
+                "6. Once granted, start work within 90 days of arriving in Australia (or of the grant date if you're already there).",
+              ],
+            },
+          ],
+          note:
+            "Processing times vary case by case. Use the official [visa processing time guide](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/global-visa-processing-times) for current figures based on recent decisions.",
+        },
+        {
+          heading: "Core Skills vs Specialist Skills stream: which applies to you?",
+          columnCompare: {
+            left: {
+              title: "Core Skills stream",
+              items: [
+                "Occupation must be on the Core Skills Occupation List.",
+                "Salary of at least AUD 79,423 (2026–27 nominations).",
+                "Most skilled Pakistani professionals and tradespeople will fall here.",
+                "Up to 4 years' stay.",
+              ],
+            },
+            right: {
+              title: "Specialist Skills stream",
+              items: [
+                "Occupation in ANZSCO Major Groups 1, 2, 4, 5 or 6, for highly paid specialists.",
+                "Salary of at least AUD 146,576 (2026–27 nominations).",
+                "Trades workers, machinery operators, drivers and labourers (ANZSCO groups 3, 7 and 8) aren't covered.",
+                "Up to 4 years' stay.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Why do 482 applications get refused or delayed?",
+          subsections: [
+            {
+              title: "Common problems to avoid",
+              items: [
+                "Nomination refused: the employer's nomination, salary or occupation doesn't meet the rules, so the visa can't be granted.",
+                "Weak work experience evidence: references without letterhead, dates or duties, or experience that doesn't match the nominated occupation.",
+                "Missing mandatory skills assessment: if one is required and wasn't started before you applied, the application isn't valid.",
+                "English score below the minimum in any one band, or an online test that isn't accepted.",
+                "Health or character issues, or missing police certificates.",
+                "Paying for sponsorship: it's illegal to pay an employer or agent for a sponsorship, and doing so in the last 3 years can make you ineligible.",
+                "Previous visa refusals or cancellations not disclosed honestly.",
+              ],
+            },
+          ],
+          note:
+            "Be careful of offers that ask you to pay for a job or a sponsorship. Home Affairs says it is illegal for a person to pay an employer to sponsor them. If you want immigration help, use a registered migration agent or lawyer listed on official registers.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "Can I apply for the Australia 482 visa from Pakistan without a job offer?",
+              answer:
+                "No. The Skills in Demand visa needs an approved Australian employer to nominate you for a specific job first. You enter your employer's nomination reference number when you apply. If you don't have a sponsor yet, look at other routes on the Home Affairs website instead of paying anyone who promises a sponsorship.",
+            },
+            {
+              question: "What is the minimum salary for the 482 visa in 2026?",
+              answer:
+                "For the Core Skills stream, the Core Skills Income Threshold is AUD 79,423 a year for nominations lodged between 1 July 2026 and 30 June 2027. Your pay must also match the market rate Australians get for the same job. The Specialist Skills stream needs at least AUD 146,576. Thresholds rise each 1 July.",
+            },
+            {
+              question: "How much is the Australia 482 visa fee for Pakistanis?",
+              answer:
+                "The Home Affairs pricing tool lists AUD 4,015 for the main applicant and each family member 18 or over, and AUD 1,005 for each child under 18. Your employer separately pays sponsorship, nomination and the SAF levy. English tests, medicals, police certificates and skills assessments cost extra. The visa charge isn't refunded if refused.",
+            },
+            {
+              question: "What IELTS score is required for the Skills in Demand visa?",
+              answer:
+                "For tests taken on or after 13 September 2025, you need at least 5.0 in each of listening, reading, writing and speaking in IELTS Academic or General Training. PTE Academic and other listed tests are also accepted with their own minimums. The test must be within 3 years of applying, and online-only tests aren't accepted.",
+            },
+            {
+              question: "How much work experience do I need for the 482 visa?",
+              answer:
+                "At least 1 year of relevant work experience in your nominated occupation or a closely related field, gained within the last 5 years. Part-time or casual work counts if it adds up to 12 months of full-time work. You'll prove it with employer references on letterhead and a detailed CV.",
+            },
+            {
+              question: "Can I bring my wife and children on the 482 visa?",
+              answer:
+                "Yes. You can include your partner and dependent children as secondary applicants when you apply, and they must meet health and character requirements. Home Affairs says your family can live, study and work in Australia. Each adult pays AUD 4,015 and each child under 18 pays AUD 1,005.",
+            },
+            {
+              question: "Does the 482 visa lead to permanent residence in Australia?",
+              answer:
+                "It can. Home Affairs says that, if eligible, your employer may be able to sponsor you for permanent residence through the Employer Nomination Scheme (subclass 186). This isn't automatic: you and your employer must meet that visa's own requirements, so check the official 186 visa page before planning around it.",
+            },
+            {
+              question: "What happens if I lose my job on the 482 visa?",
+              answer:
+                "According to Home Affairs, if you're laid off and unemployed, you have up to 180 days to find a new employer to sponsor you or make arrangements to leave Australia. A new employer must lodge a new nomination for you. You usually can only work for your sponsoring business or its associated entities.",
+            },
+          ],
+        },
+        {
+          heading: "About this guide",
+          content:
+            "This is a free information guide, last updated November 2026. Travelaxis offers visit visa documentation only: we don't prepare Skills in Demand or other work visa applications, find jobs or sponsors, or guarantee any visa outcome. Use the official Home Affairs checklist and pricing tool for your application, as rules and fees change. If you're planning a short trip to Australia, see our [Australia visit visa support](/visit-visa/australia/).",
+        },
+      ],
+    },
+  },
   "ireland-student-visa-from-pakistan": {
     title: "Ireland Student Visa from Pakistan 2026: Funds, Fees and Documents",
     metaTitle: "Ireland Student Visa from Pakistan (2026 Guide)",

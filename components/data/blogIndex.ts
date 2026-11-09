@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "australia-skills-in-demand-visa-482-pakistan",
+      title: "Australia Skills in Demand Visa (482) from Pakistan 2026: Salary, Fees and Documents",
+      excerpt:
+        "Australia's employer-sponsored work visa from Pakistan: AUD 79,423 Core Skills salary threshold, AUD 4,015 visa charge, IELTS 5.0 in each band, 1 year experience, CSOL occupations and the documents checklist.",
+      date: "November 9, 2026",
+      readTime: "9 min read",
+      category: "Australia Visa Documentation",
+    },
+    {
       id: "ireland-student-visa-from-pakistan",
       title: "Ireland Student Visa from Pakistan 2026: Funds, Fees and Documents",
       excerpt:
