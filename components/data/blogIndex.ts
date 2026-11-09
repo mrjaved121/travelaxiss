@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "uk-skilled-worker-visa-from-pakistan",
+      title: "UK Skilled Worker Visa from Pakistan 2026: Salary, Fees and Documents",
+      excerpt:
+        "UK Skilled Worker visa from Pakistan: £41,700 standard salary, £819 or £1,618 visa fee, £1,035 a year health surcharge, B2 English, £1,270 savings, TB test and the GOV.UK documents checklist.",
+      date: "November 9, 2026",
+      readTime: "9 min read",
+      category: "UK Visa Documentation",
+    },
+    {
       id: "australia-skills-in-demand-visa-482-pakistan",
       title: "Australia Skills in Demand Visa (482) from Pakistan 2026: Salary, Fees and Documents",
       excerpt:

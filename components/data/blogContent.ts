@@ -5,6 +5,272 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uk-skilled-worker-visa-from-pakistan": {
+    title: "UK Skilled Worker Visa from Pakistan 2026: Salary, Fees and Documents",
+    metaTitle: "UK Skilled Worker Visa from Pakistan: 2026 Guide",
+    metaDescription:
+      "UK Skilled Worker visa from Pakistan: £41,700 salary rule, £819 to £1,618 fee, £1,035 a year health surcharge, B2 English, £1,270 funds and TB test.",
+    keywords: [
+      "uk skilled worker visa from pakistan",
+      "uk work visa from pakistan 2026",
+      "skilled worker visa salary threshold 2026",
+      "uk skilled worker visa fee",
+      "certificate of sponsorship uk pakistan",
+      "uk work permit requirements pakistan",
+    ],
+    date: "November 9, 2026",
+    dateModifiedIso: "2026-11-09",
+    readTime: "9 min read",
+    category: "UK Visa Documentation",
+    cta: {
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/uk/",
+    },
+    content: {
+      intro:
+        "To get a UK Skilled Worker visa from Pakistan, you need a confirmed job offer from a Home Office approved employer (a licensed sponsor), a certificate of sponsorship (CoS) for an eligible occupation, and a salary of usually at least £41,700 a year or the job's going rate, whichever is higher. You must also prove English at CEFR level B2, show £1,270 in savings (unless your employer certifies maintenance) and, as a Pakistani applicant, provide a TB test certificate. From outside the UK the visa fee is £819 for up to 3 years or £1,618 for more than 3 years, plus the immigration health surcharge of usually £1,035 per year. Decisions from outside the UK usually take 3 weeks. Last updated November 2026: always confirm the current rules on GOV.UK before you apply.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "UK Skilled Worker visa for Pakistanis, November 2026",
+              items: [
+                "What it is: the UK's main employer-sponsored work visa (it replaced Tier 2 General).",
+                "Sponsor needed: yes. You need a job offer from an approved UK employer and a certificate of sponsorship.",
+                "Occupation: must be on the list of eligible occupations ('higher skilled', or 'medium skilled' only if on the immigration salary list or temporary shortage list).",
+                "Standard minimum salary: £41,700 a year or the job's going rate, whichever is higher.",
+                "Lower salary floor in some cases: £33,400 a year (for example immigration salary list jobs, or applicants under 26 or new entrants).",
+                "English: CEFR level B2 for new applicants.",
+                "Visa fee from outside the UK: £819 (up to 3 years) or £1,618 (more than 3 years); £628 or £1,235 if your job is on the immigration salary list.",
+                "Immigration health surcharge: usually £1,035 per year, per person.",
+                "Personal savings: £1,270 held for 28 days, unless your employer certifies maintenance.",
+                "Decision time: usually 3 weeks from outside the UK.",
+                "Length of stay: up to 5 years before you need to extend.",
+              ],
+            },
+          ],
+          note:
+            "Official source: [Skilled Worker visa](https://www.gov.uk/skilled-worker-visa) on GOV.UK. Figures checked November 2026. UK immigration rules changed several times in 2025 and 2026, so check GOV.UK on the day you apply.",
+        },
+        {
+          heading: "What is the UK Skilled Worker visa?",
+          content:
+            "The Skilled Worker visa lets you come to the UK to do an eligible job for an approved employer. According to GOV.UK, the visa can last up to 5 years before you need to extend it, you can extend as many times as you like while you still meet the rules, and you can bring your partner and children as dependants if you're eligible. You can travel in and out of the UK and, under the current GOV.UK guidance, apply to settle permanently (indefinite leave to remain) after 5 years if you meet the other requirements. You can't apply on your own without a sponsor: the employer, not the applicant, starts the process by assigning you a certificate of sponsorship.",
+        },
+        {
+          heading: "Who is eligible for a Skilled Worker visa from Pakistan?",
+          subsections: [
+            {
+              title: "What GOV.UK says you must have",
+              items: [
+                "A confirmed job offer from a UK employer approved by the Home Office (check the official register of licensed sponsors).",
+                "A certificate of sponsorship (CoS) with details of the role. It's an electronic record with a reference number, not a paper document.",
+                "A job whose 4-digit occupation code is on the list of eligible occupations.",
+                "A salary that meets the minimum for your type of work.",
+                "English at level B2, proved by an approved test or an accepted qualification.",
+                "Enough personal savings, unless your sponsor certifies maintenance on your CoS.",
+              ],
+            },
+            {
+              title: "Which jobs qualify after the July 2025 changes?",
+              items: [
+                "Jobs listed as 'higher skilled' in the eligible occupations table can apply.",
+                "Jobs listed as 'medium skilled' qualify only if they're on the immigration salary list or the temporary shortage list (with limited exceptions for people already on the route).",
+                "Some similar jobs have different codes. GOV.UK gives the example that bricklayers, roofers and carpenters are eligible but construction labourers are not.",
+                "Care worker and senior care worker roles have their own rules; see our [UK care worker visa update](/blog/uk-care-worker-visa-pakistan-2026).",
+              ],
+            },
+          ],
+          note:
+            "Ask your employer for your occupation code, then check it on the [eligible occupations table](https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations) and the [your job page](https://www.gov.uk/skilled-worker-visa/your-job).",
+        },
+        {
+          heading: "What salary does the job need to pay?",
+          content:
+            "GOV.UK says you'll usually need to be paid the 'standard' salary of at least £41,700 a year, or the going rate for your occupation code, whichever is higher. For example, if the going rate for your job is £45,000, a £42,000 offer is not enough. You might be paid less, but never below £33,400 a year, if your job is on the immigration salary list, or if you're under 26, a recent UK graduate or working towards a recognised professional qualification (in which case you can be paid 70% of the going rate, and your total stay on these terms is capped at 4 years). A relevant STEM PhD allows 80% of the going rate (minimum £33,400) and a relevant non-STEM PhD allows 90% (minimum £37,500). Some healthcare and education jobs use national pay scales instead. See [when you can be paid less](https://www.gov.uk/skilled-worker-visa/when-you-can-be-paid-less).",
+        },
+        {
+          heading: "How much does the UK Skilled Worker visa cost?",
+          subsections: [
+            {
+              title: "What you pay (applying from Pakistan)",
+              items: [
+                "Visa fee, up to 3 years: £819 per person.",
+                "Visa fee, more than 3 years: £1,618 per person.",
+                "Immigration salary list jobs: £628 (up to 3 years) or £1,235 (more than 3 years) per person.",
+                "Immigration health surcharge: usually £1,035 per person for each year of the visa, paid upfront.",
+                "Savings to show: £1,270 for you, plus £285 for a partner, £315 for one child and £200 for each additional child.",
+                "Separate costs: English test, TB test, translations and any criminal record certificate.",
+              ],
+            },
+            {
+              title: "Worked example from GOV.UK",
+              items: [
+                "A 2-year Skilled Worker visa (job not on the immigration salary list) costs £819 plus £1,035 x 2 for the health surcharge.",
+                "Total paid when you apply: £2,889, plus £1,270 available savings unless your employer covers your first month.",
+              ],
+            },
+            {
+              title: "What the employer pays (and can't pass on to you)",
+              items: [
+                "The sponsor licence fee: £611 for small businesses and charities or £1,682 for medium and large organisations.",
+                "The immigration skills charge when assigning your CoS. GOV.UK says the employer must pay it itself, and its licence may be revoked if it asks the worker to pay this or costs linked to its application.",
+              ],
+            },
+          ],
+          note:
+            "Fees are from [how much it costs](https://www.gov.uk/skilled-worker-visa/how-much-it-costs) and the [immigration skills charge page](https://www.gov.uk/uk-visa-sponsorship-employers/immigration-skills-charge). You'll be told the exact amount when you apply.",
+        },
+        {
+          heading: "How do you prove the £1,270 savings?",
+          content:
+            "You must have had at least £1,270 available for at least 28 days in a row, and day 28 must fall within 31 days of the date you apply. In practice that usually means bank statements in your name covering the full 28-day period. You don't need to show this if your employer ticks 'sponsor certifies maintenance' on your certificate of sponsorship, agreeing to cover your costs up to £1,270 in your first month. Dependants need their own funds (£285 for a partner, £315 for the first child, £200 for each other child) on the same 28-day rule. Check the official [costs and savings page](https://www.gov.uk/skilled-worker-visa/how-much-it-costs) before you print your statements.",
+        },
+        {
+          heading: "What English level do you need?",
+          content:
+            "New applicants must prove they can read, write, speak and understand English to at least CEFR level B2. You can do this with a UK degree, a degree from outside the UK that was taught in English (you'll need an Ecctis assessment confirming it's equivalent to a UK bachelor's degree or higher and taught in English), or by passing a Secure English Language Test (SELT) with an approved provider. Pakistan is not on the list of majority English-speaking countries that are exempt. Doctors, dentists, nurses, midwives and vets may be exempt if they passed an English assessment accepted by their regulator. People who held this visa before 8 January 2026 and are extending need only B1. See the official [knowledge of English page](https://www.gov.uk/skilled-worker-visa/knowledge-of-english).",
+        },
+        {
+          heading: "What documents do Pakistani applicants need?",
+          subsections: [
+            {
+              title: "Checklist based on GOV.UK",
+              items: [
+                "Certificate of sponsorship reference number from your employer.",
+                "Valid passport.",
+                "Proof of English (SELT result, Ecctis reference or accepted degree).",
+                "Your job title, annual salary and occupation code, plus your employer's name and sponsor licence number (all on your CoS).",
+                "Bank statements showing £1,270 for 28 days, unless your sponsor certifies maintenance.",
+                "TB test certificate from a Home Office approved clinic in Pakistan (valid 6 months from the x-ray date).",
+                "Criminal record certificate if you'll work in education, healthcare, therapy or social services, from each country you've lived in as GOV.UK requires.",
+                "Proof of relationship (for example Nikah Nama and children's birth certificates) if family members apply.",
+                "ATAS certificate or PhD evidence only if these apply to your job.",
+                "Certified English translations of any documents not in English or Welsh.",
+              ],
+            },
+          ],
+          note:
+            "Pakistan is on the list of [countries where you need a TB test](https://www.gov.uk/tb-test-visa/countries-where-you-need-a-tb-test-to-enter-the-uk) for stays of 6 months or more. Follow the latest [documents list](https://www.gov.uk/skilled-worker-visa/documents-you-must-provide) on GOV.UK.",
+        },
+        {
+          heading: "How do you apply from Pakistan, step by step?",
+          subsections: [
+            {
+              title: "The process in order",
+              items: [
+                "1. Get a genuine job offer from a licensed UK sponsor for an eligible occupation at the required salary.",
+                "2. Your employer assigns you a certificate of sponsorship and gives you the reference number.",
+                "3. Book your English test (or Ecctis assessment) and your TB test at an approved clinic in Pakistan.",
+                "4. Apply online on GOV.UK, no more than 3 months before your start date on the CoS and within 3 months of getting the CoS.",
+                "5. Pay the visa fee and health surcharge, then prove your identity, either with the UK Immigration: ID Check app or at a visa application centre, as you're told when you apply.",
+                "6. Upload your documents and wait for the decision, usually within 3 weeks. Faster decisions may be offered for an extra fee.",
+                "7. If approved, follow the decision email to access your eVisa and travel before your start date.",
+              ],
+            },
+          ],
+          note:
+            "Official step-by-step guidance: [apply from outside the UK](https://www.gov.uk/skilled-worker-visa/apply-from-outside-the-uk).",
+        },
+        {
+          heading: "Skilled Worker vs Health and Care Worker visa: which fits you?",
+          columnCompare: {
+            left: {
+              title: "Skilled Worker visa",
+              items: [
+                "For any eligible occupation with a licensed sponsor.",
+                "Standard salary rule: £41,700 or the going rate, whichever is higher.",
+                "Immigration health surcharge usually £1,035 a year.",
+                "Fee £819 or £1,618 from outside the UK.",
+              ],
+            },
+            right: {
+              title: "Health and Care Worker visa",
+              items: [
+                "For eligible doctors, nurses and other health and adult social care roles.",
+                "Different pay rules based on national pay scales for many jobs.",
+                "No immigration health surcharge.",
+                "GOV.UK says it's cheaper to apply for; check if you qualify.",
+              ],
+            },
+          },
+        },
+        {
+          heading: "Why do Skilled Worker applications get refused?",
+          subsections: [
+            {
+              title: "Common problems to avoid",
+              items: [
+                "Fake or bought job offers: a CoS from an employer that isn't a licensed sponsor, or a role that doesn't really exist.",
+                "Salary below the going rate for the occupation code, or below the minimum wage and UK working-hours rules (GOV.UK says the application will be refused).",
+                "Wrong occupation code, or a 'medium skilled' job that isn't on the immigration salary list or temporary shortage list.",
+                "English not proved at B2, or a test from a provider that isn't approved.",
+                "Bank statements that don't cover 28 consecutive days, or fall outside the 31-day window.",
+                "Missing TB certificate or criminal record certificate where required.",
+                "Applying more than 3 months after getting the CoS.",
+                "Undisclosed previous refusals or immigration breaches.",
+              ],
+            },
+          ],
+          note:
+            "Never pay anyone for a certificate of sponsorship. Employers must pay sponsorship costs themselves, and offers that ask you to buy a CoS are a common scam.",
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "Can I apply for a UK Skilled Worker visa from Pakistan without a job offer?",
+              answer:
+                "No. GOV.UK says you must have a confirmed job offer from a Home Office approved employer before you apply. The employer assigns you a certificate of sponsorship, and its reference number is needed for the application. If you don't have a sponsor yet, you can't start the visa application yourself.",
+            },
+            {
+              question: "What is the minimum salary for a UK Skilled Worker visa in 2026?",
+              answer:
+                "Usually at least £41,700 a year or the going rate for your occupation code, whichever is higher. In some cases you can be paid less, but not below £33,400, for example if your job is on the immigration salary list or you're under 26. Health and education roles can follow national pay scales.",
+            },
+            {
+              question: "How much does the Skilled Worker visa cost from Pakistan in total?",
+              answer:
+                "From outside the UK the fee is £819 for up to 3 years or £1,618 for longer, plus the health surcharge of usually £1,035 for each year. A 2-year visa costs £2,889 in total by GOV.UK's example. You'll also need test costs and £1,270 savings unless your employer certifies maintenance.",
+            },
+            {
+              question: "Is IELTS required for the UK Skilled Worker visa?",
+              answer:
+                "You need English at CEFR level B2, not specifically IELTS. You can use an approved Secure English Language Test, a UK degree, or a degree taught in English outside the UK confirmed through Ecctis. Pakistan isn't an exempt country, so most Pakistani applicants must prove English one of these ways.",
+            },
+            {
+              question: "Do Pakistani applicants need a TB test for this visa?",
+              answer:
+                "Yes. Pakistan is on GOV.UK's list of countries where you need a tuberculosis test if you're coming to the UK for 6 months or more. You take a chest x-ray at a Home Office approved clinic in Pakistan, and the certificate is valid for 6 months from the x-ray date.",
+            },
+            {
+              question: "How long does a UK Skilled Worker visa decision take?",
+              answer:
+                "GOV.UK says you'll usually get a decision within 3 weeks if you apply from outside the UK, after you've proved your identity and provided documents. It can take longer if documents need checking or an interview is needed. You may be offered a faster decision for an extra fee.",
+            },
+            {
+              question: "Can I bring my wife and children on a Skilled Worker visa?",
+              answer:
+                "Usually yes, if your job is listed as 'higher skilled'. Family members of people in 'medium skilled' jobs can only join in limited cases. Each dependant pays the visa fee and health surcharge, and needs funds of £285 for a partner, £315 for one child and £200 for each other child.",
+            },
+            {
+              question: "Can I get settlement after the Skilled Worker visa?",
+              answer:
+                "The current GOV.UK page says you may be able to apply for indefinite leave to remain after 5 years in the UK if you meet the other requirements. The UK government has been reviewing settlement rules, so check the official settlement guidance before relying on any timeline for permanent residence.",
+            },
+          ],
+        },
+        {
+          heading: "About this guide",
+          content:
+            "This guide is free information for Pakistani readers, last updated November 2026 from official GOV.UK pages. Travelaxis offers visit visa documentation only and does not prepare, review or support work visa applications. Rules, fees and salary thresholds change, so always use the official Skilled Worker visa checklist on GOV.UK before you apply or pay anyone.",
+        },
+      ],
+    },
+  },
   "australia-skills-in-demand-visa-482-pakistan": {
     title: "Australia Skills in Demand Visa (482) from Pakistan 2026: Salary, Fees and Documents",
     metaTitle: "Australia 482 Skills in Demand Visa from Pakistan (2026)",
