@@ -5,6 +5,206 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "germany-ausbildung-visa-requirements-from-pakistan": {
+    title: "Germany Ausbildung Visa Requirements from Pakistan (2026): B1, Contract, Documents",
+    metaTitle: "Germany Ausbildung Visa Requirements from Pakistan 2026",
+    metaDescription:
+      "Germany Ausbildung visa requirements from Pakistan: training contract, German B1, €75 fee, 20-hour side-work rule and the Islamabad and Karachi process.",
+    keywords: [
+      "germany ausbildung visa requirements from pakistan",
+      "germany ausbildung visa from pakistan",
+      "ausbildung in germany from pakistan",
+      "ausbildung visa germany requirements",
+      "documents required for ausbildung in germany from pakistan",
+      "germany vocational training visa pakistan",
+    ],
+    date: "November 10, 2026",
+    dateModifiedIso: "2026-11-10",
+    readTime: "8 min read",
+    category: "Germany Visa Documentation",
+    cta: {
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/schengen/",
+    },
+    content: {
+      intro:
+        "The Germany Ausbildung visa requirements from Pakistan come down to two things the German missions in Pakistan name first: a valid vocational training contract with a company in Germany, and German at B1 level (CEFR). On top of that you file a national (category D) visa application with attested school certificates, a training plan from the employer, a CV and travel health insurance. The visa fee is €75, paid in cash in Pakistani rupees. Residents of Sindh and Balochistan apply at the Consulate General in Karachi, everyone else through the Embassy in Islamabad. Last updated November 2026: checklists change, so confirm each point on the official German mission page before you apply.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Germany Ausbildung (vocational training) visa for Pakistanis, 2026",
+              items: [
+                "What it is: a national visa for in-company or school-based vocational training, under Section 16a of the German Residence Act.",
+                "Main requirement 1: a valid vocational training contract with a company in Germany.",
+                "Main requirement 2: German language proficiency at B1 (CEFR), for example a Goethe certificate.",
+                "Visa fee: €75 for a long-term (category D) visa, paid in cash in PKR at the current exchange rate.",
+                "Side work: up to 20 hours a week outside the training itself.",
+                "Where to apply: Islamabad (via the Consular Services Portal) or Karachi (in person), depending on where you live.",
+                "Processing time: no fixed time is published for national visas; it varies by case.",
+                "Appeals: the remonstration procedure for visa refusals has been cancelled since 1 July 2025.",
+              ],
+            },
+          ],
+          note:
+            "Official sources: [German Missions in Pakistan, Vocational Training](https://pakistan.diplo.de/pk-en/service/2632952-2632952), the [vocational training checklist PDF](https://pakistan.diplo.de/resource/blob/2582912/4fe4f0169c1c7e408af7a755e1b50880/vocational-training-data.pdf) and the [visa fees and general information page](https://pakistan.diplo.de/pk-en/service/2208622-2208622).",
+        },
+        {
+          heading: "What is the Germany Ausbildung visa?",
+          content:
+            "Ausbildung is Germany's vocational training system: you train for a recognised occupation, usually inside a company and at a vocational school at the same time. For non-EU citizens the legal basis is [Section 16a of the Residence Act](https://www.gesetze-im-internet.de/englisch_aufenthg/englisch_aufenthg.html), which covers in-company training (normally with approval from the Federal Employment Agency) and school-based training that leads to a state-recognised qualification. The Act treats training that lasts at least two years in a state-recognised occupation as quality vocational training. This is a training route, not a work visa for experienced professionals. If you already hold a recognised qualification and want to job-hunt instead, see our [Germany Opportunity Card guide](/blog/germany-opportunity-card-pakistan).",
+        },
+        {
+          heading: "What are the Germany Ausbildung visa requirements from Pakistan?",
+          content:
+            "The German missions in Pakistan summarise the main requirements in two lines: you have a valid vocational training contract with a company in Germany, and you have German language proficiency at level B1 CEFR. The checklist adds detail. The training contract must be signed by you and your employer and recognised by the German Chamber of Industry and Commerce, with an up-to-date joining date. Your employer also provides a vocational training plan. Your school diplomas must be attested by the competent Pakistani authority. English test scores such as IELTS aren't on the checklist, because the training and the vocational school run in German.",
+          note:
+            "Source: [German Missions in Pakistan, Vocational Training](https://pakistan.diplo.de/pk-en/service/2632952-2632952). The Residence Act also says proof of German isn't required in the same way if the training institution has tested your language or you will learn it in a preparatory course; the mission's checklist still asks for B1, so follow the checklist.",
+        },
+        {
+          heading: "What documents are required for the Ausbildung visa?",
+          subsections: [
+            {
+              title: "Checklist from the German mission (originals plus one set of copies)",
+              items: [
+                "Printout of the checklist itself.",
+                "Application form, completed and signed, with a passport photo glued on (not stapled).",
+                "Copy of the first three pages of your current passport.",
+                "Copy of your ID card (CNIC), front and back.",
+                "Application declarations, read and signed by you.",
+                "Printout of your appointment confirmation email.",
+                "Written explanation of any past visa refusals, if this applies to you.",
+                "Educational, academic and professional CV.",
+                "School diplomas, attested by the competent Pakistani authority.",
+                "Vocational training contract, signed by you and the employer and recognised by the German Chamber of Industry and Commerce.",
+                "Vocational training plan from your employer.",
+                "Proof of German at B1 CEFR, for example a Goethe certificate.",
+                "Travel health insurance confirmation, valid from your travel date until your regular German health insurance begins.",
+              ],
+            },
+          ],
+          note:
+            "This list is from the [vocational training checklist PDF](https://pakistan.diplo.de/resource/blob/2582912/4fe4f0169c1c7e408af7a755e1b50880/vocational-training-data.pdf) (dated 10/2024, for Karachi applications). Islamabad applicants see the current document list inside the Consular Services Portal. The mission can ask for other documents, and it can't print a visa in a passport that isn't signed.",
+        },
+        {
+          heading: "How much does the Germany Ausbildung visa cost from Pakistan?",
+          content:
+            "The German missions in Pakistan list €75 for a long-term (category D) visa, due in Pakistani rupees at the current exchange rate and paid in cash at the counter in both Islamabad and Karachi. That's the only official fee on the visa itself. Your other costs depend on your case: the German B1 exam, attestation of school certificates, travel health insurance for the first days or weeks, and your flight. On living costs, German law requires that your subsistence is secure. In in-company training you earn a monthly training allowance, and the mission checks whether your income covers the required monthly amount, which is set each year. If it doesn't, expect to be asked for extra proof of funds. We haven't quoted a euro figure here because the amount changes yearly; check the current number in the Consular Services Portal before you apply.",
+          note:
+            "Source: [Visa fees, German Missions in Pakistan](https://pakistan.diplo.de/pk-en/service/2208622-2208622). The German missions also warn about so-called agents who charge very high prices to 'check' applications; the missions say they aren't related to these agents in any way.",
+        },
+        {
+          heading: "Islamabad or Karachi: where and how do you apply?",
+          subsections: [
+            {
+              title: "German Embassy Islamabad",
+              items: [
+                "Who: residents of Islamabad Capital Territory, Punjab, Khyber Pakhtunkhwa, Gilgit-Baltistan and Azad Jammu and Kashmir.",
+                "How: vocational training is one of the categories handled online through the Consular Services Portal.",
+                "Documents: the portal shows the guidance and the required documents for your category.",
+                "Fee: €75 in PKR, paid in cash at the counter.",
+              ],
+            },
+            {
+              title: "German Consulate General Karachi",
+              items: [
+                "Who: residents of Sindh and Balochistan.",
+                "How: the vocational training page says these applications are, for the time being, still made in person at the Consulate General, with an online appointment.",
+                "Documents: use the vocational training checklist PDF and bring originals plus one set of copies.",
+                "Fee: €75 in PKR, paid in cash at the counter.",
+              ],
+            },
+          ],
+          note:
+            "Start from the [work and training visa page of the German Missions in Pakistan](https://pakistan.diplo.de/pk-en/service/4-work-jobseeker-1676106), which links to the [Consular Services Portal](https://digital.diplo.de/visa-ewt) and the Karachi appointment system. The process has been moving online in stages, so check which channel applies on the day you apply. An incomplete file can cost you the appointment.",
+        },
+        {
+          heading: "Can you work part-time during Ausbildung in Germany?",
+          content:
+            "Yes, within a limit. Under Section 16a of the Residence Act, the residence permit for vocational training lets you take other employment of up to 20 hours a week, separate from the training itself. Your training contract is the main activity and the reason for the visa, so side work can't replace it. If your training ends early through no fault of your own, the Act says you should get up to six months to find another training place before the permit is withdrawn. Rules for staying on after you qualify are separate; check them with the local immigration office in Germany.",
+        },
+        {
+          heading: "What if you don't have a training contract yet?",
+          content:
+            "German law has a separate permit for finding a training place, under Section 17 of the Residence Act. The conditions are stricter: you must be under 35, your subsistence must be secure, you need a school-leaving certificate that gives access to higher education in Germany or in the country where you earned it, and you need a sufficient command of German, which the Act defines as B1. It can be granted for up to nine months and allows up to 20 hours of work a week plus trial work of up to two weeks. The Pakistan mission pages we checked list vocational training (with a contract) as a category but don't show a separate checklist for this search permit, so ask the mission before planning around it. Most Pakistani applicants secure the contract from Pakistan first.",
+          note:
+            "Source: [Residence Act, Sections 2, 16a and 17 (official English translation)](https://www.gesetze-im-internet.de/englisch_aufenthg/englisch_aufenthg.html). The translation may lag behind the German text, so treat the mission's current guidance as final.",
+        },
+        {
+          heading: "Why do Ausbildung visa applications get refused or delayed?",
+          subsections: [
+            {
+              title: "Common problems to avoid",
+              items: [
+                "No B1 certificate, or a lower level than the checklist asks for.",
+                "A training contract that isn't recognised by the chamber, isn't signed by both sides, or has a start date that has already passed.",
+                "School certificates that aren't attested by the competent Pakistani authority.",
+                "Missing training plan from the employer.",
+                "Booking the wrong visa category or the wrong mission for your province; the missions say such applicants won't be served.",
+                "An incomplete set of documents or copies on the day.",
+                "Past visa refusals that aren't explained in writing.",
+              ],
+            },
+          ],
+          note:
+            "These points follow the mission's checklist and appointment rules; they aren't official refusal statistics. Since 1 July 2025 the remonstration procedure for visa refusals is cancelled, so getting the first application right matters more.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What are the Germany Ausbildung visa requirements from Pakistan?",
+              answer:
+                "The German missions in Pakistan list two main requirements: a valid vocational training contract with a company in Germany and German at B1 level. You also submit attested school diplomas, a training plan from the employer, a CV, travel health insurance and the standard forms, and pay the €75 visa fee in rupees.",
+            },
+            {
+              question: "Is German B1 compulsory for an Ausbildung visa from Pakistan?",
+              answer:
+                "The mission's checklist asks for proof of sufficient German at B1 CEFR, for example a Goethe certificate, and names B1 as a main requirement. The Residence Act allows exceptions where the training institution tests your language or a preparatory course is planned, but you should prepare for B1 unless the mission confirms otherwise.",
+            },
+            {
+              question: "Do I need IELTS for Ausbildung in Germany?",
+              answer:
+                "IELTS isn't on the German mission's vocational training checklist. The language proof it asks for is German at B1 level, because the training and the vocational school are taught in German. An English certificate won't replace the German certificate for this visa, so put your preparation time into the German exam.",
+            },
+            {
+              question: "What is the Ausbildung visa fee in Pakistan?",
+              answer:
+                "The German missions in Pakistan list €75 for a long-term (category D) visa. You pay it in Pakistani rupees at the current exchange rate, in cash at the counter in Islamabad or Karachi. Language exam fees, attestation, insurance and travel are separate costs that you pay to those providers, not to the mission.",
+            },
+            {
+              question: "How long does the Germany Ausbildung visa take from Pakistan?",
+              answer:
+                "There's no fixed time. The German missions say processing times for national visas vary a lot and depend on the purpose of stay and the quality of the application and supporting documents. Apply as early as your contract allows, keep your training start date realistic, and don't book flights before you have the visa.",
+            },
+            {
+              question: "Can I work part-time during Ausbildung in Germany?",
+              answer:
+                "Yes. Section 16a of the German Residence Act allows employment of up to 20 hours a week in addition to the vocational training. The training stays your main purpose in Germany, so the side job must fit around your company hours and vocational school. Check your residence permit for the exact wording once it's issued.",
+            },
+            {
+              question: "Is there an age limit for Ausbildung in Germany?",
+              answer:
+                "The mission's vocational training checklist and Section 16a of the Residence Act don't state an age limit for the training visa when you already have a contract. The separate permit for seeking a training place does: you must be under 35. Employers can set their own preferences, so check each training offer.",
+            },
+            {
+              question: "Can I appeal if my Ausbildung visa is refused?",
+              answer:
+                "The German missions in Pakistan state that the remonstration procedure for visa rejections has been cancelled since 1 July 2025. That means you can't ask the mission to simply review the decision as before. Read the refusal letter for the options it gives, fix the weak points and consider a fresh, complete application.",
+            },
+          ],
+        },
+        {
+          heading: "About this guide",
+          content:
+            "This guide is free information for Pakistani readers, last updated November 2026. Travelaxis offers visit visa documentation only and doesn't prepare study, training or work visa applications. Nothing here promises a visa outcome. Rules, fees and checklists change, so use the official checklist from the [German Missions in Pakistan](https://pakistan.diplo.de/pk-en/service/2632952-2632952) and the Consular Services Portal as your final reference before you apply.",
+        },
+      ],
+    },
+  },
   "netherlands-student-visa-from-pakistan": {
     title: "Netherlands Student Visa from Pakistan 2026: Funds, Fees and Documents",
     metaTitle: "Netherlands Student Visa from Pakistan (2026 Guide)",

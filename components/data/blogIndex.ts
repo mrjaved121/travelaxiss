@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "germany-ausbildung-visa-requirements-from-pakistan",
+      title: "Germany Ausbildung Visa Requirements from Pakistan (2026): B1, Contract, Documents",
+      excerpt:
+        "Germany Ausbildung visa requirements from Pakistan: training contract with a German company, German B1, €75 visa fee, the mission's document checklist, the 20-hour side-work rule and where to apply in Islamabad or Karachi.",
+      date: "November 10, 2026",
+      readTime: "8 min read",
+      category: "Germany Visa Documentation",
+    },
+    {
       id: "netherlands-student-visa-from-pakistan",
       title: "Netherlands Student Visa from Pakistan 2026: Funds, Fees and Documents",
       excerpt:
