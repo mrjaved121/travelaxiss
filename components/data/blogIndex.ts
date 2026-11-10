@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "netherlands-student-visa-from-pakistan",
+      title: "Netherlands Student Visa from Pakistan 2026: Funds, Fees and Documents",
+      excerpt:
+        "Netherlands student residence permit from Pakistan: €1,130.77 a month study norm (about €13,569 for 12 months), €254 IND fee, 2-week target decision, MVV from Islamabad, TB test and the 16-hour work rule.",
+      date: "November 10, 2026",
+      readTime: "8 min read",
+      category: "Europe Visa Documentation",
+    },
+    {
       id: "uk-skilled-worker-visa-from-pakistan",
       title: "UK Skilled Worker Visa from Pakistan 2026: Salary, Fees and Documents",
       excerpt:

@@ -5,6 +5,243 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "netherlands-student-visa-from-pakistan": {
+    title: "Netherlands Student Visa from Pakistan 2026: Funds, Fees and Documents",
+    metaTitle: "Netherlands Student Visa from Pakistan (2026 Guide)",
+    metaDescription:
+      "Netherlands study permit from Pakistan: €1,130.77 a month (€13,569 a year) funds, €254 IND fee, MVV from Islamabad, TB test and the 16-hour work rule.",
+    keywords: [
+      "netherlands student visa from pakistan",
+      "netherlands study visa requirements pakistan",
+      "netherlands student visa bank balance",
+      "mvv netherlands pakistan student",
+      "ind student residence permit fee 2026",
+      "study in netherlands from pakistan 2026",
+    ],
+    date: "November 10, 2026",
+    dateModifiedIso: "2026-11-10",
+    readTime: "8 min read",
+    category: "Europe Visa Documentation",
+    cta: {
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/netherlands/",
+    },
+    content: {
+      intro:
+        "To study at a Dutch university or university of applied sciences from Pakistan, you need a student residence permit plus an MVV entry visa, and you can't apply for them yourself: your Dutch institution (a recognised sponsor) applies to the IND for you. For 2026 the IND's study norm is €1,130.77 a month, so you must show about €13,569 for 12 months on top of tuition. The IND fee is €254, the IND aims to decide within 2 weeks on complete applications from recognised sponsors, and you then collect the MVV sticker at the Dutch embassy in Islamabad. This free guide explains each step, last updated November 2026; always confirm on the official IND website before you pay or apply.",
+      sections: [
+        {
+          heading: "Key facts at a glance",
+          subsections: [
+            {
+              title: "Netherlands student permit for Pakistanis (2026)",
+              items: [
+                "What you need: a student residence permit (VVR) and an MVV entry visa. Pakistani citizens are not on the IND's MVV-exempt list.",
+                "Who applies: your educational institution, which must be an IND recognised sponsor. You don't submit the application yourself.",
+                "Money to show: the 2026 study norm of €1,130.77 a month for higher professional education (hbo) or university, for 12 months (about €13,569), not counting tuition.",
+                "IND fee: €254 for a first application for study (all education levels).",
+                "Decision time: a legal decision period of 60 days; the target is 2 weeks for complete applications from recognised sponsors.",
+                "MVV sticker: applied for at the Dutch embassy in Islamabad within 3 months of the IND's positive decision; issuing can take up to 10 working days.",
+                "TB test: required after you arrive, because Pakistan isn't on the IND's TB exemption list.",
+                "Work: no more than 16 hours a week, or only in the summer months, with a work permit from UWV.",
+                "Permit length: the length of your studies plus 3 months, up to a maximum of 5 years.",
+              ],
+            },
+          ],
+          note:
+            "Official sources: [IND student residence permit](https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education), [IND required amounts](https://ind.nl/en/required-amounts-income-requirements) and [IND fees](https://ind.nl/en/fees-costs-of-an-application). Figures checked November 2026. The study norm changes every 1 January, so check again before you transfer money.",
+        },
+        {
+          heading: "How does the Dutch student visa process work for Pakistanis?",
+          content:
+            "The Netherlands uses a sponsor system. First you get admission to a study programme at an institution listed on the IND's [public register of recognised sponsors for study](https://ind.nl/en/public-register-recognised-sponsors/public-register-study). The institution checks you meet the requirements, such as having enough money, and then submits the MVV and residence permit application to the IND for you. Study in NL, the official Dutch platform run by Nuffic, says your host institution will contact you to start this procedure, and if it doesn't you should contact its international office. Once the IND approves, the institution tells you and you apply for the MVV visa sticker at the embassy in Pakistan. After arriving, you collect your residence permit card and take a TB test.",
+        },
+        {
+          heading: "Who is eligible for a Netherlands student residence permit?",
+          subsections: [
+            {
+              title: "What the IND and Study in NL say you need",
+              items: [
+                "Admission to a full-time study programme at a recognised sponsor (university or hbo institution).",
+                "Enough money to live and study for 12 months at the IND study norm.",
+                "A valid passport.",
+                "A completed Appendix Antecedents Certificate (everyone aged 12 or older) declaring any criminal record.",
+                "Willingness to take a TB test after arrival.",
+                "Health insurance that covers you in the Netherlands.",
+                "Meeting your institution's own admission rules, including any English test score it sets.",
+              ],
+            },
+          ],
+          note:
+            "The general rules are on the IND page [requirements that apply to everyone](https://ind.nl/en/requirements-that-apply-to-everyone). The English score is set by your institution, not by a fixed IND number, so check your programme page.",
+        },
+        {
+          heading: "How much bank balance do you need for a Netherlands student visa?",
+          subsections: [
+            {
+              title: "IND study norm, valid 1 January to 31 December 2026",
+              items: [
+                "Higher professional education (hbo) or university: €1,130.77 a month.",
+                "Secondary or senior secondary vocational education (mbo): €928.58 a month.",
+                "For 12 months at university level: 12 x €1,130.77 = €13,569.24.",
+                "This amount doesn't include tuition fees, which you pay separately.",
+              ],
+            },
+            {
+              title: "Ways the IND accepts to prove the money",
+              items: [
+                "Money in your own bank account that you can freely withdraw, shown on a statement no older than 3 months.",
+                "Paying 12 x the study norm into your institution's bank account before it submits your application.",
+                "A scholarship declaration showing the granting body, your details and the start and end dates.",
+                "A financier abroad (for example a parent) with the full amount in an account, plus the Appendix 'Statement of financial support (private person)' and a copy of their passport.",
+                "A company that funds you, with its own statement and bank statement.",
+                "Documents must be in Dutch, English, German or French, or translated.",
+              ],
+            },
+          ],
+          note:
+            "Details are on the IND page [income requirements study](https://ind.nl/en/income-requirements-study). Each study year you also complete the form 'Foreign national's own statement: income within the context of a study'. Your institution tells you which option it accepts and the deadline.",
+        },
+        {
+          heading: "How much does it cost to study in the Netherlands from Pakistan?",
+          subsections: [
+            {
+              title: "Main costs to budget for",
+              items: [
+                "IND fee for the student residence permit: €254.",
+                "Living funds to show: about €13,569 for 12 months (2026 study norm).",
+                "Tuition for non-EU/EEA students: on average €9,000 to €20,000 a year for a bachelor's and €12,000 to €30,000 for a master's, according to Study in NL.",
+                "Application or handling fee at some institutions: €75 to €100.",
+                "Health insurance, translations, passport photos and travel.",
+                "Courier fee if you collect your passport from a Gerry's collection centre instead of the embassy.",
+              ],
+            },
+            {
+              title: "Netherlands vs Ireland vs Germany for Pakistani students (2026)",
+              items: [
+                "Netherlands: €13,569.24 for 12 months, institution applies to the IND, 16 hours a week work limit.",
+                "Ireland: €10,000 per academic year, you apply yourself online, 20 hours a week in term. See our [Ireland student visa guide](/blog/ireland-student-visa-from-pakistan).",
+                "Germany: funds usually shown in a blocked account, you apply at the German mission. See our [Germany blocked account guide](/blog/germany-student-visa-blocked-account-pakistan).",
+              ],
+            },
+          ],
+          note:
+            "Tuition figures are from [Study in NL tuition fees](https://www.studyinnl.org/finances/tuition-fees). Check the exact fee for your programme on the institution's own website.",
+        },
+        {
+          heading: "What documents do Pakistani students need?",
+          subsections: [
+            {
+              title: "For your institution (it submits to the IND)",
+              items: [
+                "Valid passport copy.",
+                "Admission or enrolment documents for your programme.",
+                "Proof of funds in one of the IND-accepted forms, no older than 3 months.",
+                "Appendix 'Foreign national's own statement: income within the context of a study'.",
+                "Appendix Antecedents Certificate, signed.",
+                "Any other forms or documents your institution's international office asks for.",
+              ],
+            },
+            {
+              title: "For your MVV appointment at the embassy in Islamabad",
+              items: [
+                "Passport valid for at least 6 months from the appointment date, with at least 2 empty pages, plus a photocopy of the photo page.",
+                "A passport photo that meets Dutch requirements.",
+                "The email from your educational institution containing your V number (students don't need a copy of the IND letter).",
+                "All other documents listed in the IND's positive decision, with photocopies.",
+              ],
+            },
+          ],
+          note:
+            "Embassy steps are from [NetherlandsWorldwide: MVV visa sticker in Pakistan](https://www.netherlandsworldwide.nl/visa-the-netherlands/mvv-long-stay/apply-pakistan). Book by emailing isl-ca@minbuza.nl with the subject 'Mvv appointment request'; confirmation can take up to 3 working days.",
+        },
+        {
+          heading: "How long does the Netherlands student visa take?",
+          content:
+            "The IND has a legal decision period of 60 days for study applications. If a recognised sponsor submits a complete application, the IND says its target is 2 weeks. After approval you have 3 months to apply for the MVV sticker. You hand in your passport at the embassy appointment, and the sticker can take up to 10 working days. You choose to collect it at the embassy in Islamabad or a Gerry's centre near you. Study in NL recommends starting early because collecting documents for your institution can take time, especially before the September intake. See the IND [decision periods](https://ind.nl/en/after-your-application/decision-periods) page.",
+        },
+        {
+          heading: "Can Pakistani students work in the Netherlands?",
+          content:
+            "Yes, but with limits. According to the IND, students with a student residence permit may work no more than 16 hours a week, or only in the summer months, and need a work permit from the Employee Insurance Agency (UWV) to do so. Study in NL adds that as soon as you have a part-time job you must take out Dutch public health insurance. Don't plan to pay tuition or rent from part-time work: you must show the full study norm before the IND decides, and job income doesn't replace that proof. Read the IND article [international students and the IND](https://ind.nl/en/about-us/background-articles/international-students-and-the-ind).",
+        },
+        {
+          heading: "What health insurance do international students need?",
+          content:
+            "By law you must have health insurance. Study in NL says students who are in the Netherlands only to study are not allowed to take out Dutch public health insurance, so you need insurance from home with enough cover or a private policy. If you take a part-time job, Dutch public health insurance becomes compulsory. If you get a letter from the CAK about your insurance, act within 3 months or you may be fined €529.72. See [Study in NL healthcare insurance](https://www.studyinnl.org/plan-your-stay/healthcare-insurance).",
+        },
+        {
+          heading: "What can stop your permit or cause problems?",
+          subsections: [
+            {
+              title: "Common issues to avoid",
+              items: [
+                "Choosing an institution that isn't a recognised sponsor. Only recognised sponsors can apply for you.",
+                "Funds that are short of 12 x the study norm, not freely withdrawable, or shown on statements older than 3 months.",
+                "Missing financier documents, such as the signed support statement or the financier's passport copy.",
+                "Untranslated documents (they must be in Dutch, English, German or French).",
+                "Not answering the Antecedents Certificate fully and honestly.",
+                "Missing the 3-month window to apply for the MVV after approval.",
+                "Weak study progress later: the IND says students must obtain at least 50% of their credits each year to keep the permit.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "What happens after you finish your studies?",
+          content:
+            "Graduates can apply for a separate residence permit for the 'orientation year' (zoekjaar hoogopgeleiden) to stay for a year to look for a job or start a business. The IND lists a €254 fee for a first application. This is a different permit with its own rules, so read the IND [orientation year page](https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year) before you graduate.",
+        },
+        {
+          heading: "Frequently asked questions",
+          faqs: [
+            {
+              question: "How much bank balance is required for a Netherlands student visa from Pakistan?",
+              answer:
+                "For 2026 the IND study norm for university or hbo students is €1,130.77 a month, and you must show 12 months, about €13,569.24, excluding tuition. You can show it in your own account, a parent's account with a support statement, a scholarship, or by paying it to your institution.",
+            },
+            {
+              question: "Can I apply for a Dutch student visa myself from Pakistan?",
+              answer:
+                "Not for university or hbo study. Only an IND recognised sponsor, meaning your educational institution, can submit the student residence permit application for you. You give your documents to the institution, it applies to the IND, and after approval you apply for the MVV sticker at the embassy in Islamabad.",
+            },
+            {
+              question: "What is the IND fee for a student residence permit in 2026?",
+              answer:
+                "The IND lists €254 for a first application or change of purpose for study, at all education levels, and €254 for an extension. Your institution often pays this and charges you, so check its instructions. Tuition, health insurance and courier fees are separate costs on top of the IND fee.",
+            },
+            {
+              question: "How long does the Netherlands student visa take?",
+              answer:
+                "The legal decision period is 60 days, but the IND aims to decide within 2 weeks on complete applications from recognised sponsors. After approval you have 3 months to apply for the MVV at the embassy in Islamabad, and the sticker can take up to 10 working days to be ready.",
+            },
+            {
+              question: "Is IELTS required to study in the Netherlands?",
+              answer:
+                "The IND doesn't set a fixed IELTS score for the student permit. Your institution decides the English requirement as part of admission, and many programmes ask for a test such as IELTS or TOEFL. Check the exact score and accepted tests on your programme page before you apply for admission.",
+            },
+            {
+              question: "Can I work while studying in the Netherlands?",
+              answer:
+                "Yes, within limits. The IND says students may work no more than 16 hours a week, or only in the summer months, and need a work permit from UWV. Once you have a job, Dutch public health insurance becomes compulsory. Part-time work doesn't replace the funds you must show.",
+            },
+            {
+              question: "Do Pakistani students need a TB test for the Netherlands?",
+              answer:
+                "Yes. Pakistan isn't on the IND's list of nationalities exempt from the tuberculosis test, so you take the TB test after you arrive in the Netherlands. Your institution or the IND will explain where and when. You also sign the Antecedents Certificate when your application is made.",
+            },
+          ],
+        },
+        {
+          heading: "About this guide",
+          content:
+            "This is a free information guide, last updated November 2026. Travelaxis offers visit visa documentation only: we don't prepare Dutch study visa or residence permit applications or guarantee any outcome. Always follow your institution's instructions and the official checklist on [ind.nl](https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education), and confirm fees and the study norm on the IND website before paying. If you're planning a short family visit to the Netherlands instead, see our visit visa page.",
+        },
+      ],
+    },
+  },
   "uk-skilled-worker-visa-from-pakistan": {
     title: "UK Skilled Worker Visa from Pakistan 2026: Salary, Fees and Documents",
     metaTitle: "UK Skilled Worker Visa from Pakistan: 2026 Guide",
