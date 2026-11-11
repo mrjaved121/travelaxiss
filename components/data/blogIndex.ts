@@ -9,6 +9,15 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      id: "australia-student-visa-fee-from-pakistan",
+      title: "Australia Student Visa Fee from Pakistan 2026: AUD 2,500 and the Other Costs",
+      excerpt:
+        "Australia student visa fee from Pakistan: AUD 2,500 for the main applicant since 1 July 2026, no card surcharge, OSHC and health check costs, the new limit on including family, and AUD 29,710 living funds to show.",
+      date: "November 11, 2026",
+      readTime: "8 min read",
+      category: "Australia Visa Documentation",
+    },
+    {
       id: "germany-ausbildung-visa-requirements-from-pakistan",
       title: "Germany Ausbildung Visa Requirements from Pakistan (2026): B1, Contract, Documents",
       excerpt:

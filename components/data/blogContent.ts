@@ -5,6 +5,193 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "australia-student-visa-fee-from-pakistan": {
+    title: "Australia Student Visa Fee from Pakistan 2026: AUD 2,500 and the Other Costs",
+    metaTitle: "Australia Student Visa Fee from Pakistan (2026 Costs)",
+    metaDescription:
+      "Australia student visa fee from Pakistan in 2026: AUD 2,500 for the main applicant, plus OSHC, health checks, biometrics and AUD 29,710 living funds.",
+    keywords: [
+      "australia student visa fee from pakistan",
+      "australia study visa fee from pakistan",
+      "australia student visa total cost from pakistan",
+      "australia student visa fee for pakistani 2026",
+      "subclass 500 visa application charge",
+      "australia student visa bank statement pakistan",
+      "australia student visa",
+    ],
+    date: "November 11, 2026",
+    dateModifiedIso: "2026-11-11",
+    readTime: "8 min read",
+    category: "Australia Visa Documentation",
+    cta: {
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      label: "See Visit Visa Support",
+      href: "/visit-visa/australia/",
+    },
+    content: {
+      intro:
+        "The Australia student visa fee from Pakistan is AUD 2,500 for the main applicant in November 2026. That is the figure the Department of Home Affairs' own Visa Pricing Estimator returns for a Student visa (subclass 500) lodged outside Australia on a Pakistani passport, and it has applied since 1 July 2026 (it was AUD 2,000 before that). The fee is charged in Australian dollars, so the rupee amount depends on your card or bank's exchange rate on the day you pay. On top of the fee you pay for health insurance (OSHC), health checks, a police certificate and biometrics, and you must be able to show at least AUD 29,710 in living costs plus tuition and travel. Last updated November 2026. Fees change, usually on 1 July, so run the official estimator again before you pay.",
+      sections: [
+        {
+          heading: "Australia student visa costs for Pakistani applicants at a glance",
+          subsections: [
+            {
+              title: "Official figures (checked 11 November 2026)",
+              items: [
+                "Visa application charge, main applicant (higher education, vocational and postgraduate research): AUD 2,500.",
+                "Visa application charge if your only course is a standalone English course (ELICOS sector): AUD 2,050.",
+                "Additional applicant aged 18 or over, where a family member is allowed on the application: AUD 1,530.",
+                "Additional applicant under 18, where allowed: AUD 500.",
+                "Card, PayPal and UnionPay surcharge: none since 1 October 2026.",
+                "Living costs you must be able to show for 12 months: AUD 29,710.",
+                "Travel costs to include when applying from Pakistan: AUD 2,000.",
+                "Tuition to include: the first 12 months of course fees, minus what you've already paid.",
+              ],
+            },
+          ],
+          note:
+            "Sources: [Home Affairs Visa Pricing Estimator](https://immi.homeaffairs.gov.au/Visa-subsite/Pages/visa-pricing-estimator.aspx), [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500) and [surcharges for payments](https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/explanation-of-visa-application-charges/surcharges). The estimator doesn't include the other costs listed below.",
+        },
+        {
+          heading: "How much is the Australia student visa fee from Pakistan in 2026?",
+          content:
+            "The visa application charge for a Student visa (subclass 500) is AUD 2,500 for the main applicant. We checked this on 11 November 2026 in the official [Visa Pricing Estimator](https://immi.homeaffairs.gov.au/Visa-subsite/Pages/visa-pricing-estimator.aspx) by choosing subclass 500, Pakistan as the country of passport and an application lodged outside Australia. The same tool shows AUD 2,000 for applications lodged between 1 July 2025 and 30 June 2026, and AUD 1,600 before 1 July 2025, so many older blog posts and agent price lists are out of date. Pakistan is not on the list of countries that get a lower fee: the concession on the [Student visa page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500) covers eligible Pacific Island, Timor-Leste and ASEAN passport holders only. You pay the charge online in ImmiAccount when you lodge. Home Affairs says it can't process an application if the correct charge isn't paid.",
+        },
+        {
+          heading: "How much is the fee in Pakistani rupees?",
+          content:
+            "There is no official rupee price. Home Affairs sets and collects the charge in Australian dollars, and your bank converts it at its own rate and may add its own international transaction fee. To estimate it, multiply AUD 2,500 by your bank's AUD selling rate on the day and ask the bank what it charges for foreign currency card payments. One piece of good news: Home Affairs stopped adding its own surcharge to card, PayPal and UnionPay payments from 1 October 2026, according to its [surcharges page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/fees-and-charges/explanation-of-visa-application-charges/surcharges). Be careful with any website or agent quoting a fixed PKR amount as the 'official' fee.",
+        },
+        {
+          heading: "Can you add your spouse or children, and what does it cost?",
+          content:
+            "For most Pakistani students the answer is now no. From 2 October 2026, Home Affairs says Student visa applicants can no longer include family members (a partner or dependent children) in their application unless an exemption applies, and family members can't be added after the visa is granted. The listed exemptions include PhD students, students sponsored by Australia's Department of Foreign Affairs and Trade or Defence, and foreign government scholarship recipients. If you are exempt, the estimator shows AUD 1,530 for each additional applicant aged 18 or over and AUD 500 for each child under 18, and everyone on the application must be in the same location when it's lodged. Read the official [family members page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members) before you make family plans.",
+          note:
+            "If you are exempt and bring family, the funds you must show go up too: AUD 10,394 a year for a partner, AUD 4,449 for a child and at least AUD 13,502 a year in school fees for each school-age child.",
+        },
+        {
+          heading: "What other costs come with an Australia student visa?",
+          content:
+            "The Student visa page says you might also have to pay for health checks, police certificates and biometrics, and that the pricing estimator doesn't count these. None of them is paid to Home Affairs as part of the AUD 2,500.",
+          subsections: [
+            {
+              title: "Costs outside the visa fee",
+              items: [
+                "Overseas Student Health Cover (OSHC): compulsory, bought from an approved Australian insurer or arranged by your education provider. It must start on the day you arrive, not the day your course starts. The price depends on the insurer and the length of your visa.",
+                "Health examinations: if required, you book them with a clinic approved by Home Affairs using your HAP ID. The clinic sets the fee.",
+                "Biometrics: Home Affairs might ask for them. Most applicants are told straight after submitting and get 14 days to attend.",
+                "Police certificate: obtained from the Pakistani police at the local fee.",
+                "English test: for example IELTS, PTE Academic or TOEFL iBT, paid to the test provider. At-home online versions aren't accepted.",
+                "Tuition deposit: paid to your university or college to get your Confirmation of Enrolment (CoE). This isn't a visa cost but you can't lodge without a CoE.",
+              ],
+            },
+          ],
+          note:
+            "Home Affairs says that if you don't give your OSHC details in the application form, the application will be refused. See the health insurance section of the [Student visa page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500).",
+        },
+        {
+          heading: "How much bank balance do you need to show?",
+          content:
+            "The visa fee is what you pay. The financial requirement is money you must be able to show. At a minimum Home Affairs asks for enough to cover your travel, 12 months of course fees and 12 months of living costs. For a single student that is AUD 29,710 in living costs, plus AUD 2,000 for travel when applying from Pakistan, plus the first 12 months of tuition minus anything already paid.",
+          subsections: [
+            {
+              title: "Worked example using the official formula",
+              items: [
+                "Course fee: AUD 50,000 for 3 years, so 12 months is AUD 16,666 (this is Home Affairs' own example).",
+                "Living costs for 12 months: AUD 29,710.",
+                "Travel from Pakistan: AUD 2,000.",
+                "Total to show: AUD 48,376, less any tuition you've already paid and can prove with a receipt or your CoE.",
+              ],
+            },
+            {
+              title: "Evidence Home Affairs lists",
+              items: [
+                "Deposits of money with a financial institution.",
+                "A government loan or a loan from a financial institution.",
+                "Scholarships or similar financial support.",
+                "Or, instead: official government documents (such as tax assessments less than 12 months old) showing your parents or partner had a personal annual income of at least AUD 87,856. Bank statements and employer letters aren't accepted for this income option.",
+              ],
+            },
+          ],
+          note:
+            "Home Affairs warns that real living costs can be much higher than the visa minimum and that you shouldn't rely on work to support yourself. Student visa holders can work up to 48 hours a fortnight while their course is in session.",
+        },
+        {
+          heading: "Visa fee vs money to show: what is the difference?",
+          subsections: [
+            {
+              title: "Money you actually pay",
+              items: [
+                "AUD 2,500 visa application charge to Home Affairs.",
+                "OSHC premium to the insurer or your provider.",
+                "Clinic, biometrics, police certificate and English test fees.",
+                "Tuition deposit to your education provider.",
+              ],
+            },
+            {
+              title: "Money you only need to prove",
+              items: [
+                "AUD 29,710 living costs for 12 months.",
+                "AUD 2,000 travel costs.",
+                "The unpaid part of your first 12 months of tuition.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How long does the visa take after you pay?",
+          content:
+            "Applications lodged outside Australia are processed in priority order under Ministerial Direction 115. Home Affairs says it aims to start processing Priority 1 applications within 1 to 4 weeks of lodgement, Priority 2 within 5 to 8 weeks and Priority 3 within 9 to 12 weeks. For higher education and vocational students the priority depends on whether your education provider has reached its student allocation threshold on the day you lodge, and it doesn't affect whether the visa is granted or refused. These are times to begin processing, not decision times, and they can change. Check your provider's status and the current guidance on the [Student visa processing priorities page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/visa-processing-priorities/student-visa), and prepare your [Genuine Student answers](/blog/australia-student-visa-genuine-student-requirement-pakistan) before you pay.",
+        },
+        {
+          heading: "Frequently Asked Questions",
+          faqs: [
+            {
+              question: "What is the Australia student visa fee from Pakistan in 2026?",
+              answer:
+                "The Home Affairs Visa Pricing Estimator shows AUD 2,500 for the main applicant on a Student visa (subclass 500) lodged outside Australia with a Pakistani passport, as checked on 11 November 2026. That amount has applied since 1 July 2026. Before that it was AUD 2,000. Always re-check the estimator before paying.",
+            },
+            {
+              question: "How much is the Australia student visa fee in Pakistani rupees?",
+              answer:
+                "There's no fixed rupee fee. The charge is AUD 2,500 and your bank converts it at its own selling rate, sometimes with an international transaction fee on top. Home Affairs itself stopped adding card, PayPal and UnionPay surcharges from 1 October 2026. Ask your bank for its rate on the day you pay.",
+            },
+            {
+              question: "Do Pakistani students get a discount on the Australia student visa fee?",
+              answer:
+                "No. The lower visa cost on the Home Affairs Student visa page applies to eligible Pacific Island, Timor-Leste and ASEAN passport holders. Pakistan isn't on that list, and the estimator returns the full AUD 2,500 for a Pakistani passport. The only lower figure is AUD 2,050 for standalone English (ELICOS) courses.",
+            },
+            {
+              question: "Can I include my wife or husband in my Australia student visa application?",
+              answer:
+                "Usually not. Since 2 October 2026, Student visa applicants can't include a partner or children unless an exemption applies, such as PhD study or a foreign government scholarship, and family can't be added after the visa is granted. If you're exempt, each adult family member costs AUD 1,530 and each child AUD 500.",
+            },
+            {
+              question: "How much bank statement is required for an Australia student visa from Pakistan?",
+              answer:
+                "At a minimum you need 12 months of living costs (AUD 29,710 for a single student), AUD 2,000 for travel and your first 12 months of course fees, minus tuition already paid. Home Affairs accepts deposits with a financial institution, eligible loans and scholarships as evidence, depending on what your document checklist asks for.",
+            },
+            {
+              question: "Is OSHC included in the Australia student visa fee?",
+              answer:
+                "No. Overseas Student Health Cover is a separate health insurance policy from an approved Australian insurer, often arranged through your education provider. It must cover you from the day you arrive until you leave. Home Affairs says it will refuse an application that doesn't give OSHC details in the form.",
+            },
+            {
+              question: "Which IELTS score do I need for an Australia student visa?",
+              answer:
+                "For tests taken on or after 7 August 2025, Home Affairs lists IELTS 6.0 overall for direct entry, 5.5 if your course is packaged with at least 10 weeks of ELICOS or an eligible foundation or pathway program, and 5.0 with at least 20 weeks of ELICOS. PTE Academic equivalents are 47, 39 and 31.",
+            },
+          ],
+        },
+        {
+          heading: "About this guide",
+          content:
+            "This is a free information guide, last updated November 2026. Travelaxis offers visit visa documentation only: we don't prepare Australia student visa applications or guarantee any outcome. Every figure here comes from the Department of Home Affairs website and its pricing estimator on 11 November 2026, and fees and rules can change without notice. Use the official [Student visa (subclass 500) page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500), its Document Checklist tool and the [Visa Pricing Estimator](https://immi.homeaffairs.gov.au/Visa-subsite/Pages/visa-pricing-estimator.aspx) as your checklist before you pay anything.",
+        },
+      ],
+    },
+  },
   "germany-ausbildung-visa-requirements-from-pakistan": {
     title: "Germany Ausbildung Visa Requirements from Pakistan (2026): B1, Contract, Documents",
     metaTitle: "Germany Ausbildung Visa Requirements from Pakistan 2026",
