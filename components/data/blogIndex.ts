@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "how-to-apply-for-sweden-student-visa-from-pakistan",
+      "title": "How to Apply for a Sweden Student Visa from Pakistan Yourself (2026 Step-by-Step)",
+      "excerpt": "How to apply for a Sweden student visa from Pakistan without an agent: the 8 official steps, SEK 1,500 fee, SEK 10,656 a month funds rule, documents, key 2027 deadlines and the requirement gaps that get applications refused.",
+      "date": "November 11, 2026",
+      "readTime": "10 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "canada-work-permit-fee-from-pakistan",
       "title": "Canada Work Permit Fee from Pakistan 2026: CAD 155, Biometrics and Who Pays What",
       "excerpt": "Canada work permit fee from Pakistan: CAD 155 per person, CAD 85 biometrics, CAD 100 extra for an open work permit, no separate visa fee, and which costs belong to the Canadian employer, not the worker.",

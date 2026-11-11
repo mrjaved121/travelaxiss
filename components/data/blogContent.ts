@@ -5,6 +5,175 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "how-to-apply-for-sweden-student-visa-from-pakistan": {
+    "title": "How to Apply for a Sweden Student Visa from Pakistan Yourself (2026 Step-by-Step)",
+    "metaTitle": "How to Apply for Sweden Student Visa from Pakistan",
+    "metaDescription": "How to apply for a Sweden student visa from Pakistan yourself: official links, SEK 1,500 fee, SEK 10,656 a month funds, documents, steps. No agent needed.",
+    "keywords": [
+      "how to apply for sweden student visa from pakistan",
+      "how to apply for sweden study visa from pakistan",
+      "sweden study visa process from pakistan",
+      "sweden study visa from pakistan requirements",
+      "sweden study visa from pakistan cost",
+      "sweden residence permit for studies pakistan",
+      "sweden student visa"
+    ],
+    "date": "November 11, 2026",
+    "dateModifiedIso": "2026-11-11",
+    "readTime": "10 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/sweden/"
+    },
+    "content": {
+      "intro": "To apply for a Sweden student visa from Pakistan, you first get admitted through [University Admissions in Sweden](https://www.universityadmissions.se/en/), pay your tuition fee, and then apply online to the Swedish Migration Agency for a 'residence permit for studies at higher education'. That residence permit is what people call the Sweden student visa. The application fee is SEK 1,500 for an adult, and you must show at least SEK 10,656 per month in your own bank account for applications made in 2026. Three out of four recent cases were decided within 3 months. You can do every step yourself on official websites, and no agent is required. Nobody can guarantee a permit, but a complete, early application gives you the best chance. Last updated November 2026. Rules and amounts change, so confirm each one on the official pages linked below before you pay.",
+      "sections": [
+        {
+          "heading": "Sweden student visa from Pakistan at a glance",
+          "subsections": [
+            {
+              "title": "Key facts from official sources (checked 11 November 2026)",
+              "items": [
+                "What you apply for: a residence permit for studies at higher education, decided by the Swedish Migration Agency (Migrationsverket). It must be issued before you travel.",
+                "Where you apply: the e-service on the Swedish Migration Agency's website. You don't apply through an agent or a visa shop.",
+                "Residence permit fee: SEK 1,500 for adults and SEK 750 for children under 18. It is not refunded if the application is rejected.",
+                "Money to show: at least SEK 10,656 per month for applications made in 2026, for the whole period you apply for. Add SEK 4,440 per month for a spouse and SEK 2,664 per month for each child.",
+                "Tuition: must be paid before you apply. You are only 'finally admitted' once the tuition fee is paid.",
+                "University application fee: SEK 900 per semester, paid to University Admissions in Sweden.",
+                "Waiting time: 75% of recently decided cases were decided within 3 months. There is no priority service.",
+                "Work while studying: a maximum of 15 hours per week during semesters for bachelor's and master's students whose permit was granted on or after 11 June 2026."
+              ]
+            }
+          ],
+          "note": "Sources: [Swedish Migration Agency, residence permit for higher education](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html) and [University Admissions application fee](https://www.universityadmissions.se/en/fees-scholarships-residence-permit/pay-your-application-fee/). All amounts are in Swedish kronor. The rupee amount depends on your bank's rate on the day."
+        },
+        {
+          "heading": "Do you need an agent for a Sweden student visa from Pakistan?",
+          "content": "No. Admission is done on [universityadmissions.se](https://www.universityadmissions.se/en/), the official application website for Swedish universities, and the residence permit is done in the Swedish Migration Agency's own [e-service](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html). Both are in English and both are built for applicants to use themselves. To apply online you only need a valid email address, a Visa or Mastercard to pay the fee, and a way to scan or photograph your documents. The [Embassy of Sweden in Islamabad](https://www.swedenabroad.se/en/about-sweden-non-swedish-citizens/pakistan/going-to-sweden/) handles study permit matters on behalf of the Migration Agency, and its migration section only sees people with a confirmed appointment. Scam warning: the Migration Agency processes applications in the order they arrive and says it is not possible to get priority, so anyone selling a 'guaranteed' or 'fast-track' Sweden visa is not telling the truth. Don't pay anyone for an admission letter, a visa or a job offer, never hand over your portal login, and never let anyone add fake bank statements to your file. Incorrect information can get an application refused or a permit revoked later."
+        },
+        {
+          "heading": "How to apply for a Sweden student visa from Pakistan: step by step",
+          "content": "Follow these steps in order. Each one links to the official page where you do it.",
+          "subsections": [
+            {
+              "title": "The 8 steps",
+              "items": [
+                "1. Apply for admission. Create an account on [universityadmissions.se](https://www.universityadmissions.se/en/), choose your courses or programmes and rank them. For the autumn 2027 semester, the first admissions round (the one meant for international students) opened on 16 October 2026 and the application deadline is 15 January 2027. See the [official key dates](https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/).",
+                "2. Pay the SEK 900 application fee and upload your documents. For autumn 2027 the fee deadline and the supporting documents deadline are both 1 February 2027. You pay one fee per semester, no matter how many programmes you choose. Details are on the [application fee page](https://www.universityadmissions.se/en/fees-scholarships-residence-permit/pay-your-application-fee/).",
+                "3. Wait for your admission result. For autumn 2027, results are published on 1 April 2027 for master's and 8 April 2027 for bachelor's programmes. Your university will contact you if you must reply.",
+                "4. Pay your tuition fee to the university. The Migration Agency only treats you as finally admitted once tuition is paid, and the university tells the agency when it has been paid. The amount and payment method are set by your university, so follow the instructions in your admission letter.",
+                "5. Collect your documents and apply online. Open the [residence permit for higher education page](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html), go to the application tab and start the 'E-service for first- or second-cycle studies'. Fill in the form, upload your documents, choose the embassy you will visit (Islamabad for most people living in Pakistan) and pay SEK 1,500 by card. Apply as soon as tuition is paid.",
+                "6. Do the passport check. Before a decision, the agency must check your passport. Some applicants get an email with a personal link for a [digital passport check](https://www.migrationsverket.se/en/word-explanations/digital-passport-check.html), which is valid for only 7 days and needs a passport with a chip. If you can't do it digitally, the agency will tell you to show your passport in person.",
+                "7. Visit the embassy only when asked. If the agency asks for an interview, a passport check or biometrics, request a slot with the embassy's [appointment form](https://www.swedenabroad.se/en/about-sweden-non-swedish-citizens/pakistan/going-to-sweden/working-in-sweden/book-an-appointment/). The embassy says it does not charge for biometric enrolment, collecting a residence permit card or collecting a decision ([embassy fees page](https://www.swedenabroad.se/en/about-sweden-non-swedish-citizens/pakistan/going-to-sweden/working-in-sweden/fees/)).",
+                "8. Get your decision and card. You get an email when the decision is made. If it is approved, Pakistani applicants (who need a visa to enter Sweden) must give fingerprints and a photo at the embassy and wait for the residence permit card before travelling. You show the card with your passport when you enter Sweden. See [what happens after approval](https://www.migrationsverket.se/en/you-have-received-a-decision/study/your-application-has-been-approved.html)."
+              ]
+            }
+          ],
+          "note": "The second admissions round (15 March to 15 April 2027) is mainly for students already in Sweden. University Admissions warns that non-EU students who need a residence permit will most likely not have time to get one in that round, so aim for the 15 January deadline."
+        },
+        {
+          "heading": "Which documents do you need for the Sweden residence permit?",
+          "content": "The Migration Agency lists the documents on its [official page](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html). Everything must be in Swedish or English. If a document is in Urdu, attach a certified translation plus a copy of the original.",
+          "subsections": [
+            {
+              "title": "Official document list",
+              "items": [
+                "Copies of your passport, made the way the agency describes. You can never get a permit for longer than your passport is valid, so renew a passport that is close to expiry first.",
+                "Admission decision from the university. It must say you are finally admitted to full-time studies and that you will study on site in Sweden. Distance learning doesn't qualify. Full-time means 30 credits per semester.",
+                "Proof of money: a bank statement showing the account holder, bank name, date of issue, balance and currency. It must be issued no more than four months before the date you want the permit to start.",
+                "Scholarship letter, if you have one, showing the provider, your name, the period, the amount, when it is paid and how much is for living costs.",
+                "Health insurance proof only if your studies last less than one year. The policy must cover emergency and other medical care, hospital stays, emergency dental care and medical transport home. For studies of one year or more you register in Sweden's population register instead.",
+                "If family applies with you: their passport copies, a marriage certificate, children's birth certificates, proof of the family's funds, and written consent from the other parent if a child's other guardian stays in Pakistan."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much bank balance do you need for a Sweden student visa?",
+          "content": "The maintenance requirement is at least SEK 10,656 per month if you apply in 2026, and the money must cover the entire period you are applying for. As a simple example, 12 months is SEK 127,872 and 24 months is SEK 255,744. The amount is updated each year (it was SEK 10,584 in 2025) and the 2027 figure was not yet published on the [official page](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html) when we checked, so if you apply in 2027 use the number shown there on the day. The money must be in an account in your own name that only you (and a spouse applying with you) can withdraw from. This is where many Pakistani applicants go wrong: private individuals are not accepted as sponsors. Money from parents or relatives must be transferred into your own account and shown as your own bank assets. Credit, shares, funds, locked deposits that stay frozen during the permit period and accounts in a microfinance bank are not accepted. If your university or an exchange organisation gives you free housing or food, the monthly amount can be reduced by SEK 4,736 for housing and SEK 2,960 for food."
+        },
+        {
+          "heading": "Why do Sweden student permit applications get refused, and how do you avoid it?",
+          "content": "The Migration Agency doesn't publish a ranked list of refusal reasons for Pakistani applicants, and each decision letter gives its own reasons. What it does say is that if it can immediately see you don't meet the requirements, it may reject the application straight away. So the practical way to protect yourself is to check your file against each published requirement before you pay.",
+          "subsections": [
+            {
+              "title": "Requirement gaps to fix before you apply",
+              "items": [
+                "Tuition not yet paid. You are not finally admitted until it is, so pay first and apply second.",
+                "Money in a parent's or relative's account. Move it into your own account and show your own statement.",
+                "Not enough money for the whole period, or money held in locked deposits, shares or a microfinance bank.",
+                "An old bank statement. It must be issued within four months of the date you want the permit to start.",
+                "Admission to distance or part-time study. Only full-time, on-site studies qualify.",
+                "A passport that expires soon, or unclear passport copies.",
+                "Urdu documents without a certified translation and a copy of the original.",
+                "No insurance proof for a programme shorter than one year.",
+                "Incorrect or missing information. The agency can refuse, or later revoke a permit, if you gave incorrect information or left out something important."
+              ]
+            },
+            {
+              "title": "Checklist to raise your chances",
+              "items": [
+                "Apply as soon as tuition is paid. The agency's own [5 tips](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education/5-tips-to-increase-your-chances-of-a-decision-before-the-semester.html) say this gives the best chance of a decision before the semester.",
+                "Upload every document the first time. Being asked for more documents later makes the decision take longer.",
+                "Use the e-service, not the paper form. The agency calls it the easiest way to apply.",
+                "Check your email (and spam folder) daily. The digital passport check link expires after 7 days.",
+                "Answer every request from the agency quickly and truthfully.",
+                "Keep the same name spelling as your passport on every document."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What happens after the decision?",
+          "content": "If the permit is granted, you may live and study in Sweden while it is valid. You can be granted a permit for a maximum of one or two years at a time, depending on your university, and you can apply to extend it. If you will stay a year or more, you register with the Swedish Tax Agency after arrival. Know the [new rules in force since 11 June 2026](https://www.migrationsverket.se/en/newsarchive/newrulesforresidencepermitsforstudiesinhighereducation.5.7e7ff7f619e5ace55a714.html): bachelor's and master's students may work a maximum of 15 hours per week during semesters (no limit in June, July and August), you must tell the Migration Agency your address within 30 days unless your population registration is complete, and to extend your permit you need 37.5 credits in the first year and 45 credits per year after that. Working more than allowed can get the permit revoked. If the application is rejected, the fee is not refunded. You can appeal, and the decision letter explains how to appeal and the deadline; a court then reviews the decision. The [rejection page](https://www.migrationsverket.se/en/you-have-received-a-decision/study/your-application-has-been-rejected.html) explains this. Read the reasons in your letter carefully, because any new application needs to fix exactly those points."
+        },
+        {
+          "heading": "Sweden student visa from Pakistan: FAQs",
+          "faqs": [
+            {
+              "question": "How do I apply for a Sweden student visa from Pakistan?",
+              "answer": "Get admitted through universityadmissions.se, pay your tuition fee, then apply in the Swedish Migration Agency's e-service for a residence permit for studies at higher education. Upload your passport copies, admission decision and bank statement, pay SEK 1,500 by card, complete the passport check, and visit the embassy in Islamabad only when the agency asks you to."
+            },
+            {
+              "question": "What is the Sweden student visa fee from Pakistan in 2026?",
+              "answer": "The residence permit application fee is SEK 1,500 for an adult and SEK 750 for a child under 18, paid by Visa or Mastercard in the e-service. It is not refunded if you are refused. Separately, University Admissions charges SEK 900 per semester to process your university application, and your university sets the tuition fee."
+            },
+            {
+              "question": "How much bank statement is required for a Sweden study visa?",
+              "answer": "You must show at least SEK 10,656 per month for applications made in 2026, covering the whole period you apply for. Twelve months works out to SEK 127,872. A spouse adds SEK 4,440 per month and each child SEK 2,664. The money must sit in your own account, and the amount is revised every year."
+            },
+            {
+              "question": "Can my father or uncle sponsor my Sweden student visa?",
+              "answer": "Not as a sponsor. The Swedish Migration Agency says private individuals are not accepted as sponsors. Money from parents or relatives must be transferred to a bank account in your own name that you can access, and it is then counted as your personal bank assets. Only universities, companies and organisations can act as sponsors."
+            },
+            {
+              "question": "How long does the Sweden student visa take from Pakistan?",
+              "answer": "The Swedish Migration Agency says it can't give an exact time. Its statistics show 75% of recently decided higher education cases were decided within 3 months. Applications are handled in the order received and no priority service exists, so apply as soon as your tuition is paid and upload a complete file."
+            },
+            {
+              "question": "Is there an interview for the Sweden student visa in Islamabad?",
+              "answer": "Only if the Migration Agency asks for one. The Embassy of Sweden in Islamabad offers appointments for interviews, passport checks and biometrics 'only when requested by Migration Agency'. Its migration section accepts visitors with confirmed appointments only, which you request through the form on the embassy's official website. Don't travel to Islamabad without a confirmed slot."
+            },
+            {
+              "question": "Can I work in Sweden on a student residence permit?",
+              "answer": "Yes, within limits. If your permit was granted on or after 11 June 2026 and you study at bachelor's or master's level, you may work a maximum of 15 hours per week during semesters. In June, July and August there is no limit. Working more than allowed can lead to the permit being revoked or an extension being refused."
+            },
+            {
+              "question": "Can I take my spouse and children to Sweden as a student?",
+              "answer": "Your spouse and children under 18 can apply in the same application. You must show extra funds of SEK 4,440 per month for a spouse and SEK 2,664 per month per child. Since 1 October 2026, family members staying for a maximum of one year also need comprehensive health insurance. Check the Migration Agency's current family rules before applying."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This guide is free information for Pakistani readers, last updated November 2026. Travelaxis offers visit visa documentation only and does not prepare or submit study or work visa applications. The steps, fees and amounts here were taken on 11 November 2026 from the [Swedish Migration Agency](https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html), [University Admissions in Sweden](https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/), the [Embassy of Sweden in Islamabad](https://www.swedenabroad.se/en/about-sweden-non-swedish-citizens/pakistan/going-to-sweden/working-in-sweden/) and the agency's notice on [family rules from 1 October 2026](https://www.migrationsverket.se/en/newsarchive/newrulesforfamilymembersaccompanyingstudents.5.15b2309e1a04e5ed2071cb4.html). Sweden's list of passports accepted for the digital passport check and the 2027 maintenance amount were not confirmed when we checked, so look those up on the official site. Use the official checklist on the Migration Agency's page for your own application, and confirm every fee and requirement there before you pay. No guide can promise a permit."
+        }
+      ]
+    }
+  },
   "canada-work-permit-fee-from-pakistan": {
     "title": "Canada Work Permit Fee from Pakistan 2026: CAD 155, Biometrics and Who Pays What",
     "metaTitle": "Canada Work Permit Fee from Pakistan (2026 Costs)",
