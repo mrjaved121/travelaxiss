@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "canada-work-permit-fee-from-pakistan",
+      "title": "Canada Work Permit Fee from Pakistan 2026: CAD 155, Biometrics and Who Pays What",
+      "excerpt": "Canada work permit fee from Pakistan: CAD 155 per person, CAD 85 biometrics, CAD 100 extra for an open work permit, no separate visa fee, and which costs belong to the Canadian employer, not the worker.",
+      "date": "November 11, 2026",
+      "readTime": "8 min read",
+      "category": "Canada Visa Documentation"
+    },
+    {
       id: "australia-student-visa-fee-from-pakistan",
       title: "Australia Student Visa Fee from Pakistan 2026: AUD 2,500 and the Other Costs",
       excerpt:

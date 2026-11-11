@@ -5,6 +5,167 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "canada-work-permit-fee-from-pakistan": {
+    "title": "Canada Work Permit Fee from Pakistan 2026: CAD 155, Biometrics and Who Pays What",
+    "metaTitle": "Canada Work Permit Fee from Pakistan (2026 Costs)",
+    "metaDescription": "Canada work permit fee from Pakistan in 2026: CAD 155 per person, CAD 85 biometrics, CAD 100 open work permit holder fee, and what the employer pays.",
+    "keywords": [
+      "canada work permit fee from pakistan",
+      "canada work visa fee from pakistan",
+      "canada work visa total cost from pakistan",
+      "canada work permit visa fee for pakistani",
+      "canada open work permit holder fee",
+      "canada work permit biometrics fee",
+      "canada work permit"
+    ],
+    "date": "November 11, 2026",
+    "dateModifiedIso": "2026-11-11",
+    "readTime": "8 min read",
+    "category": "Canada Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/canada/"
+    },
+    "content": {
+      "intro": "The Canada work permit fee from Pakistan is CAD 155 per person in November 2026. That is the 'Work permit (including extensions) – per person' line on Immigration, Refugees and Citizenship Canada's (IRCC) official fee list, which was last modified on 10 November 2026. Most Pakistani applicants also pay CAD 85 for biometrics, so a single worker with an employer-specific job offer pays CAD 240 to IRCC. If you qualify for an open work permit you add the CAD 100 open work permit holder fee, which brings the total to CAD 340. The visa that goes in your passport is issued with the work permit at no extra fee. Fees are set in Canadian dollars, so the rupee amount depends on your card's exchange rate. Last updated November 2026. Fees change, so check the official fee list again on the day you pay.",
+      "sections": [
+        {
+          "heading": "Canada work permit fees for Pakistani applicants at a glance",
+          "subsections": [
+            {
+              "title": "Official IRCC fees (checked 11 November 2026)",
+              "items": [
+                "Work permit, including extensions, per person: CAD 155.",
+                "Open work permit holder fee, paid on top of the CAD 155 if you apply for an open work permit: CAD 100.",
+                "Biometrics, per individual: CAD 85.",
+                "Biometrics, family of 2 or more eligible people applying at the same time: CAD 170 maximum.",
+                "Visitor visa for a family member who comes with you without working or studying: CAD 100 per person.",
+                "Restoring your status as a worker inside Canada: CAD 401.25 (CAD 246.25 restoration plus CAD 155 for the new permit).",
+                "Employer compliance fee, paid by the Canadian employer for LMIA-exempt job offers: CAD 230."
+              ]
+            }
+          ],
+          "note": "Source: [IRCC fee list](https://ircc.canada.ca/english/information/fees/fees.asp). The list is in Canadian dollars only and doesn't include medical exam, police certificate or Pakistan-side costs."
+        },
+        {
+          "heading": "How much is the Canada work permit fee from Pakistan in 2026?",
+          "content": "The processing fee is CAD 155 per person. It is the same whether you apply from Pakistan or extend a permit inside Canada, and it applies to each person who is applying for a work permit, not to the family as a group. IRCC's help centre explains [which work permit fees you have to pay](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1306&top=17): if you apply for an employer-specific work permit you pay the work permit processing fee, and if you apply for an open work permit you usually pay the open work permit holder fee and the processing fee at the same time. The only group rate on the [fee list](https://ircc.canada.ca/english/information/fees/fees.asp) is for three or more performing artists and their staff (CAD 465 maximum), so it doesn't help ordinary workers or families. A work permit is not approved because the fee was paid. The officer still assesses the job offer, your qualifications and whether you will leave Canada at the end of your stay."
+        },
+        {
+          "heading": "Which total applies to you?",
+          "content": "Add up the lines that match your situation. These totals cover IRCC fees only.",
+          "subsections": [
+            {
+              "title": "Worked totals from the official fee list",
+              "items": [
+                "Single worker, employer-specific work permit: CAD 155 + CAD 85 biometrics = CAD 240.",
+                "Single applicant, open work permit: CAD 155 + CAD 100 + CAD 85 biometrics = CAD 340.",
+                "Worker plus a spouse who is eligible for an open work permit: CAD 155 + CAD 255 (CAD 155 + CAD 100) + CAD 170 family biometrics = CAD 580.",
+                "Each child who comes as a visitor: add CAD 100 for the visitor visa. The family biometrics maximum stays at CAD 170 if everyone applies at the same time.",
+                "Already gave biometrics for a Canadian visa or permit in the last 10 years: you may not need to pay the CAD 85 again. Check the status of your biometrics with IRCC first."
+              ]
+            }
+          ],
+          "note": "IRCC says biometrics are [valid for 10 years, even if your application is refused](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1416&top=19). Whether a spouse can get an open work permit depends on the type of worker the main applicant is, so check eligibility before you count on it."
+        },
+        {
+          "heading": "Do Pakistani applicants pay a separate visa fee on top of the work permit?",
+          "content": "No. Pakistani citizens need a visa to enter Canada, but IRCC says that [your visa is issued to you at the same time as your work permit](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=202&top=17) and that you do not need to apply separately or pay an additional fee. So the worker does not add the CAD 100 visitor visa fee to the CAD 155. The CAD 100 visitor visa fee only comes in for family members who travel with you as visitors and are not applying for a work or study permit themselves. Each family member [completes and signs their own application](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=197&top=17), and a parent or guardian signs for children under 18."
+        },
+        {
+          "heading": "What is the CAD 100 open work permit holder fee, and who pays it?",
+          "content": "An [open work permit](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=176&top=17) lets you work for any eligible employer, so your employer doesn't need a Labour Market Impact Assessment (LMIA) or an offer of employment in the Employer Portal. In most cases you pay the CAD 100 open work permit holder fee at the same time as the CAD 155 work permit fee. You can only get an open work permit in specific situations. IRCC's list of [who can apply for an open work permit](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=177&top=17) includes graduates eligible for the Post-Graduation Work Permit, spouses of certain foreign workers and of international students, and some permanent residence applicants, and each situation has its own extra criteria. A person in Pakistan with no link to Canada can't simply choose the open route. If an open work permit application is refused, IRCC [refunds the CAD 100 holder fee automatically](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1030&top=17), but the CAD 155 processing fee is not refunded."
+        },
+        {
+          "heading": "Which costs belong to the Canadian employer, not to you?",
+          "content": "This is where many Pakistani applicants lose money to agents. IRCC's help centre splits the fees between workers and employers. The worker's fees are the ones listed above. The employer's costs are different and are paid by the employer through its own government accounts.",
+          "subsections": [
+            {
+              "title": "Worker pays vs employer pays",
+              "items": [
+                "Worker: CAD 155 work permit processing fee, CAD 85 biometrics, and CAD 100 open work permit holder fee if applying for an open permit.",
+                "Employer, job needs an LMIA: the employer usually pays a processing fee to Employment and Social Development Canada (ESDC) and then gives you a copy of the LMIA and the LMIA number. In this case there is no employer compliance fee.",
+                "Employer, job is LMIA-exempt: the employer pays the CAD 230 employer compliance fee when it submits the offer of employment in the Employer Portal, and gives you the offer of employment number.",
+                "Worker with a valid open work permit: the employer pays no compliance fee.",
+                "IRCC's fee list has no fee called an 'LMIA fee', 'job offer fee' or 'file opening fee' that a worker pays to IRCC."
+              ]
+            }
+          ],
+          "note": "Sources: [Which work permit fees do I have to pay?](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1306&top=17) and [What is the employer compliance fee?](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1186&top=17). An offer of employment number can be used for one work permit application only. The LMIA processing fee amount is set by ESDC, so confirm it on ESDC's own pages."
+        },
+        {
+          "heading": "What other costs should you budget for?",
+          "content": "The IRCC fees are the smaller part of the budget for many applicants. None of the costs below are on the IRCC fee list, and IRCC doesn't set their price.",
+          "subsections": [
+            {
+              "title": "Costs outside the IRCC fees",
+              "items": [
+                "Medical exam: IRCC says you may need one if you'll work in health services, child care or primary or secondary education, in an agricultural job, or for more than 6 months after living in a designated country or territory. You pay the panel physician directly.",
+                "Police certificate: obtained from the Pakistani police at the local fee if the officer or your document checklist asks for it.",
+                "Proof of qualifications: attested degrees, trade certificates, experience letters and certified translations of any Urdu documents.",
+                "Language test: only if your job, employer or program asks for one. The test provider sets the fee.",
+                "Bank charges: your bank's currency conversion and international transaction fee on the card payment.",
+                "Pakistan-side emigration formalities, travel to the biometrics appointment, and your flight."
+              ]
+            }
+          ],
+          "note": "See IRCC's answer on [when a work permit needs a medical exam](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=183&top=17). If you need one, the officer tells you and sends instructions."
+        },
+        {
+          "heading": "How do you pay the fee from Pakistan?",
+          "content": "You apply online and pay by card as part of the application. IRCC's [online payment page](https://ircc.canada.ca/english/information/fees/pay.asp) says it accepts credit and prepaid cards from Visa, Mastercard, American Express, JCB and UnionPay, and debit cards only if they are Debit Mastercard or Visa Debit. The card doesn't have to be in your name: IRCC confirms that [someone else can pay your fees](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1339&top=4) as long as the amount is correct. Check with your Pakistani bank that the card is enabled for international online payments and has enough limit in rupees to cover the Canadian dollar amount. Pay the biometrics fee together with the application fee so the biometric instruction letter isn't delayed. If you forgot it, IRCC explains [how to pay for biometrics after you applied](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1513&top=19). The biometrics fee already covers the Visa Application Centre's core services for taking your fingerprints and photo. Save the receipt.",
+          "note": "You should apply before you travel. IRCC says [most people can no longer apply for a work permit at a port of entry](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=171&top=17)."
+        },
+        {
+          "heading": "What does the fee not buy, and what documents come before it?",
+          "content": "Paying CAD 155 only starts the processing. Before you pay, IRCC says that in most cases [your employer must send you](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=164&top=17) either the job offer and an LMIA number, or the offer of employment number. IRCC's list of [what you need to work in Canada](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=161&top=17) also includes proof that you are certified, accredited or qualified for the job. For an LMIA job you need [the job offer letter, a contract, a copy of the LMIA and the LMIA number](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=163&top=17). If you apply without these, you risk losing the processing fee on a refusal. Processing times vary by application type and change often, so use IRCC's processing times tool, which its help centre points to in [How long will it take to process my work permit application?](https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=170&top=17), instead of a fixed number quoted by an agent."
+        },
+        {
+          "heading": "FAQs",
+          "faqs": [
+            {
+              "question": "What is the Canada work permit fee from Pakistan in 2026?",
+              "answer": "It is CAD 155 per person on IRCC's official fee list, checked on 11 November 2026. Most Pakistani applicants also pay CAD 85 for biometrics, which makes CAD 240 for a single worker with an employer-specific job offer. Open work permit applicants add CAD 100. Always recheck the fee list before paying."
+            },
+            {
+              "question": "How much is the Canada work permit fee in Pakistani rupees?",
+              "answer": "There is no official rupee price. IRCC charges in Canadian dollars and your bank converts the amount at its own rate, often with an international transaction fee. To estimate it, multiply CAD 240 or CAD 340 by your bank's Canadian dollar selling rate on the day. Be careful with anyone quoting a fixed 'official' PKR fee."
+            },
+            {
+              "question": "Do I pay a separate visa fee as well as the work permit fee?",
+              "answer": "No. IRCC says that if you need a visitor visa as well as a work permit, the visa is issued at the same time as the work permit and you don't apply separately or pay an additional fee. The CAD 100 visitor visa fee only applies to family members who come with you as visitors."
+            },
+            {
+              "question": "Is the Canada work permit fee refunded if the application is refused?",
+              "answer": "The CAD 155 processing fee is not refunded after a refusal, because it pays for processing. If you applied for an open work permit, IRCC says it refunds the CAD 100 open work permit holder fee automatically and you don't have to do anything. The employer compliance fee is also refunded to the employer automatically."
+            },
+            {
+              "question": "Who pays the LMIA fee, the worker or the employer?",
+              "answer": "IRCC's help centre lists it under employers: if the job needs a Labour Market Impact Assessment, the employer usually pays a processing fee to Employment and Social Development Canada. The worker's own fees are the work permit processing fee and biometrics. Treat any demand that you pay IRCC an 'LMIA fee' as a warning sign and check ESDC's rules."
+            },
+            {
+              "question": "Do I have to pay the biometrics fee again if I gave biometrics before?",
+              "answer": "Usually not. IRCC says biometrics given for a visitor visa, study permit or work permit application are valid for 10 years, even if that application was refused. Use IRCC's tool to check the status of your biometrics before you pay. A permit can't be issued beyond 10 years from your last biometrics."
+            },
+            {
+              "question": "How much does a spouse pay to come with a work permit holder?",
+              "answer": "It depends on what the spouse applies for. If the spouse is eligible for an open work permit, the fees are CAD 155 plus CAD 100, a total of CAD 255. If the spouse comes as a visitor, the fee is CAD 100. Family biometrics are capped at CAD 170 when you apply together."
+            },
+            {
+              "question": "Can a friend or relative abroad pay my work permit fee?",
+              "answer": "Yes. IRCC says the name on the receipt doesn't need to match the name on the application, and it accepts the payment as long as the amount is correct. The card can be a Visa, Mastercard, American Express, JCB or UnionPay credit or prepaid card, or a Debit Mastercard or Visa Debit card."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This guide is free information for Pakistani readers, last updated November 2026. Travelaxis offers visit visa documentation only and does not prepare or submit work permit applications. Every fee here was taken from IRCC's [official fee list](https://ircc.canada.ca/english/information/fees/fees.asp) and help centre on 11 November 2026, and fees can change without notice. Use the official document checklist that IRCC generates for your own application, and confirm each fee and requirement on the official website before you pay."
+        }
+      ]
+    }
+  },
   "australia-student-visa-fee-from-pakistan": {
     title: "Australia Student Visa Fee from Pakistan 2026: AUD 2,500 and the Other Costs",
     metaTitle: "Australia Student Visa Fee from Pakistan (2026 Costs)",
