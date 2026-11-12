@@ -5,6 +5,223 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "how-to-apply-for-ireland-work-visa-from-pakistan": {
+    "title": "How to Apply for an Ireland Work Visa from Pakistan Yourself (2026 Step-by-Step)",
+    "metaTitle": "How to Apply for Ireland Work Visa from Pakistan (2026)",
+    "metaDescription": "How to apply for an Ireland work visa from Pakistan yourself: job offer, employment permit (EUR 1,000), AVATS visa (EUR 60), documents, steps. No agent.",
+    "keywords": [
+      "how to apply for ireland work visa from pakistan",
+      "how to get ireland work permit from pakistan",
+      "ireland work visa process from pakistan",
+      "ireland work visa requirements for pakistani citizens",
+      "ireland work visa fee from pakistan",
+      "ireland general employment permit 2026",
+      "ireland critical skills employment permit pakistan",
+      "ireland work visa"
+    ],
+    "date": "November 12, 2026",
+    "dateModifiedIso": "2026-11-12",
+    "readTime": "10 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/ireland/"
+    },
+    "content": {
+      "intro": "To apply for an Ireland work visa from Pakistan, you need three things in this order: a real job offer from an employer in Ireland, an employment permit from Ireland's Department of Enterprise, Tourism and Employment (DETE), and then a long stay employment visa applied for online in [AVATS](https://www.visas.inis.gov.ie/avats/OnlineHome.aspx). There is no Ireland work visa without a job offer and a permit first. The permit fee is EUR 1,000 for most first permits and the single entry visa fee is EUR 60. You or your employer can file the permit on the official [Employment Permits Online](https://employmentpermits.enterprise.gov.ie/home) system, and you file the visa yourself. No agent or middleman is needed at any stage, and nobody can sell you an Irish work visa. This guide was last updated in November 2026. Confirm every figure on the official pages linked below before you pay anything.",
+      "sections": [
+        {
+          "heading": "Ireland work visa from Pakistan at a glance",
+          "subsections": [
+            {
+              "title": "Key facts from official sources (checked 12 November 2026)",
+              "items": [
+                "Two separate applications: first an employment permit (decided by DETE), then a long stay employment visa (decided by the Irish Immigration Service). Pakistani citizens need both.",
+                "Job offer: required for every permit. The employer must be trading in Ireland and registered with the Revenue Commissioners.",
+                "General Employment Permit salary: generally at least EUR 36,605 a year. It is EUR 32,691 for horticulture workers, meat processor operatives, health care assistants and home support workers.",
+                "Critical Skills Employment Permit salary: at least EUR 40,904 a year for jobs on the Critical Skills Occupations List (a relevant degree is required), or over EUR 68,911 for most other eligible jobs.",
+                "Permit fee: EUR 1,000 for a Critical Skills permit and for a new General permit of more than 6 months up to 24 months. EUR 500 for a General permit of 6 months or less. 90% is refunded if the permit is refused.",
+                "Permit timing: the application must be received at least 12 weeks before the job start date.",
+                "Visa fee: EUR 60 single entry or EUR 100 multi entry. It is not refunded if the visa is refused or withdrawn.",
+                "Visa timing: apply up to 3 months before travel. A decision usually comes within about 8 weeks of the application reaching the visa office.",
+                "After arrival: register your immigration permission within 90 days to get your Irish Residence Permit card."
+              ]
+            }
+          ],
+          "note": "Sources: [DETE General Employment Permit](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/), [DETE Critical Skills Employment Permit](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/), [Irish Immigration Service employment visa](https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-work-visa-options/applying-for-a-long-stay-employment-visa/employment-visa/) and [visa fees](https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/). All amounts are in euro. The rupee amount depends on your bank's rate on the day you pay."
+        },
+        {
+          "heading": "Do you need an agent for an Ireland work visa from Pakistan?",
+          "content": "No. The employment permit is filed on the government's own [Employment Permits Online](https://employmentpermits.enterprise.gov.ie/home) portal by you or by your employer, and DETE says either one can be the applicant. The visa is filed by you in [AVATS](https://www.visas.inis.gov.ie/avats/OnlineHome.aspx), the official online visa system. The [Embassy of Ireland in Pakistan](https://www.ireland.ie/en/pakistan/islamabad/services/visas/visas-for-ireland/) points applicants to the same official pages. Be careful with anyone in Pakistan who offers an 'Ireland work visa' or a 'work permit' for a fee without a named Irish employer: an agent cannot issue a permit, and DETE only accepts applications backed by a job offer from a genuine employer. Irish law also protects you on cost. Where the employer is the applicant, the employer or anyone acting for them may not deduct the permit fee or related expenses from your pay or recover them from you (section 55 of the Employment Permits Act 2024). Never pay anyone for a job offer."
+        },
+        {
+          "heading": "Which Ireland work permit fits you: General or Critical Skills?",
+          "content": "Most Pakistani workers use one of these two permits. Check which one your job offer fits before anyone applies, because the salary, the advertising rule and the family rules are different.",
+          "subsections": [
+            {
+              "title": "General Employment Permit",
+              "items": [
+                "Jobs covered: every occupation is eligible unless it is on the [Ineligible List of Occupations](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Ineligible-Categories-of-Employment/).",
+                "Minimum pay: generally EUR 36,605 a year. EUR 32,691 a year (and at least EUR 16.12 an hour) for horticulture workers, meat processor operatives, health care assistants and home support workers.",
+                "Labour Market Needs Test: needed in most cases. The employer must advertise the job with the Department of Social Protection Employment Services/EURES network and on one more online platform for at least 28 days in a row, then apply within 90 days of the first advert ([official rules](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/labour-market-needs-test/)).",
+                "Contract length: can be granted for a 12 month contract. First permit is for up to 2 years and can be renewed for up to 3 more.",
+                "Family: spouses and partners cannot get a Dependant Employment Permit. They need their own permit to work.",
+                "Fee: EUR 1,000 for more than 6 months up to 24 months, or EUR 500 for 6 months or less."
+              ]
+            },
+            {
+              "title": "Critical Skills Employment Permit",
+              "items": [
+                "Jobs covered: occupations on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/), such as ICT professionals, professional engineers and technologists, plus most other jobs paying over EUR 68,911 a year.",
+                "Minimum pay: EUR 40,904 a year for listed occupations with a relevant degree or higher. EUR 36,848 if you received your qualification within the 12 months before the application.",
+                "Labour Market Needs Test: not required.",
+                "Contract length: the job offer must be for at least 2 years.",
+                "Family: holders can apply for immediate family reunification, and a spouse or partner living in Ireland can then apply for a Dependant/Partner/Spouse Employment Permit, currently issued free of charge.",
+                "Fee: EUR 1,000."
+              ]
+            }
+          ],
+          "note": "Both permits also need the employer to meet the 50:50 rule: at least 50% of the firm's employees must be EEA nationals when the application is made, with limited exceptions for supported start-ups and sole-employee cases."
+        },
+        {
+          "heading": "How to apply for an Ireland work visa from Pakistan: step by step",
+          "content": "Follow these steps in order. Each one links to the official page where it is done.",
+          "subsections": [
+            {
+              "title": "The 8 steps",
+              "items": [
+                "1. Get a genuine job offer. Apply directly to employers in Ireland through their own careers pages. The employer must be trading in Ireland and registered with Revenue, and you must hold the qualifications, skills or experience the job needs. Check the job is not on the [Ineligible List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Ineligible-Categories-of-Employment/) and whether it is on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/).",
+                "2. Check the salary against the threshold. Compare the yearly pay in your offer with the figures on the [General](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/) or [Critical Skills](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/) permit page. If the offer is below the threshold for your occupation, the permit cannot be granted, so settle this with the employer before applying.",
+                "3. For a General Employment Permit, let the employer finish the Labour Market Needs Test. The job must be advertised for at least 28 consecutive days and the permit application must follow within 90 days of the first advert. The advert should not be changed during those 28 days ([official rules](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/labour-market-needs-test/)). Skip this step for Critical Skills jobs.",
+                "4. Read the official checklist and file the permit. Use the [General Employment Permit checklist](https://enterprise.gov.ie/en/Publications/Publication-files/General-Employment-Permits-Checklist.pdf) or the [Critical Skills checklist](https://enterprise.gov.ie/en/publications/publication-files/critical-skills-employment-permits-checklist.pdf), then apply on [Employment Permits Online](https://employmentpermits.enterprise.gov.ie/home). You or the employer can apply. The application must be received at least 12 weeks before your start date.",
+                "5. Pay the permit fee and follow the queue. The fee is EUR 1,000 for most first permits. Applications are processed in date order, and DETE publishes the dates it has reached on its [current processing dates page](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/current-application-processing-dates/). If the processor asks for more information, reply within 28 days.",
+                "6. When the permit is issued, create your visa application in [AVATS](https://www.visas.inis.gov.ie/avats/OnlineHome.aspx). Choose a long stay employment visa, answer every question fully and honestly, then print, sign and date the Summary Application Form. That form tells you where to submit your passport and documents and how to pay the visa fee. You can apply up to 3 months before your travel date.",
+                "7. Submit your documents within 30 days of creating the online application. Give originals (photocopies are only accepted where stated) and a certified translation of anything not in English or Irish. Pay the [visa fee](https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/): EUR 60 single entry or EUR 100 multi entry. Extra charges such as consular fees can apply depending on the office.",
+                "8. Wait for the decision, travel and register. Expect a decision within about 8 weeks of the application reaching the visa office. Don't buy tickets before the decision. Carry your original employment permit and copies of your application documents for border control, then [register your permission](https://www.irishimmigration.ie/registering-your-immigration-permission/how-to-register-your-immigration-permission-for-the-first-time/) within 90 days of arriving."
+              ]
+            }
+          ],
+          "note": "The visa only lets you travel to Ireland. An immigration officer at the airport makes the final decision on entry, so keep your permit, contract and employer letter in your hand luggage. Source: [Irish Immigration Service employment visa page](https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-work-visa-options/applying-for-a-long-stay-employment-visa/employment-visa/)."
+        },
+        {
+          "heading": "Which documents do you need for the Ireland employment visa?",
+          "content": "The Irish Immigration Service lists these on its [employment visa page](https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-work-visa-options/applying-for-a-long-stay-employment-visa/employment-visa/). Documents must be on paper. USB sticks, CDs and file-sharing links are not accepted.",
+          "subsections": [
+            {
+              "title": "Document checklist",
+              "items": [
+                "Signed and dated AVATS Summary Application Form, and proof the visa fee was paid.",
+                "Two passport-sized colour photographs, not more than 6 months old, signed on the back with your AVATS Visa Application Transaction Number ([photo rules](https://www.irishimmigration.ie/photograph-rules-for-visa-applications/)).",
+                "Current passport, valid for at least 12 months after your planned arrival date, plus a photocopy of every page of all previous passports if you have them.",
+                "A signed, dated application letter with your full contact details, why you want to come to Ireland, how long you will stay, any family members in Ireland or another EU country, and where you will stay.",
+                "Your employment permit from DETE (General, Critical Skills or another listed type).",
+                "Your contract of employment, or a letter from the employer if there is no contract yet.",
+                "A letter from the employer in Ireland with details of the job, the salary and any accommodation the employer is providing.",
+                "Evidence of qualifications and previous work experience, for example your 3 most recent payslips, salary credits in your bank account, a letter from your current employer, tax statements, and professional or training certificates.",
+                "An up-to-date bank statement for the last six months on the bank's headed paper, showing your name, address, account number and account type. Internet printouts are not accepted and any large deposits must be explained.",
+                "Original refusal letters if any country has ever refused you a visa, and official papers with a full explanation if you were ever deported, refused entry or told to leave a country."
+              ]
+            }
+          ],
+          "note": "Medical or travel insurance does not have to be sent with the application, but the visa officer can ask for it, and you must have evidence of it when you arrive in Ireland. In some cases you may also be asked for biometric information. Your application office confirms this."
+        },
+        {
+          "heading": "How much does an Ireland work visa cost from Pakistan in 2026?",
+          "content": "Plan for two official fees. The employment permit fee is EUR 1,000 for a Critical Skills permit or a new General Employment Permit of more than 6 months up to 24 months, and EUR 500 for a General permit of 6 months or less. Whoever applies pays it: the employer or the employee. If the permit is refused, 90% of the fee is refunded to the applicant. The visa fee is EUR 60 for a single entry visa or EUR 100 for a multi entry visa, and it is not refunded if the visa is refused or withdrawn ([official fees](https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/)). Payment methods and currency differ between offices, so follow the instructions on your Summary Application Form. Any amount an 'agent' adds for a 'job offer' or 'permit approval' is not an official fee."
+        },
+        {
+          "heading": "How long does the Ireland work permit and visa take?",
+          "content": "Permits are processed strictly in date order. On 11 November 2026, DETE was processing Critical Skills applications received on 23 October 2026 and new General Employment Permit applications received on 12 October 2026, so the queue was roughly three to four weeks. These dates move every week, so check the [current processing dates page](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/current-application-processing-dates/) on the day you apply. After the permit, the visa decision usually takes about 8 weeks from the date the application reaches the visa office, and longer if documents are missing or need to be verified. Add the 28 days of job advertising for a General Employment Permit. A realistic plan is to start the paperwork at least four to five months before the job start date."
+        },
+        {
+          "heading": "Why are Ireland work permits and visas refused, and what can you do?",
+          "subsections": [
+            {
+              "title": "Common problems the official pages warn about",
+              "items": [
+                "Salary below the minimum for the permit type or occupation.",
+                "Job on the Ineligible List of Occupations, or the applicant lacks the qualifications or experience the job needs.",
+                "Labour Market Needs Test done wrongly for a General permit: advert run for fewer than 28 consecutive days, changed midway, or the application filed more than 90 days after the first advert.",
+                "Employer does not meet the 50:50 rule or is not registered and trading in Ireland.",
+                "Permit application received less than 12 weeks before the start date.",
+                "Visa file missing required documents. The visa office says an application may be refused if the required documents are not submitted.",
+                "Hiding a previous visa refusal from any country. The visa office says non-disclosure will result in refusal.",
+                "False or misleading documents. This can lead to refusal, loss of the right to appeal and a 5 year block on Irish visas."
+              ]
+            },
+            {
+              "title": "If you are refused",
+              "items": [
+                "Permit refused: you can ask for a review within 28 days on the prescribed review form. A more senior official decides it. Even if the review confirms the refusal, a fresh application can still be made ([DETE](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/)).",
+                "Visa refused: you get a letter with the reasons. You can [appeal](https://www.irishimmigration.ie/appeal-a-negative-decision/) within 2 months of the date on the refusal letter, and the appeal is free.",
+                "Before reapplying, fix the exact reason given in the letter. Sending the same file again rarely changes the result."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Tips that improve your chances",
+          "subsections": [
+            {
+              "title": "Practical checklist before you apply",
+              "items": [
+                "Tailor your CV to the Irish job: put the qualification and years of experience the job advert asks for at the top, and keep job titles and dates identical to your experience letters.",
+                "Ask the employer to confirm the yearly salary, weekly hours and job title in writing, and check them against the permit threshold yourself.",
+                "Make sure employer letters are on official headed paper with a fixed line phone number, a company email address, a named contact person and a handwritten signature. The visa office does not accept mobile numbers, Yahoo or Hotmail addresses, or electronic signatures on these letters.",
+                "Keep your bank statement clean for six months and attach a short explanation for any large deposit.",
+                "Declare every past visa refusal and attach the original letter.",
+                "Keep copies of everything you submit and carry them when you fly."
+              ]
+            }
+          ],
+          "note": "Nothing here guarantees a permit or a visa. Each application is decided on its own merits by Irish officials. A complete, honest and consistent file is what improves your chances."
+        },
+        {
+          "heading": "Frequently asked questions",
+          "faqs": [
+            {
+              "question": "Can I apply for an Ireland work visa from Pakistan without a job offer?",
+              "answer": "No. Ireland's employment permits all depend on a job offer from a genuine employer that is trading in Ireland and registered with Revenue. The employment visa is only available after the permit is issued. Anyone offering an Ireland work visa without a named employer and a permit application is not offering a real route."
+            },
+            {
+              "question": "Who applies for the Ireland employment permit, me or my employer?",
+              "answer": "Either. DETE says the foreign national or the prospective employer can apply for a General or Critical Skills Employment Permit on Employment Permits Online. The permit is issued to you and a certified copy goes to the employer. If the employer applies, they cannot recover the fee or related costs from you."
+            },
+            {
+              "question": "What is the minimum salary for an Ireland work permit in 2026?",
+              "answer": "For a General Employment Permit it is generally EUR 36,605 a year, or EUR 32,691 for horticulture workers, meat processor operatives, health care assistants and home support workers. For a Critical Skills Employment Permit it is EUR 40,904 for listed occupations, or over EUR 68,911 for most other eligible jobs."
+            },
+            {
+              "question": "How much is the Ireland work visa fee from Pakistan?",
+              "answer": "The employment visa fee is EUR 60 for single entry or EUR 100 for multi entry, and it is not refunded on refusal. The separate employment permit fee is EUR 1,000 for most first permits, with 90% refunded if the permit is refused. Extra consular or service charges can apply depending on the office."
+            },
+            {
+              "question": "Where do I submit my Ireland visa documents in Pakistan?",
+              "answer": "The Summary Application Form that AVATS creates at the end of your online application tells you exactly where to submit your passport and documents and how to pay. Follow that form and the Embassy of Ireland in Pakistan's visa page. Submit within 30 days of creating the online application."
+            },
+            {
+              "question": "Can my family come with me on an Ireland work permit?",
+              "answer": "It depends on the permit. Critical Skills Employment Permit holders can apply for immediate family reunification, and their spouse or partner can later get a free Dependant/Partner/Spouse Employment Permit. Spouses and partners of General Employment Permit holders are not eligible for that permit and need their own employment permit to work."
+            },
+            {
+              "question": "Can I change employer after reaching Ireland?",
+              "answer": "Not at first. A first-time permit holder is expected to stay with the first employer for 9 months. A new permit for a different employer generally cannot be considered before then, except in limited situations such as redundancy. After 9 months you can move if a new permit application is made."
+            },
+            {
+              "question": "Does an Ireland work permit lead to long-term residence?",
+              "answer": "It can. A General Employment Permit is issued for up to 2 years and renewable for up to 3 more, and after 5 years the holder may apply for long term residency. Critical Skills holders may apply for permission to live and work without a permit once their permit's duration is completed."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This guide is free information for Pakistani readers, last updated in November 2026 from the official pages of Ireland's [Department of Enterprise, Tourism and Employment](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/general-employment-permit/), the [Irish Immigration Service](https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-work-visa-options/applying-for-a-long-stay-employment-visa/employment-visa/) and the [Embassy of Ireland in Pakistan](https://www.ireland.ie/en/pakistan/islamabad/services/visas/visas-for-ireland/). Travelaxis offers visit visa documentation only and does not prepare study or work visa applications. Rules, salary thresholds and fees change, so use the official checklist for your permit type and confirm every requirement on the official website before you apply or pay."
+        }
+      ]
+    }
+  },
   "how-to-apply-for-sweden-student-visa-from-pakistan": {
     "title": "How to Apply for a Sweden Student Visa from Pakistan Yourself (2026 Step-by-Step)",
     "metaTitle": "How to Apply for Sweden Student Visa from Pakistan",

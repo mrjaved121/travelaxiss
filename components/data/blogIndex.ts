@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "how-to-apply-for-ireland-work-visa-from-pakistan",
+      "title": "How to Apply for an Ireland Work Visa from Pakistan Yourself (2026 Step-by-Step)",
+      "excerpt": "How to apply for an Ireland work visa from Pakistan without an agent: job offer, General or Critical Skills employment permit (EUR 1,000), AVATS employment visa (EUR 60), documents, timelines and refusal fixes.",
+      "date": "November 12, 2026",
+      "readTime": "10 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "how-to-apply-for-sweden-student-visa-from-pakistan",
       "title": "How to Apply for a Sweden Student Visa from Pakistan Yourself (2026 Step-by-Step)",
       "excerpt": "How to apply for a Sweden student visa from Pakistan without an agent: the 8 official steps, SEK 1,500 fee, SEK 10,656 a month funds rule, documents, key 2027 deadlines and the requirement gaps that get applications refused.",
