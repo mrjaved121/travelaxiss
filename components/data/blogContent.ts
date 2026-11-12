@@ -5,6 +5,243 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "uk-student-visa-bank-statement-requirements-from-pakistan": {
+    "title": "UK Student Visa Bank Statement from Pakistan 2026: How Much, the 28-Day Rule and How to Show Funds",
+    "metaTitle": "UK Student Visa Bank Statement from Pakistan (2026 Guide)",
+    "metaDescription": "UK student visa bank statement from Pakistan: unpaid fees plus £1,171 or £1,529 a month (max 9), the 28-day and 31-day rules, parents' account, steps.",
+    "keywords": [
+      "uk student visa bank statement requirement pakistan",
+      "how much bank statement for uk student visa from pakistan",
+      "how many months bank statement for uk student visa",
+      "uk student visa 28 day bank statement rule",
+      "how to show funds for uk student visa from pakistan",
+      "uk student visa bank statement amount 2026",
+      "parents bank statement for uk student visa",
+      "uk student visa"
+    ],
+    "date": "November 13, 2026",
+    "dateModifiedIso": "2026-11-13",
+    "readTime": "10 min read",
+    "category": "UK Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/uk/"
+    },
+    "content": {
+      "intro": "For a UK student visa from Pakistan, your bank statement must show your unpaid first-year course fees plus living costs of £1,171 a month outside London or £1,529 a month in London, for up to 9 months. That is a maximum of £10,539 or £13,761 for living costs, on top of any tuition you still owe. The money must stay in the account for at least 28 days in a row, and the statement must be dated no more than 31 days before you apply. It does not need to be 6 months old. These figures come from the GOV.UK [Student visa money page](https://www.gov.uk/student-visa/money) and the Home Office [financial evidence guidance](https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants), checked on 13 November 2026. You can prepare this yourself: no agent or middleman is needed, and nobody can sell you a 'ready' bank statement that is safe to use. Last updated November 2026; confirm the amounts on GOV.UK before you apply.",
+      "sections": [
+        {
+          "heading": "UK student visa bank statement from Pakistan at a glance",
+          "subsections": [
+            {
+              "title": "Key facts from official sources (checked 13 November 2026)",
+              "items": [
+                "Living costs outside London: £1,171 for each month of the course, up to 9 months (maximum £10,539).",
+                "Living costs in London (the City of London and the 32 London boroughs): £1,529 a month, up to 9 months (maximum £13,761).",
+                "Course fees: enough to pay the unpaid fees for 1 academic year (up to 9 months), as shown on your Confirmation of Acceptance for Studies (CAS).",
+                "Holding period: at least 28 days in a row, counted back from the closing balance on your latest statement.",
+                "Statement date: the latest evidence must be dated within 31 days before the date you apply.",
+                "Whose account: yours, or your parent's or legal guardian's with proof of relationship and written consent.",
+                "Currency: rupees are fine. The Home Office converts them to pounds using the OANDA spot rate for the date of application.",
+                "Pakistan is not on the list of nationalities that can skip financial evidence, so you upload it with the application."
+              ]
+            }
+          ],
+          "note": "Source: [GOV.UK Student visa: Money you need](https://www.gov.uk/student-visa/money) and [Immigration Rules Appendix Finance](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-finance). Rules and amounts can change, so re-check both pages in the week you apply."
+        },
+        {
+          "heading": "How much bank statement do you need for a UK student visa from Pakistan?",
+          "content": "Add two things: the course fees you have not yet paid for the first academic year, and the fixed living-cost amount for your study location. Under the [Student rules](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student), a part month of the course is rounded up to a full month, and the living-cost months are capped at 9. Fees you have already paid to the university reduce the total, but only if the payment is shown on your CAS or on a receipt issued by the university. A deposit paid to the university for accommodation it arranged can also be deducted, up to a maximum of £1,529. Rent paid to a private landlord is not deducted.",
+          "subsections": [
+            {
+              "title": "Worked examples (illustrations only; use the fee on your own CAS)",
+              "items": [
+                "Outside London, 12-month master's, tuition £16,000, £5,000 already paid and shown on the CAS: £11,000 + (£1,171 x 9 = £10,539) = £21,539.",
+                "London, 12-month master's, tuition £18,000, £6,000 already paid and shown on the CAS: £12,000 + (£1,529 x 9 = £13,761) = £25,761.",
+                "Outside London, 6-month course, all fees already paid: £1,171 x 6 = £7,026.",
+                "Outside London, full first-year fees already paid, plus £1,000 deposit paid to the university for its own accommodation: £10,539 - £1,000 = £9,539."
+              ]
+            },
+            {
+              "title": "What about the amount in rupees?",
+              "content": "There is no official rupee figure. The Home Office converts your balance to pounds using the spot rate on [OANDA](https://www1.oanda.com/currency/converter/) for the date of your application, so the same rupee balance is worth a different pound amount each day. Check the OANDA rate yourself, convert your required pound total into rupees, and keep a sensible margin above it for all 28 days so that a weaker rupee on application day does not leave you short. The lowest balance in the 28 days is what matters, not the average or the closing figure."
+            }
+          ]
+        },
+        {
+          "heading": "What is the 28-day rule, and how many months of statement do you need?",
+          "content": "You do not need 6 months of statements for the Student route. The rule in [Appendix Finance](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-finance) has three parts: the money must be held for 28 days in a row; the 28 days are counted back from the closing balance on your most recent statement; and that statement must be dated within 31 days before the date of application. The evidence must cover the whole 28 days. If the balance drops below your required total on even one day, the 28-day period is broken and the count starts again.",
+          "subsections": [
+            {
+              "title": "Example timeline",
+              "items": [
+                "8 November: the full required amount is in the account.",
+                "8 November to 5 December: the balance never goes below the required amount (28 days in a row).",
+                "5 December: you get a statement or bank letter with a closing balance dated 5 December.",
+                "You submit and pay for the online application within 31 days of 5 December. Applying a few days after the statement date is safer than waiting until the end of the window."
+              ]
+            },
+            {
+              "title": "After you apply",
+              "content": "Don't empty the account once you have submitted. The Student rules say that if the funds fall substantially below the required level by the date of decision, the decision maker must be satisfied the money was spent on outstanding course fees, an accommodation deposit or other costs linked to the course. Keep receipts for any such payments."
+            }
+          ]
+        },
+        {
+          "heading": "Whose bank account can you use, and which accounts are not accepted?",
+          "subsections": [
+            {
+              "title": "Accepted",
+              "items": [
+                "Your own personal account, alone or as a joint account holder. You must control the funds.",
+                "Your parent's or legal guardian's account. You must add proof of the relationship (for example your birth certificate showing their names) and their written consent to use the money for your studies.",
+                "Your partner's account, if your partner is in the UK or applying at the same time as you.",
+                "A current, savings or deposit account, as long as the money can be accessed immediately.",
+                "A student loan from a government, a government-sponsored loan company or a regulated academic or educational loans scheme, with a loan letter dated no more than 6 months before you apply.",
+                "Official financial sponsorship, for example from a national government, the British Council, an international organisation or company, or a university. This is shown on your CAS or in a letter from the sponsor."
+              ]
+            },
+            {
+              "title": "Not accepted",
+              "items": [
+                "Accounts of a brother, sister, uncle, aunt, cousin or friend. The rules name only you, your partner, and your parent or legal guardian.",
+                "Business or company accounts. The money must be in a personal bank or building society account.",
+                "Overdrafts, credit cards, cryptocurrency, stocks and shares, bonds.",
+                "Pensions or other products where the money cannot be withdrawn immediately.",
+                "Promises of future support, such as a letter saying a relative will pay later.",
+                "Banks that are not regulated by the financial regulator of the country they operate in, or that do not keep electronic records.",
+                "Any bank where the Home Office cannot make satisfactory verification checks."
+              ]
+            }
+          ],
+          "note": "In Pakistan, use an account at a bank regulated by the State Bank of Pakistan and make sure the statement can be confirmed by the branch if the Home Office checks it. The lists above follow [Appendix Finance](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-finance) (FIN 2.1, 3.1, 5.1 to 5.3, 6.1 and 8.1 to 8.3)."
+        },
+        {
+          "heading": "How to show funds for a UK student visa from Pakistan — step by step",
+          "subsections": [
+            {
+              "title": "Do it yourself in 8 steps",
+              "items": [
+                "1. Get your CAS from the university and read the fee lines: course fees for the first year, fees already paid, and any accommodation deposit paid to the university. If a payment is missing, ask the university to update the CAS or issue a receipt before you apply.",
+                "2. Work out your total in pounds: unpaid first-year fees + £1,171 (outside London) or £1,529 (London) for each month of the course up to 9. Check the amounts on the [GOV.UK money page](https://www.gov.uk/student-visa/money) on the day you calculate.",
+                "3. Decide whose account you will use: yours, or a parent's or legal guardian's. If it is a parent's account, prepare your birth certificate (or another government-issued document showing the relationship) and a signed consent letter from the parent.",
+                "4. Put the full amount, plus a margin for exchange-rate movement, into one personal account that allows immediate withdrawal. Check the rate on [OANDA](https://www1.oanda.com/currency/converter/).",
+                "5. Leave it untouched for at least 28 days in a row. Don't let the balance dip below the required total on any day, including for a few hours.",
+                "6. On day 28 or later, get the evidence from the bank: a statement (paper or electronic download), or a bank letter. It must show the account holder's name, the bank's name and how much money is in the account, and it must cover the full 28 days.",
+                "7. Apply online on the official [GOV.UK Student visa application page](https://www.gov.uk/student-visa/apply) within 31 days of the statement's closing date. You can apply up to 6 months before the course starts. Pay the £558 visa fee and the Immigration Health Surcharge of £776 per year of the visa in the form, then upload the financial evidence with your passport, CAS details and [TB test certificate](https://www.gov.uk/tb-test-visa).",
+                "8. Give your fingerprints and photo at the visa application centre if the form tells you to, and keep the money in place until you have a decision. GOV.UK says a decision usually takes 3 weeks from outside the UK. You may be contacted for an interview or for document verification, which can take longer."
+              ]
+            },
+            {
+              "title": "What the parent's consent letter should cover",
+              "items": [
+                "Parent's full name, CNIC or passport number, and contact details.",
+                "Your full name and the relationship (father, mother or legal guardian).",
+                "A clear statement that they agree to you using the funds in the named account for your course fees and living costs in the UK.",
+                "The bank name and account number that match the statement.",
+                "Date and signature."
+              ]
+            }
+          ],
+          "note": "Apply only through GOV.UK. No agent or middleman is needed for the financial evidence or the visa form, and you should not pay anyone for a visa or a 'guaranteed' result. Scam warning: anyone offering to 'arrange' or 'rent' a bank balance or statement for a fee is selling a document that may fail verification. The Home Office can verify evidence with your bank, and the application may be refused if it cannot."
+        },
+        {
+          "heading": "What bank statement mistakes get UK student visas refused?",
+          "subsections": [
+            {
+              "title": "Common mistakes, each based on a written rule",
+              "items": [
+                "Balance below the required total on one or more days inside the 28-day period.",
+                "Statement closing date more than 31 days before the application date.",
+                "Statement covering fewer than 28 days, or with missing days between two statements.",
+                "Calculating in rupees at an old rate, so the balance converts to less than the pound requirement on the date of application.",
+                "Using a parent's account without proof of relationship or without the written consent letter.",
+                "Using a sibling's, uncle's or friend's account, or a company account.",
+                "Deducting fees or accommodation payments that are not shown on the CAS or a university receipt.",
+                "Counting a fixed-term product or investment that cannot be withdrawn immediately.",
+                "Evidence the Home Office cannot verify with the bank."
+              ]
+            },
+            {
+              "title": "Tips that improve your chances",
+              "items": [
+                "Start the 28 days early. A day-35 statement is as valid as a day-28 one, and it gives you room for bank delays.",
+                "Keep all the money in one account if you can, so the daily balance is easy to read.",
+                "Ask the bank for a statement that prints the balance after each transaction and the account holder's full name as on the passport or CNIC.",
+                "Be ready to explain where the money came from. The rules require funds to be legally acquired, and you may be asked about them at an interview.",
+                "Hold a margin above the minimum for the whole period, not only on the last day."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Refused for funds? How to reapply from Pakistan",
+          "content": "Read the refusal letter first: it states the exact rule that was not met. If you believe the caseworker made a mistake on evidence you did submit, the letter will say whether you can ask for an [administrative review](https://www.gov.uk/ask-for-a-visa-administrative-review). From outside the UK you must apply within 28 days of getting the decision and it costs £80, but GOV.UK currently warns that a result can take 12 months or more, and the review request is withdrawn if you make another visa application. If the refusal was correct, for example the balance dipped or the statement was too old, a fresh application is usually the practical route: hold the right amount for a new full 28 days, get a new statement, and ask your university for a new CAS, because a CAS used in a refused application cannot be used again. You pay the visa fee again for a new application. Fix the exact problem named in the letter before you reapply; a second application with the same gap is likely to get the same answer."
+        },
+        {
+          "heading": "Checklist before you submit",
+          "subsections": [
+            {
+              "title": "Tick each one",
+              "items": [
+                "Required total calculated in pounds from the CAS and the GOV.UK monthly amount.",
+                "Balance at or above that total, at the OANDA rate, on every one of 28 days in a row.",
+                "Statement or bank letter shows name, bank name and balance, and covers all 28 days.",
+                "Closing date of the statement is within 31 days before the day you submit.",
+                "Parent's account: birth certificate and signed consent letter included.",
+                "Any fees paid are shown on the CAS or a university receipt.",
+                "Non-English documents have a full translation, if the GOV.UK document guidance asks for one.",
+                "Money stays in the account until the decision arrives."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently asked questions",
+          "faqs": [
+            {
+              "question": "How much bank statement is required for a UK student visa from Pakistan?",
+              "answer": "You need your unpaid first-year course fees plus living costs of £1,171 a month outside London or £1,529 a month in London, for up to 9 months. That means up to £10,539 or £13,761 for living costs. The Home Office converts rupees to pounds at the OANDA rate on the date you apply."
+            },
+            {
+              "question": "How many months of bank statement do I need for a UK student visa?",
+              "answer": "Not 6 months. The Student route asks for the required funds to be held for at least 28 days in a row, and the evidence must cover that whole period. The closing balance on your latest statement must be dated within 31 days before the date you submit the online application."
+            },
+            {
+              "question": "Can I use my father's or mother's bank statement for a UK student visa?",
+              "answer": "Yes. The rules allow an account in the name of your parent or legal guardian. You must add proof of the relationship, such as a birth certificate showing their names, and their written consent to use the funds. The account must be a personal account they control, with money that can be withdrawn immediately."
+            },
+            {
+              "question": "Can my brother, uncle or another sponsor show funds for my UK student visa?",
+              "answer": "Not from their own account. Appendix Finance only accepts accounts in your name, your partner's name in limited cases, or a parent's or legal guardian's name. Promises of future third-party support are not accepted. A relative who wants to help would need to move the money into an accepted account, where it must then stay for a full 28 days."
+            },
+            {
+              "question": "Can I deposit the money just before the 28 days start?",
+              "answer": "The written rule is about holding the money for 28 days in a row, not about how long ago it arrived. However, the funds must be legally acquired, the Home Office can verify the statement with your bank, and you may be interviewed. Be ready to show where the money came from, with honest, matching records."
+            },
+            {
+              "question": "Does tuition I already paid reduce the amount I need to show?",
+              "answer": "Yes. You only need to show the unpaid course fees for the first academic year. The payment must be confirmed on your CAS or on a receipt issued by the university. A deposit paid to the university for accommodation it arranged can also be deducted, up to a maximum of £1,529."
+            },
+            {
+              "question": "Can I withdraw the money after submitting my UK student visa application?",
+              "answer": "It is safer to leave it until you have a decision. The Student rules say that if your funds fall substantially below the required level by the date of decision, the decision maker must be satisfied the money was spent on course fees, an accommodation deposit or other costs linked to the course."
+            },
+            {
+              "question": "Do Pakistani students have to upload financial evidence, or is it only checked if asked?",
+              "answer": "Pakistani applicants should upload it with the application. GOV.UK lists certain nationalities that do not need to send financial evidence upfront unless asked, and Pakistan is not on that list. Everyone must still meet the financial requirement, so prepare the 28-day statement before you start the online form."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This is a free information guide, last updated November 2026. Travelaxis offers visit visa documentation only: we don't prepare UK student visa applications or financial evidence, and nobody can guarantee a visa. Every figure here was taken from GOV.UK on 13 November 2026: [Student visa: Money you need](https://www.gov.uk/student-visa/money), [Financial evidence for Student and Child Student visa applicants](https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants), [Appendix Finance](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-finance), [Appendix Student](https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student), [Apply online](https://www.gov.uk/student-visa/apply), the [Immigration Health Surcharge rates](https://www.gov.uk/healthcare-immigration-application/how-much-pay) and [administrative review](https://www.gov.uk/ask-for-a-visa-administrative-review). Use the official GOV.UK checklist for your own application and re-check the amounts before you apply. For the full cost picture, see our [UK student visa cost from Pakistan](/blog/uk-student-visa-cost-from-pakistan/) guide. If family members plan to visit you in the UK, see our [UK visit visa support](/visit-visa/uk/)."
+        }
+      ]
+    }
+  },
   "how-to-apply-for-ireland-work-visa-from-pakistan": {
     "title": "How to Apply for an Ireland Work Visa from Pakistan Yourself (2026 Step-by-Step)",
     "metaTitle": "How to Apply for Ireland Work Visa from Pakistan (2026)",

@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "uk-student-visa-bank-statement-requirements-from-pakistan",
+      "title": "UK Student Visa Bank Statement from Pakistan 2026: How Much, the 28-Day Rule and How to Show Funds",
+      "excerpt": "UK student visa bank statement from Pakistan: unpaid fees plus £1,171 or £1,529 a month for up to 9 months, the 28-day and 31-day rules, using a parent's account, a step-by-step method and how to reapply after a funds refusal.",
+      "date": "November 13, 2026",
+      "readTime": "10 min read",
+      "category": "UK Visa Documentation"
+    },
+    {
       "id": "how-to-apply-for-ireland-work-visa-from-pakistan",
       "title": "How to Apply for an Ireland Work Visa from Pakistan Yourself (2026 Step-by-Step)",
       "excerpt": "How to apply for an Ireland work visa from Pakistan without an agent: job offer, General or Critical Skills employment permit (EUR 1,000), AVATS employment visa (EUR 60), documents, timelines and refusal fixes.",
