@@ -5,6 +5,199 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "how-to-apply-for-germany-work-visa-from-pakistan": {
+    "title": "How to Apply for a Germany Work Visa from Pakistan Yourself (2026 Step-by-Step)",
+    "metaTitle": "How to Apply for Germany Work Visa from Pakistan (2026)",
+    "metaDescription": "How to apply for a Germany work visa from Pakistan yourself: job contract, degree recognition, online portal, EUR 75 fee, documents and steps. No agent.",
+    "keywords": [
+      "how to apply for germany work visa from pakistan",
+      "germany work visa apply from pakistan",
+      "germany work visa requirements for pakistani citizens",
+      "germany work visa appointment from pakistan",
+      "germany skilled worker visa from pakistan",
+      "eu blue card germany from pakistan 2026",
+      "germany work visa fee from pakistan",
+      "germany work visa"
+    ],
+    "date": "November 13, 2026",
+    "dateModifiedIso": "2026-11-13",
+    "readTime": "10 min read",
+    "category": "Germany Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/schengen/"
+    },
+    "content": {
+      "intro": "To apply for a Germany work visa from Pakistan, you need a signed employment contract with a company in Germany and a qualification that Germany recognises. You then apply online through the German Foreign Office's [Consular Services Portal](https://digital.diplo.de/visa-ewt), which the German Missions in Pakistan use for the EU Blue Card and the skilled worker categories in both Islamabad and Karachi. The national visa fee is EUR 75, paid in rupees in cash at the counter. You can do every step yourself: no agent or middleman is needed, and nobody can sell you a job offer, an appointment or a visa. The steps below come from the [German Missions in Pakistan work visa page](https://pakistan.diplo.de/pk-en/service/4-work-jobseeker-1676106) and Germany's Federal Employment Agency, checked on 13 November 2026. Last updated November 2026; confirm each requirement on the official pages before you apply.",
+      "sections": [
+        {
+          "heading": "Germany work visa from Pakistan at a glance",
+          "subsections": [
+            {
+              "title": "Key facts from official sources (checked 13 November 2026)",
+              "items": [
+                "Job first: the employment visa categories on the mission's page all start from a valid employment contract with a company in Germany.",
+                "Recognition: a university degree must be recognised in Germany (anabin database printouts or a Statement of Comparability); a vocational qualification must be recognised by the competent German authority.",
+                "Where to apply: online in the Consular Services Portal, for both the Embassy in Islamabad and the Consulate General in Karachi.",
+                "Visa fee: EUR 75 for a long-term (category D) visa, due in PKR at the current exchange rate and paid in cash at the counter.",
+                "EU Blue Card salary in 2026: at least EUR 50,700 gross a year, or EUR 45,934.20 for shortage occupations and recent graduates.",
+                "Experience route salary in 2026: at least EUR 45,630 gross a year (EUR 55,770 if you are 45 or older).",
+                "Processing time: no fixed time is published. The mission says national visa times vary with the purpose of stay and the quality of the file.",
+                "Refusals: the remonstration (objection) procedure was abolished from 1 July 2025, so a weak file cannot be fixed with a simple objection letter."
+              ]
+            }
+          ],
+          "note": "Source: [German Missions in Pakistan: Employment, training and jobseeker visa](https://pakistan.diplo.de/pk-en/service/4-work-jobseeker-1676106) and [Visa fees, payment and waiting times](https://pakistan.diplo.de/pk-en/service/2208622-2208622). Salary figures: Federal Employment Agency. Rules and amounts change, so re-check these pages in the week you apply."
+        },
+        {
+          "heading": "Which Germany work visa should a Pakistani applicant choose?",
+          "content": "There is no single 'Germany work visa'. The portal asks you to pick a category, and the right one depends on your qualification and salary. The four categories below all need a job contract first. If you do not have a job offer yet, read our guide to the [Germany Opportunity Card](/blog/germany-opportunity-card-pakistan/), and if you want to train rather than work, see the [Ausbildung visa guide](/blog/germany-ausbildung-visa-requirements-from-pakistan/).",
+          "subsections": [
+            {
+              "title": "The four main employment routes compared",
+              "items": [
+                "EU Blue Card (Section 18g Residence Act): recognised university degree, a job offer of at least six months that matches the degree, and a gross salary of at least EUR 50,700 in 2026. With EUR 45,934.20 you can qualify in a shortage occupation (for example STEM, IT, doctors, teachers) or if you graduated no more than three years ago, but the Federal Employment Agency must then approve the job. Source: [Federal Employment Agency](https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/iss-en/issue-03-2026/blue-card).",
+                "Skilled worker with a university degree, no Blue Card (Section 18b): a valid employment contract and a recognised degree. The [mission's page](https://pakistan.diplo.de/pk-en/service/2595682-2595682) points Blue Card applicants who miss the salary rule to this category.",
+                "Skilled worker with a vocational qualification (Section 18a): a valid employment contract and a vocational qualification recognised by the competent German authority. See the [mission's page](https://pakistan.diplo.de/pk-en/service/2593478-2593478).",
+                "Skilled worker with practical experience: at least two years of relevant experience in the last five years plus a qualification of at least two years that is state-recognised in Pakistan. German recognition is not needed for non-regulated jobs, but the salary must be at least EUR 45,630 in 2026. Source: [Federal Employment Agency](https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/iss-en/04-2026/experienced-professionals)."
+              ]
+            },
+            {
+              "title": "A note on the Blue Card figures",
+              "content": "When we checked on 13 November 2026, the mission's [EU Blue Card page](https://pakistan.diplo.de/pk-en/service/2593356-2593356) still showed the 2025 salary figures (EUR 48,300 and EUR 43,759.80). The Federal Employment Agency gives EUR 50,700 and EUR 45,934.20 for 2026 and says the amounts are adjusted every year. Use the figure for the year you apply, and check that the gross salary in your contract is clearly above it."
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for a Germany work visa from Pakistan: step by step",
+          "content": "Follow these steps in order. Steps 1 to 3 happen before you open the visa portal and usually take the longest.",
+          "subsections": [
+            {
+              "title": "Steps 1 to 4: before you apply",
+              "items": [
+                "Step 1. Find a real job. Apply directly to employers in Germany. The mission recommends the German government's [Make it in Germany](https://www.make-it-in-germany.com/en/) site, which has a large database of job listings, and asks you to study it before you start. A real employer does not charge you for a job offer.",
+                "Step 2. Check your qualification. For a university degree, look up both your degree and your university in the [anabin database](https://anabin.kmk.org/cms/public/startseite) and print both results. If either is missing, apply to the Central Office for Foreign Education (ZAB) for a [Statement of Comparability](https://zab.kmk.org/en/statement-comparability); the application is fully online. For a vocational qualification, find the competent authority on the German government's [Recognition Portal](https://www.anerkennung-in-deutschland.de/html/en/index.php).",
+                "Step 3. Get the contract and employer papers. You need the employment contract signed by you and your employer with an up-to-date joining date, a detailed job description, and the Employer's Declaration form completed and signed by the employer.",
+                "Step 4. Attest your documents. The mission's checklists ask for university degrees and final transcripts, or the vocational diploma, attested by the Higher Education Commission (HEC)."
+              ]
+            },
+            {
+              "title": "Steps 5 to 9: the visa application",
+              "items": [
+                "Step 5. Open the [Consular Services Portal](https://digital.diplo.de/visa-ewt), register, and choose your category: Blue Card EU, skilled worker with an academic background, skilled worker with vocational education, or skilled worker with practical experience. Speciality cooks with at least six years as a chef use the practical experience category.",
+                "Step 6. Answer the questionnaire and upload clear scans of every document it lists. The mission says the portal contains the guidance and the list of required documents for your case.",
+                "Step 7. Wait for the first screening. The missions describe the portal process on their [student visa page](https://pakistan.diplo.de/pk-en/service/2-study-visa-seite-1676104) like this: a visa officer screens the upload, and you then receive either an appointment notification or a request for further or corrected documents. Incomplete applications delay processing.",
+                "Step 8. Attend the appointment at the mission for your province with your originals and one set of copies, and pay the EUR 75 fee in rupees in cash. Islamabad covers Islamabad Capital Territory, Punjab, Khyber Pakhtunkhwa, Azad Jammu and Kashmir and Gilgit-Baltistan; Karachi covers Sindh and Balochistan.",
+                "Step 9. Wait for the decision. Where Federal Employment Agency approval is needed, the embassy requests it internally, so you do not apply for it yourself ([source](https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/iss-en/issue-01-2026/labour-market-admission)). The mission cannot print a visa in an unsigned passport, so sign your passport."
+              ]
+            }
+          ],
+          "note": "Research, self-employment and voluntary service visas cannot be started in the portal yet. For those, the mission says to register for an appointment in the regular way through the link on its work visa page."
+        },
+        {
+          "heading": "What documents do you need for a Germany work visa from Pakistan?",
+          "content": "The portal shows the exact list for your category. As a preparation guide, the Consulate General in Karachi publishes checklists for the [EU Blue Card](https://pakistan.diplo.de/resource/blob/2582880/797f5cdeb94793eaab61aa14ab185c47/eu-blue-card-pdf-data.pdf), [skilled workers with a university degree](https://pakistan.diplo.de/resource/blob/2582902/b05e106540988e13eb8955ebb0aa2aad/sw-uni-degree-data.pdf) and [skilled workers with a vocational qualification](https://pakistan.diplo.de/resource/blob/2583210/66e29290d2aec4263873c318f7c4a560/sw-voc-qual-data.pdf). They ask for originals and one set of copies.",
+          "subsections": [
+            {
+              "title": "Documents on the official checklists",
+              "items": [
+                "Application form, completed and signed, with a passport photo.",
+                "Copy of the first three pages of your current passport, and a copy of both sides of your ID card.",
+                "Application declarations, read and signed by you.",
+                "Curriculum vitae covering your education and professional history.",
+                "Employer's Declaration form, completed and signed by your employer.",
+                "Employment contract signed by both sides, with an up-to-date joining date, and a detailed job description.",
+                "University degrees and final transcripts attested by the HEC, plus proof of recognition: two anabin printouts (degree and university) or a Statement of Comparability. For the vocational route: the diploma attested by the HEC and the recognition decision from the German authority.",
+                "Travel health insurance confirmation, valid from your travel date until your regular German health insurance begins.",
+                "Only if they apply to you: a written explanation of past visa refusals, a practice licence for a regulated profession, and a pre-approval from the Foreigners Authority or the Federal Employment Agency."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How can you get a faster appointment?",
+          "content": "The main official shortcut is the accelerated skilled worker procedure. Your employer applies to the Foreigners Authority in Germany for a pre-approval under Section 81a of the Residence Act. The [mission's page](https://pakistan.diplo.de/pk-en/service/4-work-jobseeker-1676106) says applicants with a pre-approval letter that is not older than three months can get expedited processing: you register on the mission's priority list (the link is on that page) and also upload your application in the Consular Services Portal. Your employer can also ask the Federal Employment Agency for a preliminary review before you apply, which the agency says is meant to speed up the visa process. Blue Card applicants and applicants with priority processing can attach the family reunion applications of their spouse and children to their own application in the portal."
+        },
+        {
+          "heading": "What are the common mistakes that get a Germany work visa delayed or refused?",
+          "subsections": [
+            {
+              "title": "Mistakes to avoid",
+              "items": [
+                "Applying without a recognised qualification. Check anabin or get the Statement of Comparability before you accept a joining date.",
+                "A salary below the threshold for your category, or a contract that does not show the gross annual salary clearly.",
+                "A job that does not match your degree. For the Blue Card, the job must normally need a university degree and be connected to what you studied.",
+                "An old joining date. The checklists say the joining date in the contract must be up to date, so ask the employer for a revised contract if the date has passed.",
+                "Uploading an incomplete file. It delays the screening, and you wait longer for an appointment.",
+                "Hiding an earlier refusal. The checklist asks for a written explanation of past visa refusals.",
+                "Fake or altered documents, or a 'job offer' bought from an agent. There is no remonstration procedure any more, so a refusal is hard to reverse."
+              ]
+            },
+            {
+              "title": "Quick checklist before you upload",
+              "items": [
+                "Signed contract with gross salary, hours and a future joining date.",
+                "Employer's Declaration form and job description.",
+                "HEC-attested degree and transcripts, or vocational diploma.",
+                "anabin printouts, Statement of Comparability or recognition decision.",
+                "CV with no unexplained gaps, matching your experience letters.",
+                "Signed passport, photo, CNIC copy and travel health insurance.",
+                "EUR 75 in rupees ready for the appointment."
+              ]
+            }
+          ],
+          "note": "Scam warning: the missions do not sell appointments, and no agent has a quota of German work visas. Never pay anyone for a job offer, an appointment slot or a 'guaranteed' visa, and only use links that start from pakistan.diplo.de or digital.diplo.de."
+        },
+        {
+          "heading": "What happens after you get the visa?",
+          "content": "The visa is placed in your passport as a label, and with a national (D) visa you can usually start working right after you enter Germany. According to the [Federal Employment Agency](https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/iss-en/issue-01-2026/labour-market-admission), you then register with the residents' registration office and convert the visa into a residence permit at the local immigration office before the visa expires. Contact the immigration office well in advance, because appointments take time. The residence permit is a plastic card with a chip. An EU Blue Card is issued for the length of the contract plus three months, or for up to four years with a permanent contract, and Blue Card holders may qualify for a settlement permit after 27 months with A1 German or 21 months with B1."
+        },
+        {
+          "heading": "Frequently asked questions",
+          "faqs": [
+            {
+              "question": "Can I apply for a Germany work visa from Pakistan without a job offer?",
+              "answer": "Not for an employment visa. The Blue Card and skilled worker categories on the German Missions in Pakistan page all require a valid employment contract with a company in Germany. If you have a recognised qualification but no job yet, the Opportunity Card for jobseeking is the route to look at, and it has its own rules."
+            },
+            {
+              "question": "How much is the Germany work visa fee from Pakistan?",
+              "answer": "The long-term (category D) visa fee is EUR 75. The German Missions in Pakistan say visa fees are due in Pakistani rupees at the current exchange rate and must be paid in cash at the counter in both Islamabad and Karachi. Recognition, attestation and insurance costs are separate from this fee."
+            },
+            {
+              "question": "Do I need an agent to apply for a Germany work visa?",
+              "answer": "No. You register and upload your documents yourself in the Foreign Office's Consular Services Portal, and the portal lists the documents for your category. Agents have no special access, appointments or quotas. Never pay anyone for a job offer or a visa; a genuine German employer does not charge you for hiring you."
+            },
+            {
+              "question": "Is IELTS or German language required for a Germany work visa?",
+              "answer": "The mission's checklists for the EU Blue Card and the skilled worker categories do not list a language certificate; they focus on the contract, the recognised qualification and insurance. Your employer may still require German or English for the job, and regulated professions can have their own language rules, so check the portal's list for your case."
+            },
+            {
+              "question": "How long does a Germany work visa take from Pakistan?",
+              "answer": "There is no fixed official time. The mission says processing times for national visas vary widely with the purpose of the stay and the quality of the application and documents. A complete upload, a recognised qualification and a Section 81a pre-approval from your employer are the things that officially shorten the wait."
+            },
+            {
+              "question": "What salary do I need for an EU Blue Card in Germany in 2026?",
+              "answer": "The Federal Employment Agency gives a minimum gross annual salary of EUR 50,700 for 2026. A lower threshold of EUR 45,934.20 applies to shortage occupations, to people who graduated within the last three years and to experienced IT specialists, but then the agency must approve the job and may expect a higher salary."
+            },
+            {
+              "question": "Can my family come with me on a Germany work visa?",
+              "answer": "Family reunion is generally possible with the EU Blue Card. The German Missions in Pakistan say Blue Card applicants, researchers and applicants with priority processing can attach the family reunion applications of their spouse and children to their own application in the portal. Each family member must still meet the family reunion requirements on the mission's page."
+            },
+            {
+              "question": "What can I do if my Germany work visa is refused?",
+              "answer": "Read the refusal letter carefully first. The remonstration procedure was abolished from 1 July 2025, so you can no longer simply send an objection to the mission. The practical next step is to fix the problem named in the letter, such as recognition, salary or missing documents, and submit a new, complete application through the portal."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This is a free information guide, last updated November 2026. Travelaxis offers visit visa documentation only: we don't prepare Germany work visa applications, and nobody can guarantee a job or a visa. The facts here were taken on 13 November 2026 from the [German Missions in Pakistan](https://pakistan.diplo.de/pk-en/service/4-work-jobseeker-1676106), their [fees page](https://pakistan.diplo.de/pk-en/service/2208622-2208622) and official checklists, and Germany's [Federal Employment Agency](https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/iss-en/issue-03-2026/blue-card). Use the document list shown in the Consular Services Portal as your official checklist, and re-check salary thresholds and fees on the official pages before you apply."
+        }
+      ]
+    }
+  },
   "uk-student-visa-bank-statement-requirements-from-pakistan": {
     "title": "UK Student Visa Bank Statement from Pakistan 2026: How Much, the 28-Day Rule and How to Show Funds",
     "metaTitle": "UK Student Visa Bank Statement from Pakistan (2026 Guide)",
