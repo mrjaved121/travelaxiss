@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Clock, Building2, Plane, Globe2, Landmark, FileText, Search, Snowflake, Compass, Sun } from "lucide-react";
+import { ArrowRight, CalendarDays, Clock, Building2, Plane, Globe2, Landmark, FileText, Search, Snowflake, Compass, Sun } from "lucide-react";
 import { motion } from "motion/react";
 import { blogPostSummaries } from "@/components/data/blogIndex";
 
@@ -128,6 +128,12 @@ export default function BlogPage() {
                     </span>
                   </div>
                   <div className="flex items-center space-x-4 text-sm text-[#4B5B70] mb-3">
+                    {blog.date && (
+                      <div className="flex items-center space-x-1">
+                        <CalendarDays className="w-4 h-4" aria-hidden />
+                        <span>{blog.date}</span>
+                      </div>
+                    )}
                     <div className="flex items-center space-x-1">
                       <Clock className="w-4 h-4" aria-hidden />
                       <span>{blog.readTime}</span>
