@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "how-to-apply-for-australia-student-visa-from-pakistan",
+      "title": "How to Apply for an Australia Student Visa from Pakistan Yourself (2026 Step-by-Step)",
+      "excerpt": "How to apply for an Australia student visa from Pakistan without an agent: CoE, OSHC, the Document Checklist Tool, ImmiAccount, AUD 2,500 charge, AUD 29,710 living funds, biometrics in Pakistan and the mistakes that get files refused.",
+      "date": "November 14, 2026",
+      "readTime": "10 min read",
+      "category": "Australia Visa Documentation"
+    },
+    {
       "id": "how-to-apply-for-germany-work-visa-from-pakistan",
       "title": "How to Apply for a Germany Work Visa from Pakistan Yourself (2026 Step-by-Step)",
       "excerpt": "How to apply for a Germany work visa from Pakistan without an agent: job contract, degree recognition, the online Consular Services Portal, EUR 75 fee, 2026 Blue Card salary figures, documents and the mistakes that delay files.",

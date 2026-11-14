@@ -5,6 +5,210 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "how-to-apply-for-australia-student-visa-from-pakistan": {
+    "title": "How to Apply for an Australia Student Visa from Pakistan Yourself (2026 Step-by-Step)",
+    "metaTitle": "How to Apply for Australia Student Visa from Pakistan",
+    "metaDescription": "How to apply for an Australia student visa from Pakistan yourself: CoE, OSHC, ImmiAccount, AUD 2,500 charge, funds, biometrics and steps. No agent needed.",
+    "keywords": [
+      "how to apply for australia student visa from pakistan",
+      "how to get australia student visa from pakistan",
+      "australia study visa process from pakistan",
+      "australia student visa requirements from pakistan",
+      "apply australia student visa online from pakistan",
+      "subclass 500 visa from pakistan",
+      "australia student visa"
+    ],
+    "date": "November 14, 2026",
+    "dateModifiedIso": "2026-11-14",
+    "readTime": "10 min read",
+    "category": "Australia Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/australia/"
+    },
+    "content": {
+      "intro": "To apply for an Australia student visa from Pakistan, you first get a Confirmation of Enrolment (CoE) from an Australian education provider, buy Overseas Student Health Cover (OSHC), and then lodge a Student visa (subclass 500) application online in [ImmiAccount](https://online.immi.gov.au/lusc/login), the Department of Home Affairs' own portal. You attach your documents there, answer the Genuine Student questions and pay the visa application charge, which is AUD 2,500 for the main applicant since 1 July 2026. There is no paper form and no embassy counter for this visa, and you don't need an agent to lodge it. Nobody can sell you a visa or a faster decision. This guide follows the steps on the official [Student visa (subclass 500) page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500). Last updated November 2026. Rules and charges change, so confirm each point on the official page before you pay.",
+      "sections": [
+        {
+          "heading": "Australia student visa from Pakistan at a glance",
+          "subsections": [
+            {
+              "title": "Key facts from official sources (checked 14 November 2026)",
+              "items": [
+                "Visa: Student visa (subclass 500), decided by Australia's Department of Home Affairs.",
+                "Where you apply: online only, in ImmiAccount. Since 2 October 2026 most Student visa applications must be lodged from outside Australia, which is the normal case for applicants in Pakistan.",
+                "Must have before you lodge: a CoE for every course you plan to study. Without a CoE at lodgement the application is invalid.",
+                "Visa application charge: AUD 2,500 base charge for the main applicant since 1 July 2026. It isn't refunded if the visa is refused.",
+                "Money to show: 12 months of living costs (AUD 29,710 for a student), the first 12 months of course fees and AUD 2,000 for travel.",
+                "Health cover: OSHC for the whole stay, starting on the day you arrive in Australia.",
+                "English: an approved test taken at a test centre if your checklist asks for it, for example IELTS 6.0, PTE Academic 47 or TOEFL iBT 67 for tests taken on or after 7 August 2025.",
+                "Biometrics: Australian Biometrics Collection Centres in Islamabad, Lahore and Karachi, run by VFS Global.",
+                "Stay and work: up to 6 years in line with your enrolment, and work of up to 48 hours a fortnight while your course is in session."
+              ]
+            }
+          ],
+          "note": "Sources: Home Affairs [Student visa (subclass 500)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500), [biometrics](https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/biometrics) and the explanatory statement to the 2026 fee regulations on the [Federal Register of Legislation](https://www.legislation.gov.au/F2026L00874/asmade/2026-06-30/es/original/epub/OEBPS/document_1/document_1.html). Amounts are in Australian dollars. The rupee amount depends on your bank's rate on the day."
+        },
+        {
+          "heading": "Can you apply for an Australia student visa yourself, without an agent?",
+          "content": "Yes. The application is an online form in your own ImmiAccount, and Home Affairs' step-by-step guide is written for the applicant. An agent is optional. If you do appoint someone to give you immigration assistance, Home Affairs says that person must be a registered migration agent, a legal practitioner or an exempt person, as explained on its [who can help page](https://immi.homeaffairs.gov.au/help-support/who-can-help-with-your-application/overview). Anyone can be appointed just to receive letters for you, but that is not the same as preparing your application. Whoever fills in the form, you are responsible for every answer. If identity can't be proved or false information is given, Home Affairs says it will refuse the application and might not grant you another visa for 10 years.",
+          "note": "Scam warning: Home Affairs says it doesn't charge a fee to fast-track a visa, and that an offer to do so is a scam. Pay the visa charge only inside ImmiAccount, and read the official [visa scams page](https://immi.homeaffairs.gov.au/help-support/visa-scams) before you pay anyone for 'guaranteed' admission or a visa."
+        },
+        {
+          "heading": "What do you need before you start the application?",
+          "content": "Four things take the most time, so start them first. Each one comes from the eligibility list on the Student visa page.",
+          "subsections": [
+            {
+              "title": "Prepare these first",
+              "items": [
+                "A CoE: you must be enrolled in a full-time course registered on [CRICOS](https://cricos.education.gov.au/), the Australian Government's register of courses for overseas students. Check the provider and the course there yourself before you pay a deposit.",
+                "OSHC: buy it from an approved Australian health insurer or let your education provider arrange it. Cover must begin on the day you arrive, not the day classes start, and run for your whole stay.",
+                "A valid passport: you must hold one to lodge the application.",
+                "An English test result, if your checklist asks for one: tests taken fully online or at home (for example IELTS Online or TOEFL iBT Home Edition) aren't accepted. The test must generally be taken within the 2 years before you apply.",
+                "Funds and their history: bank statements that show how the money built up, or loan or scholarship papers. A one-day balance certificate doesn't show this.",
+                "Genuine Student evidence: transcripts, job letters, tax returns or bank statements and anything else that supports your answers."
+              ]
+            }
+          ],
+          "note": "If you arrange OSHC yourself you need the policy number for the form. If your provider arranges it you need the insurer's name and the start and end dates. Home Affairs says it will refuse the application if OSHC details aren't given."
+        },
+        {
+          "heading": "How to apply — step by step",
+          "content": "These steps follow Home Affairs' own order: before you apply, gather your documents, apply for the visa, after you apply, and the visa outcome.",
+          "subsections": [
+            {
+              "title": "The steps in order",
+              "items": [
+                "Step 1. Choose a course and get admitted. Confirm the course on [CRICOS](https://cricos.education.gov.au/), apply to the education provider directly through its own website, accept the offer and pay what the provider asks. The provider then issues your CoE.",
+                "Step 2. Arrange OSHC for the full length of your stay and note the insurer, dates and policy number.",
+                "Step 3. Get your personal document list. Open the [Document Checklist Tool](https://immi.homeaffairs.gov.au/visas/web-evidentiary-tool), choose Pakistan as your country of passport and your education provider, and read what it asks for. Use 'Show steps' to see the evidence accepted. The tool is routinely updated on 31 March and 30 September and can change at other times, so check it again just before you submit.",
+                "Step 4. Work out your funds: AUD 29,710 living costs, plus the first 12 months of course fees minus anything you've already paid, plus AUD 2,000 travel. Collect the evidence and the proof of where the money came from.",
+                "Step 5. Draft your [Genuine Student answers](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/genuine-student-requirement). The form asks about your current circumstances, why this course and this provider in Australia, and how the course will benefit you. Each answer has a 150-word limit and must be in English.",
+                "Step 6. Get your files ready. Have every non-English document translated into English, with the translator's full name, address, phone number and qualifications in English on each translation. Scan in colour, keep multi-page documents as one file, and note that you can attach a maximum of 60 documents. Documents don't need to be certified.",
+                "Step 7. Create or log in to [ImmiAccount](https://online.immi.gov.au/lusc/login), start a Student visa (subclass 500) application, enter every CoE code, your OSHC details and your answers, and attach the documents.",
+                "Step 8. Pay the visa application charge online. Check the amount first in the [Visa Pricing Estimator](https://immi.homeaffairs.gov.au/Visa-subsite/Pages/visa-pricing-estimator.aspx). If the correct charge isn't paid, Home Affairs can't process the application.",
+                "Step 9. Give biometrics. Most applicants are told straight after submitting if biometrics are needed, and get 14 days. Follow the request letter to book at the [Australian Biometrics Collection Centre](https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/biometrics) in Islamabad, Lahore or Karachi and take the passport linked to your application. The centre charges a service fee.",
+                "Step 10. Do your [health examinations](https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/arrange-your-health-examinations) if required. Your ImmiAccount shows a referral letter with a HAP ID, which you use to book with a panel physician approved by Home Affairs.",
+                "Step 11. Check ImmiAccount regularly and answer any request for information quickly. You don't have to wait for the deadline. Avoid booking travel until the visa is decided.",
+                "Step 12. Get the decision in writing. A grant letter gives your visa grant number, expiry date and conditions. There is no visa label in the passport because the visa is linked to it digitally."
+              ]
+            }
+          ],
+          "note": "Home Affairs asks for a complete, decision-ready application. It says applications lodged without the relevant documents may be refused or delayed, and that it may decide on what you gave when you first lodged."
+        },
+        {
+          "heading": "How much money do you need to show from Pakistan?",
+          "content": "At a minimum, Home Affairs asks for enough money to cover your travel, 12 months of course fees and 12 months of living costs. The living cost figure is AUD 29,710 for a student and the travel figure is AUD 2,000 when you apply from outside Australia and outside Africa. Using Home Affairs' own example of a AUD 50,000 course over 3 years, 12 months of fees is AUD 16,666, so the total to show is AUD 48,376, minus any tuition you've already paid and can prove. Accepted evidence includes deposits of money with a financial institution, a loan from a government or financial institution, and scholarships. If someone else is paying, you also give proof of your relationship, their identity documents and their past support. Our separate guide covers the [visa fee and other costs](/blog/australia-student-visa-fee-from-pakistan) in detail.",
+          "note": "Home Affairs says real living costs can be much higher than the visa minimum and that you shouldn't rely on work in Australia to support yourself."
+        },
+        {
+          "heading": "Doing it yourself vs using an agent: what actually changes?",
+          "subsections": [
+            {
+              "title": "The same either way",
+              "items": [
+                "The form, the document checklist and the visa application charge.",
+                "The Genuine Student questions, which must describe your own circumstances.",
+                "Processing priority, which depends on your course type and education provider, not on who lodged the file.",
+                "Your responsibility for every answer and document."
+              ]
+            },
+            {
+              "title": "What differs",
+              "items": [
+                "Doing it yourself: you pay only official costs (provider, OSHC, visa charge, biometrics, health checks) and you see every message from Home Affairs in your own ImmiAccount.",
+                "Using help: only a registered migration agent, legal practitioner or exempt person may give immigration assistance. Ask which one they are before you appoint them, and keep your own ImmiAccount login."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How long does it take after you apply?",
+          "content": "Applications lodged outside Australia are processed in priority order under a Ministerial Direction. Home Affairs says it aims to begin processing Priority 1 applications within 1 to 4 weeks of lodgement, Priority 2 within 5 to 8 weeks and Priority 3 within 9 to 12 weeks. For higher education and vocational courses, the priority depends on whether your education provider has reached its student allocation threshold, so ask the provider before you lodge. The priority level doesn't affect whether the visa is granted or refused. These are times to start processing, not decision times. Home Affairs says an application takes longer if it isn't filled in correctly, documents are missing or information has to be verified. See the [student visa processing priorities page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/visa-processing-priorities/student-visa) for the current position and lodge well before your course start date."
+        },
+        {
+          "heading": "What gets Australia student visa applications refused or delayed?",
+          "content": "Home Affairs names these problems on its own pages. Fixing them before you lodge is what improves your chances. Nothing guarantees a grant.",
+          "subsections": [
+            {
+              "title": "Mistakes to avoid",
+              "items": [
+                "No CoE at lodgement: the application is invalid and can't be processed.",
+                "OSHC details missing from the form: Home Affairs says it will refuse the application.",
+                "Financial evidence not attached when the checklist requires it: the application may be refused without a request for more information.",
+                "A bank balance certificate for a single day, with no history showing how the funds grew or where deposits came from.",
+                "Genuine Student answers that are copied or general. Home Affairs gives more weight to statements backed by evidence, and expects reasons for not studying in Pakistan if a similar course is available here.",
+                "An English test taken online at home, or a TOEFL iBT booking that wasn't made as 'Taking TOEFL for Australia' (required from 21 January 2026).",
+                "False or unverifiable documents or identity details, which can lead to refusal and a 10-year bar.",
+                "A CoE that is cancelled before the decision. You must hold a valid CoE when the application is decided."
+              ]
+            },
+            {
+              "title": "Short checklist before you press submit",
+              "items": [
+                "CoE for every course, and every CoE code entered in the form.",
+                "OSHC insurer, dates and policy number.",
+                "Passport bio page and CNIC, plus any change-of-name document.",
+                "Funds evidence with history and source, and sponsor documents if a parent is paying.",
+                "English test report, if the checklist asks for it.",
+                "Genuine Student answers and supporting evidence.",
+                "English translations of all non-English documents, colour scans, one file per document.",
+                "Document Checklist Tool re-checked today."
+              ]
+            }
+          ],
+          "note": "If the visa is refused, Home Affairs tells you in writing why and whether you have a right to review. The charge isn't refunded. Read the reasons, fix that exact gap and only then lodge again. Our guide to the [Genuine Student requirement](/blog/australia-student-visa-genuine-student-requirement-pakistan) explains that part in more detail."
+        },
+        {
+          "heading": "Can you take your spouse or children with you?",
+          "content": "For most Pakistani students, not on the same application. Home Affairs says Student visa applicants can no longer include a partner or dependent children unless an exemption applies, and family members can't be added after the visa has been granted. The exemptions listed include PhD students, students sponsored by Australia's Department of Foreign Affairs and Trade or Department of Defence, and foreign government scholarship recipients. Check the official [family members page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members) before you make family plans or pay any deposit based on them."
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How do I apply for an Australia student visa from Pakistan?",
+              "answer": "Get a Confirmation of Enrolment from a CRICOS-registered provider, arrange Overseas Student Health Cover, then lodge a Student visa (subclass 500) application online in ImmiAccount. Attach your documents, answer the Genuine Student questions, pay the AUD 2,500 charge, and then give biometrics and do health examinations if Home Affairs asks."
+            },
+            {
+              "question": "Can I apply for an Australia student visa without an agent?",
+              "answer": "Yes. The application is an online form in your own ImmiAccount and an agent isn't required. If you choose to appoint someone for immigration assistance, Home Affairs says they must be a registered migration agent, a legal practitioner or an exempt person. You stay responsible for every answer in the form."
+            },
+            {
+              "question": "What is the Australia student visa fee from Pakistan in 2026?",
+              "answer": "The base visa application charge for the main applicant on a Student visa (subclass 500) rose from AUD 2,000 to AUD 2,500 on 1 July 2026. It's paid online in ImmiAccount and isn't refunded if the visa is refused. Confirm the amount for your case in the Home Affairs Visa Pricing Estimator before paying."
+            },
+            {
+              "question": "How much bank balance is required for an Australia student visa from Pakistan?",
+              "answer": "Home Affairs asks for at least AUD 29,710 in living costs for 12 months, plus the first 12 months of course fees and AUD 2,000 for travel. Fees you've already paid are deducted if you can prove them. You must also show where the money came from, not just a one-day balance."
+            },
+            {
+              "question": "Is IELTS required for an Australia student visa from Pakistan?",
+              "answer": "The Document Checklist Tool tells you whether you must give English evidence. If you do, approved tests include IELTS (6.0), PTE Academic (47) and TOEFL iBT (67) for tests taken on or after 7 August 2025, with lower scores if your course is packaged with ELICOS. Online at-home tests aren't accepted."
+            },
+            {
+              "question": "Where do I give biometrics for an Australia visa in Pakistan?",
+              "answer": "Home Affairs lists Australian Biometrics Collection Centres in Islamabad, Lahore and Karachi, operated by VFS Global. You book an appointment after you receive the request letter, usually straight after submitting, and you get 14 days. Take the passport linked to your application. The centre charges a service fee."
+            },
+            {
+              "question": "How long does an Australia student visa take from Pakistan?",
+              "answer": "There's no fixed decision time. Home Affairs aims to begin processing Priority 1 applications within 1 to 4 weeks of lodgement, Priority 2 within 5 to 8 weeks and Priority 3 within 9 to 12 weeks. Incomplete forms, missing documents and verification all add time, so lodge early and complete."
+            },
+            {
+              "question": "Can I work in Australia on a student visa?",
+              "answer": "Yes, within limits. Home Affairs says Student visa holders can't work before the course starts, can work up to 48 hours a fortnight while the course is in session, and can work unlimited hours when it isn't in session. Master's by research and doctoral students have no fortnightly limit."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This guide is free information for Pakistani students who want to prepare and lodge their own application. Travelaxis offers visit visa documentation only and doesn't prepare study or work visa applications. Every figure here was checked against Department of Home Affairs and Federal Register of Legislation pages on 14 November 2026, but requirements, charges and processing arrangements change. Use the official [Document Checklist Tool](https://immi.homeaffairs.gov.au/visas/web-evidentiary-tool) and the [Student visa (subclass 500) page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500) as your checklist, and apply only through ImmiAccount. No guide, agent or consultant can guarantee a visa."
+        }
+      ]
+    }
+  },
   "how-to-apply-for-germany-work-visa-from-pakistan": {
     "title": "How to Apply for a Germany Work Visa from Pakistan Yourself (2026 Step-by-Step)",
     "metaTitle": "How to Apply for Germany Work Visa from Pakistan (2026)",
