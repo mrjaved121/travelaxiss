@@ -56,6 +56,19 @@ const staticPaths = [
   "/terms",
 ];
 
+/**
+ * Real "last changed" dates for the static pages (yyyy-MM-dd). The sitemap used
+ * to stamp every static URL with the build time, so each deploy told crawlers
+ * that all pages had changed. Now a page keeps a fixed date until its content
+ * is actually edited: when you change a page's content, add or update its path
+ * here. Pages not listed use STATIC_PAGES_LAST_REVIEWED (the 8 Nov 2026 site-wide
+ * content revision).
+ */
+const STATIC_PAGES_LAST_REVIEWED = "2026-11-08";
+const staticPageLastModified: Record<string, string> = {
+  // "/visit-visa/uae": "2026-12-01",
+};
+
 /** Match `trailingSlash: true` in next.config (canonical URLs use trailing slash). */
 function toSitemapUrl(base: string, path: string): string {
   if (!path || path === "") return `${base}/`;
@@ -65,35 +78,43 @@ function toSitemapUrl(base: string, path: string): string {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_URL.replace(/\/$/, "");
-  const siteFallbackModified = new Date();
+  const staticPagesModified = blogIsoDayToDate(STATIC_PAGES_LAST_REVIEWED);
+
+  /** The date shown on each post's page: "Updated" date when set, else the published date. */
+  const blogModified = (slug: string): Date => {
+    const post = blogData[slug] as { date?: string; dateModifiedIso?: string };
+    return post.dateModifiedIso
+      ? blogIsoDayToDate(post.dateModifiedIso)
+      : blogDisplayDateToDate(post.date ?? "April 9, 2026");
+  };
+  const blogSlugs = Object.keys(blogData);
+  /** The blog listing changes whenever a post is published or revised. */
+  const newestBlogModified = blogSlugs
+    .map(blogModified)
+    .reduce((latest, d) => (d > latest ? d : latest), staticPagesModified);
 
   const staticEntries: MetadataRoute.Sitemap = staticPaths.map((path) => ({
     url: toSitemapUrl(base, path),
-    lastModified: siteFallbackModified,
+    lastModified:
+      path === "/blog"
+        ? newestBlogModified
+        : staticPageLastModified[path]
+          ? blogIsoDayToDate(staticPageLastModified[path])
+          : staticPagesModified,
     changeFrequency: path.startsWith("/blog") ? "weekly" : "monthly",
     priority: path === "" ? 1 : path === "/services" || path === "/contact" ? 0.9 : 0.8,
   }));
 
-  const blogEntries: MetadataRoute.Sitemap = Object.keys(blogData).map(
-    (slug) => {
-      const post = blogData[slug] as { date?: string; dateModifiedIso?: string };
-      const displayDate = post.date ?? "April 9, 2026";
-      const lastModified = post.dateModifiedIso
-        ? blogIsoDayToDate(post.dateModifiedIso)
-        : blogDisplayDateToDate(displayDate);
-
-      return {
-        url: `${base}/blog/${slug}/`,
-        lastModified,
-        changeFrequency: "monthly" as const,
-        priority: 0.7,
-      };
-    },
-  );
+  const blogEntries: MetadataRoute.Sitemap = blogSlugs.map((slug) => ({
+    url: `${base}/blog/${slug}/`,
+    lastModified: blogModified(slug),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
 
   const countryEntries: MetadataRoute.Sitemap = newVisitVisaDestinations.map((destination) => ({
     url: `${base}/visit-visa/${destination.slug}/`,
-    lastModified: siteFallbackModified,
+    lastModified: staticPagesModified,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));

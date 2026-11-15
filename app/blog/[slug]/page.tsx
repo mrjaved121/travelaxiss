@@ -8,6 +8,7 @@ import { blogRedirects } from "@/components/data/blogRedirects";
 import { blogDisplayDateToIso } from "@/lib/seo/blog-dates";
 import { blogFaqJsonLd, blogHowToJsonLd, blogPostingJsonLd, breadcrumbJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
+import { resolveBlogCta } from "@/lib/blog/info-only";
 
 /** Redirect targets are blog slugs, or absolute site paths when they start with "/". */
 function redirectPath(target: string): string {
@@ -120,7 +121,7 @@ export default async function Page({ params }: Props) {
           ...(howToSchema ? [howToSchema] : []),
         ]}
       />
-      <BlogDetailPage blog={blog} />
+      <BlogDetailPage blog={{ ...blog, cta: resolveBlogCta(slug, blog) }} />
     </>
   );
 }

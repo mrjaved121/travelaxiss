@@ -2,9 +2,12 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, Landmark, FileText, BadgeCheck, CalendarDays, Snowflake, Compass, Sun } from "lucide-react";
+import { ArrowLeft, Clock, Share2, Building2, Plane, Globe2, Landmark, FileText, BadgeCheck, CalendarDays, Snowflake, Compass, Sun, MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
 import { blogIsoDayToDisplay } from "@/lib/seo/blog-dates";
+import { isInfoOnlyCta, type BlogCta } from "@/lib/blog/info-only";
+import { WHATSAPP_HREF } from "@/components/home/contact";
+import { ARTICLE_REVIEWER } from "@/lib/seo/site";
 
 /**
  * Renders body text with `[label](url)` markdown-style links inline —
@@ -65,8 +68,6 @@ const categoryIcons: Record<string, typeof FileText> = {
   "Australia Visa Documentation": Sun,
 };
 
-type BlogCta = { heading: string; text: string; label: string; href: string };
-
 /** Default closing CTA — a post can override it with its own `cta` field. */
 const defaultCta: BlogCta & { ariaLabel: string } = {
   heading: "Need Help With Your Visa Documents?",
@@ -95,6 +96,9 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
       </div>
     );
   }
+
+  const cta: BlogCta | undefined = blog.cta;
+  const infoOnly = isInfoOnlyCta(cta);
 
   return (
     <article aria-labelledby="blog-article-title">
@@ -132,14 +136,18 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[#4B5B70] mb-6">
               <div className="flex items-center space-x-2">
                 <BadgeCheck className="w-5 h-5" style={{ color: "var(--teal-800)" }} aria-hidden />
-                <span>Reviewed by the Travelaxis Consultancy Team</span>
+                <span>
+                  {ARTICLE_REVIEWER
+                    ? `Reviewed by ${ARTICLE_REVIEWER.name}${ARTICLE_REVIEWER.jobTitle ? `, ${ARTICLE_REVIEWER.jobTitle}` : ""}`
+                    : "Reviewed by the Travelaxis Consultancy Team"}
+                </span>
               </div>
               {blog.date && (
                 <div className="flex items-center space-x-2">
                   <CalendarDays className="w-5 h-5" aria-hidden />
                   <span>
-                    {blog.dateModifiedIso
-                      ? `Updated ${blogIsoDayToDisplay(blog.dateModifiedIso)}`
+                    {blog.dateModifiedIso && blogIsoDayToDisplay(blog.dateModifiedIso) !== blog.date
+                      ? `Published ${blog.date} · Updated ${blogIsoDayToDisplay(blog.dateModifiedIso)}`
                       : `Published ${blog.date}`}
                   </span>
                 </div>
@@ -149,6 +157,20 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
                 <span>{blog.readTime}</span>
               </div>
             </div>
+
+            {infoOnly && cta && (
+              <p
+                className="rounded-2xl px-5 py-4 text-sm leading-relaxed text-[#4B5B70]"
+                style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--card-line)" }}
+              >
+                <strong style={{ color: "#10254A" }}>Free information only.</strong> Travelaxis prepares visit visa
+                files only and does not sell the service this guide describes.{" "}
+                <Link href={cta.href} className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
+                  See our visit visa support
+                </Link>
+                .
+              </p>
+            )}
           </motion.div>
         </div>
       </section>
@@ -948,18 +970,31 @@ export default function BlogDetailPage({ blog }: { blog: any }) {
           animate={{ opacity: 1, y: 0 }}
           className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
         >
-          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>{(blog.cta ?? defaultCta).heading}</h2>
+          <h2 className="section-title mb-6" style={{ color: '#FFFFFF' }}>{(cta ?? defaultCta).heading}</h2>
           <p className="lead mb-8" style={{ color: 'rgba(255,255,255,0.9)' }}>
-            {(blog.cta ?? defaultCta).text}
+            {(cta ?? defaultCta).text}
+            {infoOnly && " Planning a visit instead? We can prepare your visit visa file: see the page below or message us on WhatsApp."}
           </p>
-          {blog.cta ? (
-            <Link
-              href={blog.cta.href}
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
-            >
-              {blog.cta.label}
-              <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
-            </Link>
+          {cta ? (
+            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <Link
+                href={cta.href}
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-[#19B6A3] text-white shadow-sm transition-all hover:-translate-y-0.5 hover:brightness-105 hover:shadow-md"
+              >
+                {cta.label}
+                <ArrowLeft className="w-5 h-5 rotate-180" aria-hidden />
+              </Link>
+              <a
+                href={WHATSAPP_HREF}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-semibold bg-white text-[#10254A] shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                aria-label="Chat with Travelaxis on WhatsApp about a visit visa (opens in a new tab)"
+              >
+                <MessageCircle className="w-5 h-5" aria-hidden />
+                WhatsApp Us
+              </a>
+            </div>
           ) : (
             <a
               href={defaultCta.href}

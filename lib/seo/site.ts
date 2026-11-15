@@ -25,3 +25,53 @@ export const DEFAULT_OG_IMAGE = {
   width: 1200,
   height: 630,
 };
+
+/**
+ * Editorial and business details that only the owner can supply. Everything
+ * here is intentionally EMPTY: never fill it with a made-up name, licence
+ * number or address. When a value is set, the site starts using it:
+ *
+ * - `reviewer`: article JSON-LD switches to a Person author and the blog byline
+ *   reads "Reviewed by <name>, <jobTitle>". While unset, the author stays the
+ *   Travelaxis organization and the byline stays "Travelaxis Consultancy Team".
+ * - `licenceNumber`: added to the organization JSON-LD as its trade licence.
+ * - `addresses`: full street addresses override the area-level ones
+ *   (Al Qusais, Dubai / DHA Phase 8, Lahore) in the organization JSON-LD.
+ */
+export type SiteReviewer = {
+  /** Real full name of the person who reviews the guides. */
+  name: string;
+  /** e.g. "Visa Documentation Consultant". */
+  jobTitle?: string;
+  /** Optional profile page (About page section or LinkedIn). */
+  url?: string;
+};
+
+export type SiteAddress = {
+  streetAddress: string;
+  addressLocality: string;
+  addressRegion?: string;
+  postalCode?: string;
+  /** ISO country code, e.g. "AE" or "PK". */
+  addressCountry: string;
+};
+
+export type SiteBusinessConfig = {
+  reviewer?: SiteReviewer;
+  /** Trade licence number exactly as printed on the licence, with its issuing authority. */
+  licenceNumber?: string;
+  licenceAuthority?: string;
+  addresses?: { dubai?: SiteAddress; lahore?: SiteAddress };
+};
+
+export const SITE_BUSINESS: SiteBusinessConfig = {
+  reviewer: undefined,
+  licenceNumber: undefined,
+  licenceAuthority: undefined,
+  addresses: undefined,
+};
+
+/** The reviewer, only when a real name has been entered. */
+export const ARTICLE_REVIEWER: SiteReviewer | undefined = SITE_BUSINESS.reviewer?.name?.trim()
+  ? SITE_BUSINESS.reviewer
+  : undefined;

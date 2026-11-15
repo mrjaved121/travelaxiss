@@ -11,7 +11,7 @@ const quickLinks = [
   { label: "Dubai Visit Visa", href: "/visit-visa/uae" },
   { label: "Visit Visas by Region", href: "/visit-visa" },
   { label: "For Clients in Pakistan", href: "/pakistan" },
-  { label: "Study Visas", href: "/services/study-visa" },
+  { label: "Schengen Visit Visa", href: "/visit-visa/schengen" },
   { label: "Blog & Guides", href: "/blog" },
   { label: "FAQs", href: "/faq" },
 ];

@@ -6,7 +6,7 @@ type Column = { title: string; links: { name: string; href: string }[] };
 
 const columns: Column[] = [
   {
-    title: "Visa services",
+    title: "Visit visas",
     links: [
       { name: "All visit visas", href: "/visit-visa" },
       { name: "Dubai & UAE", href: "/visit-visa/uae" },
@@ -28,30 +28,11 @@ const columns: Column[] = [
     ],
   },
   {
-    title: "Study abroad",
-    links: [
-      { name: "Study visas", href: "/study-visa" },
-      { name: "Study in the UK", href: "/study-visa/uk" },
-      { name: "Study in the USA", href: "/study-visa/usa" },
-      { name: "Study in Canada", href: "/study-visa/canada" },
-      { name: "Study in Australia", href: "/study-visa/australia" },
-      { name: "Study in Germany", href: "/study-visa/germany" },
-    ],
-  },
-  {
-    title: "Immigration",
-    links: [
-      { name: "Job seeker visas", href: "/job-seeker-visa" },
-      { name: "UAE Golden Visa", href: "/services/uae-golden-visa" },
-      { name: "Dubai freelance visa", href: "/services/freelance-visa-dubai" },
-      { name: "Visa finder", href: "/visa-finder" },
-    ],
-  },
-  {
     title: "Resources",
     links: [
       { name: "Guides & blog", href: "/blog" },
       { name: "FAQs", href: "/faq" },
+      { name: "Visa finder", href: "/visa-finder" },
       { name: "Success stories", href: "/success-stories" },
       { name: "Submit documents", href: "/apply" },
       { name: "About us", href: "/about" },
@@ -69,7 +50,7 @@ export default function Footer() {
   return (
     <footer className="bg-navy pb-16 text-white md:pb-0">
       <div className="mx-auto max-w-7xl px-4 pt-12 pb-6 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-x-6 gap-y-9 sm:grid-cols-3 lg:grid-cols-[1.6fr_repeat(6,1fr)] lg:gap-x-8">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-9 sm:grid-cols-3 lg:grid-cols-[1.6fr_repeat(4,1fr)] lg:gap-x-8">
           {/* Brand */}
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <Link href="/" className="inline-block" aria-label="Travelaxis home">
@@ -84,7 +65,7 @@ export default function Footer() {
               />
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-[#B9C7DD]">
-              Visa documentation and consultancy for visits, study and residency, from our offices in Dubai and Lahore.
+              Visit visa documentation and consultancy, from our offices in Dubai and Lahore.
             </p>
             <ul className="m-0 mt-4 list-none space-y-1.5 p-0 text-sm text-[#B9C7DD]">
               <li className="flex items-start gap-2">

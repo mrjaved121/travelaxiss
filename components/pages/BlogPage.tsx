@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock, Building2, Plane, Globe2, Landmark, FileText, Search, Snowflake, Compass, Sun } from "lucide-react";
 import { motion } from "motion/react";
 import { blogPostSummaries } from "@/components/data/blogIndex";
+import { INFO_ONLY_CATEGORIES } from "@/lib/blog/info-only";
 
 const categoryIcons: Record<string, typeof FileText> = {
   "Business Setup": Building2,
@@ -97,6 +98,19 @@ export default function BlogPage() {
       {/* Blog Grid */}
       <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {INFO_ONLY_CATEGORIES.has(category) && (
+            <p
+              className="mx-auto mb-8 max-w-3xl rounded-2xl px-5 py-4 text-sm leading-relaxed text-[#4B5B70]"
+              style={{ backgroundColor: "var(--surface-soft)", border: "1px solid var(--card-line)" }}
+            >
+              <strong style={{ color: "#10254A" }}>These guides are free information only.</strong> Travelaxis offers
+              visit visa documentation only and does not sell business setup, company formation or licensing services.{" "}
+              <Link href="/visit-visa/" className="font-semibold underline-offset-2 hover:underline" style={{ color: "var(--teal-800)" }}>
+                See our visit visa support
+              </Link>
+              .
+            </p>
+          )}
           {blogs.length === 0 ? (
             <p className="text-center text-[#4B5B70]">No articles match your search yet — try a different term.</p>
           ) : (
@@ -125,6 +139,7 @@ export default function BlogPage() {
                     </div>
                     <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: "var(--surface-soft)", color: "var(--teal-800)" }}>
                       {blog.category}
+                      {INFO_ONLY_CATEGORIES.has(blog.category) && " · Information only"}
                     </span>
                   </div>
                   <div className="flex items-center space-x-4 text-sm text-[#4B5B70] mb-3">

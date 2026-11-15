@@ -1,4 +1,4 @@
-import { DEFAULT_OG_IMAGE, SITE_URL } from "./site";
+import { ARTICLE_REVIEWER, DEFAULT_OG_IMAGE, SITE_BUSINESS, SITE_URL } from "./site";
 import { blogDisplayDateToIso } from "./blog-dates";
 import { faqItems } from "@/lib/data/faqs";
 import { blogPostSummaries } from "@/components/data/blogIndex";
@@ -44,10 +44,21 @@ export const professionalServiceJsonLd = {
   email: "info@travelaxis.me",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Al Qusais",
-    addressLocality: "Dubai",
-    addressCountry: "AE",
+    ...(SITE_BUSINESS.addresses?.dubai ?? {
+      streetAddress: "Al Qusais",
+      addressLocality: "Dubai",
+      addressCountry: "AE",
+    }),
   },
+  ...(SITE_BUSINESS.licenceNumber?.trim()
+    ? {
+        identifier: {
+          "@type": "PropertyValue",
+          propertyID: SITE_BUSINESS.licenceAuthority?.trim() || "Trade licence",
+          value: SITE_BUSINESS.licenceNumber.trim(),
+        },
+      }
+    : {}),
   geo: {
     "@type": "GeoCoordinates",
     latitude: "25.2048",
@@ -94,9 +105,11 @@ export const pakistanOfficeJsonLd = {
   email: "info@travelaxis.me",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "DHA Phase 8",
-    addressLocality: "Lahore",
-    addressCountry: "PK",
+    ...(SITE_BUSINESS.addresses?.lahore ?? {
+      streetAddress: "DHA Phase 8",
+      addressLocality: "Lahore",
+      addressCountry: "PK",
+    }),
   },
   areaServed: {
     "@type": "Country",
@@ -288,10 +301,19 @@ export function blogPostingJsonLd(slug: string, blog: BlogEntry) {
     ...(blog.keywords?.length ? { keywords: blog.keywords.join(", ") } : {}),
     datePublished,
     dateModified,
-    author: {
-      "@type": "Organization",
-      name: "Travelaxis",
-    },
+    // Person author only once a real reviewer is set in SITE_BUSINESS (lib/seo/site.ts).
+    author: ARTICLE_REVIEWER
+      ? {
+          "@type": "Person",
+          name: ARTICLE_REVIEWER.name,
+          ...(ARTICLE_REVIEWER.jobTitle ? { jobTitle: ARTICLE_REVIEWER.jobTitle } : {}),
+          ...(ARTICLE_REVIEWER.url ? { url: ARTICLE_REVIEWER.url } : {}),
+          worksFor: { "@type": "Organization", "@id": `${SITE_URL}/#organization`, name: "Travelaxis" },
+        }
+      : {
+          "@type": "Organization",
+          name: "Travelaxis",
+        },
     publisher: {
       "@type": "Organization",
       name: "Travelaxis",

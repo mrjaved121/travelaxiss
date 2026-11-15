@@ -3644,10 +3644,10 @@ export const blogData: Record<string, any> = {
     readTime: "6 min read",
     category: "UAE Visa Documentation",
     cta: {
-      heading: "Planning to Work in the UAE?",
-      text: "We don't arrange work permits, but we help Pakistani and Indian applicants prepare UAE job seeker visa documents so they can look for work in the Emirates.",
-      label: "UAE Job Seeker Visa",
-      href: "/job-seeker-visa"
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare work permit or job seeker visa applications, so confirm every requirement on the official UAE government website.",
+      label: "See Dubai Visit Visa Support",
+      href: "/visit-visa/uae/",
     },
     content: {
       intro: "Yes, you can legally work part-time or take a second job in the UAE, but only with a part-time work permit from MOHRE (the Ministry of Human Resources & Emiratisation). The permit is valid for one year and lets you work for another employer for less than eight hours a day. People on a family visa also need an NOC from their sponsor, and skilled workers with a degree or a two-to-three-year diploma can hold several part-time jobs. Starting a second job without the permit exposes the hiring company to a heavy fine. Here is who qualifies, how many hours you can work and how to apply in 2026.",
@@ -4162,7 +4162,7 @@ export const blogData: Record<string, any> = {
         {
           heading: "Related Reading",
           relatedLinks: [
-            { label: "UK Visit Visa Refusal Reasons for Pakistani Applicants", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
+            { label: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
             { label: "How Much Bank Balance for a UK Visit Visa From Pakistan", href: "/blog/how-much-bank-balance-uk-visit-visa-pakistan" },
             { label: "Cover Letter for a Visit Visa: Free Sample & Template", href: "/blog/cover-letter-for-visit-visa-sample-pakistan" },
             { label: "UK Visit Visa Requirements & Application Support", href: "/visit-visa/uk" },
@@ -6360,7 +6360,7 @@ export const blogData: Record<string, any> = {
           relatedLinks: [
             { label: "Canada Visit Visa from Pakistan — Fee & Requirements", href: "/visit-visa/canada" },
             {
-              label: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+              label: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)",
               href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
             },
             {
@@ -6588,8 +6588,8 @@ export const blogData: Record<string, any> = {
     },
   },
   "how-much-bank-balance-uk-visit-visa-pakistan": {
-    title: "How Much Bank Balance Do You Need for a UK Visit Visa From Pakistan? (2027)",
-    metaTitle: "How Much Bank Balance for a UK Visit Visa From Pakistan 2027",
+    title: "How Much Bank Balance Do You Need for a UK Visit Visa From Pakistan? (2026)",
+    metaTitle: "How Much Bank Balance for a UK Visit Visa From Pakistan 2026",
     metaDescription:
       "How much bank balance you need for a UK visit visa from Pakistan: how much to show, statement rules, the sponsor option, and mistakes that cause refusal.",
     keywords: [
@@ -6728,7 +6728,7 @@ export const blogData: Record<string, any> = {
             { label: "Canada Visitor Visa Refusal Reasons for Pakistani Applicants", href: "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants" },
             { label: "Get a UK visa document review from Travelaxis", href: "/contact" },
             {
-              label: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+              label: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)",
               href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
             },
             { label: "UK Visit Visa Requirements & Application Support", href: "/visit-visa/uk" },
@@ -6786,10 +6786,10 @@ export const blogData: Record<string, any> = {
     },
   },
   "uk-visit-visa-refusal-reasons-pakistani-applicants": {
-    title: "UK Visit Visa Refusal Reasons for Pakistani Applicants (and How to Fix Them) — 2027",
-    metaTitle: "UK Visit Visa Refusal Reasons for Pakistani Applicants 2027",
+    title: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)",
+    metaTitle: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)",
     metaDescription:
-      "Why UK visit visas get refused for Pakistani applicants in 2027: the genuine visitor rule, top refusal reasons, why there is no appeal, and how to reapply.",
+      "Why UK visit visas get refused for Pakistani applicants in 2026: the genuine visitor rule, top refusal reasons, why there is no appeal, and how to reapply.",
     keywords: [
       "UK visit visa refusal Pakistan",
       "UK visit visa rejected Pakistan",
@@ -6964,7 +6964,7 @@ export const blogData: Record<string, any> = {
           ],
         },
         {
-          heading: "UK visit visa fee and processing time (2027)",
+          heading: "UK visit visa fee and processing time (2026)",
           content:
             "For reference, current UK Standard Visitor visa fees and timelines are published on the official [GOV.UK Standard Visitor visa page](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa) — we don't quote amounts here since the Home Office reviews them. The fee is non-refundable if you are refused, so a correct first application matters.",
           subsections: [
@@ -7248,7 +7248,7 @@ export const blogData: Record<string, any> = {
             { label: "Schengen & Germany Visit Visa from Pakistan", href: "/visit-visa/schengen" },
             { label: "Get a document review from Travelaxis", href: "/contact" },
             { label: "Germany Visa from Pakistan", href: "/services/germany-visa-from-pakistan" },
-            { label: "UK Visit Visa Refusal Reasons for Pakistani Applicants", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
+            { label: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
             { label: "The EU's New Border System (EES) Explained", href: "/blog/eu-entry-exit-system-ees-pakistan-travelers" },
           ],
         },
@@ -7413,7 +7413,7 @@ export const blogData: Record<string, any> = {
               href: "/blog/schengen-visa-rejection-reasons-pakistani-applicants",
             },
             { label: "Europe visit visa guide", href: "/visit-visa/europe" },
-            { label: "UK Visit Visa Refusal Reasons for Pakistani Applicants", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
+            { label: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)", href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants" },
           ],
         },
         {
@@ -18721,10 +18721,10 @@ export const blogData: Record<string, any> = {
     readTime: "12 min read",
     category: "UAE Visa Documentation",
     cta: {
-      heading: "Need Help With Your UAE Job Seeker Visa File?",
-      text: "Tell us about your qualification and we'll confirm what your application needs.",
-      label: "Check Eligibility",
-      href: "/job-seeker-visa#requirements-form",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare work permit or job seeker visa applications, so confirm every requirement on the official UAE government website.",
+      label: "See Dubai Visit Visa Support",
+      href: "/visit-visa/uae/",
     },
     content: {
       intro:
@@ -18995,10 +18995,10 @@ export const blogData: Record<string, any> = {
     readTime: "12 min read",
     category: "UAE Visa Documentation",
     cta: {
-      heading: "Need Help With Your UAE Job Seeker Visa File From Pakistan?",
-      text: "Tell us about your qualification and attestation stage, and we'll confirm what's left to prepare.",
-      label: "Check Eligibility",
-      href: "/job-seeker-visa#requirements-form",
+      heading: "This Guide Is Free Information",
+      text: "Travelaxis offers visit visa documentation only. We don't prepare work permit or job seeker visa applications, so confirm every requirement on the official UAE government website.",
+      label: "See Dubai Visit Visa Support",
+      href: "/visit-visa/uae/",
     },
     content: {
       intro:

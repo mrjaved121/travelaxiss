@@ -23,7 +23,7 @@ const quickFacts = [
 
 const ukGuides: { title: string; description: string; href: string }[] = [
   {
-    title: "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+    title: "UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)",
     description: "The genuine visitor rule, the top refusal reasons, why there is no appeal, and how to reapply.",
     href: "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants",
   },

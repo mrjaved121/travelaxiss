@@ -40,7 +40,7 @@
 - [Dubai Visit Visa for Parents from Pakistan (2026)](https://travelaxis.me/blog/dubai-visit-visa-for-parents-pakistan/) — UAE-resident sponsor route (AED 4,000 monthly salary for first-degree relatives, 30/60/90-day visas, AED 1,000 refundable deposit) vs agency tourist visa (30/60 days); documents, fees, elderly travel tips; parents' residence visa as a separate route
 - [Dubai Visit Visa Rejected for Pakistanis (2026)](https://travelaxis.me/blog/dubai-visit-visa-rejected-pakistan/) — no official UAE ban on Pakistani passports; common refusal reasons (funds, solo first-time travel, overstay, document errors); checking for a ban via ICP/GDRFA; reapplying and changing route
 - [Bank Statement for Dubai Visit Visa from Pakistan (2026)](https://travelaxis.me/blog/dubai-visit-visa-bank-statement-pakistan/) — no official minimum for 30/60-day tourist visas; the PKR 10 lakh figure comes from travel agents; the 5-year multiple-entry visa officially needs USD 4,000 held over six months; what makes a statement strong
-- [UK Visit Visa Refusal Reasons for Pakistani Applicants](https://travelaxis.me/blog/uk-visit-visa-refusal-reasons-pakistani-applicants/) — the genuine visitor requirement (Appendix V, V 4.2), top refusal reasons, why there is no ordinary appeal, how to reapply
+- [UK Visit Visa Refusal Reasons for Pakistanis (2026 Guide)](https://travelaxis.me/blog/uk-visit-visa-refusal-reasons-pakistani-applicants/) — the genuine visitor requirement (Appendix V, V 4.2), top refusal reasons, why there is no ordinary appeal, how to reapply
 - [How Much Bank Balance for a UK Visit Visa From Pakistan](https://travelaxis.me/blog/how-much-bank-balance-uk-visit-visa-pakistan/) — how much to show for your trip, statement rules, the sponsor option, money mistakes to avoid
 - [Top Schengen Visa Rejection Reasons for Pakistani Applicants](https://travelaxis.me/blog/schengen-visa-rejection-reasons-pakistani-applicants/) — the 11 official Article 32 refusal codes, bank balance guidance, appeal vs reapply
 - [The EU's New Border System (EES) for Pakistani Travelers](https://travelaxis.me/blog/eu-entry-exit-system-ees-pakistan-travelers/) — the new biometric border check live since 10 April 2026: what it collects, who it applies to, which countries, what changes at the border
@@ -72,12 +72,10 @@
 
 - Phone / WhatsApp: +971 58 986 7555
 - Email: info@travelaxis.me
-- Location: Al Qusais, Dubai, United Arab Emirates
+- Offices: Al Qusais, Dubai, United Arab Emirates; DHA Phase 8, Lahore, Pakistan
 - Hours: Mon–Fri 9:00–18:00, Sat 10:00–14:00 (Gulf Standard Time), closed Sunday
 
 ## Machine-readable
 
 - [Sitemap](https://travelaxis.me/sitemap.xml)
 - [Robots](https://travelaxis.me/robots.txt)
-
-If your live site uses a different hostname, replace `https://travelaxis.me` above to match `NEXT_PUBLIC_SITE_URL`.
