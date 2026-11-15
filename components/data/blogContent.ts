@@ -5,6 +5,208 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "how-to-check-uk-cos-is-real-or-fake-pakistan": {
+    "title": "How to Check if a UK CoS Is Real or Fake from Pakistan (2026 Guide)",
+    "metaTitle": "How to Check if a UK CoS Is Real or Fake (Pakistan 2026)",
+    "metaDescription": "How to check if a UK CoS is real or fake from Pakistan: 7 free checks on GOV.UK, the sponsor register, who pays the £525 fee and what to do if scammed.",
+    "keywords": [
+      "how to check cos is real or fake",
+      "how to check cos is genuine or not uk",
+      "how to verify certificate of sponsorship uk",
+      "how to check certificate of sponsorship online",
+      "fake cos uk pakistan",
+      "who pays certificate of sponsorship fee uk",
+      "uk register of licensed sponsors check",
+      "uk skilled worker visa"
+    ],
+    "date": "November 15, 2026",
+    "dateModifiedIso": "2026-11-15",
+    "readTime": "10 min read",
+    "category": "UK Visa Documentation",
+    "cta": {
+      "heading": "This Guide Is Free Information",
+      "text": "Travelaxis offers visit visa documentation only. We don't prepare study or work visa applications, so confirm every requirement on the official website.",
+      "label": "See Visit Visa Support",
+      "href": "/visit-visa/uk/"
+    },
+    "content": {
+      "intro": "There is no public website where a worker can type in a UK certificate of sponsorship (CoS) number and see if it is real. GOV.UK does not publish one, so any site or agent offering a 'CoS checker' is not an official service. A CoS is an electronic record held in the employer's Home Office account, not a paper certificate. You check it indirectly, and for free: confirm the employer is on the official [register of licensed sponsors](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers), confirm the details on your CoS match your job offer, and remember that the employer must pay the CoS fee, not you. If anyone asks you to pay for a CoS, treat it as a scam or as an employer breaking its sponsor duties. You do not need an agent for any of these checks. This guide was last updated in November 2026. Confirm every point on the GOV.UK pages linked below before you pay anything.",
+      "sections": [
+        {
+          "heading": "UK CoS check at a glance",
+          "subsections": [
+            {
+              "title": "Key facts from GOV.UK (checked 15 November 2026)",
+              "items": [
+                "What a CoS is: an electronic record with a reference number, not a physical document. A stamped or laminated 'certificate' proves nothing.",
+                "Who creates it: only a UK employer with a sponsor licence, inside its Home Office sponsorship management system (SMS) account.",
+                "Who pays for it: the employer. The fee is £525 per certificate on a Worker licence. For Skilled Worker certificates assigned on or after 31 December 2024, the employer must not recover any part of it from the worker.",
+                "Public check: the register of licensed sponsors is free on GOV.UK and was last updated on 12 November 2026. It lists the employer's name, town, licence type and rating, and route.",
+                "How long a CoS lasts: you must use it in a visa application within 3 months of the date it was assigned, or it expires.",
+                "What you pay yourself: the visa fee (£819 for up to 3 years or £1,618 for more than 3 years, from outside the UK) and the healthcare surcharge (usually £1,035 a year), both paid online on GOV.UK when you apply.",
+                "Forged documents: GOV.UK says an application using forged documents is refused and the applicant is banned from applying for a UK visa for 10 years."
+              ]
+            }
+          ],
+          "note": "Sources: [GOV.UK Skilled Worker visa](https://www.gov.uk/skilled-worker-visa), [GOV.UK certificates of sponsorship for employers](https://www.gov.uk/uk-visa-sponsorship-employers/certificates-of-sponsorship), [sponsor guidance part 2](https://www.gov.uk/government/publications/workers-and-temporary-workers-guidance-for-sponsors-part-2-sponsor-a-worker), [GOV.UK fraud, tricks and scams](https://www.gov.uk/government/publications/frauds-tricks-and-scams/fraud-tricks-and-scams)."
+        },
+        {
+          "heading": "What is a genuine CoS and what does it look like?",
+          "content": "GOV.UK describes the certificate of sponsorship as 'an electronic record, not a physical document' with its own reference number. Your employer assigns it in their sponsorship management system account and must give you the reference number. The [sponsor guidance](https://www.gov.uk/government/publications/workers-and-temporary-workers-guidance-for-sponsors-part-2-sponsor-a-worker) says the employer can also print a copy for you using the 'View CoS' function in that account, although you only need the number to apply. The [documents page](https://www.gov.uk/skilled-worker-visa/documents-you-must-provide) says your CoS shows the name of your employer and their sponsor licence number, and that you will also need your job title, annual salary and occupation code for the visa form. So a genuine CoS is simply a printout or PDF of a record that sits in a licensed employer's account. It has no seal, no signature from the Home Office and no courier delivery. GOV.UK does not publish a rule about how the reference number should look, so do not rely on the format of the number alone."
+        },
+        {
+          "heading": "How to check a CoS is real — step by step",
+          "subsections": [
+            {
+              "title": "Step 1: Find the employer on the official register",
+              "content": "Open the [register of licensed sponsors: workers](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers) on GOV.UK and download the file (it opens in Excel or Google Sheets). Search for the exact company name on your offer letter. The register is free and updated regularly; the file we opened was dated 12 November 2026 and had over 140,000 entries. If the company is not on it, it cannot assign a CoS. Check the register again just before you apply for the visa, because licences can be removed."
+            },
+            {
+              "title": "Step 2: Check the route and the rating",
+              "content": "Each line shows a 'Type & Rating' and a 'Route'. For a Skilled Worker job the route must say Skilled Worker, and nearly all sponsors show 'Worker (A rating)'. A company licensed only for another route, such as Creative Worker or Charity Worker, cannot sponsor a Skilled Worker job. [GOV.UK says](https://www.gov.uk/uk-visa-sponsorship-employers/certificates-of-sponsorship) a sponsor downgraded to a B rating cannot issue new certificates until it is upgraded back to an A rating, so a B rating next to a new job offer is a warning sign."
+            },
+            {
+              "title": "Step 3: Check the town and the company itself",
+              "content": "Scammers often borrow the name of a real licensed company. Compare the town on the register with the address on your offer letter. Then look the company up on the free [Companies House service](https://www.gov.uk/get-information-about-a-company), which shows the registered address, date of incorporation and current officers. Find the company's real website and phone number yourself (not the ones in the email you received) and ask its HR department to confirm the offer. Check that the email address matches the company's own domain."
+            },
+            {
+              "title": "Step 4: Ask for the CoS copy and read every line",
+              "content": "GOV.UK tells applicants to 'ask your employer for a copy of your certificate of sponsorship if you do not have one'. A real employer can print it in minutes. Check that your name, date of birth and passport details are correct, that the sponsor name matches the register, and that the job title, salary, occupation code and start date match your offer letter. If the employer refuses to share a copy or only sends a photo of a 'certificate', be careful."
+            },
+            {
+              "title": "Step 5: Check the job is one the visa allows",
+              "content": "On the [Skilled Worker visa page](https://www.gov.uk/skilled-worker-visa), check that the occupation code on your CoS is eligible and that the salary meets the rule: usually at least £41,700 a year or the going rate for the job, whichever is higher, with lower thresholds only in listed cases. A CoS for a job or salary that cannot qualify will not get a visa even if the record is real. For care worker and senior care worker jobs in England, GOV.UK says the employer must also be registered with the Care Quality Commission."
+            },
+            {
+              "title": "Step 6: Follow the money",
+              "content": "You should pay nothing for the CoS. [GOV.UK tells employers](https://www.gov.uk/uk-visa-sponsorship-employers/certificates-of-sponsorship) they must pay the certificate fee themselves and that their licence may be revoked if they ask the worker to pay it. The sponsor guidance also bans passing on the immigration skills charge. Your own costs are the visa fee and healthcare surcharge, paid by card on GOV.UK inside the application, never to a person, an agent or a personal bank account."
+            },
+            {
+              "title": "Step 7: Apply only on GOV.UK and watch the dates",
+              "content": "Enter the CoS reference number yourself in the official online form at [Apply from outside the UK](https://www.gov.uk/skilled-worker-visa/apply-from-outside-the-uk). The website address must end in gov.uk. Apply within 3 months of the date the CoS was assigned and not more than 3 months before the start date on it. After applying you prove your identity, usually by giving fingerprints and a photo at a visa application centre, and GOV.UK says a decision usually comes within 3 weeks. The decision arrives by email."
+            }
+          ],
+          "note": "These checks lower your risk a lot, but they cannot prove a CoS is valid. Only the Home Office sees the record itself, and it decides when you apply. Never pay anyone on the promise that a CoS is 'verified'."
+        },
+        {
+          "heading": "Real CoS vs fake CoS: how do they compare?",
+          "subsections": [
+            {
+              "title": "Signs of a genuine offer",
+              "items": [
+                "The employer appears on the GOV.UK register with the Skilled Worker route.",
+                "You were interviewed and have a written offer with a job title, salary and start date.",
+                "The employer gives you the CoS reference number and a copy when asked, at no charge.",
+                "Sponsor name, job, salary and your passport details all match across the offer letter and the CoS.",
+                "The employer tells you to apply and pay the visa fee yourself on GOV.UK."
+              ]
+            },
+            {
+              "title": "Signs of a fake or risky offer",
+              "items": [
+                "Someone is selling a CoS, or asks for a 'deposit', 'processing fee' or 'CoS charge' in cash or to a personal account.",
+                "A job with no interview, or a 'full package' of job, visa and travel for one price.",
+                "The company is not on the register, or is on it for a different route or with a B rating.",
+                "A paper 'certificate' with stamps, a courier fee, or a link to a 'CoS verification' site that does not end in gov.uk.",
+                "Pressure to pay today, a guaranteed visa, or a request to keep the offer secret or hand over your passport."
+              ]
+            }
+          ],
+          "note": "The warning signs are taken from the Home Office's own [fraud, tricks and scams guidance](https://www.gov.uk/government/publications/frauds-tricks-and-scams/fraud-tricks-and-scams), which says a genuine employer will not ask for payment to secure a visa and will tell you to apply on the UK government website."
+        },
+        {
+          "heading": "Who pays for the CoS, and what should a worker pay?",
+          "content": "The employer pays £525 for each certificate on a Worker licence, and may also owe the immigration skills charge. The [sponsor guidance](https://www.gov.uk/government/publications/workers-and-temporary-workers-guidance-for-sponsors-part-2-sponsor-a-worker) says a sponsor must not recoup, by any means, any part of the CoS fee or associated administrative costs from a Skilled Worker whose CoS was assigned on or after 31 December 2024, and that the Home Office will normally revoke the licence if it does. That means paying for a CoS is a problem even when the employer is real: the licence can be revoked, and the guidance says the Home Office can cancel a CoS that was assigned through misrepresentation or fraud and will refuse any application that relies on a cancelled CoS. As the worker, you pay your own visa fee, the healthcare surcharge, your English test and TB test if needed, and you must usually show £1,270 in savings unless the employer certifies maintenance on the CoS."
+        },
+        {
+          "heading": "What should you do if the CoS looks fake or you already paid?",
+          "subsections": [
+            {
+              "title": "Act in this order",
+              "items": [
+                "Stop paying. Do not send more money, gift cards, your passport or bank details, and do not confirm personal details to the person who contacted you.",
+                "Do not submit the document. Using a forged document can mean a refusal and a 10-year ban on UK visa applications, even if someone else made it.",
+                "Keep the evidence: messages, emails, payment receipts, account numbers, names and phone numbers.",
+                "Report it. GOV.UK says people outside the UK should report fraud to their local authority, which in Pakistan means the police or the relevant government complaint channel. If the person or company is in the UK, the scam can also be reported on the [Report Fraud website](https://www.reportfraud.police.uk/reporting-a-fraud/).",
+                "Tell your bank or payment provider straight away and ask if the transfer can be stopped or disputed.",
+                "Warn family and friends who received the same offer."
+              ]
+            }
+          ],
+          "note": "Getting money back from a scammer is difficult and is not guaranteed. Checking before paying is the only reliable protection."
+        },
+        {
+          "heading": "Practical tips and common mistakes",
+          "subsections": [
+            {
+              "title": "Mistakes that cost Pakistani applicants money",
+              "items": [
+                "Trusting a company because its name is on the register, without confirming the offer with the real company directly.",
+                "Paying for a CoS through a 'consultant' who says the employer needs the fee reimbursed.",
+                "Believing a paper certificate, a screenshot or a third-party 'verification' website.",
+                "Letting an agent fill in the visa form, so you never see what was declared in your name.",
+                "Waiting more than 3 months after the CoS was assigned, so it expires before you apply.",
+                "Ignoring a salary or job title on the CoS that is different from the offer letter."
+              ]
+            },
+            {
+              "title": "Checklist before you apply",
+              "items": [
+                "Employer found on the GOV.UK register, Skilled Worker route, A rating, correct town.",
+                "Company confirmed on Companies House and by a call or email to its real HR contact.",
+                "CoS copy received, with correct personal details, job title, occupation code, salary and start date.",
+                "No money paid to anyone for the job or the CoS.",
+                "Proof of English at level B2, valid passport, TB test certificate and savings evidence ready as listed on GOV.UK.",
+                "Application started by you on a gov.uk address, with fees paid by card inside the form."
+              ]
+            }
+          ],
+          "note": "The full official list of documents is on [GOV.UK: documents you'll need to apply](https://www.gov.uk/skilled-worker-visa/documents-you-must-provide)."
+        },
+        {
+          "heading": "Frequently asked questions",
+          "faqs": [
+            {
+              "question": "Can I check a CoS number online?",
+              "answer": "No public service for this is published on GOV.UK. The CoS record sits in the employer's sponsorship management system account and is seen by the Home Office when you apply. You can only check it indirectly: confirm the sponsor on the official register, ask the employer for a copy, and match every detail with your offer letter."
+            },
+            {
+              "question": "Is a CoS a paper certificate?",
+              "answer": "No. GOV.UK says the certificate of sponsorship is an electronic record, not a physical document, and it has a reference number you use in your visa application. An employer can print a copy from its account if you ask. A stamped, sealed or couriered 'certificate' is not something the Home Office issues, so it proves nothing by itself."
+            },
+            {
+              "question": "Do I have to pay for a UK certificate of sponsorship?",
+              "answer": "No. GOV.UK tells employers they must pay the certificate fee themselves, currently £525 on a Worker licence. For Skilled Worker certificates assigned on or after 31 December 2024, the sponsor must not recover any part of the fee from the worker, and the Home Office will normally revoke the licence of a sponsor that does."
+            },
+            {
+              "question": "The company is on the register. Does that mean my CoS is real?",
+              "answer": "Not by itself. The register only shows that the company holds a licence. Scammers copy the names of real licensed companies. Contact the company through details you find yourself, confirm the offer with its HR team, check the email domain, and ask for the CoS copy. Then compare the route, rating and town on the register with your offer."
+            },
+            {
+              "question": "How long is a CoS valid?",
+              "answer": "You must use it in a visa application within 3 months of the date it was assigned, or it expires and the employer has to assign and pay for a new one. You also cannot apply more than 3 months before the job start date shown on the certificate. Ask the employer for the assigned date."
+            },
+            {
+              "question": "What happens if I apply with a fake CoS?",
+              "answer": "The application will fail, and it can be much worse than a normal refusal. The Home Office guidance says that if forged documents are used, the application is refused and the applicant is banned from applying for a UK visa for 10 years. If you doubt a document, do not submit it."
+            },
+            {
+              "question": "Can an agent in Pakistan get me a CoS?",
+              "answer": "No. Only a licensed UK employer can assign a CoS, to a worker it has chosen for a real job, through its own Home Office account. An agent cannot issue, buy or reserve one. The Home Office says a genuine employer will not ask for payment to secure a visa and that UKVI never guarantees a job in the UK."
+            },
+            {
+              "question": "Can the same CoS be used again after a refusal?",
+              "answer": "No. The sponsor guidance says a CoS shows as used once a decision to grant or refuse has been made, and the employer must assign a new one if it still wants to sponsor you. If an application is only rejected as invalid or withdrawn, the same CoS can be reused while it has not expired."
+            }
+          ]
+        },
+        {
+          "heading": "About this guide",
+          "content": "This guide is free information, written from GOV.UK pages opened on 15 November 2026. Travelaxis offers visit visa documentation only and does not prepare, review or submit study or work visa applications, and it cannot verify a CoS for you. Nobody outside the Home Office can. Use the official [Skilled Worker visa pages](https://www.gov.uk/skilled-worker-visa) and the official documents checklist for your own application, apply directly on GOV.UK, and never pay anyone for a job, a CoS or a visa. Rules and fees change, so check the official pages again on the day you apply."
+        }
+      ]
+    }
+  },
   "how-to-apply-for-australia-student-visa-from-pakistan": {
     "title": "How to Apply for an Australia Student Visa from Pakistan Yourself (2026 Step-by-Step)",
     "metaTitle": "How to Apply for Australia Student Visa from Pakistan",

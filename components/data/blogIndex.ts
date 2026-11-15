@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "how-to-check-uk-cos-is-real-or-fake-pakistan",
+      "title": "How to Check if a UK CoS Is Real or Fake from Pakistan (2026 Guide)",
+      "excerpt": "How to check if a UK CoS is real or fake from Pakistan: there is no public CoS checker, so use the GOV.UK sponsor register, 7 free checks, the rule that the employer pays the £525 fee, and what to do if you already paid.",
+      "date": "November 15, 2026",
+      "readTime": "10 min read",
+      "category": "UK Visa Documentation"
+    },
+    {
       "id": "how-to-apply-for-australia-student-visa-from-pakistan",
       "title": "How to Apply for an Australia Student Visa from Pakistan Yourself (2026 Step-by-Step)",
       "excerpt": "How to apply for an Australia student visa from Pakistan without an agent: CoE, OSHC, the Document Checklist Tool, ImmiAccount, AUD 2,500 charge, AUD 29,710 living funds, biometrics in Pakistan and the mistakes that get files refused.",
