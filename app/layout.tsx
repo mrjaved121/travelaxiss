@@ -14,7 +14,7 @@ import {
   SITE_URL,
   titleTemplate,
 } from "@/lib/seo/site";
-import { GA_MEASUREMENT_ID } from "@/lib/seo/analytics";
+import { GTM_ID } from "@/lib/seo/analytics";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -86,7 +86,7 @@ export default function RootLayout({
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PK45Z389"
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
@@ -106,33 +106,16 @@ export default function RootLayout({
         <Footer />
         <FloatingWhatsApp />
         <MobileStickyCta />
-        <Script
-          src="https://www.googletagmanager.com/gtm.js?id=GTM-PK45Z389"
-          strategy="afterInteractive"
-        />
+        {/* Google Tag Manager — the standard container snippet. GA4 (G-2D4KDQ84XX)
+            is configured inside this container, so no direct gtag.js is loaded here
+            (that would count every page view twice). */}
         <Script id="gtm-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          `}
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`}
         </Script>
-        {GA_MEASUREMENT_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga4-init" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}');
-              `}
-            </Script>
-          </>
-        )}
       </body>
     </html>
   );

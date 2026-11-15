@@ -1,18 +1,24 @@
 /**
- * GA4 measurement ID. Unset in dev/preview builds so analytics never fires
- * against production data; set NEXT_PUBLIC_GA_MEASUREMENT_ID at build time
- * (static export bakes NEXT_PUBLIC_* vars into the JS bundle, so it must be
- * present when `next build` runs, not just at deploy/runtime).
+ * Google Tag Manager container, loaded on every page from app/layout.tsx.
+ * GA4 (G-2D4KDQ84XX) is configured inside the container, so the site never
+ * loads gtag.js directly: doing both would count every page view twice.
  */
-export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+export const GTM_ID = "GTM-PK45Z389";
 
 /**
- * Fires a GA4 custom event via the global gtag (loaded in app/layout.tsx when
- * GA_MEASUREMENT_ID is set). Safe to call unconditionally — a no-op when
- * analytics isn't loaded (dev/preview builds, or gtag blocked client-side).
+ * Pushes a custom event to the GTM dataLayer. Safe to call unconditionally.
+ *
+ * The published container already sends `whatsapp_click`, `phone_click` and
+ * `email_click` to GA4 from its own link-click triggers (any click on a
+ * wa.me / tel: / mailto: link), so these pushes are NOT forwarded to GA4 on
+ * their own and cannot double count (the dataLayer event name is prefixed
+ * with `site_` so it can never collide with those tags). They exist so a Custom Event trigger can
+ * be added in GTM later for actions that are not link clicks (for example the
+ * homepage eligibility form, which opens WhatsApp with window.open).
  */
 export function trackEvent(name: string, params?: Record<string, string>) {
   if (typeof window === "undefined") return;
-  const gtag = (window as typeof window & { gtag?: (...args: unknown[]) => void }).gtag;
-  if (typeof gtag === "function") gtag("event", name, params);
+  const w = window as typeof window & { dataLayer?: unknown[] };
+  w.dataLayer = w.dataLayer || [];
+  w.dataLayer.push({ event: `site_${name}`, ...params });
 }
