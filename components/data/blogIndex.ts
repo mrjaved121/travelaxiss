@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "dubai-visit-visa-new-year-from-pakistan",
+      "title": "Dubai Visit Visa for New Year from Pakistan: Apply-By Dates",
+      "excerpt": "When to apply for a Dubai visit visa from Pakistan for Christmas and New Year: official processing times, AED 200 and AED 300 fees, which visa to pick, documents to prepare and suggested apply-by dates for December 2026.",
+      "date": "November 15, 2026",
+      "readTime": "8 min read",
+      "category": "UAE Visa Documentation"
+    },
+    {
       "id": "how-to-check-uk-cos-is-real-or-fake-pakistan",
       "title": "How to Check if a UK CoS Is Real or Fake from Pakistan (2026 Guide)",
       "excerpt": "How to check if a UK CoS is real or fake from Pakistan: there is no public CoS checker, so use the GOV.UK sponsor register, 7 free checks, the rule that the employer pays the £525 fee, and what to do if you already paid.",

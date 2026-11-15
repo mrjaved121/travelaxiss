@@ -5,6 +5,239 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "dubai-visit-visa-new-year-from-pakistan": {
+    "title": "Dubai Visit Visa for New Year from Pakistan: Apply-By Dates",
+    "metaTitle": "Dubai Visit Visa for New Year from Pakistan: Apply-By Dates",
+    "metaDescription": "Planning Dubai for Christmas or New Year? See which visit visa to pick, the documents to prepare and how early to apply from Pakistan. WhatsApp us today.",
+    "keywords": [
+      "dubai visit visa for new year from pakistan",
+      "dubai visa for christmas from pakistan",
+      "when to apply for dubai visit visa december",
+      "dubai visit visa processing time pakistan",
+      "dubai 30 day visit visa fee",
+      "dubai new year trip from pakistan visa"
+    ],
+    "date": "November 15, 2026",
+    "dateModifiedIso": "2026-11-15",
+    "readTime": "8 min read",
+    "category": "UAE Visa Documentation",
+    "cta": {
+      "heading": "Travelling to Dubai This Christmas or New Year?",
+      "text": "Send us your travel dates and passport copy and we'll tell you which visit visa fits and what to prepare. We prepare the file; the UAE authorities decide the visa.",
+      "label": "See Dubai Visit Visa Support",
+      "href": "/visit-visa/uae/"
+    },
+    "content": {
+      "intro": "There is no official 'last date' to apply for a Dubai visit visa for Christmas or New Year. The UAE does not publish one. What the official sources do publish is how long each channel says it needs: Dubai's immigration authority (GDRFA) lists an expected completion time of 48 hours for a single-entry tourist visa once an accredited tourism office files it, and Emirates asks for a minimum of four international working days before arrival and recommends applying as early as possible. December is the busiest travel month, with UAE public holidays on 2 and 3 December and on 1 January. So our planning advice for Pakistani travellers is simple: have your documents ready by early December and get the application filed at least two weeks before you fly. These are planning dates, not official deadlines, and no one can promise approval or an issue date. This guide was checked against the official pages linked below on 15 November 2026.",
+      "sections": [
+        {
+          "heading": "Apply-by dates at a glance",
+          "subsections": [
+            {
+              "title": "Our suggested planning dates for December 2026 travel",
+              "items": [
+                "Flying 18 to 25 December (Christmas week): documents ready by Friday 4 December, application filed by Friday 11 December.",
+                "Flying 26 December to 1 January (New Year): documents ready by Friday 11 December, application filed by Friday 18 December.",
+                "Flying in the first week of January 2027: application filed by Thursday 24 December, before the New Year break.",
+                "Already past these dates? You can still apply. Tell the agency or airline your flight date first and ask whether they can file in time. Do not assume the published processing time will hold in peak season."
+              ]
+            },
+            {
+              "title": "What the official sources say (checked 15 November 2026)",
+              "items": [
+                "GDRFA Dubai, single-entry tourist visa: expected completion time 48 hours. Only accredited tourism offices in the emirate can issue it ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)).",
+                "Emirates, online visa through Manage your booking: 'a minimum of four international working days prior to arrival in Dubai is required', and Emirates recommends applying as early as possible ([Emirates](https://www.emirates.com/pk/english/before-you-fly/visa-passport-information/uae-visa-information/)).",
+                "Emirates, visa sponsored by a UAE resident at an Emirates ticketing office: processing time is 'approximately 2-4 working days' ([Emirates](https://www.emirates.com/pk/english/before-you-fly/visa-passport-information/uae-visa-information/)).",
+                "UAE public holidays: National Day on 2 and 3 December and Gregorian New Year on 1 January ([UAE Government portal](https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays)). In 2026, 2 and 3 December fall on Wednesday and Thursday, and 1 January 2027 is a Friday."
+              ]
+            }
+          ],
+          "note": "The suggested dates are Travelaxis planning advice built on those published times plus a safety margin for missing documents and holiday closures. They are not set by the UAE authorities. Processing times are estimates, not guarantees."
+        },
+        {
+          "heading": "Which Dubai visit visa should you pick for a New Year trip?",
+          "content": "Pakistani passport holders need a visa arranged before travel. The UAE Government portal says a tourist visa is for people who are not eligible for visa on arrival, that UAE embassies do not issue tourist visas, and that you apply through a UAE-based airline, a licensed travel agent or a hotel, which files it with the visa-issuing authority for you ([UAE Government portal](https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa)). For a one or two week holiday, the 30-day single-entry tourist visa is usually enough.",
+          "subsections": [
+            {
+              "title": "30-day single-entry tourist visa",
+              "items": [
+                "Best for: a normal Christmas or New Year holiday of up to 30 days.",
+                "Official fee: AED 200 plus 5% VAT, filed by an accredited tourism office ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)).",
+                "No security deposit is listed by GDRFA for this visa type."
+              ]
+            },
+            {
+              "title": "60-day single-entry tourist visa",
+              "items": [
+                "Best for: a longer stay with family over the winter break.",
+                "Official fee: AED 300 plus 5% VAT ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)).",
+                "A longer stay usually means closer questions about funds and your reason for staying, so prepare a clear bank statement and plan."
+              ]
+            },
+            {
+              "title": "Visit visa sponsored by a relative or friend living in the UAE",
+              "items": [
+                "Best for: families joining a UAE-resident husband, wife, parent or child for the holidays.",
+                "On the Emirates route the sponsor's minimum salary depends on the relationship: AED 4,000 for a wife, children, parents or parents-in-law, AED 5,500 for brothers and sisters, AED 7,000 for brothers- and sisters-in-law, and AED 10,000 for friends and other relatives ([Emirates](https://www.emirates.com/pk/english/before-you-fly/visa-passport-information/uae-visa-information/)).",
+                "Emirates also lists a refundable AED 1,000 deposit when a friend or relative is sponsored without proof of relationship, and the visitor must fly in and out of Dubai on Emirates.",
+                "More detail: [Dubai visit visa for wife and kids](/blog/dubai-visit-visa-wife-kids-pakistan) and [Dubai visit visa for parents](/blog/dubai-visit-visa-for-parents-pakistan)."
+              ]
+            },
+            {
+              "title": "5-year multiple-entry tourist visa",
+              "items": [
+                "Best for: people who visit the UAE several times a year, not a first holiday.",
+                "Official conditions: a bank balance of USD 4,000 or the equivalent during the last six months, health insurance valid in the UAE for 180 days, and a ticket showing a continuing or return journey ([UAE Government portal](https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa)).",
+                "It allows a stay of 90 days on each visit. We could not confirm a published processing time for it, so confirm the timing with the issuing channel before you plan a December trip around it."
+              ]
+            }
+          ],
+          "note": "The AED 200 and AED 300 figures are the government fees. The price you pay an airline or agency is higher because it includes their service charge, and sometimes insurance. Emirates says VFS processing fees apply to its online visa. Ask for the full amount in writing before you pay."
+        },
+        {
+          "heading": "Which documents should you prepare now?",
+          "content": "Most December delays come from documents, not from the visa office. Collect these before you send anything.",
+          "subsections": [
+            {
+              "title": "Documents the official sources list",
+              "items": [
+                "Passport copy. The passport must be valid for at least six months ([GDRFA Dubai](https://gdrfad.gov.ae/en/node/13896)). Emirates also says it must be machine readable; handwritten passports are not accepted.",
+                "One personal photo: recent, colour, plain light background, face clearly visible.",
+                "CNIC copy. GDRFA asks for the national identity card of some nationalities, including Pakistan, and Emirates lists a National ID Card as the additional document for Pakistan.",
+                "A ticket to leave the UAE or continue your journey.",
+                "Medical insurance valid in the UAE.",
+                "For a family-sponsored visa: proof of relationship, such as a marriage or birth certificate, and the sponsor's documents."
+              ]
+            },
+            {
+              "title": "Documents agencies and airlines often ask for as well",
+              "items": [
+                "A recent bank statement. There is no official minimum balance for the 30- or 60-day visa, but many channels ask for one. See our [bank statement guide](/blog/dubai-visit-visa-bank-statement-pakistan).",
+                "Hotel booking, or the tenancy contract of the relative you will stay with. Emirates asks for one of these on its online route.",
+                "For children: a birth certificate copy. Emirates lists this for minors on its sponsored route."
+              ]
+            }
+          ],
+          "note": "The UAE authorities can ask for more documents on any application. Get your bank statement early: banks in Pakistan are closed on 25 December."
+        },
+        {
+          "heading": "How to apply from Pakistan, step by step",
+          "subsections": [
+            {
+              "title": "Step 1: Fix your dates and visa type",
+              "content": "Decide your arrival and return dates first, then pick the 30-day or 60-day visa to cover the whole stay. Do not plan to stay to the last permitted day; leave a margin for flight changes."
+            },
+            {
+              "title": "Step 2: Choose the channel",
+              "content": "You cannot file a tourist visa yourself at an embassy. Choose an airline (if you are flying with it), a licensed agency or your hotel. The [UAE Government portal](https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa) advises checking that an agent is genuine before you pay or send copies of your documents."
+            },
+            {
+              "title": "Step 3: Send complete, clear documents once",
+              "content": "Send colour scans, not phone photos with shadows. Check that the name, passport number and date of birth match on every document. A wrong digit is a common reason for a file to be returned in peak season."
+            },
+            {
+              "title": "Step 4: Pay and keep the receipt",
+              "content": "Pay only after you have the total in writing. Emirates states that visa fees are not refundable once the application is submitted and processed, so check every detail before you pay."
+            },
+            {
+              "title": "Step 5: Check the visa and travel with copies",
+              "content": "When the e-visa arrives, check the name, passport number and dates. Carry a printed copy; Emirates notes that visitors sent for eye screening must show a hard copy of the visa. You can confirm a visa on the official channels described in our [Dubai visa status check guide](/blog/dubai-visit-visa-status-check-pakistan)."
+            }
+          ]
+        },
+        {
+          "heading": "Can you apply too early?",
+          "content": "Yes. A visa must be used to enter within a set time after it is issued. Emirates says its tourist visas are valid for 60 days to enter Dubai ([Emirates](https://www.emirates.com/pk/english/before-you-fly/visa-passport-information/uae-visa-information/)). For other channels, ask how long you have to enter after issue before you apply. For a late December trip, applying in late November or the first half of December is early enough to be safe and still inside that window."
+        },
+        {
+          "heading": "Practical tips and common mistakes in December",
+          "subsections": [
+            {
+              "title": "What goes wrong most often",
+              "items": [
+                "Waiting for the 48-hour figure to save a last-minute plan. It is an expected time for a complete file, not a promise.",
+                "Buying a non-refundable ticket and hotel before the visa is issued. Check the fare rules and choose changeable bookings where you can.",
+                "A passport with less than six months left on the travel date.",
+                "A solo first-time traveller with no bank statement, no hotel booking and no return ticket.",
+                "Using an unknown agent on social media who promises a 'guaranteed' visa. Nobody outside the UAE authorities can guarantee one.",
+                "Forgetting that each traveller, including a baby, needs a separate visa."
+              ]
+            },
+            {
+              "title": "If your visa is refused or delayed",
+              "items": [
+                "Ask the channel for the reason given and whether you can reapply.",
+                "Do not send the same file again unchanged. See [why Dubai visit visas are rejected](/blog/dubai-visit-visa-rejected-pakistan) for the usual causes.",
+                "Emirates states that visa fees are not refundable once an application is submitted and processed, so a complete first file matters. Ask your own channel about its refund rule."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently asked questions",
+          "faqs": [
+            {
+              "question": "What is the last date to apply for a Dubai visit visa for New Year?",
+              "answer": "There is no official last date. GDRFA lists an expected completion time of 48 hours for a single-entry tourist visa, and Emirates asks for at least four international working days before arrival. For a 31 December arrival we suggest filing by Friday 18 December, to leave room for extra document requests and the holiday rush."
+            },
+            {
+              "question": "How long does a Dubai visit visa take in December?",
+              "answer": "The published times are 48 hours on the GDRFA service page and about 2 to 4 working days on the Emirates page. These are estimates for complete applications. In December some files take longer, so confirm the current timing with the airline or agency filing your visa and do not rely on the minimum."
+            },
+            {
+              "question": "How much is the Dubai visit visa fee for Pakistanis?",
+              "answer": "The government fee on the GDRFA page is AED 200 for the 30-day tourist visa and AED 300 for the 60-day visa, plus 5% VAT. The amount you pay an airline or agency is higher because it includes their service charge. Ask for the full price in writing before paying."
+            },
+            {
+              "question": "Which visa is best for a one week New Year trip?",
+              "answer": "For most travellers the 30-day single-entry tourist visa is enough. Choose the 60-day visa only if you plan a longer stay. If a close relative lives in the UAE, a family-sponsored visit visa is another route, but the sponsor must meet the salary level for the relationship."
+            },
+            {
+              "question": "Do UAE public holidays delay visa processing?",
+              "answer": "They can. The UAE lists National Day on 2 and 3 December and New Year on 1 January as public holidays. GDRFA says its digital channels are available 24/7, but offices, agencies and airline visa desks may work shorter hours around holidays. Apply before the holiday, not during it."
+            },
+            {
+              "question": "Can I get an urgent Dubai visa a few days before New Year?",
+              "answer": "Some channels offer faster handling, but we could not verify an official express processing time, so we do not quote one. Ask the issuing channel directly whether they can file for your flight date, and get the answer before you pay for tickets you cannot change."
+            },
+            {
+              "question": "Does applying early guarantee my visa?",
+              "answer": "No. Applying early only gives you time to fix problems. The decision belongs to the UAE immigration authorities, and Emirates states that entry into the UAE is subject to immigration approval. A complete, consistent file improves your chances but nobody can guarantee approval."
+            },
+            {
+              "question": "Do I need a bank statement for a New Year trip to Dubai?",
+              "answer": "The GDRFA page for the 30- and 60-day tourist visa does not list a bank statement or a minimum balance. Many airlines and agencies still ask for one before they sponsor you. Only the 5-year multiple-entry visa has an official figure: USD 4,000 or the equivalent over the last six months."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa files for applicants in Pakistan and the UAE from our offices in Dubai and Lahore. We check your documents, tell you which visa fits your dates and what is missing, and send you the current total in AED before you pay. We are not a government authority and we do not issue visas or guarantee approval or an issue date. See our [Dubai visit visa page](/visit-visa/uae/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Dubai Visit Visa from Pakistan: Documents Checklist & Process",
+              "href": "/blog/dubai-visit-visa-from-pakistan"
+            },
+            {
+              "label": "Bank Statement for Dubai Visit Visa from Pakistan",
+              "href": "/blog/dubai-visit-visa-bank-statement-pakistan"
+            },
+            {
+              "label": "Lahore to Dubai 4-Day Trip Cost in PKR",
+              "href": "/blog/lahore-to-dubai-trip-cost-pkr"
+            },
+            {
+              "label": "Dubai Visit Visa Support",
+              "href": "/visit-visa/uae"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "how-to-check-uk-cos-is-real-or-fake-pakistan": {
     "title": "How to Check if a UK CoS Is Real or Fake from Pakistan (2026 Guide)",
     "metaTitle": "How to Check if a UK CoS Is Real or Fake (Pakistan 2026)",
