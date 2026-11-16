@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "sponsor-letter-uk-family-visit-visa-from-pakistan",
+      "title": "Sponsor Letter for UK Family Visit Visa from Pakistan: Sample and Documents (2026)",
+      "excerpt": "Sponsor letter for a UK family visit visa from Pakistan: the five things GOV.UK asks sponsors to evidence, a sample letter, sponsor documents, the papers GOV.UK calls less useful, and how to apply yourself for £135.",
+      "date": "November 16, 2026",
+      "readTime": "9 min read",
+      "category": "UK Visa Documentation"
+    },
+    {
       "id": "dubai-visit-visa-new-year-from-pakistan",
       "title": "Dubai Visit Visa for New Year from Pakistan: Apply-By Dates",
       "excerpt": "When to apply for a Dubai visit visa from Pakistan for Christmas and New Year: official processing times, AED 200 and AED 300 fees, which visa to pick, documents to prepare and suggested apply-by dates for December 2026.",
