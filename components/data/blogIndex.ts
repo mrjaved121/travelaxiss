@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "germany-family-visit-visa-from-pakistan",
+      "title": "Germany Family Visit Visa from Pakistan: Documents, Fee and Appointment (2026)",
+      "excerpt": "Germany family visit visa from Pakistan: the 16 documents on the embassy checklist, invitation letter or Verpflichtungserklärung, the €90 fee paid in rupees, the free appointment waiting list, 14-day processing and how to apply yourself.",
+      "date": "November 17, 2026",
+      "readTime": "9 min read",
+      "category": "Germany Visa Documentation"
+    },
+    {
       "id": "sponsor-letter-uk-family-visit-visa-from-pakistan",
       "title": "Sponsor Letter for UK Family Visit Visa from Pakistan: Sample and Documents (2026)",
       "excerpt": "Sponsor letter for a UK family visit visa from Pakistan: the five things GOV.UK asks sponsors to evidence, a sample letter, sponsor documents, the papers GOV.UK calls less useful, and how to apply yourself for £135.",

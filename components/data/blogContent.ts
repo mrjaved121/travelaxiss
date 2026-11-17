@@ -5,6 +5,254 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "germany-family-visit-visa-from-pakistan": {
+    "title": "Germany Family Visit Visa from Pakistan: Documents, Fee and Appointment (2026)",
+    "metaTitle": "Germany Family Visit Visa from Pakistan: Documents & Fee",
+    "metaDescription": "Germany family visit visa from Pakistan: the 16 embassy documents, invitation letter or Verpflichtungserklärung, €90 fee, free waiting list and steps.",
+    "keywords": [
+      "germany family visit visa from pakistan",
+      "germany visit visa requirements from pakistan",
+      "documents required for germany visit visa from pakistan",
+      "germany visit visa appointment from pakistan",
+      "germany visit visa fee from pakistan",
+      "verpflichtungserklärung for visit visa from pakistan"
+    ],
+    "date": "November 17, 2026",
+    "dateModifiedIso": "2026-11-17",
+    "readTime": "9 min read",
+    "category": "Germany Visa Documentation",
+    "cta": {
+      "heading": "Visiting Family in Germany?",
+      "text": "Send us your travel dates and your host's details and we'll tell you what the file should contain and what is missing. We prepare the file; the German mission decides the visa.",
+      "label": "See Germany Visit Visa Support",
+      "href": "/visit-visa/germany/"
+    },
+    "content": {
+      "intro": "To visit family or friends in Germany from Pakistan you apply for a short-stay Schengen visa in the 'Visitor visa' category at the German Embassy in Islamabad or the Consulate General in Karachi. There is no online visa: you register free of charge on the mission's appointment waiting list, fill in the Videx form, and hand in 16 listed documents in person. The fee is €90 for an adult and €45 for a child aged 6 to 12, paid in rupees in cash at the counter, and processing usually takes about 14 calendar days from the day you apply ([German Missions in Pakistan](https://pakistan.diplo.de/pk-en/service/visa-shortterm-1673126)). Your host in Germany gives you either a formal letter of obligation (Verpflichtungserklärung) or a simple signed invitation with copies of their papers. This guide lists every document, explains the two kinds of invitation, and walks through the steps so you can apply yourself. Last updated November 2026. Rules and fees change, so confirm everything on the official pages before you apply.",
+      "sections": [
+        {
+          "heading": "Which visa do you need to visit family in Germany from Pakistan?",
+          "content": "You need a Schengen visa (category C). The German missions say that for short-term visits to Germany and the Schengen area lasting less than 90 days you are required to apply for a visa, and they split short stays into separate checklists: business, visitor, tourist, airport transit and medical treatment ([short-term visa page](https://pakistan.diplo.de/pk-en/service/visa-shortterm-1673126)). The 'Visitor visa' checklist is the one headed 'Visit your family or friends in Germany'. A Schengen visa lets you stay for up to 90 days in any 180-day period, whatever its validity ([Federal Foreign Office FAQ](https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/606848-606848)). It is not a family reunion visa and does not allow you to settle or work.",
+          "subsections": [
+            {
+              "title": "Visitor visa or tourist visa: which checklist applies?",
+              "items": [
+                "Visitor visa: you are going to see a relative or friend who lives in Germany. Item 5 of the checklist is an 'invitation letter and assurances' from your host.",
+                "Tourist visa: sightseeing, city visits or a holiday with no host. Item 5 becomes proof of accommodation for the whole stay, for example hotel reservations with the full address and a detailed itinerary.",
+                "Everything else is the same on both lists: passports, Videx form, photos, insurance, flight, employer letter, CNIC, FRC, the two family lists, appointment email, old visas and financial evidence.",
+                "Visiting family but staying in a hotel? The visitor checklist says that if you are not staying with the person inviting you, you must provide confirmed hotel bookings or proof of other accommodation in Germany."
+              ]
+            },
+            {
+              "title": "Where do you apply: Islamabad or Karachi?",
+              "items": [
+                "German Embassy Islamabad: applicants from Islamabad Capital Territory, Khyber Pakhtunkhwa, Azad Jammu & Kashmir and Punjab.",
+                "German Consulate General Karachi: applicants from Sindh and Balochistan.",
+                "Both missions run a waiting list. You cannot pick a date directly; you register, and the mission allocates an appointment later."
+              ]
+            }
+          ],
+          "note": "The category names and the Islamabad/Karachi split are taken from the [German Missions in Pakistan short-term visa page](https://pakistan.diplo.de/pk-en/service/visa-shortterm-1673126), checked on 17 November 2026."
+        },
+        {
+          "heading": "What documents are required for a Germany family visit visa?",
+          "content": "The official [visitor visa checklist](https://pakistan.diplo.de/pk-en/service/2-visitors-visa-seite-1673128) has 16 numbered items and asks you to bring them 'in exactly the way described and in correct order'. It warns that if you leave out any document 'your application can be immediately rejected', and that the visa section can ask for more documents at any time. Copies must be on A4 paper.",
+          "subsections": [
+            {
+              "title": "The 16 items on the official checklist",
+              "items": [
+                "1. Current passport and all previous passports (originals). The passport must be valid for at least three months after the end of the visa you want, and it must be signed; the missions say unsigned Pakistani passports cannot receive a visa.",
+                "2. Videx visa application form, filled in online, printed and signed.",
+                "3. Two biometric passport photos, not older than six months; one stapled to the form and one attached with a paper clip.",
+                "4. Health insurance policy (signed original and one copy) with minimum cover of €30,000, valid for all Schengen countries and not only Germany.",
+                "5. Invitation letter and assurances from your host in Germany (original): either a Verpflichtungserklärung or an informal signed invitation. Details are in the next section.",
+                "6. Flight reservation (copy or printout). The checklist asks for confirmed round trip tickets covering the duration of your stay.",
+                "7. Confirmation of employment or university enrolment in Pakistan with an NOC for the trip (original), stating your position, how long you have been there and permission for the trip.",
+                "8. Copies of pages 1 and 2 of your current passport. If an old passport was lost, a police report with English or German translation.",
+                "9. Copies of all previous visa refusals.",
+                "10. Copy of your CNIC.",
+                "11. Family Registration Certificate (FRC), marriage certificate if applicable, and birth certificate for minor applicants (copies). The checklist notes that NADRA issues these in English.",
+                "12. List of children, on the template you download from the checklist page.",
+                "13. List of relatives living abroad, on the template from the same page.",
+                "14. Printout of the appointment email, showing the email address you registered with.",
+                "15. Copies of previously issued visas, including any visa issued on paper rather than in the passport.",
+                "16. Financial evidence (copies): at least bank statements of the past six months and salary slips of the last three months."
+              ]
+            }
+          ],
+          "note": "On refusals the checklist is blunt: checks are run against the system, and failing to disclose a previous refusal counts as fraud and is an automatic ground for refusing the visa. Declare every refusal, from any country. Source: [visitor visa checklist](https://pakistan.diplo.de/pk-en/service/2-visitors-visa-seite-1673128), checked on 17 November 2026."
+        },
+        {
+          "heading": "Invitation letter or Verpflichtungserklärung: what should your host send?",
+          "content": "The checklist accepts two things from your host. The first is a formal letter of obligation (Verpflichtungserklärung), which is issued by the host's local Foreigners Office (Ausländerbehörde) and signed by the host under sections 66 to 68 of the German Residence Act. The missions explain that it assesses your host's financial situation and creates a lien on their assets for any costs of your stay, and that it must not be older than 6 months. The second is an informal letter of invitation, signed by your host, with copies of the host's passport, residence permit and certificate of residence attached ([visitor visa checklist](https://pakistan.diplo.de/pk-en/service/2-visitors-visa-seite-1673128)).",
+          "subsections": [
+            {
+              "title": "Which one fits your trip?",
+              "items": [
+                "You pay for the trip yourself: an informal invitation is enough to prove the purpose. The Federal Foreign Office says an invitation 'proves the purpose of the intended journey' and that 'no special formalities are required'.",
+                "Your host pays, or you cannot fully cover the costs: the Federal Foreign Office says a formal pledge to cover all costs has to be presented with the visa application. Your host signs the Verpflichtungserklärung at the local authority where they live, usually the Ordnungsamt or Ausländerbehörde.",
+                "The host does the paperwork in Germany, in person, and posts or couriers the original to you. You hand in the original at your appointment.",
+                "Either way your own documents still matter. The checklist says that disclosing your financial position 'is central for the success of your application'."
+              ]
+            },
+            {
+              "title": "What a good informal invitation contains (our suggestion)",
+              "items": [
+                "Host's full name, address in Germany, phone and email, and their status in Germany (German citizen or type of residence permit).",
+                "Your full name, passport number, date of birth and how you are related.",
+                "Exact dates of the visit, the reason, and the address where you will stay.",
+                "Who pays for the flight, the stay and daily costs. This must match your form and your bank statements.",
+                "Date and handwritten signature, with the copies the checklist asks for: host's passport, residence permit and certificate of residence."
+              ]
+            }
+          ],
+          "note": "The two quoted lines are from the [Federal Foreign Office visa FAQ](https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/606848-606848). The list of what to put in an informal letter is Travelaxis guidance, not an official template; the missions publish no fixed wording. The fee a German local authority charges your host for a Verpflichtungserklärung is not listed on the pages we checked, so your host should ask their own office."
+        },
+        {
+          "heading": "How much bank balance, and what are the fee and processing time?",
+          "content": "No minimum bank balance is published. The Federal Foreign Office says the amount of funding 'depends on the type and length of stay' and that 'there are no fixed daily rates' ([visa FAQ](https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/606848-606848)). The missions in Pakistan ask for at least six months of bank statements and three months of salary slips, and say that if these do not reflect your resources you can add pension books, investment certificates or property documents, with English translations where needed.",
+          "subsections": [
+            {
+              "title": "Official fees and times at a glance",
+              "items": [
+                "Schengen visa (category C), adult: €90.",
+                "Schengen visa, child aged 6 to 12: €45.",
+                "How you pay: fees are due in Pakistani rupees at the current exchange rate, in cash at the counter, at both Islamabad and Karachi.",
+                "Waiting list registration: free of charge.",
+                "Processing: usually about 14 calendar days from the day of application; the missions warn that some cases take longer, especially in peak travel seasons.",
+                "EU-wide rule: apply at least 15 days before the trip and no earlier than 6 months before; the normal 15-day decision time can be extended to up to 45 days if a more detailed examination or extra documents are needed.",
+                "Refunds: the pages we checked do not say the fee is returned after a refusal, so plan on the basis that it is not."
+              ]
+            }
+          ],
+          "note": "Fees and payment method: [German Missions in Pakistan, general visa information](https://pakistan.diplo.de/pk-en/service/2208622-2208622). Processing time and the six-month window: [short-term visa page](https://pakistan.diplo.de/pk-en/service/visa-shortterm-1673126). EU-wide rules: [European Commission, applying for a Schengen visa](https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en). All checked on 17 November 2026. The fee table does not show a line for children under 6; confirm that with the mission before the appointment."
+        },
+        {
+          "heading": "How to apply: step by step",
+          "content": "You can do the whole application yourself. No agent or middleman is needed, and nobody can sell you a faster appointment or an approval. Use only the links published on the German missions' own website.",
+          "subsections": [
+            {
+              "title": "The steps in order",
+              "items": [
+                "Step 1. Fix your travel dates with your host and agree who pays for what. The missions advise booking 'as soon as you know your exact travel dates', and you can apply up to six months ahead.",
+                "Step 2. Register on the waiting list through the 'Islamabad: book an appointment' or 'Karachi: Book an appointment' button on the official [short-term visa page](https://pakistan.diplo.de/pk-en/service/visa-shortterm-1673126). Choose the category that matches a family visit, enter your details carefully and use an email address you check every day. Register once only: the missions say multiple registrations for the same applicant will be cancelled or denied entry at the appointment.",
+                "Step 3. Keep the confirmation email. It carries your waiting list number, and a second email arrives when your appointment date has been set. Appointments are allocated in the order of registration, based on capacity, so the missions give no fixed waiting time.",
+                "Step 4. While you wait, ask your host for the Verpflichtungserklärung or the signed invitation with their passport, residence permit and certificate of residence copies.",
+                "Step 5. Collect your own papers in Pakistan: passports, employer letter with NOC, six months of bank statements, three salary slips, CNIC copy, FRC and marriage certificate from NADRA, and the two family lists. Buy Schengen travel insurance with at least €30,000 cover; the missions publish a [list of insurance companies in Pakistan](https://pakistan.diplo.de/pk-en/service/6-health-insurances-seite-1673134) that meet the Schengen standard.",
+                "Step 6. Fill in the form on the official [Videx online application system](https://videx.diplo.de/videx/visum-erfassung/videx-kurzfristiger-aufenthalt), print it and sign it. The last page of the printout has a barcode that the visa section scans, so bring every page.",
+                "Step 7. Attend the appointment in person with the documents in checklist order and the appointment email printout. Pay the fee in rupees in cash. Fingerprints are collected when you submit a Schengen application.",
+                "Step 8. Wait for the decision, usually about 14 calendar days. Answer quickly if the visa section asks for another document; the missions say your application is only complete once you have complied with the request.",
+                "Step 9. Collect your passport as instructed by the mission and check the visa dates and number of entries before you book anything non-refundable."
+              ]
+            },
+            {
+              "title": "Planning a trip for Christmas 2026 or early 2027?",
+              "items": [
+                "Two waits apply, not one: the waiting list for an appointment, then about 14 calendar days for the decision.",
+                "The missions do not publish how long the waiting list is, and they say there may be an extended waiting period in peak seasons. If you are not yet registered in mid-November, a December trip is uncertain.",
+                "Our planning advice: register today, prepare the full file now so you are ready the day the appointment email arrives, and keep flights changeable until the visa is in your passport.",
+                "This is Travelaxis planning advice, not an official deadline. Processing times are usual times, not promises."
+              ]
+            }
+          ],
+          "note": "Scam warning from the missions themselves: fraudulent agents pose as embassies and offer false registrations or faster appointments. Registration is free, and 'if you are asked for money by any person at this stage of the visa process, the person asking you is a fraudster'. The Federal Foreign Office adds that agencies have no special or preferential access to the booking system ([appointment FAQ](https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/2530968-2530968)). The booking system itself could not be opened from our connection on 17 November 2026, so reach it only through the buttons on the official page."
+        },
+        {
+          "heading": "What mistakes get Germany visit visa applications refused or delayed?",
+          "content": "The decision rests with the visa section, and no checklist can promise an outcome. These are the avoidable problems, set against what the official pages say.",
+          "subsections": [
+            {
+              "title": "Common mistakes",
+              "items": [
+                "A missing document. The checklist says an incomplete application can be rejected immediately, and that processing only starts once the file is complete.",
+                "An unsigned passport. The missions cannot print a visa in a passport that is not signed; a minor signs or adds a thumb impression personally, not the parent.",
+                "Hiding an old refusal. The missions check the system, and non-disclosure is treated as fraud.",
+                "Insurance that covers only Germany or less than €30,000.",
+                "An old Verpflichtungserklärung. It must not be older than 6 months on the day you apply.",
+                "Registering twice on the waiting list, or using an agent's email address so that you never see the appointment email.",
+                "Figures that do not match: the invitation says the host pays, the form says you pay, and the bank statement supports neither.",
+                "A weak picture of your life in Pakistan. The EU rules ask for evidence of your intention to return home after the stay, so job, business, family and property papers carry real weight."
+              ]
+            },
+            {
+              "title": "Checklist before your appointment",
+              "items": [
+                "All 16 items, in checklist order, copies on A4.",
+                "Passport signed and valid for three months beyond the visa you are asking for.",
+                "Original Verpflichtungserklärung or signed invitation with the host's three copies.",
+                "Insurance certificate: €30,000, all Schengen states, dates covering the whole trip.",
+                "Videx printout with barcode page, signed, photo stapled.",
+                "Appointment email printout and the fee in rupees in cash."
+              ]
+            }
+          ],
+          "note": "If you are refused: the missions state that the remonstration (objection) procedure for visa refusals was abolished from 1 July 2025 ([general visa information](https://pakistan.diplo.de/pk-en/service/2208622-2208622)). Under the EU rules, a refused applicant is told why the application was rejected and how to submit an appeal ([European Commission](https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en)), so read the refusal letter line by line. Most applicants fix the stated reasons and submit a new, complete application. See [Schengen visa rejection reasons for Pakistani applicants](/blog/schengen-visa-rejection-reasons-pakistani-applicants)."
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How much is the Germany visit visa fee from Pakistan in 2026?",
+              "answer": "The German missions in Pakistan list €90 for a Schengen visa and €45 for children aged 6 to 12. The fee is due in Pakistani rupees at the current exchange rate and is paid in cash at the counter in Islamabad or Karachi. Registration on the appointment waiting list is free of charge."
+            },
+            {
+              "question": "How long does a Germany family visit visa take from Pakistan?",
+              "answer": "Processing usually takes about 14 calendar days from the day you hand in the application, and the missions say some cases take longer, especially in peak seasons. Add the time spent on the appointment waiting list, which is not published. You can apply up to six months before the journey, so start early."
+            },
+            {
+              "question": "Is a Verpflichtungserklärung compulsory for a Germany visit visa?",
+              "answer": "No. The checklist accepts either a formal letter of obligation or an informal signed invitation with copies of the host's passport, residence permit and certificate of residence. The Federal Foreign Office says the formal pledge has to be presented when the visitor cannot fully cover the costs or the host intends to pay for the trip."
+            },
+            {
+              "question": "How much bank balance is required for a Germany visit visa from Pakistan?",
+              "answer": "No fixed figure is published. The Federal Foreign Office says the amount depends on the type and length of stay and that there are no fixed daily rates. The missions in Pakistan ask for bank statements of the past six months and salary slips of the last three months, plus property or investment papers if helpful."
+            },
+            {
+              "question": "How do I book a Germany visit visa appointment in Islamabad or Karachi?",
+              "answer": "Both missions use a waiting list. You register online through the booking button on the German missions' short-term visa page, receive an email with your waiting list number, and are told by email when a date is allocated. Register only once per person. Islamabad covers Punjab, KP, AJK and Islamabad; Karachi covers Sindh and Balochistan."
+            },
+            {
+              "question": "Do I need an agent to get a Germany visit visa appointment?",
+              "answer": "No. The missions say you do not need an agent to register and that registration is free. The Federal Foreign Office states that agencies have no special or preferential access to the booking system, even if they claim otherwise. Anyone asking for money for a faster appointment is, in the missions' words, a fraudster."
+            },
+            {
+              "question": "Can I appeal if my Germany visit visa is refused?",
+              "answer": "The missions in Pakistan state that the remonstration procedure for visa refusals was abolished from 1 July 2025. Read the refusal letter carefully: it gives the reasons and explains your legal options. In practice most applicants correct the weak points, such as funds, ties to Pakistan or missing papers, and file a new complete application."
+            },
+            {
+              "question": "Can my parents get a multiple-entry Germany visa?",
+              "answer": "The mission decides the validity and number of entries from the documents. The Federal Foreign Office says annual or multi-year visas are, as a rule, only issued to people who have already travelled to Germany or other Schengen states several times. First-time visitors should expect a visa that matches the trip dates in their application."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa files for applicants in Pakistan and the UAE from our offices in Dubai and Lahore. For a Germany family visit we check your documents and your host's invitation against the official checklist, point out gaps and mismatches, and help you put the file in the order the visa section asks for. We are not a government authority; we cannot obtain appointments faster than the official waiting list, and we do not issue visas or promise approval or a decision date. See our [Germany visit visa page](/visit-visa/germany/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "EU Entry/Exit System (EES) for Pakistani Travellers",
+              "href": "/blog/eu-entry-exit-system-ees-pakistan-travelers"
+            },
+            {
+              "label": "Germany Visit Visa Support",
+              "href": "/visit-visa/germany"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "sponsor-letter-uk-family-visit-visa-from-pakistan": {
     "title": "Sponsor Letter for UK Family Visit Visa from Pakistan: Sample and Documents (2026)",
     "metaTitle": "Sponsor Letter for UK Family Visit Visa from Pakistan",
