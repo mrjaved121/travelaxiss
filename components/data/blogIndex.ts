@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "australia-visit-visa-documents-required-from-pakistan",
+      "title": "Australia Visit Visa from Pakistan: Documents Required, Fee and Steps (2026)",
+      "excerpt": "Australia visit visa from Pakistan: documents required for the Visitor visa (subclass 600), Tourist or Sponsored Family stream, the AUD 250 charge, bank statements, biometrics in Islamabad, Lahore and Karachi, and how to apply yourself in ImmiAccount.",
+      "date": "November 18, 2026",
+      "readTime": "10 min read",
+      "category": "Australia Visa Documentation"
+    },
+    {
       "id": "germany-family-visit-visa-from-pakistan",
       "title": "Germany Family Visit Visa from Pakistan: Documents, Fee and Appointment (2026)",
       "excerpt": "Germany family visit visa from Pakistan: the 16 documents on the embassy checklist, invitation letter or Verpflichtungserklärung, the €90 fee paid in rupees, the free appointment waiting list, 14-day processing and how to apply yourself.",

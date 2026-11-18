@@ -5,6 +5,256 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "australia-visit-visa-documents-required-from-pakistan": {
+    "title": "Australia Visit Visa from Pakistan: Documents Required, Fee and Steps (2026)",
+    "metaTitle": "Australia Visit Visa from Pakistan: Documents Required",
+    "metaDescription": "Australia visit visa from Pakistan: documents required for the Visitor visa (subclass 600), the AUD 250 charge, biometrics in Pakistan and how to apply.",
+    "keywords": [
+      "australia visit visa from pakistan documents required",
+      "australia visit visa requirements from pakistan",
+      "australia visit visa fee from pakistan",
+      "australia visitor visa subclass 600 from pakistan",
+      "australia visit visa bank statement requirement",
+      "australia visit visa processing time from pakistan"
+    ],
+    "date": "November 18, 2026",
+    "dateModifiedIso": "2026-11-18",
+    "readTime": "10 min read",
+    "category": "Australia Visa Documentation",
+    "cta": {
+      "heading": "Planning a Visit to Australia?",
+      "text": "Send us your travel dates and who you are visiting and we'll tell you what your file should contain and what is missing. We prepare the documents; the Department of Home Affairs decides the visa.",
+      "label": "See Australia Visit Visa Support",
+      "href": "/visit-visa/australia/"
+    },
+    "content": {
+      "intro": "Pakistani passport holders visiting Australia for a holiday or to see family apply for the Visitor visa (subclass 600), normally in the Tourist stream, online through ImmiAccount while outside Australia. The documents required are your passport bio page and CNIC, proof of money such as itemised bank statements for a three-month period, an invitation letter if you are visiting someone, your plans in Australia, and proof that you will return to Pakistan ([Department of Home Affairs](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas)). The base application charge for an applicant outside Australia has been AUD 250 since 1 July 2026 ([Federal Register of Legislation](https://www.legislation.gov.au/F2026L00874/asmade/text)). If biometrics are requested, you give them at a collection centre in Islamabad, Lahore or Karachi. This guide lists every document, the costs and the steps so you can apply yourself. Last updated November 2026. Fees and rules change, so confirm everything on the official pages before you pay.",
+      "sections": [
+        {
+          "heading": "Which Australian visa do Pakistanis need for a visit?",
+          "content": "You need a Visitor visa (subclass 600). Home Affairs describes it as the visa 'for tourists, business visitors or to visit family', and it has separate streams. For a holiday or a family visit, two streams matter: the [Tourist stream (apply outside Australia)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas) and the [Sponsored Family stream](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/sponsored-family-stream). Both let you visit family or friends or travel as a tourist, both let you study or train for up to three months, and neither lets you work. You must be outside Australia when you apply and when the visa is decided.",
+          "subsections": [
+            {
+              "title": "Tourist stream or Sponsored Family stream: which one fits?",
+              "items": [
+                "Tourist stream: no sponsor is needed. A relative or friend in Australia can simply write you an invitation letter. Home Affairs says it generally grants a stay of three months and may grant up to 12 months in certain circumstances, with single or multiple entry.",
+                "Sponsored Family stream: you must have a sponsor, who completes Form 1149. The sponsor must be a settled Australian citizen or permanent resident aged at least 18 who has usually lived in Australia for the last two years.",
+                "Who can sponsor: a spouse or de facto partner, parent or child, brother or sister, grandparent or grandchild, aunt or uncle, niece or nephew, or the step equivalent. A friend, fiancé or fiancée cannot, and in-laws and cousins only in limited cases.",
+                "Security bond: Home Affairs may ask the sponsor for a bond, 'usually between AUD 5,000 and AUD 15,000 per person', refunded if the visitor complies with the visa conditions and leaves before the visa expires.",
+                "Limits of the sponsored visa: it is generally single entry with six months to enter Australia, and it carries condition 8503 'No Further Stay', so you cannot apply for another visa while in Australia.",
+                "Home Affairs itself tells sponsored applicants to check whether the Tourist stream 'might better suit you', because it also covers family visits and needs no sponsor."
+              ]
+            },
+            {
+              "title": "Parents visiting children in Australia",
+              "items": [
+                "If you are the parent or step-parent of an Australian citizen or permanent resident and meet all criteria, Home Affairs may grant a Tourist stream visa valid for more than 12 months, decided case by case.",
+                "Even on a longer visa you cannot stay in Australia for more than 12 months in total in any 18-month period, and you must have made adequate arrangements for health insurance.",
+                "Tell Home Affairs in the application that you are requesting a longer visa and attach proof that your child is an Australian citizen or permanent resident."
+              ]
+            }
+          ],
+          "note": "Stream rules are taken from the Home Affairs pages for the [Tourist stream](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas) and the [Sponsored Family stream](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/sponsored-family-stream), checked on 18 November 2026."
+        },
+        {
+          "heading": "What documents are required for an Australia visit visa from Pakistan?",
+          "content": "Home Affairs does not publish a fixed Pakistan checklist for the online application. Its [Tourist stream step-by-step guide](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas) tells you to 'include as much information as possible' and warns that 'we may decide your application without requesting further information from you'. So the file you upload on day one is the file that gets judged. The official list falls into the groups below.",
+          "subsections": [
+            {
+              "title": "Identity documents",
+              "items": [
+                "The pages of your current passport showing your photo, personal details and the issue and expiry dates.",
+                "Your national identity card (CNIC or NICOP), which Home Affairs asks for 'if you have one'.",
+                "Proof of any change of name, such as a marriage or divorce certificate, or documents showing other names you have used."
+              ]
+            },
+            {
+              "title": "Genuine visitor documents: money, plans and reasons to return",
+              "items": [
+                "Proof of money for your stay and for leaving Australia: itemised personal bank statements for a three-month period, pay slips, audited accounts, tax records, term deposits or credit card statements.",
+                "An invitation letter from your relative or friend in Australia stating their relationship to you, the purpose of the visit, the length of stay and whether you will stay with them. If they are paying, add proof of their funds.",
+                "Your plans while in Australia, for example a short day-by-day itinerary.",
+                "A letter from your employer stating that you plan to return to your job, or proof of study at a school, college or university in Pakistan.",
+                "Proof of immediate family members in Pakistan and proof that you own a house or other major assets."
+              ]
+            },
+            {
+              "title": "Pakistan-specific papers that prove those points",
+              "items": [
+                "The [tourist checklist hosted by VFS Global for Pakistan](https://www.vfsglobal.com/Australia/Pakistan/pdf/Tourist-checklist-Pakistan-Latest.pdf) gives local examples: salary slips, a certified copy of your NTN registration certificate from the FBR, and an employer letter stating your position, income, length of employment, approved leave and that your job continues on return.",
+                "Self-employed applicants: business registration, information about the nature of the business and business bank statements, plus the NTN certificate.",
+                "Family ties: NADRA documents such as the Family Registration Certificate, and for assets, evidence of land ownership.",
+                "Travel history: copies of visas and travel stamps from expired passports.",
+                "That checklist is undated, was written for paper forms and states it is not an Australian Government form, so treat it as a list of examples. Where it differs from the Home Affairs website, follow Home Affairs."
+              ]
+            },
+            {
+              "title": "Extra documents for children, sponsored applicants and character",
+              "items": [
+                "Under 18: a birth certificate showing both parents' names. Anyone with a legal right to decide where the child lives who is not travelling must sign Form 1229 or a statutory declaration, with a copy of their passport or driver's licence.",
+                "Under 18 and not staying with a relative or legal guardian: Form 1257 Undertaking declaration, signed by the person the child will stay with.",
+                "Sponsored Family stream: a copy of the sponsor's completed Form 1149 and documents proving the relationship, such as birth certificates, passport pages showing parents' names, a family register or marriage certificates.",
+                "Character: any military service record or discharge papers. Home Affairs may also ask for a police certificate."
+              ]
+            }
+          ],
+          "note": "Home Affairs says you do not need to have documents certified unless it asks. Non-English documents must be uploaded with an English translation."
+        },
+        {
+          "heading": "How much bank balance is required, and what does the visa cost?",
+          "content": "There is no fixed minimum bank balance. The rule on the [Home Affairs page](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas) is that you 'must have, or have access to, enough money to support yourself while you are in Australia', and the only period it names is bank statements 'for a 3 month period'. What matters is that the balance, your income and the cost of the trip you describe make sense together.",
+          "subsections": [
+            {
+              "title": "Costs confirmed on official sources",
+              "items": [
+                "Visa application charge: AUD 250 base application charge for a subclass 600 applicant who is outside Australia and does not hold a Pacific-regional passport, set by regulations that commenced on 1 July 2026 ([Federal Register of Legislation, item 58](https://www.legislation.gov.au/F2026L00874/asmade/text)). It applies to both the Tourist and Sponsored Family streams.",
+                "Each person pays separately: you cannot include family members in your application, and every family member, including children, submits their own.",
+                "Check the live figure in the official [Visa Pricing Estimator](https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator) before you pay. The rupee amount depends on the exchange rate your card uses on the day.",
+                "Biometrics: collection centres charge a service fee ([Home Affairs](https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/biometrics)). The amount is not stated on the pages we checked, so confirm it on the [VFS Global Australia page for Pakistan](https://visa.vfsglobal.com/pak/en/aus/).",
+                "Other possible costs named by Home Affairs: health checks and police certificates, if requested.",
+                "Sponsored Family stream: there is no fee to become a sponsor, but a security bond may be requested."
+              ]
+            },
+            {
+              "title": "How long does processing take?",
+              "items": [
+                "Home Affairs does not publish a fixed time. It points applicants to its [visa processing time guide tool](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/global-visa-processing-times), which shows how long recently decided applications took.",
+                "The department says the tool is 'a guide only', does not check your own application, and does not promise a decision within the timeframe shown.",
+                "The [Australian High Commission in Islamabad](https://pakistan.embassy.gov.au/islm/Visas_and_Migration.html) says Home Affairs will not respond to progress enquiries while an application is within global processing times, and asks applicants not to call the High Commission about visas.",
+                "Do not book flights early: Home Affairs says 'do not arrange to travel to Australia until we let you know, in writing, that we have granted you the visa'."
+              ]
+            }
+          ],
+          "note": "We could not read a live processing time for Pakistan because the official tool is interactive. Select 'Visitor' and your stream in the tool to see the current range before you fix travel dates."
+        },
+        {
+          "heading": "How to apply: step by step",
+          "content": "You can do the whole application yourself. The Australian High Commission in Islamabad states: 'You are not required to use a visa agent to apply for a visa. You can apply for a visa on your own using information on the Department of Home Affairs' website' ([Visas and Citizenship](https://pakistan.embassy.gov.au/islm/Visas_and_Migration.html)). Nobody can sell you an approval, a faster decision or a job with the visa.",
+          "subsections": [
+            {
+              "title": "The steps in order",
+              "items": [
+                "Step 1. Choose the stream. Most family visits and holidays fit the Tourist stream. Use the Sponsored Family stream only if your relative in Australia is an eligible sponsor and is willing to complete Form 1149 and pay a bond if asked.",
+                "Step 2. Check your passport. Home Affairs says that if you plan to get a new passport, do it before you apply. The visa is linked digitally to your passport, not printed on a label.",
+                "Step 3. Collect the documents listed above. Have Urdu documents translated into English. A translator outside Australia does not need accreditation but must write, in English, their full name, address and telephone number, and their qualifications and experience in the language.",
+                "Step 4. Scan or photograph every document in colour, clear and legible. Save a multi-page document as one file.",
+                "Step 5. Log in to or create an [ImmiAccount](https://online.immi.gov.au/lusc/login), start a Visitor visa (subclass 600) application and answer every question exactly as your documents show.",
+                "Step 6. Attach the documents. If relatives are travelling together, each person needs their own application, and Home Affairs asks you to submit family applications together.",
+                "Step 7. Pay the application charge in ImmiAccount. Home Affairs will not process the application until the fee is paid.",
+                "Step 8. Give biometrics if you receive a request. Centres operate in Islamabad, Lahore and Karachi. The [High Commission](https://pakistan.embassy.gov.au/islm/Visas_and_Migration.html) says you no longer need to book an appointment in Pakistan; bring your passport, photo identification and the biometrics letter. Check opening hours on the [VFS Global site](https://visa.vfsglobal.com/pak/en/aus/) first.",
+                "Step 9. Do health examinations only if told to. For a stay of less than six months, applicants from higher TB-risk countries generally need none unless special circumstances apply; Pakistan is not on the low-risk list. For six months or more, expect a medical examination and chest x-ray ([Home Affairs health examinations](https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/what-health-examinations-you-need)).",
+                "Step 10. Watch your email and ImmiAccount. If more documents are requested, attach them as soon as you can, and tell Home Affairs if your circumstances change before the decision."
+              ]
+            },
+            {
+              "title": "What happens after the decision?",
+              "items": [
+                "The decision arrives in writing. There is no visa label; the visa is linked digitally to your passport.",
+                "Read the grant letter for your stay period, the last date to enter and whether the visa is single or multiple entry. You can also check these in VEVO, the official online visa-check service.",
+                "Home Affairs strongly recommends health insurance because you are liable for all your healthcare costs in Australia.",
+                "You cannot extend this visa. If the visa has condition 8503 'No Further Stay', you generally cannot apply for another visa while in Australia."
+              ]
+            }
+          ],
+          "note": "Applicants aged 75 or older applying for a Visitor visa need a medical examination and a serum creatinine/eGFR test, according to the [Home Affairs health examinations page](https://immi.homeaffairs.gov.au/help-support/meeting-our-requirements/health/what-health-examinations-you-need)."
+        },
+        {
+          "heading": "What mistakes get Australia visit visa applications refused?",
+          "content": "Home Affairs does not publish refusal statistics for Pakistan on the pages we opened, and no document makes approval certain. The two criteria that carry most weight are being a genuine visitor, meaning you intend to stay temporarily and obey your visa conditions, and having enough money. These are the avoidable mistakes that weaken a file on those points.",
+          "subsections": [
+            {
+              "title": "Common mistakes",
+              "items": [
+                "False or bogus documents. The [High Commission](https://pakistan.embassy.gov.au/islm/Visas_and_Migration.html) warns that Home Affairs might not grant you a visa for three years if you or a member of your family unit has a visa refused for bogus documents or false information. A fake bank statement or job letter costs far more than a weak genuine one.",
+                "An incomplete first upload. Because the application may be decided without a request for more information, missing bank statements or a missing employer letter can end the case.",
+                "Money that does not match the story: a large recent deposit with no explanation, or a 12-week trip planned on a salary that could not pay for it. Explain gifts, sales or savings in a short covering note with proof.",
+                "Thin reasons to return. Add the employer letter with approved leave, business registration, family documents from NADRA and property papers rather than relying on one of them.",
+                "Untranslated Urdu documents, or translations without the translator's details.",
+                "Applying in the Sponsored Family stream when the relationship cannot be proven on paper. Home Affairs says such applicants can use the Tourist stream with an invitation letter instead.",
+                "Paying for tickets before the grant. If the visa is refused or delayed, that money is at risk."
+              ]
+            },
+            {
+              "title": "Quick checklist before you submit",
+              "items": [
+                "Passport bio page and CNIC scanned in colour.",
+                "Three months of itemised bank statements plus salary slips or business proof and tax records.",
+                "Employer letter with approved leave dates, or enrolment proof for students.",
+                "Invitation letter and host's proof of status and funds, if visiting someone.",
+                "Itinerary that matches the dates in the form.",
+                "Family and property documents showing ties to Pakistan.",
+                "English translations for every Urdu document.",
+                "Child consent forms where a parent is not travelling."
+              ]
+            }
+          ],
+          "note": "Scam warning: the High Commission's [Visa Scams - Stay Safe](https://pakistan.embassy.gov.au/islm/Visa_Scams.html) page asks applicants to rely only on official information and registered migration advice. Never pay anyone for a promised visa, a job offer or a 'special quota', and never let anyone submit documents you have not seen."
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "What documents are required for an Australia visit visa from Pakistan?",
+              "answer": "Home Affairs asks for your passport bio page, national identity card, proof of money such as itemised bank statements for a three-month period, pay slips or tax records, an invitation letter if you are visiting someone, your plans in Australia, and proof you will return, such as an employer letter, family documents and property papers."
+            },
+            {
+              "question": "What is the Australia visit visa fee from Pakistan in 2026?",
+              "answer": "The base application charge for a Visitor visa (subclass 600) lodged from outside Australia is AUD 250 for each applicant under regulations that commenced on 1 July 2026. A biometrics service fee and any health examination costs are extra. Confirm the current figure in the Home Affairs Visa Pricing Estimator before paying."
+            },
+            {
+              "question": "How much bank balance is required for an Australia visit visa?",
+              "answer": "No fixed amount is published. Home Affairs only says you must have, or have access to, enough money to support yourself in Australia, and suggests itemised bank statements for a three-month period. Show a balance and income that fit the trip you describe, and explain any large recent deposit with supporting proof."
+            },
+            {
+              "question": "How long does an Australia visit visa take from Pakistan?",
+              "answer": "Home Affairs gives no fixed time for Pakistan. Its online processing time guide shows how long recently decided Visitor visa applications took, and the department says it is a guide only. Apply well before your travel date and do not buy tickets until the visa has been granted in writing."
+            },
+            {
+              "question": "Do I need an agent for an Australia visit visa from Pakistan?",
+              "answer": "No. The Australian High Commission in Islamabad says you are not required to use a visa agent and can apply yourself using the Home Affairs website. If you do want immigration assistance, Home Affairs says it must come from a registered migration agent, a legal practitioner or an exempt person."
+            },
+            {
+              "question": "Where do I give biometrics for an Australian visa in Pakistan?",
+              "answer": "Home Affairs lists Australian Biometrics Collection Centres in Islamabad, Lahore and Karachi, run by VFS Global. You attend only after Home Affairs asks you to. The High Commission says no appointment is needed in Pakistan; bring your passport, photo identification and the biometrics letter. A service fee applies."
+            },
+            {
+              "question": "Can my son or daughter in Australia sponsor my visit visa?",
+              "answer": "Yes, a child who is a settled Australian citizen or permanent resident can sponsor a parent in the Sponsored Family stream using Form 1149, and may be asked for a security bond. Home Affairs suggests checking the Tourist stream too: it needs no sponsor, takes an invitation letter instead, and can be granted with multiple entries."
+            },
+            {
+              "question": "Can I work or study on an Australian visitor visa?",
+              "answer": "You cannot work on a Visitor visa in the Tourist or Sponsored Family stream. You may study or train for up to three months. Home Affairs says that if study is your main reason for travelling, a student visa might be more appropriate. You must comply with all visa conditions and Australian laws while you are there."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa files for applicants in Pakistan and the UAE from our offices in Dubai and Lahore. For an Australia visit we provide documentation assistance: we check your papers against the Home Affairs document list, point out gaps and mismatches between your form, bank statements and letters, and help you organise the file before you submit it in your own ImmiAccount. We are not a MARA-registered migration agent and not a government authority, and we do not issue visas or promise approval or a decision date. See our [Australia visit visa page](/visit-visa/australia/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Canada Visitor Visa Refusal Reasons for Pakistani Applicants",
+              "href": "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants"
+            },
+            {
+              "label": "How Much Bank Balance for a UK Visit Visa from Pakistan",
+              "href": "/blog/how-much-bank-balance-uk-visit-visa-pakistan"
+            },
+            {
+              "label": "Australia Visit Visa Support",
+              "href": "/visit-visa/australia"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "germany-family-visit-visa-from-pakistan": {
     "title": "Germany Family Visit Visa from Pakistan: Documents, Fee and Appointment (2026)",
     "metaTitle": "Germany Family Visit Visa from Pakistan: Documents & Fee",
