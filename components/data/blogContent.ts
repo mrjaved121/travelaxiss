@@ -5,6 +5,298 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "netherlands-family-visit-visa-from-pakistan": {
+    "title": "Netherlands Family Visit Visa from Pakistan: Requirements, Sponsor Form and Fee (2026)",
+    "metaTitle": "Netherlands Family Visit Visa from Pakistan: Requirements",
+    "metaDescription": "Netherlands family visit visa requirements from Pakistan: the €55 a day rule, sponsorship form, documents, €90 fee, VFS appointment and processing time.",
+    "keywords": [
+      "netherlands family visit visa requirements from pakistan",
+      "netherlands visit visa requirements from pakistan",
+      "netherlands visit visa from pakistan",
+      "netherlands visa sponsorship form",
+      "netherlands visit visa bank statement requirements",
+      "netherlands visit visa fee from pakistan"
+    ],
+    "date": "November 19, 2026",
+    "dateModifiedIso": "2026-11-19",
+    "readTime": "10 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "Visiting Family in the Netherlands?",
+      "text": "Send us your travel dates and your host's details and we'll tell you what the file should contain and what is missing. We prepare the file; the Dutch authorities decide the visa.",
+      "label": "See Netherlands Visit Visa Support",
+      "href": "/visit-visa/netherlands/"
+    },
+    "content": {
+      "intro": "To visit family or friends in the Netherlands from Pakistan you apply for a short-stay Schengen visa at a VFS Global application centre in Islamabad, Karachi or Lahore; the Dutch government says these centres accept applications from people who live in Pakistan ([NetherlandsWorldwide, applying in Pakistan](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-pakistan)). The main requirements are a form you fill in online yourself, a passport that meets four conditions, proof of your ties to Pakistan, travel medical insurance of at least €30,000, and proof of at least €55 for each day of the visit. If you do not have that money, your host in the Netherlands must sponsor you on the official 'proof of sponsorship and/or private accommodation' form, with the signature legalised at a Dutch municipality ([official family and friends checklist](https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-family-friends)). The visa fee is €90, or €45 for a child aged 6 to 11, plus a VFS service charge, and the average processing time is 18 to 21 calendar days. This guide covers every requirement and the steps so you can apply yourself. Last updated November 2026. Rules and fees change, so confirm everything on the official pages before you apply.",
+      "sections": [
+        {
+          "heading": "Which visa do you need to visit family in the Netherlands from Pakistan?",
+          "content": "You need a short-stay Schengen visa (type C). The Dutch government describes it as the visa for visiting the Netherlands for a maximum of 90 days, 'for a holiday, to do business or to see family', and publishes a separate step-by-step page for applicants in Pakistan ([NetherlandsWorldwide](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-pakistan)). If you are unsure whether your passport or residence status changes anything, use the official [visa check](https://www.netherlandsworldwide.nl/visa-the-netherlands/visa-required) first. The visa lets you stay in the Schengen area for up to 90 days in any 180-day period, and it can be valid for a shorter time than 90 days. It is a visit visa only: it does not let you settle or work.",
+          "subsections": [
+            {
+              "title": "Where do you apply, and for which country?",
+              "items": [
+                "Application centres: VFS Global in Islamabad, Karachi or Lahore. The Dutch page lists no city-by-city split, so check the centre list when you book.",
+                "Who can use them: people who live in Pakistan or Afghanistan. If you live elsewhere, for example in the UAE, you normally apply in your country of residence.",
+                "Visiting more than one Schengen country: apply for the country where you will stay longest. If the stays are equal, apply for the country of your main purpose; if that is also equal, the country you enter first ([official rule](https://www.netherlandsworldwide.nl/visa-the-netherlands/visiting-more-than-one-schengen-country)).",
+                "Family visit or tourism: choose the checklist that matches your primary purpose of travel. A family visit uses the 'family or friends' checklist; a holiday with hotel bookings and no host uses the tourism checklist.",
+                "The same centres in Pakistan also take Schengen visa applications for Finland."
+              ]
+            }
+          ],
+          "note": "Locations and the 90-day rule are from the [NetherlandsWorldwide page for Pakistan](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-pakistan), checked on 19 November 2026."
+        },
+        {
+          "heading": "What are the Netherlands family visit visa requirements?",
+          "content": "The Dutch Ministry of Foreign Affairs publishes a [checklist for visiting family or friends](https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-family-friends). It says an incomplete application may be rejected and that the fee is not refunded, and that the ministry may ask for an interview or extra documents. For each item the checklist says whether to bring the original, a colour copy, or both.",
+          "subsections": [
+            {
+              "title": "Your own documents",
+              "items": [
+                "Application form: completed online in your own account, printed and signed. Only a form filled in online gets a unique code, and the checklist warns not to use someone else's form.",
+                "Passport: no more than 10 years old, at least 2 empty visa pages, valid for at least 3 months after you leave the Schengen area, and signed.",
+                "Photo: colour, no more than 6 months old, 3.5cm by 4.5cm, white or light background. The checklist says you do not submit a photo when you apply through an external service provider, because a digital photo is taken at the appointment.",
+                "Proof of legal residence in the country where you apply (original and colour copy). For a Pakistani citizen applying in Pakistan this is the passport.",
+                "Proof of social or economic ties to Pakistan. Employed: a recent employer statement with job title, contract duration and salary, plus bank statements or payslips from the previous 3 months. Self-employed: a business permit or a copy of your income tax return, plus 3 months of bank statements. Student: proof of enrolment showing the area of study and the duration.",
+                "If none of those fit: papers showing you are a caregiver, own a home or other property, or have children at school in Pakistan.",
+                "Travel reservation in your name to and from the Schengen area. The checklist states that you do not need a paid ticket.",
+                "Travel medical insurance in your name covering all Schengen countries for the whole stay, with at least €30,000 for hospital treatment, emergency care, prescription medicine and repatriation, including in the event of death ([insurance rules](https://www.netherlandsworldwide.nl/visa-the-netherlands/requirements-insurance-schengen-visa))."
+              ]
+            },
+            {
+              "title": "Documents from your host in the Netherlands",
+              "items": [
+                "A colour copy of your host's Dutch ID card or passport. If the host is not a Dutch national, a copy of their valid Dutch residence permit.",
+                "If you stay in the host's home: the completed 'proof of sponsorship and/or private accommodation' form (original and colour copy).",
+                "If the host pays for the trip: the same form with the sponsorship question answered 'yes', plus the host's income papers listed in the next section.",
+                "If you stay in a hotel or rented place instead: a reservation or rental agreement for the entire trip."
+              ]
+            },
+            {
+              "title": "Extra documents for children under 18",
+              "items": [
+                "For a child travelling without one or both parents or guardians: a recent extract of the birth certificate and a consent form signed by the parent or guardian who is not travelling (original and colour copy).",
+                "A colour copy of the signed passport of the parent or guardian who is not travelling.",
+                "Where it applies: a parent's valid Schengen visa and passport data page, a death certificate, proof of guardianship or a court permission.",
+                "Children must attend the appointment too, including those under 12 who do not give fingerprints."
+              ]
+            }
+          ],
+          "note": "Important: the Dutch page for Pakistan sends applicants to a checklist on the VFS Global website, chosen by purpose of travel. We could not open the VFS Global Pakistan pages from our connection on 19 November 2026, so the lists above come from the Dutch government's own [family and friends checklist](https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-family-friends). Open the VFS checklist through the link on the [official Pakistan page](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-pakistan) and follow it if it asks for anything more, such as Pakistan-specific civil documents."
+        },
+        {
+          "heading": "How much bank balance do you need, and when must your host sponsor you?",
+          "content": "The Netherlands publishes a figure, which many Schengen countries do not. The checklist says you must show enough money for your travel and stay, that this also applies to visitors under 18, and that 'you need at least €55 per day' ([checklist](https://www.netherlandsworldwide.nl/visa-the-netherlands/checklist-schengen-visa-family-friends)). If you have less than €55 for each day, someone in the Netherlands must sponsor you ([how to arrange sponsorship](https://www.netherlandsworldwide.nl/visa-the-netherlands/sponsor-invite-short-stay)). The official pages give the daily figure only; they do not publish a total balance or a rupee amount.",
+          "subsections": [
+            {
+              "title": "What €55 a day means for your trip (our arithmetic)",
+              "items": [
+                "10-day visit: 10 x €55 = €550 per person.",
+                "30-day visit: 30 x €55 = €1,650 per person.",
+                "90-day visit: 90 x €55 = €4,950 per person.",
+                "These sums are our own multiplication of the official daily figure, not an official table. Travel costs come on top, and the rupee value moves with the exchange rate."
+              ]
+            },
+            {
+              "title": "Who pays, and what proves it",
+              "items": [
+                "You pay yourself: bank statements for the previous 3 months and, if you are employed, 3 recent payslips.",
+                "A family member or friend in Pakistan pays: that person's bank statements for the previous 3 months and 3 recent payslips.",
+                "Your host in the Netherlands pays: the sponsorship form (original and colour copy) with question 3B answered 'yes', plus the host's recent employment certificate or a contract valid for at least 12 months at the time of the visa application, and 3 recent payslips.",
+                "You stay with the host and the host also covers your stay, medical care and repatriation: questions 3A and 3B must both be answered 'yes'.",
+                "One person hosts and a different person pays: the person you stay with must provide a separate form."
+              ]
+            },
+            {
+              "title": "Can your relative be a sponsor?",
+              "items": [
+                "They live in the Netherlands, are 18 or older and have a citizen service number (BSN).",
+                "They will have a steady and sufficient income for at least the next 12 months, such as salary, pension or business income. The IND sets the amount: €2,337.00 gross per month without holiday allowance, or €2,523.96 with holiday allowance, valid from 1 July to 31 December 2026 ([IND required amounts](https://ind.nl/en/required-amounts-income-requirements#you-are-the-sponsor-for-a-short-stay-schengen-visa-or-visa-exempt-period-)).",
+                "People on a benefit paid from general public funds, such as social assistance, cannot act as sponsors.",
+                "A married or registered partner is a joint sponsor: both incomes are added together, and both sign the form and have their signatures legalised.",
+                "Self-employed sponsors show a recent Chamber of Commerce extract, their most recent final income tax assessment and a recent profit and loss account."
+              ]
+            }
+          ],
+          "note": "Sponsor conditions and documents are from [NetherlandsWorldwide, how can I sponsor a visitor](https://www.netherlandsworldwide.nl/visa-the-netherlands/sponsoring), checked on 19 November 2026. The IND income figure changes twice a year, so your host should re-check it before going to the municipality."
+        },
+        {
+          "heading": "How does the sponsorship and accommodation form work?",
+          "content": "One form does both jobs: the IND's ['proof of sponsorship and/or private accommodation' form](https://ind.nl/nl/formulieren/1310.pdf). Your host fills it in in the Netherlands, marks whether they are offering sponsorship, accommodation or both, and signs it at a Dutch municipality in front of an authorised official, with their ID. The form is in Dutch with English and French labels, and some municipalities let hosts complete it online.",
+          "subsections": [
+            {
+              "title": "Rules your host must know",
+              "items": [
+                "Because the visitor needs a visa, the signature must be legalised by a Dutch municipality. For a joint sponsor, the spouse or partner must come along and sign too.",
+                "One form per visitor. A couple with two children needs four forms.",
+                "You must apply for the visa within 6 months of the form being legalised.",
+                "Nothing may be changed or blacked out after legalisation, including the BSN and income details. A changed form is invalid and a new one must be legalised.",
+                "Proof of sponsorship is valid for one trip. A later visit needs a new form.",
+                "The sponsor is a guarantor for the costs of your stay, medical care and repatriation. The sponsorship ends when you leave the Schengen area, or 5 years after legalisation."
+              ]
+            },
+            {
+              "title": "What you do with it in Pakistan",
+              "items": [
+                "Your host sends the original form and their income documents to you by post.",
+                "Submit a colour photocopy with the application and show the original at the desk; the official page says it is given back immediately.",
+                "Carry the original form and the host's documents when you fly. You will need to show them at Dutch border control."
+              ]
+            }
+          ],
+          "note": "Sources: [arranging proof of sponsorship](https://www.netherlandsworldwide.nl/visa-the-netherlands/sponsor-invite-short-stay), [arranging proof of private accommodation](https://www.netherlandsworldwide.nl/visa-the-netherlands/arrange-proof-private-accommodation) and the host's guide to [inviting someone for a short visit](https://www.netherlandsworldwide.nl/visa-the-netherlands/invite-to-netherlands). The pages we checked do not state what a municipality charges for legalising the signature; your host should ask their own municipality."
+        },
+        {
+          "heading": "What are the visa fee and processing time?",
+          "content": "The Dutch government's fee list for Pakistan for 2026 gives the visa fees in euros and says you can pay in cash in local currency (PKR), at the exchange rate that applies at the time ([consular fees in Pakistan](https://www.netherlandsworldwide.nl/consular-fees/pakistan)).",
+          "subsections": [
+            {
+              "title": "Official fees and times at a glance",
+              "items": [
+                "Schengen visa, normal fee: €90.00.",
+                "Schengen visa, child aged 6 to 11: €45.00.",
+                "Schengen visa, child under 6: free of charge.",
+                "VFS Global service charge: always payable on top, even when no visa fee is due. The amount is shown on the VFS Global site under 'Attend a centre'; we could not open that page, so we do not quote a figure ([visa costs](https://www.netherlandsworldwide.nl/visa-the-netherlands/visa-costs)).",
+                "Average processing time: 18 to 21 calendar days, counted from the day the Dutch Consular Service Organisation receives your documents.",
+                "Longer cases: up to 45 calendar days when volumes are high, the application needs further review or you must send extra documents. On the day we checked, the page carried a peak-season warning that processing may take longer than usual.",
+                "When to apply: up to 6 months before the trip and at least 15 calendar days before you travel.",
+                "Refunds: the visa fee and the service charge are not refunded after a refusal."
+              ]
+            }
+          ],
+          "note": "Processing times: [NetherlandsWorldwide](https://www.netherlandsworldwide.nl/visa-the-netherlands/waiting-time-after-visa-application). Refund rule: [what to do after a refusal](https://www.netherlandsworldwide.nl/visa-the-netherlands/objecting-refuse-application). The EU-wide normal decision time is 15 days ([European Commission](https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en)); the Dutch page publishes its own average of 18 to 21 calendar days. All checked on 19 November 2026."
+        },
+        {
+          "heading": "How to apply: step by step",
+          "content": "You can do the whole application yourself. No agent or middleman is needed, and nobody can sell you an appointment, a faster decision or an approval. Never pay anyone for a visa promise. Start from the Dutch government's page for Pakistan and use only the links on it.",
+          "subsections": [
+            {
+              "title": "The steps in order",
+              "items": [
+                "Step 1. Agree the dates with your host and decide who pays. Work out days x €55 per person. If your own statements do not show that, ask your host to sponsor you.",
+                "Step 2. Your host fills in the sponsorship and accommodation form, has the signature legalised at their municipality and posts you the original with copies of their ID or residence permit, employment contract or certificate and 3 payslips.",
+                "Step 3. Create your own account in the Dutch Ministry of Foreign Affairs portal and fill in the [short-stay Schengen visa form](https://consular.mfaservices.nl/schengen-visa/short-stay?lang=en). Use a computer or tablet; the ministry says the form does not work on a smartphone. Print it and sign it ([form help](https://www.netherlandsworldwide.nl/visa-the-netherlands/visa-application-form)).",
+                "Step 4. Collect your papers in Pakistan: passport, employer letter or business papers, 3 months of bank statements and payslips, flight reservation and insurance certificate. Make colour copies where the checklist asks for them.",
+                "Step 5. Book the appointment yourself through the VFS Global link on the [official Pakistan page](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-pakistan) (it points to [visa.vfsglobal.com/pak/en/nld](https://visa.vfsglobal.com/pak/en/nld/)). Book a separate appointment for each person.",
+                "Step 6. Attend in person with every document and the checklist itself. You hand in the file and passport, give fingerprints, answer questions about the trip, pay the fees and choose passport collection or delivery. You receive a reference number.",
+                "Step 7. Track the application with that reference number through the [official status page](https://www.netherlandsworldwide.nl/visa-the-netherlands/visa-application-status). You get an email when processing is finished; the email does not say whether the visa was granted.",
+                "Step 8. Collect the passport with a valid ID and the VFS proof of payment, or have it delivered. Check your name, the 'from' and 'until' dates, the duration of stay and the number of entries ([how to read the visa](https://www.netherlandsworldwide.nl/visa-the-netherlands/information-on-a-visa)). If something is wrong, the Dutch page says to contact the embassy in Islamabad as soon as possible.",
+                "Step 9. Travel with the visa, the original sponsorship form, your host's documents and your insurance certificate. Border control may ask for them."
+              ]
+            },
+            {
+              "title": "Fingerprints and applying through someone else",
+              "items": [
+                "Fingerprints are not taken from children under 12, or from people who gave them for a Schengen or entry visa application in the past 59 months.",
+                "If you are 12 or older and applied in person with fingerprints within the past 59 months, you may authorise another person to submit the file with a signed letter of authorisation and their own travel document.",
+                "If the ministry cannot copy your stored fingerprints you will be called back, so the official page notes you can always choose to give them again."
+              ]
+            }
+          ],
+          "note": "Scam warning from the Dutch government: 'You can only make an appointment through the VFS Global appointment system. If you are offered another option to make an appointment, be aware that it concerns a scam.' It also says: 'Avoid unnecessary costs and book your appointment yourself. Do not make an appointment through an intermediary.' Source: [NetherlandsWorldwide](https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-pakistan). The VFS booking pages could not be opened from our connection on 19 November 2026, so we have not checked appointment availability."
+        },
+        {
+          "heading": "What mistakes get Netherlands visit visa applications refused or delayed?",
+          "content": "The Dutch authorities decide each application, and no file can promise an outcome. These are the avoidable problems, set against what the official pages say.",
+          "subsections": [
+            {
+              "title": "Common mistakes",
+              "items": [
+                "A missing document. You sign a declaration at the appointment that an incomplete application may be rejected without a refund.",
+                "A form without the unique code, or a form filled in on someone else's account.",
+                "A sponsorship form that is not legalised, is older than 6 months, has been altered or blacked out, or covers one visitor when several are travelling.",
+                "A sponsor who does not meet the conditions: income below the IND amount, a contract with less than 12 months left, or income from social assistance.",
+                "Bank statements that do not show €55 a day and no sponsor to fill the gap.",
+                "Insurance below €30,000, not valid in every Schengen country, or not in your name.",
+                "A passport older than 10 years, unsigned, or with fewer than 2 empty visa pages.",
+                "Thin proof of your life in Pakistan. The checklist asks for social or economic ties, and the EU rules ask for evidence of your intention to return home.",
+                "Applying at the wrong country's centre when most of your trip is in another Schengen state. The Dutch page says such an application will not be processed."
+              ]
+            },
+            {
+              "title": "Checklist before your appointment",
+              "items": [
+                "Printed, signed form with the unique code.",
+                "Passport: under 10 years old, 2 empty pages, valid 3 months beyond your exit date, signed.",
+                "Employer or business papers and 3 months of bank statements or payslips.",
+                "Original legalised form plus a colour copy, and the host's ID or residence permit, contract or certificate and 3 payslips.",
+                "Flight reservation and an insurance certificate for €30,000 covering the whole stay.",
+                "The printed checklist, your appointment confirmation and the fees."
+              ]
+            }
+          ],
+          "note": "If you are refused: you receive a letter with the reasons. You have 4 weeks to object, and you object to the Dutch Immigration and Naturalisation Service (IND). Objecting is free; when the visit is to family or friends your sponsor can file the objection online for you ([IND](https://ind.nl/en/short-stay/object-decision-on-a-schengen-or-transit-visa)). You can also submit a new application, paying the fee again, and the Dutch page calls that the best option if you need to travel soon ([NetherlandsWorldwide](https://www.netherlandsworldwide.nl/visa-the-netherlands/objecting-refuse-application)). See [Schengen visa rejection reasons for Pakistani applicants](/blog/schengen-visa-rejection-reasons-pakistani-applicants)."
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "What are the Netherlands family visit visa requirements from Pakistan?",
+              "answer": "You need the online application form printed and signed, a passport under 10 years old with 2 empty pages, proof of ties to Pakistan, a travel reservation, €30,000 medical insurance, proof of €55 a day or a legalised sponsorship form, proof of where you will stay, and a copy of your host's Dutch ID or residence permit."
+            },
+            {
+              "question": "How much bank balance is required for a Netherlands visit visa?",
+              "answer": "The Dutch checklist says you need at least €55 per day, per person, including children. It asks for bank statements for the previous 3 months and 3 recent payslips if you are employed. No total balance is published; a 30-day visit works out at €1,650 by simple multiplication. With less, you need a sponsor in the Netherlands."
+            },
+            {
+              "question": "How much is the Netherlands visit visa fee from Pakistan in 2026?",
+              "answer": "The Dutch government's 2026 fee list for Pakistan shows €90 for a Schengen visa, €45 for a child aged 6 to 11 and no fee for a child under 6. You can pay in cash in rupees at the current exchange rate. VFS Global adds a service charge, which we could not confirm."
+            },
+            {
+              "question": "How long does a Netherlands visit visa take from Pakistan?",
+              "answer": "The Dutch government gives an average of 18 to 21 calendar days, counted from the day its Consular Service Organisation receives your documents. Some applications take up to 45 calendar days. You may apply up to 6 months before the trip and no later than 15 calendar days before travelling, so apply early."
+            },
+            {
+              "question": "Is a sponsor compulsory for a Netherlands family visit visa?",
+              "answer": "No. If you can show at least €55 for each day of the visit yourself, sponsorship is not needed. You still need the same form as proof of private accommodation if you stay in your relative's home. If you have less than €55 a day, someone living in the Netherlands must sponsor you."
+            },
+            {
+              "question": "How much must my sponsor in the Netherlands earn?",
+              "answer": "The IND lists €2,337.00 gross per month without holiday allowance, or €2,523.96 with it, for a short-stay sponsor from 1 July to 31 December 2026. The income must be steady for at least the next 12 months. A married or registered partner's income is added. Social assistance benefits do not count."
+            },
+            {
+              "question": "Do I need an agent to apply for a Netherlands visit visa from Pakistan?",
+              "answer": "No. The Dutch government tells applicants to book the appointment themselves and not through an intermediary, and warns that any other booking route offered to you is a scam. You fill in the form in your own account. A documentation service can check your file, but it cannot obtain an appointment or an approval."
+            },
+            {
+              "question": "Can I get a multiple-entry Netherlands visa?",
+              "answer": "You cannot apply for a multiple-entry visa as such. The Dutch Ministry of Foreign Affairs decides, from your travel plans and travel history, when and for how many journeys the visa is valid. If you will enter the Schengen area two or more times, state that on the form and bring reservations that show it."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa files for applicants in Pakistan and the UAE from our offices in Dubai and Lahore. For a Netherlands family visit we check your documents and your host's sponsorship papers against the official checklist, point out gaps and mismatches, and help you put the file in order before your appointment. We are not a government authority; we cannot obtain appointments, and we do not issue visas or promise approval or a decision date. See our [Netherlands visit visa page](/visit-visa/netherlands/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Germany Family Visit Visa from Pakistan",
+              "href": "/blog/germany-family-visit-visa-from-pakistan"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "EU Entry/Exit System (EES) for Pakistani Travellers",
+              "href": "/blog/eu-entry-exit-system-ees-pakistan-travelers"
+            },
+            {
+              "label": "Netherlands Visit Visa Support",
+              "href": "/visit-visa/netherlands"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "australia-visit-visa-documents-required-from-pakistan": {
     "title": "Australia Visit Visa from Pakistan: Documents Required, Fee and Steps (2026)",
     "metaTitle": "Australia Visit Visa from Pakistan: Documents Required",

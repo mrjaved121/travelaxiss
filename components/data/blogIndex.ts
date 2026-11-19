@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "netherlands-family-visit-visa-from-pakistan",
+      "title": "Netherlands Family Visit Visa from Pakistan: Requirements, Sponsor Form and Fee (2026)",
+      "excerpt": "Netherlands family visit visa requirements from Pakistan: the €55 a day rule, the legalised sponsorship and accommodation form, the official document checklist, the €90 fee, VFS appointments in Islamabad, Karachi and Lahore, and 18 to 21 day processing.",
+      "date": "November 19, 2026",
+      "readTime": "10 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "australia-visit-visa-documents-required-from-pakistan",
       "title": "Australia Visit Visa from Pakistan: Documents Required, Fee and Steps (2026)",
       "excerpt": "Australia visit visa from Pakistan: documents required for the Visitor visa (subclass 600), Tourist or Sponsored Family stream, the AUD 250 charge, bank statements, biometrics in Islamabad, Lahore and Karachi, and how to apply yourself in ImmiAccount.",
