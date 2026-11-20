@@ -5,6 +5,199 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "canada-super-visa-for-parents-from-pakistan": {
+    "title": "Canada Super Visa for Parents from Pakistan: Requirements, Income and Fee (2026)",
+    "metaTitle": "Canada Super Visa for Parents from Pakistan (2026)",
+    "metaDescription": "Canada super visa for parents from Pakistan: who qualifies, the 2026 income table, $100,000 insurance rule, medical exam, CAD 100 fee and how to apply.",
+    "keywords": [
+      "canada super visa for parents from pakistan",
+      "canada super visa requirements for pakistani parents",
+      "super visa income requirement 2026",
+      "super visa medical insurance requirements",
+      "canada super visa fee",
+      "canada visit visa for parents from pakistan"
+    ],
+    "date": "November 20, 2026",
+    "dateModifiedIso": "2026-11-20",
+    "readTime": "10 min read",
+    "category": "Canada Visa Documentation",
+    "cta": {
+      "heading": "Bringing Your Parents to Canada?",
+      "text": "Send us your parents' travel plans and your host details and we'll tell you what the super visa file should contain and what is missing. We prepare the file; IRCC decides the visa.",
+      "label": "See the Canada Visit Visa Guide",
+      "href": "/visit-visa/canada/"
+    },
+    "content": {
+      "intro": "Yes, parents and grandparents in Pakistan can apply for a Canada super visa if their child or grandchild in Canada is a Canadian citizen, permanent resident or registered Indian and meets a minimum income. IRCC says the super visa lets them visit for 5 years at a time and gives multiple entries for up to 10 years ([IRCC super visa page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa.html)). The file needs four things the ordinary visitor visa does not: a signed invitation letter with a promise of financial support, proof of the host's income, Canadian (or approved) medical insurance of at least $100,000 for one year, and an upfront medical exam with a panel physician. The fee is CAD 100 per person plus CAD 85 for biometrics, paid online. This guide walks through each requirement and the exact steps, using only IRCC pages checked on 20 November 2026. Last updated November 2026: rules and figures can change, so confirm on the official pages before you apply.",
+      "sections": [
+        {
+          "heading": "Who can apply for a Canada super visa from Pakistan?",
+          "content": "IRCC's eligibility page says the applicant must be the parent or grandparent of the host, and the host must be their biological or adopted child or grandchild who is at least 18, lives in Canada and is a Canadian citizen, permanent resident or registered Indian ([IRCC, who can apply](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/eligibility.html)). The applicant must be outside Canada when applying, so parents living in Pakistan or the UAE apply from there. Dependants cannot be included in a super visa application ([IRCC super visa page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa.html)). If the visit is 6 months or less, IRCC points families to the ordinary visitor visa instead.",
+          "subsections": [
+            {
+              "title": "Super visa or visitor visa: which one fits?",
+              "items": [
+                "Length of stay: super visa holders can stay up to 5 years per entry (applications made on or after 22 June 2023) ([IRCC, length of stay](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/length-stay-canada.html)); IRCC points visits of 6 months or less to the visitor visa.",
+                "Validity: the super visa gives multiple entries for up to 10 years, but IRCC says it cannot issue one valid longer than your biometrics ([IRCC, apply](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/apply.html)).",
+                "Extra proof: a super visa needs host income proof, one year of medical insurance and an upfront medical exam; a visitor visa does not have these fixed requirements.",
+                "Who qualifies: only parents and grandparents can hold a super visa; brothers, sisters and other relatives use the visitor visa."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much income does the host in Canada need in 2026?",
+          "content": "The host must meet the minimum necessary income for their family size. Since 31 March 2026, IRCC accepts the income from either of the two tax years before the application, and the visiting parent's own income can cover part of the gap if the host meets a set minimum percentage ([IRCC notice, 20 March 2026](https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-parents-grandparents-super-visa-income-requirement-calculated.html)). IRCC's income page says the host's income in the year before applying must be at least 75% of the minimum for the parent's income to make up the rest ([IRCC, host financial support](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/forms-documents/host-financial-support.html)). The host's spouse or common-law partner can co-sign; brothers and sisters cannot.",
+          "subsections": [
+            {
+              "title": "Minimum necessary income table (CAD, as published by IRCC)",
+              "items": [
+                "1 person: $30,526",
+                "2 persons: $38,002",
+                "3 persons: $46,720",
+                "4 persons: $56,724",
+                "5 persons: $64,336",
+                "6 persons: $72,560",
+                "7 persons: $80,784",
+                "More than 7: add $8,224 for each extra person"
+              ]
+            },
+            {
+              "title": "How do you count family size?",
+              "content": "IRCC's income page shows this table with the label 'Updated July 29, 2025'. The family size must include the visiting parents or grandparents as well as the host's own household, and the invitation letter must list everyone counted, with names and dates of birth. Check the live table before you apply, because IRCC updates it ([IRCC, host financial support](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/forms-documents/host-financial-support.html))."
+            },
+            {
+              "title": "Which income documents does IRCC accept?",
+              "content": "IRCC's preferred proof is the host's Canada Revenue Agency Notice of Assessment (NOA). Where the 75% option is used and no NOA is available, IRCC lists T4 or T1 slips for the last tax year, pay stubs for the last 12 months, an original employer letter, bank statements or other proof of income ([IRCC, host financial support](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/forms-documents/host-financial-support.html)). If the parent's income in Pakistan is counted, IRCC says the parent must show it will continue while in Canada and in which currency it is paid, so a pension book, rent agreement or bank statement showing regular credits is useful."
+            }
+          ]
+        },
+        {
+          "heading": "What medical insurance does a super visa need?",
+          "content": "IRCC's forms and documents page sets four conditions ([IRCC, forms and documents](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/forms-documents.html)). The policy must come from a Canadian insurance company, or from a foreign company that is authorised by Canada's insurance regulator (OSFI) and listed on its website. It must be valid for at least 1 year from the date of entry and for each entry, cover health care, hospitalisation and repatriation, and give at least $100,000 of emergency coverage. It must be paid in full, or in instalments with a deposit; IRCC says quotes are not accepted. A policy bought from a Pakistani insurer that is not on the OSFI list will not meet this rule, so check before you pay.",
+          "note": "An older IRCC page dated February 2025 describes foreign insurers as those 'approved by the minister'. The newer forms and documents page (July 2026) gives the OSFI test, so we follow that one. If you are unsure, ask the insurer to show you its OSFI listing."
+        },
+        {
+          "heading": "Do parents need a medical exam before applying?",
+          "content": "Yes. IRCC lists the parent and grandparent super visa among the cases that need a medical exam, and says you should get it before you apply; this is called an upfront medical exam ([IRCC, medical exam for temporary residents](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams/requirements-temporary-residents.html)). Your own doctor cannot do it. You must use a doctor from IRCC's [panel physician list](https://secure.cic.gc.ca/PanelPhysicianMedecinDesigne/en/Home). After the exam, the panel physician gives you a document confirming it, and you upload a copy with the online application. IRCC says results are valid for 12 months, so time the exam close to your application date."
+        },
+        {
+          "heading": "How to apply for a Canada super visa from Pakistan: step by step",
+          "subsections": [
+            {
+              "title": "Steps",
+              "items": [
+                "1. Check eligibility on the [IRCC super visa page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa.html): the applicant is a parent or grandparent, the host is 18+ and a citizen, PR or registered Indian, and the visit is longer than 6 months.",
+                "2. Host checks income: compare the host's NOA for either of the last two tax years with the [minimum income table](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/forms-documents/host-financial-support.html). If it falls short, check whether the 75% rule plus the parent's own income works.",
+                "3. Host writes and signs the invitation letter. It must promise financial support for the whole visit and list the people counted in the family size, with names and dates of birth. IRCC's [letter of invitation page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/letter-invitation.html) also asks for the host's full name, date of birth, address, phone, job title and status in Canada.",
+                "4. Book the upfront medical exam with a panel physician from the [official list](https://secure.cic.gc.ca/PanelPhysicianMedecinDesigne/en/Home) and keep the confirmation document.",
+                "5. Buy the medical insurance: Canadian or OSFI-listed insurer, at least $100,000, valid 1 year from entry, paid in full or with a deposit.",
+                "6. Collect the other papers: valid passport, proof of the host's status (a copy of their citizenship proof, PR document or Secure Certificate of Indian Status), and proof of relationship such as the host's birth certificate naming you as parent, plus your own family and financial papers.",
+                "7. Apply online. IRCC's [apply page](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/apply.html) says to sign in to your account, fill in the forms, upload the documents and pay at the end by credit card or Visa/MasterCard debit card. Paper applications are only for people who cannot apply online because of a disability or who travel on a refugee, stateless or non-citizen document ([IRCC, paper application](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa/apply/paper-application.html)).",
+                "8. Pay the fees: CAD 100 per person for the super visa and CAD 85 for biometrics per person, with a maximum of CAD 170 for a family of 2 or more applying together ([IRCC, biometrics](https://www.canada.ca/en/immigration-refugees-citizenship/services/biometrics/how-to-give.html)).",
+                "9. Give biometrics in person. After paying, you get a biometric instruction letter. Take it with your passport to a collection site; use IRCC's [where to give biometrics](https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/where-to-give-biometrics.html) tool to find the nearest one, and book early.",
+                "10. Wait for a decision. IRCC says processing time varies by country; check the current figure for Pakistan with the [official processing times tool](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html) on the day you apply. If IRCC asks for your passport, follow the instructions in your account."
+              ]
+            }
+          ],
+          "note": "You can apply directly yourself through the official IRCC account. Nobody can sell you a guaranteed visa or a faster decision. If someone asks for money in exchange for an 'assured' super visa, an 'approved' insurance quote or a 'confirmed' biometrics slot, treat it as a scam."
+        },
+        {
+          "heading": "Why are super visas refused, and how can you avoid it?",
+          "content": "IRCC does not publish a list of super visa refusal reasons, but the requirements above point to the usual weak spots. The most common are an income proof that does not match the family size in the invitation letter, a host NOA from the wrong year, insurance from a company that is not Canadian or OSFI-listed, an insurance quote instead of a paid policy, a medical exam done with a non-panel doctor, and missing proof of the parent-child relationship. Officers also look at whether the parents will leave Canada at the end of the stay, so ties to Pakistan matter.",
+          "subsections": [
+            {
+              "title": "Tips that make the file stronger",
+              "items": [
+                "Make the numbers match: the family size in the letter, the income table row you use and the NOA should all agree.",
+                "Show ties to Pakistan: property papers, a pension, other children or family at home, and earlier travel to Canada, the UK, Schengen or the Gulf with on-time returns.",
+                "Present bank statements cleanly: original bank-stamped statements, no large unexplained deposits shortly before applying, and a short note explaining any big credit (property sale, pension lump sum).",
+                "Keep names consistent: if a name is spelled differently on the CNIC, passport and birth certificate, explain it in a short letter.",
+                "Upload readable scans: one clear file per document, in colour where needed, so the officer can read every page.",
+                "Read the refusal letter if you are refused: fix the exact point raised before you apply again. Our [Canada visitor visa refusal reasons guide](/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants) explains common grounds."
+              ]
+            },
+            {
+              "title": "Short checklist",
+              "items": [
+                "Valid Pakistani passport",
+                "Signed invitation letter with financial support promise and family list",
+                "Host's NOA (or other accepted income proof) for the year used",
+                "Proof of host's citizenship, PR or registered Indian status",
+                "Proof of relationship (host's birth certificate or official document)",
+                "Paid medical insurance: $100,000+, 1 year, Canadian or OSFI-listed insurer",
+                "Upfront medical exam confirmation from a panel physician",
+                "Fee receipts: CAD 100 per person plus biometrics",
+                "Parent's own financial papers and proof of ties to Pakistan"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How long can my parents stay in Canada on a super visa?",
+              "answer": "For applications made on or after 22 June 2023, IRCC says super visa holders are eligible to stay for up to 5 years at a time. The visa itself can give multiple entries for up to 10 years, but it cannot be valid longer than the biometrics. The border officer still decides each entry."
+            },
+            {
+              "question": "What is the Canada super visa fee for Pakistani parents?",
+              "answer": "IRCC lists CAD 100 per person for the super visa and CAD 85 per person for biometrics, with a family maximum of CAD 170 for biometrics when two or more people apply together. Both parents applying together would pay CAD 200 plus CAD 170. Insurance and the medical exam are separate costs."
+            },
+            {
+              "question": "Can my parents' own income count towards the super visa income requirement?",
+              "answer": "Yes, since 31 March 2026. If the host's income in the year before applying is at least 75% of the minimum for their family size, the parent's or grandparent's own income can make up the rest. The parent must show the income will continue during the stay and in which currency it is paid."
+            },
+            {
+              "question": "Can my parents buy super visa insurance in Pakistan?",
+              "answer": "Only if the insurer meets IRCC's rule. The policy must come from a Canadian company or a foreign company authorised by OSFI and listed on its website, cover at least $100,000 for health care, hospitalisation and repatriation, and last one year from entry. Ask any insurer to show its OSFI listing before paying."
+            },
+            {
+              "question": "Do my parents need a medical exam before applying?",
+              "answer": "Yes. IRCC says super visa applicants should do an upfront medical exam before applying, with a doctor from the official panel physician list, not their family doctor. The panel physician gives a confirmation document that is uploaded with the application. IRCC says medical results are valid for 12 months."
+            },
+            {
+              "question": "Can my brother or sister sign the super visa invitation letter as co-signer?",
+              "answer": "No. IRCC says only the host's spouse or common-law partner can co-sign, and they must also be a Canadian citizen, permanent resident or registered Indian. Brothers and sisters cannot co-sign or add their income. The letter must be signed by the host and list everyone counted in the family size."
+            },
+            {
+              "question": "How long does a Canada super visa take from Pakistan?",
+              "answer": "IRCC says processing time varies by country and does not give one fixed figure. Check the official processing times tool for Pakistan on the day you apply, since the estimate changes. Apply well before the planned travel date, and allow time for the medical exam and biometrics appointment."
+            },
+            {
+              "question": "Do I need an agent to apply for a Canada super visa?",
+              "answer": "No. Parents can apply directly through their own IRCC account and pay the fees online. A documentation service can help check the file, but nobody can guarantee approval or speed up IRCC's decision. Be wary of anyone selling 'guaranteed' visas, insurance quotes as policies, or biometrics slots."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa files for applicants in Pakistan and the UAE from our offices in Dubai and Lahore. For a Canada super visa we check your documents, the invitation letter and the host's income proof against IRCC's official list, point out gaps and mismatches, and help you put the file in order before you submit. We are not a government authority; we cannot obtain appointments, and we do not issue visas or promise approval or a decision date. See our [Canada visit visa page](/visit-visa/canada/) or message us on WhatsApp with your parents' travel plans."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Canada Visitor Visa Refusal Reasons for Pakistani Applicants",
+              "href": "/blog/canada-visitor-visa-refusal-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Australia Visit Visa from Pakistan: Documents Required",
+              "href": "/blog/australia-visit-visa-documents-required-from-pakistan"
+            },
+            {
+              "label": "Canada Visit Visa Support",
+              "href": "/visit-visa/canada"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "netherlands-family-visit-visa-from-pakistan": {
     "title": "Netherlands Family Visit Visa from Pakistan: Requirements, Sponsor Form and Fee (2026)",
     "metaTitle": "Netherlands Family Visit Visa from Pakistan: Requirements",

@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "canada-super-visa-for-parents-from-pakistan",
+      "title": "Canada Super Visa for Parents from Pakistan: Requirements, Income and Fee (2026)",
+      "excerpt": "Canada super visa for parents from Pakistan: who qualifies, the IRCC minimum income table and the new 2026 income rules, the $100,000 insurance requirement, upfront medical exam, CAD 100 fee plus biometrics, and how to apply online step by step.",
+      "date": "November 20, 2026",
+      "readTime": "10 min read",
+      "category": "Canada Visa Documentation"
+    },
+    {
       "id": "netherlands-family-visit-visa-from-pakistan",
       "title": "Netherlands Family Visit Visa from Pakistan: Requirements, Sponsor Form and Fee (2026)",
       "excerpt": "Netherlands family visit visa requirements from Pakistan: the €55 a day rule, the legalised sponsorship and accommodation form, the official document checklist, the €90 fee, VFS appointments in Islamabad, Karachi and Lahore, and 18 to 21 day processing.",
