@@ -5,6 +5,187 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "turkey-e-visa-for-pakistani-with-uk-us-schengen-visa": {
+    "title": "Turkey e-Visa for Pakistani with UK, US or Schengen Visa: Who Qualifies and How to Apply (2026)",
+    "metaTitle": "Turkey e-Visa for Pakistanis with UK, US or Schengen Visa",
+    "metaDescription": "Can Pakistanis get a Turkey e-Visa? Yes, with a valid UK, US, Schengen or Ireland visa or residence permit. Who qualifies, steps, sticker visa route.",
+    "keywords": [
+      "turkey e visa for pakistani with uk visa",
+      "turkey e visa for pakistani with schengen visa",
+      "turkey e visa for pakistani with us visa",
+      "turkey visa for pakistani",
+      "turkey sticker visa from pakistan documents",
+      "turkey visit visa from pakistan"
+    ],
+    "date": "November 21, 2026",
+    "dateModifiedIso": "2026-11-21",
+    "readTime": "9 min read",
+    "category": "International Visa Documentation",
+    "cta": {
+      "heading": "Planning a Turkey Trip from Pakistan?",
+      "text": "Tell us which visa you already hold and your travel dates, and we'll tell you whether the e-Visa route fits or what a sticker visa file for Turkey needs. We prepare the documents; the Turkish authorities decide the visa.",
+      "label": "See Turkey Visit Visa Support",
+      "href": "/visit-visa/turkey/"
+    },
+    "content": {
+      "intro": "Yes. A Pakistani ordinary passport holder can get a Turkey e-Visa online, but only if they also hold a valid Schengen, USA, UK or Ireland visa or residence permit. Türkiye's Ministry of Foreign Affairs lists this rule for Pakistan and says these travellers may get a one-month, single-entry e-Visa through the official website, evisa.gov.tr ([Turkish MFA, visa information for foreigners](https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa)). Without one of those visas or permits, you need a sticker visa, and inside Pakistan the Turkish Embassy says applications are received only through Anatolia Travel Services offices ([Turkish Embassy Islamabad, February 2026](https://islamabad-emb.mfa.gov.tr/Mission/ShowAnnouncement/416697)). The e-Visa is for tourism or business trips only. This guide explains who qualifies, the exact steps on the official site, and what to do if you do not qualify, using only official Turkish government pages checked on 21 November 2026. Last updated November 2026: rules can change, so confirm on the official pages before you apply or book.",
+      "sections": [
+        {
+          "heading": "Who qualifies for the Turkey e-Visa from Pakistan?",
+          "content": "The Turkish MFA entry for Pakistan says ordinary passport holders need a visa, and that those with a valid Schengen, USA, UK or Ireland visa or residence permit may get a one-month single-entry e-Visa via evisa.gov.tr ([Turkish MFA](https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa)). The Turkish Consulate General in Karachi gives the same rule in its visa note and adds that the e-Visa only covers tourism or commerce; work and study visas come from the Embassy or Consulates ([Turkish Consulate Karachi](https://karachi-cg.mfa.gov.tr/Mission/ShowInfoNote/390232)). Official passport holders are visa-exempt for up to 90 days, so this guide is for green (ordinary) passports. The supporting visa must be valid, so an expired UK or US visa does not help.",
+          "subsections": [
+            {
+              "title": "e-Visa or sticker visa: which route is yours?",
+              "items": [
+                "You hold a valid UK, US, Schengen or Ireland visa: you can use the conditional e-Visa on evisa.gov.tr for a tourism or business trip of up to one month, single entry.",
+                "You hold a UK, US, Schengen-country or Ireland residence permit: you can also use the e-Visa route, as the MFA names residence permits as well as visas.",
+                "You live in the UAE with only a UAE residence visa: the UAE is not on the MFA list, so a UAE residence visa alone does not open the e-Visa route. Check with the Turkish mission where you live.",
+                "You have none of these: apply for a sticker visa through the authorised visa application centre in Pakistan.",
+                "Your trip is for work or study: the e-Visa does not cover it; apply to the Turkish Embassy or Consulate."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for the Turkey e-Visa — step by step",
+          "subsections": [
+            {
+              "title": "Steps on the official site",
+              "items": [
+                "Step 1: Check your supporting visa or residence permit is from the Schengen area, the USA, the UK or Ireland and is still valid on your travel dates ([Turkish MFA](https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa)).",
+                "Step 2: Check your passport. The MFA advises a passport valid for at least 6 months from the date you arrive in Türkiye ([Turkish MFA](https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa)).",
+                "Step 3: Go to the official site only: [evisa.gov.tr](https://www.evisa.gov.tr/en/). Choose Pakistan as your nationality and enter your travel document and arrival date.",
+                "Step 4: Answer the questions about your supporting visa or residence permit exactly as they appear on that document, and read every condition the site shows before you continue.",
+                "Step 5: Pay online by card. The MFA says Visa and Mastercard and other commonly used credit and debit cards are accepted. The fee is shown in US dollars on the site before payment.",
+                "Step 6: Download and print the e-Visa, and carry it with your passport and the original supporting visa or residence permit when you travel.",
+                "After applying: the e-Visa gives one entry and up to one month in Türkiye. If you need more entries or a longer stay, apply for a sticker visa instead."
+              ]
+            },
+            {
+              "title": "What to prepare",
+              "items": [
+                "Pakistani passport with at least 6 months' validity from your arrival date.",
+                "A valid Schengen, US, UK or Ireland visa or residence permit (keep a clear copy and carry the original).",
+                "Your travel dates and Turkish address or hotel booking.",
+                "A working email address and a debit or credit card that allows online payments in US dollars.",
+                "Return or onward travel plans that fit inside the one-month stay."
+              ]
+            }
+          ],
+          "note": "Fee: the e-Visa fee depends on nationality and is shown on evisa.gov.tr before you pay. We could not find a published Pakistan e-Visa fee on an official page this run, so check the amount on the official site and do not trust figures quoted by third-party websites."
+        },
+        {
+          "heading": "What if you do not qualify? The sticker visa route in Pakistan",
+          "content": "Without a qualifying visa or permit, you need a sticker visa. The Turkish Embassy in Islamabad's 'Visa Application Fee Structure' announcement dated 20 February 2026 says visa applications are received exclusively through Anatolia Travel Services offices ([Turkish Embassy Islamabad](https://islamabad-emb.mfa.gov.tr/Mission/ShowAnnouncement/416697)); its fee table is attached to that announcement. The application form is filled online on the Turkish consular portal ([konsolosluk.gov.tr](https://www.konsolosluk.gov.tr/Visa/Index)), printed and signed. An earlier Embassy notice says visa fees are paid in cash in Pakistani rupees and that Türkiye incoming travel health insurance must be bought from the Anatolia visa centres; other insurance is not accepted ([Turkish Embassy Islamabad, visa regulation](https://islamabad-emb.mfa.gov.tr/Mission/ShowAnnouncement/399966)).",
+          "subsections": [
+            {
+              "title": "Tourist sticker visa checklist published by the Turkish mission",
+              "items": [
+                "Online application form, printed and signed, plus the visa interview form from the centre.",
+                "Two 5x5 cm photos with a white background.",
+                "Signed cover letter explaining the trip.",
+                "Passport valid for at least 6 months from arrival, with copies of used pages.",
+                "Flight reservation (a reservation, not a paid ticket) and a hotel booking or a notarised invitation.",
+                "NADRA family registration certificate and a polio certificate no older than one year.",
+                "Employer letter with the last 3 months' salary slips, or business or freelance proof, plus FBR tax/NTN certificate.",
+                "Bank maintenance certificate and original, signed and stamped bank statements for the last 3 months, with a balance that covers the ticket, hotel and daily costs.",
+                "A sponsor affidavit on stamp paper if someone else is paying."
+              ]
+            }
+          ],
+          "note": "This checklist comes from the Turkish mission's visa notice linked in the scam section below, which carries no date and still names a second visa centre. The February 2026 Embassy announcement names Anatolia only, so confirm the current list with the visa centre before you submit."
+        },
+        {
+          "heading": "Is there an appointment scam to watch for?",
+          "content": "Yes. The Turkish mission's visa notice warns applicants not to book appointment dates online and says appointments taken through that system are not valid ([Turkish mission notice](https://karaci-bk.mfa.gov.tr/Content/assets/consulate/images/localCache/12/3ecd1482-264b-4783-b868-2fc0e9497cff.pdf)). Apply for the e-Visa only on evisa.gov.tr, and for a sticker visa only through the authorised centre named by the Embassy. You can do both yourself. Nobody can sell a guaranteed Turkish visa, and you should never pay anyone who promises approval, a 'confirmed' appointment or a visa without documents."
+        },
+        {
+          "heading": "Tips that raise your chances",
+          "subsections": [
+            {
+              "title": "Common problems and how to avoid them",
+              "items": [
+                "Expired supporting visa: the MFA rule says 'valid'. If your UK or Schengen visa ends before your trip, apply for a sticker visa instead.",
+                "Wrong purpose: the e-Visa is for tourism or business only; for anything else apply to the Embassy or Consulate.",
+                "Passport too close to expiry: renew first if it has less than 6 months left from arrival.",
+                "Unclear money trail (sticker visa): give 3 months of stamped statements, and explain any large recent deposit in your cover letter.",
+                "Weak sponsor proof: if a parent or spouse pays, add the stamp-paper affidavit, their bank statement and the family registration certificate showing the relationship.",
+                "Using a look-alike website: type evisa.gov.tr yourself rather than clicking ads."
+              ]
+            },
+            {
+              "title": "Quick checklist before you travel",
+              "items": [
+                "Supporting visa or permit valid for the whole trip",
+                "Passport with 6+ months' validity",
+                "Printed e-Visa (or sticker visa in passport)",
+                "Hotel booking and return ticket for a stay within one month",
+                "Travel insurance and enough money for the trip"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "Can Pakistanis get a Turkey e-Visa with a UK visit visa?",
+              "answer": "Yes, if the UK visa is valid. Türkiye's Ministry of Foreign Affairs says Pakistani ordinary passport holders with a valid Schengen, USA, UK or Ireland visa or residence permit may get a one-month, single-entry e-Visa through evisa.gov.tr. An expired UK visa does not qualify, so check the dates first."
+            },
+            {
+              "question": "Can I get a Turkey e-Visa with a used or single-entry Schengen visa?",
+              "answer": "The official rule only says the Schengen visa must be valid; it does not mention entries. Check the questions on evisa.gov.tr, which ask for your supporting document details, before paying. If the site does not accept your visa, apply for a sticker visa through the authorised visa centre in Pakistan."
+            },
+            {
+              "question": "Can Pakistanis living in Dubai get a Turkey e-Visa with a UAE residence visa?",
+              "answer": "Not with a UAE residence visa alone. The MFA's Pakistan rule names only Schengen, USA, UK and Ireland visas or residence permits. A Pakistani living in the UAE who also holds a valid visa from one of those countries can use the e-Visa; otherwise, ask the Turkish mission in the UAE about a sticker visa."
+            },
+            {
+              "question": "How long can I stay in Turkey on the e-Visa?",
+              "answer": "For Pakistani passport holders, the Turkish MFA describes the conditional e-Visa as one month and single entry. If you plan a longer stay, several entries, or a trip for work or study, the e-Visa is not the right document and you should apply for a sticker visa at the Turkish mission instead."
+            },
+            {
+              "question": "What is the Turkey e-Visa fee for Pakistani citizens?",
+              "answer": "The fee is shown in US dollars on evisa.gov.tr before you pay. We could not confirm a Pakistan e-Visa figure on an official page while writing this guide, so check it on the official site. Websites that charge more than the official fee are third-party agents, not the Turkish government."
+            },
+            {
+              "question": "Where do I apply for a Turkey sticker visa in Pakistan?",
+              "answer": "The Turkish Embassy in Islamabad said in February 2026 that visa applications are received exclusively through Anatolia Travel Services offices. You fill the form on the official consular portal, then submit documents at the centre. Its fee table is attached to the Embassy announcement, so check it before you go."
+            },
+            {
+              "question": "Do I need an agent to get a Turkey e-Visa?",
+              "answer": "No. You can apply yourself on evisa.gov.tr in a few minutes if you qualify. A documentation service can help with a sticker visa file, but nobody can guarantee a Turkish visa. Never pay for a 'confirmed' appointment or a promised approval; the Turkish mission warns that online-booked appointment dates are not valid."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For Turkey we check whether your existing visa fits the e-Visa rule and, if you need a sticker visa, we help you arrange the cover letter, bank statements and sponsor papers against the official checklist. We are not a government authority; we do not issue visas, sell appointments or promise approval. See our [Turkey visit visa page](/visit-visa/turkey/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "UK Visit Visa Refusal Reasons for Pakistani Applicants",
+              "href": "/blog/uk-visit-visa-refusal-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Turkey Visit Visa Support",
+              "href": "/visit-visa/turkey"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "canada-super-visa-for-parents-from-pakistan": {
     "title": "Canada Super Visa for Parents from Pakistan: Requirements, Income and Fee (2026)",
     "metaTitle": "Canada Super Visa for Parents from Pakistan (2026)",
