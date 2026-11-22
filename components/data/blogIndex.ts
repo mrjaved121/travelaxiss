@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "malaysia-visit-visa-for-pakistani-in-dubai-uae",
+      "title": "Malaysia Visit Visa for Pakistani in Dubai and UAE: Documents, Fee and Steps (2026)",
+      "excerpt": "Malaysia visit visa for Pakistanis living in Dubai or the UAE: why a UAE residence visa is not enough, the eVISA and Abu Dhabi Embassy routes, the official document list, RM 20 fee, three-working-day processing and the MDAC arrival card.",
+      "date": "November 22, 2026",
+      "readTime": "9 min read",
+      "category": "International Visa Documentation"
+    },
+    {
       "id": "turkey-e-visa-for-pakistani-with-uk-us-schengen-visa",
       "title": "Turkey e-Visa for Pakistani with UK, US or Schengen Visa: Who Qualifies and How to Apply (2026)",
       "excerpt": "Turkey e-Visa for Pakistanis: who qualifies with a valid UK, US, Schengen or Ireland visa or residence permit, the one-month single-entry rule, step-by-step application on evisa.gov.tr, and the sticker visa route through Anatolia visa centres in Pakistan.",

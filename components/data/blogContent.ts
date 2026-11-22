@@ -5,6 +5,177 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "malaysia-visit-visa-for-pakistani-in-dubai-uae": {
+    "title": "Malaysia Visit Visa for Pakistani in Dubai and UAE: Documents, Fee and Steps (2026)",
+    "metaTitle": "Malaysia Visit Visa for Pakistanis in Dubai & UAE (2026)",
+    "metaDescription": "Malaysia visit visa for Pakistanis living in Dubai or the UAE: documents, RM 20 fee, eVISA or Abu Dhabi embassy route, MDAC and step-by-step guide.",
+    "keywords": [
+      "malaysia visit visa for pakistani in dubai",
+      "malaysia visa for pakistani residents in uae",
+      "malaysia evisa for pakistani in uae",
+      "malaysia visit visa documents for pakistani",
+      "malaysia embassy abu dhabi visa requirements",
+      "malaysia visa fee for pakistani"
+    ],
+    "date": "November 22, 2026",
+    "dateModifiedIso": "2026-11-22",
+    "readTime": "9 min read",
+    "category": "International Visa Documentation",
+    "cta": {
+      "heading": "Planning a Malaysia Trip from Dubai or Pakistan?",
+      "text": "Send us your travel dates and where you live, and we'll help you put together the Malaysia visit visa file: cover letter, bank statement presentation, hotel and ticket bookings, and invitation letter if you are visiting family. We prepare the documents; Immigration Malaysia decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/malaysia/"
+    },
+    "content": {
+      "intro": "Yes, a Pakistani living in Dubai or anywhere in the UAE needs a visa for Malaysia, and you can apply for it while you are in the UAE. The Embassy of Malaysia in Abu Dhabi says Pakistani citizens need a visa to enter Malaysia for any purpose of visit, and it accepts social (visit) visa applications from UAE residents who hold a valid Emirates ID ([Embassy of Malaysia, Abu Dhabi](https://www.kln.gov.my/web/are_abu-dhabi/requirement_foreigner)). You have two official routes: apply online through Immigration Malaysia's eVISA portal, [malaysiavisa.imi.gov.my](https://malaysiavisa.imi.gov.my/), or submit a paper application at the Embassy in Abu Dhabi, which says it processes visas in three working days. Immigration Malaysia's fee table lists RM 20.00 for Pakistani citizens for a single or multiple entry visa ([Immigration Malaysia, visa fees](https://www.imi.gov.my/index.php/en/main-services/visa/visa-fees/)). Your UAE residence visa does not exempt you: only UAE citizens are visa-free for short visits. This guide covers the documents, the step-by-step process and the arrival card, using official Malaysian government pages checked on 22 November 2026. Last updated November 2026: confirm on the official pages before you apply or book.",
+      "sections": [
+        {
+          "heading": "Do Pakistanis living in the UAE need a visa for Malaysia?",
+          "content": "Yes. Immigration Malaysia puts Pakistan on its list of countries whose citizens must apply for a visa to enter Malaysia ([Immigration Malaysia, visa requirement by country](https://www.imi.gov.my/index.php/en/main-services/visa/visa-requirement-by-country/)). The Embassy in Abu Dhabi repeats this for applicants in the UAE and notes that only UAE citizens can visit without a visa for up to 90 days ([Embassy of Malaysia, Abu Dhabi](https://www.kln.gov.my/web/are_abu-dhabi/requirement_foreigner)). Holding an Emirates residence visa does not change your passport's status, so a Pakistani green passport holder in Dubai, Sharjah or Abu Dhabi still needs a Malaysian visa before flying.",
+          "subsections": [
+            {
+              "title": "eVISA or embassy application: which route fits you?",
+              "items": [
+                "eVISA (online): you apply on Immigration Malaysia's portal, [malaysiavisa.imi.gov.my](https://malaysiavisa.imi.gov.my/). The Abu Dhabi Embassy says these applications are reviewed and processed only by Immigration Malaysia, not by the Embassy, so the Embassy cannot speed them up. The portal's own pages could not be opened while writing this guide, so check there that your nationality and travel purpose are offered before paying; if they are not, use the Embassy route.",
+                "Embassy in Abu Dhabi (paper): you submit Form IM.47 with original documents and one photocopy of each in person. The Embassy states a processing time of three working days.",
+                "Applying from Pakistan instead: the eVISA portal is online, so you can use it from Pakistan too. We could not open the High Commission of Malaysia in Islamabad's visa page this run, so contact them directly about paper applications there.",
+                "Working, studying or joining family long term in Malaysia: a visit visa is the wrong document. The Embassy says employment, student and dependant pass holders need a Visa Approval Letter or an EMGS or MDEC approval letter instead."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for a Malaysia visit visa from Dubai — step by step",
+          "subsections": [
+            {
+              "title": "Steps that apply to both routes",
+              "items": [
+                "Step 1: Check your Pakistani passport. The Embassy requires it to be valid for more than six months from the date you plan to enter Malaysia. Renew first if it is close.",
+                "Step 2: Check your Emirates ID is valid on the day you apply. The Embassy asks UAE applicants for the original and a copy.",
+                "Step 3: Book a refundable hotel and a return flight (or an onward ticket to a third country). Both are on the official document list, so pick dates you are sure of.",
+                "Step 4: Get three months of bank statements or a bank certificate from your UAE or Pakistani bank, stamped by the bank.",
+                "Step 5 (eVISA route): go only to the official portal, [malaysiavisa.imi.gov.my](https://malaysiavisa.imi.gov.my/), create an account, fill in the form, upload your documents and pay online. The final amount is shown before you pay.",
+                "Step 5 (Embassy route): fill Form IM.47 and take your originals and one photocopy of each to the Embassy of Malaysia, Unit 19B, Level 19, Tamouh Tower, Reem Island, Abu Dhabi. Submission hours are 9:00 am to 12:00 pm and collection is 1:00 pm to 3:00 pm.",
+                "Step 6: Before you fly, fill the Malaysia Digital Arrival Card (MDAC) online at least three days before you arrive, on the official MDAC page ([Immigration Malaysia MDAC](https://imigresen-online.imi.gov.my/mdac/main)). The Embassy says all travellers must complete it.",
+                "After applying: keep your visa, return ticket, hotel booking and bank proof with you on the flight. Immigration officers at the airport still decide entry."
+              ]
+            },
+            {
+              "title": "Documents the Embassy in Abu Dhabi lists for a social visit",
+              "items": [
+                "One colour photo, 3.5 cm x 5 cm, plain white or light blue background, taken within the last three months.",
+                "Passport valid for more than six months from your planned entry date (original and one copy).",
+                "Emirates ID valid at the time of application (original and one copy).",
+                "Confirmed return ticket, or an onward ticket to a third country.",
+                "Hotel booking confirmation.",
+                "Financial proof, such as a bank certificate or bank statement covering the last three months.",
+                "Invitation letter from relatives or friends in Malaysia, if you are staying with or visiting them.",
+                "Completed Form IM.47 (Embassy route)."
+              ]
+            }
+          ],
+          "note": "Fee: Immigration Malaysia's fee table lists RM 20.00 for Pakistan for a single or multiple entry visa, and RM 20.00 for a transit visa ([Immigration Malaysia](https://www.imi.gov.my/index.php/en/main-services/visa/visa-fees/)). That page does not say whether extra processing or service charges apply on the eVISA portal or at the Embassy; the Embassy only says the fee varies by nationality. Check the total shown on the portal, or ask the Embassy, before paying."
+        },
+        {
+          "heading": "How much bank balance do you need for a Malaysia visit visa?",
+          "content": "Malaysia does not publish a fixed minimum balance on the official pages we checked. The Embassy asks for a bank certificate or three months of statements as financial proof, so the officer judges whether your money matches your trip. A practical way to present it: show a steady salary credit into your UAE account, a balance that comfortably covers your flight, hotel and daily spending, and no unexplained large deposit just before you apply. Attach your salary certificate or employment letter from your UAE employer, and if a family member is paying, add their statement and a short signed letter saying they are covering the trip."
+        },
+        {
+          "heading": "Can you apply directly, and how do you avoid visa scams?",
+          "content": "Yes. You can apply yourself on [malaysiavisa.imi.gov.my](https://malaysiavisa.imi.gov.my/) or at the Embassy in Abu Dhabi, without any agent. Type the portal address yourself rather than clicking ads, because look-alike sites charge extra fees and are not run by the Malaysian government. Nobody can guarantee a Malaysian visa or 'fast-track' an eVISA, since the Embassy says those files are handled only by Immigration Malaysia. Never pay anyone who promises approval, and never hand your passport to someone who is not an official counter."
+        },
+        {
+          "heading": "Why do Malaysia visa applications get refused, and how do you avoid it?",
+          "subsections": [
+            {
+              "title": "Common problems and fixes",
+              "items": [
+                "Passport with six months or less left: renew before applying.",
+                "Expired or expiring Emirates ID: the Embassy wants it valid when you apply; renew first, and make sure your UAE residence stays valid for your return.",
+                "Weak or unclear bank proof: give three months of stamped statements, and explain any large recent deposit in a short cover letter.",
+                "Travel bookings that do not match the form: use the same dates on your ticket, hotel booking and application.",
+                "Wrong purpose: do not use a visit visa for work, study or long stays.",
+                "Poor photo: follow the 3.5 cm x 5 cm, white or light blue background, last-three-months rule exactly.",
+                "Forgetting the MDAC: fill it at least three days before arrival, even after your visa is approved."
+              ]
+            },
+            {
+              "title": "Quick checklist",
+              "items": [
+                "Passport valid 6+ months from entry",
+                "Valid Emirates ID (original and copy)",
+                "Compliant photo",
+                "Return or onward ticket",
+                "Hotel booking or invitation letter",
+                "3 months of stamped bank statements",
+                "Approved visa printed",
+                "MDAC submitted 3+ days before arrival"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "Can a Pakistani in Dubai get a Malaysia visa without going to Pakistan?",
+              "answer": "Yes. The Embassy of Malaysia in Abu Dhabi accepts social visit visa applications from Pakistanis who live in the UAE and hold a valid Emirates ID. You can also apply online on Immigration Malaysia's eVISA portal from Dubai, so there is no need to travel to Pakistan just for the visa."
+            },
+            {
+              "question": "What is the Malaysia visa fee for Pakistani citizens?",
+              "answer": "Immigration Malaysia's official fee table lists RM 20.00 for Pakistani citizens for a single or multiple entry visa. The page does not show any eVISA processing or service charge, so check the final total on malaysiavisa.imi.gov.my before paying. Websites asking for much more are usually third-party agents, not the government."
+            },
+            {
+              "question": "How long does a Malaysia visit visa take from Abu Dhabi?",
+              "answer": "The Embassy of Malaysia in Abu Dhabi states a processing time of three working days for applications submitted there. Submission is from 9:00 am to 12:00 pm and collection from 1:00 pm to 3:00 pm. eVISA timing is set by Immigration Malaysia, so apply well before your flight and avoid booking non-refundable tickets early."
+            },
+            {
+              "question": "Does a UAE residence visa allow Pakistanis to enter Malaysia visa-free?",
+              "answer": "No. The visa-free rule on the Embassy's page covers UAE citizens only, for social visits up to 90 days. Pakistani passport holders, including UAE residents, are on Immigration Malaysia's list of nationalities that must get a visa before travelling, so apply for an eVISA or an Embassy visa first."
+            },
+            {
+              "question": "Do I need an invitation letter for a Malaysia family visit?",
+              "answer": "If you are visiting relatives or friends in Malaysia, the Embassy lists an invitation letter from them among the supporting documents, together with your hotel booking where relevant and bank proof. Ask your host to include their full name, address, contact number, relationship to you and your travel dates, and attach a copy of their ID."
+            },
+            {
+              "question": "What is the Malaysia Digital Arrival Card (MDAC)?",
+              "answer": "MDAC is an online arrival form run by Immigration Malaysia. The Embassy in Abu Dhabi says all travellers must complete it at least three days before arriving in Malaysia, on imigresen-online.imi.gov.my. It is separate from your visa, so fill it even after your visa is approved."
+            },
+            {
+              "question": "How much bank balance is needed for a Malaysia visit visa?",
+              "answer": "The official pages we checked do not set a fixed minimum. The Embassy asks for a bank certificate or the last three months of statements. Show regular income and enough money for your flight, hotel and daily costs, and explain any large recent deposit. A sponsor's statement and letter help if someone else pays."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For Malaysia we help you put the official checklist together, present your bank statements and salary proof clearly, and draft the cover letter or the invitation letter wording for a family visit. We are not a government authority: we do not issue visas, sell appointments or promise approval, and you can always apply directly yourself. See our [Malaysia visit visa page](/visit-visa/malaysia/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Turkey e-Visa for Pakistanis with a UK, US or Schengen Visa",
+              "href": "/blog/turkey-e-visa-for-pakistani-with-uk-us-schengen-visa"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Malaysia Visit Visa Support",
+              "href": "/visit-visa/malaysia"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "turkey-e-visa-for-pakistani-with-uk-us-schengen-visa": {
     "title": "Turkey e-Visa for Pakistani with UK, US or Schengen Visa: Who Qualifies and How to Apply (2026)",
     "metaTitle": "Turkey e-Visa for Pakistanis with UK, US or Schengen Visa",
