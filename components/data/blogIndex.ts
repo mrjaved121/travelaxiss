@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "japan-visit-visa-from-pakistan-requirements-2026",
+      "title": "Japan Visit Visa from Pakistan: Requirements, Documents and Fee (2026)",
+      "excerpt": "Japan visit visa requirements from Pakistan: where to apply through VFS in Islamabad or Karachi, the tourism and family visit document lists, the visa fee exemption for Pakistani passports, the PKR 3,500 VFS charge, processing time and re-applying after a refusal.",
+      "date": "November 23, 2026",
+      "readTime": "10 min read",
+      "category": "International Visa Documentation"
+    },
+    {
       "id": "malaysia-visit-visa-for-pakistani-in-dubai-uae",
       "title": "Malaysia Visit Visa for Pakistani in Dubai and UAE: Documents, Fee and Steps (2026)",
       "excerpt": "Malaysia visit visa for Pakistanis living in Dubai or the UAE: why a UAE residence visa is not enough, the eVISA and Abu Dhabi Embassy routes, the official document list, RM 20 fee, three-working-day processing and the MDAC arrival card.",

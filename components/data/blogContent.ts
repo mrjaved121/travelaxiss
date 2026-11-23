@@ -5,6 +5,244 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "japan-visit-visa-from-pakistan-requirements-2026": {
+    "title": "Japan Visit Visa from Pakistan: Requirements, Documents and Fee (2026)",
+    "metaTitle": "Japan Visit Visa from Pakistan: Requirements 2026",
+    "metaDescription": "Japan visit visa requirements from Pakistan in 2026: tourism and family visit documents, bank statement, fee exemption, VFS charge and step-by-step guide.",
+    "keywords": [
+      "japan visit visa from pakistan requirements 2026",
+      "japan tourist visa documents for pakistani",
+      "japan family visit visa from pakistan",
+      "japan visa fee for pakistani",
+      "japan visa bank statement for pakistani",
+      "japan visa processing time pakistan"
+    ],
+    "date": "November 23, 2026",
+    "dateModifiedIso": "2026-11-23",
+    "readTime": "10 min read",
+    "category": "International Visa Documentation",
+    "cta": {
+      "heading": "Planning a Trip to Japan from Pakistan?",
+      "text": "Send us your travel dates and the purpose of your trip, and we'll help you put together the Japan visit visa file: day-by-day schedule, cover letter, bank statement presentation, hotel and flight bookings, and the invitation and guarantee paperwork if you are visiting family. We prepare the documents; the Embassy of Japan decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/japan/"
+    },
+    "content": {
+      "intro": "Yes, Pakistani passport holders need a visa to visit Japan, and you apply in Pakistan through the Japan Visa Application Centre run by VFS Global, not at the embassy counter. The Embassy of Japan in Islamabad says it does not accept visa applications directly (apart from diplomatic and official visas) and sends applicants to VFS ([Embassy of Japan, Islamabad](https://www.pk.emb-japan.go.jp/itpr_ja/VisaInfo.html)). The good news on cost: VFS states that Pakistan passport holders are exempt from the Japanese visa fee, so the main charge is the VFS service fee of PKR 3,500 per application ([VFS Global, Japan in Pakistan](https://www.vfsglobal.com/one-pager/japan/pakistan/english/index.html)). Processing takes at least six business days when the file is complete, you can apply no more than 90 days before your travel date, and a short-term visa allows a stay of up to 90 days. This guide covers the official document lists for tourism and for visiting relatives, the bank statement, the step-by-step process and what to do after a refusal, using official Embassy of Japan and VFS pages checked on 23 November 2026. Last updated November 2026: requirements change, so confirm on the official pages before you apply.",
+      "sections": [
+        {
+          "heading": "Do Pakistanis need a visa for Japan, and where do they apply?",
+          "content": "Yes. A Pakistani green passport needs a visa for any short visit to Japan, whether for sightseeing, visiting family or friends, or business meetings. Since April 2024 the Embassy in Islamabad has routed ordinary visa applications through VFS Global, and its own page tells applicants to contact VFS on +92-51-8439346 or through the [VFS Japan booking site](https://visa.vfsglobal.com/pak/en/jpn/) ([Embassy of Japan, Islamabad](https://www.pk.emb-japan.go.jp/itpr_ja/VisaInfo.html)). Where you apply depends on where you live: residents of Sindh and Balochistan fall under the Consulate-General of Japan in Karachi and the Japan Visa Application Centre in Karachi, while the rest of Pakistan falls under the Embassy in Islamabad. None of the official pages we checked offers an online eVISA for applicants in Pakistan, so plan for a paper application with original documents.",
+          "subsections": [
+            {
+              "title": "Which jurisdiction are you in?",
+              "items": [
+                "Sindh or Balochistan resident: apply through the Japan Visa Application Centre in Karachi (Consulate-General of Japan, Karachi).",
+                "Punjab, Khyber Pakhtunkhwa, Islamabad Capital Territory, Gilgit-Baltistan or AJK resident: apply through VFS for the Embassy of Japan in Islamabad.",
+                "Not sure? The jurisdiction follows your place of residence, so use the address on your CNIC or proof of current residence and confirm with VFS before booking."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What does a Japan visit visa cost for Pakistanis in 2026?",
+          "content": "VFS lists Japan's general visa fees as PKR 5,660 for single entry and PKR 11,320 for multiple entry, but it states directly under the fee table that Pakistan passport holders are exempt from the visa fee ([VFS Global, Japan in Pakistan](https://www.vfsglobal.com/one-pager/japan/pakistan/english/index.html)). What every applicant does pay is the VFS service charge of PKR 3,500 (or USD 12.5), inclusive of taxes, paid online when you book the appointment. VFS says this service charge is not refundable, even if the visa is refused. Optional VFS extras such as courier or photocopies are charged separately. Budget for your other costs too: document attestation, photos, a flight reservation and a hotel reservation. Do not buy your air ticket before the visa is issued: the Embassy's checklist asks for a confirmed reservation from a travel agent and specifically says not to purchase the ticket ([Embassy of Japan, visa requirements](https://www.pk.emb-japan.go.jp/VisitingJapan/visarequirements.html)).",
+          "subsections": [
+            {
+              "title": "Japan visit visa at a glance (Pakistani passport, applying in Pakistan)",
+              "items": [
+                "Visa fee: exempt for Pakistan passport holders (VFS fee page).",
+                "VFS service charge: PKR 3,500 per application, non-refundable, paid online at booking.",
+                "Processing: at least 6 business days if documents are complete; some cases take a few weeks or longer.",
+                "Earliest you can apply: 90 days before your travel date.",
+                "Length of stay: up to 90 days for tourism or visiting relatives.",
+                "After a refusal: re-apply only after 6 months, with a fresh set of documents."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What documents are required for a Japan tourist visa from Pakistan?",
+          "content": "There are two official lists, and they are not identical. The VFS tourism checklist ([VFS checklist for tourism](https://www.vfsglobal.com/one-pager/japan/pakistan/english/pdf/Checklist-for-Tourism.pdf)) and the Embassy's coded requirement table ([Embassy of Japan, visa requirements](https://www.pk.emb-japan.go.jp/VisitingJapan/visarequirements.html)) overlap on most items, but the Embassy asks for more on the bank statement. The safest approach is to prepare a file that satisfies both. Arrange papers in the order of the VFS checklist, attach a copy of the checklist, and use A4 size for all photocopies.",
+          "subsections": [
+            {
+              "title": "Tourism (sightseeing) checklist",
+              "items": [
+                "Valid passport plus a copy of the personal details page; bring old or expired passports too if you have them.",
+                "Japan visa application form, filled in block letters with no blank fields, signed by the applicant.",
+                "One recent photo, 4.5 cm x 4.5 cm, white background, not retouched.",
+                "Original CNIC and an A4 copy.",
+                "Flight reservation (not a purchased ticket) issued by a travel agency or airline, confirmed for both directions.",
+                "Day-by-day itinerary showing the places you plan to visit and where you will stay.",
+                "Hotel booking covering the same dates as your itinerary and flight reservation.",
+                "Employed: certificate of employment or letter from your organisation, plus your last 3 months' salary slips. Government employees: NOC or ex-Pakistan leave certificate.",
+                "Business owner: business profile such as chamber membership, NTN or SECP registration.",
+                "Bank statement: VFS asks for recent 3 months; the Embassy table asks for an attested statement of the last 6 months with a bank manager's letter. Submit the 6-month attested version to cover both.",
+                "Student: copy of student card. Travelling as a family: Family Registration Certificate issued within the last 3 months.",
+                "If someone else pays for your trip: proof of your relationship with them and their bank statement with bank stamp and signature."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What extra documents does a Japan family visit visa need?",
+          "content": "If you are visiting relatives or friends who live in Japan, the person in Japan becomes your guarantor and has to send documents from Japan. The VFS checklist for this purpose ([VFS checklist for visiting relatives](https://www.vfsglobal.com/one-pager/japan/pakistan/english/pdf/checklist-for-visiting-relatives_new.pdf)) and the Embassy table both list the following. Letters from Japan must be in Japanese or English, and certificates issued in Japan should be recent originals.",
+          "subsections": [
+            {
+              "title": "From the applicant in Pakistan",
+              "items": [
+                "Passport, application form, photo, CNIC copy and flight reservation (travel within 90 days), as for tourism.",
+                "Certificate of employment (and NOC if you are a government employee).",
+                "Bank statement: the Embassy asks for a 6-month attested statement with the bank manager's letter.",
+                "Proof of relationship: NADRA Family Registration Certificate (original); for children under 18, Form B with an English translation attested by Pakistan's Ministry of Foreign Affairs. Friends can show photos or chat history.",
+                "Student card copy if you are a student."
+              ]
+            },
+            {
+              "title": "From the guarantor or inviter in Japan",
+              "items": [
+                "Letter of Guarantee, signed (and sealed where applicable).",
+                "Invitation letter explaining the reason for the visit, with the List of Visa Applicants if more than one person is invited.",
+                "Schedule of stay (day-by-day itinerary).",
+                "Certificate of residence (Juminhyo) showing all family members.",
+                "Income or tax certificate (Kazei/Shotoku shomeisho or Gensen Choshu Hyo) and proof of the guarantor's occupation.",
+                "Recent 6-month bank statement of the guarantor (the Embassy table) or bankbook copy for 3 months (VFS).",
+                "If the guarantor is not Japanese: copy of their residence card (Zairyu card) and passport. If related through a Japanese spouse or family: Koseki Tohon (family register)."
+              ]
+            },
+            {
+              "title": "Tourism file vs family visit file",
+              "items": [
+                "Who explains the trip: tourism = your own itinerary and hotel bookings; family visit = the invitation letter and schedule from your host.",
+                "Who carries the financial risk: tourism = your own bank statement and income; family visit = the guarantor's income certificate and bank record, plus yours.",
+                "Accommodation: tourism = hotel booking; family visit = proof of where you will stay, often the host's address.",
+                "Relationship proof: tourism = not needed unless someone else pays; family visit = always required."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for a Japan visit visa from Pakistan: step by step",
+          "subsections": [
+            {
+              "title": "The official process",
+              "items": [
+                "Step 1: Check your jurisdiction (Karachi for Sindh and Balochistan, Islamabad for the rest of Pakistan) and choose the right category: tourism, visiting relatives or friends, or short-term business.",
+                "Step 2: Download the forms from the official pages: the application form and sample on the [Embassy of Japan visa page](https://www.pk.emb-japan.go.jp/VisitingJapan/GeneralvisaInfo.htm), and the checklists, Letter of Guarantee and itinerary forms on the [VFS Japan page](https://www.vfsglobal.com/one-pager/japan/pakistan/english/index.html).",
+                "Step 3: Collect your documents. Get the bank statement attested and the bank manager's letter issued close to your submission date, and ask your host in Japan to post original certificates early: they can take a week or more to arrive.",
+                "Step 4: Book an appointment and pay the PKR 3,500 service charge online on the [VFS Japan booking site](https://visa.vfsglobal.com/pak/en/jpn/). Make sure your travel date is no more than 90 days after your submission date, or VFS will not accept the file.",
+                "Step 5: Submit the original documents in checklist order at the VFS centre on your appointment day. Keep your receipt and tracking details.",
+                "Step 6: Wait for the decision. Allow at least six business days; files sent to Japan's Ministry of Foreign Affairs for review can take several weeks. The Embassy does not issue visas on the day of application.",
+                "Step 7: Collect your passport. Once the visa is issued, buy your ticket and confirm the hotel. If the visa is refused, read the section below before planning a new application."
+              ]
+            }
+          ],
+          "note": "Apply directly through VFS Global, the only centre the Embassy of Japan names for ordinary applications. Nobody can sell you a guaranteed Japan visa or a faster decision, and the Embassy warns applicants not to seek special treatment at its desk. If anyone asks for money to secure approval, walk away."
+        },
+        {
+          "heading": "How should you present your bank statement and sponsor documents?",
+          "content": "Neither the Embassy nor VFS publishes a minimum bank balance for a Japan visit visa, so be wary of anyone quoting a fixed figure as an official rule. What the officer looks for is whether your funds and income match the trip you describe. A statement that shows a regular salary or business income over six months reads far better than a large lump sum deposited a week before applying. If the money in your account came from selling property or a family transfer, add a short explanation and the supporting paper. If a relative in Pakistan or in Japan is paying, the relationship proof and their bank record are mandatory, not optional. For family visits, make sure the guarantor's income certificate, residence certificate and invitation letter all show the same names, address and dates as your itinerary.",
+          "subsections": [
+            {
+              "title": "Common reasons Japan visit visas get refused",
+              "items": [
+                "Missing or unattested bank statement, or a statement that does not cover the period asked for.",
+                "Itinerary, hotel booking and flight reservation dates that do not match.",
+                "Weak proof of a job, business or studies to return to in Pakistan.",
+                "Guarantor documents missing, out of date or not in Japanese or English.",
+                "Relationship not proven for a family visit, or an incomplete application form with blank fields.",
+                "The Embassy does not give refusal reasons, so review the whole file against the checklist rather than guessing."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Can you re-apply after a Japan visa refusal?",
+          "content": "Yes, but not immediately. The Embassy says a refused applicant can apply again only after six months from the refusal, and the new application must use a complete set of new documents ([Embassy of Japan, visa requirements](https://www.pk.emb-japan.go.jp/VisitingJapan/visarequirements.html)). Use the waiting period to fix what was weak: build a steadier bank history, get a clearer employment letter with leave dates, tighten the itinerary so every date matches, and make sure your host's certificates are fresh. Because no reason is given, an honest review of the old file is the most useful step."
+        },
+        {
+          "heading": "Quick checklist before you submit",
+          "subsections": [
+            {
+              "title": "Tick every box",
+              "items": [
+                "Correct jurisdiction (Karachi or Islamabad) and correct visa category.",
+                "Travel date within 90 days of your submission date.",
+                "Form fully completed in block letters, signed, photo 4.5 x 4.5 cm on white background.",
+                "Bank statement covering 6 months, attested, with bank manager's letter.",
+                "Employment letter with leave dates and 3 salary slips, or business registration papers.",
+                "Flight reservation (not purchased), hotel booking and itinerary with matching dates.",
+                "For family visits: guarantee letter, invitation letter, Juminhyo, income certificate and relationship proof.",
+                "A4 photocopies arranged in checklist order with the checklist attached."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "Is the Japan visa free for Pakistani citizens?",
+              "answer": "VFS Global states that Pakistan passport holders are exempt from the Japanese visa fee. You still pay the VFS service charge of PKR 3,500 per application, online at booking, and it is not refunded if the visa is refused. Confirm the current charge on the VFS Japan page before paying."
+            },
+            {
+              "question": "How long does a Japan visit visa take from Pakistan?",
+              "answer": "VFS and the Embassy say processing takes at least six business days when all documents are in order. Some applications need extra checks or referral to Japan's Ministry of Foreign Affairs and can take several weeks. Apply early, but not more than 90 days before your travel date."
+            },
+            {
+              "question": "How much bank balance is needed for a Japan visit visa?",
+              "answer": "No official minimum balance is published by the Embassy of Japan or VFS. The Embassy asks for an attested six-month bank statement with a bank manager's letter. Officers look at whether your income and savings realistically cover the trip, so steady transactions matter more than a sudden large deposit."
+            },
+            {
+              "question": "Can I apply for a Japan visa directly at the embassy in Islamabad?",
+              "answer": "Not for an ordinary visit visa. The Embassy of Japan says it accepts only diplomatic and official visa applications directly and sends everyone else to the Japan Visa Application Centre run by VFS Global. Residents of Sindh and Balochistan apply through the Karachi centre."
+            },
+            {
+              "question": "Do I need an invitation letter for a Japan tourist visa?",
+              "answer": "No. A tourism application is built on your own itinerary, hotel booking, flight reservation, employment proof and bank statement. An invitation letter and Letter of Guarantee are needed when you visit relatives, friends or a business contact in Japan who supports your trip."
+            },
+            {
+              "question": "Should I buy my air ticket before applying for a Japan visa?",
+              "answer": "No. The Embassy's checklist asks for a confirmed flight reservation from a travel agent or airline and specifically says not to buy the ticket. Purchase it only after the visa is issued, so you do not lose money if the decision is delayed or refused."
+            },
+            {
+              "question": "How long can I stay in Japan on a visit visa?",
+              "answer": "VFS says a short-term visa for tourism or visiting relatives allows a stay of up to 90 days. The actual period granted depends on your application and itinerary, so check the visa sticker carefully once you receive your passport back."
+            },
+            {
+              "question": "When can I re-apply after a Japan visa refusal?",
+              "answer": "The Embassy of Japan says you can re-apply six months after a refusal, with a completely new set of documents. Reasons for refusal are not shared, so compare your old file against the official checklist and strengthen the weak areas before applying again."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For Japan we help you build the file in the official checklist order, write a clear day-by-day itinerary and cover letter, present your bank statements and salary proof, and organise the invitation and guarantee paperwork for a family visit. We are not a government authority: we do not issue visas, sell appointments or promise approval, and you can always apply directly yourself through VFS. See our [Japan visit visa page](/visit-visa/japan/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Malaysia Visit Visa for Pakistanis in Dubai and the UAE",
+              "href": "/blog/malaysia-visit-visa-for-pakistani-in-dubai-uae"
+            },
+            {
+              "label": "Turkey e-Visa for Pakistanis with a UK, US or Schengen Visa",
+              "href": "/blog/turkey-e-visa-for-pakistani-with-uk-us-schengen-visa"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Japan Visit Visa Support",
+              "href": "/visit-visa/japan"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "malaysia-visit-visa-for-pakistani-in-dubai-uae": {
     "title": "Malaysia Visit Visa for Pakistani in Dubai and UAE: Documents, Fee and Steps (2026)",
     "metaTitle": "Malaysia Visit Visa for Pakistanis in Dubai & UAE (2026)",
