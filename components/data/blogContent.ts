@@ -5,6 +5,164 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "france-visa-appointment-tlscontact-pakistan": {
+    "title": "France Visa Appointment in Pakistan: New TLScontact Process (2026)",
+    "metaTitle": "France Visa Appointment Pakistan: TLScontact Guide 2026",
+    "metaDescription": "France visa appointments in Pakistan moved from AEG to TLScontact on 16 Nov 2026. Steps, fee, documents and passport return for visit visa applicants.",
+    "keywords": [
+      "france visa appointment tlscontact pakistan",
+      "france visit visa appointment from pakistan 2026",
+      "tlscontact islamabad france visa",
+      "france schengen visa fee for pakistani",
+      "france tourist visa documents pakistan",
+      "Schengen visa"
+    ],
+    "date": "November 24, 2026",
+    "dateModifiedIso": "2026-11-24",
+    "readTime": "9 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "Applying for a France Visit Visa from Pakistan?",
+      "text": "Tell us your travel dates and whether you are going for tourism or to visit family, and we'll help you prepare the France visit visa file: cover letter, travel plan, bank statement presentation, hotel or host documents and the checklist for your TLScontact appointment. We prepare the documents; the French Embassy in Islamabad decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/france/"
+    },
+    "content": {
+      "intro": "Short answer: from 16 November 2026, France visa appointments in Pakistan are booked online only through TLScontact, which has replaced AEG as the French Embassy's service partner. The Embassy says appointments are no longer given by phone ([French Embassy in Pakistan](https://pk.diplomatie.gouv.fr/en/travelling-to-france/schedule-appointment-applying-visa-tlscontact)). You still fill the visa form on France-Visas first, then register and pay the TLScontact service fee online, then go in person to the French Embassy in Islamabad for biometrics and the interview. Your passport now comes back through the TLScontact centre in Islamabad, not the Embassy. The visa fee itself is EUR 90 for adults and EUR 45 for children aged 6 to 12 ([France-Visas fee table](https://www.france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-anglais)), and the Embassy gives an indicative processing time of around 15 days for a short stay. This guide walks Pakistani tourists and family visitors through the new process step by step, using official French government pages checked on 24 November 2026. Last updated November 2026: confirm every detail on the official pages before you book.",
+      "sections": [
+        {
+          "heading": "What changed for France visa appointments in Pakistan?",
+          "content": "The French Embassy published a notice on 10 November 2026 announcing that TLScontact is its new partner in Pakistan, replacing AEG. The TLScontact website went live on 2 November 2026 and the online registration platform for appointments opened on 16 November 2026 ([French Embassy in Pakistan](https://pk.diplomatie.gouv.fr/en/travelling-to-france/schedule-appointment-applying-visa-tlscontact)). Booking is now exclusively online. Two things did not change: only the French Embassy in Islamabad decides visas, and the Consulate General in Karachi does not accept visa applications, so biometrics and the interview still happen in Islamabad ([France-Visas, Pakistan](https://france-visas.gouv.fr/en/pakistan)).",
+          "subsections": [
+            {
+              "title": "Old system vs new system at a glance",
+              "items": [
+                "Appointment booking: before, through AEG offices (including by phone); now, online only on the TLScontact platform.",
+                "Service fee: before, paid to AEG; now, paid online to TLScontact within the deadline shown in your booking notification.",
+                "Biometrics and interview: still in person at the French Embassy in Islamabad.",
+                "Passport return: now at the TLScontact centre in Islamabad, by a representative you authorise, or by optional express return.",
+                "Visa decision: still made only by the French Embassy."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for a France visit visa from Pakistan: step by step",
+          "subsections": [
+            {
+              "title": "Step 1: Fill the France-Visas application online",
+              "content": "Create an account on the official [France-Visas portal](https://france-visas.gouv.fr/) and complete the short-stay (Schengen) visa form for tourism or a private (family or friend) visit. Print the application form, the receipt and the personalised list of supporting documents the portal gives you; the Embassy asks you to bring all three ([French Embassy in Pakistan](https://pk.diplomatie.gouv.fr/en/travelling-to-france/schedule-appointment-applying-visa-tlscontact))."
+            },
+            {
+              "title": "Step 2: Register on TLScontact and book a slot",
+              "content": "Use the TLScontact link given on the Embassy's notice to create an account and choose an appointment. Book only through the official TLScontact site; the Embassy says appointments are not given by phone, so anyone selling 'confirmed slots' over WhatsApp or phone is not part of the official process."
+            },
+            {
+              "title": "Step 3: Pay the TLScontact service fee on time",
+              "content": "After booking you receive a notification asking you to pay the TLScontact service fee through a secure online payment page. Pay within the time limit stated in that notification, or the appointment is cancelled. A confirmation email follows once payment goes through. The Embassy notice does not publish the service fee amount, so check it on TLScontact when you book."
+            },
+            {
+              "title": "Step 4: Attend the Embassy in Islamabad",
+              "content": "On the day, go in person to the French Embassy in Islamabad with the printed appointment confirmation, the signed France-Visas form, your passport and all supporting documents (originals plus copies). Print the 'Receipt for Appointment and Passport Collection' from your TLScontact email too: the Embassy says you need it for security and entry to the Diplomatic Enclave. Biometrics (fingerprints and photo) are taken from applicants over 12."
+            },
+            {
+              "title": "Step 5: Wait for the decision and collect your passport",
+              "content": "The Embassy gives an indicative wait of around 15 days for a short-stay visa, and warns it can be 15 to 20 days minimum after the interview ([France-Visas, Pakistan](https://france-visas.gouv.fr/en/pakistan)). Passports are returned at the TLScontact centre in Islamabad. You can collect it yourself, send an authorised representative with the required documents, or have it couriered if you bought the optional Express Return Service."
+            }
+          ]
+        },
+        {
+          "heading": "How much does a France visit visa cost for Pakistanis?",
+          "content": "The official France-Visas fee table sets the Schengen short-stay fee at EUR 90 for adults and EUR 45 for children aged 6 to 12; children under 6 pay nothing ([France-Visas fee table](https://www.france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-anglais)). In Pakistan the fee is paid in rupees at the Embassy's exchange rate, which the official Pakistan page does not publish as a fixed PKR figure, so check the current amount when you apply. On top of this you pay the TLScontact service fee. Fees are not refunded if the visa is refused ([Service-Public.fr](https://www.service-public.gouv.fr/particuliers/vosdroits/F16146?lang=en))."
+        },
+        {
+          "heading": "Which documents do you need for a France tourist or family visit visa?",
+          "content": "Your personalised checklist from France-Visas is the final word, because it changes with your purpose of travel and situation. Prepare the following core papers so you are ready when the checklist arrives.",
+          "subsections": [
+            {
+              "title": "Core checklist",
+              "items": [
+                "Passport valid at least 3 months after your visa ends, issued within the last 10 years, with at least 2 blank pages ([Service-Public.fr](https://www.service-public.gouv.fr/particuliers/vosdroits/F16146?lang=en)).",
+                "Printed and signed France-Visas application form and receipt.",
+                "Recent passport-size photos as specified in your checklist.",
+                "Proof of accommodation: hotel bookings, or for a family or friend visit, the host's invitation and accommodation documents listed in your checklist.",
+                "Proof of financial means: personal bank statements and, if someone is sponsoring you, the sponsor's letter and their financial documents.",
+                "Travel medical insurance covering your stay.",
+                "Flight reservation and a day-by-day travel plan.",
+                "Proof of ties to Pakistan: job letter and leave approval, business registration, property or family documents.",
+                "TLScontact appointment confirmation and the Receipt for Appointment and Passport Collection."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much bank balance is needed for a France visa from Pakistan?",
+          "content": "None of the official French pages we checked publishes a fixed minimum bank balance in rupees for Pakistani applicants, so treat any 'exact amount' you see online with caution. What the rules do say is that missing proof of your stay, including accommodation, resources and medical insurance, is a ground for refusal ([Service-Public.fr](https://www.service-public.gouv.fr/particuliers/vosdroits/F16146?lang=en)). In practice, show a statement covering recent months with regular income, a balance that clearly covers your flights, hotels and daily costs, and no unexplained large deposits just before applying. If a parent or spouse sponsors you, add a signed sponsor letter, their bank statement and proof of your relationship."
+        },
+        {
+          "heading": "Why are France visit visas refused, and how can you improve your chances?",
+          "subsections": [
+            {
+              "title": "Common refusal reasons",
+              "items": [
+                "Purpose of the trip not clearly explained or travel plan inconsistent with bookings.",
+                "Funds not proven, or a sudden deposit with no source.",
+                "Weak ties to Pakistan, so the officer doubts you will return.",
+                "Missing insurance or accommodation proof.",
+                "Documents that do not match the France-Visas form (dates, addresses, employer)."
+              ]
+            },
+            {
+              "title": "Practical tips",
+              "items": [
+                "Apply early: the Pakistan page says you can apply up to 6 months before departure, and the TLScontact booking step adds extra time.",
+                "Keep every date identical across the form, bookings, leave letter and cover letter.",
+                "Explain any large deposit with a document (salary, property sale, business income).",
+                "If refused, read the refusal reasons, fix those exact points and re-apply with a stronger file. Our guide on [Schengen visa rejection reasons for Pakistani applicants](/blog/schengen-visa-rejection-reasons-pakistani-applicants/) explains each one."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Can you apply directly, and how do you avoid appointment scams?",
+          "content": "Yes. You can complete the whole process yourself through the official [France-Visas portal](https://france-visas.gouv.fr/) and the TLScontact link on the [French Embassy's notice](https://pk.diplomatie.gouv.fr/en/travelling-to-france/schedule-appointment-applying-visa-tlscontact). Nobody can guarantee a visa or sell a special approval: the decision belongs only to the Embassy. Scam warning: do not pay agents who promise a 'guaranteed visa' or claim to sell priority appointments outside TLScontact, and never share your France-Visas or TLScontact login with strangers. A document preparation service like Travelaxis can help you organise a strong file, but it cannot influence the outcome."
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "When did TLScontact start handling France visa appointments in Pakistan?",
+              "answer": "The French Embassy says TLScontact replaced AEG, with its website launched on 2 November 2026 and online appointment registration opening on 16 November 2026. Appointments are now booked online only, and the Embassy states it does not give appointments by phone. Check the Embassy notice for any later update."
+            },
+            {
+              "question": "Do I still go to the French Embassy for my France visa interview?",
+              "answer": "Yes. Under the new process you still attend the French Embassy in Islamabad in person for biometrics and the interview. Bring the printed appointment confirmation, signed France-Visas form, passport, supporting documents with copies, and the Receipt for Appointment and Passport Collection needed to enter the Diplomatic Enclave."
+            },
+            {
+              "question": "Can I apply for a France visa in Karachi or Lahore?",
+              "answer": "The official France-Visas Pakistan page states that the Consulate General of France in Karachi does not receive visa applications or issue visas. Applications are decided by the French Embassy in Islamabad, and biometrics and interviews happen there, so applicants from Karachi, Lahore and elsewhere should plan a trip to Islamabad."
+            },
+            {
+              "question": "What is the France visa fee for Pakistani citizens?",
+              "answer": "The France-Visas fee table lists EUR 90 for an adult Schengen short-stay visa, EUR 45 for children aged 6 to 12 and no fee for children under 6. In Pakistan it is paid in rupees at the Embassy's rate. The TLScontact service fee is extra, and fees are not refunded after a refusal."
+            },
+            {
+              "question": "How long does a France visit visa take from Pakistan?",
+              "answer": "The French Embassy gives an indicative average of about 15 days for a short-stay visa and warns that it can take 15 to 20 days minimum after the interview. Add the time needed to get a TLScontact appointment, and apply well before your travel date, as the official page allows applying up to 6 months ahead."
+            },
+            {
+              "question": "Where do I collect my passport after the France visa decision?",
+              "answer": "The Embassy says passports are now returned at the TLScontact centre in Islamabad, not at the Embassy. You can collect it in person, send an authorised representative with the required documents, or choose the optional Express Return Service when booking to have it delivered."
+            },
+            {
+              "question": "Is there a fixed bank balance required for a France tourist visa from Pakistan?",
+              "answer": "The official French pages we checked do not set a fixed rupee amount for Pakistani applicants. You must prove you can pay for your trip, along with accommodation and medical insurance. Show steady income and a balance that clearly covers the trip, and explain any large recent deposits with documents."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "japan-visit-visa-from-pakistan-requirements-2026": {
     "title": "Japan Visit Visa from Pakistan: Requirements, Documents and Fee (2026)",
     "metaTitle": "Japan Visit Visa from Pakistan: Requirements 2026",

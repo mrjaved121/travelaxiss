@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "france-visa-appointment-tlscontact-pakistan",
+      "title": "France Visa Appointment in Pakistan: New TLScontact Process (2026)",
+      "excerpt": "France visa appointments in Pakistan moved from AEG to TLScontact on 16 November 2026. Step-by-step booking, the EUR 90 fee, documents, Islamabad interview, passport return, processing time and tips for tourist and family visit applicants.",
+      "date": "November 24, 2026",
+      "readTime": "9 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "japan-visit-visa-from-pakistan-requirements-2026",
       "title": "Japan Visit Visa from Pakistan: Requirements, Documents and Fee (2026)",
       "excerpt": "Japan visit visa requirements from Pakistan: where to apply through VFS in Islamabad or Karachi, the tourism and family visit document lists, the visa fee exemption for Pakistani passports, the PKR 3,500 VFS charge, processing time and re-applying after a refusal.",
