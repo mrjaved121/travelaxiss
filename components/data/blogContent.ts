@@ -5,6 +5,241 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "new-zealand-visit-visa-from-pakistan-requirements": {
+    "title": "New Zealand Visit Visa from Pakistan: Requirements, Fee and Bank Statement (2026)",
+    "metaTitle": "New Zealand Visit Visa from Pakistan: Requirements 2026",
+    "metaDescription": "New Zealand visit visa requirements from Pakistan: documents, NZD 1,000 a month funds rule, sponsor form, NZD 441 fee, 2-week processing and online steps.",
+    "keywords": [
+      "new zealand visit visa from pakistan requirements",
+      "new zealand visitor visa for pakistani 2026",
+      "new zealand visit visa bank statement pakistan",
+      "new zealand visit visa fee for pakistani",
+      "new zealand family visit visa from pakistan",
+      "new zealand visa processing time pakistan"
+    ],
+    "date": "November 25, 2026",
+    "dateModifiedIso": "2026-11-25",
+    "readTime": "10 min read",
+    "category": "International Visa Documentation",
+    "cta": {
+      "heading": "Planning to Visit New Zealand from Pakistan?",
+      "text": "Send us your travel dates and who you are visiting, and we'll help you put together the New Zealand visitor visa file: itinerary, cover letter, bank statement presentation, return ticket booking and the sponsor paperwork if family in New Zealand is supporting your trip. We prepare the documents; Immigration New Zealand decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/new-zealand/"
+    },
+    "content": {
+      "intro": "Yes, Pakistani passport holders need a Visitor Visa before travelling to New Zealand, and the normal way to apply is online with Immigration New Zealand (INZ), whether you live in Pakistan or the UAE. Pakistan is not on the visa waiver list, so the NZeTA route is not open to you ([INZ 1018 Visitor Visa Guide](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1018.pdf)). The core requirements are simple to state: a passport valid for at least three months after you plan to leave New Zealand, at least NZD 1,000 for every month of your stay (or NZD 400 a month if your accommodation is already paid), a return or onward ticket or the money to buy one, and a believable reason to visit and to go home afterwards. INZ lists the Visitor Visa from NZD 441 and says 80% of applications are processed within 2 weeks ([Immigration New Zealand, Visitor Visa](https://www.immigration.govt.nz/visas/visitor-visa/)). This guide walks through the documents, the bank statement and sponsor rules, the fee, the step-by-step online application and the most common reasons Pakistani applications fail. Last updated: November 2026 — always confirm current rules on immigration.govt.nz before you apply.",
+      "sections": [
+        {
+          "heading": "Do Pakistanis need a visa for New Zealand, and who can apply?",
+          "content": "Pakistani citizens must apply for a Visitor Visa; living in Dubai or anywhere else in the UAE does not change this, because visa waiver status depends on the passport you hold, not where you live. INZ says the visa can be used for a holiday, to visit family and friends, or for study of up to three months, and you can include your partner and dependent children (aged 19 or younger) in the same application ([INZ 1018 guide](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1018.pdf)). To qualify you must be in good health and of good character, have a genuine reason for the trip, have enough money or an acceptable sponsor, and show you will leave at the end of your stay. You cannot work for a New Zealand employer on this visa ([Immigration New Zealand, Visitor Visa](https://www.immigration.govt.nz/visas/visitor-visa/)).",
+          "subsections": [
+            {
+              "title": "New Zealand Visitor Visa at a glance (Pakistani passport)",
+              "items": [
+                "Who applies: every Pakistani passport holder, whether living in Pakistan, the UAE or elsewhere.",
+                "How: online through the INZ application portal; a paper form (INZ 1017) is only for people who cannot apply online.",
+                "Stay: up to 6 or 9 months, with a maximum of 9 months in any 18-month period.",
+                "Entry type: most applicants receive a multiple-entry visa (up to 6 months in each 12-month period); a single-entry visa may be issued for longer stays.",
+                "Funds: NZD 1,000 per person per month, or NZD 400 per month if accommodation is prepaid.",
+                "Fee: listed from NZD 441 on the INZ Visitor Visa page.",
+                "Processing: INZ reports 80% within 2 weeks, with the busiest period from September to March."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much does a New Zealand visit visa cost for Pakistanis?",
+          "content": "The INZ Visitor Visa page shows a fee 'from NZD 441' ([Immigration New Zealand](https://www.immigration.govt.nz/visas/visitor-visa/)). The May 2026 Fees Guide explains how that adds up for citizens of countries outside the Pacific, such as Pakistan: an application fee of NZD 300 (Band C, rest of world) plus an immigration levy of NZD 41 ([INZ Fees Guide, INZ 1028](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/Fees-Guide-INZ-1028.pdf)). On top of that, most visitor visa applicants pay the International Visitor Conservation and Tourism Levy (IVL) of NZD 100, charged for each person included in the application and paid when you apply ([INZ, Paying the International Visitor Levy](https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/fees-processing-times-and-refunds/paying-the-international-visitor-levy/)). The IVL is not refunded if the visa is declined. The INZ fee tool on immigration.govt.nz gives the exact total for your passport and location, so check it on the day you pay — fees are reviewed from time to time.",
+          "subsections": [
+            {
+              "title": "Fee breakdown for one adult (as published by INZ)",
+              "items": [
+                "Visitor visa application fee (Band C): NZD 300.",
+                "Immigration levy: NZD 41 per application.",
+                "International Visitor Levy (IVL): NZD 100 per person in the application.",
+                "Typical total for one person: NZD 441, matching the 'from NZD 441' figure on the Visitor Visa page.",
+                "Family example: the Fees Guide shows two people on one visitor application paying a single NZD 300 fee and NZD 41 levy, plus NZD 100 IVL each."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What documents are required for a New Zealand visit visa from Pakistan?",
+          "content": "INZ keeps the list short, but each item has to be convincing. Any document not in English needs an English translation, and the translator cannot be you, a family member or your immigration adviser; the translator's name, contact details and qualifications must be included ([INZ 1018 guide](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1018.pdf)).",
+          "subsections": [
+            {
+              "title": "Core checklist",
+              "items": [
+                "Passport valid for at least 3 months after your planned departure from New Zealand, plus a clear, high-quality scan of the photo page.",
+                "One acceptable photo that meets INZ's photo rules (a paper application needs two colour photos of about 45 mm x 35 mm, taken in the last six months).",
+                "Evidence of funds: bank or credit card statements in your own name showing the bank name and currency, or prepaid hotel vouchers or receipts.",
+                "Return or onward ticket, or proof you can afford one in addition to your living money.",
+                "Evidence that you are a genuine visitor: your job or business, family ties and commitments in Pakistan or the UAE, and your travel history.",
+                "A short cover letter and itinerary explaining why, where and how long you will travel (strongly advisable, though not a separate INZ form).",
+                "If a relative in New Zealand is supporting you: the sponsorship form INZ 1025 with their supporting evidence (see below)."
+              ]
+            },
+            {
+              "title": "Medical and police certificates — when they apply",
+              "items": [
+                "Stays under 6 months: normally no chest X-ray needed.",
+                "Stays over 6 months: Pakistan is not on INZ's low tuberculosis incidence list, so you will normally need a Chest X-ray Certificate (INZ 1096) from an INZ-approved panel doctor; over 12 months also needs a General Medical Certificate (INZ 1007).",
+                "Police certificate: required at application only if you are 17 or older and your total time in New Zealand will be 24 months or more, though INZ can ask for one after you apply."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much bank balance do you need for a New Zealand visit visa?",
+          "content": "INZ's rule is a monthly figure, not a fixed balance: at least NZD 1,000 for each month of your stay, or NZD 400 a month if your accommodation is already paid for ([Immigration New Zealand, Visitor Visa](https://www.immigration.govt.nz/visas/visitor-visa/)). The INZ guide says this amount applies to each person included in the application ([INZ 1018 guide](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1018.pdf)). So a couple visiting for one month without prepaid accommodation should show at least NZD 2,000 for living costs, plus enough for return flights if they have not bought tickets yet. Do not send cash or original bank documents. Use your bank's exchange rate on the day to convert the figure into PKR or AED, and leave a comfortable margin above the minimum.",
+          "subsections": [
+            {
+              "title": "Self-funded vs sponsored trip",
+              "items": [
+                "Self-funded: your own bank statements must cover NZD 1,000 a month (or NZD 400 with prepaid accommodation) plus your return ticket.",
+                "Sponsored: a New Zealand citizen or resident relative completes the Sponsorship Form for Temporary Entry (INZ 1025) and agrees to cover your living costs, accommodation and onward airfare.",
+                "Sponsor evidence INZ mentions: bank statements, pay slips, employment agreement, and proof of home ownership or rent receipts.",
+                "Sponsored with no ticket yet: the sponsor can show bank statements proving they can pay for your return flight."
+              ]
+            }
+          ],
+          "note": "Large, unexplained deposits shortly before applying are a common red flag. Six months of normal account activity with salary or business income going in is far more convincing than a balance that appeared last week."
+        },
+        {
+          "heading": "How to apply for a New Zealand visit visa from Pakistan: step by step",
+          "subsections": [
+            {
+              "title": "The official process",
+              "items": [
+                "Step 1: Read the official Visitor Visa page and the INZ 1018 guide on immigration.govt.nz so you know which visa and stay length fit your trip (https://www.immigration.govt.nz/visas/visitor-visa/).",
+                "Step 2: Prepare your documents: passport scan, photo, bank statements, ticket or ticket funds, job or business proof, and translations of anything not in English.",
+                "Step 3: If family in New Zealand is sponsoring you, ask them to complete form INZ 1025 and send you their supporting evidence.",
+                "Step 4: Create or log in to your account on the INZ online application portal (https://apply.immigration.govt.nz/) and fill in the Visitor Visa form; INZ says it should take less than 15 minutes.",
+                "Step 5: Upload the documents and pay the fee, immigration levy and IVL online. Check the exact amount with the INZ fee tool first.",
+                "Step 6: Wait for INZ to assess your application. INZ may ask for more information, an interview, a police certificate or your passport, so reply quickly to any request.",
+                "Step 7: When the decision arrives, check the visa conditions (dates, entry type and whether return travel is required).",
+                "Step 8: Before you fly, complete the New Zealand Traveller Declaration (NZTD), which can be submitted from 24 hours before your journey starts, and carry your return ticket and funds evidence."
+              ]
+            }
+          ],
+          "note": "You can apply directly yourself on immigration.govt.nz — no agent is required. Nobody can guarantee a New Zealand visa or speed up INZ's decision for a payment. Be wary of anyone selling 'confirmed' visas, fake job offers dressed up as visit visas, or asking you to pay into a personal account."
+        },
+        {
+          "heading": "When should you apply for a New Zealand visit visa?",
+          "content": "INZ says its busiest months for visitor applications are September to March and advises applying early ([Immigration New Zealand, Visitor Visa](https://www.immigration.govt.nz/visas/visitor-visa/)). With 80% of applications processed within 2 weeks, a safe plan for a December–February trip is to apply at least six to eight weeks before you fly and to book refundable flights until the visa is granted. INZ does not publish a separate Pakistan processing time, so treat the two-week figure as a guide, not a promise."
+        },
+        {
+          "heading": "Why do New Zealand visit visas get refused for Pakistani applicants?",
+          "content": "INZ judges whether you are a genuine visitor using factors such as your family ties at home and in New Zealand, your work and financial commitments, any past overstays or visa breaches, and whether you can be returned to your home country ([INZ 1018 guide](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1018.pdf)). Most refusals come back to one of those points or to weak funds evidence.",
+          "subsections": [
+            {
+              "title": "Common refusal reasons",
+              "items": [
+                "Funds below NZD 1,000 a month per person, or statements that do not show the bank name and currency.",
+                "Sudden lump-sum deposits with no explanation of where the money came from.",
+                "Weak ties to Pakistan or the UAE: no stable job, business, property or close family to return to.",
+                "Vague purpose: no itinerary, unclear relationship with the host, or a trip length that does not match your leave from work.",
+                "Sponsor paperwork missing, unsigned or not backed by the sponsor's own financial evidence.",
+                "Previous refusals or overstays (in any country) not declared honestly on the form.",
+                "Documents not translated into English by an acceptable translator."
+              ]
+            },
+            {
+              "title": "If you are refused",
+              "items": [
+                "Read the decision letter carefully — it explains what INZ was not satisfied about.",
+                "Fix the specific weakness (stronger funds, clearer ties, better sponsor evidence) rather than resubmitting the same file.",
+                "Declare the earlier refusal in your new application; hiding it is far more damaging than the refusal itself.",
+                "The IVL and application fee are not refunded, so only re-apply once the gap is genuinely closed."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Quick checklist before you submit",
+          "subsections": [
+            {
+              "title": "Tick every box",
+              "items": [
+                "Passport valid 3+ months beyond your departure date from New Zealand.",
+                "Photo meets INZ photo rules.",
+                "Bank statements in your name covering NZD 1,000 per person per month (or NZD 400 with prepaid accommodation).",
+                "Return ticket, or extra funds to buy one.",
+                "Employment letter, leave approval or business documents showing you will return.",
+                "INZ 1025 sponsor form and sponsor evidence, if sponsored.",
+                "English translations from an acceptable translator.",
+                "Chest X-ray from a panel doctor if staying more than 6 months.",
+                "Fee, levy and IVL amount checked on the INZ fee tool on the day you pay."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "Can a Pakistani apply for a New Zealand visit visa online?",
+              "answer": "Yes. Immigration New Zealand expects most visitor applications online through its application portal, and the INZ guide says the form takes under 15 minutes. You upload a passport scan, photo and supporting documents and pay online. A paper form (INZ 1017) exists only for people who cannot apply online."
+            },
+            {
+              "question": "What is the New Zealand visit visa fee for Pakistani citizens in 2026?",
+              "answer": "INZ lists the Visitor Visa from NZD 441. Its May 2026 Fees Guide breaks this down as a NZD 300 application fee and NZD 41 immigration levy for rest-of-world citizens, plus the NZD 100 International Visitor Levy per person. Check the INZ fee tool for the exact total before paying."
+            },
+            {
+              "question": "How much bank balance is needed for a New Zealand visit visa from Pakistan?",
+              "answer": "INZ asks for at least NZD 1,000 for each month of your stay, or NZD 400 a month if accommodation is already paid, for each person in the application. You also need a return ticket or extra money to buy one. Showing a steady account history matters as much as the balance."
+            },
+            {
+              "question": "How long does a New Zealand visitor visa take to process?",
+              "answer": "Immigration New Zealand reports that 80% of Visitor Visa applications are processed within 2 weeks. It also says September to March is its busiest period, so applying six to eight weeks ahead of a summer-season trip is sensible. INZ may take longer if it requests more information or an interview."
+            },
+            {
+              "question": "Can my relative in New Zealand sponsor my visit visa?",
+              "answer": "Yes. A New Zealand citizen or resident can complete the Sponsorship Form for Temporary Entry (INZ 1025), agreeing to cover your living costs, accommodation and onward airfare. They should add evidence such as bank statements, pay slips and proof of their home. You still need to show you are a genuine visitor."
+            },
+            {
+              "question": "How long can I stay in New Zealand on a visit visa?",
+              "answer": "A Visitor Visa allows a stay of up to 6 or 9 months, with a maximum of 9 months in any 18-month period. Most applicants get a multiple-entry visa allowing up to 6 months in each 12-month period. Stays over 6 months normally need a chest X-ray for Pakistani citizens."
+            },
+            {
+              "question": "I am a Pakistani living in Dubai. Do I need a visa for New Zealand?",
+              "answer": "Yes. Visa waiver and NZeTA eligibility depend on your passport, not your residence, and Pakistan is not a visa waiver country. You apply for the same Visitor Visa online. Your UAE residence visa, Emirates ID, salary certificate and UAE bank statements help show ties and funds."
+            },
+            {
+              "question": "Can Travelaxis guarantee my New Zealand visa?",
+              "answer": "No. Only Immigration New Zealand decides visa applications, and no agent can guarantee approval or speed up the decision. Travelaxis helps prepare and organise visit visa documentation. You can always apply directly yourself on immigration.govt.nz, and you should avoid anyone promising a guaranteed visa for a payment."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For New Zealand we help you organise the file in a clear order, write a realistic itinerary and cover letter, present your bank statements and income proof against the NZD 1,000-a-month rule, and check that your sponsor's INZ 1025 form and evidence are complete for a family visit. We are not a government authority: we do not issue visas or promise approval, and you can always apply directly yourself on immigration.govt.nz. See our [New Zealand visit visa page](/visit-visa/new-zealand/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Australia Visit Visa from Pakistan: Documents Required, Fee and Steps",
+              "href": "/blog/australia-visit-visa-documents-required-from-pakistan"
+            },
+            {
+              "label": "Japan Visit Visa from Pakistan: Requirements, Documents and Fee",
+              "href": "/blog/japan-visit-visa-from-pakistan-requirements-2026"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "New Zealand Visit Visa Support",
+              "href": "/visit-visa/new-zealand"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "france-visa-appointment-tlscontact-pakistan": {
     "title": "France Visa Appointment in Pakistan: New TLScontact Process (2026)",
     "metaTitle": "France Visa Appointment Pakistan: TLScontact Guide 2026",

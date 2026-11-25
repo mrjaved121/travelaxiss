@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "new-zealand-visit-visa-from-pakistan-requirements",
+      "title": "New Zealand Visit Visa from Pakistan: Requirements, Fee and Bank Statement (2026)",
+      "excerpt": "New Zealand visit visa requirements for Pakistanis in Pakistan or the UAE: the official document list, NZD 1,000-a-month funds rule, INZ 1025 sponsor form, NZD 441 fee breakdown, 2-week processing and the online application step by step.",
+      "date": "November 25, 2026",
+      "readTime": "10 min read",
+      "category": "International Visa Documentation"
+    },
+    {
       "id": "france-visa-appointment-tlscontact-pakistan",
       "title": "France Visa Appointment in Pakistan: New TLScontact Process (2026)",
       "excerpt": "France visa appointments in Pakistan moved from AEG to TLScontact on 16 November 2026. Step-by-step booking, the EUR 90 fee, documents, Islamabad interview, passport return, processing time and tips for tourist and family visit applicants.",
