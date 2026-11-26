@@ -5,6 +5,232 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "ireland-visit-visa-from-pakistan-requirements": {
+    "title": "Ireland Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
+    "metaTitle": "Ireland Visit Visa from Pakistan: Requirements 2026",
+    "metaDescription": "Ireland visit visa from Pakistan or the UAE: AVATS steps, EUR 60 fee, 6-month bank statement, invitation letter, 8-week decision time and refusal tips.",
+    "keywords": [
+      "ireland visit visa from pakistan",
+      "ireland visit visa requirements for pakistani 2026",
+      "ireland family visit visa from pakistan",
+      "ireland visit visa bank statement pakistan",
+      "ireland visit visa for pakistani in dubai",
+      "ireland short stay c visa fee pakistan"
+    ],
+    "date": "November 26, 2026",
+    "dateModifiedIso": "2026-11-26",
+    "readTime": "10 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "Planning to Visit Ireland from Pakistan or the UAE?",
+      "text": "Tell us your travel dates and who you are visiting, and we'll help you put together the Ireland Short Stay 'C' visa file: application letter, itinerary, bank statement presentation, your host's invitation letter checklist and the proof of ties to home. We prepare the documents; the Irish visa office decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/ireland/"
+    },
+    "content": {
+      "intro": "Yes, Pakistani passport holders need a visa to visit Ireland, and the right one for tourism or seeing family is the Short Stay 'C' visa. You apply online through the Irish government's AVATS system, pay EUR 60 for a single-entry visa (EUR 100 for multiple entry, which is only granted in limited cases), and then send your passport and original documents to the office named on your application summary sheet within 30 days ([Irish Immigration Service, Visit family or friend visa](https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/visit-family-friend-visa/)). The visa allows a stay of up to 90 days. Irish Immigration says you can generally expect a decision about 8 weeks after it receives your documents, and advises preparing your application 3 months before you travel. There is no minimum bank balance, but you must show six months of account history and strong reasons to return home. This guide covers who applies where (Pakistan or the UAE), the full document list, the invitation letter rules, step-by-step application, and how to avoid a refusal. Last updated: November 2026 — always confirm current rules on irishimmigration.ie before you apply.",
+      "sections": [
+        {
+          "heading": "Do Pakistanis need a visa for Ireland, and which visa is it?",
+          "content": "Ireland is not part of the Schengen area, so a Schengen or UK visa does not by itself let you enter Ireland — you need an Irish visa. For a holiday or a visit to relatives or friends, Pakistani citizens apply for the Short Stay 'C' visa, choosing 'Tourist' or 'Visit Family/Friend' as the reason for travel in the online form ([Irish Immigration Service](https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/visit-family-friend-visa/)). Holders may stay up to 90 days but cannot do any paid or unpaid work and cannot use publicly funded services. Every traveller needs a separate application — Ireland has no single 'family visa' covering parents and children together.",
+          "subsections": [
+            {
+              "title": "Ireland Short Stay 'C' visa at a glance (Pakistani passport)",
+              "items": [
+                "Visa type: Short Stay 'C' — Tourist or Visit Family/Friend.",
+                "Maximum stay: up to 90 days.",
+                "How to apply: online on AVATS, then send original documents and your passport to the office shown on your summary sheet.",
+                "Fee: EUR 60 single entry; EUR 100 multiple entry (multiple entry approved only in limited circumstances). Extra charges such as consular or visa-centre fees may apply.",
+                "Decision time: generally about 8 weeks after your documents arrive.",
+                "When to start: Irish Immigration advises preparing 3 months before travel.",
+                "Passport: valid for at least 6 months after the date you plan to leave Ireland.",
+                "Bank statement: 6 months of transactions, original on bank letterhead or certified by your bank."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Where do Pakistanis in Pakistan and the UAE submit an Ireland visit visa?",
+          "content": "You must apply from your home country or from a country where you are a legal resident, and if you are not a citizen of that country you need at least 3 months' permission to remain there ([Irish Immigration Service](https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/visit-family-friend-visa/)). That matters for Pakistanis in Dubai, Abu Dhabi or Sharjah: check that your UAE residence visa has well over three months left before you apply.",
+          "subsections": [
+            {
+              "title": "Living in Pakistan",
+              "content": "The Embassy of Ireland in Islamabad says where you submit depends on where you live, and that the AVATS summary sheet will direct you to the relevant Embassy, Consulate or Visa Application Centre ([Embassy of Ireland, Pakistan — Visas for Ireland](https://www.ireland.ie/en/pakistan/islamabad/services/visas/visas-for-ireland/)). The Embassy's Pakistan page does not publish a visa-centre address, a local service charge or a PKR fee table, so follow the exact office named on your own summary sheet and check the Embassy page for updates before you courier anything."
+            },
+            {
+              "title": "Living in the UAE",
+              "content": "The Embassy of Ireland in Abu Dhabi says UAE residents submit their application to VFS Global in Abu Dhabi or Dubai, after completing the AVATS form, and VFS forwards it to the Embassy ([Embassy of Ireland, UAE — Visas for Ireland](https://www.ireland.ie/en/uae/abudhabi/services/visas/visas-for-ireland/)). The Embassy's older DFA page lists the fee as AED 240 for single entry and AED 400 for multiple entry, plus the VFS service charge ([DFA, Visas for Ireland — UAE](https://dfa.ie/irish-embassy/uae/our-services/visas/visas-for-ireland/)). That page also says people on temporary visas should apply in their country of residence, so visitors on a UAE tourist visa should apply from Pakistan instead. Confirm the current AED amounts with VFS before you pay."
+            }
+          ]
+        },
+        {
+          "heading": "What documents are required for an Ireland visit visa from Pakistan?",
+          "content": "Irish Immigration wants original documents in hard copy and does not accept photocopies unless it says so. Documents not in English or Irish need a certified translation ([Embassy of Ireland, UAE](https://www.ireland.ie/en/uae/abudhabi/services/visas/visas-for-ireland/)). The core list below comes from the official Visit Family/Friend page ([Irish Immigration Service](https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/visit-family-friend-visa/)); tourists use the same list without the invitation documents.",
+          "subsections": [
+            {
+              "title": "Core checklist",
+              "items": [
+                "Signed and dated AVATS application summary sheet.",
+                "Application letter: why you are travelling, arrival and departure dates, where you will stay and who is paying. For family visits, list every family member living in Ireland, another EU/EEA country or Switzerland.",
+                "Two passport-size colour photos.",
+                "Current passport (valid 6 months beyond your departure from Ireland) and any previous passports.",
+                "Proof of fee payment, where applicable.",
+                "Bank statement covering the last 6 months, original on bank letterhead (online statements only if officially certified by your bank).",
+                "Proof of ties to Pakistan or the UAE: your 3 latest payslips and an employer letter, or business, study, property or family evidence.",
+                "Accommodation proof: hotel booking with dates and full contact details, or your host's address evidence.",
+                "Details of any previous visa refusals, from any country.",
+                "Travel or medical insurance: not needed when you submit, but you must show it at the port of entry."
+              ]
+            },
+            {
+              "title": "Extra documents when visiting family or friends",
+              "items": [
+                "Invitation letter from your host stating why they are inviting you, the dates you will be together and how they know you.",
+                "Clear colour copy of the host's passport or national ID photo page.",
+                "If the host is not an Irish or EU citizen: a copy of their Irish Residence Permit and immigration permission stamp.",
+                "Host's proof of address, such as a utility bill on headed paper from the last 6 months.",
+                "Evidence of ongoing contact and, for relatives, evidence of the family relationship ([Additional documents guide](https://www.irishimmigration.ie/wp-content/uploads/2021/03/Additional-Documents-Short-Stay-C-Visa.pdf))."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much bank balance do you need for an Ireland visit visa?",
+          "content": "Irish Immigration states there is no minimum amount of finance ([Irish Immigration Service](https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/visit-family-friend-visa/)). What the officer looks for is whether the money is clearly enough for your trip and whether your account looks like your real financial life: regular salary or business income, normal spending and a balance that has built up over time. The statement must show money going in and out over the last six months.",
+          "subsections": [
+            {
+              "title": "When a relative in Ireland pays for the trip",
+              "items": [
+                "The host gives a cost estimate for your visit in euro.",
+                "An up-to-date bank statement from the host.",
+                "If employed: their 3 most recent payslips, latest tax return document and a letter from their employer.",
+                "If self-employed: a description of the business and proof that it is trading.",
+                "You should still include your own bank statement and job evidence — a sponsor covers costs but does not replace proof that you will return."
+              ]
+            }
+          ],
+          "note": "A large deposit just before applying is one of the most common red flags. Explain any big credits (a property sale, a committee payout, a bonus) in your application letter and attach proof, rather than hoping the officer won't notice."
+        },
+        {
+          "heading": "How to apply for an Ireland visit visa — step by step",
+          "subsections": [
+            {
+              "title": "The official process",
+              "items": [
+                "1. Start about 3 months before your travel date and check your passport is valid for at least 6 months after you plan to leave Ireland.",
+                "2. Fill in the online form on AVATS (https://www.visas.inis.gov.ie/avats/OnlineHome.aspx). Choose Visa type 'Short Stay (C)', Reason 'Visit Family/Friend' or 'Tourist', and Journey type 'Single' unless you have a strong case for multiple entry.",
+                "3. Pay the visa fee as instructed for your location (EUR 60 single, EUR 100 multiple, or the local-currency equivalent; extra consular or visa-centre charges may apply).",
+                "4. Print, sign and date the application summary sheet. Keep your AVATS reference number — you need it to track the decision.",
+                "5. Gather originals: application letter, invitation letter (if visiting someone), 6-month bank statement, payslips or business proof, accommodation proof, photos, passport and refusal history.",
+                "6. Within 30 days of creating the AVATS application, send your passport and documents to the office named on the summary sheet (in the UAE, VFS Global Abu Dhabi or Dubai). Late submissions can be treated as not received.",
+                "7. Wait for the decision — generally about 8 weeks from receipt of your documents. Do not book non-refundable flights until the visa is issued.",
+                "8. After approval, collect your passport, check the visa dates and entry type, buy travel or medical insurance, and carry copies of your invitation, accommodation and finances for the immigration officer on arrival."
+              ]
+            }
+          ],
+          "note": "You can apply directly yourself on the official AVATS website — no agent is required. Nobody can sell you a guaranteed Irish visa or a faster decision. Pay fees only through the official channel shown in your application, and walk away from anyone asking for money into a personal account to 'secure' approval."
+        },
+        {
+          "heading": "Why are Ireland visit visas refused for Pakistani applicants?",
+          "content": "Most refusals come down to the officer not being satisfied that the trip is genuine, that you can pay for it, or that you will leave Ireland on time. The good news is that each of these is something you can address on paper.",
+          "subsections": [
+            {
+              "title": "Common refusal reasons and how to fix them",
+              "items": [
+                "Weak ties to home → add an employer letter confirming approved leave, payslips, business registration, property papers or family commitments.",
+                "Unclear finances → submit a full 6-month original statement and explain any large deposits.",
+                "Vague invitation letter → make sure it covers reason, dates, how the host knows you, and includes the host's passport or ID copy and address proof.",
+                "Hidden refusal history → always declare past refusals from any country; non-disclosure is treated far more seriously than the refusal itself.",
+                "Photocopies instead of originals → Irish Immigration expects originals unless it says otherwise.",
+                "Late document submission → send everything within 30 days of the AVATS application."
+              ]
+            },
+            {
+              "title": "If you are refused",
+              "content": "Read the refusal letter carefully: it lists the reasons and tells you whether an appeal is available. The family-visit page notes that some short stay refusals have no appeal route ([Irish Immigration Service](https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/visit-family-friend-visa/)), while the Embassy in Abu Dhabi explains that where an appeal is allowed it is free and must arrive within 2 months of the date on the refusal letter ([Embassy of Ireland, UAE](https://www.ireland.ie/en/uae/abudhabi/services/visas/visas-for-ireland/)). If appealing isn't possible or sensible, fix every reason listed and submit a fresh, stronger application."
+            }
+          ]
+        },
+        {
+          "heading": "Quick checklist before you post your passport",
+          "subsections": [
+            {
+              "title": "Tick every box",
+              "items": [
+                "Summary sheet signed and dated.",
+                "Application letter lists dates, address, who pays and all family in Ireland or the EU.",
+                "Invitation letter plus host ID copy, residence permit (if not an EU citizen) and 6-month-old-or-newer utility bill.",
+                "Original 6-month bank statement on letterhead or bank-certified.",
+                "3 latest payslips and an employer leave letter, or business proof.",
+                "Hotel booking or host address proof.",
+                "Two photos, current and old passports.",
+                "Refusal history declared.",
+                "UAE residents: at least 3 months left on the residence visa."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "Can I visit Ireland with a UK or Schengen visa as a Pakistani?",
+              "answer": "Not on a Schengen visa: Ireland is outside the Schengen area and needs its own visa. Ireland runs separate arrangements for some UK visa holders, but Pakistani nationals should check the Short Stay Visa Waiver and British Irish Visa Scheme pages on irishimmigration.ie before assuming a UK visa is enough."
+            },
+            {
+              "question": "What is the Ireland visit visa fee for Pakistanis?",
+              "answer": "The official fee is EUR 60 for a single-entry Short Stay 'C' visa and EUR 100 for multiple entry. Extra charges, such as consular or visa-centre service fees, may apply. In the UAE the Embassy has listed AED 240 and AED 400 plus the VFS charge; confirm current amounts before paying."
+            },
+            {
+              "question": "How long does an Ireland visit visa take from Pakistan?",
+              "answer": "Irish Immigration says you can generally expect a decision about 8 weeks after it receives your documents, and it advises preparing your application 3 months before you travel. Peak summer months can be busier, so submit early and avoid booking non-refundable flights before the visa is issued."
+            },
+            {
+              "question": "How much bank balance is required for an Ireland visit visa?",
+              "answer": "There is no fixed minimum. You need a six-month original statement showing money going in and out, and the funds should comfortably cover your flights, stay and daily costs. A steady salary or business income history is more convincing than a large, recent deposit with no explanation."
+            },
+            {
+              "question": "Can my family apply on one Ireland visa application?",
+              "answer": "No. Irish Immigration states that each traveller must apply for a separate visa and that there are no family visas. Parents, spouses and children each need their own AVATS application, fee and documents, although they can reference each other in their application letters and submit together."
+            },
+            {
+              "question": "I am a Pakistani living in Dubai. Can I apply for an Ireland visa from the UAE?",
+              "answer": "Yes, if you are a legal UAE resident with at least 3 months' permission to remain. You complete AVATS online and submit at VFS Global in Abu Dhabi or Dubai. People on UAE visit or tourist visas should apply from Pakistan, their country of residence, instead."
+            },
+            {
+              "question": "Can Travelaxis guarantee my Ireland visa?",
+              "answer": "No. Only the Irish visa authorities decide applications, and no agent can promise approval or a faster decision. Travelaxis helps prepare and organise visit visa documentation. You can always apply directly yourself on the official AVATS website, and you should avoid anyone selling a guaranteed visa."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For Ireland we help you organise the file in the order the visa office expects, write a clear application letter and itinerary, present your bank statement and income proof, and check that your host's invitation letter, ID copy and address proof are complete for a family visit. We are not a government authority: we do not issue visas or promise approval, and you can always apply directly yourself on AVATS. See our [Ireland visit visa page](/visit-visa/ireland/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Sponsor Letter for UK Family Visit Visa from Pakistan",
+              "href": "/blog/sponsor-letter-uk-family-visit-visa-from-pakistan"
+            },
+            {
+              "label": "Ireland Visit Visa Support",
+              "href": "/visit-visa/ireland"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "new-zealand-visit-visa-from-pakistan-requirements": {
     "title": "New Zealand Visit Visa from Pakistan: Requirements, Fee and Bank Statement (2026)",
     "metaTitle": "New Zealand Visit Visa from Pakistan: Requirements 2026",

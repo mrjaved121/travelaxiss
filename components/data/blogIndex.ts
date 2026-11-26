@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "ireland-visit-visa-from-pakistan-requirements",
+      "title": "Ireland Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
+      "excerpt": "Ireland visit visa requirements for Pakistanis in Pakistan or the UAE: the Short Stay 'C' visa, AVATS application step by step, EUR 60 fee, 6-month bank statement rule, invitation letter documents, 8-week decision time and how to avoid a refusal.",
+      "date": "November 26, 2026",
+      "readTime": "10 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "new-zealand-visit-visa-from-pakistan-requirements",
       "title": "New Zealand Visit Visa from Pakistan: Requirements, Fee and Bank Statement (2026)",
       "excerpt": "New Zealand visit visa requirements for Pakistanis in Pakistan or the UAE: the official document list, NZD 1,000-a-month funds rule, INZ 1025 sponsor form, NZD 441 fee breakdown, 2-week processing and the online application step by step.",
