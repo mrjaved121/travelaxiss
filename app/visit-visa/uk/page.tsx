@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import VisitVisaUkPage from "@/components/pages/VisitVisaUkPage";
+import VisitVisaGuide from "@/components/VisitVisaGuide";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
@@ -43,7 +44,7 @@ export default function Page() {
           }),
         ]}
       />
-      <VisitVisaUkPage />
+      <VisitVisaUkPage guide={<VisitVisaGuide guideKey="uk" />} />
     </>
   );
 }

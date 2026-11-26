@@ -1,5 +1,7 @@
 "use client";
 
+import type React from "react";
+
 import Link from "next/link";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
@@ -44,7 +46,7 @@ const faqs = [
   },
 ];
 
-export default function VisitVisaAustraliaPage() {
+export default function VisitVisaAustraliaPage({ guide }: { guide?: React.ReactNode }) {
   return (
     <div>
       {/* Hero */}
@@ -90,6 +92,8 @@ export default function VisitVisaAustraliaPage() {
           </motion.div>
         </div>
       </section>
+
+      {guide}
 
       {/* Quick facts */}
       <section className="py-16 bg-white">

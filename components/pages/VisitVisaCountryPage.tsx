@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle2, FileCheck2, MessageCircle } from "lucide-react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import VisitVisaEnquiryForm from "@/components/VisitVisaEnquiryForm";
+import VisitVisaGuide from "@/components/VisitVisaGuide";
 import type { VisitVisaDestination } from "@/lib/data/visit-visa-destinations";
 
 const WHATSAPP_HREF = "https://wa.me/971589867555";
@@ -36,6 +37,8 @@ export default function VisitVisaCountryPage({ destination }: { destination: Vis
           </div>
         </div>
       </section>
+
+      <VisitVisaGuide guideKey={destination.slug} />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import VisitVisaCountryPage from "@/components/pages/VisitVisaCountryPage";
 import { getNewVisitVisaDestination, newVisitVisaDestinations } from "@/lib/data/visit-visa-destinations";
+import { getVisitVisaGuide } from "@/lib/data/visit-visa-guides";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/seo/site";
@@ -19,8 +20,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const destination = getNewVisitVisaDestination(country);
   if (!destination) return {};
 
-  const title = `${destination.name} Visit Visa Support from Pakistan`;
-  const description = `Travelaxis provides visit-visa application support for travel to ${destination.name}, including clear guidance on preparing your application through the relevant official process.`;
+  const guide = getVisitVisaGuide(destination.slug);
+  const title = guide?.metaTitle ?? `${destination.name} Visit Visa Support from Pakistan`;
+  const description =
+    guide?.metaDescription ??
+    `Travelaxis provides visit-visa application support for travel to ${destination.name}, including clear guidance on preparing your application through the relevant official process.`;
 
   return {
     title,

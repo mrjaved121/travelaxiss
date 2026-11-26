@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import VisitVisaPage from "@/components/pages/VisitVisaPage";
+import VisitVisaGuide from "@/components/VisitVisaGuide";
 import { visitVisaFaqs } from "@/components/data/visitVisaFaqs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { breadcrumbJsonLd, serviceJsonLd } from "@/lib/seo/schema";
@@ -55,7 +56,7 @@ export default function Page() {
           },
         ]}
       />
-      <VisitVisaPage />
+      <VisitVisaPage guide={<VisitVisaGuide guideKey="pillar" faqSchema={false} />} />
     </>
   );
 }

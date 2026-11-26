@@ -1,5 +1,7 @@
 "use client";
 
+import type React from "react";
+
 import { useId, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -256,7 +258,7 @@ const howItWorks: { number: string; title: string; description: string; icon: Lu
   { number: "04", title: "Proceed Through the Official Process", description: "Complete online, appointment, biometric, or submission steps as applicable.", icon: Send },
 ];
 
-export default function VisitVisaPage() {
+export default function VisitVisaPage({ guide }: { guide?: React.ReactNode }) {
   return (
     <div>
       {/* Hero */}
@@ -311,6 +313,8 @@ export default function VisitVisaPage() {
           </motion.div>
         </div>
       </section>
+
+      {guide}
 
       {/* Popular destinations */}
       <section className="py-20 md:py-28 bg-white">
