@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "italy-visit-visa-from-pakistan-requirements",
+      "title": "Italy Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
+      "excerpt": "Italy visit visa requirements for Pakistanis: the Embassy's tourism and family visit checklist, EUR 90 fee, six-month bank statement and tax proof, apostilled FRC, EUR 30,000 insurance, BLS-Intiana booking in Islamabad, Lahore, Multan, Faisalabad, Karachi or Quetta, and refusal tips.",
+      "date": "November 27, 2026",
+      "readTime": "13 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "ireland-visit-visa-from-pakistan-requirements",
       "title": "Ireland Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
       "excerpt": "Ireland visit visa requirements for Pakistanis in Pakistan or the UAE: the Short Stay 'C' visa, AVATS application step by step, EUR 60 fee, 6-month bank statement rule, invitation letter documents, 8-week decision time and how to avoid a refusal.",

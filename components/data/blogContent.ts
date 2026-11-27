@@ -5,6 +5,253 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "italy-visit-visa-from-pakistan-requirements": {
+    "title": "Italy Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
+    "metaTitle": "Italy Visit Visa from Pakistan: Requirements 2026",
+    "metaDescription": "Italy visit visa from Pakistan: embassy checklist, EUR 90 fee, 6-month bank statement, FRC with apostille, BLS-Intiana booking and refusal tips.",
+    "keywords": [
+      "italy visit visa from pakistan requirements 2026",
+      "italy visit visa from pakistan",
+      "italy tourist visa documents pakistan",
+      "italy family visit visa from pakistan",
+      "italy visa appointment bls intiana pakistan",
+      "italy visa bank statement pakistan"
+    ],
+    "date": "November 27, 2026",
+    "dateModifiedIso": "2026-11-27",
+    "readTime": "13 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "Planning to Visit Italy from Pakistan or the UAE?",
+      "text": "Tell us your travel dates and who you are visiting, and we'll help you put together the Italy Schengen visit visa file: cover letter, itinerary, bank statement presentation, the host's accommodation declaration checklist and your proof of ties to home. We prepare the documents; the Italian embassy or consulate decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/italy/"
+    },
+    "content": {
+      "intro": "To visit Italy from Pakistan you need a short-stay Schengen visa (type C) for tourism or visiting family and friends, which allows stays of up to 90 days. The Embassy of Italy lists a visa fee of EUR 90 for adults and EUR 45 for children aged 6 to 12, paid in rupees at the visa centre, and asks for six months of bank-stamped statements, an apostilled NADRA Family Registration Certificate, EUR 30,000 travel insurance and FBR tax return proof. You book and submit at a BLS-Intiana centre: Islamabad, Lahore, Multan or Faisalabad for the Embassy, or Karachi and Quetta if you live in Sindh or Balochistan. This guide walks through every document, the booking steps and the mistakes that lead to refusals (last updated November 2026).",
+      "sections": [
+        {
+          "heading": "Which Italy visa do Pakistanis need for a visit?",
+          "content": "For a holiday, a sightseeing trip or a stay with relatives or friends, the right category is the Schengen short-stay visa, often called the 'C' visa. The [VFS Italy information page for Karachi](https://visa.vfsglobal.com/one-pager/italy/pakistan/karachi/english/tourist.html) describes it as a visa that allows stays of up to 90 days in the Schengen Area. The Embassy of Italy in Islamabad publishes one combined checklist for tourism and for visiting family and friends, so both trips use the same core documents, with a few extra papers when you are staying with a host. If your trip is for meetings, trade fairs or other commercial work, the Embassy points you to a separate business visa instead, and a conference or cultural event invitation has its own 'invitation visa' checklist. Choosing the wrong category is an easy way to get refused, so pick the purpose that matches your real plans. The Embassy's [visa selection page](https://ambislamabad.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/scegli-il-visto-corretto-in-base-alle-tue-esigenze-e-controlla-quali-sono-i-documenti-necessari/) lists every checklist in one place."
+        },
+        {
+          "heading": "Where do you apply: Embassy Islamabad or Consulate Karachi?",
+          "content": "Italy splits Pakistan into two consular jurisdictions, and you must apply in the one where you permanently live. The Consulate General in Karachi says in its [public notice for visa applicants](https://conskarachi.esteri.it/en/?p=1642) that it handles only residents of Sindh and Balochistan. Everyone else applies under the Embassy in Islamabad. Both offices use the outsourced provider BLS-Intiana to take appointments and collect files; neither the Embassy nor the Consulate receives applicants directly at a visa counter.",
+          "subsections": [
+            {
+              "title": "Visa application centres by jurisdiction",
+              "items": [
+                "Embassy of Italy, Islamabad: BLS-Intiana centres in Islamabad, Lahore, Multan and Faisalabad ([Embassy 'Where to apply' page](https://ambislamabad.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/dove-chiedere-un-visto/)).",
+                "Consulate General of Italy, Karachi: BLS-Intiana centres in Karachi and Quetta, for residents of Sindh and Balochistan ([Consulate 'Where to apply' page](https://conskarachi.esteri.it/en/?p=1667)).",
+                "You must prove residence in the jurisdiction with a residence certificate and a copy of your CNIC. A file submitted at the wrong centre is not admissible."
+              ]
+            },
+            {
+              "title": "Pakistanis living in Dubai or elsewhere in the UAE",
+              "content": "The Islamabad checklist states that only people permanently residing in its jurisdiction can apply there. If you live in the UAE on a residence visa, you normally apply through the Italian mission in the UAE, so check the [Embassy of Italy in Abu Dhabi](https://ambabudhabi.esteri.it/) for its own checklist and appointment provider. If you are only in the UAE on a visit visa, your home in Pakistan is still your place of residence."
+            }
+          ]
+        },
+        {
+          "heading": "What documents are required for an Italy visit visa from Pakistan?",
+          "content": "The list below follows the Embassy's [tourism and family/friends visit checklist](https://ambislamabad.esteri.it/wp-content/uploads/2026/06/ME15_Visto-C-Turismo-familiari-amici_ENG.pdf). Three general rules apply to every paper: Pakistani documents need an Apostille, anything not in English needs a notarised Italian translation with the notary's signature apostilled, and documents are treated as valid for six months from the date they were issued.",
+          "subsections": [
+            {
+              "title": "Documents every applicant needs",
+              "items": [
+                "Schengen visa application form, completed and signed.",
+                "One recent passport photo that meets ICAO standards (the VFS Karachi page describes 35-40 mm width, light background, face filling 70-80% of the frame, taken within 6 months).",
+                "Passport valid for at least three months after the visa you request ends, plus a photocopy, copies of previous visas and the pages with entry and exit stamps.",
+                "Proof that you live in the jurisdiction: residence certificate and CNIC copy.",
+                "Flight reservation or return ticket, plus bookings for any travel between Schengen countries.",
+                "Hotel or other booking for the whole stay, or the private accommodation and/or guarantee declaration if you stay with family or friends.",
+                "NADRA Family Registration Certificate (FRC) in English, with Apostille.",
+                "Travel health insurance valid across the Schengen Area with at least EUR 30,000 cover for emergency treatment, hospital care and repatriation.",
+                "Bank statements for the last six months, signed and stamped by the bank, plus your NTN certificate and FBR confirmation of tax returns for the last two financial years (or other documented proof of income if these do not apply)."
+              ]
+            },
+            {
+              "title": "Extra documents by your situation",
+              "items": [
+                "Employees: income tax returns for three years, last three salary slips, employment contract and a leave letter from the employer showing dates, position, salary, length of service and contact details.",
+                "Business owners: company registration, partnership deed or articles of incorporation and Chamber of Commerce (or similar) registration.",
+                "Government employees: a No Objection Certificate showing the travel dates.",
+                "Retired applicants: pension statements for the last six months.",
+                "Students: university enrolment proof and student card.",
+                "Children travelling with one parent: consent affidavit, the other parent's CNIC and passport copy, school enrolment proof and any guardianship court order.",
+                "Spouse visiting a husband or wife in Italy: Nikah Nama and/or the NADRA marriage registration certificate, apostilled and translated into Italian."
+              ]
+            }
+          ],
+          "note": "The Embassy says it may ask for extra documents at any time. Keep originals of everything you photocopy and carry them to the appointment."
+        },
+        {
+          "heading": "How much bank balance do you need for an Italy visit visa?",
+          "content": "The Embassy's checklist does not publish a fixed minimum balance in rupees or euros. What it asks for is six months of statements, signed and stamped by the bank, together with tax records, so the officer can see a steady income and enough money for the trip. In practice that means your balance should comfortably cover flights, the hotel or your share of costs, insurance and daily spending for the number of days you are asking for, while still leaving money in the account after you travel.",
+          "subsections": [
+            {
+              "title": "How to present your finances well",
+              "items": [
+                "Use a current or savings account that shows real activity: salary or business income coming in and normal spending going out.",
+                "Do not rely on fixed deposits: the Embassy checklist says fixed-term deposit accounts are not accepted.",
+                "If you use a credit card linked to the account, attach a copy of the card and proof of the available credit limit, as the checklist allows.",
+                "Explain any large deposit in the last few months (a property sale, a committee payout, a bonus) in your cover letter and attach the proof.",
+                "Make sure the income on your statements matches your salary slips and FBR returns. Mismatches raise doubts quickly."
+              ]
+            },
+            {
+              "title": "When a relative in Italy pays for the trip",
+              "content": "If a family member or friend in Italy is hosting or paying, they complete the private accommodation and/or guarantee declaration from the Embassy's forms section. That form supports your case, but it does not replace your own proof of ties: you should still show your job or business, your own statements and your reasons to return to Pakistan."
+            }
+          ]
+        },
+        {
+          "heading": "How much is the Italy visit visa fee in Pakistan?",
+          "content": "The Embassy's [visa cost page](https://ambislamabad.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/quanto-costa-un-visto-e-come-pagare/) lists the short-stay Schengen fee as EUR 90 for adults and EUR 45 for children aged 6 to 12. The rupee amount is reset every quarter using the Embassy's exchange rate: for July to September 2026 it was PKR 29,240 for adults and PKR 14,620 for children aged 6 to 12. Payment is made at the BLS-Intiana centre where you submit. BLS-Intiana also charges its own service fee, so check the current amount on the [BLS-Intiana Italy visa website](https://www.intianaitalyvisa.com/) before you go. The Embassy updates the rupee table each quarter, so confirm the figure for your appointment month on the official page.",
+          "subsections": [
+            {
+              "title": "Italy visit visa costs at a glance",
+              "items": [
+                "Adult short-stay visa: EUR 90 (rupee equivalent set quarterly).",
+                "Child aged 6 to 12: EUR 45.",
+                "Children under 6: no visa fee, according to the VFS Karachi fee table.",
+                "BLS-Intiana service fee: charged separately at the centre.",
+                "Your own costs: apostille and translations, insurance, photos and any courier."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for an Italy visit visa — step by step",
+          "subsections": [
+            {
+              "title": "The official process",
+              "items": [
+                "1. Confirm your jurisdiction: Sindh and Balochistan residents go to the Consulate in Karachi (Karachi or Quetta centre); everyone else applies under the Embassy in Islamabad (Islamabad, Lahore, Multan or Faisalabad centre).",
+                "2. Download the current checklist from the Embassy's [visa checklist page](https://ambislamabad.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/scegli-il-visto-corretto-in-base-alle-tue-esigenze-e-controlla-quali-sono-i-documenti-necessari/) and, if useful, check your documents on the official [Visto per l'Italia portal](https://vistoperitalia.esteri.it/?lang=en_US).",
+                "3. Get your NADRA FRC (and Nikah Nama if relevant) apostilled, and arrange notarised Italian translations for anything not in English.",
+                "4. Collect bank statements for six months with the bank's stamp and signature, your NTN certificate and FBR filing proof, plus your job or business documents.",
+                "5. Book a return flight reservation, hotel bookings or your host's accommodation declaration, and EUR 30,000 Schengen travel insurance covering your dates.",
+                "6. Book your appointment yourself on the [BLS-Intiana Italy visa website](https://www.intianaitalyvisa.com/). The Karachi Consulate says each applicant must book individually online.",
+                "7. Fill in and sign the Schengen application form, then attend the centre on your date with originals, photocopies and photos. Pay the visa fee and the service fee there.",
+                "8. After submission, the file goes to the Embassy or Consulate for a decision. You collect your passport through BLS-Intiana. If you are refused, the decision letter states the reason; read it carefully before you reapply."
+              ]
+            },
+            {
+              "title": "When to apply",
+              "content": "The Consulate in Karachi recommends applying at least three to four weeks before your planned departure (VFS Karachi information page). Neither office publishes a fixed processing time, and appointment slots fill up, so start gathering papers two to three months ahead, especially for summer and Christmas trips. If the site shows 'appointment slots are not available', the Consulate explains this means daily slots are full, not a technical fault, and emailing the Consulate will not fix it."
+            }
+          ],
+          "note": "Apply directly: you do not need an agent to book or submit. The Embassy warns in its [July 2026 appointment notice](https://ambislamabad.esteri.it/en/news/dall_ambasciata/2026/07/want-to-apply-for-an-italian-visa-heres-how-to-book-an-appointment/) that visa appointments should never be purchased, and the Karachi Consulate says it does not accept interference from consultants or travel agencies. Never pay anyone who promises a guaranteed visa or a 'sure' appointment slot."
+        },
+        {
+          "heading": "Why are Italy visit visas refused for Pakistani applicants?",
+          "content": "Italy follows the common Schengen rules, and most refusals come back to doubts about the purpose of the trip, money or the intention to return. These are the weak points we see most often in files:",
+          "subsections": [
+            {
+              "title": "Common refusal reasons and fixes",
+              "items": [
+                "Unclear purpose: a vague itinerary or a mismatch between the stated purpose and the bookings. Fix: write a day-by-day plan and a clear cover letter.",
+                "Weak or unexplained funds: a balance that appears suddenly or does not match income. Fix: show six months of normal activity and explain large credits with proof.",
+                "Weak ties to Pakistan: no evidence of a job, business, property or family responsibilities. Fix: add the leave letter, business papers and other ties.",
+                "Missing apostille or translation: the FRC or Nikah Nama without Apostille, or Urdu documents without a notarised Italian translation.",
+                "Wrong centre: applying under the Embassy while living in Sindh or Balochistan, or the reverse.",
+                "Insurance or passport problems: cover below EUR 30,000, dates that do not match, or a passport that expires too soon.",
+                "Host papers incomplete: staying with relatives but no private accommodation declaration from the host."
+              ]
+            }
+          ],
+          "note": "A refusal is not a permanent ban. Fix the reason given in the decision letter before applying again, and read our guide to [Schengen visa rejection reasons for Pakistani applicants](/blog/schengen-visa-rejection-reasons-pakistani-applicants)."
+        },
+        {
+          "heading": "Quick checklist before your BLS-Intiana appointment",
+          "subsections": [
+            {
+              "title": "Tick these off",
+              "items": [
+                "Correct jurisdiction and centre booked in your own name.",
+                "Signed Schengen application form and ICAO-compliant photo.",
+                "Passport with at least three months' validity after the visa ends, plus copies of old visas.",
+                "Residence certificate and CNIC copy.",
+                "Apostilled FRC in English (and Nikah Nama if visiting a spouse), with Italian translations where needed.",
+                "Six months of stamped and signed bank statements, NTN and FBR filing proof.",
+                "Employment, business, pension or student documents for your category.",
+                "Flight reservation, hotel bookings or the host's accommodation declaration.",
+                "EUR 30,000 Schengen travel insurance for the full trip.",
+                "Money for the visa fee and the BLS-Intiana service fee."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How long can I stay in Italy on a visit visa from Pakistan?",
+              "answer": "A Schengen short-stay visa allows stays of up to 90 days. The embassy decides how many days and entries to grant based on your itinerary, bookings and travel history, so ask only for the dates you can support with tickets, hotel or host documents. First-time applicants often receive a visa matching their trip dates."
+            },
+            {
+              "question": "What is the Italy visit visa fee for Pakistanis in 2026?",
+              "answer": "The Embassy of Italy lists EUR 90 for adults and EUR 45 for children aged 6 to 12, charged in rupees at a rate it updates every quarter. For July to September 2026 the adult fee was PKR 29,240. A separate BLS-Intiana service fee is added at the centre, so check both amounts before your appointment."
+            },
+            {
+              "question": "Is there a minimum bank balance for an Italy visa from Pakistan?",
+              "answer": "The Embassy's checklist does not set a fixed minimum. It asks for six months of statements signed and stamped by the bank, plus NTN and FBR tax filing proof. Your balance should clearly cover the whole trip and still look normal after it. Fixed deposits are not accepted as proof of funds."
+            },
+            {
+              "question": "Do I need to apostille my documents for an Italy visa?",
+              "answer": "Yes. The Embassy asks for Pakistani documents such as the NADRA Family Registration Certificate and Nikah Nama to carry an Apostille. Documents not in English need a notarised Italian translation, and the notary's signature must be apostilled too. Documents are accepted for six months from the date of issue."
+            },
+            {
+              "question": "I live in Karachi. Can I apply at the Islamabad or Lahore centre?",
+              "answer": "No. The Consulate General in Karachi handles residents of Sindh and Balochistan, who apply at the BLS-Intiana centres in Karachi or Quetta. Residents of other areas apply under the Embassy in Islamabad at its Islamabad, Lahore, Multan or Faisalabad centres. You must prove residence with a residence certificate and CNIC."
+            },
+            {
+              "question": "How early should I apply for an Italy visit visa?",
+              "answer": "The Consulate in Karachi suggests applying at least three to four weeks before departure, and no fixed processing time is published. Because appointment slots fill quickly, start preparing documents two to three months ahead, particularly for summer holidays, Eid breaks and the Christmas season when demand is highest."
+            },
+            {
+              "question": "Can I visit my relatives in Italy on this visa?",
+              "answer": "Yes. Tourism and visiting family or friends share one checklist. If you stay with your relative, they complete the private accommodation and/or guarantee declaration from the Embassy's forms section. A spouse also adds the apostilled Nikah Nama or marriage registration certificate with an Italian translation. Your own ties to Pakistan still matter."
+            },
+            {
+              "question": "Can Travelaxis guarantee my Italy visa?",
+              "answer": "No. Only the Italian Embassy or Consulate decides visa applications, and no agent can promise approval or sell appointments. Travelaxis helps prepare and organise visit visa documentation. You can always book and apply yourself through BLS-Intiana, and you should avoid anyone offering a guaranteed visa."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For Italy we help you put the file in the order of the Embassy checklist, write a clear cover letter and day-by-day itinerary, present your bank statements and tax records, and check that your host's accommodation declaration and family documents are complete for a family visit. We are not a government authority: we do not issue visas, sell appointments or promise approval, and you can always apply directly yourself. See our [Italy visit visa page](/visit-visa/italy/) or message us on WhatsApp with your travel dates."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistan",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "France Visa Appointment in Pakistan: New TLScontact Process",
+              "href": "/blog/france-visa-appointment-tlscontact-pakistan"
+            },
+            {
+              "label": "EU Entry/Exit System (EES) for Pakistani Travellers",
+              "href": "/blog/eu-entry-exit-system-ees-pakistan-travelers"
+            },
+            {
+              "label": "Italy Visit Visa Support",
+              "href": "/visit-visa/italy"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ireland-visit-visa-from-pakistan-requirements": {
     "title": "Ireland Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
     "metaTitle": "Ireland Visit Visa from Pakistan: Requirements 2026",
