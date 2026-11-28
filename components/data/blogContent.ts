@@ -5,6 +5,271 @@ import {
 
 // Blog content data - separated from BlogDetailPage.tsx to avoid file size issues
 export const blogData: Record<string, any> = {
+  "portugal-visit-visa-from-pakistan-requirements": {
+    "title": "Portugal Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
+    "metaTitle": "Portugal Visit Visa from Pakistan: Requirements 2026",
+    "metaDescription": "Portugal visit visa from Pakistan: EUR 90 fee, VFS service charge, 6-month bank statement, police certificate, Termo de Responsabilidade and refusal tips.",
+    "keywords": [
+      "portugal visit visa from pakistan requirements 2026",
+      "portugal visit visa from pakistan",
+      "portugal tourist visa documents pakistan",
+      "portugal family visit visa from pakistan",
+      "termo de responsabilidade portugal visa pakistan",
+      "portugal visa fee in pakistan"
+    ],
+    "date": "November 28, 2026",
+    "dateModifiedIso": "2026-11-28",
+    "readTime": "14 min read",
+    "category": "Europe Visa Documentation",
+    "cta": {
+      "heading": "Planning to Visit Portugal from Pakistan or the UAE?",
+      "text": "Tell us your travel dates and who you are visiting, and we'll help you put together the Portugal Schengen visit visa file: cover letter, itinerary, bank statement presentation, the Termo de Responsabilidade checklist for your host and your proof of ties to home. We prepare the documents; the Embassy of Portugal decides the visa.",
+      "label": "Get Visit Visa Help on WhatsApp",
+      "href": "/visit-visa/portugal/"
+    },
+    "content": {
+      "intro": "To visit Portugal from Pakistan you need a Schengen short-stay visa (type C) for tourism or for visiting family and friends, which allows up to 90 days in any 180-day period. The visa fee listed on the [VFS Global Portugal page for Pakistan](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/index.html) is EUR 90 (PKR 29,590) for adults, plus a VFS service charge of EUR 38 (PKR 12,493) paid in cash at the centre. You apply in person through VFS Global with the Embassy of Portugal in Islamabad's checklist: six months of bank-stamped statements, NTN and FBR tax proof, a MOFA-attested NADRA Family Registration Certificate, EUR 30,000 travel insurance and, for anyone over 16, a police character certificate. Apply at least 15 calendar days before you fly, and ideally much earlier.",
+      "sections": [
+        {
+          "heading": "Which Portugal visa do Pakistanis need for a visit?",
+          "content": "Pakistani passport holders need a visa for Portugal. For a holiday, sightseeing, or staying with a relative or friend, the correct category is the Schengen short-stay visa, often called the 'C' visa. The [European Commission's Schengen visa page](https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy/applying-schengen-visa_en) explains that this visa covers stays of up to 90 days in any 180-day period and is generally valid across the whole Schengen area, so you can usually combine Portugal with a few days in Spain or France. Longer stays (study, work, family reunification or retirement) fall under Portugal's national visas, which have different checklists and a different fee, and are not covered in this guide. Portugal publishes two separate Schengen checklists for Pakistan: one for tourism and one for visiting family and friends. Most documents are the same in both. The real difference is how you prove where you will stay: a confirmed hotel booking for tourists, or a notarised invitation form called the Termo de Responsabilidade (or a hotel booking) when you visit someone.",
+          "subsections": [
+            {
+              "title": "Portugal Schengen visit visa at a glance",
+              "items": [
+                "Visa type: Schengen short-stay 'C' visa for tourism or visiting family and friends.",
+                "Maximum stay: up to 90 days in any 180-day period.",
+                "Decided by: the Embassy of Portugal in Islamabad. VFS Global only collects files and fees.",
+                "Visa fee: EUR 90 adults, EUR 45 children aged 6 to 12, free under 6.",
+                "VFS service charge: EUR 38 (PKR 12,493), paid in cash at the centre.",
+                "Processing: a minimum of 15 calendar days, according to VFS."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Should you apply to Portugal or another Schengen country?",
+          "content": "Apply to the country that is the main destination of your trip. The [European Commission](https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy/applying-schengen-visa_en) says that if you visit several Schengen countries you apply to the one where you will spend the longest time, and if the time is equal, to the country you will enter first. So if you plan eight nights in Lisbon and Porto and three nights in Madrid, Portugal is the right embassy. If most of the trip is in Spain, apply to Spain instead, even if you land in Lisbon. Your flight booking, hotel bookings and day-by-day itinerary should all show the same story. Officers notice when an applicant picks Portugal because appointments are easier but the bookings point elsewhere, and that mismatch is a common reason for refusal.",
+          "subsections": [
+            {
+              "title": "Pakistanis living in Dubai or elsewhere in the UAE",
+              "content": "This guide follows the checklists published for applicants who live in Pakistan. If you live in the UAE on a valid residence visa, check the Portugal visa page for the UAE before you book, because the centre, checklist and rupee or dirham fee shown there will differ. The core Schengen rules on the fee, insurance and the 90/180-day limit stay the same."
+            }
+          ]
+        },
+        {
+          "heading": "What documents are required for a Portugal visit visa from Pakistan?",
+          "content": "The Embassy of Portugal in Islamabad's [tourism checklist](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/pdf/checklist_PT_schengen_tourism.pdf) and [family and friends checklist](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/pdf/checklist_PT_schengen_friends_family.pdf) (both dated November 2022 and still linked from the VFS page) list the documents below. Everything must be in Portuguese or English. Items the checklist marks with an asterisk, such as the FRC, tax papers and company documents, must be translated where needed and attested by Pakistan's Ministry of Foreign Affairs (MOFA). VFS adds that incomplete files and expired attestations are not accepted at the centre.",
+          "subsections": [
+            {
+              "title": "Documents every applicant needs",
+              "items": [
+                "Schengen application form, completed, dated and signed (both parents sign for a minor).",
+                "One recent colour photo, 3.5 x 4.5 cm, white background, not older than six months. VFS says a photo booth is available at the centre.",
+                "Passport issued within the last 10 years, valid at least three months after your planned stay, with two blank pages. Attaching old passports with previous visas is recommended.",
+                "Copy of your CNIC, plus copies of the passport data page and previous visas.",
+                "Return flight reservation from Pakistan to Portugal, plus intra-Schengen bookings if you will visit more than one country.",
+                "Confirmed hotel booking for the whole stay, or the Termo de Responsabilidade if you stay with a host.",
+                "Travel medical insurance valid in all Schengen states for the whole trip, minimum EUR 30,000, covering repatriation, emergency treatment, hospital care and death (original plus one copy; a certificate policy is mandatory).",
+                "NADRA Family Registration Certificate (FRC) in English, MOFA attested.",
+                "National Tax Number certificate (or exemption proof) and FBR acknowledgement of income tax returns for the last two fiscal years.",
+                "Bank statements for the last six months, signed and stamped by the bank.",
+                "Police character certificate for every applicant over 16. The VFS page says applications without it will not be accepted."
+              ]
+            },
+            {
+              "title": "Extra documents by your situation",
+              "items": [
+                "Employees: a leave letter addressed to the Embassy of Portugal in Islamabad on company letterhead (not older than one month) giving your position, salary, length of service and leave dates, plus three months of payslips and your employment contract.",
+                "Business owners and self-employed: company registration certificate (MOFA attested).",
+                "Government employees: a No Objection Certificate showing the visit dates.",
+                "Retired: pension statements for the last six months.",
+                "Students: proof of enrolment and student card.",
+                "Minors travelling without one or both parents: consent affidavit, the absent parent's CNIC and passport copies, school enrolment proof and any guardianship court order.",
+                "Spouse visiting a spouse: Nikah Nama and/or Union Council marriage registration certificate in English."
+              ]
+            }
+          ],
+          "note": "Keep the originals of everything you photocopy. VFS states that the embassy keeps the documents you submit and will not return individual papers, so never hand over an original you cannot replace."
+        },
+        {
+          "heading": "What is the Termo de Responsabilidade for a family visit?",
+          "content": "If a relative or friend in Portugal invites you, the [family and friends checklist](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/pdf/checklist_PT_schengen_friends_family.pdf) asks for an invitation in the form of a Termo de Responsabilidade (statement of responsibility), or alternatively a confirmed hotel booking. The form is filled in by your host, signed in original and notarised by a public notary in Portugal. VFS links the blank Schengen 'statement of responsibility' form from its Portugal page. Your host must attach a copy of their EU identity card, EU passport or Portuguese residence card. Proof of the relationship comes from your FRC or civil status records, and a spouse adds the Nikah Nama.",
+          "subsections": [
+            {
+              "title": "What your host must add",
+              "items": [
+                "If the host pays for your trip: proof of their income, such as the latest IRS income tax papers plus either three months of signed and stamped bank statements or the last three payslips.",
+                "If the host gives you a place to stay: their mortgage or rental contract plus a certificate of residence from the local Junta de Freguesia (parish council).",
+                "A copy of the host's EU ID card, EU passport or Portuguese residence card.",
+                "The original notarised Termo, not a scan or WhatsApp copy."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much bank balance do you need for a Portugal visit visa?",
+          "content": "Neither Portugal checklist sets a fixed minimum balance. The embassy wants six months of statements signed and stamped by the bank, together with NTN and FBR tax filing proof, so that it can see a regular income and savings that comfortably cover flights, hotels, insurance and daily spending for the whole trip. If you cannot provide the tax documents, the checklist allows other evidence of income-producing assets or means of subsistence, backed by documents. What matters more than a single figure is that the statement looks like your normal financial life.",
+          "subsections": [
+            {
+              "title": "How to present your finances well",
+              "items": [
+                "Use the account your salary or business income actually goes into, not a newly opened one.",
+                "Avoid large unexplained deposits shortly before applying. If money came from a property sale, a committee payout or a family gift, explain it in your cover letter and attach proof.",
+                "Make sure the names, CNIC and tax details on bank, FBR and employer documents match each other.",
+                "Show the trip cost in your cover letter and how your balance covers it.",
+                "If your host is paying, include their IRS papers and statements as well as your own six months of statements."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How much is the Portugal visit visa fee in Pakistan?",
+          "content": "The [VFS Portugal Pakistan page](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/index.html) lists the Schengen visa fee and its rupee equivalent. The fee is not refunded if the visa is refused, and the rupee amount follows the exchange rate, which VFS says can change without notice, so check the page again just before your appointment.",
+          "subsections": [
+            {
+              "title": "Portugal visit visa costs at a glance",
+              "items": [
+                "Adult Schengen visa: EUR 90 (PKR 29,590).",
+                "Child aged 6 to 12: EUR 45 (PKR 14,800).",
+                "Child under 6: no visa fee.",
+                "VFS service charge: EUR 38 (PKR 12,493) per application, cash at the centre.",
+                "Appeal after a refusal: EUR 75 (PKR 24,660) plus a EUR 4 (PKR 1,315) service charge.",
+                "Other costs to plan for: travel insurance, MOFA attestation, police certificate, translations and the notary fee your host pays in Portugal."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How to apply for a Portugal visit visa — step by step",
+          "subsections": [
+            {
+              "title": "The official process",
+              "items": [
+                "1. Confirm Portugal is your main destination (longest stay, or first entry if equal).",
+                "2. Download the current [tourism checklist](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/pdf/checklist_PT_schengen_tourism.pdf) or [family and friends checklist](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/pdf/checklist_PT_schengen_friends_family.pdf) and the Schengen application form from the [VFS Portugal Pakistan page](https://www.vfsglobal.com/one-pager/portugal/pakistan/english/index.html).",
+                "3. Apply for your police character certificate and get the FRC, tax papers and other starred documents attested by MOFA. These usually take the longest, so start here.",
+                "4. Buy Schengen travel insurance of at least EUR 30,000, and make a refundable flight reservation and hotel booking (or ask your host to send the notarised Termo de Responsabilidade).",
+                "5. Collect six months of bank-stamped statements, your employer or business documents, and write a short cover letter with a day-by-day itinerary.",
+                "6. Book your appointment through VFS Global Portugal Pakistan and attend in person. Pay the visa fee and the EUR 38 service charge in cash and give your fingerprints.",
+                "7. Wait for the decision: VFS says processing takes a minimum of 15 calendar days, and the Commission says it can be extended up to 45 days when more checks or documents are needed. The embassy may also call you for an interview.",
+                "8. Collect your passport when VFS informs you. Check the visa dates, number of entries and your name before you travel."
+              ]
+            },
+            {
+              "title": "When to apply",
+              "content": "The [European Commission](https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy/applying-schengen-visa_en) allows you to apply no earlier than six months and no later than 15 days before the trip. VFS repeats the 15-day minimum but warns it cannot guarantee your passport back by a specific date, so aim to apply six to eight weeks before you fly, and earlier for summer or Christmas travel."
+            }
+          ],
+          "note": "Apply directly: you do not need an agent to book or submit your application, and the decision is made only by the Embassy of Portugal. Never pay anyone who promises a guaranteed visa or a 'confirmed' appointment slot, and remember that fake hotel or flight bookings lead to refusal and further consequences."
+        },
+        {
+          "heading": "Why are Portugal visit visas refused for Pakistani applicants?",
+          "content": "The checklist itself warns that false or falsified documents, including fake bookings, lead to refusal. Beyond that, most refusals come from doubts about the purpose of the trip, the money behind it, or whether you will return home. A refusal letter ticks the reason, so read it carefully before applying again.",
+          "subsections": [
+            {
+              "title": "Common refusal reasons and fixes",
+              "items": [
+                "Unclear purpose or itinerary: give a day-by-day plan that matches your hotel and flight bookings.",
+                "Weak or unexplained finances: show steady income over six months and explain any big deposits with documents.",
+                "Doubts about return: add a leave letter, business documents, property papers or family ties that show why you will come back.",
+                "Wrong embassy: apply to Portugal only if it is really your main destination.",
+                "Missing police certificate or expired MOFA attestation: VFS will not accept the file.",
+                "Weak invitation: a Termo that is not notarised, or a host without income or residence proof."
+              ]
+            }
+          ],
+          "note": "A refusal is not a permanent ban. You can appeal or reapply after fixing the reason given. Our guide to [Schengen visa rejection reasons for Pakistani applicants](/blog/schengen-visa-rejection-reasons-pakistani-applicants) explains each refusal code."
+        },
+        {
+          "heading": "Quick checklist before your VFS appointment",
+          "subsections": [
+            {
+              "title": "Tick these off",
+              "items": [
+                "Signed application form and one 3.5 x 4.5 cm white-background photo.",
+                "Passport valid three months beyond the trip, plus old passports.",
+                "CNIC copy and MOFA-attested FRC in English.",
+                "Police character certificate (everyone over 16).",
+                "Six months of stamped bank statements, NTN and two years of FBR returns.",
+                "Leave letter, payslips and contract, or business, NOC, pension or student proof.",
+                "EUR 30,000 Schengen insurance certificate (original plus copy).",
+                "Flight reservation and hotel booking, or notarised Termo de Responsabilidade with host documents.",
+                "Cover letter and itinerary.",
+                "Cash for the visa fee and the VFS service charge."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How long can I stay in Portugal on a visit visa from Pakistan?",
+              "answer": "A Schengen short-stay visa allows a maximum of 90 days in any 180-day period. The Embassy of Portugal decides the actual validity and number of days based on your itinerary, bookings and travel history, so request only the dates your tickets, hotel or host's Termo de Responsabilidade can support."
+            },
+            {
+              "question": "What is the Portugal visit visa fee in Pakistan in 2026?",
+              "answer": "VFS Global lists EUR 90 (PKR 29,590) for adults and EUR 45 (PKR 14,800) for children aged 6 to 12, with no fee for children under six. A VFS service charge of EUR 38 (PKR 12,493) is added and paid in cash. Rupee amounts follow the exchange rate, so recheck before your appointment."
+            },
+            {
+              "question": "Is a police character certificate required for a Portugal visa?",
+              "answer": "Yes. The VFS Portugal page for Pakistan says every applicant over 16 must provide a valid police character certificate and that applications without it will not be accepted. Apply for it early, because it often takes longer to arrange than bank statements or insurance, and check that it is still valid on your appointment date."
+            },
+            {
+              "question": "Is there a minimum bank balance for a Portugal visit visa?",
+              "answer": "The embassy checklists do not state a minimum amount. They ask for six months of bank statements signed and stamped by the bank, plus your NTN and FBR tax returns for two years. Your balance should cover the full trip and look consistent with your normal income, without sudden large deposits you cannot explain."
+            },
+            {
+              "question": "Do my documents need MOFA attestation?",
+              "answer": "Yes, for the items the checklist marks with an asterisk, including the NADRA FRC, tax documents, company papers, NOCs and minors' consent documents. These must be translated into Portuguese or English where needed and attested by Pakistan's Ministry of Foreign Affairs. VFS does not accept files with expired attestations."
+            },
+            {
+              "question": "Can my relative in Portugal invite me?",
+              "answer": "Yes. Your host completes a Termo de Responsabilidade, signs it in original and has it notarised in Portugal. They attach a copy of their EU ID, passport or residence card, plus income proof if paying for you, and a rental or mortgage contract with a Junta de Freguesia residence certificate if hosting you."
+            },
+            {
+              "question": "How early should I apply for a Portugal visit visa?",
+              "answer": "You can apply up to six months before travel and must apply at least 15 calendar days before, according to the European Commission and VFS. Processing takes at least 15 calendar days and can be longer, so applying six to eight weeks ahead is safer, especially for summer and holiday travel."
+            },
+            {
+              "question": "Can Travelaxis guarantee my Portugal visa?",
+              "answer": "No. Only the Embassy of Portugal decides visa applications, and nobody can promise approval or sell appointments. Travelaxis helps prepare and organise visit visa documentation, such as your cover letter, itinerary and file order. You can always book and apply directly through VFS Global yourself."
+            }
+          ]
+        },
+        {
+          "heading": "How Travelaxis can help",
+          "content": "Travelaxis prepares visit visa documentation for applicants in Pakistan and the UAE. For Portugal we help you arrange the file in the order of the Embassy checklist, write a clear cover letter and day-by-day itinerary, present your bank statements and tax records, and check that your host's Termo de Responsabilidade and supporting papers are complete for a family visit. We are not a government authority: we do not issue visas, sell appointments or promise approval, and you can always apply directly yourself. See our [Portugal visit visa page](/visit-visa/portugal/) or message us on WhatsApp with your travel dates. Last updated November 2026: fees and checklists can change, so always confirm on the official VFS Global Portugal page before you apply."
+        },
+        {
+          "heading": "Related Reading",
+          "relatedLinks": [
+            {
+              "label": "Schengen Visa Rejection Reasons for Pakistani Applicants",
+              "href": "/blog/schengen-visa-rejection-reasons-pakistani-applicants"
+            },
+            {
+              "label": "Cover Letter for Visit Visa: Sample for Pakistani Applicants",
+              "href": "/blog/cover-letter-for-visit-visa-sample-pakistan"
+            },
+            {
+              "label": "Italy Visit Visa from Pakistan: Requirements, Fee and Documents",
+              "href": "/blog/italy-visit-visa-from-pakistan-requirements"
+            },
+            {
+              "label": "EU Entry/Exit System (EES): What Pakistani Travellers Need to Know",
+              "href": "/blog/eu-entry-exit-system-ees-pakistan-travelers"
+            },
+            {
+              "label": "Portugal Visit Visa Help",
+              "href": "/visit-visa/portugal/"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "italy-visit-visa-from-pakistan-requirements": {
     "title": "Italy Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
     "metaTitle": "Italy Visit Visa from Pakistan: Requirements 2026",

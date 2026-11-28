@@ -9,6 +9,14 @@ export type BlogPostSummary = {
 
 export const blogPostSummaries: BlogPostSummary[] = [
     {
+      "id": "portugal-visit-visa-from-pakistan-requirements",
+      "title": "Portugal Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
+      "excerpt": "Portugal visit visa requirements for Pakistanis: the Embassy's tourism and family visit checklists, EUR 90 fee plus VFS service charge, six-month bank statement and FBR tax proof, MOFA-attested FRC, police certificate, Termo de Responsabilidade and refusal tips.",
+      "date": "November 28, 2026",
+      "readTime": "14 min read",
+      "category": "Europe Visa Documentation"
+    },
+    {
       "id": "italy-visit-visa-from-pakistan-requirements",
       "title": "Italy Visit Visa from Pakistan: Requirements, Fee and Documents (2026)",
       "excerpt": "Italy visit visa requirements for Pakistanis: the Embassy's tourism and family visit checklist, EUR 90 fee, six-month bank statement and tax proof, apostilled FRC, EUR 30,000 insurance, BLS-Intiana booking in Islamabad, Lahore, Multan, Faisalabad, Karachi or Quetta, and refusal tips.",
